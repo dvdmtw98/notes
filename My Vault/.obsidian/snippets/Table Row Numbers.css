@@ -1,0 +1,30 @@
+/* Tables with Headers */
+
+.numbered-rows table {
+	counter-reset: rowNumber;
+}
+
+.numbered-rows table tr > td:first-child {
+	counter-increment: rowNumber;
+}
+
+.numbered-rows table tr td:first-child::before {
+	content: counter(rowNumber) ".";
+	min-width: 1em;
+	margin-right: 0.2em;
+}
+
+/* Tables Without Headers */
+
+/* table {
+	counter-reset: rowNumber;
+}
+
+table tr::before {
+	display: table-cell;
+	counter-increment: rowNumber;
+	content: counter(rowNumber) ".";
+	padding-right: 0.3em;
+	padding-top: 0.3em;
+	text-align: right;
+} */

@@ -1,0 +1,11 @@
+# Skip Syncthing Files
+.stfolder/
+.stignore
+
+# Skip Obsidian Config Files
+**/.obsidian/*
+!**/.obsidian/snippets/
+!**/.obsidian/hotkeys.json
+
+# Development Files
+.vscode

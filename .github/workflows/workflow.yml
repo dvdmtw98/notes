@@ -1,0 +1,22 @@
+name: 'Netlify Notes Deployment'
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  mkdocs-notes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Build and Deploy Site'
+        id: mkdocs-build
+        uses: dvdmtw98/mkdocs-netlify-deploy@main
+        with:
+          build_mode: manual
+          main_repository: dvdmtw98/obsidian
+          main_repo_access_token: ${{ secrets.ACCESS_TOKEN }}
+          config_repository: dvdmtw98/mkdocs-config
+          config_repo_access_token: ${{ secrets.ACCESS_TOKEN }}
+          markdown_location: My Vault
+          social_plugin_used: true
+          netlify_auth_token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          netlify_site_id: ${{ secrets.NETLIFY_SITE_ID }}
