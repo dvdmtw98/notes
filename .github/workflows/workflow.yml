@@ -12,11 +12,12 @@ jobs:
         uses: dvdmtw98/mkdocs-netlify-deploy@main
         with:
           build_mode: manual
-          main_repository: dvdmtw98/obsidian
-          main_repo_access_token: ${{ secrets.ACCESS_TOKEN }}
-          config_repository: dvdmtw98/mkdocs-config
-          config_repo_access_token: ${{ secrets.ACCESS_TOKEN }}
+          main_repository: dvdmtw98/notes
+          config_repository: dvdmtw98/website-config
           markdown_location: My Vault
-          social_plugin_used: true
+          assets_location: notes-config/assets
+          hooks_location: common/hooks
+          config_location: notes-config
           netlify_auth_token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           netlify_site_id: ${{ secrets.NETLIFY_SITE_ID }}
+          social_plugin_used: true
