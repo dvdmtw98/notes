@@ -24,5 +24,3 @@ Components need to dropped in the following order: Security Predicate, Table, Fu
 Restricts access to columns in a table based on user context  
 This can be enforced by granting SELECT on specific columns in of the table to the user  
 If CLS is enforced and SELECT * is used on the table an error will occur
-
----

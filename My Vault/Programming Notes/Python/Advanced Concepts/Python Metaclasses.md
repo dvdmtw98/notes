@@ -66,7 +66,7 @@ An attribute lookup on an object looks as follows:
 Instance → Class Definition → Super classes → Raise Attribute Error  
 The `__getattr__` can be used an an fallback to perform some operation just before Attribute Error is raised
 
-The `__getattribute__` method is another method that is called even before the attribute it looked up on the Instance  
+The `__getattribute__` method is another method that is called even before the attribute is looked up on the Instance  
 The entire flow of the lookup looks as follows:  
 `__getattribute__` → Instance → Class Definition → Super classes → `__getattr__` → Raise Attribute Error  
 If the `__getattribute__` method where to raise a Attribute Error then all the other lookups would be bypassed and directly `__getattr__` would be called

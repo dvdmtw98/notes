@@ -15,7 +15,7 @@ Every minute in our brain a chemical called **adenosine** is release which helps
 
 When the enzyme in the liver fully evicts caffeine from our body it causes **caffeine crash** i.e. all the adenosine that could not bind to the receptors before will begin to bind to the receptors in full force.
 
-![Process C and Process S|450](images/process_c_and_process_s.png)
+![Process C and Process S|450](images/process-c-and-process-s.png)
 
 The greater the distance between Process-C and Process-S the more sleepy we feel. When we sleep the Adenosine is slowly purged from your brain. Both these processes **function independent of each other** but their effects align. 
 
@@ -29,7 +29,7 @@ When we sleep we loose external awareness and we loose our sense of time - even 
 
 Rapid Eye Movement (REM) is the stage of sleep in which we dream. During this stage the brain is as active as when we are awake. The other stage of speed is the NREM stage. The NREM stage can be further divided into 4 stages with stage 3 and 4 being much more deep than the previous 2 stages.
 
-![Sleep Cycle|500](images/sleep_cycle_diagram.jpg)
+![Sleep Cycle|500](images/sleep-cycle-diagram.jpg)
 
 We experience these two stages in a 90 minute repeating pattern. The interplay between REM and NREM is necessary to remodel and update the neural circuits. This task is performed by the brain to understand which memories are important and should be preserved, which needs to be removed while reserving enough space for new memories.
 

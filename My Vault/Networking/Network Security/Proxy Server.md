@@ -1,13 +1,13 @@
 We define the target IP that all request need to be forwarded on the client device  
-Proxies are protocol specific (i.e. HTTP proxy will only route HTTP traffic to proxy server)
+Proxies are protocol specific (i.e. HTTP proxy will only route HTTP traffic to proxy server)  
 Works at Layer 7 & Layer 4 ([Load Balancer](../Networking%20Devices/Load%20Balancer.md)s)  
 [VPN Server](../Networking%20Devices/VPN%20Server.md) similar to Proxies hide the IP Address but they additionally encrypt the traffic
 
-### Proxy
+### Forward Proxy
 
-Makes request on behalf of the client (Target not aware of source)
+Makes request on behalf of the client (Target not aware of source)  
+They need configuration to be made in application to work  
 
-**Caching** : Caches pages in its memory. Helps to save bandwidth  
 **Anonymity** : Destination is not aware of the client  
 **Logging** : Log requests that are originating from the source network  
 **Block Websites** : Restrict and filter unwanted websites (gambling, social media, etc.)  

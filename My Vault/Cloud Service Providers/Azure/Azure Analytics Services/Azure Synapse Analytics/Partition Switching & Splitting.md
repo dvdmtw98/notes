@@ -17,5 +17,3 @@ To deal with tables that already have data there are three main approaches:
 * The most efficient method is to use CTAS to split the partition
 * We can disable CCI and then use ALTER statement to create the new partition and then recreate the CCI
 * Use CTAS to create new table to hold data and once the partition is split move the data back
-
----

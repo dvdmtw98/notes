@@ -2,7 +2,6 @@
 
 * [Hive Architecture](Hive%20Architecture.md)
 * [Hive File Formats](Hive%20File%20Formats.md)
-* [Hive ACID Properties](Hive%20ACID%20Properties.md)
 * [Hive Managed and External Tables](Hive%20Managed%20and%20External%20Tables.md)
 * [Hive Commands](Hive%20Commands.md)
 * [Hive Default Partitioning](Hive%20Default%20Partitioning.md)

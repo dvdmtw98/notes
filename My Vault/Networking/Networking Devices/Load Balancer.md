@@ -6,7 +6,7 @@ Load Balancer is just a special Reverse Proxy (Extra metadata to select correct 
 
 ### Layer 4
 
-At layer 4 only the IP Addresses and Ports of the Packets are visible  
+At layer 4 the IP Addresses and Ports of the Packets are visible  
 Using the configured algorithm (Round Robin, Least Connections, etc.) the load balancer decides which server the request should to forwarded
 
 The load Balancer using [NAT (Network Address Translation)](../TCP-IP%20Layers/3%20-%20Network%20%28Internet%20Layer%29%20Protocols/NAT%20%28Network%20Address%20Translation%29.md) will changes the source and target IP Address of the packet received  
@@ -22,7 +22,7 @@ No caching
 
 ### Layer 7
 
-At Layer 7 data of the packets is visible  
+At Layer 7 the data of the packets is visible  
 The request from the client on reaching the Load Balancer is decrypted  
 An new packet is created with the source address as load balancer and target address as target server address  
 The Load Balancer can changes the headers that was set by the client and add new ones

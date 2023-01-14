@@ -17,7 +17,6 @@
 	* [Python File Operations](Fundamental%20Concepts/Python%20File%20Operations.md)
 3. **Object Oriented Concepts**
 	* [Python Classes](Object%20Oriented%20Concepts/Python%20Classes.md)
-		* [Python Metaclasses](Advanced%20Concepts/Python%20Metaclasses.md)
 	* [Python Constructor](Object%20Oriented%20Concepts/Python%20Constructor.md)
 	* [Python Methods](Object%20Oriented%20Concepts/Python%20Methods.md)
 	* [Attributes](Object%20Oriented%20Concepts/Attributes.md)
@@ -26,6 +25,9 @@
 	* [Python Inheritance](Object%20Oriented%20Concepts/Python%20Inheritance.md)
 	* [Python Method Overriding](Object%20Oriented%20Concepts/Python%20Method%20Overriding.md)
 	* [Python Abstract Class & Method](Object%20Oriented%20Concepts/Python%20Abstract%20Class%20&%20Method.md)
+4. **Advanced Concepts**
+	- [Python Metaclasses](Advanced%20Concepts/Python%20Metaclasses.md)
+	- [Python Variable Scopes](Advanced%20Concepts/Python%20Variable%20Scopes.md)
 
 ---
 

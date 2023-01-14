@@ -4,7 +4,6 @@ A project is a logical grouping of resources
 A cloud resource **has to** belong to a project
 
 Project Components:
-
 * settings
 * permissions
 * other metadata
@@ -13,7 +12,6 @@ A project cannot access another projects resources unless we use [Shared VPC](..
 Resources within a project can work together easily
 
 Each project has the following:
-
 * A project name
 * A project ID
 * A project number

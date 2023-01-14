@@ -2,7 +2,7 @@
 
 * [S3 Storage Classes](S3%20Storage%20Classes.md)
 * [Transfer Acceleration](Transfer%20Acceleration.md)
-* [Pyspark to S3](Pyspark%20to%20S3.md)
+* [Connect Pyspark to S3](Connect%20Pyspark%20to%20S3.md)
 
 ---
 

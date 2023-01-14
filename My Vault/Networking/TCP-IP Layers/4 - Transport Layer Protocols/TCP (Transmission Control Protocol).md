@@ -1,4 +1,4 @@
-Connection Oriented: [Three Way Handshake](../../../Information%20Security/Tools%20&%20Services/Nmap/Three%20Way%20Handshake.md) (Once the transmission is done it uses FIN/ ACK to close the connection)  
+Connection Oriented: [TCP Three-Way Handshake](../../../Information%20Security/Tools%20&%20Services/Nmap/TCP%20Three-Way%20Handshake.md) (Once the transmission is done it uses FIN/ ACK to close the connection)  
 Assures delivery of packets through error-handling (data sequencing)  
 Makes use of checksum  
 If corrupted data found that packet is retransmitted  

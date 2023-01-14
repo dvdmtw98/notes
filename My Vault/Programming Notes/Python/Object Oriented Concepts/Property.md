@@ -19,7 +19,7 @@ class Person:
         del self.__name
 
 class Dog:
-		__name = ""
+	__name = ""
 
     def get_name(self):
         return self.__name

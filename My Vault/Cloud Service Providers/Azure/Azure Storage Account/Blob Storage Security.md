@@ -6,7 +6,7 @@ Bit locker to encrypt Windows Images and dm-crypt for Linux Images
 
 ### Data in Transit
 
-Data in motion is protected using Transport Level Security (TLS) which is enabled when using [HTTPS Protocol](../../../Information%20Security/Web%20App%20Exploitation/HTTPS%20Protocol.md)  
+Data in motion is protected using Transport Level Security (TLS) which is enabled when using [HTTP(S) Protocol](../../../Information%20Security/Web%20App%20Exploitation/HTTP(S)%20Protocol.md)  
 There is CORS support build into [Azure Blob Storage](Azure%20Blob%20Storage.md) as well so that we can lock down the access to resources from different domains
 
 ### Access Control

@@ -10,7 +10,6 @@
 * [Azure Regions & Zones](Azure%20Concepts/Azure%20Regions%20&%20Zones.md)
 * [Azure Resources](Azure%20Concepts/Azure%20Resources.md)
 * [Application Identity Types](Azure%20Security%20Services/Application%20Identity%20Types.md)
-* [Service Lifecycle](Azure%20Concepts/Service%20Lifecycle.md)
 
 ### Azure Services
 

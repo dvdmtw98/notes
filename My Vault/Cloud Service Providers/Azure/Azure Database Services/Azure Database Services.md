@@ -13,9 +13,7 @@
 * [Purchasing Model](Azure%20SQL%20DB/Purchasing%20Model.md)
 * [Azure Elastic Pools](Azure%20SQL%20DB/Azure%20Elastic%20Pools.md)
 * [SQL Edge Data Retention](Azure%20SQL%20DB/SQL%20Edge%20Data%20Retention.md)
-* [SQL Read Replica](Azure%20SQL%20DB/SQL%20Read%20Replica.md)
 * [Temporal Tables](Azure%20SQL%20DB/Temporal%20Tables.md)
-* [SQL Data Sync](Azure%20SQL%20DB/SQL%20Data%20Sync.md)
 * [Connectivity Mode](Azure%20SQL%20DB/Connectivity%20Mode.md)
 * [SQL DB Security](Azure%20SQL%20DB/SQL%20DB%20Security.md)
 

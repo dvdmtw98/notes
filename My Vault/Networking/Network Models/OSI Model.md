@@ -45,7 +45,7 @@ Responsible for Service to Service Communication
 [Ports](../TCP-IP%20Layers/4%20-%20Transport%20Layer%20Protocols/Network%20Ports.md) are used on this layer to send data to the right application  
 Segments (Sender) and reassembles (Receiver) data received from the higher layers  
 Segmented data in TCP is called Segments while data in UDP is referred as Datagram  
-Connection oriented ([TCP](../TCP-IP%20Layers/4%20-%20Transport%20Layer%20Protocols/TCP%20%28Transmission%20Control%20Protocol%29.md)) : Reliability: [Three Way Handshake](../../Information%20Security/Tools%20&%20Services/Nmap/Three%20Way%20Handshake.md)  
+Connection oriented ([TCP](../TCP-IP%20Layers/4%20-%20Transport%20Layer%20Protocols/TCP%20%28Transmission%20Control%20Protocol%29.md)) : Reliability: [TCP Three-Way Handshake](../../Information%20Security/Tools%20&%20Services/Nmap/TCP%20Three-Way%20Handshake.md)  
 Connectionless ([UDP](../TCP-IP%20Layers/4%20-%20Transport%20Layer%20Protocols/UDP%20%28User%20Datagram%20Protocol%29.md)) : Efficiency
 
 ### Layer 3: Network Layer

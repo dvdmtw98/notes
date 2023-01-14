@@ -1,6 +1,6 @@
-### TCP Header Flags
+![Three Way Handshake|450](../../images/three_way_handshake.png)
 
-Port scanning uses specially crafted TCP packets to probe the target to collect relevant information
+### TCP Header Flags
 
 | Flags                 | Description                                    |
 | --------------------- | ---------------------------------------------- |
@@ -13,23 +13,6 @@ Port scanning uses specially crafted TCP packets to probe the target to collect 
 
 TCP Header without any of the options is 20 bytes  
 The options are only shared between the client and server during the initial Handshake
-
----
-
-### TCP 3-Way Handshake
-
-![Three Way Handshake|500](../../images/three_way_handshake.png)
-
-Full Scan : Complete 3-Way Handshake  
-Stealth Scan : SYN, SYN-ACK is followed by RST
-
----
-
-### States of Port
-
-Open : Service is running on the port and accepting new connections  
-Closed : Not accepting new connections but there is an service running on the port  
-Filtered : No conclusion. There could be an firewall setup to filter packets
 
 ---
 

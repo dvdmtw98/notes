@@ -23,7 +23,7 @@ n = p \* q = 7 \* 11 = 77
 
 ### Choose e
 
-e should lie between 1 \<= e \< ɸ(n) and be [co-prime](Math%20Concepts/Relatively%20Prime%20%28Co-prime%29%20Numbers.md) to ɸ(n)
+e should lie between 1 <= e < ɸ(n) and be [co-prime](Math%20Concepts/Relatively%20Prime%20%28Co-prime%29%20Numbers.md) to ɸ(n)
 
 e = 13  
 (e, n) = Public Key = (13, 60)
@@ -53,7 +53,7 @@ d = ((60 * 8) + 1) / 13 = 37
 | Encryption                                                                           | Decryption                                                                                |
 | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
 | (e, n) = (13, 143) = Public Key<br/>P = Plain Text                                    | (d, n) =  (37, 143) = Private Key<br/>C = Cipher Text                                      |
-| C = $P^e$ mod n, P \< n<br/>C = 1313 mod 143                                          | P = $C^d$ mod n<br/>P = 5237 mod 143                                                       |
+| C = $P^e$ mod n, P < n<br/>C = 1313 mod 143                                          | P = $C^d$ mod n<br/>P = 5237 mod 143                                                       |
 | C = \[(13 mod 143)($13^4$ mod 143)($13^8$ mod 143)\] mod 143<br/>C = 52 (Cipher Text) | P = \[(52 mod 143 = 52)($52^4$ mod 143 = 26 )($52^{32}$ mod 143 = 91)\] mod 143<br/>P = 13 |
 
 The Plain Text that is specified is the algorithm is the ASCII code of the character to be encoded

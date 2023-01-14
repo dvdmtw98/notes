@@ -12,8 +12,6 @@ Some services share hardware with other customers
 |No hardware maintenance||
 |No deep technical skill required||
 
----
-
 ### Private Cloud (On-Premise)
 
 Everything runs on your own datacenter  
@@ -26,8 +24,6 @@ We maintain the hardware
 |Control over security|Limited Agility|
 |Can meet security & compliance requirements|IT skills & Expertise are mandatory|
 
----
-
 ### Hybrid Cloud
 
 Combine both public & private cloud  
@@ -39,8 +35,6 @@ Great flexibility
 |Run legacy apps in private cloud|Complicated to manage|
 |Utilize existing infrastructure|IT skills and expertise are mandatory|
 |Meet any security requirement||
-
----
 
 ### Cross Cloud
 

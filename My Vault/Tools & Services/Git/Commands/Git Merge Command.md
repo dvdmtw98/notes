@@ -1,3 +1,7 @@
+When merge is performed there are three states that are involved: our latest changes, their latest changes and the base node  
+The base node is the first common ancestor for both the branches (The point at which the code diverged)  
+Git finds the base node and compares our code and their code with it and based on the comparison shows the conflicts that need to be fixed manually  
+
 ````bash
 git merge <branch-name>
 
@@ -11,8 +15,6 @@ git merge --abort
 
  > [!IMPORTANT]
  > We need to be on the target branch when we are trying to merge another branch
-
-When we merge an branch it performs a fast forward i.e. Moves the MASTER pointer to the same point as the merged branch
 
 ---
 

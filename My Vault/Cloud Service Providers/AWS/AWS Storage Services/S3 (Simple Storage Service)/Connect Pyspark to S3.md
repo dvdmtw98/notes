@@ -23,13 +23,11 @@ pyspark --packages com.amazonaws:aws-java-sdk:1.7.4,org.apache.hadoop:hadoop-aws
 
 ````python
 # S3a Config
-
 spark._jsc.hadoopConfiguration().set("fs.s3a.access.key", "<access-key>")
 spark._jsc.hadoopConfiguration().set("fs.s3a.secret.key", "<secret-key>")
 spark._jsc.hadoopConfiguration().set("fs.s3a.impl","org.apache.hadoop.fs.s3a.S3AFileSystem")
 
 # S3n Config
-
 spark._jsc.hadoopConfiguration().set("fs.s3n.awsAccessKeyId", "<access-key>")
 spark._jsc.hadoopConfiguration().set("fs.s3n.awsSecretAccessKey", "<secret-key>")
 spark._jsc.hadoopConfiguration().set("fs.s3n.impl", "org.apache.hadoop.fs.s3native.NativeS3FileSystem")
