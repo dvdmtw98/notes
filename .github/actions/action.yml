@@ -48,4 +48,4 @@ runs:
     - name: Build Site
       id: build-site
       shell: bash
-      run: cd mkdocs && mkdocs build -v
+      run: cd mkdocs && mkdocs build
