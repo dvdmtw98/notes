@@ -84,6 +84,7 @@ cssclass: numbered-rows
 |     | The Untouchables                               | 1987    |
 |     | The Warriors                                   | 1979    |
 |     | The Wicker Man                                 | 1973    |
+|     | The Princess Bride                             | 1987    | 
 
 ### Asian Movies
 

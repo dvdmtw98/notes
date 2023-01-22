@@ -1,0 +1,51 @@
+name: Digital Archive Builder
+author: David Varghese
+description: Action to build Mkdocs site using Markdown files
+
+runs:
+  using: composite
+  steps:
+    - name: Install Packages
+      id: install-packages
+      shell: bash
+      run: |
+        sudo apt-get update \
+        && sudo apt-get install -y --no-install-recommends \
+          libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
+    - name: Build Directory
+      id: build-directory
+      shell: bash
+      run: mkdir -p mkdocs/{docs/assets,hooks}
+    - name: Markdown Copy
+      id: markdown-copy
+      shell: bash
+      run: |
+        cp -a My\ Vault/. mkdocs/docs \
+        && rm -rf mkdocs/docs/.obsidian
+    - name: Asset Copy
+      id: asset-copy
+      shell: bash
+      run: cp -a config/assets/. mkdocs/docs/assets
+    - name: Config Copy
+      id: config-copy
+      shell: bash
+      run: cp -a config/{mkdocs.yml,requirements.txt} mkdocs
+    - name: Script Copy
+      id: script-copy
+      shell: bash
+      run: cp -r config/scripts/modify_links.py mkdocs/hooks
+    - name: Setup Python
+      id: setup-python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11
+    - name: Install Dependencies
+      id: install-dependencies
+      shell: bash
+      run: |
+        python -m pip install --upgrade pip \
+          && pip install -r mkdocs/requirements.txt
+    - name: Build Site
+      id: build-site
+      shell: bash
+      run: cd mkdocs && mkdocs build -v

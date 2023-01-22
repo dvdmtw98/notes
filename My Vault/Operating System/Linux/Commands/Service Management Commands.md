@@ -41,10 +41,12 @@ The "multi-user.target" is an state the system has to be in for user to login an
 systemctl isolate rescue.target
 ````
 
-|Runtime Level|Target|
-|-------------|------|
-|0|poweroff.target|
-|1|rescue.target|
-|2, 3, 4|multi-user.target|
-|5|graphical.target|
-|6|restart.target|
+| Runtime Level | Usage                                   | Target            |
+|:-------------:| --------------------------------------- | ----------------- |
+|       0       | Shutdown the System                     | poweroff.target   |
+|       1       | Single User Mode (Maintenance & Repair) | rescue.target     |
+|       2       | Multi User Mode with no NFS             | multi-user.target |
+|       3       | Multi User Mode with command line       | multi-user.target |
+|       4       | Multi User Mode (User Definable)        | multi-user.target |
+|       5       | Multi User Mode with GUI                | graphical.target  |
+|       6       | Restart the OS                          | restart.target    |

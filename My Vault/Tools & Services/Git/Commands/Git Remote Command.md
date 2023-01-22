@@ -7,6 +7,12 @@ git remote show <remote-name>
 # Connect local repo with remote repo (HTTPS & SSH)
 git remote add <remote-name> <repo-url>
 git remote set-url <remote-name> <ssh-url>
+
+# Change Remote HEAD branch
+git remote set-head <remote-name> <branch-name>
+
+# Delete a Remote Branch from Local Repo
+git remote remove <remote-name> <branch-name>
 ````
 
  > [!important]

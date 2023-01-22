@@ -22,10 +22,18 @@ Similar to running `cd <path>`
 Recommended way of change the working directory when building Docker Images
 
 ````docker
-ENV <key> <value>
+ENV <key>=<value>
 ````
 
-Environment Variables can be optimally set which can then be used later on in the docker file
+Environment Variables can be optimally set which can then be used later on in the docker file. They can be accessed in the container after the image is built as well.
+
+```docker
+ARG <key>=<value>
+```
+
+Arguments are a special type of environment variable that is only available during the build process of the image.
+
+To pass values for the arguments during build use the `--build-arg` flag. If a FROM command is encountered in the Dockerfile all the arguments that have been defined before it will be reset.
 
 ````docker
 COPY <host-system> <docker-image>

@@ -1,0 +1,9 @@
+mkdocs-material==9.*
+mkdocs-glightbox==0.3.1
+mkdocs-callouts==1.8.1
+mkdocs-exclude==1.0.2
+mkdocs-redirects==1.2.0
+mkdocs-simple-hooks==0.1.5
+mkdocs-custom-tags-attributes==0.3.0
+Pillow==9.4.0
+CairoSVG==2.6.0

@@ -1,22 +1,28 @@
-name: 'Deploy Notes to Netlify'
+name: Deploy Digital Archive to Netlify
 on:
   push:
     branches: [ main ]
 
 jobs:
-  mkdocs-notes:
+  digital-archive:
     runs-on: ubuntu-latest
     steps:
-      - name: 'Build and Deploy Site'
-        id: mkdocs-build
-        uses: dvdmtw98/mkdocs-netlify-deploy@main
+      - name: Checkout Repository
+        id: checkout-repository
+        uses: actions/checkout@v3
         with:
-          build_mode: manual
-          main_repository: dvdmtw98/notes
-          config_repository: dvdmtw98/website-config
-          markdown_location: My Vault
-          assets_location: notes-config/assets
-          hooks_location: common/hooks
-          config_location: notes-config
-          netlify_auth_token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          netlify_site_id: ${{ secrets.NETLIFY_SITE_ID }}
+          submodules: true
+      - name: Build Digital Archive
+        id: build-digital-archive
+        uses: ./.github/actions
+      - name: Netlify Deploy
+        id: netlify-deploy
+        uses: jsmrcaga/action-netlify-deploy@v2.0.0
+        with:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_DEPLOY_MESSAGE: Deployed from GitHub Action
+          NETLIFY_DEPLOY_TO_PROD: true
+          install_command: echo Skipping...Install not required
+          build_command: echo Skipping...Build not required
+          build_directory: mkdocs/site

@@ -16,7 +16,7 @@ git branch -M <name>
 git branch -d localBranchName
 
 # Delete Branch Remotely
-git push origin --delete remoteBranchName
+git push -d origin remoteBranchName
 
 # Update Local List of Remote Branchs
 git remote update origin --prune

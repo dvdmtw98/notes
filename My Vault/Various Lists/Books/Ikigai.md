@@ -16,4 +16,4 @@ It is customary in Okinawa to form close bonds with local communities. A moai (a
 
 It is important to **exercise our brains** just like our bodies. Our neurons start to age in our twenties however it is slowed down by intellectual activity, curiosity and desire to learn. Dealing with new situations, playing games, interacting with other people are act as antiaging strategies.
 
-**Stress** has been linked to premature aging. On sampling blood it was found that the antibodies in the book reach an level similar to when reacting to pathogens, activating the proteins that trigger an immune reason. The problem response damages healthy cells as well.
+**Stress** has been linked to premature aging. On sampling blood it was found that the antibodies in the book reach an level similar to when reacting to pathogens, activating the proteins that trigger an immune reason. The problem response damages healthy cells as well. A sustained state of emergency can affect the neurons associated with memory, as well as the release of certain hormones which can cause **depression**.

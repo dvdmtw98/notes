@@ -46,9 +46,9 @@ Per user configuration settings are not stored in this directory
 
 Each user has an separate folder inside home  
 Location where personal files of the users are stored  
-This folder can be installed on separate drive as well (So we can reinstall system without losing personal information)
+This folder can be installed on separate drive (So we can reinstall system without losing personal information)
 
-This folder contains temporary information like browser cache, thumbnails or info that will be used again and again  
+This folder also contains temporary information like browser cache, thumbnails  
 /home/.config & /home/.local : Used to store configuration information for the application for that user
 
 Some application store their configuration directly in separate folders as well.  
@@ -90,7 +90,7 @@ It is emptied when system is rebooted
 
 Consist information about system resources and processes  
 Each process on the system will have an folder here  
-These are not actually files but are information that is shown by the kernel in the form of files (Pseudo File Systm)
+These are not actually files but are information that is shown by the kernel in the form of files (Pseudo File System)
 
 #### /lost+found
 

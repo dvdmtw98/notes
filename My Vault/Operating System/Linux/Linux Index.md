@@ -1,9 +1,9 @@
 ### Table of Content
 
+* [Bash](Shell%20Scripting/Bash.md)
 * [Linux Commands](Commands/Linux%20Commands.md)
 * [Linux Tools & Utilities](Tools%20and%20Utilities/Linux%20Tools%20&%20Utilities.md)
 * [Linux System Concepts](Linux%20System%20Concepts/Linux%20System%20Concepts.md)
-* [Bash](Shell%20Scripting/Bash.md)
 * [Linux Misc. Commands](Linux%20Misc.%20Commands.md)
 
 ---

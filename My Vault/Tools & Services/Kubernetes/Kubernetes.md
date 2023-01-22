@@ -1,5 +1,6 @@
 It is a open-source **container orchestration system**  
-It was originally created by Google and is now maintained by the Cloud Native Computing Foundation (CNCF)
+It is based of Borg an Propriety Container Orchestrator created by Google for its internal use  
+Google open sourced some of the code used in Borg this code became Kubernetes. It is maintained by the Cloud Native Computing Foundation (CNCF)
 
 Kubernetes is commonly referred to as K8s or Kube  
 It allows to run containers distributed across multiple VMs
@@ -16,8 +17,8 @@ Disaster Recovery - backup and failure
 ### Table of Content
 
 1. **Theoretical Concepts**
-	* [Kubernetes Components](Kubernetes%20Basics/Kubernetes%20Components.md)
 	* [Kubernetes Architecture](Kubernetes%20Basics/Kubernetes%20Architecture.md)
+	* [Kubernetes Components](Kubernetes%20Basics/Kubernetes%20Components.md)
 2. **Kubernetes Components**
 	* [Kubernetes Deployments](Kubernetes%20Components/Kubernetes%20Deployments.md)
 	* [Kubernetes StatefulSet](Kubernetes%20Components/Kubernetes%20StatefulSet.md)

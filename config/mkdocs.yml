@@ -1,0 +1,119 @@
+site_name: Digital Archive
+site_url: https://notes.davidvarghese.dev
+site_author: David Varghese
+site_description: >-
+  Digital Archive is a curate collection of notes created to share information on a broad range of tools, services and methodologies from the tech industry
+copyright: Copyright &copy; 2022 - 2023 David Varghese
+
+# Footer related Configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dvdmtw98
+      name: David Varghese on GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/david-varghese/
+      name: David Varghese on LinkedIn
+    - icon: fontawesome/brands/medium
+      link: https://david-varghese.medium.com/
+      name: David Varghese on Medium
+
+# Theme related Settings
+theme:
+  name: material
+  favicon: assets/images/favicon.ico
+  logo: assets/logo.png
+  features:
+    - content.code.copy
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+  font:
+    text: Roboto
+    code: Source Code Pro
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+# Python Markdown Plugins
+markdown_extensions:
+  # Admonition
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  # Code blocks
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      linenums_style: pymdownx-inline
+      auto_title: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  # Tables
+  - tables
+  # Highlighting, Strike, Bold, Italic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.betterem
+  # Images
+  - attr_list
+  - md_in_html
+  # Lists
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  # MathJax
+  - pymdownx.arithmatex:
+      generic: true
+  # Table of Content
+  - toc:
+      permalink: "#"
+
+# Third Party Plugins
+plugins:
+  - search
+  - social
+  - glightbox:
+      auto_caption: true
+  - redirects:
+      redirect_maps:
+          'index.md': 'Main Index.md'
+  - callouts
+  - custom-attributes:
+      file: 'assets/css/custom_attributes.css'
+  - exclude:
+      glob:
+        - Various Lists/*
+        - Languages/*
+  - mkdocs-simple-hooks:
+      hooks:
+        on_pre_build: "hooks.modify_links:main"
+
+# Additional JavaScript Files
+extra_javascript:
+  - assets/scripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - assets/scripts/tablesort.js
+
+# Additional CSS Files
+extra_css:
+  - assets/css/overrides.css
+  - assets/css/custom_attributes.css
