@@ -1,3 +1,7 @@
+---
+title: File Permission & Ownership Commands
+---
+
 ### File Permissions
 
 [Linux permissions: SUID, SGID, and sticky bit | Enable Sysadmin](https://www.redhat.com/sysadmin/suid-sgid-sticky-bit)

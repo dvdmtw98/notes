@@ -1,3 +1,7 @@
+---
+title: Hive Architecture
+---
+
 Used for data warehousing. Used to process and query structured data in OLAP  
 It makes use of RDB and HDFS (RDB -> Metadata/ Schema, HDFS -> Actual Data)  
 The default RDB used Derby. It is referred to as the metastore  

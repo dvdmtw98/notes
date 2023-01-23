@@ -1,3 +1,7 @@
+---
+title: Event Listeners
+---
+
 `e.target` : Event that caused the event  
 `e.currentTarget` : Element listening for the event (Element with event listener)
 

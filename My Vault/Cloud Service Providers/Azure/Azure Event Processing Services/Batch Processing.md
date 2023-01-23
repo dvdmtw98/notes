@@ -1,3 +1,7 @@
+---
+title: Batch Processing
+---
+
 Batch processing is an umbrella term that is used to encompass the various big data processing approaches based on [MapReduce](../../../Data%20Analytics/Apache%20Hadoop/MapReduce.md)  
 Batch Processing is a framework that processes as much data as possible at a regular cadence in the most efficient manner possible
 

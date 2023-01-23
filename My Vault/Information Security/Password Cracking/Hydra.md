@@ -1,3 +1,7 @@
+---
+title: Hydra
+---
+
 Used for online cracking i.e. to try and guess the password for the service
 
 ````bash

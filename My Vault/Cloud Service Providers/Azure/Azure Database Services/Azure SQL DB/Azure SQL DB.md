@@ -1,3 +1,7 @@
+---
+title: Azure SQL DB
+---
+
 DB for storing structured data  
 Sometimes referred as DBaaS (Database as a Service)  
 It is High Performance, Reliable, Fully Managed and secure DB service

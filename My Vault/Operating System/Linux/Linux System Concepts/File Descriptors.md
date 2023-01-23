@@ -1,3 +1,7 @@
+---
+title: File Descriptors
+---
+
 File Descriptor is an index into the File Descriptor Table
 
 <u>Descriptor Table</u>  

@@ -1,3 +1,7 @@
+---
+title: Python Exception Handling
+---
+
 ### Syntax Errors
 
 * Syntax errors or parser errors are errors what occur due to mistakes in the syntax of the code.

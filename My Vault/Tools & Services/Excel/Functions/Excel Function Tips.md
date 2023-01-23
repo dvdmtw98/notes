@@ -1,3 +1,7 @@
+---
+title: Excel Function Tips
+---
+
 COUNT(): Only works for number values. Empty cells are not included
 
  > [!note]

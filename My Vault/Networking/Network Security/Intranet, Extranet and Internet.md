@@ -1,3 +1,7 @@
+---
+title: Intranet, Extranet and Internet
+---
+
 **Internet** : Collection of Collected Networks, Untrusted, WAN
 
 **Intranet** : Internal Private Network. Used for internal business. Outside users (Internet, Extranet) cannot access resources on the Intranet

@@ -1,3 +1,7 @@
+---
+title: CSS Positioning
+---
+
 Static is the default position that all the elements will have on the page by default
 
 ---

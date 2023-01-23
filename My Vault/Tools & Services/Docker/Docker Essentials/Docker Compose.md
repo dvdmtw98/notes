@@ -1,3 +1,7 @@
+---
+title: Docker Compose
+---
+
 Docker Compose has two parts:
 
 * YAML file which describes the configuration of the containers

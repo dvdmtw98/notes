@@ -1,3 +1,7 @@
+---
+title: sort & uniq Command
+---
+
 ### sort Command
 
 ````shell

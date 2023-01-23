@@ -1,3 +1,7 @@
+---
+title: Azure Documents
+---
+
 ### Microsoft Privacy Statement
 
 Info: Document talks about personal data (Collection, Usage and Purpose)  

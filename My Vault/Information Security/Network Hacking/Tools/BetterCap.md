@@ -1,3 +1,7 @@
+---
+title: BetterCap
+---
+
 ````bash
 sudo apt install bettercap
 # Start Bettercap on Interface

@@ -1,3 +1,7 @@
+---
+title: Bash User Input
+---
+
 Read is used to take input from user. `-p` flag is used to show a prompt. The value of the input is saved in the variable mentioned after the command.
 
 ````shell

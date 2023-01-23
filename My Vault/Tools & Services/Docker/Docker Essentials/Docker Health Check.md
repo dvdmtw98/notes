@@ -1,3 +1,7 @@
+---
+title: Docker Health Check
+---
+
 The command is executed inside the container by the Docker Engine  
 It expects 0 (OK) or 1 (Error) as output  
 There are three states that are present for a container : Starting, Healthy, Unhealthy  

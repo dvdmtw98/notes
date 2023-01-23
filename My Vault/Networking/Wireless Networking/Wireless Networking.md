@@ -1,3 +1,7 @@
+---
+title: Wireless Networking
+---
+
 ### Wireless Networking
 
 IEEE 802.11: Wireless Network  

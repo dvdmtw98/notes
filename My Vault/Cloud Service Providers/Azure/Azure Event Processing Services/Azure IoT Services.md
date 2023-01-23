@@ -1,3 +1,7 @@
+---
+title: Azure IoT Services
+---
+
 It is an network of internet connected devices are embedded in everyday objects and allows to send and receive data (settings, telemetry, etc.)
 
 ### Azure IoT Central

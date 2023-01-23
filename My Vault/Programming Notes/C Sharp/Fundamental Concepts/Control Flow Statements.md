@@ -1,3 +1,7 @@
+---
+title: Control Flow Statements
+---
+
 ### Switch Case
 
 Multiple switch cases can be placed one below the other followed by an expression if all of the switch cases have the same output  

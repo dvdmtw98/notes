@@ -1,3 +1,7 @@
+---
+title: MongoDB API
+---
+
 Open Source NoSQL Database  
 Primary data structure of MongoDB is BSON (Binary JSON)
 

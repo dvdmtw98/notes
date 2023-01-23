@@ -1,3 +1,7 @@
+---
+title: Data Retention
+---
+
 Defines the policies to persist data and record management for legal and business data archival requirements  
 Defines how long the data needs to be kept on the server and when it needs to be deleted
 

@@ -1,3 +1,7 @@
+---
+title: CSS Specificity
+---
+
 If **multiple same type selectors** are used and they have conflicting attributes then the one that is last in the cascade is will be applied 
 
 Tag & pseudo-element Selector : Lowest Specificity  

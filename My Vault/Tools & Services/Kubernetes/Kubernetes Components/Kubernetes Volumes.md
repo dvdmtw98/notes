@@ -1,3 +1,7 @@
+---
+title: Kubernetes Volumes
+---
+
 Volumes in Kubernetes need to meet three criteria's:
 
 * Outlives the lifecycle of the Pods

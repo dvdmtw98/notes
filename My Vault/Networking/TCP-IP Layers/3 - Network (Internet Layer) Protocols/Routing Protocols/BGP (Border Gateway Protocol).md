@@ -1,3 +1,7 @@
+---
+title: BGP (Border Gateway Protocol)
+---
+
 It is an decentralized routing protocol (not controlled by a single organization)  
 It is the core routing protocol of Internet. It is used by ISPs  
 It is an distance vector protocol from AS to AS (We using internet the data is moving from one AS to another)

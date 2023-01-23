@@ -1,3 +1,7 @@
+---
+title: Queue
+---
+
 Queues are best implemented using a [Linked List](Linked%20List.md)  
 When we Dequeue an element from Linked List the operation is O(1) while with [Array](Array.md) its O(n)
 

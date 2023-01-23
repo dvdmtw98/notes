@@ -1,3 +1,7 @@
+---
+title: DNS Records
+---
+
 #### Host (A and AAAA) Record
 
 Forward Lookup Zone  

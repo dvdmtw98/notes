@@ -1,3 +1,7 @@
+---
+title: Snowflake Migration Commands
+---
+
 ````bash
 snowsql -a <accunt-id>.us-east-1 -u <username>
 

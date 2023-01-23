@@ -1,3 +1,7 @@
+---
+title: Windows Files & Tweaks
+---
+
 ### Important File Locations
 
 **Host File**  

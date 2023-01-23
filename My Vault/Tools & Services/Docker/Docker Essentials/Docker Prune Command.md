@@ -1,3 +1,7 @@
+---
+title: Docker Prune Command
+---
+
 ````bash
 docker system df 		   # View Space used by Docker
 

@@ -1,3 +1,7 @@
+---
+title: WEP (Wired Equivalent Protection)
+---
+
 Uses RC4 for Encryption. Old Algorithm
 
 <u>Working</u>

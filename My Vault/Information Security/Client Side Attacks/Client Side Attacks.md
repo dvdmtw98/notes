@@ -1,3 +1,7 @@
+---
+title: Client Side Attacks
+---
+
 ### Sending Backdoor Files
 
 * [Evilgrade (Backdoor Update)](Evilgrade%20%28Backdoor%20Update%29.md)

@@ -1,3 +1,7 @@
+---
+title: Architecture of .NET Application
+---
+
 At a very high level C# code comprises of [Classes](../Object%20Oriented%20Concepts/CSharp%20Classes.md)  
 A namespace is an container for holding related classes  
 An assembly is an container for related Namespaces  

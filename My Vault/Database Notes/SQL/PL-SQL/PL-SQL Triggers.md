@@ -1,3 +1,7 @@
+---
+title: PL-SQL Triggers
+---
+
 ![Trigger Syntax|500](../images/trigger_syntax.png)
 
 ### DML Trigger

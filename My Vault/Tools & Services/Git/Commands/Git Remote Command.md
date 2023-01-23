@@ -1,3 +1,7 @@
+---
+title: Git Remote Command
+---
+
 ````bash
 # View the name of the remote repos
 git remote -v

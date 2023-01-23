@@ -1,3 +1,7 @@
+---
+title: Japanese Words
+---
+
 ### Filler Words
 
 * えーっと

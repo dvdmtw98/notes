@@ -1,3 +1,7 @@
+---
+title: Hash Table
+---
+
 Hash Function H(x) maps key 'x' to whole number in fixed range  
 The whole number forms the location in memory at which the key value provided is stored  
 The location in memory where the key and value is stored is called a Bucket

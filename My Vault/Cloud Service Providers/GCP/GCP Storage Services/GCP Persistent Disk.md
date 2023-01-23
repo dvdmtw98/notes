@@ -1,3 +1,7 @@
+---
+title: GCP Persistent Disk
+---
+
 It is an **<u>block store</u>** (Data is split into evenly sized blocks)  
 Used to provision block storage to be used with VMs (Virtual Hard drives)
 

@@ -1,3 +1,7 @@
+---
+title: Software Licensing
+---
+
 ### Permissive
 
 Fewer restrictions on what the user can do with the software  

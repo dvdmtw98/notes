@@ -1,3 +1,7 @@
+---
+title: Transfer Acceleration
+---
+
 Makes use of AWS CloudFront to transfer data from one region to another at a faster rate  
 CloudFront caches data at the edge nodes which makes it possible to move the data quickly
 

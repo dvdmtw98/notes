@@ -1,3 +1,7 @@
+---
+title: Databricks Auto Loader
+---
+
 Auto Loader only supports loading data from directories (Block Storage)  
 Loading data from DB is not supported
 

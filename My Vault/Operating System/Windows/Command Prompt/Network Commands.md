@@ -1,3 +1,7 @@
+---
+title: Network Commands
+---
+
 ````batch
 :: Assign a new IP Address to device
 ipconfig /release "interface-name"

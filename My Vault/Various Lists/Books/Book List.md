@@ -1,5 +1,6 @@
 ---
 cssclass: numbered-rows, wide-page
+title: Book List
 ---
 
 | No. |                                           Cover                                            |                 Name                 |              Author               |                      Genre                      |                                        Goodreads                                        |   Status   |

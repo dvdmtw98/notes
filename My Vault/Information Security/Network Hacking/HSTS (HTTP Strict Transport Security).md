@@ -1,3 +1,7 @@
+---
+title: HSTS (HTTP Strict Transport Security)
+---
+
 More Secure (Strict) version of HTTPS. Used by big sites like Facebook, Twitter, etc.
 Browser knows site needs to be loaded as HTTPS so its sends request in HTTPS and only accepts response if it is also in HTTPS. This check is done locally using a list which is present in the browser.
 

@@ -1,3 +1,7 @@
+---
+title: Azure Storage Account
+---
+
 ### Azure Storage Account
 
 * [Azure Storage Services](Azure%20Storage%20Services.md)

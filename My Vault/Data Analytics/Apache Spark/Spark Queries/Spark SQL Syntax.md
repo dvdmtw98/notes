@@ -1,3 +1,7 @@
+---
+title: Spark SQL Syntax
+---
+
 ````python
 salesDF.registerTempTable("sales") # Need to create a temp table first
 

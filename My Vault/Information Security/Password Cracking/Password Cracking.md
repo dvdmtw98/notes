@@ -1,3 +1,7 @@
+---
+title: Password Cracking
+---
+
 ### Password Cracking
 
 * [Hashcat](Hashcat.md)

@@ -1,3 +1,7 @@
+---
+title: Interactive Reports
+---
+
 Allows to generate reports that are interactive  
 They can be styled as required. They can contain many pages
 

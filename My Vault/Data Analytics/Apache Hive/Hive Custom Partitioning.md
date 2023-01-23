@@ -1,3 +1,7 @@
+---
+title: Hive Custom Partitioning
+---
+
 ![Types of Partitions|600](../Apache%20Spark/images/types_of_partitioning.png)
 
 ### Custom Partition

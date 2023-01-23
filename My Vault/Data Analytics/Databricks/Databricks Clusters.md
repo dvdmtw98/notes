@@ -1,3 +1,7 @@
+---
+title: Databricks Clusters
+---
+
 ### All Purpose Cluster
 
 **<u>Standard Cluster</u>**  

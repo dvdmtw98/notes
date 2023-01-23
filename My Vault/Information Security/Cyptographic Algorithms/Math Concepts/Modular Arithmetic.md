@@ -1,3 +1,7 @@
+---
+title: Modular Arithmetic
+---
+
 x ≡ y mod n  
 x is congruent to y mod n when x modulo n gives the remainder as y  
 This can also be represented as `x = kn + y`

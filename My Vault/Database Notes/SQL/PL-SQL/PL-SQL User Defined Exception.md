@@ -1,3 +1,7 @@
+---
+title: PL-SQL User Defined Exception
+---
+
 ### Using Variable of EXCEPTION type
 
 ````plsql

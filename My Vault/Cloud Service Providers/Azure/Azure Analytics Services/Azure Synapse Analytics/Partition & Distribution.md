@@ -1,3 +1,7 @@
+---
+title: Partition & Distribution
+---
+
 For optimal performance and compressing across clustered columnstore index (CCI) we need to ensure that each partition/ distribution should have at minimum 1 million records  
 If each partition will have less than 60 million rows then it is recommended to reduce the number of partitions
 

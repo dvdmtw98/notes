@@ -1,3 +1,7 @@
+---
+title: CSS Inheritance
+---
+
 There are three different level of CSS styles that are applied to elements  
 The initial styles defined in the CSS spec (Formal Definition), the styles specified by the browser (User agent stylesheet) and finally the custom styles specified by us
 

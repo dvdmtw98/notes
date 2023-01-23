@@ -1,3 +1,7 @@
+---
+title: Union Find
+---
+
 ### Uses
 
 * Kruskal's Minimum Spanning Tree Algorithm

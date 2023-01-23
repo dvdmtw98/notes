@@ -1,3 +1,7 @@
+---
+title: xargs Command
+---
+
 Reads items from the standard input, delimited by space or newline, and executes the command for each data (argument)  
 Allows to perform operations similar to a for loop
 

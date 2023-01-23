@@ -1,3 +1,7 @@
+---
+title: GCP Data Analytics Services
+---
+
 ### BigQuery
 
 Understand your data using a fully managed, highly scalable data warehouse with build-in ML support  

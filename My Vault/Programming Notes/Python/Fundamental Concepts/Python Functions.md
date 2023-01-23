@@ -1,3 +1,7 @@
+---
+title: Python Functions
+---
+
 If we add a [string](Python%20Strings.md) in a function using triple quotes (Docstring) then we can access this string by calling `function_name.__doc__` 
 
 ### Anonymous Functions (Lambda Function)

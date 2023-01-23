@@ -1,3 +1,7 @@
+---
+title: Fiber Optic
+---
+
 ### Fiber Optic
 
 Newer. Mainly used for [Wide Area Network (WAN)](../WAN%20%28Wide%20Area%20Network%29/Wide%20Area%20Network%20%28WAN%29.md)  

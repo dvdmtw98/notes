@@ -1,3 +1,7 @@
+---
+title: Python Metaclasses
+---
+
 ### Data Types
 
 The data types is an attribute of data that tells the compiler how the developer intends to use the data. This also defines the type of operations that can be performed on it.  

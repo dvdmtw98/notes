@@ -1,3 +1,7 @@
+---
+title: Types of Indexes
+---
+
 An INDEX are used to speed up query execution resulting in high performance  
 There are other Database specific Indexes that exist as well
 

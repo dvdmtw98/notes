@@ -1,3 +1,7 @@
+---
+title: Katakana W-Column & N
+---
+
 ### W-Column
 
 ワ (wa) : **Wi**ne Glass

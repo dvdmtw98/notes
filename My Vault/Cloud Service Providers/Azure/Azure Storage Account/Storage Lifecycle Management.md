@@ -1,3 +1,7 @@
+---
+title: Storage Lifecycle Management
+---
+
 ### Azure Blob Storage Lifecycle
 
 Allows to transaction blobs from hot to cool  

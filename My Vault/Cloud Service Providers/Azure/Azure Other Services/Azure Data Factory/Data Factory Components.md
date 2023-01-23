@@ -1,3 +1,7 @@
+---
+title: Data Factory Components
+---
+
 ### Pipeline
 
 It is a logical grouping of activities. It can be taught of as the ETL process  

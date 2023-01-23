@@ -1,3 +1,7 @@
+---
+title: Git Branch Command
+---
+
 ````bash
 # Lists branches with remote details
 git branch -vv

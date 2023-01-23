@@ -1,3 +1,7 @@
+---
+title: Kanji
+---
+
 ### Kanji
 
 It is the use of Chinese Characters in Japanese writing  

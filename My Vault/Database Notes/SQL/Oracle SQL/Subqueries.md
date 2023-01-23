@@ -1,3 +1,7 @@
+---
+title: Subqueries
+---
+
 ### Nested Subquery
 
 Query inside an query is called as an subquery. You can place a subquery in a WHERE clause, a HAVING clause, or a FROM clause of a SELECT statement.

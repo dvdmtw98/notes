@@ -1,3 +1,7 @@
+---
+title: Networking
+---
+
 ### Table of Content
 
 * [Types Of Computer Networks](Networking%20Basic%20Concepts/Types%20Of%20Computer%20Networks.md)

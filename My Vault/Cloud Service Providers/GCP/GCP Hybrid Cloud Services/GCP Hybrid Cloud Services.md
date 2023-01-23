@@ -1,3 +1,7 @@
+---
+title: GCP Hybrid Cloud Services
+---
+
 ### [Anthos](Anthos.md)
 
 Modernize existing apps and build new apps rapidly in hybrid and multi-cloud environments, while enabling consistency between on-premises and cloud environments

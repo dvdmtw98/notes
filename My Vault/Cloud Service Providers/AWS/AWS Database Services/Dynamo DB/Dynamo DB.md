@@ -1,3 +1,7 @@
+---
+title: Dynamo DB
+---
+
 Provides high availability with replication across 3 Availability Zones  
 We can store 100 TB of data and provides great performance  
 Supports both document and key value storage of data  

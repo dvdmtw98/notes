@@ -1,3 +1,7 @@
+---
+title: PL-SQL Collections
+---
+
 Collections in SQL are one dimensional and are similar to arrays  
 VARRAYs have an upper bound on the size
 

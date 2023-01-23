@@ -1,3 +1,7 @@
+---
+title: Health Checks
+---
+
 **Green**: All monitored systems are functioning as expected  
 **Yellow**: Partial health with some affected systems  
 **Red**: Application is non-functional or stopped

@@ -1,3 +1,7 @@
+---
+title: Pricing Tiers Overview
+---
+
 GCP offers various pricing schemes that vary per service. Broadly there are 7 types of pricing
 
 1. **<u>Free Trial</u>**  

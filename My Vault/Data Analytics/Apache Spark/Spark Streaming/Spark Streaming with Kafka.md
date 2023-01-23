@@ -1,3 +1,7 @@
+---
+title: Spark Streaming with Kafka
+---
+
 ### PySpark with Kafka
 
 Start Zookeeper and Kafka Broker

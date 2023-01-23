@@ -1,3 +1,7 @@
+---
+title: AWS Storage Services
+---
+
 ### [S3 (Simple Storage Service)](S3%20%28Simple%20Storage%20Service%29/S3%20%28Simple%20Storage%20Service%29.md)
 
 WORM (Write Once Read Many)  

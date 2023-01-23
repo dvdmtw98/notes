@@ -1,3 +1,7 @@
+---
+title: Scan Timing and Performance
+---
+
 When increasing the speed of scan or increasing the parallelism of the scan the results received are going to be less reliable
 
 #### Timing Template

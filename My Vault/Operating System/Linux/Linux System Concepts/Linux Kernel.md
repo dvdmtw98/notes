@@ -1,3 +1,7 @@
+---
+title: Linux Kernel
+---
+
 Linux kernel and boot related files are stored in the '/boot' directory  
 We can interact with the kernel by using the `/sys/` pseudo file system  
 Kernel modules are located in the `/lib/modules/` directory

@@ -1,3 +1,7 @@
+---
+title: Mail Application Protocols
+---
+
 <u>SMTP (Simple Mail Transfer Protocol)</u>  
 Uses [TCP (Transmission Control Protocol)](../4%20-%20Transport%20Layer%20Protocols/TCP%20%28Transmission%20Control%20Protocol%29.md)  
 Used to send emails. Transfer email from one server to another  

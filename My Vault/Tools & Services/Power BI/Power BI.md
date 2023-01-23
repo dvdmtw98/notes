@@ -1,3 +1,7 @@
+---
+title: Power BI
+---
+
 * [Microsoft Power BI](Microsoft%20Power%20BI.md)
 * [Power BI Service](Power%20BI%20Service.md)
 * [Power BI Embedded](Power%20BI%20Embedded.md)

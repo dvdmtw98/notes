@@ -1,3 +1,7 @@
+---
+title: Power BI Service
+---
+
 Cloud based service where users can view/ interact with reports and create dashboards  
 Dashboard is an single page (canvas) that tells a story through visualization
 

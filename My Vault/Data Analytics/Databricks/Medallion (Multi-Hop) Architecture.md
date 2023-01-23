@@ -1,3 +1,7 @@
+---
+title: Medallion (Multi-Hop) Architecture
+---
+
 **<u>Bronze Layer</u>**  
 Used to ingest raw data  
 Efficient storage & querying of unprocessed history of data

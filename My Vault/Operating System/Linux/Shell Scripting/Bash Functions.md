@@ -1,3 +1,7 @@
+---
+title: Bash Functions
+---
+
 There are 2 ways to declare a function:
 
 ````shell

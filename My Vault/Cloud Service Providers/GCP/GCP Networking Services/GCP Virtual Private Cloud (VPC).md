@@ -1,3 +1,7 @@
+---
+title: GCP Virtual Private Cloud (VPC)
+---
+
 It is a logically isolated section of the Google Cloud  
 We can choose a range of IPs using [CIDR (Classless Inter-Domain Routing)](../../../Networking/TCP-IP%20Layers/3%20-%20Network%20(Internet%20Layer)%20Protocols/CIDR%20(Classless%20Inter-Domain%20Routing).md) Notation  
 In this network range we can launch Google Cloud Resources

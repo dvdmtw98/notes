@@ -1,4 +1,5 @@
 ---
+title: Movie List
 cssclass: numbered-rows
 ---
 
@@ -116,7 +117,5 @@ cssclass: numbered-rows
 ||The Little Prince|2016|
 ||Tim Burton's The Nightmare Before Christmas|1993|
 ||Wallace & Gromit: The Curse of the Were-Rabbit|2005|
-
----
 
 [Various Lists](../Various%20Lists.md)

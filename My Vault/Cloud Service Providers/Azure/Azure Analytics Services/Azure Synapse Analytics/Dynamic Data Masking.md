@@ -1,3 +1,7 @@
+---
+title: Dynamic Data Masking
+---
+
 Also known as Data Obfuscation  
 It is the process of hiding important/ classified information  
 Data Masking is applicable for SQL Database, SQL Managed Instance and Azure Synapse Analytics

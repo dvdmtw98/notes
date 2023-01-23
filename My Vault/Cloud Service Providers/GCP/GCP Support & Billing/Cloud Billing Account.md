@@ -1,3 +1,7 @@
+---
+title: Cloud Billing Account
+---
+
 It is used to define who pays for a given set of Google Cloud resources and is connected to a Google payments profile
 
 ![GCP Billing Account|550](../images/gcp_billing_account.png)

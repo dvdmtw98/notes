@@ -1,3 +1,7 @@
+---
+title: Wireless Encryption Standards
+---
+
 1. **<u>WEP (Wireless Equivalent Privacy)</u>**  
    Used 24bit RC4 Cipher. Initialization Vector (IV) which is sent in clear text  
    Susceptible to passive network eavesdropping and replay attacks

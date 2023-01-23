@@ -1,3 +1,7 @@
+---
+title: Data Manipulation Language (DML)
+---
+
 It is used by manipulate the data that is stored in the DB  
 DML operations can be rolled back
 

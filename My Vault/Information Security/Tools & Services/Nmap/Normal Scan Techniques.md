@@ -1,3 +1,7 @@
+---
+title: Normal Scan Techniques
+---
+
 #### Default Scan
 
 Scan top 1000 ports on all IP Addresses

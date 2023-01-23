@@ -1,3 +1,7 @@
+---
+title: Snowflake
+---
+
 Snowflake is an data warehouse provided as SaaS (Software as a Service)  
 It's not build on any existing DB or big data platform like [Apache Hadoop](../../Data%20Analytics/Apache%20Hadoop/Apache%20Hadoop.md)  
 It uses a new SQL engine with an unique architecture designed for the cloud

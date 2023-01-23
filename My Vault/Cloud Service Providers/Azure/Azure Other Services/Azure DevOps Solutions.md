@@ -1,3 +1,7 @@
+---
+title: Azure DevOps Solutions
+---
+
 Combine Development and Operations together and shorten the development life cycle by providing CI/CD capabilities while ensuring high quality of deliverable
 
 ### Azure DevOps

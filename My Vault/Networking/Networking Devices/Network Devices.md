@@ -1,3 +1,7 @@
+---
+title: Network Devices
+---
+
 ### Network Devices
 
 * [NIC (Network Interface Card)](NIC%20%28Network%20Interface%20Card%29.md)

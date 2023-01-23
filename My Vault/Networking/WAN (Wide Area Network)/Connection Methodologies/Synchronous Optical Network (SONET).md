@@ -1,3 +1,7 @@
+---
+title: Synchronous Optical Network (SONET)
+---
+
 Designed to carry large volumes of data over long distance on fiber optic cabling  
 Supports speeds of in Gbps range
 

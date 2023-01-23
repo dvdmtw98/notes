@@ -1,3 +1,7 @@
+---
+title: GCP Storage Services
+---
+
 ### [GCP Persistent Disk](GCP%20Persistent%20Disk.md)
 
 It is an **<u>block store</u>** (Data is split into evenly sized blocks)  

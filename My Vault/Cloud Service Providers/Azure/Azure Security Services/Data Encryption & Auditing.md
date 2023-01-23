@@ -1,3 +1,7 @@
+---
+title: Data Encryption & Auditing
+---
+
 Encryption is the process of scrabbling data so that only authorized people can access it
 * Symmetric Encryption
 * Asymmetric Encryption

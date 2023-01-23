@@ -1,3 +1,7 @@
+---
+title: Python String Formatting
+---
+
 ### % Method (Old Method)
 
 * The %s and %r can both be used as placeholders for string. %s uses `str()` for conversion while %r uses `repr()` for conversion.

@@ -1,3 +1,7 @@
+---
+title: Resistors
+---
+
 Resistance us a restriction to of the flow of electrons  
 It is measured in Ohms
 

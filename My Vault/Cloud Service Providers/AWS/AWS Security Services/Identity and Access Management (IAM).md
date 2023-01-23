@@ -1,3 +1,7 @@
+---
+title: Identity and Access Management (IAM)
+---
+
 It allows us to control what resources a user has access to and how they use those resources (authorization)  
 We can only have 1 root user in AWS. We can add more admin users if required
 

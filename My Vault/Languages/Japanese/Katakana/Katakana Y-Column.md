@@ -1,3 +1,7 @@
+---
+title: Katakana Y-Column
+---
+
 ### Y-Column
 
 ヤ (ya) : Looks like Hiragana **や** (Yack)

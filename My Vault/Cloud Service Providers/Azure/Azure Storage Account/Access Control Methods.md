@@ -1,3 +1,7 @@
+---
+title: Access Control Methods
+---
+
 Shared Key Authorization  
 Shared Access Key (SAS) Authorization  
 Role-based access control (Azure RBAC) : Coarse grain access to data (the whole storage account or data lake)  

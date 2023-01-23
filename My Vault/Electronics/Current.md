@@ -1,3 +1,7 @@
+---
+title: Current
+---
+
 It is the flow of free electrons between atoms in a circuit  
 It is measured in a unit called Ampere (Amp)
 

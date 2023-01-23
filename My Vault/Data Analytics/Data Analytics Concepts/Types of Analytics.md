@@ -1,3 +1,7 @@
+---
+title: Types of Analytics
+---
+
 ### Descriptive Analytics
 
 What happened ?

@@ -1,3 +1,7 @@
+---
+title: Types of Partitioning
+---
+
 ### Partitioning
 
 It is the technique to physically divide your data into separate data stores to improve scalability, reduce contention and optimize performance

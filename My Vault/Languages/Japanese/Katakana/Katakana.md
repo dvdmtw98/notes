@@ -1,3 +1,7 @@
+---
+title: Katakana
+---
+
 Katakana characters have the same sound as Hiragana  
 They are used to represent Loan Words (Foreign Words), Western Names  
 Loan words may sound different when said in Japanese as it will be pronounced using the Japanese syllabary

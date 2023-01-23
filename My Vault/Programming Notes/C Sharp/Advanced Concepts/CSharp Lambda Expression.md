@@ -1,3 +1,7 @@
+---
+title: CSharp Lambda Expression
+---
+
 * They are anonymous [methods](../Object%20Oriented%20Concepts/CSharp%20Methods.md) they have `no name, no access modifiers` and `no return values`
 * Lambda functions have access to all the attributes that are passed to it and the variables that are defined/ accessible in the function in which the lambda expression is created
 * When the lambda expression takes no parameter we use (), when it takes a single parameter the parenthesis can be skipped and when there are multiple parameters they need to wrapped in parenthesis

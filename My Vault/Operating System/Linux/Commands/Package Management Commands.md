@@ -1,3 +1,7 @@
+---
+title: Package Management Commands
+---
+
 ### Install .deb Files
 
 ````shell

@@ -1,3 +1,7 @@
+---
+title: Cryptographic Algorithms
+---
+
 ### Math Concepts
 
 * [Modular Arithmetic](Math%20Concepts/Modular%20Arithmetic.md)

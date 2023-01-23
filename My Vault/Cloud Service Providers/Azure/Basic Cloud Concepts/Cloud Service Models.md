@@ -1,3 +1,7 @@
+---
+title: Cloud Service Models
+---
+
 ### Responsibility Model
 
 ![Cloud Service Offering|500](../images/cloud_service_offering_azure.png)

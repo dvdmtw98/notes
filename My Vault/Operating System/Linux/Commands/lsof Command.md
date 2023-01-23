@@ -1,3 +1,7 @@
+---
+title: lsof Command
+---
+
 <u>View Open Files</u>
 
 ````shell

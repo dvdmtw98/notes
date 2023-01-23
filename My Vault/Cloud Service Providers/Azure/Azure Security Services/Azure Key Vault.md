@@ -1,3 +1,7 @@
+---
+title: Azure Key Vault
+---
+
 Key Vault is the Azure service for secure storage of keys in Azure  
 Application Secrets (Configs for connecting to DB, etc.) can be stored in Vault  
 Certificates (Encrypt connection between services, HTTPS, etc.) can also be saved

@@ -1,3 +1,7 @@
+---
+title: Git Log Command
+---
+
 ````bash
 # Shows all the commits
 git log

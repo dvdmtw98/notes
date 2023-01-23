@@ -1,3 +1,7 @@
+---
+title: Views
+---
+
 ````sql
 # FORCE keyword can be used to create a view before creating the base table
 CREATE OR REPLACE FORCE VIEW <view-name>

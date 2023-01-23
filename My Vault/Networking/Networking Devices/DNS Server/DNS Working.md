@@ -1,3 +1,7 @@
+---
+title: DNS Working
+---
+
 ### DNS Working
 
 Check Device Cache for IP Address  

@@ -1,3 +1,7 @@
+---
+title: Azure Elastic Pools
+---
+
 It is a simple cost-effective solution for managing and scaling multiple databases that having varying and unpredictable usage demands
 
 Two [Purchasing Model](Purchasing%20Model.md) are supported

@@ -1,3 +1,7 @@
+---
+title: Python Inheritance
+---
+
 * Python supports all the four types of inheritance : Single, Multiple, Hierarchical and Multilevel
 * If during multiple inheritance there are two [classes](Python%20Classes.md) that have the same [method](Python%20Methods.md) then from method from the class that is inherited first by the child will only be available
 * Private attributes from the parent class cannot be accessed in the child class

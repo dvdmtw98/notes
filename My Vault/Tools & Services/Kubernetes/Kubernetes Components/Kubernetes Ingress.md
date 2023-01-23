@@ -1,3 +1,7 @@
+---
+title: Kubernetes Ingress
+---
+
 Allows to route outside connections to Pods based on URLs (similar to LoadBalancer)  
 It is like a smart router that routes the incoming traffic to its corresponding app
 

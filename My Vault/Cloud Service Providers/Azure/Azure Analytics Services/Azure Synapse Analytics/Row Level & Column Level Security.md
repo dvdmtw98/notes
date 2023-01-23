@@ -1,3 +1,7 @@
+---
+title: Row Level & Column Level Security
+---
+
 ### Row Level Security (RLS)
 
 Restrict the records in a table based on the user accessing the table  

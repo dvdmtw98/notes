@@ -1,3 +1,7 @@
+---
+title: Spark Compression Formats
+---
+
 Gzip better compression. Higher CPU usage. Good for cold data  
 Snappy, lzo lesser compression. Good for hot data. Snappy better than lzo mostly  
 bzip2 can provide better compression than gzip on some files but higher CPU usage.  HBase not supported  

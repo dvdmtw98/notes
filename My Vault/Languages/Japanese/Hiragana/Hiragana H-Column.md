@@ -1,3 +1,7 @@
+---
+title: Hiragana H-Column
+---
+
 ### H-Column
 
 は (ha) : H with a small a  

@@ -1,3 +1,7 @@
+---
+title: C Modules
+---
+
 The function prototypes along with Typedefs, Enums that are used by our function are defined in the header files  
 We can make a function inaccessible to the end user by not including it in the header file
 

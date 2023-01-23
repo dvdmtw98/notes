@@ -1,3 +1,7 @@
+---
+title: Veil Framework
+---
+
 ### Veil Setup
 
 Two types of Tools

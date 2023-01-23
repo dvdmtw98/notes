@@ -1,3 +1,7 @@
+---
+title: HDFS Operations
+---
+
 ### Writing Data to HDFS
 
 * User tells client to write data to HDFS (Need to specify chuck size & Replication)

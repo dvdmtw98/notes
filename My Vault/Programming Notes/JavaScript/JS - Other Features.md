@@ -1,3 +1,7 @@
+---
+title: JS - Other Features
+---
+
 Defer Attribute : Starts downloading JS in the background will the HTML is being parsed and hence the parsing is done executes the JS  
 Async Attribute : Starts downloading JS in the background when HTML is being parsed.  Once the JS is download stops HTML parsing and executes the JS and then continues parsing of remaining HTML
 

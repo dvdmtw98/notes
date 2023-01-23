@@ -1,3 +1,7 @@
+---
+title: Spark Structure Streaming
+---
+
 Makes use of Dataframe. Data is represented in the form of table  
 Every entity is an row in the table while every variable is an column  
 When data arrives it is append to the end of the Dataframe.  

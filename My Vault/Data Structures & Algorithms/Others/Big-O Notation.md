@@ -1,3 +1,7 @@
+---
+title: Big-O Notation
+---
+
 Allows us to measure the scalability (Speed + Memory) of a solution  
 Big O notation measures the worst case complexity
 

@@ -1,3 +1,7 @@
+---
+title: Swarm Cluster Management
+---
+
 ````bash
 # Create a Single Node Cluster
 docker swarn init

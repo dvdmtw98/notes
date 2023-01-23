@@ -1,3 +1,7 @@
+---
+title: Azure Regions & Zones
+---
+
 ### Data Centers
 
 A physical facility  

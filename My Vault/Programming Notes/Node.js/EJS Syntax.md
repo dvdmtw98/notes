@@ -1,3 +1,7 @@
+---
+title: EJS Syntax
+---
+
 * In project make a folder called 'views' add the required .ejs file. All normal HTML is valid in ejs file.
 * In the file the location where the content needs to be changed dynamically add `<%= foo %>`
 * The `<% if(condition) { %>` tag can be used to include control flow structure in ejs.

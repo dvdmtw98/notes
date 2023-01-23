@@ -1,3 +1,7 @@
+---
+title: Vim Editor
+---
+
 ### Operation Modes
 
 Vim is an model editor. It has various modes that are used for various types of usage.  

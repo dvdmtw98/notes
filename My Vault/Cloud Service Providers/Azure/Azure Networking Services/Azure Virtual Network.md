@@ -1,3 +1,7 @@
+---
+title: Azure Virtual Network
+---
+
 Emulation of Physical Network Infrastructure in the cloud  
 Allows to connect Azure services together (allows to connect cloud and on-premises services as well)  
 Provides isolation, monitoring, segmentation, communication, filtering between services in the cloud

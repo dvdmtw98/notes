@@ -1,3 +1,7 @@
+---
+title: Python
+---
+
 ### Table of Content
 
 1. **Theoretical Concepts**

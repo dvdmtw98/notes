@@ -1,3 +1,7 @@
+---
+title: Composition
+---
+
 * It is a type of relation that allows one [Class](CSharp%20Classes.md) to contain the other (When the parent object is deleted the child also looses its status)
 * It establishes a "Has-a" type of relation between the classes
 * It is used to design loosely coupled applications (Loose Coupling is ideal and preferred over [Inheritence](CSharp%20Inheritance.md))

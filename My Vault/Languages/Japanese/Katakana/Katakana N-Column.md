@@ -1,3 +1,7 @@
+---
+title: Katakana N-Column
+---
+
 ### N-Column
 
 ナ (na) : **Kni**fe with a Curved Blade

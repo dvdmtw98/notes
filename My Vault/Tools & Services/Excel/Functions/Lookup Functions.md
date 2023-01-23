@@ -1,3 +1,7 @@
+---
+title: Lookup Functions
+---
+
 ### VLOOKUP() Function
 
 VLOOKUP() or Vertical Lookup is used to find a subset of records using a master table

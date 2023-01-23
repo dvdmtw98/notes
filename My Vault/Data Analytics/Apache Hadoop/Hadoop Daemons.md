@@ -1,3 +1,7 @@
+---
+title: Hadoop Daemons
+---
+
 ### Hadoop 2.0 Daemons (Background Services)
 
 1. DFS (Distributed File System) - Data Storage Framework

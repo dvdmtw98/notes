@@ -1,3 +1,7 @@
+---
+title: Graph
+---
+
 Graphs consists of Nodes (Vertices) that are connected to each other using Edges  
 Directed and Undirected Graphs  
 Weighted and Unweighted Graphs  

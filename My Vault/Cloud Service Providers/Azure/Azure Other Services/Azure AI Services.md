@@ -1,3 +1,7 @@
+---
+title: Azure AI Services
+---
+
 AI : Emulation of human intelligence by a computer  
 ML : Computer Software is taught to draw conclusions and make predictions
 

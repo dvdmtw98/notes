@@ -1,3 +1,7 @@
+---
+title: MAC (Media Access Control) Address
+---
+
 Physical address of the network adapter card  
 These addresses are tied to the card and they cannot be changed  
 No two cards anywhere in the world will have the same MAC address

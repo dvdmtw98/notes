@@ -1,3 +1,7 @@
+---
+title: C Arrays
+---
+
 The **name of array** in C is an **pointer** to the **memory address** to the **first element** of the array  
 Accessing a value using its address of the pointer is called **dereferencing the pointer**
 

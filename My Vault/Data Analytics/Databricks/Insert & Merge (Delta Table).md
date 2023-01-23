@@ -1,3 +1,7 @@
+---
+title: Insert & Merge (Delta Table)
+---
+
 ### Inserting Data
 
 Can be used to automatically APPEND new records into a table

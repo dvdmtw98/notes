@@ -1,3 +1,7 @@
+---
+title: Katakana K-Column
+---
+
 ### K-Column
 
 カ (ka) : Angular Hiragana **か** without the floating stroke (Blade cutting Stick)  

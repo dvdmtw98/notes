@@ -1,3 +1,7 @@
+---
+title: Linux Misc. Commands
+---
+
 Complete Command in Editor : Ctrl + X + E  
 Set Default Editor : `$EDITOR`
 

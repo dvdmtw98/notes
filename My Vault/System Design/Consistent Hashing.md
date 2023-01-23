@@ -1,3 +1,7 @@
+---
+title: Consistent Hashing
+---
+
 Large Scale System - Data cannot be stored on single server  
 So Data needs to be **Distributed** across multiple nodes  
 For predictable performance distributed data needs to be **evenly** on all servers

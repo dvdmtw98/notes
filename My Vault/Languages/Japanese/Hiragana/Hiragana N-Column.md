@@ -1,3 +1,7 @@
+---
+title: Hiragana N-Column
+---
+
 ### N-Column
 
 な (na) : Complicated **Kno**t

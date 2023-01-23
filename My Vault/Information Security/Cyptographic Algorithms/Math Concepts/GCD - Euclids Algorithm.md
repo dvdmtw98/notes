@@ -1,3 +1,7 @@
+---
+title: GCD - Euclids Algorithm
+---
+
 ### Method 1
 
 Find the GCD (12, 33)

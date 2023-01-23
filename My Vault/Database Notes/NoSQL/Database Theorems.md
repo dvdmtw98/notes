@@ -1,3 +1,7 @@
+---
+title: Database Theorems
+---
+
 ACID: Atomic, Consistent, Isolation, Durability  
 BASE: Basically Available, Soft State, Eventual Consistency  
 CAP: Consistency, Availability, Partition Tolerance  

@@ -1,3 +1,7 @@
+---
+title: ETL vs ELT
+---
+
 ### ETL (Extract Transform Load)
 
 * The data is transformed before it is loaded into the target system

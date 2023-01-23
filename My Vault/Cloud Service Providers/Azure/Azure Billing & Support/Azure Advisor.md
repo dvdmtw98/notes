@@ -1,3 +1,7 @@
+---
+title: Azure Advisor
+---
+
 It is an service that provides recommendation on how to best use the Azure platform  
 It provides recommendations on:
 

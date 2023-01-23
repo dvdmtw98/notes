@@ -1,3 +1,7 @@
+---
+title: Kubernetes Pods
+---
+
 ````bash
 # View created Pods
 kubectl get pods [--all-namespaces] [-o wide]

@@ -1,3 +1,7 @@
+---
+title: Domain Services
+---
+
 1. <u>Active Directory Lightweight Directory Service (AD LDS)</u>  
    An implementation of LDAP protocol for AD DS
 

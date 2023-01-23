@@ -1,3 +1,7 @@
+---
+title: Other Tools & Services
+---
+
 ### SearchSploit
 
 Search's Exploit DB for any known exploits for an given service

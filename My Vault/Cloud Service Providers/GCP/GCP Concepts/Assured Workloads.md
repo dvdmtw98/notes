@@ -1,3 +1,7 @@
+---
+title: Assured Workloads
+---
+
 A feature that allows you to apply various security controls to an environment
 
 * Data Residency

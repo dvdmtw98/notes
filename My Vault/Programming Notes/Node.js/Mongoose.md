@@ -1,3 +1,7 @@
+---
+title: Mongoose
+---
+
 ### MongoDB Basics
 
 ````bash

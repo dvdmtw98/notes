@@ -1,3 +1,7 @@
+---
+title: Hadoop Architecture
+---
+
 ![Hadoop Architecture|550](images/hadoop_architecture.jpg)
 
 ### Namenode (Master)

@@ -1,3 +1,7 @@
+---
+title: PL-SQL Procedures
+---
+
 When procedure has no parameters we do use parenthesis  
 Procedures do not have an return type and cannot return any values  
 Procedures can be called using EXEC statement, anonymous block or an names block

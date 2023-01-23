@@ -1,3 +1,7 @@
+---
+title: Hiragana T-Column
+---
+
 ### T-Column
 
 た (ta) : Smaller letter t and a

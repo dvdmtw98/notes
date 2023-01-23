@@ -1,3 +1,7 @@
+---
+title: ARP (Address Resolution Protocol)
+---
+
 Resolves IP Address to MAC Address  
 Finds hardware address of a host when IP address is known  
 The MAC Address is required for hosts on the same network to communicate with each other

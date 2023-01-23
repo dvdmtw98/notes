@@ -1,3 +1,7 @@
+---
+title: Binary Search
+---
+
 It is an Divide and Conquer Algorithm  
 The input list provided to the algorithm has to be **<u>sorted</u>**
 

@@ -1,3 +1,7 @@
+---
+title: Kafka Replication
+---
+
 ![Kafka Partitions|550](images/kafka_partitions.png)
 
 * For each partition there is an lead node (Chosen at random).

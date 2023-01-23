@@ -1,3 +1,7 @@
+---
+title: Multiple Row Subquery Operator
+---
+
 If the inner query returns multiple values then operators like `>` and `<` can't be used  
 In that case we can use "operator ANY", "operator ALL" and IN()
 

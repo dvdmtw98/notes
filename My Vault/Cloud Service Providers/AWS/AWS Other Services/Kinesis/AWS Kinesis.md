@@ -1,3 +1,7 @@
+---
+title: AWS Kinesis
+---
+
 It makes it easy to collect, process and analyze real-time streaming data so we can get timely insights or react quickly to new information
 
 ### Advantages

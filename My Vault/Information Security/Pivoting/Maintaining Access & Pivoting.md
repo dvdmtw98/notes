@@ -1,3 +1,7 @@
+---
+title: Maintaining Access & Pivoting
+---
+
 ### Table of Content
 
 * [Maintaining Access](Maintaining%20Access.md)

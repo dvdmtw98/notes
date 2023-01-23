@@ -1,3 +1,7 @@
+---
+title: Strings
+---
+
 Strings are immutable once they are created they cannot be changed  
 The functions that are used to modify string all return a new string (String is immutable)
 String methods can be chained one after the other

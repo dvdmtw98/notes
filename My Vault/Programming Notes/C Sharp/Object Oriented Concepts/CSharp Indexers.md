@@ -1,3 +1,7 @@
+---
+title: CSharp Indexers
+---
+
 * Allows an instance of an [Class](CSharp%20Classes.md) or [Structs](Structs.md) to be indexed just like an array
 * Indexers do not have a name and are created using the `this[]` keyword and has similar syntax to properties
 

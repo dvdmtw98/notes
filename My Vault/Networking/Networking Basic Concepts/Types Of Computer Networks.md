@@ -1,3 +1,7 @@
+---
+title: Types Of Computer Networks
+---
+
 Client Server Architecture: Server produces resources, Clients consumes resources  
 Peer-to-Peer Network: All devices on the network can act as an client or server
 

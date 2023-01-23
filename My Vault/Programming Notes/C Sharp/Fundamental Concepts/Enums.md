@@ -1,3 +1,7 @@
+---
+title: Enums
+---
+
 An Enum is an object that is used to group together multiple similar constants  
 A Enum is internally stored as a Integer. It can be changed to Byte if required  
 It is an User Defined Value Type Datatype

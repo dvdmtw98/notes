@@ -1,3 +1,7 @@
+---
+title: RIP & RIPv2 (Routing Information Protocol)
+---
+
 They are distance vector routing protocol (Distance and Direction)  
 It uses distance (hops) to decide the route. The max hops that are allowed is 15
 Vector (Direction) to use is the route with the fewest hops  

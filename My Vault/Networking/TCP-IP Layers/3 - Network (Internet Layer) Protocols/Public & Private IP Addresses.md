@@ -1,3 +1,7 @@
+---
+title: Public & Private IP Addresses
+---
+
 | Public IP Address                                                      | Private IP Address                                   |
 | ---------------------------------------------------------------------- | ---------------------------------------------------- |
 | Used "Registered" Public IP Addresses                                  | Unregistered - free to use by everyone               |

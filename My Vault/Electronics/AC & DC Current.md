@@ -1,3 +1,7 @@
+---
+title: AC & DC Current
+---
+
 Current is generally transported from the source to our houses using AC current  
 As there are easy to step-up and step-down the voltage using [Transformers](Components/Transformers.md)  
 They are also more efficient when transporting current over large distances

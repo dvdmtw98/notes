@@ -1,3 +1,7 @@
+---
+title: BeEF
+---
+
 BeEF : Browser Exploitation Framework  
 Makes use of JS to hook the target browser. Works on any platform as long as target device browser supported JS
 

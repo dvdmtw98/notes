@@ -1,3 +1,7 @@
+---
+title: Hyperscale on Azure
+---
+
 It is also referred to as Citus  
 Hyperscale is a feature that turns SQL DB it into a distributed database similar to data warehouses  
 This feature is also available for Azure DB for PostgreSQL as well

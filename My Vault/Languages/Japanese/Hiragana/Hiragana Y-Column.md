@@ -1,3 +1,7 @@
+---
+title: Hiragana Y-Column
+---
+
 ### Y-Column
 
 や (ya) : **Ya**k

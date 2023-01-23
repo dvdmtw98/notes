@@ -1,3 +1,7 @@
+---
+title: SQL Window Function Examples
+---
+
 ### Fetch all the Duplicate Records in a Table
 
 ![User Table|500](../images/user_table.png)

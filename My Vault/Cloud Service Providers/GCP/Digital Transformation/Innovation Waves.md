@@ -1,3 +1,7 @@
+---
+title: Innovation Waves
+---
+
 Kondratiev waves (also called as Innovation waves) are hypothetical cycle like phenomena in the global world economy  
 This concept is closely related to Technology life cycles
 

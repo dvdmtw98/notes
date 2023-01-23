@@ -1,3 +1,7 @@
+---
+title: Cosmos DB Throughput
+---
+
 The throughput can be defined at the database or container level  
 We can specify capacity using provisioned throughput (Manually) or pay as we go (Automatic)
 

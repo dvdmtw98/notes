@@ -1,3 +1,7 @@
+---
+title: GCP Regions & Zones
+---
+
 ### Regions
 
 Regions are independent geographical locations that consists of zones  

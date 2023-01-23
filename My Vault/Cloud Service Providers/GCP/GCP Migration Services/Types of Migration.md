@@ -1,3 +1,7 @@
+---
+title: Types of Migration
+---
+
 ### Lift and Shift
 
 Move workloads from a source environment to a target environment with **minor or no modifications or refactoring**

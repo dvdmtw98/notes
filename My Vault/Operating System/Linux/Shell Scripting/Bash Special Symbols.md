@@ -1,3 +1,7 @@
+---
+title: Bash Special Symbols
+---
+
 `$0` : Name of Script  
 `$1`-`$9`  & `${10}`-`${n}` : Arguments  
 

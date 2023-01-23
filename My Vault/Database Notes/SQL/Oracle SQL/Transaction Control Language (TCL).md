@@ -1,3 +1,7 @@
+---
+title: Transaction Control Language (TCL)
+---
+
 A transaction is a set of instructions that are together considered as a Single Unit  
 It should all either be executed successfully or none should be executed. On Commit only all DML commands are saved permanently.
 

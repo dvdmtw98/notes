@@ -1,3 +1,7 @@
+---
+title: paste Command
+---
+
 ````shell
 paste <file1> <file2>
 cat <filename> | paste - - - # Combine N consecutive lines

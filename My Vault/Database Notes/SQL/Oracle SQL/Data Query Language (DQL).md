@@ -1,3 +1,7 @@
+---
+title: Data Query Language (DQL)
+---
+
 SELECT state is called as DQL. In its basic form its used to display all the columns or some specific columns from a table  
 SELECT Command can be used with the WHERE clause to filter the output that is produced.
 

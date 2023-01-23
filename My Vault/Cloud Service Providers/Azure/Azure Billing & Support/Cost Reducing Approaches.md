@@ -1,3 +1,7 @@
+---
+title: Cost Reducing Approaches
+---
+
 ## Reservations
 
 Booking an capacity of the service in advance for using for an long period of time

@@ -1,3 +1,7 @@
+---
+title: Swarm Network
+---
+
 ### Overlay Network
 
 A new networking driver made available by Swarm  

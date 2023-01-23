@@ -1,3 +1,7 @@
+---
+title: Recon-ng v5
+---
+
 ### Table of Content
 
 1. [Recon-ng Workspace](Recon-ng%20Workspace.md)

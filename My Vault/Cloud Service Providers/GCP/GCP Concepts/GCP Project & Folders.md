@@ -1,3 +1,7 @@
+---
+title: GCP Project & Folders
+---
+
 ### Projects
 
 A project is a logical grouping of resources  

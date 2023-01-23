@@ -1,3 +1,7 @@
+---
+title: Control Groups (cgroups)
+---
+
 They are used to assign limits to the resources (CPU, Memory, IO, Network, etc.) which can be used by processes
 
 Each resource has its own hierarchy tree  

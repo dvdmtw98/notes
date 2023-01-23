@@ -1,3 +1,7 @@
+---
+title: Rust Scan
+---
+
 ````bash
 rustscan -a <ip-address> --ulimit 5000 -- -sS -A -T4
 # AND (Both are equivalent)

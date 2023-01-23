@@ -1,3 +1,7 @@
+---
+title: ssh Command
+---
+
 ### Connect to Remote Machine
 
 ````ssh

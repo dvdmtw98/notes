@@ -1,3 +1,7 @@
+---
+title: Multiplicative Inverse
+---
+
 $x \not\equiv 0$ mod n (n is prime number)  
 x * y ≡ 1 mod n (y is an MI of mod n)  
 $y \equiv x^{-1} \mod n$

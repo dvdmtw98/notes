@@ -1,3 +1,7 @@
+---
+title: Katakana S-Column
+---
+
 ### S-Column
 
 サ (sa) : **Sa**ddle  
@@ -50,4 +54,4 @@
 	* Shea suru (To share)
 
  > [!INFO]
- > `アイス` (Aesu) in Japanese means Ice-cream not Ice as Japanese people tend to contract popular loan words 
+ > `アイス` (Aesu) in Japanese means Ice-cream not Ice as Japanese people tend to contract popular loan words

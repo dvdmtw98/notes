@@ -1,3 +1,7 @@
+---
+title: Git Add Command
+---
+
 Staging Area is an intermediate stage to which we decide and add files that will be committed/ added into the repo
 
 ````bash

@@ -1,3 +1,7 @@
+---
+title: Types of Keys
+---
+
 1. **<u>Super Key</u>**  
    Set of attributes that can uniquely identify records within a table  
    Super key can have redundant attributes as well

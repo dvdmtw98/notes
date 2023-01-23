@@ -1,3 +1,7 @@
+---
+title: Variables and Constants
+---
+
 ### Constant
 
 Constant in PL/SQL has to be declared during the initialization phase only  

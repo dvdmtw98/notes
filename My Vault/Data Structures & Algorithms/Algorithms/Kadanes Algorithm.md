@@ -1,3 +1,7 @@
+---
+title: Kadanes Algorithm
+---
+
 It is used to find the Maximum Subarray Sum Optimally  
 This is an Example of Dynamic Programming (Smaller sub-problem + Reusing Results)
 

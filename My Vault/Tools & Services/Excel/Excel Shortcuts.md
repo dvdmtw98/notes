@@ -1,3 +1,7 @@
+---
+title: Excel Shortcuts
+---
+
 Ctrl +: Add a new row (above)/column (left)  
 Ctrl -: Delete a row/ column
 

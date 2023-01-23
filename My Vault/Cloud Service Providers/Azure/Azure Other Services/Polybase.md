@@ -1,3 +1,7 @@
+---
+title: Polybase
+---
+
 Polybase is a data virtualization feature for SQL Server  
 Allows SQL Server to query data directly with T-SQL from multiple databases (Oracle, Teradata, MongoDB, Cosmos DB, Hadoop Cluster)  
 Allows to join data from SQL Server with external data

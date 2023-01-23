@@ -1,3 +1,7 @@
+---
+title: Hiragana Vowels
+---
+
 ### Vowels
 
 あ (a) : **A**pple

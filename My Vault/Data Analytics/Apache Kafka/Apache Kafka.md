@@ -1,3 +1,7 @@
+---
+title: Apache Kafka
+---
+
 Kafka is a distributed Pub Sub (Publisher Subscriber)/ Queue Messaging system.  
 It was designed by LinkedIn and later became part of the Apache Project  
 It provides Scalability, Fault tolerance (Data is written to disk), Performance (High Throughput), Reliability and Flexibility.

@@ -1,3 +1,7 @@
+---
+title: Symbolic Links
+---
+
 1. <u>Symbolic Links</u>  
 * Works with both files and directories
 * Can be mapped to files and directories on different drives, network volumes, etc.

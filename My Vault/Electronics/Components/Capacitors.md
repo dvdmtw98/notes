@@ -1,3 +1,7 @@
+---
+title: Capacitors
+---
+
 It is an device that is used to store electrical charge  
 It is similar to battery but the current is stored in a electric field and it can only stored a small amount of charge
 

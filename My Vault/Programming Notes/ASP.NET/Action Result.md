@@ -1,3 +1,7 @@
+---
+title: Action Result
+---
+
 ````csharp
 public class MovieController : Controller
 {

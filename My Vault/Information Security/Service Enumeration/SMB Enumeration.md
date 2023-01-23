@@ -1,3 +1,7 @@
+---
+title: SMB Enumeration
+---
+
 1. <u>SMB Username Enumeration</u>
 
 ````bash

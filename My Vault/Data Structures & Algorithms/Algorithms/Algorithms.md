@@ -1,3 +1,7 @@
+---
+title: Algorithms
+---
+
 ### Algorithms
 
 1. [Kadane's Algorithm](Kadanes%20Algorithm.md)

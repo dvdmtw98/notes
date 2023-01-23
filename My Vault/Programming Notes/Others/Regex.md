@@ -1,3 +1,7 @@
+---
+title: Regex
+---
+
 Regex by default tried to find the largest match possible (Greedy)
 
 ### Common Tokens

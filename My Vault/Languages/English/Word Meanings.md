@@ -1,3 +1,7 @@
+---
+title: Word Meanings
+---
+
 patent  
 Something that is obvious, evident
 

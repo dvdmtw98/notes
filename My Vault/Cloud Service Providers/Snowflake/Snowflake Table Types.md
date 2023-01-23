@@ -1,3 +1,7 @@
+---
+title: Snowflake Table Types
+---
+
 ### Cloned Table
 
 The clone does not use any extra space it shares its micro-partitions with the original table  

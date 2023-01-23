@@ -1,3 +1,7 @@
+---
+title: Azure Policy
+---
+
 Policies allows to check for resource properties and then make decision based on these properties  
 Policy can be created on any property and then an rule can be written around the policy to make a decide when the policy is True and when its False
 

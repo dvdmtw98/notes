@@ -1,3 +1,7 @@
+---
+title: T-Carrier and E-Carrier Digital Signal Lines
+---
+
 T lines - Single Signal 64Kbps - Single DS0 Channel  
 T1/ E1 and T3/ E3 utilizes multiple 64Kbps channel to provide high speed internet  
 Commonly referred as "dedicated" leased lines. They are leased from telecommunication company to provide dedicated circuit switched network

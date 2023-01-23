@@ -1,3 +1,7 @@
+---
+title: CLR (Common Language Runtime)
+---
+
 * When C# code is compiled it is converted first into IL (Intermediate Language) Code
 * IL Code is independent of the device (platform agnostic)
 * CLR takes this IL Code and converts it into Native Code that can be executed on the device

@@ -1,3 +1,7 @@
+---
+title: Hub
+---
+
 A Physical Layer (Layer 1) device that allows to connect many devices together  
 Old device rarely used nowadays (Replaced by [Switch](Switch.md)es)  
 It is a Multi-Port [Repeater](Repeater.md) (Traffic that is input on one port and is repeated on every other port/ device connected to the Hub)

@@ -1,3 +1,7 @@
+---
+title: Git Commit Command
+---
+
 ````bash
 git commit -m "Message"
 ````

@@ -1,3 +1,7 @@
+---
+title: Hiragana
+---
+
 Hiragana and Katakana characters together is called as Kana  
 Each Kana character only produces one sound
 

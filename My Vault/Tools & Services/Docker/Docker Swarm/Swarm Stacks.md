@@ -1,3 +1,7 @@
+---
+title: Swarm Stacks
+---
+
 Stacks allows us to use compose files when working with swarm  
 The **build** option is not available in stacks. A new option called **deploy** is introduced  
 If compose file is used with swarm the build option is ignore and if we use it with docker compose the deploy option is ignored  

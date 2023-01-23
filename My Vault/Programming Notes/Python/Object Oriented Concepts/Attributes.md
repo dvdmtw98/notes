@@ -1,3 +1,7 @@
+---
+title: Attributes
+---
+
 * **Instance Attributes** : These attributes are declared inside the `__init__` method of the class. They are difference for each instance of the class
 * **Class Attributes** : These attributes are declared in the body of the class but not inside a method. They are common to all instances of the class
 

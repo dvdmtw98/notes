@@ -1,3 +1,7 @@
+---
+title: Docker Network
+---
+
 ### Default Network Types
 
 **Bridged** : Default. Connects the docker Virtual Network to the Network of the host  

@@ -1,3 +1,7 @@
+---
+title: Hive Managed and External Tables
+---
+
 ### Managed Table
 
 Drop on an managed table deletes the metadata from the metastore as well as the data from HDFS  

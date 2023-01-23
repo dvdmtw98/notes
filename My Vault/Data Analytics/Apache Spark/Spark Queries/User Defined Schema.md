@@ -1,3 +1,7 @@
+---
+title: User Defined Schema
+---
+
 ### Create Schema for a File
 
 ````python

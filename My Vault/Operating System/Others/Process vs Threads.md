@@ -1,3 +1,7 @@
+---
+title: Process vs Threads
+---
+
 ### Program Fie
 
 A executable that contains set of instructions to perform a task  
@@ -13,4 +17,4 @@ Each process has its own memory address space. One process cannot corrupt the me
 
 It is a unit of execution inside a process  
 Each process has at least one thread (Main Thread)  
-Each thread has its own stack and threads share a common address space. A misbehaving thread could cause the entire process to crash  
+Each thread has its own stack and threads share a common address space. A misbehaving thread could cause the entire process to crash

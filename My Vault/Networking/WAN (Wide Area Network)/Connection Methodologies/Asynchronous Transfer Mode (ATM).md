@@ -1,3 +1,7 @@
+---
+title: Asynchronous Transfer Mode (ATM)
+---
+
 Make used of advanced packet switching technology called "cell-based" switching technology  
 Uses fixed size packets (53 bytes)  
 It can be used with Ethernet and Fiber cables  

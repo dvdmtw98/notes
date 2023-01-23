@@ -1,3 +1,7 @@
+---
+title: Azure Data Factory
+---
+
 It is an data orchestration service provided by Azure. That can be used to perform various ETL operations  
 It has support for 100+ connectors
 

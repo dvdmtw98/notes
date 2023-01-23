@@ -1,3 +1,7 @@
+---
+title: RAID
+---
+
 Redundant Array of Independent Disks  
 Data is copied or spread across multiple disks
 

@@ -1,3 +1,7 @@
+---
+title: Swarm Secrets
+---
+
 Secrets need to be stored in the Swarm before they can be used by the Services
 Only containers in the assigned services can access them  
 To the containers the secrets appear like files stored on disk but in reality they are in-memory filesystem  

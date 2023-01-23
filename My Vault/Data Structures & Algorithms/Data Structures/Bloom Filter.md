@@ -1,3 +1,7 @@
+---
+title: Bloom Filter
+---
+
 It is an space-efficient probabilistic DS that is based on the concept of hashing  
 It is used to efficiently check for the existence of an element in a set  
 If element does not exist it returns No else it returns Probable Yes (i.e. False Positives are possible)

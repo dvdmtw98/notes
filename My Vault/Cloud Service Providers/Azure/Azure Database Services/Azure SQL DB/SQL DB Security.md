@@ -1,3 +1,7 @@
+---
+title: SQL DB Security
+---
+
 ### Azure Defender for SQL
 
 It is a unified package for advanced SQL security capabilities  

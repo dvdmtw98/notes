@@ -1,3 +1,7 @@
+---
+title: Kubernetes Components
+---
+
 ### Pods
 
 Smallest unit of K8s. It is an abstraction over containers

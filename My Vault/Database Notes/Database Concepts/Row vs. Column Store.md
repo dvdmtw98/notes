@@ -1,3 +1,7 @@
+---
+title: Row vs. Column Store
+---
+
 ### Row Storage
 
 * If NULL in middle of DB space needs to be allocated. If end of the DB no need for space

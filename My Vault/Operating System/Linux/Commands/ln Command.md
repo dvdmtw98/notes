@@ -1,3 +1,7 @@
+---
+title: ln Command
+---
+
 ### Soft Link
 
 Similar to Shortcuts on Windows. The shortcut and the file are going to have different inode value

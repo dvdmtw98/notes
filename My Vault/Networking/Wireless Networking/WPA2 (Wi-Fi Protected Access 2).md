@@ -1,3 +1,7 @@
+---
+title: WPA2 (Wi-Fi Protected Access 2)
+---
+
 1. **<u>Personal Mode</u>**  
    Used for small wireless networks  
    Uses Pre-Shared Key for authentication. The password is the Pre-Shared Key

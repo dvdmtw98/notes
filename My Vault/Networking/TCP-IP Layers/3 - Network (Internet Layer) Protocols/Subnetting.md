@@ -1,3 +1,7 @@
+---
+title: Subnetting
+---
+
 Using default Class A, B and C subnets (Classful IP Addressing) is inefficient  
 It wastes unused IP Addresses (Public IP Addresses)
 

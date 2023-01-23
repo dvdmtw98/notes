@@ -1,3 +1,7 @@
+---
+title: Python Comprehension
+---
+
 ### List Comprehension
 
 When we want to filter out values from an exiting list we place the if block towards the end of the comprehension

@@ -1,3 +1,7 @@
+---
+title: Bridge
+---
+
 Sits between two hub connected network  
 Bridges only have two ports  
 Bridges **<u>learns</u>** the addresses of the devices that are connected to its ports

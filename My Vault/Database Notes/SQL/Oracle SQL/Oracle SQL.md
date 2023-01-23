@@ -1,3 +1,7 @@
+---
+title: Oracle SQL
+---
+
 ### Table of Content
 
 * [Literal and Operators](Literal%20and%20Operators.md)

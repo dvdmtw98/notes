@@ -1,3 +1,7 @@
+---
+title: Load Balancer
+---
+
 They are of two types: Layer 4 and Layer 7  
 Load Balancers are called Reverse Proxies as the client is not aware of the target server  
 Load Balancer is just a special Reverse Proxy (Extra metadata to select correct target)

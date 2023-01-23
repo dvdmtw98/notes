@@ -1,3 +1,7 @@
+---
+title: Transformers
+---
+
 Transformers can only be used with AC current
 
 When current flows through a circuit an magnetic field is generated  

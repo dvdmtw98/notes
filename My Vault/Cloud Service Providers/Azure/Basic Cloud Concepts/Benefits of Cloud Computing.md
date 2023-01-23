@@ -1,3 +1,7 @@
+---
+title: Benefits of Cloud Computing
+---
+
 ### Cost Effective
 
 No up-front cost  

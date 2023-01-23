@@ -1,3 +1,7 @@
+---
+title: Snowflake Architecture
+---
+
 Snowflake makes use of separate layers for processing and storing the data  
 It is an combination of shared-disk database architecture and share-nothing database architecture
 

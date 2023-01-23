@@ -1,3 +1,7 @@
+---
+title: Output Sinks
+---
+
 ### Output Sinks
 
 File Sink only supports Append Mode (No guarantee of Fault Tolerance)

@@ -1,3 +1,7 @@
+---
+title: Parts of Speech
+---
+
 ### Noun
 
 person, idea, thing, place  

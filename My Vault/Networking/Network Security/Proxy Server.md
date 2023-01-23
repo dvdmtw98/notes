@@ -1,3 +1,7 @@
+---
+title: Proxy Server
+---
+
 We define the target IP that all request need to be forwarded on the client device  
 Proxies are protocol specific (i.e. HTTP proxy will only route HTTP traffic to proxy server)  
 Works at Layer 7 & Layer 4 ([Load Balancer](../Networking%20Devices/Load%20Balancer.md)s)  

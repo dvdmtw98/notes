@@ -1,3 +1,7 @@
+---
+title: Association, Aggregation and Composition
+---
+
 ### Association
 
 * The object of one class may use the Methods provided by another class. This type of relation is called association

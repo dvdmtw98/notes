@@ -1,3 +1,7 @@
+---
+title: Linked List
+---
+
 ### Uses
 
 List, Queue, Stack  

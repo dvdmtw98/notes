@@ -1,3 +1,7 @@
+---
+title: Digital Subscriber Line (DSL)
+---
+
 High speed internet using POTS (Sends data digitally over telephone line)  
 Uses a DSL modem and splitter to accomplish this task  
 (Limitation) DSL modem must be within 2 miles of telecommunication company  

@@ -1,3 +1,7 @@
+---
+title: Data Structures
+---
+
 ### Table of Content
 
 1. **Abstract Data Structures**

@@ -1,3 +1,7 @@
+---
+title: Excel Evaluate Formula
+---
+
 We can evaluate a formula in Excel using the Evaluate Formula option in the Formulas tab
 
 Parts of an formula can be evaluated using the F9 key  

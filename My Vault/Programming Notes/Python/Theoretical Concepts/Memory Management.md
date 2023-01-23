@@ -1,3 +1,7 @@
+---
+title: Memory Management
+---
+
 ### Heap and Stack Memory
 
 The Heap is used to hold the **actual** value of the reference type objects (The reference variable is stored in the stack)

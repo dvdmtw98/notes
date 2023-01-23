@@ -1,3 +1,7 @@
+---
+title: Bash Conditional Statements
+---
+
 1. <u>If Else Statement</u>  
    There should always have space around the condition and \[\].  
    The variables and values should be specified inside `" "`  

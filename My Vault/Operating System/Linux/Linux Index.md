@@ -1,3 +1,7 @@
+---
+title: Linux Index
+---
+
 ### Table of Content
 
 * [Bash](Shell%20Scripting/Bash.md)
@@ -24,4 +28,4 @@ Ctrl + G (Exit Reverse Search)
 
 ---
 
-[Operating System](../Operating%20System.md) 
+[Operating System](../Operating%20System.md)

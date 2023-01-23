@@ -1,3 +1,7 @@
+---
+title: Spark Operations
+---
+
 Transformations: Will create a new RDD. No execution takes place  
 Actions: Execution on the data takes place (Output/ Saving operations)
 

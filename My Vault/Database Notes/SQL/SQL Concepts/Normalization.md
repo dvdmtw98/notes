@@ -1,3 +1,7 @@
+---
+title: Normalization
+---
+
 Used to remove the redundancy in the tables  
 Prevents the Insert, Delete and Update anomaly in the DB
 

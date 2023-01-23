@@ -1,3 +1,7 @@
+---
+title: Binary Search Tree
+---
+
 All nodes to the left of root node must have value less than Root node  
 All nodes to the right of root node must have value greater than Root node  
 A node can only have up to 2 children  

@@ -1,3 +1,7 @@
+---
+title: Floyds Algorithm
+---
+
 It is used to Detect a loop in a Linked List  
 It can be also used to find a repeating element in an array of size n with elements from 1 to n  
 The array items is considered as nodes in a linked list  

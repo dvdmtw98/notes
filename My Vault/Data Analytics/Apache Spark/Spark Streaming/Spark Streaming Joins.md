@@ -1,3 +1,7 @@
+---
+title: Spark Streaming Joins
+---
+
 ````python
 from pyspark.sql.functions import explode, split
 

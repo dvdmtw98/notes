@@ -1,3 +1,7 @@
+---
+title: CSharp User Input
+---
+
 ### Read Method
 
 Even if the user enters multiple characters as input only the 1st character is returned

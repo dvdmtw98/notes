@@ -1,3 +1,7 @@
+---
+title: CSharp Constructor
+---
+
 * It is used to initialize the [Fields](Fields.md) in a [Class](CSharp%20Classes.md). It has the same name as the class and does not have a return type
 * If we do not create a default/ parameter less constructor the  C# compiler will automatically create one and initialize all the attributes in the class to its "default value"
 * We should always initialize reference type variables as their default value is null so when we use them we might get "Null Exception"

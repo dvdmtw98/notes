@@ -1,3 +1,7 @@
+---
+title: File & Directory Operations
+---
+
 For working with Files we need to import the `System.IO` namespace
 
 ### File and FileInfo Class

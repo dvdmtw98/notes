@@ -1,3 +1,7 @@
+---
+title: Twisted Pair
+---
+
 The common cable that is used for network connections  
 Four Twisted Pair of Wires with RJ-45 Connector  
 Twisted to reduce interference (Crosswalk, EMI)  

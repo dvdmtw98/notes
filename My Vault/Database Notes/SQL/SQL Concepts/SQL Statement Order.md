@@ -1,3 +1,7 @@
+---
+title: SQL Statement Order
+---
+
 ````sql
 SELECT DISTINCT column, AGG_FUNC(column_or_expression), …
 

@@ -1,3 +1,7 @@
+---
+title: AWS Analytics Services
+---
+
 ### Table of Content
 
 * [Redshift](Redshift/Redshift.md)

@@ -1,3 +1,7 @@
+---
+title: Watermarks
+---
+
 * Watermarks are used to decide the reasonable lateness of data. Lateness of data could occur due to various reasons like network congestion, latency, etc.
 * If data is within the reasonable lateness it is allowed in system else it may or may not be allowed
 

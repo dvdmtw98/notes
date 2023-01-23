@@ -1,3 +1,7 @@
+---
+title: Virtual LANs (VLANs)
+---
+
 Break large physical LAN into smaller logical LANs  
 This feature can be configured on managed switches  
 Assigns specific switch interfaces (ports) on the switch to specific VLANs (Port 1, 2, 3 - VLAN 100 and Port 4, 5, 6 - VLAN 200, etc.)

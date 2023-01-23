@@ -1,3 +1,7 @@
+---
+title: Extension Methods
+---
+
 Allows to add methods to a class without changing its source code or creating a new class without inheriting it  
 The extension methods need to be of **static type** and should belong in a **static Class**
 

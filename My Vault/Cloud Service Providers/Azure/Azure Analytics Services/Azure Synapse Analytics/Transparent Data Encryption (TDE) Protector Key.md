@@ -1,3 +1,7 @@
+---
+title: Transparent Data Encryption (TDE) Protector Key
+---
+
 In Synapse data by default is encrypted  
 When using the default process we are not given a key for encryption/ decryption (It is managed by Synapse)
 

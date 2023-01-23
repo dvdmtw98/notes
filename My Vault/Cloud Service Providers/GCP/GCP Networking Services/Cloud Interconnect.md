@@ -1,3 +1,7 @@
+---
+title: Cloud Interconnect
+---
+
 Provides direct physical connection between on-premise network and Google's network  
 Allows to transfer large amounts of data between networks and is much more cost effective that purchasing bandwidth over the public network
 

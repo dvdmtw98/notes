@@ -1,3 +1,7 @@
+---
+title: Active Directory Terminologies
+---
+
 1. <u>Domain</u>  
    A domain is an area of a network managed by a single authentication database  
    An Active Directory domain is a logical grouping of AD objects on a network

@@ -1,3 +1,7 @@
+---
+title: Data Partitioning
+---
+
 Partitioned data in Stream Analytics can help parallelize the processing which in turn will increase the throughput
 
 Inputs that support Partitioning:

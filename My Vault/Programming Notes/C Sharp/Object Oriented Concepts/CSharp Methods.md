@@ -1,3 +1,7 @@
+---
+title: CSharp Methods
+---
+
 ### Params Modifier
 
 * The params modifier is used when a method takes a variable number of inputs. It is similar to the spread/ ellipsis operator in other programming languages

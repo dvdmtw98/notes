@@ -1,3 +1,7 @@
+---
+title: Service Level Agreement
+---
+
 Formal agreement between service provider and customer  
 SLA is the promise of the availability of an service (uptime and connectivity)  
 SLA is a per month Availability agreement

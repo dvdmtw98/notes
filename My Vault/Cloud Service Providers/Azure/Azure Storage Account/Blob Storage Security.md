@@ -1,3 +1,7 @@
+---
+title: Blob Storage Security
+---
+
 ### Data at Rest
 
 Data at rest is protected using Storage Service Encryption (SSE) which uses a 256 bit AES   Algorithm to encrypt and decrypt the data automatically  

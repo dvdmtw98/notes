@@ -1,3 +1,7 @@
+---
+title: CSharp Classes
+---
+
 Class member can be of two type:
 
 * **Instance** : Accessed from a Object

@@ -1,3 +1,7 @@
+---
+title: OSI Model
+---
+
 A conceptual framework that shows us how data moves through a network  
 It is only an reference model. The real world model is [TCP/IP](TCP-IP%20Model.md)
 

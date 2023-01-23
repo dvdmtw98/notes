@@ -1,3 +1,7 @@
+---
+title: NAT (Network Address Translation)
+---
+
 Converts Private IP Address to Public IP Address  
 Allows to map multiple private IP Addresses to a single public IP
 

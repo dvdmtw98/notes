@@ -1,3 +1,7 @@
+---
+title: C Pointers
+---
+
 Allows us to pass variables by its reference (address)  
 Accessing a value using its address of the pointer is called **dereferencing the pointer**
 

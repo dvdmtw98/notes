@@ -1,3 +1,7 @@
+---
+title: OSPF (Open Short Path First)
+---
+
 It is an link-state protocol  
 Using OSPF a router can learn about all the other routers and subnets within the entire network  
 All the router in the network will have the same information  

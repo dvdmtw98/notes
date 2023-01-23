@@ -1,3 +1,7 @@
+---
+title: Types of Dimension Tables
+---
+
 #### Conformed Dimension
 
 A table that can be used across multiple fact tables in a data model  

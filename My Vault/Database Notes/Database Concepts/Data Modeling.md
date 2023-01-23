@@ -1,3 +1,7 @@
+---
+title: Data Modeling
+---
+
 ### Data Model
 
 It is a framework that describes the **Data** along with its **Relationships**, the **Semantics** and the **Constraints** enforced on it  

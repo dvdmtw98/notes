@@ -1,3 +1,7 @@
+---
+title: Azure Metrics & Logs
+---
+
 **Azure Metrics**  
 The metrics of all resource are stored in the metrics store (timeseries data store) for 90 days  
 Data from the store can be sent to a target as required

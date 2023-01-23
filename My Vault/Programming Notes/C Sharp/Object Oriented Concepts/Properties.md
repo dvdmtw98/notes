@@ -1,3 +1,7 @@
+---
+title: Properties
+---
+
 * It is a class method that encapsulates a getter and setter for accessing the class fields
 * When can define just a getter or just a setter if required
 * A property without a getter is a read-only and one without a setter is write-only

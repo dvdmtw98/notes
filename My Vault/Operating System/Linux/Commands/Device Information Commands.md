@@ -1,3 +1,7 @@
+---
+title: Device Information Commands
+---
+
 ### Disk Usage
 
 ````shell

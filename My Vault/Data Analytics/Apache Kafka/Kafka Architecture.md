@@ -1,3 +1,7 @@
+---
+title: Kafka Architecture
+---
+
 * Message: A single data record passed to Kafka
 * Topic: Category or feed name to which messages are written.
 * Producer: Publishes messages to a topic

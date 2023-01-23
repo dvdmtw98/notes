@@ -1,3 +1,7 @@
+---
+title: GCP ML Services
+---
+
 ### Vertex AI
 
 Unified ML platform for building ML solutions end-to-end  

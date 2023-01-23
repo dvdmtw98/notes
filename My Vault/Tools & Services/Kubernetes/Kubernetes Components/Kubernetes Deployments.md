@@ -1,3 +1,7 @@
+---
+title: Kubernetes Deployments
+---
+
 ````bash
 # Create a Deployment
 kubectl create deployment nginx-app --image=nginx

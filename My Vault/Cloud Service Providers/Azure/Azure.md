@@ -1,3 +1,7 @@
+---
+title: Azure
+---
+
 ### Basic Cloud Concepts
 
 * [Benefits of Cloud Computing](Basic%20Cloud%20Concepts/Benefits%20of%20Cloud%20Computing.md)

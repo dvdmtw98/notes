@@ -1,3 +1,7 @@
+---
+title: Azure Blob Storage
+---
+
 It is an object store that is optimized for storing massive amounts of unstructured data (text and binary data)  
 Unstructured Data is called as Blob (Binary Large Object)  
 Blob storage is the cheapest way to store data in Azure  

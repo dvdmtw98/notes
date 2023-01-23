@@ -1,3 +1,7 @@
+---
+title: Array
+---
+
 Stored as contagious chunks in memory  
 Has the smallest footprint of all the Data Structures  
 Array Lookup : `addr(a[i]) = addr(a[0]) + i*size(object)`
@@ -22,4 +26,4 @@ Dynamic Programming
 | Appending | N/A          | O(1)\*        |
 | Deletion  | N/A          | O(n)          |
 
-When dynamic array has to be grown in size to accommodate new elements append operation is O(n) 
+When dynamic array has to be grown in size to accommodate new elements append operation is O(n)

@@ -1,3 +1,7 @@
+---
+title: CSharp Arrays
+---
+
 In C# [Array](../../../Data%20Structures%20&%20Algorithms/Data%20Structures/Array.md) have a fixed size and they need to be declared during creation, their size cannot be changed later  
 This is a [class](../Object%20Oriented%20Concepts/CSharp%20Classes.md) called Array and when we create a new array we are creating an instance of that class
 

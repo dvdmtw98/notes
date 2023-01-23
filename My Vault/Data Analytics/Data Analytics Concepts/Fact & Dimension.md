@@ -1,3 +1,7 @@
+---
+title: Fact & Dimension
+---
+
 ### Fact Table
 
 Are generally numeric in value  

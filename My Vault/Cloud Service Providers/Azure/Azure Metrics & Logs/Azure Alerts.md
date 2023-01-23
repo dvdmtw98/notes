@@ -1,3 +1,7 @@
+---
+title: Azure Alerts
+---
+
 Proactively notify the user about any issue
 
 **Alert Rules**: Condition to send alert (optionally can configure a Action Group)  

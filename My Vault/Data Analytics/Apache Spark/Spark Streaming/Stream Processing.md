@@ -1,3 +1,7 @@
+---
+title: Stream Processing
+---
+
 ````python
 trimmedDF = fileStreamDF.select( fileStreamDF.borough, fileStreamDF.year, fileStreamDF.month, fileStreamDF.value)
 	.withColumnRenamed("value", "convictions")

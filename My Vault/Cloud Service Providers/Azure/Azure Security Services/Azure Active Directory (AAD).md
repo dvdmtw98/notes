@@ -1,3 +1,7 @@
+---
+title: Azure Active Directory (AAD)
+---
+
 Enterprise Identity and Access Management service  
 Allows to sync with on-prem [Microsoft Active Directory](../../../Operating%20System/Windows/Microsoft%20Active%20Directory/Microsoft%20Active%20Directory.md)
 

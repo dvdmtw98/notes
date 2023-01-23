@@ -1,3 +1,7 @@
+---
+title: C User Input
+---
+
 ````c
 #include <stdio.h>
 

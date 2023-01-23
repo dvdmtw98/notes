@@ -1,3 +1,7 @@
+---
+title: Winget Commands
+---
+
 ````bash
 # List all packages
 winget list

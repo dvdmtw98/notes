@@ -1,3 +1,7 @@
+---
+title: Azure Monitor
+---
+
 It is a powerful reporting and analytics tool  
 It uses Log Analytics and the Metric Store as the backbone for providing resource insights
 

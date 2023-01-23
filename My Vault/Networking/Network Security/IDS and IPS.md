@@ -1,3 +1,7 @@
+---
+title: IDS and IPS
+---
+
 **Detection System**  
 Detect attacks on the network and log and report the incident (Passively)
 

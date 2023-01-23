@@ -1,3 +1,7 @@
+---
+title: Configuring Metasploit Options
+---
+
 1. <u>View Exploit Details</u>
 
 ````bash

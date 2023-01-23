@@ -1,3 +1,7 @@
+---
+title: Loading Table from Database
+---
+
 ````python
 df_mysql = spark.read.format("jdbc").option("url", "jdbc:mysql://localhost:3306/sqoopdb")
 	.option("driver", "com.mysql.jdbc.Driver")

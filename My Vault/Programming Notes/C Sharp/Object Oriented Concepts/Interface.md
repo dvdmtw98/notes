@@ -1,3 +1,7 @@
+---
+title: Interface
+---
+
 They have a similar to [structures](Structs.md) and [classes](CSharp%20Classes.md). [Methods](CSharp%20Methods.md) in Interfaces do not have a declaration (they are only defined similar to [Abstract](Abstract%20&%20Sealed%20Class.md) Methods)  
 [Access Modifiers](Access%20Modifiers.md) are also not specified for the methods in a Interface  
 Interfaces are used to design loosely coupled applications  

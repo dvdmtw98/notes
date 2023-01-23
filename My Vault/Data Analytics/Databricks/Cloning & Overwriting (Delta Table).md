@@ -1,3 +1,7 @@
+---
+title: Cloning & Overwriting (Delta Table)
+---
+
 ### Cloning Data
 
 **Deep Clone**: Physically copies the data over and by running command again the new data can be synced into copy as well  

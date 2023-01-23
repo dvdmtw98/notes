@@ -1,3 +1,7 @@
+---
+title: Temporal Tables
+---
+
 * Temporal Table or System versioned Temporal Table is a pair of two tables (current table and history table) that is used to track the current valid value and values that where valid in the past (historic values)
 * They are created using the normal create table statement along with the `SYSTEM_VERSIONING = ON` clause
 * We can specify an table that needs to be used as history table else an table will be automatically created by the system

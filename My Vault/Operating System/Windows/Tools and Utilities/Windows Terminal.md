@@ -1,3 +1,7 @@
+---
+title: Windows Terminal
+---
+
 ### Split Panes
 
 Alt + Shift + - (Horizontal Split)  

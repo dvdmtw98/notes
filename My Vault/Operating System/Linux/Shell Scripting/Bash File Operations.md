@@ -1,3 +1,7 @@
+---
+title: Bash File Operations
+---
+
 1. <u>Read File (1st Method)</u>
 
 ````shell

@@ -1,3 +1,7 @@
+---
+title: VPN Server
+---
+
 Connects our device to the private network of the VPN server  
 VPN Server essentially extends its private network to include our device using the public network  
 A tunnel is established between the client and VPN Server which encrypts all the data

@@ -1,3 +1,7 @@
+---
+title: IPv6 (Internet Protocol v6) Address
+---
+
 Developed because we are running out of IPv4 addresses  
 It is 128 bit address. It makes use of complex hexadecimal format  
 IPv6 represent in Eight 16 bit Hexadecimal Blocks. They are separated with Colon  

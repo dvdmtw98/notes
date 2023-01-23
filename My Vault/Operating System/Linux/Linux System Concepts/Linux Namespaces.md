@@ -1,3 +1,7 @@
+---
+title: Linux Namespaces
+---
+
 Provides processes with there own view  
 Namespace allows to limit what an process can see  
 We cannot use/affect what we cannot see

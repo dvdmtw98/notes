@@ -1,3 +1,7 @@
+---
+title: Binary Heap
+---
+
 In Binary Heap each node can have at most only 2 child nodes  
 Elements in Binary Heaps are added from left to right  
 Heaps do not have concept of being Unbalanced (It is an Complete Tree)

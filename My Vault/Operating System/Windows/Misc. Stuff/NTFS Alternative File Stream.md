@@ -1,3 +1,7 @@
+---
+title: NTFS Alternative File Stream
+---
+
 All files contains a main stream called `$DATA`. This stores the regular file contents  
 Additional streams can be created for hiding additional data (Even binary data like image can be added into a stream)  
 When viewing the size of the file the size of the alternative streams are not included  

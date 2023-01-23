@@ -1,3 +1,7 @@
+---
+title: WPA - WPA2 (Wi-Fi Protected Access)
+---
+
 Each packet is encrypted using an unique temporary key  
 WPA uses TKIP for encryption and WPA2 uses CCMP for encryption
 

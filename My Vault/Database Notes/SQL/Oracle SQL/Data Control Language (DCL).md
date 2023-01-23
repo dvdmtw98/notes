@@ -1,3 +1,7 @@
+---
+title: Data Control Language (DCL)
+---
+
 It is used to grant, revoke privileges on tables, view, etc. for a user or role
 
 * System Privileges: Granted by DBA to user. All to run commands like SELECT, CREATE, UPDATE

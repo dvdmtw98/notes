@@ -1,3 +1,7 @@
+---
+title: Streaming Units
+---
+
 Streaming Units assigned for each job is variable and is dependent on the partition configuration  
 It is best practice to always use more than what is required  
 Streaming Unit % Utilization is the amount of memory that is consumed by the workload  

@@ -1,3 +1,7 @@
+---
+title: Log Structure Merge (LSM) Tree
+---
+
 **<u>In-memory Storage</u>**  
 Incoming write operators are batched and saved in memory in a structure called memtable  
 The data in the memtable is ordered using the Object Key is is usually implemented as a Binary Tree

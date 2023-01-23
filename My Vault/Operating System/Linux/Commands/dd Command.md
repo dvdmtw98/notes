@@ -1,3 +1,7 @@
+---
+title: dd Command
+---
+
 ````shell
 dd if=/dev/zero of=zero bs=1M count=1024 # Make a 1GB File
 dd if=<iso-file> of=<drive-path> # Write ISO to Drive

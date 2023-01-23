@@ -1,3 +1,7 @@
+---
+title: Role Based Access Control (RBAC)
+---
+
 RBAC is an Authorization system present in Azure based on Azure Resource Manager (ARM)  
 Provides fine grained access to Resources  
 Scopes are hierarchical  

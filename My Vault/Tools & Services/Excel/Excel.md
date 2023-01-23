@@ -1,3 +1,7 @@
+---
+title: Excel
+---
+
 Numeric values are always right aligned. This is done so that floating point numbers will have the decimal points neatly aligned one below the other
 
 Date values are also internally treated as numeric type so even they are right aligned. The default format is MM/DD/YYYY (It can defer from region to region)

@@ -1,3 +1,7 @@
+---
+title: IPv4 (Internet Protocol v4) Address
+---
+
 Logical address that is used to uniquely identify a device on the network  
 It is used for communication from one network to another (WAN) or over the Internet
 It is an connectionless protocol  

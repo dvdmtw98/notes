@@ -1,3 +1,7 @@
+---
+title: cut Command
+---
+
 ````shell
 cut -d ' ' -f 2-5 <filename>
 cut -d ' ' -f 2,6 --complement <filename>

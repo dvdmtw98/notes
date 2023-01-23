@@ -1,3 +1,7 @@
+---
+title: Kinesis Key Terms
+---
+
 ### Kinesis Data Stream
 
 A collection of shards  

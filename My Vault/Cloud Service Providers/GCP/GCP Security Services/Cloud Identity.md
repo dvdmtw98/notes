@@ -1,3 +1,7 @@
+---
+title: Cloud Identity
+---
+
 It is a Identity as a Service (IDaaS) that centrally manages users and groups  
 Federates Identities between GCP, Active Directory, Azure AD, etc.
 

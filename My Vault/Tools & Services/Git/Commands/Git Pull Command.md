@@ -1,3 +1,7 @@
+---
+title: Git Pull Command
+---
+
 ````bash
 # Download remote changes
 git fetch <remote-name>

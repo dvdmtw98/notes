@@ -1,3 +1,7 @@
+---
+title: Database Notes
+---
+
 ### Table of Content
 
 * **SQL Databases**

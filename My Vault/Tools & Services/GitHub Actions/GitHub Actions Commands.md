@@ -1,3 +1,7 @@
+---
+title: GitHub Actions Commands
+---
+
 ## Workflow Structure
 
 All actions are repositories that contain logic that can be used to perform a task  

@@ -1,3 +1,7 @@
+---
+title: Kubernetes Services
+---
+
 A service is an stable/ consistent endpoint that can be used by other pods/services inside or outside the cluster to access a Pod  
 Service has two Functions : Permanent IP Address & Load Balancer  
 Service spans across the entire cluster (As Pods can be on different Nodes)

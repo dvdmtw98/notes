@@ -1,3 +1,7 @@
+---
+title: Azure Resources
+---
+
 ### Subscription
 
 Billing unit for the entire Azure account

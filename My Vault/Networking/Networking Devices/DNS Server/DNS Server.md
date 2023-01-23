@@ -1,3 +1,7 @@
+---
+title: DNS Server
+---
+
 ### Table of Content
 
 * [DNS Working](DNS%20Working.md)

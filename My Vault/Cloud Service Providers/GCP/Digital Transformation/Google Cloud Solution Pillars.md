@@ -1,3 +1,7 @@
+---
+title: Google Cloud Solution Pillars
+---
+
 1. **<u>Infrastructure Modernization</u>**  
    Replacing legacy hardware and software with cloud offerings  
    Allows organizations to adopt hybrid architectures and have higher infrastructure mobility  

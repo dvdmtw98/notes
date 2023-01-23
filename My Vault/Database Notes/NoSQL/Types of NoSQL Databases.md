@@ -1,3 +1,7 @@
+---
+title: Types of NoSQL Databases
+---
+
 ### Key Value Stores
 
 They are a very single database but they are really fast  

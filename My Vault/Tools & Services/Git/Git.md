@@ -1,3 +1,7 @@
+---
+title: Git
+---
+
 ### Table of Content
 
 * [Git Config Command](Commands/Git%20Config%20Command.md)

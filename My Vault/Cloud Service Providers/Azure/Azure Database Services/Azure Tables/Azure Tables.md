@@ -1,3 +1,7 @@
+---
+title: Azure Tables
+---
+
 Stores NoSQL data (Key Value data with schema-less design)  
 Stores non-relational data with a schema-less design  
 Follows a Consumption based pricing model  

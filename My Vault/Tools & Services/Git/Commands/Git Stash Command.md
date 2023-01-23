@@ -1,3 +1,7 @@
+---
+title: Git Stash Command
+---
+
 ````bash
 # Stash the changes made temporarily
 git stash 					

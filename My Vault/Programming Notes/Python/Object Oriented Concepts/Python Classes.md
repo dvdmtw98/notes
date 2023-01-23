@@ -1,3 +1,7 @@
+---
+title: Python Classes
+---
+
 The [attributes](Attributes.md)/ [properties](Property.md) in a class can be of two types : Class attributes and Instance attributes (Static not supported)  
 The [methods](Python%20Methods.md) in a class can be of three types : Instance Methods, Class Methods and Static Methods
 

@@ -1,3 +1,7 @@
+---
+title: sftp Command
+---
+
 ### Connect to Server using SFTP
 
 ````shell

@@ -1,3 +1,7 @@
+---
+title: Data Redundancy Options
+---
+
 ### Locally-Redundant Storage (LRS)
 
 Copies data synchronously three times within a single AZ in the primary region  

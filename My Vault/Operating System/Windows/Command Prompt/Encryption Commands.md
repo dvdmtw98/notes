@@ -1,3 +1,7 @@
+---
+title: Encryption Commands
+---
+
 The cipher command is not supported on Windows Home edition
 
 ````batch

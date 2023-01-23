@@ -1,3 +1,7 @@
+---
+title: Migration Path
+---
+
 ### Assess
 
 In the assessment phase, you gather information about the workloads you want to migrate and their current runtime environment

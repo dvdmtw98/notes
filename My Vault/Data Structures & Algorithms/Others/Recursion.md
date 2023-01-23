@@ -1,3 +1,7 @@
+---
+title: Recursion
+---
+
 Every Recursive function needs to have a base case (Else will cause Stack overflow)
 Recursive functions always have at minimum two return statements (Base case and recursive case)
 

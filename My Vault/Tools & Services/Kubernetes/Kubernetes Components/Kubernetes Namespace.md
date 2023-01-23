@@ -1,3 +1,7 @@
+---
+title: Kubernetes Namespace
+---
+
 Namespaces are used to logically segregate objects in the cluster  
 Namespaces allows to define quotes which can be used to ensure that all namespaces have enough resources
 

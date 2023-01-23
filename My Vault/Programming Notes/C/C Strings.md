@@ -1,3 +1,7 @@
+---
+title: C Strings
+---
+
 If we create an char array using `char *` the resulting string is read only string called as string literal  
 String literals can be reinitialized  
 Character arrays cannot be reinitialized  

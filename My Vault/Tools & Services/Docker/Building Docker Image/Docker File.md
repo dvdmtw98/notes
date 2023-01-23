@@ -1,3 +1,7 @@
+---
+title: Docker File
+---
+
 Generally created with the filename "Dockerfile" and saved in the root of the project  
 Another name can be used as well but during build the file name needs to be specified explicitly using the `-f` flag
 

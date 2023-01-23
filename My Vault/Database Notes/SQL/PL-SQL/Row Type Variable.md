@@ -1,3 +1,7 @@
+---
+title: Row Type Variable
+---
+
 Table based Record Datatype: Returns a single row of all the columns from the table
 
 ````plsql

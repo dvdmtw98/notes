@@ -1,3 +1,7 @@
+---
+title: Hiragana W-Column & N
+---
+
 ### W-Column
 
 わ (wa) : **Whi**te S**wa**n

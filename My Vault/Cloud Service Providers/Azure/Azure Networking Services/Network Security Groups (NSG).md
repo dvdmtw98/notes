@@ -1,3 +1,7 @@
+---
+title: Network Security Groups (NSG)
+---
+
 Designed to filter traffic going to and from the Resources that are present in a Virtual Network
 Rules are used for creating Filters
 
@@ -9,4 +13,3 @@ Rules are used for creating Filters
 * Ports
 * Direction
 * Priority (Order of Evaluation)
-

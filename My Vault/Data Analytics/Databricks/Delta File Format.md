@@ -1,3 +1,7 @@
+---
+title: Delta File Format
+---
+
 Delta Lake adds ACID Properties on Data  
 Data Lake API: Enforces & Validates Schema on top of Files in Data lake  
 JSON Transactional Logs: Manages changes & operations performed on files  

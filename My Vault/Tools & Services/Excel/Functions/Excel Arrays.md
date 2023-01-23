@@ -1,3 +1,7 @@
+---
+title: Excel Arrays
+---
+
 Arrays in Excel can be created as follows {"Apple", "Orange"}  
 An formula can be converted into a Array Formula by using `Ctrl + Shift + Enter`
 

@@ -1,3 +1,7 @@
+---
+title: Azure Compute Services
+---
+
 ### Virtualization
 
 Emulation of physical hardware  

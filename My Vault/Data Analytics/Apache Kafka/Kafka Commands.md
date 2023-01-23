@@ -1,3 +1,7 @@
+---
+title: Kafka Commands
+---
+
 ### Start Zookeeper
 
 ````bash

@@ -1,3 +1,7 @@
+---
+title: Lightweight Directory Access Protocol (LDAP)
+---
+
 It is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol (IP) network
 
 A common use of LDAP is to provide central place to store usernames and passwords

@@ -1,3 +1,7 @@
+---
+title: Azure Tables Partitioning
+---
+
 We need to define a partition key and row key which is used to access the data (Both need to be of string type)  
 Each row has an timestamp value associated as well which is used to track when the value was last updated we cannot edit this value
 

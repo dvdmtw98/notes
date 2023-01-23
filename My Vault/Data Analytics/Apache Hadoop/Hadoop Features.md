@@ -1,3 +1,7 @@
+---
+title: Hadoop Features
+---
+
 1. Scalability
 	* Horizontal (Add new nodes to the cluster)
 	* Vertical (Increase the performance of an single device)

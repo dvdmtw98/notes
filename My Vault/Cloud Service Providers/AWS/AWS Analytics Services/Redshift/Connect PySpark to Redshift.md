@@ -1,3 +1,7 @@
+---
+title: Connect PySpark to Redshift
+---
+
 ## Connect Redshift to Spark
 
 Download the JDBC jar file and copy in Spark jar directory (redshift-jdbc42-1.2.43.1067)

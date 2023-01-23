@@ -1,3 +1,7 @@
+---
+title: Databricks SQL (Misc.)
+---
+
 ### Databases
 
 Default location of database  **`dbfs:/user/hive/warehouse/<database_name>.db/`**  

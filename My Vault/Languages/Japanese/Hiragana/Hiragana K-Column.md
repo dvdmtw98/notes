@@ -1,3 +1,7 @@
+---
+title: Hiragana K-Column
+---
+
 ### K-Column
 
 か (ka) : Blade Cutting Stick

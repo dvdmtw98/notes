@@ -1,3 +1,7 @@
+---
+title: Entity Framework
+---
+
 It is an **ORM (Object Relation Mapper)** that allows us to work with our databases at an higher level of abstraction
 
 DbContext : Connection to Database  

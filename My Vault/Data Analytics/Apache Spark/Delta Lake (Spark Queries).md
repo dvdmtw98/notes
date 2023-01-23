@@ -1,3 +1,7 @@
+---
+title: Delta Lake (Spark Queries)
+---
+
 It enables ACID properties in Spark. DML commands can then be performed in Spark.  
 Delta tables can be viewed as External Table as it is not managed by Hive  
 Delta Lake acts as an intermediatory between Spark and the Storage Layer

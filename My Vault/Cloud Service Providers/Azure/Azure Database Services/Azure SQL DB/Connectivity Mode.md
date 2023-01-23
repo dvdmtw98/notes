@@ -1,3 +1,7 @@
+---
+title: Connectivity Mode
+---
+
 Azure SQL database will connect to a gateway on port 1433  
 When we request a connection to the DB we are connecting to the gateway (When connecting from On-premises)
 

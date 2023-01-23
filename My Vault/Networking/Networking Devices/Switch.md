@@ -1,3 +1,7 @@
+---
+title: Switch
+---
+
 ### Switch (Switching Hub)
 
 Similar to an [Hub](Hub.md) i.e. allows to connect multiple devices together in a network  

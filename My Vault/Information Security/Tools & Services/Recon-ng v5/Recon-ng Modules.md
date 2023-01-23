@@ -1,3 +1,7 @@
+---
+title: Recon-ng Modules
+---
+
 Modules are used to gather the various information. Modules are installed from the workspace  
 D : Modules has an dependency  
 K : Requires API Key

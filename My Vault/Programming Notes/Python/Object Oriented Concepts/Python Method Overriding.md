@@ -1,3 +1,7 @@
+---
+title: Python Method Overriding
+---
+
 When when the child [class](Python%20Classes.md) overrides the [method](Python%20Methods.md) of the parent class we can say that the child method has overridden the method of the parent class
 
 ````python

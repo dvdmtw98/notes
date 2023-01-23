@@ -1,3 +1,7 @@
+---
+title: Modular Exponentiation
+---
+
 ### Example 1
 
 $23^3 \mod 30$  

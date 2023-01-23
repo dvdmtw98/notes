@@ -1,3 +1,7 @@
+---
+title: Oracle Database Config
+---
+
 ### Oracle Database 11g
 
 Go to services.msc and set the below services to manual and then from CMD/ PowerShell run the following commands

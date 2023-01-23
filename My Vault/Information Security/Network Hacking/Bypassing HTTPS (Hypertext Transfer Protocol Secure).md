@@ -1,3 +1,7 @@
+---
+title: Bypassing HTTPS (Hypertext Transfer Protocol Secure)
+---
+
 HTTP + TLS (Transport Layer Security) / SSL (Secure Socket Layer)  
 Downgrade HTTPS to HTTP to be able to read the data (SSL Stripping)
 

@@ -1,3 +1,7 @@
+---
+title: Azure Security Center
+---
+
 Continuously scans services (IaaS, PaaS) to ensure they are protected  
 Provides recommendations  
 Agents can be installed on on-premises resources to protect them as well in Hybrid Cloud  

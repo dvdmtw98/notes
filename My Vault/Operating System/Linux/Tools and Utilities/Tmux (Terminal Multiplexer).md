@@ -1,3 +1,7 @@
+---
+title: Tmux (Terminal Multiplexer)
+---
+
 In Tmux there are sessions, sessions have windows and windows have panes  
 Tmux does not use the concept of modes rather prefixed each of the command has hotkey (Default : Ctrl + B)
 

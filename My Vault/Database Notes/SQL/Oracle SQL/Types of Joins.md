@@ -1,3 +1,7 @@
+---
+title: Types of Joins
+---
+
 ### EQUI Join
 
 In this join the tables are join together by making use of the '=' operator in the WHERE clause  

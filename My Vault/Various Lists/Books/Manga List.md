@@ -1,5 +1,6 @@
 ---
 cssclass: numbered-rows, wide-page
+title: Manga List
 ---
 
 | No. |                         Cover                          |       Name        |      Author      |                    Genre                     |                              MyAnimeList                               |   Status   |

@@ -1,3 +1,7 @@
+---
+title: Window Transformations
+---
+
 Windows transformations are stateful transformations as information is accumulated per window  
 A window is a subset of a Stream  
 Event time is used for windowing in structure streaming

@@ -1,3 +1,7 @@
+---
+title: GCP Compute Services
+---
+
 ### Compute Engine
 
 Allows to deploy scalable, high performance VMs  

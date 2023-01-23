@@ -1,3 +1,7 @@
+---
+title: Topics and Partition
+---
+
 * Can have multiple brokers on same machine. Each broker has an Broker Id
 * Messages in Kafka are variable size byte array. Can use any data format as per need
 * No size limit on message (Optimal: KBs, Practical: 1 MB)

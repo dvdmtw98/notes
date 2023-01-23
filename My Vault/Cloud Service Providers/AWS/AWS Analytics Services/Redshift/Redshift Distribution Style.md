@@ -1,3 +1,7 @@
+---
+title: Redshift Distribution Style
+---
+
 The query optimizer redistributes the rows to the compute nodes as needed to perform aggregate and joins  
 The goal is to reduce the redistribution of data that is required for performing operations
 

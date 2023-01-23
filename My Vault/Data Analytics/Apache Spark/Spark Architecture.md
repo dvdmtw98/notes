@@ -1,3 +1,7 @@
+---
+title: Spark Architecture
+---
+
 ![Spark Architecture|500](images/spark_architecture.png)
 
 Spark is a In-memory processing engine  

@@ -1,3 +1,7 @@
+---
+title: File Formats
+---
+
 ![File Format Comparision|600](images/file_format_comparision.png)
 
 ### RCF and ORC

@@ -1,3 +1,7 @@
+---
+title: File System Structure
+---
+
 FHS : Filesystem Hierarchy Standard  
 Defines the Structure and Layout of the FS maintained by the Linux Foundation  
 Not necessary to be followed exactly

@@ -1,3 +1,7 @@
+---
+title: Kubernetes StatefulSet
+---
+
 An sticky identity is assigned to each Pod in the Set  
 The numbers are assigned sequentially starting from zero
 

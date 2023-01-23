@@ -1,3 +1,7 @@
+---
+title: Bash
+---
+
 ### Table of Content
 
 * [Bash Variables](Bash%20Variables.md)

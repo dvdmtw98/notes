@@ -1,3 +1,7 @@
+---
+title: Git Tag Command
+---
+
 Tags are ref's (like HEAD) that point to specific points in Git history  
 Tagging is generally used to capture a point in history that is used for a marked version release
 

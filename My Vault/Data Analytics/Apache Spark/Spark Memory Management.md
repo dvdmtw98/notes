@@ -1,3 +1,7 @@
+---
+title: Spark Memory Management
+---
+
 ### RAM
 
 Reserved Memory  

@@ -1,3 +1,7 @@
+---
+title: Cloud Deployment Model
+---
+
 ### Public Cloud
 
 Everything runs on Cloud providers hardware  

@@ -1,3 +1,7 @@
+---
+title: DNS Zones
+---
+
 Zones are where the records in the DNS are stored (Records are stored in Text files)  
 A DNS client is called as Resolver
 

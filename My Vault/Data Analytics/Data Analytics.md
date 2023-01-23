@@ -1,3 +1,7 @@
+---
+title: Data Analytics
+---
+
 ### Data Analytics Concepts
 
 * **Dimensional** [Data Modeling](../Database%20Notes/Database%20Concepts/Data%20Modeling.md)

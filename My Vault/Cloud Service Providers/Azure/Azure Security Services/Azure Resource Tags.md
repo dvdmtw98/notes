@@ -1,3 +1,7 @@
+---
+title: Azure Resource Tags
+---
+
 Allows to add extra information to resources (They are Key Value pair)  
 Tags are another way to group resources in Azure similar to resource groups  
 Multiple tags can be assigned to a resource

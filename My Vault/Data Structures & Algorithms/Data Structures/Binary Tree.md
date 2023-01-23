@@ -1,3 +1,7 @@
+---
+title: Binary Tree
+---
+
 ### Uses
 
 DOM (Document Object Model)  

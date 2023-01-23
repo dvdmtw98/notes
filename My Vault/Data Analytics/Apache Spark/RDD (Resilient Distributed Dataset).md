@@ -1,3 +1,7 @@
+---
+title: RDD (Resilient Distributed Dataset)
+---
+
 It is the underlying Data Structure used by Spark  
 RDD is nothing but an collection of partitions  
 When data is stored in HDFS it is stored in the form of blocks when this is imported into Spark its converted into RDD

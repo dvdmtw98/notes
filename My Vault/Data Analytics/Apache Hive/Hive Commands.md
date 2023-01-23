@@ -1,3 +1,7 @@
+---
+title: Hive Commands
+---
+
 ### Create DB
 
 ````sql

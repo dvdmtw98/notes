@@ -1,3 +1,7 @@
+---
+title: Recon-ng Databases
+---
+
 All the information from the various tools are saved in the database of the workspace which can be later used for generating reports and querying for more information
 
 ````bash

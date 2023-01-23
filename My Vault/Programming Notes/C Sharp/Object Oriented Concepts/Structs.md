@@ -1,3 +1,7 @@
+---
+title: Structs
+---
+
 Struct is used when we need to declare small lightweight object like RGB color, Point with X and Y co-ordinate  
 The same logic can be declared using [Classes](CSharp%20Classes.md) as well
 

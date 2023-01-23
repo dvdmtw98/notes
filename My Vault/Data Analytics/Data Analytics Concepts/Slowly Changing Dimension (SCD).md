@@ -1,3 +1,7 @@
+---
+title: Slowly Changing Dimension (SCD)
+---
+
 They are the mostly commonly used dimensional technique used in dimensional data warehouses  
 When there are fast changing dimensions they are generally stored in the fact table as a measure and the slowly changing dimension is saved in the dimension table only and extra columns are added to keep track of the change
 

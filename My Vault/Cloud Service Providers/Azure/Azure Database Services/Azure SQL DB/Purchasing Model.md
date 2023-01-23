@@ -1,3 +1,7 @@
+---
+title: Purchasing Model
+---
+
 ### DTU
 
 It is only available in Azure SQL Database  

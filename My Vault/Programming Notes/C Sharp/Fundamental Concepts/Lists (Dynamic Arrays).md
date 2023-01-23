@@ -1,3 +1,7 @@
+---
+title: Lists (Dynamic Arrays)
+---
+
 * Lists are similar to [CSharp Arrays](CSharp%20Arrays.md) but they have dynamic size (Useful when we don’t know the space required beforehand)
 * List is a [Generics](../Advanced%20Concepts/CSharp%20Generics.md) type. All generic type uses `<...>` in its declaration
 * Most of the times in newer code Lists are used instead of Arrays

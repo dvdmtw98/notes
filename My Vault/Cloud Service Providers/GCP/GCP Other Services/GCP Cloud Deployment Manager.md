@@ -1,3 +1,7 @@
+---
+title: GCP Cloud Deployment Manager
+---
+
 It is Google Cloud's IaC service  
 We can write YAML file that can then be executed via the Cloud CLI
 

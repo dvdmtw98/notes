@@ -1,3 +1,7 @@
+---
+title: Reading AVRO File
+---
+
 ````bash
 pyspark --packages org.apache.spark:spark-avro_2.11:2.4.0
 ````

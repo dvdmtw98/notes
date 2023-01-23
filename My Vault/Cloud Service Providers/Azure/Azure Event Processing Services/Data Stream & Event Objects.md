@@ -1,3 +1,7 @@
+---
+title: Data Stream & Event Objects
+---
+
 ### Data Stream
 
 A data stream is anything that is emitted by IoT devices, applications or data producers

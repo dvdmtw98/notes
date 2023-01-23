@@ -1,3 +1,7 @@
+---
+title: C Functions
+---
+
 For creating an function we first need to **declare** the function (Function Prototype) and then **implement** the function (Function Definition)  
 Function Prototype is option but is the recommended way of declaring functions
 

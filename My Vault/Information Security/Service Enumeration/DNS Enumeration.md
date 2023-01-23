@@ -1,3 +1,7 @@
+---
+title: DNS Enumeration
+---
+
 1. <u>Host</u>
 
 ````bash

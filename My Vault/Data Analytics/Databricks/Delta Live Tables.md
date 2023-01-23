@@ -1,3 +1,7 @@
+---
+title: Delta Live Tables
+---
+
 Allows to define pipelines in Databricks  
 Allows to define the pipelines using SQL 
 

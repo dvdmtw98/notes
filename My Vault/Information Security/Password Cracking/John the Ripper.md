@@ -1,3 +1,7 @@
+---
+title: John the Ripper
+---
+
 <u>List Supported Formats</u>
 
 ````bash

@@ -1,3 +1,7 @@
+---
+title: xfreerdp Command
+---
+
 ````shell
 xfreerdp <options><username><hostname>
 xfreerdp /u:<hostname> /p:<password> /v:<hostname>

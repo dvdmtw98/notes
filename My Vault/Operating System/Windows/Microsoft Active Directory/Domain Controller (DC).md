@@ -1,3 +1,7 @@
+---
+title: Domain Controller (DC)
+---
+
 * It is a server computer that responds to security authentication requests within a computer network domain
 * The services that run on the Domain Controller is called as Domain Services
 * It is a network server that is responsible for allowing host access to domain resources

@@ -1,3 +1,7 @@
+---
+title: Python Methods
+---
+
 ### Instance Method
 
 * They are methods that are tied to the instance of an [class](Python%20Classes.md)

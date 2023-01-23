@@ -1,3 +1,7 @@
+---
+title: Switch MAC Address Learning
+---
+
 Switch has an internal table which is used to store information about the port the data originated from and the MAC address of the source
 
 <u>Working</u>

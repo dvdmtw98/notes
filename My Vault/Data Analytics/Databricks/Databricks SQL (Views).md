@@ -1,3 +1,7 @@
+---
+title: Databricks SQL (Views)
+---
+
 ### View
 
 No Materialized Views are present in Databricks  

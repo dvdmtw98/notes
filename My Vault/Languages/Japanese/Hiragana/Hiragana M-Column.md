@@ -1,3 +1,7 @@
+---
+title: Hiragana M-Column
+---
+
 ### M-Column
 
 ま (ma) : **Ma**n in a **Ma**sk

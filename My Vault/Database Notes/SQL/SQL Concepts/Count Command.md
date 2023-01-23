@@ -1,3 +1,7 @@
+---
+title: Count Command
+---
+
 ### Count Command
 
 `COUNT(*)` : Returns the count of records in a table. NULL records are also included

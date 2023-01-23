@@ -1,3 +1,7 @@
+---
+title: S3 Storage Classes
+---
+
 ### Standard
 
 Low latency  

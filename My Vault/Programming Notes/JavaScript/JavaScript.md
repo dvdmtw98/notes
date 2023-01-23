@@ -1,3 +1,7 @@
+---
+title: JavaScript
+---
+
 ### Table of Content
 
 * [JS - Under the Hood](JS%20-%20Under%20the%20Hood.md)

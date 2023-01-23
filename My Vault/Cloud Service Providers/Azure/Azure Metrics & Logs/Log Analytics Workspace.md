@@ -1,3 +1,7 @@
+---
+title: Log Analytics Workspace
+---
+
 Was previously called Azure Monitor Logs  
 Azure Log Analytics + Azure Metrics Database = [Azure Monitor](../Azure%20Billing%20&%20Support/Azure%20Monitor.md)
 

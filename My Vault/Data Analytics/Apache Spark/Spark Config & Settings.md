@@ -1,3 +1,7 @@
+---
+title: Spark Config & Settings
+---
+
 <u>Master</u>    
 start-spark.sh  
 localhost:8080

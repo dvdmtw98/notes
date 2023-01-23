@@ -1,3 +1,7 @@
+---
+title: Process Management Commands
+---
+
 ### Process Management
 
 The `ps` command is used to view the running processes on a system  

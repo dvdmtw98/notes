@@ -1,3 +1,7 @@
+---
+title: Primitives Datatype
+---
+
 [Built-in types - C# reference | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types)
 
 Constants must be initialized during declaration  

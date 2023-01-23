@@ -1,3 +1,7 @@
+---
+title: Katakana T-Column
+---
+
 ### T-Column
 
 タ (ta) : Person holding a **Ta**blet  

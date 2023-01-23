@@ -1,3 +1,7 @@
+---
+title: CIDR (Classless Inter-Domain Routing)
+---
+
 Also called as **Slash Notation**  
 Represents the IP address with an n which is used to identify the Network ID from the IP address  
 e.g. 192.169.10.0/24

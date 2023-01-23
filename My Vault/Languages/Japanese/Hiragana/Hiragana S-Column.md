@@ -1,3 +1,7 @@
+---
+title: Hiragana S-Column
+---
+
 ### S-Column
 
 さ (sa) : Sad, Sighing Face

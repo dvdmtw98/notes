@@ -1,3 +1,7 @@
+---
+title: cURL Command
+---
+
 ````bash
 curl -X GET https://www.google.com [-v]
 ````

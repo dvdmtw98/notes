@@ -1,3 +1,7 @@
+---
+title: Hadoop Shell Commands
+---
+
 ### Start All Daemons
 
 ````bash

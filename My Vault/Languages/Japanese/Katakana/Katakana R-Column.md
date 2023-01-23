@@ -1,3 +1,7 @@
+---
+title: Katakana R-Column
+---
+
 ### R-Column
 
 ラ (ra) : **Ro**cking Chair

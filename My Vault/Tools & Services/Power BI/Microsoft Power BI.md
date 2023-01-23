@@ -1,3 +1,7 @@
+---
+title: Microsoft Power BI
+---
+
 It is an tool for visualization of business data  
 BI is both a data analysis strategy and technology for business information
 

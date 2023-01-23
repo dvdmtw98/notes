@@ -1,3 +1,7 @@
+---
+title: Literal and Operators
+---
+
 ### Literals
 
 A number, character or a date included in SELECT statement  

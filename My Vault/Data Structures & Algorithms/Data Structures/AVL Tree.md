@@ -1,3 +1,7 @@
+---
+title: AVL Tree
+---
+
 AVL Tree is an type of BST that will automatically balance itself which in turn ensures that we have log(n) time complexity for all the operations
 
 ### Time Complexity

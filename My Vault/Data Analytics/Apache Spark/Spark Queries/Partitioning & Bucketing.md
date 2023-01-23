@@ -1,3 +1,7 @@
+---
+title: Partitioning & Bucketing
+---
+
 ### Dynamic Partition
 
 ````python

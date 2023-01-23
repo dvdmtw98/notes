@@ -1,3 +1,7 @@
+---
+title: Router
+---
+
 Used to facilitate communication between different networks  
 Routers have a IP Address and MAC Address for each of its interface  
 It learns which networks are connected to each of its interfaces

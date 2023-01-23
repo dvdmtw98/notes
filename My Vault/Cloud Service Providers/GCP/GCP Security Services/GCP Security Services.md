@@ -1,3 +1,7 @@
+---
+title: GCP Security Services
+---
+
 ### Cloud Asset Inventory
 
 View, monitor and analyze Google Cloud and [Anthos](../GCP%20Hybrid%20Cloud%20Services/Anthos.md) assets across projects and services

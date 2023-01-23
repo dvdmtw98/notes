@@ -1,3 +1,7 @@
+---
+title: grep Command
+---
+
 ````shell
 grep -n "pattern" filename
 man find | grep -e "-exec" (Extended Regex Find)

@@ -1,3 +1,7 @@
+---
+title: Programming Notes
+---
+
 ### Table of Content
 
 1. **Programming Languages**

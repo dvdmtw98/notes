@@ -1,3 +1,7 @@
+---
+title: Upcasting and Downcasting
+---
+
 **Upcasting**: Creating a base (Parent) [class](CSharp%20Classes.md) reference from a subclass (Child) reference.   Upcasting is performed explicitly (No need of casting)
 
 **Downcasting**: Creating a subclass (Child) class reference from a base (Parent) class reference

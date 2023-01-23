@@ -1,3 +1,7 @@
+---
+title: Wide Area Network (WAN)
+---
+
 WANs connect smaller networks together (LANs, CANs, MANs)  
 Covers an relatively large area (Countries, Cities)
 

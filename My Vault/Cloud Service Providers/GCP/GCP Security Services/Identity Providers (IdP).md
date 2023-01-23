@@ -1,3 +1,7 @@
+---
+title: Identity Providers (IdP)
+---
+
 A system entity that creates, maintains and manages identity information for principals and also provides authentication services to applications within a federation or distributed network
 
 A trusted provider of your user identity that lets you use authentication to access other services  

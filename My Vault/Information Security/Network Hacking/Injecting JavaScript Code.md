@@ -1,3 +1,7 @@
+---
+title: Injecting JavaScript Code
+---
+
 Create a .js with the code to be executed  
 In the payloads line of the hstshijack.cap file add the new .js file : `<site-to-attack>:<path-to-script>`
 

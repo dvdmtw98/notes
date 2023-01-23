@@ -1,3 +1,7 @@
+---
+title: Hive Default Partitioning
+---
+
 The partition is not defined by the user it is decided based on the data and its hash value.  
 Bucketing is mainly used when we want to sample data. It is also used when we have indefinite data and cannot be partitioned  
 Bucketing is the concept used by MapReduce to create partitions  

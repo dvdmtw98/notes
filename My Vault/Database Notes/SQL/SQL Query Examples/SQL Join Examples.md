@@ -1,3 +1,7 @@
+---
+title: SQL Join Examples
+---
+
 ### Fetch the details of doctors who work in the same hospital but in different specialty
 
 ![Doctor Table|900](../images/doctor_table.png)

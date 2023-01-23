@@ -1,3 +1,7 @@
+---
+title: Kubernetes ConfigMap & Secrets
+---
+
 ConfigMap and Secrets are mounted as volumes when they need to be used by a Pod
 
 ### Kubernetes Secrets

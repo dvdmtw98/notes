@@ -1,3 +1,7 @@
+---
+title: SQL Concepts
+---
+
 ### Database Concepts
 
 * **Relational** [Data Modeling](../../Database%20Concepts/Data%20Modeling.md)

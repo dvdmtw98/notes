@@ -1,3 +1,7 @@
+---
+title: Mana-Toolkit
+---
+
 Mana-Toolkit is used to create an Fake Access Point. If the target connected to our access point then we automatically become the MITM  
 [GitHub - sensepost/berate_ap: Script for orchestrating mana rogue WiFi Access Points.](https://github.com/sensepost/berate_ap) (Alternative)
 

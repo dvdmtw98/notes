@@ -1,3 +1,7 @@
+---
+title: Git Diff Command
+---
+
 ````bash
 # Difference between the local file and previous commit
 git diff filename

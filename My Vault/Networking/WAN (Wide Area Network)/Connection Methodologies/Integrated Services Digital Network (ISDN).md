@@ -1,3 +1,7 @@
+---
+title: Integrated Services Digital Network (ISDN)
+---
+
 Original high speed Internet Connection  
 Uses POTS network system that operates via Circuit Switching  
 Allows simultaneously have data transfer (internet) and phone call at the same time (The internet was transmitted digitally over POTS while the telephone signal was transferred in analog)

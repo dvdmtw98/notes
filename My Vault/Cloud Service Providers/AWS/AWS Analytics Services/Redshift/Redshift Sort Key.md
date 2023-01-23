@@ -1,3 +1,7 @@
+---
+title: Redshift Sort Key
+---
+
 We can specify 1 or more columns are sort key that is going to be used by to save the inserted data in sorted order on disc  
 Redshift stores columnar data in 1 MB blocks. The min and max values of these blocks are also saved as metadata. If we sort the data then we can very efficiently find the data that we are searching
 

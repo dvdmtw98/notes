@@ -1,3 +1,7 @@
+---
+title: Service Management Commands
+---
+
 Process is the running instance of an executable program  
 Daemon is a process that runs in the background and is not interactive  
 Daemons are called as **Services** on Windows

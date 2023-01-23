@@ -1,3 +1,7 @@
+---
+title: AWS
+---
+
 ### AWS Core Services
 
 * [AWS Analytics Services](AWS%20Analytics%20Services/AWS%20Analytics%20Services.md)

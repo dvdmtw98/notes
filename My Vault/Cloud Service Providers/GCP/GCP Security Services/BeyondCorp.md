@@ -1,3 +1,7 @@
+---
+title: BeyondCorp
+---
+
 A zero-trust solution that enables secure access with integrated threat and data protection  
 BeyondCorp Enterprise is built into the Chrome Browser with no agents required
 

@@ -1,3 +1,7 @@
+---
+title: Azure Analytics Services
+---
+
 ## Table of Content
 
 * [Azure Synapse Analytics](Azure%20Synapse%20Analytics/Azure%20Synapse%20Analytics.md)

@@ -1,3 +1,7 @@
+---
+title: CSS Element Types
+---
+
 ### Block
 
 Almost all the elements in HTML are blocks  

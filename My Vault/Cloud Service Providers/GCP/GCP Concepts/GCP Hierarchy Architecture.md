@@ -1,3 +1,7 @@
+---
+title: GCP Hierarchy Architecture
+---
+
 There are three suggested hierarchy architecture we can use:
 
 1. **<u>Environment Oriented</u>**  

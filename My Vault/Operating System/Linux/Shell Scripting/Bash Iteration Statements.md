@@ -1,3 +1,7 @@
+---
+title: Bash Iteration Statements
+---
+
 ### For Loop
 
 The `$()` is used to run a command here it will read all the names from the file names.txt and while EOF is not reached it will loop through all the names.

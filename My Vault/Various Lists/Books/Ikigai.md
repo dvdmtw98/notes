@@ -1,3 +1,7 @@
+---
+title: Ikigai
+---
+
 Meaning: The happiness of (always being busy/ Having a purpose in life)  
 Island of Okinawa around 24.5 people life over the age of 100 for every 100,000 inhabitants
 

@@ -1,3 +1,7 @@
+---
+title: Dial Up Connection
+---
+
 The original connection methodology (56Kbps maximum speed)  
 Uses POTS (Plain Old Telephone Services) also called as PSTN (Public Switched Telephone Network)  
 An telephone connection was required for this technology to work  

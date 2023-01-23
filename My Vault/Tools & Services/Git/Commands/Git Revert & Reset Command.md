@@ -1,3 +1,7 @@
+---
+title: Git Revert & Reset Command
+---
+
 ### Revert Command
 
 ````bash

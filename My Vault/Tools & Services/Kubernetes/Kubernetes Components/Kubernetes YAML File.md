@@ -1,3 +1,7 @@
+---
+title: Kubernetes YAML File
+---
+
 All the commands that we provide in the terminal have an generator that corresponds to it. Generators are template files that are used to fill in the parameters that we do not specify and the command line.  
 Every resource in Kubernetes has an specification (spec)
 

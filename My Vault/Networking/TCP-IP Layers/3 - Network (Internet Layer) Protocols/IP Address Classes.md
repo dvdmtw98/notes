@@ -1,3 +1,7 @@
+---
+title: IP Address Classes
+---
+
 It is also called as Classful IP Addressing
 
 ![IP Address Classes|650](../../images/ip_address_classes.png)

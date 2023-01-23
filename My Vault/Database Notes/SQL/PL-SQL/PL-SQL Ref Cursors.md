@@ -1,3 +1,7 @@
+---
+title: PL-SQL Ref Cursors
+---
+
 ### Strong Ref Cursors
 
 Has an return datatype

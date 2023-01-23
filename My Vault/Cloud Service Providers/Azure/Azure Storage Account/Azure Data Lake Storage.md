@@ -1,3 +1,7 @@
+---
+title: Azure Data Lake Storage
+---
+
 A data lake is a centralized data repository for unstructured and semi-structured data  
 It is built on top of [Azure Blob Storage](Azure%20Blob%20Storage.md) (Cost Efficient)  
 Provides file level security and a hierarchical namespace

@@ -1,3 +1,7 @@
+---
+title: Types of Firewall
+---
+
 **<u>Packet Filtering</u>**  
 The original type of firewall. The most basic firewall. Filter packets based on IP Address and ports
 

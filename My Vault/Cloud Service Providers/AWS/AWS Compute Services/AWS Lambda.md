@@ -1,3 +1,7 @@
+---
+title: AWS Lambda
+---
+
 It is an serverless compute unit. Allows to run code without provisioning or managing servers  
 Automated version of [EC2 (Elastic Cloud Compute)](EC2%20%28Elastic%20Cloud%20Compute%29.md). No need to worry about underlying architecture  
 Upload the code and Lambda will take care of everything required to run the application  

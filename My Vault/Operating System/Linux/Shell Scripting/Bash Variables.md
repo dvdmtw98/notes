@@ -1,3 +1,7 @@
+---
+title: Bash Variables
+---
+
 According to convention it should be in all caps  
 Variable names cannot start with digits  
 There shouldn't be any space between the variable name, = sign and the value

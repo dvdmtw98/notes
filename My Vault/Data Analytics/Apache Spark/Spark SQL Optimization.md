@@ -1,3 +1,7 @@
+---
+title: Spark SQL Optimization
+---
+
 Whatever query that we write is converted into the best physical plan by the Tungsten Engine and optimized using the catalyst optimizer  
 Query optimization is only available for build in functions (UDF not supported)
 

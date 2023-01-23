@@ -1,3 +1,7 @@
+---
+title: CapEx and OpEx
+---
+
 ### Capital Expenditure
 
 Own infrastructure  

@@ -1,3 +1,7 @@
+---
+title: TCP-IP Model
+---
+
 There are 2 versions of the TCP/IP Model:
 
 * The 4 Layer one which is found in most of the IT related books (RF1122)

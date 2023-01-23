@@ -1,3 +1,7 @@
+---
+title: Property
+---
+
 * A property in Python in an [attribute](Attributes.md) which has an getter, setter and deleter method (Not necessary to implement all three methods)
 * They are used to encapsulate the attributes in the class. It is the pythonic way to declare getters and setters
 * A property can be created using the `@property` decorator (recommended) or `property()` method

@@ -1,3 +1,7 @@
+---
+title: Spark Streaming
+---
+
 A stream of entities is called an discretized stream or DStream  
 DStream = Sequence of RDD  
 Entities in a Stream are grouped into batches  

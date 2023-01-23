@@ -1,3 +1,7 @@
+---
+title: Git Config Command
+---
+
 ````bash
 # List global git configurations
 git config --global --list

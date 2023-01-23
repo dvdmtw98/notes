@@ -1,3 +1,7 @@
+---
+title: Python Variable Scopes
+---
+
 ### Python Bytecode
 
 Python code is compiled to bytecode which is then read by the Python interpreter  

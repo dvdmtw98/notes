@@ -1,3 +1,7 @@
+---
+title: Streaming Window Functions
+---
+
 Functions that group data based on time  
 There are overlapping and non-overlapping windows  
 Hopping and Sliding are overlapping windows

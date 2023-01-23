@@ -1,3 +1,7 @@
+---
+title: AutoIt Scripts
+---
+
 AutoIt is installed in Wine when Veil Framework was installed
 
 Download Script : <https://drive.google.com/uc?id=1sucJNjeNCrTdiOwZa5PMTz17eGl4Zcd6&export=download>  

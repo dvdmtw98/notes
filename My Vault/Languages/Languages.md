@@ -1,3 +1,7 @@
+---
+title: Languages
+---
+
 * [English](English/English.md)
 * [Japanese](Japanese/Japanese.md)
 

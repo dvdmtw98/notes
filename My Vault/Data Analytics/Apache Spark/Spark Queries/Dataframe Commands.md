@@ -1,3 +1,7 @@
+---
+title: Dataframe Commands
+---
+
 ### Read File
 
 When reading using wrong format it won't throw error but the data read will not be proper. Data will only loaded partially

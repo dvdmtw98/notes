@@ -1,3 +1,7 @@
+---
+title: Redshift
+---
+
 It is an massively parallel, column oriented database that makes it easy and cost effective to analyze the data stored in data warehouse and data lakes  
 It is also called as an Petabyte scale data store  
 It is built on top of [EC2 (Elastic Cloud Compute)](../../AWS%20Compute%20Services/EC2%20%28Elastic%20Cloud%20Compute%29.md)

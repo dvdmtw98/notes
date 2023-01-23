@@ -1,3 +1,7 @@
+---
+title: BetterCap GUI
+---
+
 ````bash
 bettercap -iface <interface>
 http-ui

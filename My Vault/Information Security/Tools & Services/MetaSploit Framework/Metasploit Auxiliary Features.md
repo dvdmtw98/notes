@@ -1,3 +1,7 @@
+---
+title: Metasploit Auxiliary Features
+---
+
 1. <u>Run Nmap Scan from within Metasploit</u>
 
 ````bash

@@ -1,3 +1,7 @@
+---
+title: Event Integration Services
+---
+
 ### IoT Hub
 
 Bi-directional communication with streaming source  

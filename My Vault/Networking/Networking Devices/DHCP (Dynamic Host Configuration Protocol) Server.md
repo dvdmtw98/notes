@@ -1,3 +1,7 @@
+---
+title: DHCP (Dynamic Host Configuration Protocol) Server
+---
+
 Assigns IP Addresses, Subnet Mask, Default Gateway and DNS details to new devices on a network  
 If DHCP is not configured then these properties need to assign manually
 

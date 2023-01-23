@@ -1,3 +1,7 @@
+---
+title: Python Constructor
+---
+
 * It is used to initialize the values of the instance attributes of the [class](Python%20Classes.md)
 * In Python the concept of constructor overloading/ multiple constructors is not present but similar functionality can be implemented by using [class methods](Python%20Methods.md)
 * The `cls()` method call the constructor of the class which will create a new instance of the class

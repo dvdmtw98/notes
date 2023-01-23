@@ -1,3 +1,7 @@
+---
+title: Azure File Storage
+---
+
 It is a fully managed file share on the cloud. The files are stored in containers called Shares  
 It is a centralized location for storing data that allows connection using multiple connections
 

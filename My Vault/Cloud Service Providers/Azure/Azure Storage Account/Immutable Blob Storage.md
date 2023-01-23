@@ -1,3 +1,7 @@
+---
+title: Immutable Blob Storage
+---
+
 Allows to store business-critical data in WORM (Write Once Read Many) type of state  
 This makes the data undeletable and unmodifiable for the time period specified by the user  
 This data cannot even be deleted by the administrator of the storage account  

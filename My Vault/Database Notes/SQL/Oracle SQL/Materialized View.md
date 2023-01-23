@@ -1,3 +1,7 @@
+---
+title: Materialized View
+---
+
 Results of an aggregation query that is stored in DB system is called as a materialized view.  
 They are similar to views in the sense that they are a logical representation of a table.  
 Materialized views are saved to the disk so they are similar to querying an table.  

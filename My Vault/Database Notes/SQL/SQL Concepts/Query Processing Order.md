@@ -1,3 +1,7 @@
+---
+title: Query Processing Order
+---
+
 1. Getting Data (From, Join)
 2. Row Filter (Where)
 3. Grouping (Group by)

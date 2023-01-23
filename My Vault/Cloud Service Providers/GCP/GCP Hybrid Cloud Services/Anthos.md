@@ -1,3 +1,7 @@
+---
+title: Anthos
+---
+
 It is a modern application management platform used for managing hybrid architectures that span from Google Cloud to other CSPs or on-premise datacenters
 
 Anthos allows to develop an application once and run it anywhere (on-prem, public cloud, private cloud)

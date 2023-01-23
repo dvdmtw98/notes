@@ -1,3 +1,7 @@
+---
+title: Git Push Command
+---
+
 ````bash
 # Push to specifc Branches
 git push <remote-name> <branch-name>

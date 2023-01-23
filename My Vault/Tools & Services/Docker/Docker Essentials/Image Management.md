@@ -1,3 +1,7 @@
+---
+title: Image Management
+---
+
 An image can be taught of as a collection of binaries and dependencies along with metadata about image and how to run the image  
 Image has no kernel, drivers, etc. as the host system provides them
 

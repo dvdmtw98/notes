@@ -1,3 +1,7 @@
+---
+title: Redshift Architecture
+---
+
 ![Redshift Architecture|500](../../images/redshift_architecture.png)
 
 Redshift is an collection of compute resources which we call nodes  

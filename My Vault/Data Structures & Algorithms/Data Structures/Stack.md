@@ -1,3 +1,7 @@
+---
+title: Stack
+---
+
 Stack can be implemented with [Linked List](Linked%20List.md) or [Array](Array.md)  
 With Array as the data is stored contiguously due to Cache Locality it will be faster to access than Linked List  
 However when the size limit of Array is reached the entire Array has to be copied over to create a larger array

@@ -1,3 +1,7 @@
+---
+title: Swarm Architecture
+---
+
 ![Docker Swarm Architecture|550](../images/docker_swarm_architecture.png)
 
 **<u>Manager Nodes</u>**  

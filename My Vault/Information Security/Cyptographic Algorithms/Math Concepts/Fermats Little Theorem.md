@@ -1,3 +1,7 @@
+---
+title: Fermats Little Theorem
+---
+
 $x^{n-1} \equiv 1 \mod n$
 
 n : Prime no.  

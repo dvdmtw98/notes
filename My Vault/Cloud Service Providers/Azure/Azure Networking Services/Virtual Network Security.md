@@ -1,3 +1,7 @@
+---
+title: Virtual Network Security
+---
+
 ### Azure Firewalls
 
 It is an service that allows to monitor incoming and outgoing traffic  

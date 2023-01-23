@@ -1,3 +1,7 @@
+---
+title: Dynamo DB Primary Key
+---
+
 ### Partition Key (Hash Key)
 
 A simple primary key that is composed of one attribute  

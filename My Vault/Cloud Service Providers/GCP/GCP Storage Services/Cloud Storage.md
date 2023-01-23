@@ -1,3 +1,7 @@
+---
+title: Cloud Storage
+---
+
 It is a serverless object storage service  
 Billed based on the storage used and data downloaded
 

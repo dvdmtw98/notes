@@ -1,3 +1,7 @@
+---
+title: Git Checkout Command
+---
+
 Checkout command allows us to create and switch to different [branch](Git%20Branch%20Command.md)  
 It can be used to view old versions of the repository  
 It can also be used to restore files from old snapshot

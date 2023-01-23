@@ -1,3 +1,7 @@
+---
+title: Spark Clusters
+---
+
 A cluster is a collection of one or more VMs that work together
 
 ![Spark Cluster Structure|500](images/spark_cluster_structure.jpg)

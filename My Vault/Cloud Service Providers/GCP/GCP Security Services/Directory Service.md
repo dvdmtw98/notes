@@ -1,3 +1,7 @@
+---
+title: Directory Service
+---
+
 A directory service maps the names of network resources to their network addresses
 
 A directory service is shared information infrastructure for locating, managing, administering and organizing resources  

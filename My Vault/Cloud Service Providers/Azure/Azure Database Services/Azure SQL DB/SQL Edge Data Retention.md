@@ -1,3 +1,7 @@
+---
+title: SQL Edge Data Retention
+---
+
 SQL Edge Database is used to store data from IoT and edge devices
 
 The administrators can define an data retention policy on the SQL edge database which is applicable to all of its tables  

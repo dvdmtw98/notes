@@ -1,3 +1,7 @@
+---
+title: Bash Arrays
+---
+
 ````shell
 os=("Ubuntu", "Windows", "MacOS")
 

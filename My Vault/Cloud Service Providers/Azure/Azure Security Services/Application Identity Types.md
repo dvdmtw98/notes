@@ -1,3 +1,7 @@
+---
+title: Application Identity Types
+---
+
 There are three main types of objects that are present in AAD  
 Users, Group and Applications (Enterprise Apps)  
 Application Identity can be further divided into two types "Service Principle" and "Managed Identity"

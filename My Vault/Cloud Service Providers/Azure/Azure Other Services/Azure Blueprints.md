@@ -1,3 +1,7 @@
+---
+title: Azure Blueprints
+---
+
 A blueprint is an guide, a pattern or a design for making something
 
 **Blueprint Definition**: A collection of Azure Components (Resource Groups, Role Assignments, Resources, Policy Assignments) that can all be deployed with the click of an button. Describes what the blueprint should do  

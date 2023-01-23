@@ -1,3 +1,7 @@
+---
+title: Hiragana R-Column
+---
+
 ### R-Column
 
 ら (ra) : **Ra**bbit

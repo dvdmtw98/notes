@@ -1,3 +1,7 @@
+---
+title: Python File Operations
+---
+
 The `open()` method is used to work with file and the os module along with its methods are used to work with directories
 
 ````python

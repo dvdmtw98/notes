@@ -1,3 +1,7 @@
+---
+title: Azure Storage Services
+---
+
 Houses the above four services  
 Highly Scalable  
 Highly Durable (11 nines, up to 16 nines)  

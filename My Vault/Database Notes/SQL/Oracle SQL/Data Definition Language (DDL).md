@@ -1,3 +1,7 @@
+---
+title: Data Definition Language (DDL)
+---
+
 It is a language used for defining and modifying the data and its structure.  
 It is used to build and modify the structure of your tables and other objects in the database.  
 These commands can be used to add, remove or modify tables within a database.

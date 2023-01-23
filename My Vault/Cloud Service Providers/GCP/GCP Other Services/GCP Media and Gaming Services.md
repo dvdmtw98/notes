@@ -1,3 +1,7 @@
+---
+title: GCP Media and Gaming Services
+---
+
 ### Game Servers
 
 It is a fully managed service  

@@ -1,3 +1,7 @@
+---
+title: DNS Spoofing Attack
+---
+
 After performing MITM attack all the targets packets are flowing through our system. We can redirect the user to an malicious website by spoofing the DNS request of the user
 
 #### Start Apache Server

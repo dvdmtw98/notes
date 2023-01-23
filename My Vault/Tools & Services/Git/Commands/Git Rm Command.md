@@ -1,3 +1,7 @@
+---
+title: Git Rm Command
+---
+
 **Tracked files** are files that were in the last snapshot, as well as any newly staged files; they can be unmodified, modified, or staged  
 Tracked files are files that Git knows about
 

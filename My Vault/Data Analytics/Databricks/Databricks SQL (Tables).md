@@ -1,3 +1,7 @@
+---
+title: Databricks SQL (Tables)
+---
+
 ### Managed Table
 
 This is the Default Table Type  

@@ -1,3 +1,7 @@
+---
+title: MapReduce
+---
+
 ### Massive Parallel Processing
 
 * It is an model to process the distributed data in a parallel way

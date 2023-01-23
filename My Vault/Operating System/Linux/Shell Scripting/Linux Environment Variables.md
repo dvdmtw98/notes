@@ -1,3 +1,7 @@
+---
+title: Linux Environment Variables
+---
+
 /etc/profile (System wide configuration)  
 /etc/environment (Stores $PATH variable)
 

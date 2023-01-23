@@ -1,3 +1,7 @@
+---
+title: GCP
+---
+
 ### Cloud Concepts
 
 * [Cloud Service Models](../Azure/Basic%20Cloud%20Concepts/Cloud%20Service%20Models.md)

@@ -1,3 +1,7 @@
+---
+title: Enabling Monitor Mode
+---
+
 Managed Mode : View/ Capture packets meant for source device only  
 Monitor Mode : View/ Capture all the packets that are present in an area
 

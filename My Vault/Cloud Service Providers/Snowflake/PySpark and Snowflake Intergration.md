@@ -1,3 +1,7 @@
+---
+title: PySpark and Snowflake Intergration
+---
+
 ````shell
 pyspark --packages net.snowflake:snowflake-jdbc:3.8.0,net.snowflake:spark-snowflake_2.11:2.4.14-spark_2.4
 ````

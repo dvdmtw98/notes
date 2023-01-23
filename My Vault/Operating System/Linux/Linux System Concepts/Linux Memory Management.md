@@ -1,3 +1,7 @@
+---
+title: Linux Memory Management
+---
+
 ### Single Address Space
 
 Simple systems use this approach  

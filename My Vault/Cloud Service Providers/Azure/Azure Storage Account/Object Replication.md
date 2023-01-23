@@ -1,3 +1,7 @@
+---
+title: Object Replication
+---
+
 Allows to distribute the data which will be ideal for geographically distributed clients
 The replication process takes place by means of policy which can be used to copy data, move to another access tier, etc.  
 The replication process happens asynchronously and do not come with an SLA so the copies can be out of sink

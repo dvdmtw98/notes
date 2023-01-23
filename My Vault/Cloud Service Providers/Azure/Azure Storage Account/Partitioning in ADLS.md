@@ -1,3 +1,7 @@
+---
+title: Partitioning in ADLS
+---
+
 The partition key for Blob Storage is Storage Name, Container Name and Blob Name  
 Blob Storage places sequential blobs that have the same name in the same partition to overcome this hash values are generally appended before the name
 

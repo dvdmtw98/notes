@@ -1,3 +1,7 @@
+---
+title: Information Security
+---
+
 ### Table of Content
 
 * [Cryptographic Algorithms](Cyptographic%20Algorithms/Cryptographic%20Algorithms.md)
@@ -30,4 +34,4 @@
 
 ---
 
-[Information Security](Information%20Security.md)
+[Main Index](../Main%20Index.md)

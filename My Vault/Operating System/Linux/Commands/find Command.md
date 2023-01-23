@@ -1,3 +1,7 @@
+---
+title: find Command
+---
+
 ````bash
 find / -type f -name "file.txt"
 ````

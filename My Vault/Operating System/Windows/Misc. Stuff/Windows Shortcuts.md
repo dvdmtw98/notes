@@ -1,3 +1,7 @@
+---
+title: Windows Shortcuts
+---
+
 ### Windows Shortcuts
 
 Win + D (Hide all the Application)  

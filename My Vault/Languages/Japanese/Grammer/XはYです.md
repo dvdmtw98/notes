@@ -1,3 +1,7 @@
+---
+title: XはYです
+---
+
 X wa Y desu (Formal)  
 X wa Y (Informal)  
 X, `<adjective>` (Very Informal)

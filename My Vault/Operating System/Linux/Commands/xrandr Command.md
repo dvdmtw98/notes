@@ -1,3 +1,7 @@
+---
+title: xrandr Command
+---
+
 ````shell
 # View all available options for all monitors
 xrandr -q 

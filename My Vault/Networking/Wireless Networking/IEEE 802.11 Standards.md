@@ -1,3 +1,7 @@
+---
+title: IEEE 802.11 Standards
+---
+
 | IEEE Standard | Max Theoretical Speed | Frequency     |
 | ------------- | --------------------- | ------------- |
 | 802.11        | 2Mbps                 | 2.4GHz        |

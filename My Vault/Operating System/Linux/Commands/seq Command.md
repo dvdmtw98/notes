@@ -1,3 +1,7 @@
+---
+title: seq Command
+---
+
 ````shell
 seq <start> <step> <end>
 seq -s '+' 10 | bc

@@ -1,3 +1,7 @@
+---
+title: C Structs
+---
+
 They are used to implement user defined datatypes  
 Structs can be used to return multiple values from an function
 

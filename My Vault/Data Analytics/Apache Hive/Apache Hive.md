@@ -1,3 +1,7 @@
+---
+title: Apache Hive
+---
+
 ### Table of Content
 
 * [Hive Architecture](Hive%20Architecture.md)

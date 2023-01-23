@@ -1,3 +1,7 @@
+---
+title: Building Docker Image
+---
+
 Whenever we build an image Docker will cache each layer of the build process so if in the future we make change to a any layer the other layers can be used directly without having to build them  
 When a layer changes every layer below that will also be built again
 

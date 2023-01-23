@@ -1,3 +1,7 @@
+---
+title: Truncate, Delete and Drop Command
+---
+
 ### TRUNCATE Command
 
 Used to delete ALL the data in a table (WHERE clause cannot be used)  

@@ -1,3 +1,7 @@
+---
+title: RSA Algorithm
+---
+
 RSA stands for Rivest-Shamir-Adleman (Name of the Creators of the algorithm)
 
 ### Key Generation

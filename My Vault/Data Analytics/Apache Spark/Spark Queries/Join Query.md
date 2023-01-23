@@ -1,3 +1,7 @@
+---
+title: Join Query
+---
+
 Inner Join: inner  
 Outer Join : outer, full, fullouter, full_outer  
 Right Outer Join: right, rightouter right_outer  

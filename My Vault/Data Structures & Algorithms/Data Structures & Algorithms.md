@@ -1,3 +1,7 @@
+---
+title: Data Structures & Algorithms
+---
+
 ### Table of Content
 
 * [Big-O Notation](Others/Big-O%20Notation.md)

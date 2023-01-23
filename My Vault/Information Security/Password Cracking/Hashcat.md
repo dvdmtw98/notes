@@ -1,3 +1,7 @@
+---
+title: Hashcat
+---
+
 For cracking passwords of rar/ zip files the hash has to be extracted from the file  
 [John the Ripper](John%20the%20Ripper.md) utilities (zip2john/ rar2john) can help us to extract these hashes
 

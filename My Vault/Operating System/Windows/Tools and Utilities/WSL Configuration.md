@@ -1,3 +1,7 @@
+---
+title: WSL Configuration
+---
+
 ### Moving WSL to a Different Drive
 
 ````batch

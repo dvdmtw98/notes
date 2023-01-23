@@ -1,3 +1,7 @@
+---
+title: Azure Cosmos DB
+---
+
 Fully Managed NoSQL Database designed to be highly scalable and highly performant  
 It supports enabling geo-replication of data with a click of a button  
 Has very low latency (\< 10ms)  

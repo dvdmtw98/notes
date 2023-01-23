@@ -1,3 +1,7 @@
+---
+title: CSharp Inheritance
+---
+
 * In C# we can only inherit from only one parent class (If the parent object is deleted the child object can still exist)
 * The `Object Class` is the parent class of all classes in C# and is automatically inherited
 * Inheritance establishes an "Is-A" type of relation between [Classes](CSharp%20Classes.md)

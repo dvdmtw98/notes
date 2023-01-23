@@ -1,3 +1,7 @@
+---
+title: Oracle SQL Functions
+---
+
 ### String Functions
 
 Don't give LPAD and RPAD total_len very small values as it will trim the values

@@ -1,3 +1,7 @@
+---
+title: Azure Synapse Analytics
+---
+
 It is a data warehouse and a unified analytics platform  
 It uses ADLS Gen 2 (Data Lake) as its underlying datastore  
 It is a PaaS (Platform as a Service) offering

@@ -1,3 +1,7 @@
+---
+title: Cosmos DB Partitioning
+---
+
 The database at the application level is partitioned into Containers  
 A single query can only access a single container at a time  
 Inside each collection Cosmos DB partitions data based on partition key (it is a mandatory field to configure during setup) and should be chosen carefully for even partitioning of data  
