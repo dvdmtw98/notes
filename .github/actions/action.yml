@@ -5,13 +5,6 @@ description: Action to build Mkdocs site using Markdown files
 runs:
   using: composite
   steps:
-    - name: Install Packages
-      id: install-packages
-      shell: bash
-      run: |
-        sudo apt-get update \
-        && sudo apt-get install -y --no-install-recommends \
-          libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
     - name: Build Directory
       id: build-directory
       shell: bash
@@ -21,7 +14,7 @@ runs:
       shell: bash
       run: |
         cp -a My\ Vault/. mkdocs/docs \
-        && rm -rf mkdocs/docs/.obsidian
+        && rm -rf mkdocs/docs/{.obsidian,Various\ Lists,Languages}
     - name: Asset Copy
       id: asset-copy
       shell: bash
@@ -42,9 +35,7 @@ runs:
     - name: Install Dependencies
       id: install-dependencies
       shell: bash
-      run: |
-        python -m pip install --upgrade pip \
-          && pip install -r mkdocs/requirements.txt
+      run: pip install -r mkdocs/requirements.txt
     - name: Build Site
       id: build-site
       shell: bash

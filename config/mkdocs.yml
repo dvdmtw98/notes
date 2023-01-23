@@ -88,22 +88,19 @@ markdown_extensions:
 # Third Party Plugins
 plugins:
   - search
+  - tags
   - social
   - glightbox:
       auto_caption: true
   - redirects:
       redirect_maps:
-          'index.md': 'Main Index.md'
+        'index.md': 'Main Index.md'
   - callouts
   - custom-attributes:
       file: 'assets/css/custom_attributes.css'
-  - exclude:
-      glob:
-        - Various Lists/*
-        - Languages/*
-  - mkdocs-simple-hooks:
-      hooks:
-        on_pre_build: "hooks.modify_links:main"
+
+hooks:
+  - hooks/modify_links.py
 
 # Additional JavaScript Files
 extra_javascript:
