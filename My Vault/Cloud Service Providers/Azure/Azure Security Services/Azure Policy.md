@@ -5,7 +5,7 @@ title: Azure Policy
 Policies allows to check for resource properties and then make decision based on these properties  
 Policy can be created on any property and then an rule can be written around the policy to make a decide when the policy is True and when its False
 
-![Azure Policy|500](../images/azure_policy.png)
+![Azure Policy|500](../images/azure-policy.png)
 
 Policies do not check for user permissions (It is assumed to be checked in the previous step)  
 Policies are checked during the deployment of an resource  

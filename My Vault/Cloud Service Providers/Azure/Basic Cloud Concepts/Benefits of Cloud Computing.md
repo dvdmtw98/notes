@@ -18,7 +18,7 @@ Process of adding or removing resources
 Increasing Size (Vertical Scalability)  
 Increasing Amount (Horizontal Scalability)
 
-![Horizontal and Vertical Scaling|400](../images/horizontal_and_vertical_scaling.png)
+![Horizontal and Vertical Scaling|400](../images/horizontal-and-vertical-scaling.png)
 
 ### Elasticity
 
@@ -39,7 +39,7 @@ This is achieved by maintaining multiple copies of the resources
 Creating copies of the required resources in two separate [Azure Regions](../Azure%20Concepts/Azure%20Regions%20&%20Zones.md) and setting up replication between them to so that they are up to date and then setting up an DNS between these two regions so that the traffic to the resource can be automatically redirected to the working region  
 This is an type of Fault Tolerance that is provided for dealing with major disruption to services that can be caused by Natural Disasters
 
-![Disaster Recovery|400](../images/disaster_recovery.png)
+![Disaster Recovery|400](../images/disaster-recovery.png)
 
 ### High Availability
 
@@ -47,4 +47,4 @@ It is the metric that measures the uptime of the resource
 Downtime can be caused due to planned maintenance or due to resource failure  
 Cloud providers at a minimum try to aim for four 9s availability
 
-![High Availability|440](../images/high_availability.png)
+![High Availability|440](../images/high-availability.png)

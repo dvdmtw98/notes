@@ -13,7 +13,7 @@ There are three suggested hierarchy architecture we can use:
    More flexible compared to environment separation and allows to deploy shared resources  
    More complex to manage
 
-![GCP Resource Hierarchy|600](../images/gcp_function_resource_hierarchy.png)
+![GCP Resource Hierarchy|600](../images/gcp-function-resource-hierarchy.png)
 
 3. **<u>Granular Access Oriented</u>**  
    One organization that contains one folder per business unit  
@@ -21,4 +21,4 @@ There are three suggested hierarchy architecture we can use:
    Each business function folder can contain one folder per environment  
    Most extensible and flexible and the most complicated to manage
 
-![GCP Granular Resource Hierarchy|600](../images/gcp_granular_resource_hierarchy.png)
+![GCP Granular Resource Hierarchy|600](../images/gcp-granular-resource-hierarchy.png)

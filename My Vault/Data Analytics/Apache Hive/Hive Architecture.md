@@ -10,7 +10,7 @@ Hive does not convert the data into tables but rather enforces an schema on the 
 It allows Ad-hoc querying. Its Extensible and Fast  
 Hive commands can be automated by writing then in a \*.q script file (Similar to \*.sql file)
 
-![Hive Architecture|500](images/hive_architecture.jpg)
+![Hive Architecture|500](images/hive-architecture.jpg)
 
 ---
 

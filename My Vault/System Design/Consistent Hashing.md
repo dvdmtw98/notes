@@ -34,7 +34,7 @@ The start and end of the hash space is connected together to create a hash ring
 The server names (IP Address) are hashed and added onto the ring  
 Similarly the objects are hashed and added onto the ring (the modulo operation is not performed)
 
-![Consistent Hashing|450](images/consistent_hashing.png)
+![Consistent Hashing|450](images/consistent-hashing.png)
 
 To find the node to which the data will belong we just need to look to the right (clockwise direction) and find the first node  
 Because of this approach even when a new server is added into the system only a fraction of the keys need to be redistributed
@@ -49,7 +49,7 @@ This gets even worse when constantly servers are added and removed from the clus
 Virtual nodes are used instead of physical nodes  
 Virtual nodes can appear at different locations on the ring
 
-![Consistent Hashing 2|350](images/consistent_hashing_2.png)
+![Consistent Hashing 2|350](images/consistent-hashing-2.png)
 
 With virtual nodes each server handles multiple segments on the ring  
 In real world applications the no. of virtual nodes is much greater than three and this makes the distribution of data much more even  

@@ -16,7 +16,7 @@ Routing Tables can be populated via three approaches:
 * **Static Routes**: Routers that are manually entered by a Administrator
 * **Dynamic Routes**: Routes that are automatically learned from other Routes. [Dynamic Routing Protocols](../TCP-IP%20Layers/3%20-%20Network%20%28Internet%20Layer%29%20Protocols/Dynamic%20Routing%20Protocols.md) are used to share these Routes
 
-![Routing Tables](../images/routering_tables.png)
+![Routing Tables](../images/routering-tables.png)
 
  > [!INFO]
  > The content that is added into the routing table by **static** routing and **dynamic** routing is exactly the same the only difference is the way the information is learned

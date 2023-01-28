@@ -5,7 +5,7 @@ title: Git Rebase Command
 Rebase is used to move an branch from its current location and append it on top of another branch  
 Rebase causes the order in which the events have occurred to change
 
-![Git Merge and Rebase|500](../images/git_branch_merge_rebase.png)
+![Git Merge and Rebase|500](../images/git-branch-merge-rebase.png)
 
 ````bash
 # Rebase current branch on top of base branch

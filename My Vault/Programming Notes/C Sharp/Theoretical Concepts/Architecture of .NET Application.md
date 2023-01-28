@@ -17,4 +17,4 @@ An Solution is an collection of Projects that each generate its own Assemblies
 Solution helps to keep track of the dependencies of each project  
 It also keeps track of the relations between the different project
 
-![Project vs Solution|450](../images/project_vs_solution.png)
+![Project vs Solution|450](../images/project-vs-solution.png)

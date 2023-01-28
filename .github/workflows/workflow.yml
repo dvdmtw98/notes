@@ -1,10 +1,13 @@
 name: Deploy Digital Archive to Netlify
+run-name: Deploy to Netlify by @${{ github.actor }}
+
 on:
   push:
     branches: [ main ]
 
 jobs:
   digital-archive:
+    name: Digital Archive Deployment
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository

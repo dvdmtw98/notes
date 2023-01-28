@@ -12,7 +12,7 @@ The Heap is used to hold the **actual** value of the reference type objects (The
 
 The Stack memory is used to hold the the value type objects
 
-![Memory Structure|450](../images/memory_structure.png)
+![Memory Structure|450](../images/memory-structure.png)
 
 Each function in the program gets its own Stack Frame in the stack memory  
 Each frame stores some metadata along with it which helps to identify the scope of the variables (Local and Global variables)  

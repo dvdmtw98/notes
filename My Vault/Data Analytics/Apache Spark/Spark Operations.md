@@ -8,7 +8,7 @@ Actions: Execution on the data takes place (Output/ Saving operations)
 Data Lineage: File where spark stores all the information like filter to be applied, source, destination, etc. When we call Actions only then the actual code runs  
 Spark lazy evaluates all the operations so only when an action is performed actual processing of all the transformation steps is performed by Spark
 
-![Spark Operations|500](images/spark_operations.png)
+![Spark Operations|500](images/spark-operations.png)
 
 ### Narrow Transformation
 

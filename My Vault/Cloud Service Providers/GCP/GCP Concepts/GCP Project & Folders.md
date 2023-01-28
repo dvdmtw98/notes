@@ -37,4 +37,4 @@ We can create only up to 5 networks per project. If more is required then GCP Su
 Allows you to logically group multiple projects that share common IAM permissions  
 Used to isolate projects for different departments or different environment
 
-![GCP Folders|350](../images/gcp_folders.png)
+![GCP Folders|350](../images/gcp-folders.png)

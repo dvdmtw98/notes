@@ -18,7 +18,7 @@ It is only an reference model. The real world model is [TCP/IP](TCP-IP%20Model.m
 The top 3 layers also called as Host Layers are handles by the host device  
 The bottom 4 layers also called as Media Layers are handled by the various networking devices like routers, modems, etc.
 
-![OSI Model](../images/osi_model.png)
+![OSI Model](../images/osi-model.png)
 
 ---
 

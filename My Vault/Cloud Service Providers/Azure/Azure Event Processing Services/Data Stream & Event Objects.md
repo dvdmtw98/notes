@@ -21,7 +21,7 @@ In this approach data is read from various sources like Event Hub, IoT Hub and t
 From here the data is loaded into an analytics service like Azure Stream Analytics from which visualization is done using [Power BI](../../../Tools%20&%20Services/Power%20BI/Power%20BI.md)  
 Historical data is useful for making predictions, finding trends and performing analysis
 
-![Azure Stream Analytics|600](../images/azure_stream_analytics.png)
+![Azure Stream Analytics|600](../images/azure-stream-analytics.png)
 
 ---
 

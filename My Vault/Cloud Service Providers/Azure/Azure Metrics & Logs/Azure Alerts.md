@@ -8,7 +8,7 @@ Proactively notify the user about any issue
 **Action Group**: A set of actions to perform  
 **Action Rule**: Allows to conditionally trigger or suppress alerts
 
-![Azure Triggering Flow|550](../images/alert_triggering_flow.png)
+![Azure Triggering Flow|550](../images/alert-triggering-flow.png)
 
 ### Alert Signal Sources
 

@@ -9,7 +9,7 @@ title: Topics and Partition
 * No limit on topics but works best with few large topics
 * The commit logs are append only we cannot delete/ modify an message
 
-![Kafka Topics|500](images/kafka_topics.png)
+![Kafka Topics|500](images/kafka-topics.png)
 
 * Topics are broken up into ordered commit logs called partitions
 * Each message in a partition is assigned a sequential id called as offset

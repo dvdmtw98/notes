@@ -2,7 +2,7 @@
 title: Kafka Replication
 ---
 
-![Kafka Partitions|550](images/kafka_partitions.png)
+![Kafka Partitions|550](images/kafka-partitions.png)
 
 * For each partition there is an lead node (Chosen at random).
 * The other replicas of the partition are called as follower nodes.

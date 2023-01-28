@@ -59,7 +59,7 @@ Time to Live (TTL) option can be setup in Cosmos DB to delete stale data automat
 In a Azure Subscription only 50 Cosmos DB Accounts can be created  
 Each account can contain any amount of data and databases
 
-![Cosmos DB Structure|600](../../images/cosmos_db_structure.png)
+![Cosmos DB Structure|600](../../images/cosmos-db-structure.png)
 
 ---
 

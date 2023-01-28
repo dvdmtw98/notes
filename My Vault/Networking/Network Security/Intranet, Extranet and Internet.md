@@ -8,4 +8,4 @@ title: Intranet, Extranet and Internet
 
 **Extranet** : Private network that only business partners an access. Only accessible from Intranet and Extranet
 
-![Net Types|600](../images/intranet_extranetand_internet.png)
+![Net Types|600](../images/intranet-extranetand-internet.png)

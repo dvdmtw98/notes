@@ -18,7 +18,7 @@ title: Katakana T-Column
 
 We can remember the stroke order for Katakana "shi" and "tsu" using the Hiragana counterpart
 
-![Katakana Shi and Tsu|400](../images/katakana_shi_and_tsu.jpg)
+![Katakana Shi and Tsu|400](../images/katakana-shi-and-tsu.jpg)
 
 The "chisaii tsu" is present in Katakana as well and serves a similar purpose as the Hiragana version
 

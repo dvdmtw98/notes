@@ -10,4 +10,4 @@ A blueprint is an guide, a pattern or a design for making something
 It is used to automate the process of resource deployment in Azure  
 The various components that can be used in Blueprints are called as Artifacts
 
-![Azure Blueprints|300](../images/azure_blueprints.png)
+![Azure Blueprints|300](../images/azure-blueprints.png)

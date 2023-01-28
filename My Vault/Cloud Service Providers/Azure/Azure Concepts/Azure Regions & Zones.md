@@ -36,7 +36,7 @@ Two service categories:
 Not all region supports AZ. Supported regions have 3 or more zones  
 An AZ can comprise of multiple data centers as well
 
-![Availability Zones|440](../images/availability_zones.png)
+![Availability Zones|440](../images/availability-zones.png)
 
 ---
 

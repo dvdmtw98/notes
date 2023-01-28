@@ -12,7 +12,7 @@ Management layer for resources and resource groups
 Unified Language  
 Controls access and resources
 
-![Azure Resource Manager|440](../images/azure_resource_manager.png)
+![Azure Resource Manager|440](../images/azure-resource-manager.png)
 
 ### Resources
 

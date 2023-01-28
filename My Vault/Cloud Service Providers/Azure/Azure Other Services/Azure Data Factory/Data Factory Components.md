@@ -35,7 +35,7 @@ The compute infrastructure of the Data Factory on which the activity is run
 When an new ADF resource is created an IR called Auto-Resolve IR (Azure IR) is created. 
 Mapping Data Flow and Power Query is executed on the Azure IR
 
-![Integration Runtime|600](../../images/integration_runtime.png)
+![Integration Runtime|600](../../images/integration-runtime.png)
 
 Self-Hosted IR requires an software to be installed which can connect to the private service  
 Redundancy can be introduced in the system by installing the IR on multiple devices  
@@ -80,7 +80,7 @@ They have some drawbacks as well:
 * The pipeline and trigger have a 1:1 relation
 * Some options cannot be edited once a trigger is created
 
-![Tumbling Window and Schedule|600](../../images/tumbling_windows_and_schedule.png)
+![Tumbling Window and Schedule|600](../../images/tumbling-windows-and-schedule.png)
 
 ### Event based Triggers
 

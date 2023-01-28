@@ -8,7 +8,7 @@ title: MapReduce
 * It is the data processing engine in Hadoop
 * Mapper is user defined. Format of data (key, value) pair
 
-![Map Reduce Example|600](images/map_reduce_example.png)
+![Map Reduce Example|600](images/map-reduce-example.png)
 
 In Hadoop we do not fetch all the data and then process it rather the processing is done on the data in place (The code goes to the data) and the result is returned back
 

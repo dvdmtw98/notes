@@ -10,7 +10,7 @@ Each service has a different SLA
 Free services generally do not have an SLA  
 If SLA is broken user gets credit token (Discount)
 
-![SLA Chart|300](../images/sla_chart.png)
+![SLA Chart|300](../images/sla-chart.png)
 
 Monthly Uptime Percentage = (Max Available Min - Downtime) / Max Available Min * 100
 
@@ -30,7 +30,7 @@ SLA = Sa * Sb
 Both services are not required for the functioning of application  
 SLA = 100% - (Sa * Sb)
 
-![SLA Calculation|650](../images/sla_calculation.png)
+![SLA Calculation|650](../images/sla-calculation.png)
 
 #### Factors that lower SLA
 

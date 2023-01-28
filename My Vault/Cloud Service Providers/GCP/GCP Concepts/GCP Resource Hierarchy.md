@@ -2,7 +2,7 @@
 title: GCP Resource Hierarchy
 ---
 
-![GCP Resource Hierarchy|400](../images/gcp_resource_hierarchy.png)
+![GCP Resource Hierarchy|400](../images/gcp-resource-hierarchy.png)
 
 ### Domain
 

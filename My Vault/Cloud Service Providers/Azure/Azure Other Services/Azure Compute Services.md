@@ -9,7 +9,7 @@ Allows to have different virtual hardware configuration based on machine/app
 Allows to install different OS per machine/app  
 Since each virtual machine is independent of each other it has its own FS, ports, services, storage, etc.
 
-![VM and Containers|600](../images/virtual_machines_and_containers.png)
+![VM and Containers|600](../images/virtual-machines-and-containers.png)
 
 ---
 

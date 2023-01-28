@@ -14,7 +14,7 @@ Japanese follows S (Subject) O (Object) V (Verb) structure
 
 * [XはYです](X%E3%81%AFY%E3%81%A7%E3%81%99.md)
 
-![Japanese SOV|600](../images/japanese_sov.png)
+![Japanese SOV|600](../images/japanese-sov.png)
 
 ---
 

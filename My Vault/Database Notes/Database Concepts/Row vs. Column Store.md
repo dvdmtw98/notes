@@ -15,4 +15,4 @@ title: Row vs. Column Store
 * Each block consist of similar data hence data specific compassion can be used
 * Columnar data makes aggregate functions more efficient
 
-![Row vs Column Store|350](../../Data%20Analytics/Data%20Analytics%20Concepts/images/row_and_column_store.png)
+![Row vs Column Store|350](../../Data%20Analytics/Data%20Analytics%20Concepts/images/row-and-column-store.png)

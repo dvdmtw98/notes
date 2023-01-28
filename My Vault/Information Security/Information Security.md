@@ -4,6 +4,7 @@ title: Information Security
 
 ### Table of Content
 
+* [Theoretical Concepts](Theoretical%20Concepts/Theoretical%20Concepts.md)
 * [Cryptographic Algorithms](Cyptographic%20Algorithms/Cryptographic%20Algorithms.md)
 * [Windows Exploitation](Windows%20Exploitation/Windows%20Exploitation.md)
 * [Service Enumeration](Service%20Enumeration/Service%20Enumeration.md)

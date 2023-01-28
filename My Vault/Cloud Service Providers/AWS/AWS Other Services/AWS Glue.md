@@ -11,7 +11,7 @@ It was specifically designed to process large datasets
 Glue uses Spark as its backend for processing the job  
 The supported languages for writing code in glue: Python and Scala
 
-![AWS Glue|450](../images/aws_glue.png)
+![AWS Glue|450](../images/aws-glue.png)
 
 ---
 

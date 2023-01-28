@@ -2,7 +2,7 @@
 title: Spark Architecture
 ---
 
-![Spark Architecture|500](images/spark_architecture.png)
+![Spark Architecture|500](images/spark-architecture.png)
 
 Spark is a In-memory processing engine  
 Created by Amp Lab (Databricks) in 2009. It was found to be 100x faster than MapReduce  

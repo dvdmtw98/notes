@@ -12,7 +12,7 @@ But multiple containers can be run in run in a single Pod (used if the main cont
 Each Pod in K8s is assigned its own Virtual Private IP Address  
 If an container crashes and its restarted it will be assigned a new IP Address
 
-![Kubernetes Pods|250](../images/kube_pods.png)
+![Kubernetes Pods|250](../images/kube-pods.png)
 
 ---
 

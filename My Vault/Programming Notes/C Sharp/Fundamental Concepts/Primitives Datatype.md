@@ -14,7 +14,7 @@ Characters in C# are enclosed in single quotes ('...')
 When we compile C# code each datatype is converted to its equivalent .NET datatype  
 All datatypes in C# are derived or extended from the `System.Object`
 
-![Dotnet Datatypes|600](../images/dotnet_datatypes.png)
+![Dotnet Datatypes|600](../images/dotnet-datatypes.png)
 
  > [!note]
  > In C# the default real number datatype is "double" so float and decimal need to be declared explicitly

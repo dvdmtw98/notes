@@ -15,4 +15,4 @@ BeyondCorp itself is just a collection of identity, access and security services
 * Access to services is granted based on contextual factors from the user and their device
 * Access to services must be authenticated, authorized and encrypted
 
-![GCP BeyondCorp|700](../images/gcp_beyondcorp.png)
+![GCP BeyondCorp|700](../images/gcp-beyondcorp.png)

@@ -18,7 +18,7 @@ public class MovieController : Controller
 `ActionResult` is the base class for all types of results that can be returned from an Controller  
 `EmptyResult` does not have an helper class
 
-![Action Return Types||600](images/action_return_types.png)
+![Action Return Types||600](images/action-return-types.png)
 
 Redirects do not support POST Verb so data can only be sent in the URL
 

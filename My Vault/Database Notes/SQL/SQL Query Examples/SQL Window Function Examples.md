@@ -4,7 +4,7 @@ title: SQL Window Function Examples
 
 ### Fetch all the Duplicate Records in a Table
 
-![User Table|500](../images/user_table.png)
+![User Table|500](../images/user-table.png)
 
 <u>Approach</u>  
 Use ROW_NUMBER() and partition the table by user_name  
@@ -20,7 +20,7 @@ FROM (
 WHERE x.rn <> 1;
 ````
 
-![User Table Output|500](../images/user_table_output.png)
+![User Table Output|500](../images/user-table-output.png)
 
  > [!NOTE]
  > * The `ROW_NUMBER()` function is similar to SEQUENCE() and will return the next incremental number in the series
@@ -60,7 +60,7 @@ LIMIT 1,1;
 
 ### Fetch 3 consecutive records from a Table
 
-![Login Table|450](../images/login_table.png)
+![Login Table|450](../images/login-table.png)
 
 <u>Approach</u>  
 When consecutive values from a table need to be compared then mostly the `LEAD()` and `LAG()` function need to be used  
@@ -88,13 +88,13 @@ FROM (
 WHERE x.repeated_names IS NOT NULL;
 ````
 
-![Login Table Output|200](../images/login_table_output.png)
+![Login Table Output|200](../images/login-table-output.png)
 
 ---
 
 ### SQL query to interchange the adjacent student names
 
-![Student Table|400](../images/student_table.png)
+![Student Table|400](../images/student-table.png)
 
 <u>Approach</u>  
 If row number is even then LAG() the name, if even then LEAD the name
@@ -114,13 +114,13 @@ FROM
 	students;
 ````
 
-![Student Table Output|550](../images/student_table_output.png)
+![Student Table Output|550](../images/student-table-output.png)
 
 ---
 
 ### Fetch all the records when London had extremely cold temperature for 3 consecutive days or more
 
-![Weather Table|500](../images/weather_table.png)
+![Weather Table|500](../images/weather-table.png)
 
 <u>Approach</u>  
 Use Window function to find row where its next 2 rows have extreme temperature  
@@ -145,7 +145,7 @@ FROM (
 WHERE x.flag IS NOT NULL;
 ````
 
-![Weather Table Output|500](../images/weather_table_output.png)
+![Weather Table Output|500](../images/weather-table-output.png)
 
 ---
 

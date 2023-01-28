@@ -10,7 +10,7 @@ title: Public & Private IP Addresses
 | By 1990's started running out of Public IP Addresses                   | Used inside an Organizations Internal Network        |
 | Private IP Addresses and NAT (Network Address Translation) was created | NAT is used to speak with the outside Public Network |
 
-![Public and Private IP Addresses|350](../../images/public_and_private_ip_addresses.webp)
+![Public and Private IP Addresses|350](../../images/public-and-private-ip-addresses.webp)
 
 [NAT (Network Address Translation)](NAT%20%28Network%20Address%20Translation%29.md) : Translates Private IP Address to Public IP Address  
 The router has an Private Interface which is on the inside and a public interface which is facing the Internet

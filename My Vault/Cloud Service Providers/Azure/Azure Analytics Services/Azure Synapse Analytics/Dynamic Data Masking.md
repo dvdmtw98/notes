@@ -16,6 +16,6 @@ Users with administrative privileges are always excluded from data masking
 
 ### Data Masking Functions
 
-![Data Masking|600](../../images/data_masking.png)
+![Data Masking|600](../../images/data-masking.png)
 
 [Dynamic data masking - Azure SQL Database | Microsoft Docs](https://docs.microsoft.com/en-us/azure/azure-sql/database/dynamic-data-masking-overview)

@@ -2,20 +2,22 @@
 title: Health Checks
 ---
 
+**Health Checks** forms input for Health Monitoring, Availability Monitoring, Performance Monitoring and SLA Monitoring
+
 **Green**: All monitored systems are functioning as expected  
 **Yellow**: Partial health with some affected systems  
 **Red**: Application is non-functional or stopped
 
 ---
 
-#### Health Check Elements
+### Health Check Elements
 
-**Endpoint**: The check performed by our application through the endpoint  
+**Health Check Endpoint**: The check performed by our application through the endpoint  
 **Result Interpreter**: The system calling and interpreting the health checks
 
 ---
 
-#### Types of Analysis
+### Types of Analysis
 
 **Hot Analysis**: Time-critical analysis about current state of system (Health Check)  
 **Warm Analysis**: Data leading up to health event  
@@ -23,4 +25,5 @@ title: Health Checks
 
 ---
 
-The different probes exposed by the Compute Services can be used to check the Health status of the Services
+The different probes exposed by the Compute Services can be used to check the Health status of the Services  
+Containers Services support Liveness Probes and Readiness Probes

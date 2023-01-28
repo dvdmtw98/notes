@@ -19,7 +19,7 @@ Reservations are made for 1 or 3 years
 
 ### Spot Pricing for VM
 
-![VM Spot Pricing|320](../images/vm_spot_pricing.png)
+![VM Spot Pricing|320](../images/vm-spot-pricing.png)
 
 Buy VM for Azure as normal but it's an Spot VM  
 Microsoft can take away this capacity at anytime  

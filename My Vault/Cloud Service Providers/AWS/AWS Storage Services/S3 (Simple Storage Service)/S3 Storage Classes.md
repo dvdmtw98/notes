@@ -27,4 +27,4 @@ Long-term data archiving with retrieval times ranging from minutes to hours
 
 Archiving rarely accessed data with a default retrieval time of 12 hours
 
-![S3 Pricing and Durability|700](../../images/s3_pricing_and_durability.png)
+![S3 Pricing and Durability|700](../../images/s3-pricing-and-durability.png)

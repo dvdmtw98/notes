@@ -20,7 +20,7 @@ On read when the tombstone is encountered the Database Engine understands that t
 
 When we perform an data read operation the data in the memtable is queried first and then each SSTable in the order in which they where created until the required data is found
 
-![LSM Tree|500](../../System%20Design/images/lsm_tree.jpg)
+![LSM Tree|500](../../System%20Design/images/lsm-tree.jpg)
 
 **<u>Merging and Compaction</u>**  
 As more and more data is added and update and delete operations are performed the amount of space that is occupied by outdated data keeps increasing  

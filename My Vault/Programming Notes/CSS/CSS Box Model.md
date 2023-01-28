@@ -2,7 +2,7 @@
 title: CSS Box Model
 ---
 
-![CSS Box Model|420](images/css_box_model.png)
+![CSS Box Model|420](images/css-box-model.png)
 
 **Padding**: Spacing between the content and the border  
 **Border**: Divider between the padding and the margin  

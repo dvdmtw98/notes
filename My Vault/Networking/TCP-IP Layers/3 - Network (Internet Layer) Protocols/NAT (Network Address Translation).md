@@ -16,7 +16,7 @@ Search for google.com (215.58.194.174,80) we are making an HTTP request to googl
 **Step 5**: On our router NAT looks for the mapping for the incoming request  
 **Step 6**: The packet is forwarded to the appropriate device on the LAN
 
-![NAT Table|650](../../images/nat_table.png)
+![NAT Table|650](../../images/nat-table.png)
 
 ---
 

@@ -2,7 +2,7 @@
 title: Swarm Architecture
 ---
 
-![Docker Swarm Architecture|550](../images/docker_swarm_architecture.png)
+![Docker Swarm Architecture|550](../images/docker-swarm-architecture.png)
 
 **<u>Manager Nodes</u>**  
 An manager node is an node with permissions to control worker nodes  
@@ -14,7 +14,7 @@ An manager node can be an worker node as well
 **<u>Worker Nodes</u>**  
 Nodes where the docker images are actually executed
 
-![Docker Swarm Services|450](../images/docker_swarm_services_and_tasks.png)
+![Docker Swarm Services|450](../images/docker-swarm-services-and-tasks.png)
 
 The `swarm service` command replaces the `docker run` command it allows us to specify replicas for each service will was not possible previously  
 A single service can have multiple tasks and each task will be a container

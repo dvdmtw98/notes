@@ -27,11 +27,11 @@ It performs load balancing for the swarm services across their tasks
 
 Container-to-Container communication over Overlay network uses VIP (Virtual IP)
 
-![Swarm Overlay Network|600](../images/swarm_overlay_network.png)
+![Swarm Overlay Network|600](../images/swarm-overlay-network.png)
 
 External traffic incoming to the swarm can hit any of node as all nodes are listening on all the ports required by the running services
 
-![Swarm Ingress Traffic|600](../images/swarm_ingress_traffic_routing.png)
+![Swarm Ingress Traffic|600](../images/swarm-ingress-traffic-routing.png)
 
 There is an load balancer that is present on the external IP address of each node  
 This is a stateless load balancer (If session needs to be maintained another stateful load balancer will need to be used)  

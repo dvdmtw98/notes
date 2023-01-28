@@ -12,7 +12,7 @@ Ingress Controller is the entry point onto the cluster
 With Ingress a Internal Service (ClusterIP) also has to be created  
 Using Ingress, IP Address and Ports are not exposed like in [LoadBalancer](Kubernetes%20Services.md#load-balancer)
 
-![Ingress Controller|400](../images/ingress_controller.png)
+![Ingress Controller|400](../images/ingress-controller.png)
 
 When using K8s in the cloud there will be a Cloud Load Balancer that acts as the entry point which forwards the traffic to the Ingress Controller  
 When used on Bare Metal we need to setup an Proxy Server (Device with Public IP Address) that acts as the entry point

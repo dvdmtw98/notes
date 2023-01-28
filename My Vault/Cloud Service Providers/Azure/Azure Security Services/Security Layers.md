@@ -10,4 +10,4 @@ Perimeter : Protecting the resources from network based attacks
 Identity & Access : Ensuring that only authorized users have access to the resources  
 Physical Security : Provide physical safeguards to ensure only authorized access to the data
 
-![Security Layers|600](../images/security_layers.png)
+![Security Layers|600](../images/security-layers.png)

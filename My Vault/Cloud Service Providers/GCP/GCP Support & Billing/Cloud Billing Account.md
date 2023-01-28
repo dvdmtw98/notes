@@ -4,7 +4,7 @@ title: Cloud Billing Account
 
 It is used to define who pays for a given set of Google Cloud resources and is connected to a Google payments profile
 
-![GCP Billing Account|550](../images/gcp_billing_account.png)
+![GCP Billing Account|550](../images/gcp-billing-account.png)
 
 Billing account includes one or more billing contracts defined on the Payments profile
 Billing account can have sub-accounts for resellers, so you can bill resources to be paid by your customers

@@ -26,4 +26,4 @@ title: Dotnet Implementations
 * .NET Standard will go away once .NET 6 is released as it is will merge all the BCLs implementation into a common BCLs that can be used across implementations
 * The last version is 2.1
 
-![Dotnet Standard|600](../images/dotnet_standard.png)
+![Dotnet Standard|600](../images/dotnet-standard.png)

@@ -2,7 +2,7 @@
 title: Kubernetes Architecture
 ---
 
-![Kubernetes Architecture|500](../images/kubernetes_architecture.png)
+![Kubernetes Architecture|500](../images/kubernetes-architecture.png)
 
 Three processes need to run on every worker node
 

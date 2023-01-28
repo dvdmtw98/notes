@@ -18,11 +18,11 @@ We borrow host bits to create more sub-networks from a Class A, B or C network
 While we end up creating more networks the amount of host IP addresses available to use reduces  
 Each bit we borrow is equal to $2^1$ subnets
 
-![Subnetting 1|660](../../images/subnetting_1.png)
+![Subnetting 1|660](../../images/subnetting-1.png)
 
-![Subnetting 2|700](../../images/subnetting_2.png)
+![Subnetting 2|700](../../images/subnetting-2.png)
 
-![Subnetting 3|800](../../images/subnetting_3.png)
+![Subnetting 3|800](../../images/subnetting-3.png)
 
 | Field            | Value                                                                                                                                                                                                            |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -10,7 +10,7 @@ For VM we need to install Log Analytics Agent for collecting its data
 
 [Azure Alerts](../Azure%20Metrics%20&%20Logs/Azure%20Alerts.md) can be configured to be sent when certain conditions are satisfied
 
-![Azure Monitor|580](../images/azure_monitor.png)
+![Azure Monitor|580](../images/azure-monitor.png)
 
 Activity Log: Gives insights into Subscription level events  
 

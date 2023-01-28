@@ -22,9 +22,9 @@ Such data can be handled by sending it over an secure/ encrypted tunnel or encry
 Deterministic : Generates the same encrypted value all the time (Generally a IV is used to generate key)  
 Randomized : More secure as a new key is generated all the time
 
-![Data Classification|650](../images/data_classification.png)
+![Data Classification|650](../images/data-classification.png)
 
-![Data Encryption|600](../images/data_encryption.png)
+![Data Encryption|600](../images/data-encryption.png)
 
 ---
 

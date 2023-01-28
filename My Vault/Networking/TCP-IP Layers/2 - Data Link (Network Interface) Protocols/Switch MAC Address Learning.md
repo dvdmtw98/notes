@@ -19,4 +19,4 @@ Switch already know which port Host A is connected to so it forwards the packet 
 It is possible for the Switch to have multiple mappings for the same Port  
 This generally occurs when a Switch is connected to another Switch
 
-![Switch MAC Address Mapping](../../images/switch_mac_mapping.png)
+![Switch MAC Address Mapping](../../images/switch-mac-mapping.png)

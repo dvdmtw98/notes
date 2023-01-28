@@ -2,7 +2,7 @@
 title: TCP Three-Way Handshake
 ---
 
-![Three Way Handshake|450](../../images/three_way_handshake.png)
+![Three Way Handshake|450](../../images/three-way-handshake.png)
 
 ### TCP Header Flags
 

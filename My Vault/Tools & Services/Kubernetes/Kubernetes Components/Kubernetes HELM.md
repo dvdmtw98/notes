@@ -7,7 +7,7 @@ Bundle of YAML files is called as **Helm Chart**
 
 Provides templating engine. Allows to create blueprints that will be used for reusing YAML files across multiple deployments
 
-![HELM Template|600](../images/helm_template.png)
+![HELM Template|600](../images/helm-template.png)
 
 ### Tiller Server
 

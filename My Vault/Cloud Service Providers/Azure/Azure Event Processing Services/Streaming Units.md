@@ -12,7 +12,7 @@ If this value is greater than 80% or there are backlogged events then SUs need t
 
 ### Calculate Maximum Streaming Units Required for a Job
 
-![Streaming Job Query|500](../images/streaming_job_query.png)
+![Streaming Job Query|500](../images/streaming-job-query.png)
 
 Number of Steps in a Query
 
@@ -24,4 +24,4 @@ The number of partitions in each step
 * Max 6 SU for all non-partitioned steps
 * Add 6 SU for each partition in a partitioned step
 
-![Streaming Job Answer|500](../images/streaming_job_answer.png)
+![Streaming Job Answer|500](../images/streaming-job-answer.png)

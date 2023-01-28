@@ -40,7 +40,7 @@ The Execution Context consists of the currently running code and everything that
 The process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code  
 In reality this is not the case its just the way Execution context in JavaScript works
 
-![Variable Hoisting](images/var_vs_let_lifecycle.png)
+![Variable Hoisting](images/var-vs-let-lifecycle.png)
 
 When "let" and "const" is used the variables are not declared in the global scope and hence cannot be accessed using logged before declaration
 
@@ -48,7 +48,7 @@ When "let" and "const" is used the variables are not declared in the global scop
 
 ### Web API and Event Loop
 
-![WebAPI and Event Loop|550](images/webapi_and_event_loop.png)
+![WebAPI and Event Loop|550](images/webapi-and-event-loop.png)
 
 Web API features are not part of JS they are provided on top of JS by browsers
 

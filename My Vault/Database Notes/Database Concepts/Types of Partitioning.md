@@ -36,7 +36,7 @@ Selecting the correct partitioning key in this type of approach is very vital (T
 If suboptimal columns are used the performance of the data store can be effected drastically.  
 It is difficult to change the partition key once data has been loaded into the system
 
-![Horizontal Partitioning|550](../../Cloud%20Service%20Providers/Azure/images/horizontal_partitioning.png)
+![Horizontal Partitioning|550](../../Cloud%20Service%20Providers/Azure/images/horizontal-partitioning.png)
 
 **<u>Vertical Partitioning</u>**  
 Each partition holds a subset of fields that are stored in the data store (Splitting data based on columns)  
@@ -46,7 +46,7 @@ The data that is stored in one partition will be accessed more frequently compar
 This approach allows to apply different security constraints on different data. PII data can be stored in a separate partition where strict security constraints can be used  
 Allows to save slowly changing data and fast changing data separately
 
-![Vertical Partitioning|400](../../Cloud%20Service%20Providers/Azure/images/vertical_partitioning.png)
+![Vertical Partitioning|400](../../Cloud%20Service%20Providers/Azure/images/vertical-partitioning.png)
 
 **<u>Functional Partitioning</u>**  
 Separate data from different domains into different physical nodes to ensure better isolation and performance  

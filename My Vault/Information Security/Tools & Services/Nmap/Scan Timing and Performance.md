@@ -9,7 +9,7 @@ When increasing the speed of scan or increasing the parallelism of the scan the 
 T0 to T5 are referred to as timing template.  
 T0 is very rarely used. T1 can be used to evade older firewalls and IDS. T2 is also very rarely used. T3 is the default speed. T4 is used to speed up the scan. T5 is an very aggressive scan.
 
-![Nmap Timing Template|600](../../images/nmap_timing_template.png)
+![Nmap Timing Template|600](../../images/nmap-timing-template.png)
 
 ````bash
 nmap -sS -T4 <ip-address>

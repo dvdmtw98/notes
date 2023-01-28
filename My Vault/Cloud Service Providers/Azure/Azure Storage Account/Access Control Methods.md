@@ -37,7 +37,7 @@ Changing the default ACL of an parent does not affect the access ACL or default 
  > * In POSIX style model the permissions for an item are stored in the items itself
  > * Permissions are only inherited if default permissions have been set on the parent element before the child items are created
 
-![Azure Storage Account Authentication|600](../images/azure_storage_account_authentication.png)
+![Azure Storage Account Authentication|600](../images/azure-storage-account-authentication.png)
 
  > [!INFO]
  > * RBAC always is evaluated first and takes precedence over ACL

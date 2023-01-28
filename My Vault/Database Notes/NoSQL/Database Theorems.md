@@ -7,7 +7,7 @@ BASE: Basically Available, Soft State, Eventual Consistency
 CAP: Consistency, Availability, Partition Tolerance  
 [A plain English introduction to CAP theorem « Kaushik Sathupadi](http://ksat.me/a-plain-english-introduction-to-cap-theorem)
 
-![CAP Theorem|500](../../Cloud%20Service%20Providers/AWS/images/cap_theorem.jpg)
+![CAP Theorem|500](../../Cloud%20Service%20Providers/AWS/images/cap-theorem.jpg)
 
 **<u>PACELC Theorem</u>**  
 If Partition Tolerance then compromise between Availability and Consistency  

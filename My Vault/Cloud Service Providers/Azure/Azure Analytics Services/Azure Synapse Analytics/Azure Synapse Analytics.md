@@ -8,7 +8,7 @@ It is a PaaS (Platform as a Service) offering
 
 Data Warehouse Unit (DWU): Unit used for represent the cost/ compute of SQL Pool
 
-![Synapse Architecture|600](../../images/azure_synapse_architecture.png)
+![Synapse Architecture|600](../../images/azure-synapse-architecture.png)
 
 Unpredictable Workflows: Serverless SQL  
 Predictable Workflows: Dedicated SQL

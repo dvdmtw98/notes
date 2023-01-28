@@ -19,7 +19,7 @@ Data stored is schema less (Datatype and attributes of the items are not fixed)
 The attributes can be scalar (One or more value or nested in nature)  
 Max supported nesting 32 levels
 
-![AWS DB Features Comparision|700](../../images/aws_databases_comparision.png)
+![AWS DB Features Comparision|700](../../images/aws-databases-comparision.png)
 
 ---
 

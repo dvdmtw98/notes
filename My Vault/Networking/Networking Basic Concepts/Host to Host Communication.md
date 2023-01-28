@@ -20,7 +20,7 @@ This process remains the same even if there and Switches and Hubs on the network
 
 ### Foreign Network
 
-![Foreign Network Communication](../images/foreign_network_communication.png)
+![Foreign Network Communication](../images/foreign-network-communication.png)
 
 Host A want to communicate with Host C, Host A knows the IP Address of Host C and by looking at the Subnet Mask is able to identify that Host C is on a foreign network  
 Host A creates the Layer 3 Packet using the source and destination IP Address  

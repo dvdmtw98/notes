@@ -10,7 +10,7 @@ title: Hadoop Features
 3. Data Availability
 4. Fault Tolerance
 
-![Hadoop Ecosystem|600](images/hadoop_ecosystem.jpg)
+![Hadoop Ecosystem|600](images/hadoop-ecosystem.jpg)
 
 ---
 
@@ -27,4 +27,4 @@ title: Hadoop Features
 	 * Default : 3 times
 	* Min : 1, Max : 512
 
-![Hadoop Architecture 2|500](images/hadoop_architecture_2.png)
+![Hadoop Architecture 2|500](images/hadoop-architecture-2.png)

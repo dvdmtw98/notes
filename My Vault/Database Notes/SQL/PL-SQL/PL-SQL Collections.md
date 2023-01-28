@@ -5,7 +5,7 @@ title: PL-SQL Collections
 Collections in SQL are one dimensional and are similar to arrays  
 VARRAYs have an upper bound on the size
 
-![Collections|550](../images/collection_objects.png)
+![Collections|550](../images/collection-objects.png)
 
 ### Nested Table
 
@@ -28,9 +28,9 @@ END;
 /
 ````
 
-![Nested Table 1|550](../images/nested_table_1.png)
+![Nested Table 1|550](../images/nested-table-1.png)
 
-![Nested Table 2|500](../images/nested_table_2.png)
+![Nested Table 2|500](../images/nested-table-2.png)
 
 ### VARRAYs
 

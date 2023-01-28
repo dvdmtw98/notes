@@ -7,7 +7,7 @@ Uses a DSL modem and splitter to accomplish this task
 (Limitation) DSL modem must be within 2 miles of telecommunication company  
 It's an hybrid technology as the connection to the telecommunication company can be circuit switched (normal speed connection) or packet switched (high speed connection)
 
-![DSL Modem|700](../../images/dsl_modem.png)
+![DSL Modem|700](../../images/dsl-modem.png)
 
 Types of DSL:
 
@@ -30,7 +30,7 @@ Types of DSL:
    Multiple signals over different frequencies at the same time in the cable (Do to different frequencies we can have multiple channels (each channel 1 frequency) and a different frequency for Internet)  
    It makes use of packet switched network
 
-![Cable Modem|700](../../images/cable_modem.png)
+![Cable Modem|700](../../images/cable-modem.png)
 
 | DOCSIS Version  | Max Download Speed | Max Upload Speed |
 | --------------- | ------------------ | ---------------- |

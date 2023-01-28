@@ -17,7 +17,7 @@ Kinesis Data Firehose (Prepare and load data continuously to destination)
 Kinesis Data Analytics (Query and analyze streaming data. Captures data from firehose and data streams)  
 Kinesis Video Streams (Ingest Videos into AWS and use to for ML)
 
-![Kinesis Architecture|600](../../images/kinesis_architecture.png)
+![Kinesis Architecture|600](../../images/kinesis-architecture.png)
 
 ---
 

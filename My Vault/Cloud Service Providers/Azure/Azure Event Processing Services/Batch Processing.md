@@ -5,13 +5,13 @@ title: Batch Processing
 Batch processing is an umbrella term that is used to encompass the various big data processing approaches based on [MapReduce](../../../Data%20Analytics/Apache%20Hadoop/MapReduce.md)  
 Batch Processing is a framework that processes as much data as possible at a regular cadence in the most efficient manner possible
 
-![Batch Processing|500](../images/batch_processing.png)
+![Batch Processing|500](../images/batch-processing.png)
 
 ---
 
 ### Lambda Architecture
 
-![Lambda Architecture|500](../images/lambda_architecture.png)
+![Lambda Architecture|500](../images/lambda-architecture.png)
 
 When using ETL that uses MapReduce to process large amounts of data the reports that are generated are several hours old  
 Because of this it is difficult to get real time information for some of the parameters even with same loss of accuracy
@@ -39,7 +39,7 @@ Hot Path: Get information about the local "delta" transactions that have taken p
 
 ### Kappa Architecture
 
-![Kappa Architecture|500](../images/kappa_architecture.png)
+![Kappa Architecture|500](../images/kappa-architecture.png)
 
 In Kappa there is only one processing block which is the speed layer that processes data using real-time analysis  
 The long term storage data/ batch processing is also done using the speed layer

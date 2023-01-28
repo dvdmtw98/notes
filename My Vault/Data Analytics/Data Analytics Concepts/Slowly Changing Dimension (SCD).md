@@ -19,7 +19,7 @@ A type 1 SCD does not store any historic data
 When an change is detected in the source table the value in the dimension table is updated to reflect the change  
 It is used for recording supplementary value like Phone Number, Email Address
 
-![Type 1 SCD|700](images/type_1_scd_table.png)
+![Type 1 SCD|700](images/type-1-scd-table.png)
 
 ### Type 2 SCD (Adding Record)
 
@@ -27,7 +27,7 @@ Supports storing versioning of data
 These types of SCD tables table extra columns that are used to capture the validity of the record  
 The source table generally do not store versioning data so surrogate keys are used in the dimension table to uniquely identify the change and link it to the primary table
 
-![Type 2 SCD|700](images/type_2_scd_table.png)
+![Type 2 SCD|700](images/type-2-scd-table.png)
 
 ### Type 3 SCD (Add Attribute)
 
@@ -36,7 +36,7 @@ The table will have a column for storing the old value along with the new value
 Type 3 is generally used in combination with Type 1 and Type 2  
 Type 3 is suitable when only few column value changes and storing new rows will be too expensive
 
-![Type 3 SCD|700](images/type_3_scd_table.png)
+![Type 3 SCD|700](images/type-3-scd-table.png)
 
 ### Type 4 SCD (Add History Table)
 
@@ -57,4 +57,4 @@ Whenever there is an change in value a new row is created similar to Type 2.
 For all the row for the column that is changes the current value is stored as well similar to Type 3  
 For each version of the same copy of data the current value can be accessed easily
 
-![Type 6 SCD|700](images/type_6_scd_table.png)
+![Type 6 SCD|700](images/type-6-scd-table.png)

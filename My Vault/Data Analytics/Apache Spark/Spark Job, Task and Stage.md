@@ -28,7 +28,7 @@ DAG Scheduler is responsible for creating a graph and splits it into stages of t
 Task Scheduler launch's the tasks using cluster manager (Responsible for allocation worker and executor in worker)  
 Cluster Manager instructs the worker node to execute the job. It tracks jobs and report back the status of jobs
 
-![Job Execution|550](images/job_execution.jpg)
+![Job Execution|550](images/job-execution.jpg)
 
 ---
 

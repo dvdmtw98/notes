@@ -9,7 +9,7 @@ title: Temporal Tables
 * These fields are of `datetime2` datatype
 * The history table cannot have any constraints (PK, FK, Table and Column level constraints) but the temporal table must have a PK
 
-![Temporal Tables|600](../../images/temporal_tables.png)
+![Temporal Tables|600](../../images/temporal-tables.png)
 
 ---
 

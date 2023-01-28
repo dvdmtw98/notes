@@ -127,7 +127,7 @@ print(new_car.drive())
 A metaclass is a Callable that returns a class  
 Even before `__new__` is called there is an method called `__prepare__` which is called which returns a dictionary that stored everything that is inside a class
 
-![Python Metaclasses|450](../images/python_metaclasses.png)
+![Python Metaclasses|450](../images/python-metaclasses.png)
 
 ---
 

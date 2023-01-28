@@ -32,7 +32,7 @@ In the PVC config the characteristics of the Volume that is required is specifie
 In the Pod config the PVC to be used needs to be specified  
 PVC has to be present in the same namespace as the Pod
 
-![Kubernetes Volume Abstractions|550](../images/kubernetes_volume_abstractions.png)
+![Kubernetes Volume Abstractions|550](../images/kubernetes-volume-abstractions.png)
 
 Once the Pod has access to the Volume it needs to be mounted to the Pod in order for it to be accessible
 
@@ -41,4 +41,4 @@ Once the Pod has access to the Volume it needs to be mounted to the Pod in order
 Allows to provision Persistent Storage Dynamically when PVC claims it  
 The Storage Backend is defined using the **provider** attribute
 
-![Kubernetes Storage Class|550](../images/kubernetes_storage_class.png)
+![Kubernetes Storage Class|550](../images/kubernetes-storage-class.png)

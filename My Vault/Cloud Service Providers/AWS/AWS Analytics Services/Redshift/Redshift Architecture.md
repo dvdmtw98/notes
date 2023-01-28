@@ -2,7 +2,7 @@
 title: Redshift Architecture
 ---
 
-![Redshift Architecture|500](../../images/redshift_architecture.png)
+![Redshift Architecture|500](../../images/redshift-architecture.png)
 
 Redshift is an collection of compute resources which we call nodes  
 A group of nodes is called a cluster

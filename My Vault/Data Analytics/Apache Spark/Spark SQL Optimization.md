@@ -10,4 +10,4 @@ Query optimization is only available for build in functions (UDF not supported)
 Logical Plan (Plan/ code written by the developer)  
 Physical Plan (Actual processing that is performed in Spark)
 
-![Spark SQL Optimization|600](images/spark_sql_optimization.jpg)
+![Spark SQL Optimization|600](images/spark-sql-optimization.jpg)

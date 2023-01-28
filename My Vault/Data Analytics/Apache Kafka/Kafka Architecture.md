@@ -9,4 +9,4 @@ title: Kafka Architecture
 * Partition: Topic is broken down into Ordered commit log to which messages are written
 * Broker: Kafka Server (Kafka cluster of brokers)
 
-![Kafka Architecture|500](images/kafka_architecture.png)
+![Kafka Architecture|500](images/kafka-architecture.png)

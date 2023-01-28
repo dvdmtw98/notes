@@ -4,13 +4,13 @@ title: SQL Join Examples
 
 ### Fetch the details of doctors who work in the same hospital but in different specialty
 
-![Doctor Table|900](../images/doctor_table.png)
+![Doctor Table|900](../images/doctor-table.png)
 
 <u>Approach</u>  
 Whenever we need to compare each record in a table with itself we need to make use of self join  
 As we don't want to compare a record with itself extra condition for not checking same ids need to be added
 
-![Doctor Table Output|600](../images/doctor_table_output.png)
+![Doctor Table Output|600](../images/doctor-table-output.png)
 
 ````sql
 SELECT d1.name, d1.speciality, d1.hospital

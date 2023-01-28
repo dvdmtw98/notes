@@ -19,7 +19,7 @@ This can be changed by setting the **<u>flex-direction</u>** property
 In **default orientation** the horizontal axis is called **main axis** and the vertical axis is called **cross axis**  
 This is reversed when flex-direction is changed to be vertical
 
-![Flexbox Axes|680](images/flexbox_axes.png)
+![Flexbox Axes|680](images/flexbox-axes.png)
 
 justify-content : Position flex items wrt. main axis  
 align-items : Position flex items wrt. cross axis

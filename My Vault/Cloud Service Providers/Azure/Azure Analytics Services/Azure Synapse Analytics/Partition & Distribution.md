@@ -7,7 +7,7 @@ If each partition will have less than 60 million rows then it is recommended to 
 
 [Partitioning tables in dedicated SQL pool - Azure Synapse Analytics | Microsoft Docs](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-partition)
 
-![Partitions in Synapse|600](../../images/partitioning_in_azure_synapse.png)
+![Partitions in Synapse|600](../../images/partitioning-in-azure-synapse.png)
 
 ---
 
@@ -49,7 +49,7 @@ It should not be a date column and should have very few (ideally no) NULL values
 
 ### Best Practices
 
-![Synapse Distribution Decision Factors|640](../../images/decide_distribution_in_azure_synapse.png)
+![Synapse Distribution Decision Factors|640](../../images/decide-distribution-in-azure-synapse.png)
 
 For more than 60 million records Clustered Columnstore Index (CCI) provides the best performance  
 For smaller tables heap and Clustered Index will provide better performance  

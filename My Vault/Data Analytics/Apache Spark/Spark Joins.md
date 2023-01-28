@@ -18,7 +18,7 @@ Joins use more shuffles than any other process in Spark. It always leads to bad 
 empDF.join(broadcast(deptDF), empDF.emp_dept_id == deptDF.dept_id, "inner").show()
 ````
 
-![Broadcast Joins|550](images/broadcast_join.jpg)
+![Broadcast Joins|550](images/broadcast-join.jpg)
 
 ---
 
@@ -30,11 +30,11 @@ empDF.join(broadcast(deptDF), empDF.emp_dept_id == deptDF.dept_id, "inner").show
 * The values that going to be in a partition after shuffle is decided by hash function
 * Used for non-indexed data
 
-![Shuffle Hash Join|550](images/shuffle_hash_join.jpg)
+![Shuffle Hash Join|550](images/shuffle-hash-join.jpg)
 
 If we try to join normally for similar data we need to access all the partitions and then are join and reduced into a new partition
 
-![Shuffle Hash Join 2|400](images/shuffle_hash_join_2.png)
+![Shuffle Hash Join 2|400](images/shuffle-hash-join-2.png)
 
 ---
 
@@ -45,7 +45,7 @@ If we try to join normally for similar data we need to access all the partitions
 * It is the default sort strategy in Spark since v2.3
 * The join key needs to be orderable (sortable) for this algorithm to work
 
-![Sort Merge Join|550](images/sort_merge_join.jpg)
+![Sort Merge Join|550](images/sort-merge-join.jpg)
 
 ---
 

@@ -11,7 +11,7 @@ When you choose a column to be partition key the data is split logically based o
 These logical partitions are then physically partitioned by storing them on different disks   More than one physical partition can be saved onto the save disk  
 In Cosmos DB the partition key has to be defined at the container level
 
-![Partitions in Cosmos DB|600](../../images/partitioning_in_cosmos_db.png)
+![Partitions in Cosmos DB|600](../../images/partitioning-in-cosmos-db.png)
 
 The logical partitions are physically distributed by using an Hashing Algorithm  
 Each physical partition has an replica set which allows to distribute the data globally  

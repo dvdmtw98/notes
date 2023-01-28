@@ -17,13 +17,13 @@ These drivers have three main info associated with them: Type, Minor & Major no.
 We communicate with char devices by sharing bytes of data while with block devices a chunk of data is shared at a time  
 The major number represents the type of the device while the minor number is to distinguish devices that have the same major version
 
-![Char Device Driver Abstraction|400](../images/char_device_driver_abstraction.png)
+![Char Device Driver Abstraction|400](../images/char-device-driver-abstraction.png)
 
 To implement a char driver we need to define the major and minor version of the device  
 Implement the file operations required by the driver (read, write, open, close)
 Register the char driver in the kernel
 
-![Char Device Driver Registeration|550](../images/char_device_driver_registeration.png)
+![Char Device Driver Registeration|550](../images/char-device-driver-registeration.png)
 
 Depending on the device architecture there are different ways to talk with the hardware device. Two of the most common approach is Port I/O and Memory-mapped I/O
 
