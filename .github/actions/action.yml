@@ -14,7 +14,7 @@ runs:
         shell: bash
         run: |
             cp -a My\ Vault/. mkdocs/docs \
-            && rm -rf mkdocs/docs/{.obsidian,Read\ &\ Watch\ List,Languages}
+            && rm -rf mkdocs/docs/{.obsidian,Read\ \&\ Watch\ List,Languages}
       - name: Asset Copy
         id: asset-copy
         shell: bash
