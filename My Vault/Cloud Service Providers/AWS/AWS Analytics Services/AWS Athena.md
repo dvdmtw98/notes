@@ -8,7 +8,7 @@ It is similar to External Table concept in [Apache Hive](../../../Data%20Analyti
 It is an serverless service (No infrastructure to manage)
 
 When creating an external table we have two options:
-* Use [AWS Glue](AWS%20Glue.md) Crawler to crawl the data and automatically create the schema
+* Use [AWS Glue](../AWS%20Other%20Services/AWS%20Glue.md) Crawler to crawl the data and automatically create the schema
 * Manually specify the columns that are going to be present in the data
 
 ---
