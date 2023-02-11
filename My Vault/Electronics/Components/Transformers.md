@@ -34,4 +34,4 @@ An very common configuration of three phase transform is the Delta-Star (Delta-W
 
 ---
 
-[Electronics](Electronics.md)
+[Electronics](../Electronics.md)

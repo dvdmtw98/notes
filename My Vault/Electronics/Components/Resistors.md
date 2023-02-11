@@ -16,4 +16,4 @@ The excess current that is flowing through the resistor leaves the circuit in th
 
 ---
 
-[Electronics](Electronics.md)
+[Electronics](../Electronics.md)

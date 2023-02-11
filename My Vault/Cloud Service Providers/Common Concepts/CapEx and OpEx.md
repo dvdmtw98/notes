@@ -21,4 +21,4 @@ Minimal Maintenance: Operation Expenditure
 
 ---
 
-[Cloud Service Providers](../../Cloud%20Service%20Providers.md)
+[Cloud Service Providers](../Cloud%20Service%20Providers.md)

@@ -48,4 +48,4 @@ Also called as "multi-cloud" or "hybrid-cloud"
 
 ---
 
-[Cloud Service Providers](../../Cloud%20Service%20Providers.md)
+[Cloud Service Providers](../Cloud%20Service%20Providers.md)

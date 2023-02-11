@@ -76,4 +76,4 @@ Buying off the shelf applications
 
 ---
 
-[Cloud Service Providers](../../Cloud%20Service%20Providers.md)
+[Cloud Service Providers](../Cloud%20Service%20Providers.md)

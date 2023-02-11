@@ -11,4 +11,4 @@ Passing an magnetic field through a coil will induce a voltage and current calle
 
 ---
 
-[Electronics](Electronics.md)
+[Electronics](../Electronics.md)

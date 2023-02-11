@@ -52,4 +52,4 @@ Cloud providers at a minimum try to aim for four 9s availability
 
 ---
 
-[Cloud Service Providers](../../Cloud%20Service%20Providers.md)
+[Cloud Service Providers](../Cloud%20Service%20Providers.md)
