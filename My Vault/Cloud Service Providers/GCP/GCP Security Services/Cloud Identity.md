@@ -1,5 +1,6 @@
 ---
 title: Cloud Identity
+tags: [gcp, cloud, security]
 ---
 
 It is a Identity as a Service (IDaaS) that centrally manages users and groups  

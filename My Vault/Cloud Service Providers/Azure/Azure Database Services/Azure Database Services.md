@@ -1,5 +1,6 @@
 ---
 title: Azure Database Services
+tags: [azure, cloud, database, index]
 ---
 
 ### Azure Cosmos DB
@@ -25,3 +26,7 @@ title: Azure Database Services
 
 * [Azure Tables](Azure%20Tables/Azure%20Tables.md)
 * [Azure Tables Partitioning](Azure%20Tables/Azure%20Tables%20Partitioning.md)
+
+---
+
+[Azure](../Azure.md)

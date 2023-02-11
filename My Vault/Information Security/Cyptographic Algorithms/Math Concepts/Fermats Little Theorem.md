@@ -1,5 +1,6 @@
 ---
 title: Fermats Little Theorem
+tags: [security, math]
 ---
 
 $x^{n-1} \equiv 1 \mod n$

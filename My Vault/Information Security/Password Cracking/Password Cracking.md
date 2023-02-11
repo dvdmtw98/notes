@@ -1,5 +1,6 @@
 ---
 title: Password Cracking
+tags: [security, password, index]
 ---
 
 ### Password Cracking
@@ -7,8 +8,6 @@ title: Password Cracking
 * [Hashcat](Hashcat.md)
 * [John the Ripper](John%20the%20Ripper.md)
 * [Hydra](Hydra.md)
-
----
 
 ### Miscellaneous Points
 

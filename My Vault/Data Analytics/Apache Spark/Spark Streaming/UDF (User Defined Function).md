@@ -1,5 +1,6 @@
 ---
 title: UDF (User Defined Function)
+tags: [analytics, spark, streaming]
 ---
 
 ````python

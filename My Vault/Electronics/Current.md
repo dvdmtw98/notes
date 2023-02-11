@@ -1,5 +1,6 @@
 ---
 title: Current
+tags: [electrical, concept]
 ---
 
 It is the flow of free electrons between atoms in a circuit  
@@ -17,3 +18,7 @@ There are two types of current : [AC & DC Current](AC%20&%20DC%20Current.md)
 
 Current in an series circuit will be the same everywhere  
 The current in a parallel circuit in the branches will be the same of the current available in the circuit
+
+---
+
+[Electronics](Electronics.md)

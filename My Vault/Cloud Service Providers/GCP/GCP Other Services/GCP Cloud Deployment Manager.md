@@ -1,5 +1,6 @@
 ---
 title: GCP Cloud Deployment Manager
+tags: [gcp, cloud]
 ---
 
 It is Google Cloud's IaC service  

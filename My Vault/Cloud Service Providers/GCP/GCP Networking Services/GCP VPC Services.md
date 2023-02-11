@@ -1,5 +1,6 @@
 ---
 title: GCP VPC Services
+tags: [gcp, cloud, networking]
 ---
 
 ### Shared VPC

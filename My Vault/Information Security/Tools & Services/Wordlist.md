@@ -1,11 +1,10 @@
 ---
 title: Wordlist
+tags: [security, wordlist]
 ---
 
 Seclists/Discovery/Web-Content/common.txt : Useful for Web Directory Brute forcing
 Rockyou.txt : Password Cracking
-
----
 
 ### Generate Wordlist
 

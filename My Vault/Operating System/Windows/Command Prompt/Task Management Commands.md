@@ -1,5 +1,6 @@
 ---
 title: Task Management Commands
+tags: [os, windows, command]
 ---
 
 ````batch

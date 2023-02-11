@@ -1,5 +1,6 @@
 ---
 title: MapReduce
+tags: [analytics, hadoop]
 ---
 
 ### Massive Parallel Processing

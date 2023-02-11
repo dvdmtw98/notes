@@ -20,4 +20,4 @@ The options are only shared between the client and server during the initial Han
 
 ---
 
-[TCP (Transmission Control Protocol)](../../../Networking/TCP-IP%20Layers/4%20-%20Transport%20Layer%20Protocols/TCP%20%28Transmission%20Control%20Protocol%29.md)
+[TCP (Transmission Control Protocol)](../../../Computer%20Networks/TCP-IP%20Layers/4%20-%20Transport%20Layer%20Protocols/TCP%20(Transmission%20Control%20Protocol).md)

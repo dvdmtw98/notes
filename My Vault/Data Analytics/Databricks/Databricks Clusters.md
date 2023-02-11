@@ -1,5 +1,6 @@
 ---
 title: Databricks Clusters
+tags: [analytics, databricks]
 ---
 
 ### All Purpose Cluster

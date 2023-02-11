@@ -1,5 +1,6 @@
 ---
 title: Linux Tools & Utilities
+tags: [os, linux, tools, index]
 ---
 
 ### Table of Content

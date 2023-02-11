@@ -1,5 +1,6 @@
 ---
 title: Hiragana
+tags: [language, japanese, hiragana, index]
 ---
 
 Hiragana and Katakana characters together is called as Kana  

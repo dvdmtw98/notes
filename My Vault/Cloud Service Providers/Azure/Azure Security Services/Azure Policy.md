@@ -1,20 +1,42 @@
 ---
 title: Azure Policy
+tags: [azure, cloud, security, policy]
 ---
 
-Policies allows to check for resource properties and then make decision based on these properties  
-Policy can be created on any property and then an rule can be written around the policy to make a decide when the policy is True and when its False
+Policies allow to make decisions based on the properties of a resource  
+A policy can be created on (almost) all properties of any given resource  
+The properties of the resources are exposed as aliases  
+A rule can be written around the policy to make a decision (cause a effect) based on the value received of the property defined in the policy  
+
+A policy is an single rule. Multiple policies can be grouped together into an **Initiative** which allows for easier assignment and enforcement of the policies    
+Policies are enforced at the Fabric level and cannot be bypassed by any method (though its possible to exclude resources from policies)
 
 ![Azure Policy|500](../images/azure-policy.png)
 
-Policies do not check for user permissions (It is assumed to be checked in the previous step)  
+Policy can be assigned to any scope: Management group, Subscription, Resource Group, Resource. The policies are inherited   
+Policies do not check for user permissions (It is checked in a previous step)  
 Policies are checked during the deployment of an resource  
-Policy is an single rule that is checked. Multiple policies grouped together is called as an Initiative  
 Policies are only applied to Resources that are newly created or modified. For applying to older resources the remediation option can be used  
-Policy can be assigned to any scope: Management group, Subscription, Resource Group, Resource
 
-Some of the allowed effects from Polices:
+GitHub Actions have Actions that allow to apply Azure Policies as well as Scan for Compliance  
+DevOps has built-in support for policies via **Gates** which can be enabled Pre or Post Deployment
 
-* Deny: Fail deployment
-* Audit: Allow deployment but raise exception
-* Append, Modify: Modify the policy before the deployment happens
+### Policy Effects
+
+- Deny: Fail deployment
+- Audit: Allow deployment but raise exception
+- Append, Modify: Modify the policy before the deployment happens
+
+### Azure Policy for Kubernetes
+
+For AKS Policies need to be explicitly enabled (Onboarding for Kubernetes Service)  
+Once enabled services like Azure Defender can use the metrics from AKS to recommendations for compliance  
+Regulators compliance details for AKS can be found in Security Center  
+
+### Policy Best Particles
+
+- Map Azure Policies to the written policies of the organization  
+- Use Audit before using Enforce & Remediate  
+- Broad policies at higher level and tighter as we go down the hierarchy  
+- Have people responsible for tracking the compliance  
+- Use good names and descriptions

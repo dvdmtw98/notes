@@ -1,5 +1,6 @@
 ---
 title: Linux Misc. Commands
+tags: [os, linux, command]
 ---
 
 Complete Command in Editor : Ctrl + X + E  

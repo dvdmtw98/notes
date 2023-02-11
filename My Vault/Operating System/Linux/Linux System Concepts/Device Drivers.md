@@ -1,5 +1,6 @@
 ---
 title: Device Drivers
+tags: [os, linux, concept]
 ---
 
 Abstractions for a piece of software  

@@ -1,5 +1,6 @@
 ---
 title: Spark Streaming with Kafka
+tags: [analytics, spark, streaming]
 ---
 
 ### PySpark with Kafka

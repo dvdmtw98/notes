@@ -1,5 +1,6 @@
 ---
 title: Katakana M-Column
+tags: [language, japanese, katakana]
 ---
 
 ### M-Column

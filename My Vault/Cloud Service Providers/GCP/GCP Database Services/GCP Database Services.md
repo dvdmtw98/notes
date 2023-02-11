@@ -1,5 +1,6 @@
 ---
 title: GCP Database Services
+tags: [gcp, cloud, database]
 ---
 
 ### Cloud SQL

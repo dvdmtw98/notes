@@ -1,5 +1,6 @@
 ---
 title: Parts of Speech
+tags: [language, english]
 ---
 
 ### Noun

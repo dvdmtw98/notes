@@ -1,5 +1,6 @@
 ---
 title: Azure Cosmos DB
+tags: [azure, cloud, database, nosql, cosmos-db, index]
 ---
 
 Fully Managed NoSQL Database designed to be highly scalable and highly performant  
@@ -60,8 +61,6 @@ In a Azure Subscription only 50 Cosmos DB Accounts can be created
 Each account can contain any amount of data and databases
 
 ![Cosmos DB Structure|600](../../images/cosmos-db-structure.png)
-
----
 
 **<u>References</u>**:
 * [Choose an API in Azure Cosmos DB | Microsoft Docs](https://docs.microsoft.com/en-us/azure/cosmos-db/choose-api)

@@ -1,5 +1,6 @@
 ---
 title: Linux Network Related Commands
+tags: [os, linux, command]
 ---
 
 ### Network Interface

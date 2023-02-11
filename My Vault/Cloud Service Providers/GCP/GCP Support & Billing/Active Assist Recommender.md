@@ -1,5 +1,6 @@
 ---
 title: Active Assist Recommender
+tags: [gcp, cloud, recommendation]
 ---
 
 A portfolio of intelligent tools and capabilities to help **actively assist** you in managing complexity in your cloud operations

@@ -1,5 +1,6 @@
 ---
 title: Delta File Format
+tags: [analytics, databricks]
 ---
 
 Delta Lake adds ACID Properties on Data  

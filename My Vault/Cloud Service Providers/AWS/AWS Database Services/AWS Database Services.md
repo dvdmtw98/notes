@@ -1,5 +1,6 @@
 ---
 title: AWS Database Services
+tags: [aws, cloud, database, index]
 ---
 
 - RDS (Relational Database Service) : Relation DB  

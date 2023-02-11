@@ -1,5 +1,6 @@
 ---
 title: Topics and Partition
+tags: [analytics, kafka, partition]
 ---
 
 * Can have multiple brokers on same machine. Each broker has an Broker Id

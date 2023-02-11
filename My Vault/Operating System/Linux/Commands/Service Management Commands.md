@@ -1,5 +1,6 @@
 ---
 title: Service Management Commands
+tags: [os, linux, command]
 ---
 
 Process is the running instance of an executable program  

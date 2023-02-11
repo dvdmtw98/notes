@@ -1,5 +1,6 @@
 ---
 title: Azure Metrics & Logs
+tags: [azure, cloud, alert, metric]
 ---
 
 **Azure Metrics**  
@@ -15,7 +16,7 @@ The logs for resources are not stored anywhere by default, needs to be manually 
 
 The Diagnostic Setting blade under service is used to specify the target for data  
 This blade also shows the types of logs and metrics that can be captured for a resource   
-Targets: [Azure Storage Account](../Azure%20Storage%20Account/Azure%20Storage%20Account.md), Event Hub, [Log Analytics Workspace](Log%20Analytics%20Workspace.md)
+Targets: [Azure Storage Account](../Azure%20Storage%20Account/Azure%20Storage%20Account.md), Event Hub, [Log Analytics Workspace](../Azure%20Analytics%20Services/Log%20Analytics%20Workspace.md)
 
 Storage Account: Cheap long term storage  
 Event Hub: Send to External Solutions  
@@ -32,3 +33,7 @@ Using Policies the setting can be enabled by resource types
 * At the Subscription level there is **Activity Log** which houses the activity information & service health details of resource in that subscription (Has a 90 day retention)
 * At the Resource level we have **Metrics & Logs** which are different based on the resource
 * Guests/ Extensions/ Agents also spit out **Metrics & Logs**. Logs from this level can only be sent to Log Analytics (but from Log Analytics they can be exported to Event Hub & Storage Account)
+
+---
+
+[Azure](../Azure.md)

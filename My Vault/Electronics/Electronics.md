@@ -1,5 +1,6 @@
 ---
 title: Electronics
+tags: [electrical, index]
 ---
 
 ### Table of Content
@@ -21,9 +22,11 @@ title: Electronics
 
 ### Formulas
 
-V = IR (Ohm's Law)
+V = IR (Ohm's Law)  
 P = IV
+
+[Electric Current Symbols](https://www.electrical-symbols.com/electric-electronic-symbols/electric-current-symbols.htm)
 
 ---
 
-[Electric Current Symbols](https://www.electrical-symbols.com/electric-electronic-symbols/electric-current-symbols.htm)
+[Main Index](../Main%20Index.md)

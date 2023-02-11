@@ -1,5 +1,6 @@
 ---
 title: Databricks
+tags: [analytics, databricks, index]
 ---
 
 ### Table of Content

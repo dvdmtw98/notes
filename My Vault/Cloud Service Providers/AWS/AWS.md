@@ -1,5 +1,6 @@
 ---
 title: AWS
+tags: [aws, cloud, index]
 ---
 
 ### AWS Core Services
@@ -15,7 +16,7 @@ title: AWS
 
 * [Identity and Access Management (IAM)](AWS%20Security%20Services/Identity%20and%20Access%20Management%20%28IAM%29.md)
 * [AWS Kinesis](AWS%20Other%20Services/Kinesis/AWS%20Kinesis.md)
-* [AWS Athena](AWS%20Other%20Services/AWS%20Athena.md)
+* [AWS Athena](AWS%20Analytics%20Services/AWS%20Athena.md)
 * [AWS Glue](AWS%20Other%20Services/AWS%20Glue.md)
 
 ---

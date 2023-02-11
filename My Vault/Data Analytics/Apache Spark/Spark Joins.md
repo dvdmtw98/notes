@@ -1,5 +1,6 @@
 ---
 title: Spark Joins
+tags: [analytics, spark]
 ---
 
 Joins use more shuffles than any other process in Spark. It always leads to bad performance

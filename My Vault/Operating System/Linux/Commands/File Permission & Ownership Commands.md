@@ -1,5 +1,6 @@
 ---
 title: File Permission & Ownership Commands
+tags: [os, linux, command]
 ---
 
 ### File Permissions

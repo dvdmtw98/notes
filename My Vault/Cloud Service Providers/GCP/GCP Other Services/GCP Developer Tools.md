@@ -1,5 +1,6 @@
 ---
 title: GCP Developer Tools
+tags: [gcp, cloud]
 ---
 
 ### Artifact Registry
@@ -9,7 +10,7 @@ Store, manage and secure container images and language packages
 
 ### Container Registry
 
-Store, manage and secure your [Docker](../../../Tools%20&%20Services/Docker/Docker.md) container images  
+Store, manage and secure your [Docker](../../../Software%20Engineering/DevOps/Docker/Docker.md) container images  
 Older version of Artifact Registry  
 #gcp-container-service #gcp-developer-service
 
@@ -28,7 +29,7 @@ Continuously build, test and deploy containers, Java archives and more using the
 
 ### Cloud Source Repositories
 
-Manage code and extend your [Git](../../../Tools%20&%20Services/Git/Git.md) workflow by connecting to Cloud Build, [App Engine](../GCP%20Compute%20Services/App%20Engine.md), Cloud Logging, Cloud Monitoring, Pub/ Sub and more
+Manage code and extend your [Git](../../../Software%20Engineering/DevOps/Git/Git.md) workflow by connecting to Cloud Build, [App Engine](../GCP%20Compute%20Services/App%20Engine.md), Cloud Logging, Cloud Monitoring, Pub/ Sub and more
 
 ### Cloud Scheduler
 
@@ -72,7 +73,7 @@ Get clear, actionable insight into app issues
 
 ### Tekton
 
-Create CI/CD-style pipelines using [Kubernetes](../../../Tools%20&%20Services/Kubernetes/Kubernetes.md) native building blocks
+Create CI/CD-style pipelines using [Kubernetes](../../../Software%20Engineering/DevOps/Kubernetes/Kubernetes.md) native building blocks
 
 ### Workflows
 

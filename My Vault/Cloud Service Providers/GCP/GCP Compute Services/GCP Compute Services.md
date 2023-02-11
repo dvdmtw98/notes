@@ -1,5 +1,6 @@
 ---
 title: GCP Compute Services
+tags: [gcp, cloud, compute]
 ---
 
 ### Compute Engine
@@ -25,7 +26,7 @@ Add GPUs to your workload for machine learning, scientific computing and 3D visu
 
 ### Google Kubernetes Engine (GKE)
 
-Reliable, efficiently and securely deploy and scale containerized applications on [Kubernetes](../../../Tools%20&%20Services/Kubernetes/Kubernetes.md)  
+Reliable, efficiently and securely deploy and scale containerized applications on [Kubernetes](../../../Software%20Engineering/DevOps/Kubernetes/Kubernetes.md)  
 GKE groups multiple Compute Engine resources together to create a cluster which will be used to run the containers  
 #gcp-compute-service #gcp-container-service
 

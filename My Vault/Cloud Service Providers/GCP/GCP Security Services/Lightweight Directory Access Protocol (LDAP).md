@@ -1,5 +1,6 @@
 ---
 title: Lightweight Directory Access Protocol (LDAP)
+tags: [gcp, cloud, security]
 ---
 
 It is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol (IP) network

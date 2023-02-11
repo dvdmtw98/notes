@@ -1,5 +1,6 @@
 ---
 title: Partition & Distribution
+tags: [azure, cloud, analytics, data-warehouse, synapse, partition]
 ---
 
 For optimal performance and compressing across clustered columnstore index (CCI) we need to ensure that each partition/ distribution should have at minimum 1 million records  

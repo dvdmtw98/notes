@@ -1,5 +1,6 @@
 ---
 title: Azure Resources
+tags: [azure, cloud, concept]
 ---
 
 ### Subscription
@@ -36,3 +37,7 @@ Each Resource can be in one Resource Group only
 An Resource Group has an region as well. It is used to store the metadata about the Resources  
 Resources in a Resource Group can be at multiple locations. Resources can be moved between Resource Groups  
 Resource Groups cannot be nested
+
+---
+
+[Azure](../Azure.md)

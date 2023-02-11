@@ -1,5 +1,6 @@
 ---
 title: Modular Arithmetic
+tags: [security, math]
 ---
 
 x ≡ y mod n  

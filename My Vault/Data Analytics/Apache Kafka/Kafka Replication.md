@@ -1,5 +1,6 @@
 ---
 title: Kafka Replication
+tags: [analytics, kafka]
 ---
 
 ![Kafka Partitions|550](images/kafka-partitions.png)

@@ -1,5 +1,6 @@
 ---
 title: Azure Tables
+tags: [azure, cloud, database, no-sql, tables]
 ---
 
 Stores NoSQL data (Key Value data with schema-less design)  

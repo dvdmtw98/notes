@@ -1,5 +1,6 @@
 ---
 title: Snowflake Architecture
+tags: [snowflake, cloud, data-warehouse]
 ---
 
 Snowflake makes use of separate layers for processing and storing the data  

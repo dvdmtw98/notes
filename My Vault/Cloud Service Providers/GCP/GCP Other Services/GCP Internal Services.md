@@ -1,5 +1,6 @@
 ---
 title: GCP Internal Services
+tags: [gcp, cloud, internal]
 ---
 
 These services cannot be directly accessed but forms the underlying infrastructure for many of Google Cloud Services
@@ -11,7 +12,8 @@ Globally-consistent, scalable relational database
 
 ### Borg
 
-A cluster manager that runs hundreds of jobs, from many different applications across a number of clusters each with thousands of machines
+A cluster manager that runs hundreds of jobs, from many different applications across a number of clusters each with thousands of machines  
+The open-sourced version of Borg became [Kubernetes](../../../Software%20Engineering/DevOps/Kubernetes/Kubernetes.md)
 
 ### Chubby
 

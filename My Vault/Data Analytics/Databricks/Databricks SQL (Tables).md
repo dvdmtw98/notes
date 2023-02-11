@@ -1,5 +1,6 @@
 ---
 title: Databricks SQL (Tables)
+tags: [analytics, databricks]
 ---
 
 ### Managed Table

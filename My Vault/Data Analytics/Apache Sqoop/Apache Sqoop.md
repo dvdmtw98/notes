@@ -1,5 +1,6 @@
 ---
 title: Apache Sqoop
+tags: [analytics, sqoop, index]
 ---
 
 Sqoop (SQL + Hadoop)  

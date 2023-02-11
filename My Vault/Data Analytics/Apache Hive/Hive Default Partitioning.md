@@ -1,5 +1,6 @@
 ---
 title: Hive Default Partitioning
+tags: [analytics, hive, partition]
 ---
 
 The partition is not defined by the user it is decided based on the data and its hash value.  

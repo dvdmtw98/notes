@@ -1,5 +1,6 @@
 ---
 title: Hiragana N-Column
+tags: [language, japanese, hiragana]
 ---
 
 ### N-Column

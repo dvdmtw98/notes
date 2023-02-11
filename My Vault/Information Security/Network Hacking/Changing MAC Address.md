@@ -2,7 +2,7 @@
 title: Changing MAC Address
 ---
 
-[MAC (Media Access Control) Address](../../Networking/TCP-IP%20Layers/2%20-%20Data%20Link%20%28Network%20Interface%29%20Protocols/MAC%20%28Media%20Access%20Control%29%20Address.md) is used to identify devices on a network.  
+[MAC (Media Access Control) Address](../../Computer%20Networks/TCP-IP%20Layers/2%20-%20Data%20Link%20(Network%20Interface)%20Protocols/MAC%20(Media%20Access%20Control)%20Address.md) is used to identify devices on a network.  
 It is used to communicate with devices on the internal (Private) network  
 **First 3 digit** of MAC address identify the **manufacturer**
 

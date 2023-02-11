@@ -1,5 +1,6 @@
 ---
 title: Blob Storage Security
+tags: [azure, cloud, storage, security]
 ---
 
 ### Data at Rest

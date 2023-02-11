@@ -1,5 +1,6 @@
 ---
 title: EC2 (Elastic Cloud Compute)
+tags: [aws, cloud, compute]
 ---
 
 It is an web service that provides secure and resizable compute capacity on the cloud   Can easily scale up/ down as per need  

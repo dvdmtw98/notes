@@ -1,5 +1,6 @@
 ---
 title: Cosmos DB Throughput
+tags: [azure, cloud, database, nosql, cosmos-db]
 ---
 
 The throughput can be defined at the database or container level  

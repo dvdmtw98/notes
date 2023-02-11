@@ -1,5 +1,6 @@
 ---
 title: Transformers
+tags: [electrical, component]
 ---
 
 Transformers can only be used with AC current
@@ -30,3 +31,7 @@ The voltage can be stepped up and down by varying the amount of turns in the coi
 High Voltage is easy to transform to long distances and hence the current that comes into the cities have high voltage  
 The transforms that we found in cities are generally consist of three phases  
 An very common configuration of three phase transform is the Delta-Star (Delta-Wye)
+
+---
+
+[Electronics](Electronics.md)

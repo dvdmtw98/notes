@@ -1,5 +1,6 @@
 ---
 title: Spark Config & Settings
+tags: [analytics, spark]
 ---
 
 <u>Master</u>    

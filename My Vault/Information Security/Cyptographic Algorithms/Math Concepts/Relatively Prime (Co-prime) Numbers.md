@@ -1,5 +1,6 @@
 ---
 title: Relatively Prime (Co-prime) Numbers
+tags: [security, math]
 ---
 
 Two numbers are said to relatively prime, if they have no prime factors in common, and their common factor is 1  

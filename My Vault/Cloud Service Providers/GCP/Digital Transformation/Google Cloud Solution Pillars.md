@@ -1,5 +1,6 @@
 ---
 title: Google Cloud Solution Pillars
+tags: [cloud, concept]
 ---
 
 1. **<u>Infrastructure Modernization</u>**  
@@ -22,11 +23,11 @@ title: Google Cloud Solution Pillars
 
 5. **<u>Smart Analytic</u>s**  
    Big Data and BI cloud offerings assisted by AI to help analyze the data  
-   [Looker](../GCP%20Data%20Analytics%20Services/GCP%20Data%20Analytics%20Services.md#looker): Data Exploration and Business Intelligence platform
+   [Looker](../GCP%20Analytics%20Services/GCP%20Data%20Analytics%20Services.md#looker): Data Exploration and Business Intelligence platform
 
 6. **<u>Artificial Intelligence</u>**  
    AI, Deep Learning and Machine learning offerings in the cloud  
-   [Vertex AI](../GCP%20AI%20and%20ML%20Services/GCP%20ML%20Services.md#vertex-ai), [TensorFlow Enterprise](../GCP%20AI%20and%20ML%20Services/GCP%20ML%20Services.md#tensorflow-enterprise)
+   [Vertex AI](../GCP%20AI%20ML%20Services/GCP%20ML%20Services.md#vertex-ai), [TensorFlow Enterprise](../GCP%20AI%20ML%20Services/GCP%20ML%20Services.md#tensorflow-enterprise)
 
 7. **<u>Security</u>**  
    Cloud services by default have strong mechanisms built for Security, Governance and Compliance  

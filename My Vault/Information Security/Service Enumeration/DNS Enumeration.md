@@ -1,5 +1,6 @@
 ---
 title: DNS Enumeration
+tags: [security, enumeration, dns]
 ---
 
 1. <u>Host</u>

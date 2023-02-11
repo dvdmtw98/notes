@@ -1,5 +1,6 @@
 ---
 title: Linux Environment Variables
+tags: [os, linux, bash, programming]
 ---
 
 /etc/profile (System wide configuration)  

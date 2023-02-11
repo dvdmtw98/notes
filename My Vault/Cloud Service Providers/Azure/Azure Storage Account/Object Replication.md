@@ -1,5 +1,6 @@
 ---
 title: Object Replication
+tags: [azure, cloud, storage, redundency]
 ---
 
 Allows to distribute the data which will be ideal for geographically distributed clients

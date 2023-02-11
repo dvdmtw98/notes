@@ -1,5 +1,6 @@
 ---
 title: Sqoop Commands
+tags: [analytics, sqoop]
 ---
 
 ### RDB to HDFS

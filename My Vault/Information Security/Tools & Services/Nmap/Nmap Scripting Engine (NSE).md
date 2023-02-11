@@ -1,5 +1,6 @@
 ---
 title: Nmap Scripting Engine (NSE)
+tags: [security, tool, nmap]
 ---
 
 The Nmap scripts are written in Lua language  

@@ -1,5 +1,6 @@
 ---
 title: AWS Lambda
+tags: [aws, cloud, compute, serverless]
 ---
 
 It is an serverless compute unit. Allows to run code without provisioning or managing servers  

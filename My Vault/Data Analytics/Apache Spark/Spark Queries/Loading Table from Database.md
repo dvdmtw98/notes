@@ -1,5 +1,6 @@
 ---
 title: Loading Table from Database
+tags: [analytics, spark, database]
 ---
 
 ````python

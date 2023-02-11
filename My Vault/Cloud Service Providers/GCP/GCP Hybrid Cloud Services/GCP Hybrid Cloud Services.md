@@ -1,5 +1,6 @@
 ---
 title: GCP Hybrid Cloud Services
+tags: [gcp, cloud, hybrid]
 ---
 
 ### [Anthos](Anthos.md)
@@ -14,11 +15,11 @@ Modernize existing apps and build new apps on your VMware environments
 
 ### Anthos for GKE
 
-Deploy, manage and scale containerized applications on [Kubernetes](../../../Tools%20&%20Services/Kubernetes/Kubernetes.md), powered by Google Cloud
+Deploy, manage and scale containerized applications on [Kubernetes](../../../Software%20Engineering/DevOps/Kubernetes/Kubernetes.md), powered by Google Cloud
 
 ### Cloud Run for Anthos
 
-Easily leverage the benefits of combining [Kubernetes](../../../Tools%20&%20Services/Kubernetes/Kubernetes.md) and serverless
+Easily leverage the benefits of combining [Kubernetes](../../../Software%20Engineering/DevOps/Kubernetes/Kubernetes.md) and serverless
 
 ### Migrate for Anthos
 

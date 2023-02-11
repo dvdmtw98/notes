@@ -1,5 +1,6 @@
 ---
 title: Kafka Architecture
+tags: [analytics, kafka]
 ---
 
 * Message: A single data record passed to Kafka

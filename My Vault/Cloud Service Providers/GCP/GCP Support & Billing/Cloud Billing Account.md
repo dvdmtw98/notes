@@ -1,5 +1,6 @@
 ---
 title: Cloud Billing Account
+tags: [gcp, cloud, billing]
 ---
 
 It is used to define who pays for a given set of Google Cloud resources and is connected to a Google payments profile

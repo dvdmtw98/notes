@@ -1,5 +1,6 @@
 ---
 title: Metasploit Auxiliary Features
+tags: [security, tool, metasploit]
 ---
 
 1. <u>Run Nmap Scan from within Metasploit</u>

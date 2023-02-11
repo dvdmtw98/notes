@@ -1,5 +1,6 @@
 ---
 title: Directory Service
+tags: [gcp, cloud, security]
 ---
 
 A directory service maps the names of network resources to their network addresses
@@ -18,9 +19,9 @@ Information about the object is stored as a collection of attributes associated 
 ### Well Known Directory Services
 
 1. Domain Name Server (DNS) : The directory service for the internet
-1. [Microsoft Active Directory](../../../Operating%20System/Windows/Microsoft%20Active%20Directory/Microsoft%20Active%20Directory.md)
-1. Apache Directory Service
-1. Oracle Internet Directory (OID)
-1. OPenLDAP
-1. [Cloud Identity](Cloud%20Identity.md) : Google's Directory Service
-1. JumpCloud
+2. [Microsoft Active Directory](../../../Operating%20System/Windows/Microsoft%20Active%20Directory/Microsoft%20Active%20Directory.md)
+3. Apache Directory Service
+4. Oracle Internet Directory (OID)
+5. OPenLDAP
+6. [Cloud Identity](Cloud%20Identity.md) : Google's Directory Service
+7. JumpCloud

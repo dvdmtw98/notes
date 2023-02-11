@@ -1,5 +1,6 @@
 ---
 title: Cloud Interconnect
+tags: [gcp, cloud, networking]
 ---
 
 Provides direct physical connection between on-premise network and Google's network  

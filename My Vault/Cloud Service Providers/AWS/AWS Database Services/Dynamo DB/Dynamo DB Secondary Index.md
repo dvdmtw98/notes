@@ -1,5 +1,6 @@
 ---
 title: Dynamo DB Secondary Index
+tags: [aws, cloud, database, dynamodb]
 ---
 
 An alternate index that is create on the table that can alternatively be used to query the table

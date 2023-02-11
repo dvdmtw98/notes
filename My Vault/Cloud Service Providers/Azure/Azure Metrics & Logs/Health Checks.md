@@ -1,5 +1,6 @@
 ---
 title: Health Checks
+tags: [azure, cloud, alert, metric]
 ---
 
 **Health Checks** forms input for Health Monitoring, Availability Monitoring, Performance Monitoring and SLA Monitoring
@@ -8,14 +9,13 @@ title: Health Checks
 **Yellow**: Partial health with some affected systems  
 **Red**: Application is non-functional or stopped
 
----
-
 ### Health Check Elements
 
 **Health Check Endpoint**: The check performed by our application through the endpoint  
 **Result Interpreter**: The system calling and interpreting the health checks
 
----
+The different probes exposed by the Compute Services can be used to check the Health status of the Services  
+Containers Services support Liveness Probes and Readiness Probes
 
 ### Types of Analysis
 
@@ -25,5 +25,4 @@ title: Health Checks
 
 ---
 
-The different probes exposed by the Compute Services can be used to check the Health status of the Services  
-Containers Services support Liveness Probes and Readiness Probes
+[Azure](../Azure.md)

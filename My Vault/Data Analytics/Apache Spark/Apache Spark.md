@@ -1,5 +1,6 @@
 ---
 title: Apache Spark
+tags: [analytics, spark, index]
 ---
 
 ### Table of Content
@@ -10,7 +11,7 @@ title: Apache Spark
 	* [Spark Job, Task and Stage](Spark%20Job,%20Task%20and%20Stage.md)
 	* [Spark Operations](Spark%20Operations.md)
 	* [Spark Memory Management](Spark%20Memory%20Management.md)
-	* [Spark Compression Formats](Spark%20Compression%20Formats.md)
+	* [Spark Compression](Spark%20Compression.md)
 	* [Spark Joins](Spark%20Joins.md)
 	* [Spark SQL Optimization](Spark%20SQL%20Optimization.md)
 2. **Spark Queries**
@@ -19,7 +20,6 @@ title: Apache Spark
 	* [User Defined Schema](Spark%20Queries/User%20Defined%20Schema.md)
 	* [Join Query](Spark%20Queries/Join%20Query.md)
 	* [Loading Table from Database](Spark%20Queries/Loading%20Table%20from%20Database.md)
-	* [Reading AVRO File](Spark%20Queries/Reading%20AVRO%20File.md)
 	* [UDF (User Defined Function)](Spark%20Streaming/UDF%20%28User%20Defined%20Function%29.md)
 	* [Spark SQL Syntax](Spark%20Queries/Spark%20SQL%20Syntax.md)
 	* [Partitioning & Bucketing](Spark%20Queries/Partitioning%20&%20Bucketing.md)

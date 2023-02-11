@@ -1,5 +1,6 @@
 ---
 title: SMB Enumeration
+tags: [security, enumeration, smb]
 ---
 
 1. <u>SMB Username Enumeration</u>

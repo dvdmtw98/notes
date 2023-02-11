@@ -1,5 +1,6 @@
 ---
 title: Immutable Blob Storage
+tags: [azure, cloud, storage]
 ---
 
 Allows to store business-critical data in WORM (Write Once Read Many) type of state  

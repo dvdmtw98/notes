@@ -1,5 +1,6 @@
 ---
 title: Join Query
+tags: [analytics, spark]
 ---
 
 Inner Join: inner  

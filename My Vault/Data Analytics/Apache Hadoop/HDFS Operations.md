@@ -1,5 +1,6 @@
 ---
 title: HDFS Operations
+tags: [analytics, hadoop]
 ---
 
 ### Writing Data to HDFS

@@ -1,5 +1,6 @@
 ---
 title: AWS Analytics Services
+tags: [aws, cloud, analytics, index]
 ---
 
 ### Table of Content
@@ -8,4 +9,4 @@ title: AWS Analytics Services
 	* [Redshift Architecture](Redshift/Redshift%20Architecture.md)
 	* [Redshift Distribution Style](Redshift/Redshift%20Distribution%20Style.md)
 	* [Redshift Sort Key](Redshift/Redshift%20Sort%20Key.md)
-	* [Connect PySpark to Redshift](Redshift/Connect%20PySpark%20to%20Redshift.md)
+* [AWS Athena](AWS%20Athena.md)

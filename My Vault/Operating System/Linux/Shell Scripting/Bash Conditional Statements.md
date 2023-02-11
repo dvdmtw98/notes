@@ -1,5 +1,6 @@
 ---
 title: Bash Conditional Statements
+tags: [os, linux, bash, programming]
 ---
 
 1. <u>If Else Statement</u>  

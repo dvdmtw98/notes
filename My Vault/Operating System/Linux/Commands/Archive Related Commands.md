@@ -1,5 +1,6 @@
 ---
 title: Archive Related Commands
+tags: [os, linux, command]
 ---
 
 ### Archive Files

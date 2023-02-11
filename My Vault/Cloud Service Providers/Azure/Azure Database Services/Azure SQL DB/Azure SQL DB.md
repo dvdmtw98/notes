@@ -1,5 +1,6 @@
 ---
 title: Azure SQL DB
+tags: [azure, cloud, database, sql]
 ---
 
 DB for storing structured data  

@@ -1,5 +1,6 @@
 ---
 title: ln Command
+tags: [os, linux, command]
 ---
 
 ### Soft Link

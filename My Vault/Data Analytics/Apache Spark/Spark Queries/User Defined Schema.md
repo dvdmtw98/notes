@@ -1,5 +1,6 @@
 ---
 title: User Defined Schema
+tags: [analytics, spark]
 ---
 
 ### Create Schema for a File

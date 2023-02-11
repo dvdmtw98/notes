@@ -1,5 +1,6 @@
 ---
 title: AWS Storage Services
+tags: [aws, cloud, storage, index]
 ---
 
 ### [S3 (Simple Storage Service)](S3%20%28Simple%20Storage%20Service%29/S3%20%28Simple%20Storage%20Service%29.md)

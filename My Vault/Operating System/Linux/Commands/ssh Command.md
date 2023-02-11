@@ -1,5 +1,6 @@
 ---
 title: ssh Command
+tags: [os, linux, command]
 ---
 
 ### Connect to Remote Machine

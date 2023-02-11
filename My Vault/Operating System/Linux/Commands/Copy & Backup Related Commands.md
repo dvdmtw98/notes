@@ -1,5 +1,6 @@
 ---
 title: Copy & Backup Related Commands
+tags: [os, linux, command]
 ---
 
 ### scp Command

@@ -1,5 +1,6 @@
 ---
 title: Cloning & Overwriting (Delta Table)
+tags: [analytics, databricks]
 ---
 
 ### Cloning Data

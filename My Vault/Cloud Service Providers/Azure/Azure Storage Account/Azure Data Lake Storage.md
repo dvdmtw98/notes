@@ -1,5 +1,6 @@
 ---
 title: Azure Data Lake Storage
+tags: [azure, cloud, storage]
 ---
 
 A data lake is a centralized data repository for unstructured and semi-structured data  

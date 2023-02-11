@@ -1,5 +1,6 @@
 ---
 title: Hashcat
+tags: [security, password]
 ---
 
 For cracking passwords of rar/ zip files the hash has to be extracted from the file  
@@ -8,7 +9,8 @@ For cracking passwords of rar/ zip files the hash has to be extracted from the f
 The file should only contain the hash type and the actual hash the remaining content can be removed (Not required for Hashcat)
 
 ````bash
-hashcat -a <attack-mode> -m <hash-type> -o <output-file> <hashes-file> <wordlist>
+hashcat -a <attack-mode> -m <hash-type> \
+	-o <output-file> <hashes-file> <wordlist>
 ````
 
 **<u>Flags</u>**:  

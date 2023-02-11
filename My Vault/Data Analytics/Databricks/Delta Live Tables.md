@@ -1,5 +1,6 @@
 ---
 title: Delta Live Tables
+tags: [analytics, databricks]
 ---
 
 Allows to define pipelines in Databricks  

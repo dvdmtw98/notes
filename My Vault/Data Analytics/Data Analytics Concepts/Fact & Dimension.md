@@ -1,5 +1,6 @@
 ---
 title: Fact & Dimension
+tags: [analytics, concept]
 ---
 
 ### Fact Table

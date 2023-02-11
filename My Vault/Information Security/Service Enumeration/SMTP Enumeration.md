@@ -1,5 +1,6 @@
 ---
 title: SMTP Enumeration
+tags: [security, enumeration, smtp]
 ---
 
 1. <u>SMTP Username Enumeration</u>

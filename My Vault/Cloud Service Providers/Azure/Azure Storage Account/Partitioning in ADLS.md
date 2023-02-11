@@ -1,5 +1,6 @@
 ---
 title: Partitioning in ADLS
+tags: [azure, cloud, storage, partition]
 ---
 
 The partition key for Blob Storage is Storage Name, Container Name and Blob Name  

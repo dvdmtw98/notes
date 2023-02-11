@@ -1,5 +1,6 @@
 ---
 title: Hadoop Daemons
+tags: [analytics, hadoop]
 ---
 
 ### Hadoop 2.0 Daemons (Background Services)

@@ -1,5 +1,6 @@
 ---
 title: Slowly Changing Dimension (SCD)
+tags: [analytics, concept]
 ---
 
 They are the mostly commonly used dimensional technique used in dimensional data warehouses  

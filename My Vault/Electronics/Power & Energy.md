@@ -1,5 +1,6 @@
 ---
 title: Power & Energy
+tags: [electrical, concept]
 ---
 
 ### Watt
@@ -14,3 +15,7 @@ Energy (kWh) = Power (kW) * Time (hour)
 
 Joules is unit of energy or work  
 Joules is the energy dissipated as heat when a current of 1 Amp passes through a resister of 1 Ohm for 1sec
+
+---
+
+[Electronics](Electronics.md)

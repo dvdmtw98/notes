@@ -1,5 +1,6 @@
 ---
 title: Network Commands
+tags: [os, windows, command]
 ---
 
 ````batch

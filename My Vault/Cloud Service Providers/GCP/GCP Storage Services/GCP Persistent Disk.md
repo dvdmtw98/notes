@@ -1,5 +1,6 @@
 ---
 title: GCP Persistent Disk
+tags: [gcp, cloud, storage]
 ---
 
 It is an **<u>block store</u>** (Data is split into evenly sized blocks)  

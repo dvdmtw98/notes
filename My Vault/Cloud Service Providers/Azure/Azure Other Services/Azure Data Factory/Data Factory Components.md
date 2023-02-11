@@ -1,5 +1,6 @@
 ---
 title: Data Factory Components
+tags: [azure, cloud, etl, orchestration]
 ---
 
 ### Pipeline

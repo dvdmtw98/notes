@@ -1,5 +1,6 @@
 ---
 title: Cosmos DB Partitioning
+tags: [azure, cloud, database, nosql, cosmos-db, partition]
 ---
 
 The database at the application level is partitioned into Containers  

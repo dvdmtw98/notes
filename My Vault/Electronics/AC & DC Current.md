@@ -1,5 +1,6 @@
 ---
 title: AC & DC Current
+tags: [electrical, concept]
 ---
 
 Current is generally transported from the source to our houses using AC current  
@@ -18,3 +19,7 @@ DC current can be converted to AC current using Inverter
 DC current is always at its Peak Voltage and flows in one direction  
 Invertor can be used to convert Solar Power/ Car Battery into AC current to be used by household appliances  
 They are also used on motors/ devices that rotate (Fans, Compressor)
+
+---
+
+[Electronics](Electronics.md)

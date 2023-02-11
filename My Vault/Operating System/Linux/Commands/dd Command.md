@@ -1,5 +1,6 @@
 ---
 title: dd Command
+tags: [os, linux, command]
 ---
 
 ````shell

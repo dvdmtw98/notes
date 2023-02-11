@@ -1,5 +1,13 @@
 ---
 title: Azure Data Factory
+tags: [azure, cloud, etl, orchestration]
+---
+
+### Table of Content
+
+* [Data Factory Components](Data%20Factory%20Components.md)
+* [Monitoring & Version Control](Monitoring%20&%20Version%20Control.md)
+
 ---
 
 It is an data orchestration service provided by Azure. That can be used to perform various ETL operations  
@@ -13,8 +21,6 @@ Allows to use Azure Compute Services like ([Databricks Clusters](../../../../Dat
 
 ![Data Flow Decision Chart|550](../../images/data-flow-decission-chart.png)
 
----
-
 ### Annotations
 
 Annotations are similar to the tags feature in Azure. There are used to identify pipelines in ADF  
@@ -22,7 +28,4 @@ They are additional pieces of information that can be used to filter and search 
 
 ---
 
-### Table of Content
-
-* [Data Factory Components](Data%20Factory%20Components.md)
-* [Monitoring & Version Control](Monitoring%20&%20Version%20Control.md)
+[Azure](../../Azure.md)

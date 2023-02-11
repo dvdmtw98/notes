@@ -1,5 +1,6 @@
 ---
 title: RAID
+tags: [os, concept]
 ---
 
 Redundant Array of Independent Disks  

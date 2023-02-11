@@ -1,5 +1,6 @@
 ---
 title: Device Information Commands
+tags: [os, linux, command]
 ---
 
 ### Disk Usage
@@ -15,8 +16,6 @@ df -hT # File System Usage
 -h : Human Readable  
 -c : Total Size  
 -T : Show File System Type
-
----
 
 ### CPU & Memory Usage
 

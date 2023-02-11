@@ -1,5 +1,6 @@
 ---
 title: Cryptographic Algorithms
+tags: [security, cryptography, index]
 ---
 
 ### Math Concepts

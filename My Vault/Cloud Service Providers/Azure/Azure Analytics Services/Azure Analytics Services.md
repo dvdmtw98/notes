@@ -1,8 +1,9 @@
 ---
 title: Azure Analytics Services
+tags: [azure, cloud, analytics, index]
 ---
 
-## Table of Content
+### Table of Content
 
 * [Azure Synapse Analytics](Azure%20Synapse%20Analytics/Azure%20Synapse%20Analytics.md)
 	* [Partition & Distribution](Azure%20Synapse%20Analytics/Partition%20&%20Distribution.md)
@@ -12,4 +13,8 @@ title: Azure Analytics Services
 	* [Transparent Data Encryption (TDE) Protector Key](Azure%20Synapse%20Analytics/Transparent%20Data%20Encryption%20%28TDE%29%20Protector%20Key.md)
 * [Databricks](../../../Data%20Analytics/Databricks/Databricks.md)
 * [Azure HDInsight](Azure%20HDInsight.md)
-* [Power BI](../../../Tools%20&%20Services/Power%20BI/Power%20BI.md)
+* [Log Analytics Workspace](Log%20Analytics%20Workspace.md)
+
+---
+
+[Azure](../Azure.md)

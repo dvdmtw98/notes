@@ -1,5 +1,6 @@
 ---
 title: Bash
+tags: [os, linux, bash, programming, index]
 ---
 
 ### Table of Content
@@ -62,4 +63,4 @@ mcd test
 ---
 
 [Operating System](../../Operating%20System.md)  
-[Programming Notes](../../../Programming%20Notes/Programming%20Notes.md)
+[Programming Languages](../../../Software%20Engineering/Programming%20Languages/Programming%20Languages.md)

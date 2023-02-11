@@ -1,5 +1,6 @@
 ---
 title: cron Command
+tags: [os, linux, command]
 ---
 
 ### Cron Job Structure

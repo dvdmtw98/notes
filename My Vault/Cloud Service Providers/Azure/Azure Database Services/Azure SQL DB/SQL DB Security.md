@@ -1,5 +1,6 @@
 ---
 title: SQL DB Security
+tags: [azure, cloud, database, sql, security]
 ---
 
 ### Azure Defender for SQL

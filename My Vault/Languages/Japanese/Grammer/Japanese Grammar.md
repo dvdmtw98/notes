@@ -1,5 +1,6 @@
 ---
 title: Japanese Grammar
+tags: [language, japanese, grammer]
 ---
 
 ## Japanese Grammer

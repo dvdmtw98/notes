@@ -1,5 +1,6 @@
 ---
 title: Multiplicative Inverse
+tags: [security, math]
 ---
 
 $x \not\equiv 0$ mod n (n is prime number)  

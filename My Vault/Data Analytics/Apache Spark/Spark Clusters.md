@@ -1,5 +1,6 @@
 ---
 title: Spark Clusters
+tags: [analytics, spark]
 ---
 
 A cluster is a collection of one or more VMs that work together

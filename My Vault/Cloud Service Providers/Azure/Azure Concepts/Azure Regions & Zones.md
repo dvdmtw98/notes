@@ -1,5 +1,6 @@
 ---
 title: Azure Regions & Zones
+tags: [azure, cloud, concept]
 ---
 
 ### Data Centers
@@ -71,3 +72,7 @@ Azure for regions that have to meet very strict compliance and regulation needs
    Separate Instance  
    Physically Separated  
    Operated by 21Vianet (Companies that have a majority interest in foreign markets cannot setup business in China)
+
+---
+
+[Azure](../Azure.md)

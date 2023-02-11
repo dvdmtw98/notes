@@ -1,5 +1,6 @@
 ---
 title: Cloud Storage
+tags: [gcp, cloud, storage]
 ---
 
 It is a serverless object storage service  

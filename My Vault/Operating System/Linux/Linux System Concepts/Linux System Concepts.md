@@ -1,5 +1,6 @@
 ---
 title: Linux System Concepts
+tags: [os, linux, concept]
 ---
 
 ### Table of Content

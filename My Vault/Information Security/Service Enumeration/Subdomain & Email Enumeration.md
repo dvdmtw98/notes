@@ -1,5 +1,6 @@
 ---
 title: Subdomain & Email Enumeration
+tags: [security, enumeration, domain]
 ---
 
 1. <u>Sublist3r</u>  

@@ -1,5 +1,6 @@
 ---
 title: Azure Resource Locks
+tags: [azure, cloud, security]
 ---
 
 Resource Lock is an Lock that can be used on a Resource to Prevent Certain actions from being performed on it  

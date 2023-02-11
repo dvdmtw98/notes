@@ -1,5 +1,6 @@
 ---
 title: Katakana Vowels
+tags: [language, japanese, katakana]
 ---
 
 ### Vowels

@@ -1,5 +1,6 @@
 ---
 title: AWS Enumeration
+tags: [security, enumeration, aws]
 ---
 
 1. <u>List Content in Bucket</u>

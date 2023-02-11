@@ -1,5 +1,6 @@
 ---
 title: GCP Hierarchy Architecture
+tags: [gcp, cloud, concept]
 ---
 
 There are three suggested hierarchy architecture we can use:

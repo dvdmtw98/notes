@@ -1,5 +1,6 @@
 ---
 title: Azure AI Services
+tags: [azure, cloud, ai]
 ---
 
 AI : Emulation of human intelligence by a computer  
@@ -17,3 +18,7 @@ Pipelines: For building complete end to end solution
 
 Machine Learning Workspace: Top Level Service Name  
 Machine Learning Studio: Web UI
+
+---
+
+[Azure](../Azure.md)

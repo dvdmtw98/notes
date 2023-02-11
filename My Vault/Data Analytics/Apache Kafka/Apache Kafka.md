@@ -1,5 +1,6 @@
 ---
 title: Apache Kafka
+tags: [analytics, kafka, index]
 ---
 
 Kafka is a distributed Pub Sub (Publisher Subscriber)/ Queue Messaging system.  

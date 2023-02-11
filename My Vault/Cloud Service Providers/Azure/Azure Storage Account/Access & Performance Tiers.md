@@ -1,5 +1,6 @@
 ---
 title: Access & Performance Tiers
+tags: [azure, cloud, storage]
 ---
 
 ## Access Tiers

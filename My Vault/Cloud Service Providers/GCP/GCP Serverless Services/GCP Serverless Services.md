@@ -1,5 +1,6 @@
 ---
 title: GCP Serverless Services
+tags: [gcp, cloud, serverless]
 ---
 
 ### Cloud Functions
@@ -32,7 +33,7 @@ It is used for application integration
 ### Knative
 
 It is a Serverless K8 container service  
-Allows to deploy and manage serverless, cloud-native applications for [Kubernetes](../../../Tools%20&%20Services/Kubernetes/Kubernetes.md)
+Allows to deploy and manage serverless, cloud-native applications for [Kubernetes](../../../Software%20Engineering/DevOps/Kubernetes/Kubernetes.md)
 
 ### Workflows
 

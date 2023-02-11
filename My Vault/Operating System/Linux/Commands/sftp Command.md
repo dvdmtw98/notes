@@ -1,5 +1,6 @@
 ---
 title: sftp Command
+tags: [os, linux, command]
 ---
 
 ### Connect to Server using SFTP

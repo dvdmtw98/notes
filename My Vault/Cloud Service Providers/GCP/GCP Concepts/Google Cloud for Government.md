@@ -1,5 +1,6 @@
 ---
 title: Google Cloud for Government
+tags: [gcp, cloud, concept]
 ---
 
 ### GovCloud

@@ -1,5 +1,6 @@
 ---
 title: Hadoop Architecture
+tags: [analytics, hadoop]
 ---
 
 ![Hadoop Architecture|550](images/hadoop-architecture.jpg)

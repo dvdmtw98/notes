@@ -1,5 +1,6 @@
 ---
 title: Bash Functions
+tags: [os, linux, bash, programming]
 ---
 
 There are 2 ways to declare a function:

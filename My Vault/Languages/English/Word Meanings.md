@@ -1,5 +1,6 @@
 ---
 title: Word Meanings
+tags: [language, english]
 ---
 
 patent  

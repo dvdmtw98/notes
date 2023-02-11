@@ -1,5 +1,6 @@
 ---
 title: Anthos
+tags: [gcp, cloud, hybrid]
 ---
 
 It is a modern application management platform used for managing hybrid architectures that span from Google Cloud to other CSPs or on-premise datacenters

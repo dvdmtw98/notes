@@ -1,5 +1,6 @@
 ---
 title: Snowflake
+tags: [snowflake, cloud, data-warehouse, index]
 ---
 
 Snowflake is an data warehouse provided as SaaS (Software as a Service)  
@@ -13,7 +14,6 @@ It uses a new SQL engine with an unique architecture designed for the cloud
 * [Snowflake Architecture](Snowflake%20Architecture.md)
 * [Snowflake Table Types](Snowflake%20Table%20Types.md)
 * [Time Travel & Fail Safe](Time%20Travel%20&%20Fail%20Safe.md)
-* [PySpark and Snowflake Intergration](PySpark%20and%20Snowflake%20Intergration.md)
 * [Snowflake Migration Commands](Snowflake%20Migration%20Commands.md)
 
 ---

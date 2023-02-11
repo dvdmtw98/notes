@@ -1,5 +1,6 @@
 ---
 title: ETL vs ELT
+tags: [analytics, concept, etl]
 ---
 
 ### ETL (Extract Transform Load)

@@ -1,5 +1,6 @@
 ---
 title: Process Management Commands
+tags: [os, linux, command]
 ---
 
 ### Process Management

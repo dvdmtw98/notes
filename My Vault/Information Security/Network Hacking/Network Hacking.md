@@ -2,7 +2,6 @@
 title: Network Hacking
 ---
 
-## Table of Content
 
 * [Changing MAC Address](Changing%20MAC%20Address.md)
 * [Enabling Monitor Mode](Enabling%20Monitor%20Mode.md)
@@ -31,7 +30,6 @@ title: Network Hacking
 * [DNS Spoofing](DNS%20Spoofing.md)
 * [DNS Spoofing Attack](DNS%20Spoofing%20Attack.md)
 * [Injecting JavaScript Code](Injecting%20JavaScript%20Code.md)
-* [Mana-Toolkit](Tools/Mana-Toolkit.md)
 
 ### Tools and Services
 

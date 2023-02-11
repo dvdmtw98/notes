@@ -1,5 +1,6 @@
 ---
 title: Configuring Metasploit Options
+tags: [security, tool, metasploit]
 ---
 
 1. <u>View Exploit Details</u>

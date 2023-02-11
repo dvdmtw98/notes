@@ -1,5 +1,6 @@
 ---
 title: Mount Commands
+tags: [os, linux, command]
 ---
 
 ### Mount Filesystem

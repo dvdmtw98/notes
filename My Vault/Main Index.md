@@ -1,19 +1,18 @@
 ---
 title: Main Index
+tags: [main, index]
 ---
 
 ### Table of Content
 
-* [Various Lists](Various%20Lists/Various%20Lists.md)
-* [Languages](Languages/Languages.md)
 * [Cloud Service Providers](Cloud%20Service%20Providers/Cloud%20Service%20Providers.md)
 * [Information Security](Information%20Security/Information%20Security.md)
-* [Data Analytics](Data%20Analytics/Data%20Analytics.md)
-* [Networking](Networking/Networking.md)
-* [Electronics](Electronics/Electronics.md)
-* [Programming Notes](Programming%20Notes/Programming%20Notes.md)
-* [Database Notes](Database%20Notes/Database%20Notes.md)
-* [Data Structures & Algorithms](Data%20Structures%20&%20Algorithms/Data%20Structures%20&%20Algorithms.md)
-* [System Design](System%20Design/System%20Design.md)
+* [Computer Networks](Computer%20Networks/Computer%20Networks.md)
 * [Operating System](Operating%20System/Operating%20System.md)
-* [Tools & Services](Tools%20&%20Services/Tools%20&%20Services.md)
+* [Software Engineering](Software%20Engineering/Software%20Engineering.md)
+* [Database Engineering](Database%20Engineering/Database%20Engineering.md)
+* [Data Analytics](Data%20Analytics/Data%20Analytics.md)
+* [Data Visualization](Data%20Visualization/Data%20Visualization.md)
+* [Electronics](Electronics/Electronics.md)
+* [Languages](Languages/Languages.md)
+* [Read & Watch List](Read%20&%20Watch%20List/Read%20&%20Watch%20List.md)

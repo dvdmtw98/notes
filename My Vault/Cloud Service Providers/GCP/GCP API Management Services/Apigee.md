@@ -1,5 +1,6 @@
 ---
 title: Apigee
+tags: [gcp, cloud, api]
 ---
 
 Apigee Corp. was a API management and predictive analytics software provider before its merger into Google Cloud

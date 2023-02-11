@@ -1,5 +1,6 @@
 ---
 title: SQL Edge Data Retention
+tags: [azure, cloud, database, sql]
 ---
 
 SQL Edge Database is used to store data from IoT and edge devices

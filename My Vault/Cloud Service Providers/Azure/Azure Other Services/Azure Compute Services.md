@@ -1,5 +1,6 @@
 ---
 title: Azure Compute Services
+tags: [azure, cloud, compute]
 ---
 
 ### Virtualization
@@ -53,7 +54,7 @@ Has auto scaling feature. Can be manually or automatically scaled based on need
 
 ### Azure Container Instances (ACI)
 
-Take Application, Config and other requirements and create container image and host on container repository ([Docker](../../../Tools%20&%20Services/Docker/Docker.md) Hub, Azure Container Registry)  
+Take Application, Config and other requirements and create container image and host on container repository ([Docker](../../../Software%20Engineering/DevOps/Docker/Docker.md) Hub, Azure Container Registry)  
 Can use pre-created container images as well  
 The Azure Container Instance will be generated/created in a Container Group (which is an VM in which the container runs)  
 It is an serverless offering similar to Azure Functions
@@ -74,7 +75,7 @@ Use cases:
 
 ---
 
-### Azure [Kubernetes](../../../Tools%20&%20Services/Kubernetes/Kubernetes.md) Service (AKS)
+### Azure [Kubernetes](../../../Software%20Engineering/DevOps/Kubernetes/Kubernetes.md) Service (AKS)
 
 Container orchestrator were we can create container Image or use Pre created Images  
 These Images are managed by AKS which creates an Node (VM) on which the container runs  
@@ -130,7 +131,7 @@ Max Nodes: 200
 
 ### Azure Service Fabric
 
-Microsoft's native container orchestrator similar to [Kubernetes](../../../Tools%20&%20Services/Kubernetes/Kubernetes.md)  
+Microsoft's native container orchestrator similar to [Kubernetes](../../../Software%20Engineering/DevOps/Kubernetes/Kubernetes.md)  
 It is a distributed systems platform that allows us to run stateful applications
 
 ---
@@ -138,3 +139,7 @@ It is a distributed systems platform that allows us to run stateful applications
 ### Azure Batch
 
 Allows to run large scale parallel and High Performance Computing (HPC) workloads on nodes (Virtual Machines) in a cluster
+
+---
+
+[Azure](../Azure.md)

@@ -1,5 +1,6 @@
 ---
 title: Windows Terminal
+tags: [os, windows, tool]
 ---
 
 ### Split Panes

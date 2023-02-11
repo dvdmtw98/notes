@@ -1,5 +1,6 @@
 ---
 title: Identity Providers (IdP)
+tags: [cloud, security]
 ---
 
 A system entity that creates, maintains and manages identity information for principals and also provides authentication services to applications within a federation or distributed network

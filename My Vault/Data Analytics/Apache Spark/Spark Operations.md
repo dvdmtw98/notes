@@ -1,5 +1,6 @@
 ---
 title: Spark Operations
+tags: [analytics, spark]
 ---
 
 Transformations: Will create a new RDD. No execution takes place  

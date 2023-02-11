@@ -1,10 +1,11 @@
 ---
 title: GCP Container Services
+tags: [gcp, cloud, container]
 ---
 
 ### Google Kubernetes Engine (GKE)
 
-Allows to reliably, efficiently and securely deploy and scale containerized applications on [Kubernetes](../../../Tools%20&%20Services/Kubernetes/Kubernetes.md)  
+Allows to reliably, efficiently and securely deploy and scale containerized applications on [Kubernetes](../../../Software%20Engineering/DevOps/Kubernetes/Kubernetes.md)  
 #gcp-compute-service #gcp-container-service
 
 ### Cloud Run
@@ -21,7 +22,7 @@ Store, manage and secure container images and language packages
 
 ### Container Registry
 
-Store, manage and secure your [Docker](../../../Tools%20&%20Services/Docker/Docker.md) container images  
+Store, manage and secure your [Docker](../../../Software%20Engineering/DevOps/Docker/Docker.md) container images  
 Artifact Registry is the newer service and is recommended over Container Registry  
 #gcp-container-service #gcp-developer-service
 

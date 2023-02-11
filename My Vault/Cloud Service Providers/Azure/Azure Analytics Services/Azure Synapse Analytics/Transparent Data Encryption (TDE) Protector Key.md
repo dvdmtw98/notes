@@ -1,5 +1,6 @@
 ---
 title: Transparent Data Encryption (TDE) Protector Key
+tags: [azure, cloud, analytics, data-warehouse, synapse, security]
 ---
 
 In Synapse data by default is encrypted  

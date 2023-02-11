@@ -1,5 +1,6 @@
 ---
 title: Spark Streaming
+tags: [analytics, spark, streaming]
 ---
 
 A stream of entities is called an discretized stream or DStream  

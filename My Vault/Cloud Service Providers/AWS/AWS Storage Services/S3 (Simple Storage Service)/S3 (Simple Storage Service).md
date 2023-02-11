@@ -1,5 +1,6 @@
 ---
 title: S3 (Simple Storage Service)
+tags: [aws, cloud, storage, s3]
 ---
 
 ### Table of Content

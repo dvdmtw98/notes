@@ -1,5 +1,6 @@
 ---
 title: xargs Command
+tags: [os, linux, command]
 ---
 
 Reads items from the standard input, delimited by space or newline, and executes the command for each data (argument)  

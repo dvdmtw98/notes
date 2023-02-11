@@ -1,5 +1,6 @@
 ---
 title: Spark Streaming Joins
+tags: [analytics, spark, streaming]
 ---
 
 ````python

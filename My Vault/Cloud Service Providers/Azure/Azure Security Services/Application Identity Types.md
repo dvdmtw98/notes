@@ -1,5 +1,6 @@
 ---
 title: Application Identity Types
+tags: [azure, cloud, security, identity]
 ---
 
 There are three main types of objects in AAD  

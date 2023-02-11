@@ -1,5 +1,6 @@
 ---
 title: Storage Lifecycle Management
+tags: [azure, cloud, storage]
 ---
 
 ### Azure Blob Storage Lifecycle

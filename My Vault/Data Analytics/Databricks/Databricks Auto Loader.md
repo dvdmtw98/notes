@@ -1,5 +1,6 @@
 ---
 title: Databricks Auto Loader
+tags: [analytics, databricks]
 ---
 
 Auto Loader only supports loading data from directories (Block Storage)  

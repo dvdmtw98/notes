@@ -1,5 +1,6 @@
 ---
 title: WSL Configuration
+tags: [os, windows, tool]
 ---
 
 ### Moving WSL to a Different Drive
@@ -18,6 +19,9 @@ mkdir D:\backup
 wsl --export Ubuntu D:\backup\ubuntu.tar
 ````
 
+> [!NOTE]
+> For Docker it is sufficient to move docker-desktop-data. The docker-desktop will be recreated in C drive on restart even if moved it does not grow in size when using Docker so shouldn't be a problem
+
 <u>Unregister the Distribution</u>
 
 ````batch
@@ -33,8 +37,6 @@ wsl --import Ubuntu D:\WSL D:\backup\ubuntu.tar
 
  > [!NOTE]
  > When Importing the image ensure that it is saved in its own directory
-
----
 
 ### Install & Update WSL
 
@@ -55,8 +57,6 @@ wsl --update --rollback
 ````batch
 wsl --status
 ````
-
----
 
 ### Other WSL Commands
 
@@ -86,8 +86,6 @@ wsl ~ -d Ubuntu -u david
   
 `\\wsl$\`
 
----
-
 ### WSLg Debugging Commands
 
 ````bash
@@ -104,12 +102,9 @@ sudo rm -r /tmp/.X11-unix
 sudo ln -s /mnt/wslg/.X11-unix /tmp/.X11-unix
 ````
 
----
-
-### Reference Links
+### References
 
 * [How can I change the location of docker images when using Docker Desktop on WSL2 with Windows 10 Home? - Stack Overflow](https://stackoverflow.com/questions/62441307/how-can-i-change-the-location-of-docker-images-when-using-docker-desktop-on-wsl2)
-* For Docker it is sufficient to move docker-desktop-data. The docker-desktop will be recreated in C drive on restart even if moved it does not grow in size when using Docker so shouldn't be a problem
 * [Advanced settings configuration in WSL | Microsoft Learn](https://docs.microsoft.com/en-us/windows/wsl/wsl-config) (WSL Settings & Config)
 
 ---

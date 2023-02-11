@@ -1,5 +1,6 @@
 ---
 title: GCP Compliance Standards
+tags: [gcp, cloud, security, policy]
 ---
 
 ### International Organization for Standardization (ISO)/ International Electrotechnical Commission

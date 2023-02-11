@@ -1,5 +1,6 @@
 ---
 title: Monitoring & Version Control
+tags: [azure, cloud, etl, orchestration]
 ---
 
 ### Monitoring
@@ -13,12 +14,12 @@ The Native Interface has a list of views that give more detailed information abo
 * Gantt View: Which gives an better visualization of concurrent runs
 * Dashboards: This is not available in Synapse Analytics
 
-ADF can also be connected with [Azure Monitor](../../Azure%20Billing%20&%20Support/Azure%20Monitor.md) to get more detailed and historic logs of the activities performed. This option is generally used by enterprises  
+ADF can also be connected with [Azure Monitor](../../Azure%20Metrics%20&%20Logs/Azure%20Monitor.md) to get more detailed and historic logs of the activities performed. This option is generally used by enterprises  
 If we need to view history of operations that where performed before 45 days Azure Monitor is the only option
 
 ---
 
-### [Git](../../../../Tools%20&%20Services/Git/Git.md) Integration
+### [Git](../../../../Software%20Engineering/DevOps/Git/Git.md) Integration
 
-We can enable [Git](../../../../Tools%20&%20Services/Git/Git.md) integration in ADF to allow for versioning of the Data Factory Solution  
+We can enable [Git](../../../../Software%20Engineering/DevOps/Git/Git.md) integration in ADF to allow for versioning of the Data Factory Solution  
 The main branch is the default collaboration branch and other branches are called feature branches where new features are added and they are finally pulled into the main branch

@@ -1,5 +1,6 @@
 ---
 title: Hive Custom Partitioning
+tags: [analytics, hive, partition]
 ---
 
 ![Types of Partitions|600](../Apache%20Spark/images/types-of-partitioning.png)

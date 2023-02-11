@@ -1,5 +1,6 @@
 ---
 title: Redshift Architecture
+tags: [aws, cloud, analytics, redshift]
 ---
 
 ![Redshift Architecture|500](../../images/redshift-architecture.png)

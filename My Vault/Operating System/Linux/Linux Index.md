@@ -1,5 +1,6 @@
 ---
 title: Linux Index
+tags: [os, linux, index]
 ---
 
 ### Table of Content

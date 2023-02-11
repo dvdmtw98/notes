@@ -1,9 +1,9 @@
 ---
 title: User & Group Management Commands
+tags: [os, linux, command]
 ---
 
-<u>User ID</u>
-  
+**<u>User ID</u>**  
 UID 0 : Root User  
 UIDs 1--99 : Special System Users  
 UID 100--999 : Dynamic allocated system users  

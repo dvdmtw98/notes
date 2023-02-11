@@ -1,5 +1,6 @@
 ---
 title: Data Redundancy Options
+tags: [azure, cloud, storage, redundency]
 ---
 
 ### Locally-Redundant Storage (LRS)

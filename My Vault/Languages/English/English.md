@@ -1,5 +1,6 @@
 ---
 title: English
+tags: [language, english, index]
 ---
 
 ### Table of Content

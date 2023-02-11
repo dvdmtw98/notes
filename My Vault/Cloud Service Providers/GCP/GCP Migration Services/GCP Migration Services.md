@@ -1,5 +1,6 @@
 ---
 title: GCP Migration Services
+tags: [gcp, cloud, migration]
 ---
 
 ### Database Migration Service (DMS)

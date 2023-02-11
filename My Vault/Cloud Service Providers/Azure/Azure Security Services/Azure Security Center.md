@@ -1,5 +1,6 @@
 ---
 title: Azure Security Center
+tags: [azure, cloud, security]
 ---
 
 Continuously scans services (IaaS, PaaS) to ensure they are protected  

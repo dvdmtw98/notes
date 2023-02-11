@@ -1,5 +1,6 @@
 ---
 title: GCP Security Services
+tags: [gcp, cloud, security, index]
 ---
 
 ### Cloud Asset Inventory
@@ -41,8 +42,8 @@ Access polices are automatically created in GCP by certain services and cannot b
 
 ### Cloud Armor
 
-Cloud Armor is a DDoS protection and Web Application [Firewall](../../../Networking/Networking%20Devices/Firewall/Firewall.md) (WAF) service  
-Can be used along with HTTPS [Load Balancer](../../../Networking/Networking%20Devices/Load%20Balancer.md)
+Cloud Armor is a DDoS protection and Web Application [Firewall](../../../Computer%20Networks/Networking%20Devices/Firewall/Firewall.md) (WAF) service  
+Can be used along with HTTPS [Load Balancer](../../../Computer%20Networks/Networking%20Devices/Load%20Balancer.md)
 Has two tiers:
 
 * Standard Pay-As-You-Go (PAYG)

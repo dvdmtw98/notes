@@ -1,5 +1,6 @@
 ---
 title: Eulers Totient Function
+tags: [security, math]
 ---
 
 ɸ(n) = Count of positive integers greater than 0 and less than 'n' that are [relatively prime](Relatively%20Prime%20%28Co-prime%29%20Numbers.md) to n  

@@ -1,5 +1,6 @@
 ---
 title: Identity and Access Management (IAM)
+tags: [aws, cloud, security]
 ---
 
 It allows us to control what resources a user has access to and how they use those resources (authorization)  

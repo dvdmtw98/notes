@@ -1,5 +1,6 @@
 ---
 title: GCP Project & Folders
+tags: [gcp, cloud, concept]
 ---
 
 ### Projects

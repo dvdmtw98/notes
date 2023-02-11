@@ -1,5 +1,6 @@
 ---
 title: John the Ripper
+tags: [security, password]
 ---
 
 <u>List Supported Formats</u>

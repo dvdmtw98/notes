@@ -1,5 +1,6 @@
 ---
 title: Hadoop Shell Commands
+tags: [analytics, hadoop]
 ---
 
 ### Start All Daemons

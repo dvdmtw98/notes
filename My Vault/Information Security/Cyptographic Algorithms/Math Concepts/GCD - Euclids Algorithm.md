@@ -1,5 +1,6 @@
 ---
 title: GCD - Euclids Algorithm
+tags: [security, math]
 ---
 
 ### Method 1

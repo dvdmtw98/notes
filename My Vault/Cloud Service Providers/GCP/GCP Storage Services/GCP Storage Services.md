@@ -1,5 +1,6 @@
 ---
 title: GCP Storage Services
+tags: [gcp, cloud, storage]
 ---
 
 ### [GCP Persistent Disk](GCP%20Persistent%20Disk.md)

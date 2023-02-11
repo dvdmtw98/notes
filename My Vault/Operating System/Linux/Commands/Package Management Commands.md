@@ -1,5 +1,6 @@
 ---
 title: Package Management Commands
+tags: [os, linux, command]
 ---
 
 ### Install .deb Files

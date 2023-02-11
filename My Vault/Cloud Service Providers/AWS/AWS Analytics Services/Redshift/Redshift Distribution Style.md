@@ -1,5 +1,6 @@
 ---
 title: Redshift Distribution Style
+tags: [aws, cloud, analytics, redshift]
 ---
 
 The query optimizer redistributes the rows to the compute nodes as needed to perform aggregate and joins  

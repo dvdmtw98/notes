@@ -1,5 +1,6 @@
 ---
 title: Windows Index
+tags: [os, windows, index]
 ---
 
 ### Table of Content

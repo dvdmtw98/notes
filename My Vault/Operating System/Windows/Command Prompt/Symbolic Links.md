@@ -1,5 +1,6 @@
 ---
 title: Symbolic Links
+tags: [os, windows, command]
 ---
 
 1. <u>Symbolic Links</u>  

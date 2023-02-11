@@ -1,5 +1,6 @@
 ---
 title: Hive Commands
+tags: [analytics, hive]
 ---
 
 ### Create DB

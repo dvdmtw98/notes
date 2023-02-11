@@ -1,5 +1,6 @@
 ---
 title: SSH Port Forwarding
+tags: [os, linux, command]
 ---
 
 ### Local Port Forwarding

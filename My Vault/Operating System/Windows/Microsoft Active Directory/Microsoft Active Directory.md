@@ -1,5 +1,6 @@
 ---
 title: Microsoft Active Directory
+tags: [windows, active-directory, security]
 ---
 
 * Also called Active Directory Users and Computers or AD
@@ -10,6 +11,6 @@ title: Microsoft Active Directory
 
 ### Table of Content
 
-1. [Active Directory Terminologies](Active%20Directory%20Terminologies.md)
-2. [Domain Controller (DC)](Domain%20Controller%20%28DC%29.md)
-3. [Domain Services](Domain%20Services.md)
+- [Active Directory Terminologies](Active%20Directory%20Terminologies.md)
+- [Domain Controller (DC)](Domain%20Controller%20%28DC%29.md)
+- [Domain Services](Domain%20Services.md)

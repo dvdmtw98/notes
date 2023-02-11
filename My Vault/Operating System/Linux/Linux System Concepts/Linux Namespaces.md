@@ -1,5 +1,6 @@
 ---
 title: Linux Namespaces
+tags: [os, linux, concept]
 ---
 
 Provides processes with there own view  

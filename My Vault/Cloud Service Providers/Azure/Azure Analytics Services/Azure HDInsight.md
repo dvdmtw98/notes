@@ -1,5 +1,6 @@
 ---
 title: Azure HDInsight
+tags: [azure, cloud, analytics, cluster]
 ---
 
 It is a managed service to run popular open-source analytics services  

@@ -1,5 +1,6 @@
 ---
 title: Dynamo DB Primary Key
+tags: [aws, cloud, database, dynamodb]
 ---
 
 ### Partition Key (Hash Key)

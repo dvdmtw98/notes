@@ -1,5 +1,6 @@
 ---
 title: Databricks SQL (Views)
+tags: [analytics, databricks]
 ---
 
 ### View

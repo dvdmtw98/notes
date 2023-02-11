@@ -1,5 +1,6 @@
 ---
 title: XはYです
+tags: [language, japanese, grammer]
 ---
 
 X wa Y desu (Formal)  

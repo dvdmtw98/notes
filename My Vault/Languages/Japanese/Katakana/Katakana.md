@@ -1,5 +1,6 @@
 ---
 title: Katakana
+tags: [language, japanese, katakana, index]
 ---
 
 Katakana characters have the same sound as Hiragana  

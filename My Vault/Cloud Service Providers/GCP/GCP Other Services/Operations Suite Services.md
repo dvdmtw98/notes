@@ -1,5 +1,6 @@
 ---
 title: Operations Suite Services
+tags: [gcp, cloud, metric]
 ---
 
 ### Cloud Monitoring

@@ -1,5 +1,6 @@
 ---
 title: BeyondCorp
+tags: [gcp, cloud, security]
 ---
 
 A zero-trust solution that enables secure access with integrated threat and data protection  

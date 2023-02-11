@@ -1,5 +1,6 @@
 ---
 title: Spark Architecture
+tags: [analytics, spark]
 ---
 
 ![Spark Architecture|500](images/spark-architecture.png)

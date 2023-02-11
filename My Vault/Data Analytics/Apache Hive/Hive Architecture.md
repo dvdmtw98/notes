@@ -1,5 +1,6 @@
 ---
 title: Hive Architecture
+tags: [analytics, hive]
 ---
 
 Used for data warehousing. Used to process and query structured data in OLAP  

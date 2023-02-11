@@ -1,5 +1,6 @@
 ---
 title: Linux Memory Management
+tags: [os, linux, concept]
 ---
 
 ### Single Address Space

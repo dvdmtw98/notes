@@ -1,5 +1,6 @@
 ---
 title: Connectivity Mode
+tags: [azure, cloud, database, sql]
 ---
 
 Azure SQL database will connect to a gateway on port 1433  

@@ -1,5 +1,6 @@
 ---
 title: Azure Storage Services
+tags: [azure, cloud, storage]
 ---
 
 Houses the above four services  

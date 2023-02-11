@@ -1,5 +1,6 @@
 ---
 title: Azure File Storage
+tags: [azure, cloud, storage]
 ---
 
 It is a fully managed file share on the cloud. The files are stored in containers called Shares  

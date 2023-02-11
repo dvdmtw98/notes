@@ -1,5 +1,6 @@
 ---
 title: Control Groups (cgroups)
+tags: [os, linux, concept]
 ---
 
 They are used to assign limits to the resources (CPU, Memory, IO, Network, etc.) which can be used by processes

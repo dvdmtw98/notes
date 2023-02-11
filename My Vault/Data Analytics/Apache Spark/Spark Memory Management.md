@@ -1,5 +1,6 @@
 ---
 title: Spark Memory Management
+tags: [analytics, spark]
 ---
 
 ### RAM

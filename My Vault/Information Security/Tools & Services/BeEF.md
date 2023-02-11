@@ -1,5 +1,6 @@
 ---
 title: BeEF
+tags: [security, tool, web]
 ---
 
 BeEF : Browser Exploitation Framework  
@@ -35,29 +36,21 @@ bettercap -iface <interface> -caplet <sniff-data-cap-file>
 hstshijack/hstshijack (Run HSTS Caplet)
 ````
 
----
-
 ### Commands
 
 1. <u>Create Alert Dialog</u>  
    Create an dialog box on the target browser
-
 2. <u>Raw JavaScript</u>  
    Execute JS code on the target browser
-
 3. <u>Spyder Eye</u>  
    Take screenshot of the target browser screen
-
 4. <u>Redirect Browser</u>  
    Redirect the target to an different webpage
    Can be used to redirect to download an backdoor, fake login page, etc.
-
 5. <u>Get Visited URL</u>  
    Check of a URL was visited by the target
-
 6. <u>Pretty Theft</u>  
    Create fake relogin page to steal credentials
-
 7. <u>Fake Notification Bar</u>  
    Send Backdoor, malicious code to user using an fake notification message  
    If sending an backdoor ensure to start "Multi Handler" to listen to the connection

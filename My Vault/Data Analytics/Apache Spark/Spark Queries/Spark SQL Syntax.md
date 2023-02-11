@@ -1,5 +1,6 @@
 ---
 title: Spark SQL Syntax
+tags: [analytics, spark]
 ---
 
 ````python
@@ -17,5 +18,5 @@ Global view can be accessed by other users across the cluster as well
 
 ````python
 products.createOrReplaceGlobalTempView("prod")
-spark.sql("SELECT * FROM global_temp.gv_sales").show() (View global tables)
+spark.sql("SELECT * FROM global_temp.gv_sales").show() # View global tables
 ````

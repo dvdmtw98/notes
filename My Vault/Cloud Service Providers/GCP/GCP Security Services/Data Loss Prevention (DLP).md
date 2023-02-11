@@ -1,5 +1,6 @@
 ---
 title: Data Loss Prevention (DLP)
+tags: [gcp, cloud, security]
 ---
 
 Fully managed service designed to help you discover, classify, and protect your most sensitive data  

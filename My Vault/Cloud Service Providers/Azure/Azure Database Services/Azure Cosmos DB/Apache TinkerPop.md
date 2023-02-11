@@ -1,5 +1,6 @@
 ---
 title: Apache TinkerPop
+tags: [azure, cloud, database, nosql, cosmos-db]
 ---
 
 It is a graph computing framework for both graph databases (OLTP) and graph analytic systems (OLAP)  

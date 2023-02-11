@@ -1,5 +1,6 @@
 ---
 title: Spark SQL Optimization
+tags: [analytics, spark]
 ---
 
 Whatever query that we write is converted into the best physical plan by the Tungsten Engine and optimized using the catalyst optimizer  

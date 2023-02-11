@@ -1,5 +1,6 @@
 ---
 title: Azure Serverless Services
+tags: [azure, cloud, serverless]
 ---
 
 ### Azure Functions
@@ -31,3 +32,7 @@ Uses the Publish Subscribe Model
 Messages that are send to the Event Grid are called as Topics  
 The services that these messages are send to are called as Subscribers  
 It has support for a lot of build-in events that are created by Azure Services (VM goes down, etc.)
+
+---
+
+[Azure](../Azure.md)

@@ -1,5 +1,6 @@
 ---
 title: Hyperscale on Azure
+tags: [azure, cloud, database, sql]
 ---
 
 It is also referred to as Citus  
@@ -10,8 +11,6 @@ Provides support for:
 * Data Sharding
 * Real-time queries
 * Time series workloads
-
----
 
 **<u>References</u>**:
 * [What is the Hyperscale service tier? - Azure SQL Database | Microsoft Docs](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tier-hyperscale)

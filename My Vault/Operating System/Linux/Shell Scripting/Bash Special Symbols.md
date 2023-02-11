@@ -1,5 +1,6 @@
 ---
 title: Bash Special Symbols
+tags: [os, linux, bash, programming]
 ---
 
 `$0` : Name of Script  

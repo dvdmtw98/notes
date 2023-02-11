@@ -1,5 +1,6 @@
 ---
 title: Bash Variables
+tags: [os, linux, bash, programming]
 ---
 
 According to convention it should be in all caps  

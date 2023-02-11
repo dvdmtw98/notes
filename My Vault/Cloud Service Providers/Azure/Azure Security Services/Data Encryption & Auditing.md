@@ -1,5 +1,6 @@
 ---
 title: Data Encryption & Auditing
+tags: [azure, cloud, security]
 ---
 
 Encryption is the process of scrabbling data so that only authorized people can access it

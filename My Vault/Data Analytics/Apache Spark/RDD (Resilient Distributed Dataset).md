@@ -1,5 +1,6 @@
 ---
 title: RDD (Resilient Distributed Dataset)
+tags: [analytics, spark]
 ---
 
 It is the underlying Data Structure used by Spark  

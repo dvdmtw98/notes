@@ -1,5 +1,6 @@
 ---
 title: RDD Commands
+tags: [analytics, spark]
 ---
 
 ## Transformation

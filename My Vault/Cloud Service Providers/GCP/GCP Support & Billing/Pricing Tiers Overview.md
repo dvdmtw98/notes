@@ -1,5 +1,6 @@
 ---
 title: Pricing Tiers Overview
+tags: [gcp, cloud, billing]
 ---
 
 GCP offers various pricing schemes that vary per service. Broadly there are 7 types of pricing

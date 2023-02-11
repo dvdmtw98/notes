@@ -1,5 +1,6 @@
 ---
 title: Windows Files & Tweaks
+tags: [os, windows, concept]
 ---
 
 ### Important File Locations

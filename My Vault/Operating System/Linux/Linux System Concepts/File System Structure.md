@@ -1,5 +1,6 @@
 ---
 title: File System Structure
+tags: [os, linux, concept]
 ---
 
 FHS : Filesystem Hierarchy Standard  

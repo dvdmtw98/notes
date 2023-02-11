@@ -1,5 +1,6 @@
 ---
 title: Assured Workloads
+tags: [gcp, cloud, concept]
 ---
 
 A feature that allows you to apply various security controls to an environment

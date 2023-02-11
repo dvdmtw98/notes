@@ -1,5 +1,6 @@
 ---
 title: Redshift Sort Key
+tags: [aws, cloud, analytics, redshift]
 ---
 
 We can specify 1 or more columns are sort key that is going to be used by to save the inserted data in sorted order on disc  

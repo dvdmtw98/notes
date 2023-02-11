@@ -1,5 +1,6 @@
 ---
 title: Azure Synapse Analytics
+tags: [azure, cloud, analytics, data-warehouse, synapse]
 ---
 
 It is a data warehouse and a unified analytics platform  

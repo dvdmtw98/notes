@@ -1,5 +1,6 @@
 ---
 title: Partitioning & Bucketing
+tags: [analytics, spark, partition]
 ---
 
 ### Dynamic Partition

@@ -1,5 +1,6 @@
 ---
 title: Types of Analytics
+tags: [analytics, concept]
 ---
 
 ### Descriptive Analytics

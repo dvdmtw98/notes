@@ -1,5 +1,6 @@
 ---
 title: Azure Blob Storage
+tags: [azure, cloud, storage]
 ---
 
 It is an object store that is optimized for storing massive amounts of unstructured data (text and binary data)  

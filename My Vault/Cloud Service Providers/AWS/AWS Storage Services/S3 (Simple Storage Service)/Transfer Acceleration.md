@@ -1,5 +1,6 @@
 ---
 title: Transfer Acceleration
+tags: [aws, cloud, storage, s3]
 ---
 
 Makes use of AWS CloudFront to transfer data from one region to another at a faster rate  

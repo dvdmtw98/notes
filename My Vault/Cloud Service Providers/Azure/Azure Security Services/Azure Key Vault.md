@@ -1,13 +1,24 @@
 ---
 title: Azure Key Vault
+tags: [azure, cloud, security]
 ---
 
-Key Vault is the Azure service for secure storage of keys in Azure  
-Application Secrets (Configs for connecting to DB, etc.) can be stored in Vault  
-Certificates (Encrypt connection between services, HTTPS, etc.) can also be saved
+### Secrets
+Key Value pair storage  
+Configs for connecting to DB, applications, etc.  
+
+### Keys
+RSA or EC encryption keys used for cryptographic operations  
+Software protected or HSM backed  
+
+### Certificates
+X509, SSL, TLS certificates  
+Supports auto-renewal  
+DigiCert and GlobalSign CA is supported inn Key Vault for managed certificates 
+
+---
 
 It is highly integrated with other Azure Services  
-It centralizes the location where all the credentials are saved  
 Provides monitoring and logging features  
 It is PaaS (Platform as a Service) offering
 

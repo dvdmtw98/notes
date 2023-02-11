@@ -1,5 +1,6 @@
 ---
 title: Active Directory Terminologies
+tags: [windows, active-directory, security]
 ---
 
 1. <u>Domain</u>  

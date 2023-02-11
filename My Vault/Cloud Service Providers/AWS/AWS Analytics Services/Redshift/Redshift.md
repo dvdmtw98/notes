@@ -1,5 +1,6 @@
 ---
 title: Redshift
+tags: [aws, cloud, analytics, redshift]
 ---
 
 It is an massively parallel, column oriented database that makes it easy and cost effective to analyze the data stored in data warehouse and data lakes  

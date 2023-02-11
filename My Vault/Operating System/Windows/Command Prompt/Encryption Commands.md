@@ -1,5 +1,6 @@
 ---
 title: Encryption Commands
+tags: [os, windows, command]
 ---
 
 The cipher command is not supported on Windows Home edition

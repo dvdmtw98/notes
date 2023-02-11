@@ -1,5 +1,6 @@
 ---
 title: Voltage
+tags: [electrical, concept]
 ---
 
 Pushes the free electrons around a circuit in a direction  
@@ -19,3 +20,7 @@ While parallel connection will increase the duration for which the circuit can b
 
 Volt is the force required to drive 1 Coulomb through a resistor for 1 Ohm in 1 sec  
 1 Coulomb = 6.242 * $10^{18}$ electrons/ sec
+
+---
+
+[Electronics](Electronics.md)

@@ -1,5 +1,6 @@
 ---
 title: Delta Lake (Spark Queries)
+tags: [analytics, spark]
 ---
 
 It enables ACID properties in Spark. DML commands can then be performed in Spark.  

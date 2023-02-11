@@ -1,5 +1,6 @@
 ---
 title: File Descriptors
+tags: [os, linux, concept]
 ---
 
 File Descriptor is an index into the File Descriptor Table

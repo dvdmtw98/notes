@@ -1,5 +1,6 @@
 ---
 title: Resistors
+tags: [electrical, component]
 ---
 
 Resistance us a restriction to of the flow of electrons  
@@ -12,3 +13,7 @@ In a parallel circuit the current will be divided between the devices connected 
 
 We can add resistors to our circuit to control how much current will flow through it  
 The excess current that is flowing through the resistor leaves the circuit in the form of heat
+
+---
+
+[Electronics](Electronics.md)

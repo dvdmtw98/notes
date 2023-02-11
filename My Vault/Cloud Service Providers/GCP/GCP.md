@@ -1,11 +1,7 @@
 ---
 title: GCP
+tags: [gcp, cloud, index]
 ---
-
-### Cloud Concepts
-
-* [Cloud Service Models](../Azure/Basic%20Cloud%20Concepts/Cloud%20Service%20Models.md)
-* [Cloud Deployment Model](../Azure/Basic%20Cloud%20Concepts/Cloud%20Deployment%20Model.md)
 
 ### Digital Transformation
 
@@ -28,7 +24,7 @@ title: GCP
 ### GCP Container Services
 
 * [GCP Container Services](GCP%20Container%20Services/GCP%20Container%20Services.md)
-* [Kubernetes](../../Tools%20&%20Services/Kubernetes/Kubernetes.md)
+* [Kubernetes](../../Software%20Engineering/DevOps/Kubernetes/Kubernetes.md)
 
 ### GCP Database Services
 
@@ -58,8 +54,8 @@ title: GCP
 
 ### GCP Data Analytics Services
 
-* [GCP Data Analytics Services](GCP%20Data%20Analytics%20Services/GCP%20Data%20Analytics%20Services.md)
-* [GCP ETL Services](GCP%20Data%20Analytics%20Services/GCP%20ETL%20Services.md)
+* [GCP Data Analytics Services](GCP%20Analytics%20Services/GCP%20Data%20Analytics%20Services.md)
+* [GCP ETL Services](GCP%20Analytics%20Services/GCP%20ETL%20Services.md)
 
 ### GCP Hybrid Cloud Services
 
@@ -74,15 +70,15 @@ title: GCP
 
 ### GCP AI and ML Services
 
-* [GCP ML Services](GCP%20AI%20and%20ML%20Services/GCP%20ML%20Services.md)
-* [GCP AI Services](GCP%20AI%20and%20ML%20Services/GCP%20AI%20Services.md)
+* [GCP ML Services](GCP%20AI%20ML%20Services/GCP%20ML%20Services.md)
+* [GCP AI Services](GCP%20AI%20ML%20Services/GCP%20AI%20Services.md)
 
 ### GCP Other Services
 
 * [GCP Internal Services](GCP%20Other%20Services/GCP%20Internal%20Services.md)
 * [GCP Developer Tools](GCP%20Other%20Services/GCP%20Developer%20Tools.md)
 * [GCP Cloud Deployment Manager](GCP%20Other%20Services/GCP%20Cloud%20Deployment%20Manager.md)
-* [GCP Media and Gaming Services](GCP%20Other%20Services/GCP%20Media%20and%20Gaming%20Services.md)
+* [GCP Media & Gaming Services](GCP%20Other%20Services/GCP%20Media%20&%20Gaming%20Services.md)
 * [Operations Suite Services](GCP%20Other%20Services/Operations%20Suite%20Services.md)
 
 ### GCP Security & Identity Services

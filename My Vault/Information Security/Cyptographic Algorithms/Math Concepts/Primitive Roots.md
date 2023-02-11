@@ -1,5 +1,6 @@
 ---
 title: Primitive Roots
+tags: [security, math]
 ---
 
 Find relatively prime number for 7  

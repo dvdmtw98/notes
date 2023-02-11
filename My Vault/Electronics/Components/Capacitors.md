@@ -1,5 +1,6 @@
 ---
 title: Capacitors
+tags: [electrical, component]
 ---
 
 It is an device that is used to store electrical charge  
@@ -15,4 +16,10 @@ There is an Volt rating on the capacitor this shows the maximum voltage that it 
 
 It used used in circuits to smooth out the DC current that is converted from the input AC current
 
-[What is the purpose of a capacitor and why would you want to have one or multiple on a circuit? - Quora](https://www.quora.com/What-is-the-purpose-of-a-capacitor-and-why-would-you-want-to-have-one-or-multiple-on-a-circuit)
+**<u>References</u>**
+
+- [What is the purpose of a capacitor and why would you want to have one or multiple on a circuit? - Quora](https://www.quora.com/What-is-the-purpose-of-a-capacitor-and-why-would-you-want-to-have-one-or-multiple-on-a-circuit)
+
+---
+
+[Electronics](Electronics.md)

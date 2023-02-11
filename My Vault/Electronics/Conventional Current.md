@@ -1,5 +1,6 @@
 ---
 title: Conventional Current
+tags: [electrical, concept]
 ---
 
 **<u>Conventional Current</u>**  
@@ -14,3 +15,7 @@ In a circuit the electrons are flowing from the negative end towards the positiv
 Even though wrong conventional current is the theory that is mostly used
 
 But this direction does not matter as the formulas that are used do not take the direction into account
+
+---
+
+[Electronics](Electronics.md)

@@ -1,5 +1,6 @@
 ---
 title: Hadoop Features
+tags: [analytics, hadoop]
 ---
 
 1. Scalability

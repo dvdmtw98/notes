@@ -1,5 +1,6 @@
 ---
 title: Bash File Operations
+tags: [os, linux, bash, programming]
 ---
 
 1. <u>Read File (1st Method)</u>

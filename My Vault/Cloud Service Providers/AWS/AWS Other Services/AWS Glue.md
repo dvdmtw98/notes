@@ -1,5 +1,6 @@
 ---
 title: AWS Glue
+tags: [aws, cloud, etl, orchestration]
 ---
 
 It is a serverless ETL tool  

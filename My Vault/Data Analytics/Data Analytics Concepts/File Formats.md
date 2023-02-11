@@ -1,5 +1,6 @@
 ---
 title: File Formats
+tags: [analytics, concept]
 ---
 
 ![File Format Comparision|600](images/file-format-comparision.png)

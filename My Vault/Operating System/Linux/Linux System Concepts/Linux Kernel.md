@@ -1,5 +1,6 @@
 ---
 title: Linux Kernel
+tags: [os, linux, concept]
 ---
 
 Linux kernel and boot related files are stored in the '/boot' directory  

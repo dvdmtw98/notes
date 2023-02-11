@@ -1,5 +1,6 @@
 ---
 title: NTFS Alternative File Stream
+tags: [os, windows, concept]
 ---
 
 All files contains a main stream called `$DATA`. This stores the regular file contents  

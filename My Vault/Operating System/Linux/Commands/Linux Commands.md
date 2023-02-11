@@ -1,5 +1,6 @@
 ---
 title: Linux Commands
+tags: [os, linux, command, index]
 ---
 
 ### Topic Related Commands
@@ -32,26 +33,22 @@ title: Linux Commands
 * [ssh Command](ssh%20Command.md)
 * [SSH Port Forwarding](SSH%20Port%20Forwarding.md)
 * [xargs Command](xargs%20Command.md)
-* [xfreerdp Command](xfreerdp%20Command.md)
 * [xrandr Command](xrandr%20Command.md)
 
 ---
 
 ### Miscellaneous Commands
 
-1. <u>Convert</u>
-  
+1. <u>Convert</u>  
    It is used to perform various operations on image files  
    `sudo apt install imagemagick`  
    [How to Quickly Resize, Convert & Modify Images from the Linux Terminal](https://www.howtogeek.com/109369/how-to-quickly-resize-convert-modify-images-from-the-linux-terminal/)
 
-1. <u>TLDR</u>
-  
+2. <u>TLDR</u>  
    Shows some of the possible operations with examples for an command  
    `sudo apt tldr`
 
-1. <u>Ncdu</u>
-  
+3. <u>Ncdu</u>  
    View the folders occupying the most space on system  
    `sudo apt install ncdu`
 

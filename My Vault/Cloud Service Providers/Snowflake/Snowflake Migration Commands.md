@@ -1,5 +1,6 @@
 ---
 title: Snowflake Migration Commands
+tags: [snowflake, cloud, data-warehouse]
 ---
 
 ````bash
@@ -18,8 +19,14 @@ use WAREHOUSE COMPUTE_WH;
 ### Create File Format
 
 ````sql
-CREATE OR REPLACE FILE FORMAT mycsvfile type='CSV' field_delimiter = '|' skip_header = 1;
-CREATE OR REPLACE FILE FORMAT myjsonfile type='JSON' string_outer_array = true;
+CREATE OR REPLACE 
+FILE FORMAT mycsvfile type='CSV' 
+field_delimiter = '|' 
+skip_header = 1;
+
+CREATE OR REPLACE 
+FILE FORMAT myjsonfile type='JSON' 
+string_outer_array = true;
 ````
 
 ### Uploading to Snowflake
@@ -80,8 +87,6 @@ FROM @ST_LTISNOW/emp.csv.gz (
 	FILE_FORMAT => CSV_FILEFORMAT
 ) t;
 ````
-
----
 
 **<u>References</u>**:
 

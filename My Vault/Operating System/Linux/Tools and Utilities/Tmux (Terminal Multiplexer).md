@@ -1,5 +1,6 @@
 ---
 title: Tmux (Terminal Multiplexer)
+tags: [os, linux, tools]
 ---
 
 In Tmux there are sessions, sessions have windows and windows have panes  

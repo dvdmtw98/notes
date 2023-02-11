@@ -1,5 +1,6 @@
 ---
 title: Domain Controller (DC)
+tags: [windows, active-directory, security]
 ---
 
 * It is a server computer that responds to security authentication requests within a computer network domain

@@ -1,5 +1,6 @@
 ---
 title: Temporal Tables
+tags: [azure, cloud, database, sql]
 ---
 
 * Temporal Table or System versioned Temporal Table is a pair of two tables (current table and history table) that is used to track the current valid value and values that where valid in the past (historic values)

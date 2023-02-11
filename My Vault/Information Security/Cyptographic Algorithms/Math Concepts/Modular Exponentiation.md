@@ -1,5 +1,6 @@
 ---
 title: Modular Exponentiation
+tags: [security, math]
 ---
 
 ### Example 1

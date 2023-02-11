@@ -1,5 +1,6 @@
 ---
 title: GCP Resource Hierarchy
+tags: [gcp, cloud, concept]
 ---
 
 ![GCP Resource Hierarchy|400](../images/gcp-resource-hierarchy.png)

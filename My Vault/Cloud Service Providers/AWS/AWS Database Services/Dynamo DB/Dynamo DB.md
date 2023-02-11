@@ -1,5 +1,6 @@
 ---
 title: Dynamo DB
+tags: [aws, cloud, database, dynamodb]
 ---
 
 Provides high availability with replication across 3 Availability Zones  

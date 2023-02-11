@@ -1,5 +1,6 @@
 ---
 title: Dataframe Commands
+tags: [analytics, spark]
 ---
 
 ### Read File

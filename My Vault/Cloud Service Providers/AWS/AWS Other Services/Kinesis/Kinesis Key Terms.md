@@ -1,5 +1,6 @@
 ---
 title: Kinesis Key Terms
+tags: [aws, cloud, streaming]
 ---
 
 ### Kinesis Data Stream

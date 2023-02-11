@@ -1,5 +1,6 @@
 ---
 title: cut Command
+tags: [os, linux, command]
 ---
 
 ````shell

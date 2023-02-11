@@ -1,5 +1,6 @@
 ---
 title: lsof Command
+tags: [os, linux, command]
 ---
 
 <u>View Open Files</u>
