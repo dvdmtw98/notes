@@ -1,6 +1,7 @@
 site_name: Digital Archive
 site_url: https://notes.davidvarghese.dev
 repo_url: https://github.com/dvdmtw98/notes
+repo_name: dvdmtw98/notes
 site_author: David Varghese
 site_description: >-
   Digital Archive is a curate collection of notes created to share information on a broad range of tools, services and methodologies from the tech industry
@@ -33,9 +34,7 @@ theme:
     - navigation.top
     - toc.follow
     - search.suggest
-    - search.highlight
     - search.share
-    - content.action.view
   font:
     text: Roboto
     code: Source Code Pro
