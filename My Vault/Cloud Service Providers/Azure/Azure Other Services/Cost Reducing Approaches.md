@@ -33,3 +33,7 @@ Best of interruptible workload ([Batch Processing](../Azure%20Streaming%20Servic
 
 Allows to use existing on premise licenses for services on the cloud  
 When moving an on-premises Device to the cloud isn't of paying again for the OS use the already existing one
+
+---
+
+[Azure](../Azure.md)

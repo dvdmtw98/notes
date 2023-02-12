@@ -39,8 +39,6 @@ Application/Scenarios:
 * Servers
 * Gateways, etc.
 
----
-
 ### Virtual Machine Scale Set
 
 Choose an image which is automatically scaled by creating multiple instances of the image  
@@ -49,8 +47,6 @@ The Users are redirected to one of the VMs in the Scale Set
 Max Nodes : 1000/ 600 (Depending on Image Selected)
 
 Has auto scaling feature. Can be manually or automatically scaled based on need
-
----
 
 ### Azure Container Instances (ACI)
 
@@ -73,8 +69,6 @@ Use cases:
 
 #azure-serverless-service 
 
----
-
 ### Azure [Kubernetes](../../../Software%20Engineering/DevOps/Kubernetes/Kubernetes.md) Service (AKS)
 
 Container orchestrator were we can create container Image or use Pre created Images  
@@ -87,8 +81,6 @@ Can be used to deploy almost anything
 Min Nodes : 3  
 Max Nodes : 100
 
----
-
 ### App Services
 
 Used to deploy Web Applications  
@@ -99,13 +91,9 @@ Supports multiple programming languages and containers
 Autoscaling  
 Max Nodes : 20/100 (Depending on Pricing Tier)
 
----
-
 ### Web App for Container (App Service)
 
 Service used for deploying Web Applications that are containerized in App Service
-
----
 
 ### Azure Functions
 
@@ -127,14 +115,10 @@ Max Nodes: 200
 
 #azure-compute-service #azure-serverless-service
 
----
-
 ### Azure Service Fabric
 
 Microsoft's native container orchestrator similar to [Kubernetes](../../../Software%20Engineering/DevOps/Kubernetes/Kubernetes.md)  
 It is a distributed systems platform that allows us to run stateful applications
-
----
 
 ### Azure Batch
 

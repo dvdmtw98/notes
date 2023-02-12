@@ -14,8 +14,6 @@ Highly secure, scalable and reliable service
 Provides SDK for lot of programming languages  
 Supports : AMPQ, AMTT and HTTPS
 
----
-
 ### Event Hub
 
 Receives data stream from source  

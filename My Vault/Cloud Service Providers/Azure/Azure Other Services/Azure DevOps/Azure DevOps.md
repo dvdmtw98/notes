@@ -17,6 +17,9 @@ Marketplace provides more tools and features that can be added into DevOps
 DevOps supports both centralized and distributed management of code  
 [Centralized vs. Distributed Source Control](Centralized%20vs.%20Distributed%20Source%20Control.md)
 
+DevOps Continuous Assurance is a set of tools for configuration management for DevOps projects  
+These tools are used to track drifts in the security of the configurations used in apps
+
 ### Azure DevTest Lab
 
 Provides the ability to create VMs with any OS and any artifacts that can be used for testing and development  

@@ -5,10 +5,13 @@ tags: [azure, cloud, index]
 
 ### Azure Concepts
 
-* [Azure Regions & Zones](Azure%20Concepts/Azure%20Regions%20&%20Zones.md)
-* [Azure Resources](Azure%20Concepts/Azure%20Resources.md)
-* [Azure Resource Tags](Azure%20Concepts/Azure%20Resource%20Tags.md)
-* [Azure Documents](Azure%20Concepts/Azure%20Documents.md)
+- [Azure Regions & Zones](Azure%20Concepts/Azure%20Regions%20&%20Zones.md)
+- [Azure Resources](Azure%20Concepts/Azure%20Resources.md)
+- [Azure Resource Tags](Azure%20Concepts/Azure%20Resource%20Tags.md)
+- [Azure Configuration Management](Azure%20Other%20Services/Azure%20Configuration%20Management.md)
+- [Cost Reducing Approaches](Azure%20Other%20Services/Cost%20Reducing%20Approaches.md)
+- [Polybase](Azure%20Other%20Services/Polybase.md)
+- [Azure Documents](Azure%20Concepts/Azure%20Documents.md)
 
 ### Azure Services
 
@@ -34,12 +37,6 @@ tags: [azure, cloud, index]
 	* [Azure Alerts](Azure%20Metrics%20&%20Logs/Azure%20Alerts.md)
 * [Health Checks](Azure%20Metrics%20&%20Logs/Health%20Checks.md)
 * [Azure Advisor](Azure%20Other%20Services/Azure%20Advisor.md)
-
-### Miscellaneous Topics
-
-* [Azure Blueprints](Azure%20Security%20Services/Azure%20Blueprints.md)
-* [Cost Reducing Approaches](Azure%20Other%20Services/Cost%20Reducing%20Approaches.md)
-* [Polybase](Azure%20Other%20Services/Polybase.md)
 
 ---
 

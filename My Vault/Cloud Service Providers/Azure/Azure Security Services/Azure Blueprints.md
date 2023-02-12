@@ -14,3 +14,7 @@ The various components that can be used in Blueprints are called as Artifacts
 ![Azure Blueprints|300](../images/azure-blueprints.png)
 
 ARM templates can also be used for creating and managing Policies. Azure Blueprints is another alternative for the same
+
+---
+
+[Azure](../Azure.md)

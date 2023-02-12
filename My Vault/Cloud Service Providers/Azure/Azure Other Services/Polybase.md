@@ -13,8 +13,8 @@ Allows to join data from SQL Server with external data
 The fastest and most scalable way to load data into [Azure Synapse Analytics](../Azure%20Analytics%20Services/Azure%20Synapse%20Analytics/Azure%20Synapse%20Analytics.md) is by using Polybase  
 It also allow to access data in Blob and ADLS using T-SQL
 
+[Design a PolyBase data loading strategy for dedicated SQL pool - Azure Synapse Analytics | Microsoft Docs](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/load-data-overview)
+
 ---
 
-**<u>References</u>**:
-
-* [Design a PolyBase data loading strategy for dedicated SQL pool - Azure Synapse Analytics | Microsoft Docs](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/load-data-overview)
+[Azure](../Azure.md)
