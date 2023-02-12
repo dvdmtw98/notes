@@ -10,7 +10,7 @@ It is a simple key value store that allows to save non-sensitive configuration i
 The values stored in App Configuration are not encrypted  
 App Configuration has support for Hierarchical storage which allows us to pull whole sets of configs  
 
-Access can be controlled using [Role Based Access Control (RBAC)](Azure%20Security%20Services/Role%20Based%20Access%20Control%20(RBAC).md)  
+Access can be controlled using [Role Based Access Control (RBAC)](../Azure%20Security%20Services/Role%20Based%20Access%20Control%20(RBAC).md)  
 It is a stored configuration store so it can be accessed by multiple applications
 
 ### Azure State Configuration
