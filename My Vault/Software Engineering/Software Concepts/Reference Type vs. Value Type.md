@@ -14,7 +14,7 @@ In JavaScript Reference Type Variables (Arrays, Functions & Objects) are stored 
 | Memory allocation done automatically                                                                          | Memory allocation done using the new keyword      |
 | Immediately removed when variable is out of scope                                                             | Only removed when CLR performs Garbage Collection |
 | Defined using Structures                                                                                      | Defined using Classes                             |
-| Allocated on [Stack](../../../Data%20Structures%20&%20Algorithms/Data%20Structures/Stack.md) (Short Lifespan) | Allocated on Heap (Larger Memory)                 |
+| Allocated on [Stack](../Data%20Structures%20&%20Algorithms/Data%20Structures/Stack.md) (Short Lifespan) | Allocated on Heap (Larger Memory)                 |
 
 ### Value Type
 
