@@ -5,6 +5,8 @@ tags: [aws, cloud, streaming]
 
 It makes it easy to collect, process and analyze real-time streaming data so we can get timely insights or react quickly to new information
 
+[Kinesis Key Terms](Kinesis%20Key%20Terms.md)
+
 ### Advantages
 
 Real-time  
@@ -22,6 +24,4 @@ Kinesis Video Streams (Ingest Videos into AWS and use to for ML)
 
 ---
 
-### Table of Content
-
-* [Kinesis Key Terms](Kinesis%20Key%20Terms.md)
+[AWS](../../AWS.md)

@@ -6,8 +6,6 @@ tags: [aws, cloud, analytics, redshift]
 We can specify 1 or more columns are sort key that is going to be used by to save the inserted data in sorted order on disc  
 Redshift stores columnar data in 1 MB blocks. The min and max values of these blocks are also saved as metadata. If we sort the data then we can very efficiently find the data that we are searching
 
----
-
 ### Compound Sort Key
 
 Default Sort that is used by Redshift  
@@ -20,3 +18,7 @@ This type of sort key gives equal importance to all the columns that are specifi
 They improve performance even if we use queries that are based on the secondary sort key without referring the primary sort key  
 Interleaved sort key can is beneficial on large tables  
 Interleaved sort key should not be used on columns with monotonically increasing attributes, such as identity columns, dates, or timestamps
+
+---
+
+[AWS Analytics Services](../AWS%20Analytics%20Services.md)

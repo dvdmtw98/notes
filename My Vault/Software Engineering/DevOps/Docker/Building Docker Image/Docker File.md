@@ -30,7 +30,8 @@ Recommended way of change the working directory when building Docker Images
 ENV <key>=<value>
 ````
 
-Environment Variables can be optimally set which can then be used later on in the docker file. They can be accessed in the container after the image is built as well.
+Environment Variables can be optionally set which can be used later on in the docker file  They can be accessed and modified in the container after the image is built  
+ENV can be created without the `=` signal as well
 
 ```docker
 ARG <key>=<value>
@@ -38,7 +39,19 @@ ARG <key>=<value>
 
 Arguments are a special type of environment variable that is only available during the build process of the image.
 
-To pass values for the arguments during build use the `--build-arg` flag. If a FROM command is encountered in the Dockerfile all the arguments that have been defined before it will be reset.
+To pass values for the arguments during build use the `--build-arg` flag. If a FROM command is encountered in the `Dockerfile` all the arguments that have been defined before it will be reset
+Additionally ARGs can be declared globally before the 1st FROM statement but to use these values the variables need to be called in each of the stages as required
+
+```docker
+ARG FILENAME=foo.txt
+
+FROM ubuntu:latest
+
+ARG FILENAME
+RUN echo "Hello World" >> ${FILENAME}
+```
+
+ARG can be used to dynamically select the version of the image to be used
 
 ````docker
 COPY <host-system> <docker-image>

@@ -21,3 +21,7 @@ Intended for connections inside the Azure Network
 
 If VM launched outside Azure Network uses proxy else uses Redirect  
 Cannot use Kerberos security mode
+
+---
+
+[Azure Database Services](../Azure%20Database%20Services.md)

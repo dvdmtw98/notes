@@ -3,7 +3,7 @@ title: GitHub Actions Commands
 tags: [github, devops, pipeline]
 ---
 
-## Workflow Structure
+### Workflow Structure
 
 All actions are repositories that contain logic that can be used to perform a task  
 Each job created its own virtual environment (runner) and is executed in parallel by default  
@@ -20,7 +20,14 @@ name: Java CI with Gradle
 
 Name of the Action (will show up in the Actions Tab)  
 This is an optional field  
-Name can be specified for the steps in the Jobs as well  
+
+```yaml
+env:
+	AZURE_WEBAPP_NAME: 'sunshine-migrate'
+	AZURE_WEBAPP_PORT: 8080
+```
+
+The `env` section is used to defined environment variables that are assessable throughout the workflow
 
 ```yaml
 on:
@@ -56,7 +63,7 @@ An Job can be used to call another Action, run commands or perform setup operati
 
 It is used to select an Action  
 The official actions are all assessable at `actions/`  
-`with` is used to specify the configurable values of a action
+`with` is used to specify the configurable values of a action  
 
 ```yaml
 - name: Change Permission of Gradle
@@ -75,3 +82,7 @@ strategy:
 ```
 
 The strategy syntax can be used to build and test the application against multiple operating systems
+
+---
+
+[GitHub Actions](GitHub%20Actions.md)

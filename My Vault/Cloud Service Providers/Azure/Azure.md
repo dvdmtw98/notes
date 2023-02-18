@@ -8,9 +8,7 @@ tags: [azure, cloud, index]
 - [Azure Regions & Zones](Azure%20Concepts/Azure%20Regions%20&%20Zones.md)
 - [Azure Resources](Azure%20Concepts/Azure%20Resources.md)
 - [Azure Resource Tags](Azure%20Concepts/Azure%20Resource%20Tags.md)
-- [Azure Configuration Management](Azure%20Other%20Services/Azure%20Configuration%20Management.md)
 - [Cost Reducing Approaches](Azure%20Other%20Services/Cost%20Reducing%20Approaches.md)
-- [Polybase](Azure%20Other%20Services/Polybase.md)
 - [Azure Documents](Azure%20Concepts/Azure%20Documents.md)
 
 ### Azure Services
@@ -18,14 +16,17 @@ tags: [azure, cloud, index]
 * [Azure Compute Services](Azure%20Other%20Services/Azure%20Compute%20Services.md)
 * [Azure Serverless Services](Azure%20Other%20Services/Azure%20Serverless%20Services.md)
 * [Azure Database Services](Azure%20Database%20Services/Azure%20Database%20Services.md)
+	* [Polybase](Azure%20Other%20Services/Polybase.md)
 * [Azure Analytics Services](Azure%20Analytics%20Services/Azure%20Analytics%20Services.md)
 * [Azure Storage Account](Azure%20Storage%20Account/Azure%20Storage%20Account.md)
 * [Azure AI Services](Azure%20Other%20Services/Azure%20AI%20Services.md)
 * [Azure IoT Services](Azure%20Other%20Services/Azure%20IoT%20Services.md)
 * [Azure DevOps](Azure%20Other%20Services/Azure%20DevOps/Azure%20DevOps.md)
+	* [ARM Templates](Azure%20Other%20Services/ARM%20Templates.md)
+* [Azure Configuration Management](Azure%20Other%20Services/Azure%20Configuration%20Management.md)
 * [Azure Data Factory](Azure%20Other%20Services/Azure%20Data%20Factory/Azure%20Data%20Factory.md)
-* [Azure Streaming Services](Azure%20Streaming%20Services/Azure%20Streaming%20Services.md)
 * [Azure Event Integration Services](Azure%20Other%20Services/Azure%20Event%20Integration%20Services.md)
+	* [Azure Streaming Services](Azure%20Streaming%20Services/Azure%20Streaming%20Services.md)
 * [Azure Networking Services](Azure%20Networking%20Services/Azure%20Networking%20Services.md)
 * [Azure Security Services](Azure%20Security%20Services/Azure%20Security%20Services.md)
 

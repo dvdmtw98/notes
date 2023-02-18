@@ -11,3 +11,5 @@ The Table API for Cosmos DB uses [Azure Tables](../Azure%20Tables/Azure%20Tables
 | Variable throughput limited to 20,000 operation/s | Guaranteed backed by SLA. No upper limit on throughput |
 | Single region                                     | 30+ regions                                            |
 | Only Primary index                                | Automatic and complete indexing on all properties      |
+
+[Azure Database Services](../Azure%20Database%20Services.md)

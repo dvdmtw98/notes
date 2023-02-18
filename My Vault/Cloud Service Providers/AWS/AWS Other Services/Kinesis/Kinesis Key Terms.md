@@ -32,3 +32,7 @@ Total capacity of stream = sum of shards
 
 It is used to group by shard in a stream  
 Each data is assigned an partition key and it is used to decide which shard the data belong
+
+---
+
+[AWS Kinesis](AWS%20Kinesis.md)

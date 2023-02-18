@@ -19,13 +19,20 @@ Desired State Configuration (DSC) allows to manage the State of Virtual Machines
 DSC can be configured for our VM from our Automation Account Instance  
 On Linux state configuration can be managed using Python Scripts as well   
 
+Steps to onboard VM to Azure State Management
+- Import Configuration
+- Compile Configuration (Under the hood DSC uses MOF files and WMI)
+- Onboard VM into Azure Automation State Management
+- Assign Node Configuration (Compiled configuration) to VM
+- Check node status
+
 **ApplyOnly**: Apply the configuration when the VM is created  
 **ApplyAndMonitor**: Apply the configuration and monitor it for changes  
 **ApplyAndAutoCorrect**: Monitors the configuration and corrects the configuration if the values are changed
 
 [Azure Automation State Configuration overview | Microsoft Learn](https://learn.microsoft.com/en-us/azure/automation/automation-dsc-overview)
 
-Custom Scripts Extension allows to download PowerShell Script onto a VM and execute it
+**Custom Scripts Extension** allows to download PowerShell Script onto a VM and execute it
 
 ---
 

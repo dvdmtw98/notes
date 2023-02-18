@@ -18,3 +18,7 @@ Supports Sharding of data
 Using a load balancer it can run access multiple servers  
 MongoDB can be used as a file system called as GridFS  
 Supports fixed size collections called capped collections
+
+---
+
+[Azure Database Services](../Azure%20Database%20Services.md)

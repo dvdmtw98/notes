@@ -7,8 +7,6 @@ DB for storing structured data
 Sometimes referred as DBaaS (Database as a Service)  
 It is High Performance, Reliable, Fully Managed and secure DB service
 
----
-
 ### Azure SQL Database
 
 Fully managed SQL database  
@@ -30,3 +28,7 @@ Allows OS level access
 Ideal for Lift and shift workload to the cloud  
 Have existing license and want to continue using it (Hybrid Benefit)  
 It is a IaaS offering
+
+---
+
+[Azure Database Services](../Azure%20Database%20Services.md)

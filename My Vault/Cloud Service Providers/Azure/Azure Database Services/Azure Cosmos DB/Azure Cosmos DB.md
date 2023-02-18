@@ -62,5 +62,9 @@ Each account can contain any amount of data and databases
 
 ![Cosmos DB Structure|600](../../images/cosmos-db-structure.png)
 
-**<u>References</u>**:
-* [Choose an API in Azure Cosmos DB | Microsoft Docs](https://docs.microsoft.com/en-us/azure/cosmos-db/choose-api)
+[Choose an API in Azure Cosmos DB | Microsoft Docs](https://docs.microsoft.com/en-us/azure/cosmos-db/choose-api)
+
+---
+
+[Azure Database Services](../Azure%20Database%20Services.md)  
+[Azure Tables](../Azure%20Tables/Azure%20Tables.md)

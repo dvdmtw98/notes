@@ -12,3 +12,7 @@ A table with "data_retention" value as -1 and unit as infinite indicated data re
 The automatic triggering of the data retention policy is disabled when a backup is restored or database is reattached  
 Data retention filter column cannot be altered and it must be an date/ datetime datatype  
 The [Temporal](Temporal%20Tables.md) History Table cannot be purged
+
+---
+
+[Azure Database Services](../Azure%20Database%20Services.md)

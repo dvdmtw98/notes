@@ -30,7 +30,7 @@ Max size of uncompressed Zip: 250 MB
 Dynamically pass settings to function code and library without making any changes in code  
 They are represent as key-value pair
 
-````python
+```python
 import json
 import boto3
 
@@ -65,4 +65,8 @@ def lambda_handler(event, context):
 				'active' : int(line[8])
 			}
 		)
-````
+```
+
+---
+
+[AWS](../AWS.md)

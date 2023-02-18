@@ -10,8 +10,8 @@ tags: [programming, csharp, index]
 	* [CLR (Common Language Runtime)](Theoretical%20Concepts/CLR%20%28Common%20Language%20Runtime%29.md)
 	* [.NET Implementations](Theoretical%20Concepts/Dotnet%20Implementations.md)
 	* [Architecture of .NET Application](Theoretical%20Concepts/Architecture%20of%20.NET%20Application.md)
-	* [Reference Type vs. Value Type](Theoretical%20Concepts/Reference%20Type%20vs.%20Value%20Type.md)
-	* [Association, Aggregation and Composition](Theoretical%20Concepts/Association,%20Aggregation%20and%20Composition.md)
+	* [Reference Type vs. Value Type](../../Software%20Concepts/Reference%20Type%20vs.%20Value%20Type.md)
+	* [Association, Aggregation and Composition](../../Software%20Concepts/Association,%20Aggregation%20and%20Composition.md)
 	* [Dependency Injection](Dependency%20Injection.md)
 2. **Fundamental Concepts**
 	* [Primitives Datatype](Fundamental%20Concepts/Primitives%20Datatype.md)

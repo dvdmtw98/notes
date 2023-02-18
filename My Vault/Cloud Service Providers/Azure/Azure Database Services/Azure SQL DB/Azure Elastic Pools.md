@@ -13,7 +13,8 @@ Databases in an elastic pool are on:
 - A single server
 - Share a set number of resources at a set price
 
+[Manage multiple databases with elastic pools - Azure SQL Database | Microsoft Docs](https://docs.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview)
+
 ---
 
-**<u>References</u>**:
-* [Manage multiple databases with elastic pools - Azure SQL Database | Microsoft Docs](https://docs.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview)
+[Azure Database Services](../Azure%20Database%20Services.md)

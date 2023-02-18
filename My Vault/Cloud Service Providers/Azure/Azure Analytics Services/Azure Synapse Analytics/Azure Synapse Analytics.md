@@ -37,8 +37,6 @@ Distributed version of T-SQL
 Supports streaming features that allows to save data into SQL Tables  
 Allows to integrate AI with SQL
 
----
-
 ### Serverless Pools
 
 In Serverless the topology changes by adding, removing or failovers of nodes  
@@ -46,3 +44,8 @@ An Serverless Pool is automatically created when a new Synapse Workspace is crea
 Serverless Pool is only an compute engine and hence cannot store any data
 
 [Synapse SQL architecture - Azure Synapse Analytics | Microsoft Docs](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/overview-architecture)
+
+---
+
+[SQL DB Security](../../Azure%20Database%20Services/Azure%20SQL%20DB/SQL%20DB%20Security.md)  
+[Polybase](../../Azure%20Other%20Services/Polybase.md)

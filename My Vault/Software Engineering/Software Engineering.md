@@ -14,6 +14,7 @@ tags: [software, programming, devops, index]
 	- [Big-O Notation](Data%20Structures%20&%20Algorithms/Big-O%20Notation.md)
 	- [Recursion](Data%20Structures%20&%20Algorithms/Recursion.md)
 - [System Design](System%20Design/System%20Design.md)
+	- [Deployment Strategy](System%20Design/Deployment%20Strategy.md)
 
 ---
 

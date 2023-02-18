@@ -6,7 +6,7 @@ tags: [programming, javascript, webdev, index]
 ### Table of Content
 
 * [JS - Under the Hood](JS%20-%20Under%20the%20Hood.md)
-* [Reference Type vs. Value Type](../C%20Sharp/Theoretical%20Concepts/Reference%20Type%20vs.%20Value%20Type.md)
+* [Reference Type vs. Value Type](../../Software%20Concepts/Reference%20Type%20vs.%20Value%20Type.md)
 * [Event Listeners](Event%20Listeners.md)
 * [JS - Other Features](JS%20-%20Other%20Features.md)
 

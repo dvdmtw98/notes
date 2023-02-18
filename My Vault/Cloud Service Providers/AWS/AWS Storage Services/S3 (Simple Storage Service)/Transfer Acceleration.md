@@ -19,3 +19,7 @@ Query with S3 Select can be used to perform basic SQL queries on your data (Only
  > [!NOTE]
  > AWS Athena: An service that allows to build a structure/ table on top the data that is stored in S3
  > It is similar to external table concept in Hive
+ 
+---
+
+[S3 (Simple Storage Service)](S3%20(Simple%20Storage%20Service).md)

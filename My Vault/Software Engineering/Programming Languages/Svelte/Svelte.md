@@ -3,10 +3,6 @@ title: Svelte
 tags: [programming, javascript, svelte, webdev, index]
 ---
 
-### Table of Content
-
----
-
 ### Commonly Used Commands
 
 ````bash
@@ -16,6 +12,8 @@ npm init vite svelte-feedback-app -- --template svelte
 npm install
 npm run dev
 ````
+
+#### References
 
 * [Introduction / Basics • Svelte Tutorial](https://svelte.dev/tutorial/basics)
 * [Svelte for new developers](https://svelte.dev/blog/svelte-for-new-developers)

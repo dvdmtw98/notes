@@ -32,3 +32,7 @@ Key is an unique identifier for an object within a bucket
  > * When we create a bucket we need to specify a unique name.
  > * Buckets name are global in nature.
  > * After a bucket is created, the name of that bucket cannot be used by another AWS account in any AWS Region until the bucket is deleted.
+ 
+---
+
+[AWS Storage Services](../AWS%20Storage%20Services.md)

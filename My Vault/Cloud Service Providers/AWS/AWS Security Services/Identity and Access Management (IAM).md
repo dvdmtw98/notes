@@ -26,3 +26,7 @@ e.g. S3 instance has to access RDB for some data then we assign role to S3 that 
 
 Permissions that are assigned to a user, group, role or resource  
 Policy is an document (JSON) that explicitly lists permissions
+
+---
+
+[AWS](../AWS.md)

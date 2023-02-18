@@ -3,6 +3,13 @@ title: Dynamo DB
 tags: [aws, cloud, database, dynamodb]
 ---
 
+### Table of Content
+
+* [Dynamo DB Primary Key](Dynamo%20DB%20Primary%20Key.md)
+* [Dynamo DB Secondary Index](Dynamo%20DB%20Secondary%20Index.md)
+
+---
+
 Provides high availability with replication across 3 Availability Zones  
 We can store 100 TB of data and provides great performance  
 Supports both document and key value storage of data  
@@ -24,7 +31,4 @@ Max supported nesting 32 levels
 
 ---
 
-### Table of Content
-
-* [Dynamo DB Primary Key](Dynamo%20DB%20Primary%20Key.md)
-* [Dynamo DB Secondary Index](Dynamo%20DB%20Secondary%20Index.md)
+[AWS Database Services](../AWS%20Database%20Services.md)

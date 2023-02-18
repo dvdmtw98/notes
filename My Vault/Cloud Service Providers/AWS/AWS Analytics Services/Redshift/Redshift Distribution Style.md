@@ -31,7 +31,7 @@ This is the default distribution style used by Redshift
 Redshift automatically uses an distribution style based on the size of the data  
 ALL is assigned if the table is small and changed to EVEN if the table grows in size
 
-````sql
+```sql
 CREATE TABLE IF NOT EXISTS lti_schema.patient 
 (
 	pid int primary key,
@@ -51,4 +51,8 @@ CREATE TABLE IF NOT EXISTS lti_schema.patient
 	amount int default 0
 )
 DISTSTTYLE KEY DISTKEY(drug);
-````
+```
+
+---
+
+[AWS Analytics Services](../AWS%20Analytics%20Services.md)

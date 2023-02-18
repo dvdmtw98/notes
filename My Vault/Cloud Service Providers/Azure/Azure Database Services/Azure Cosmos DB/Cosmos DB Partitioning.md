@@ -33,3 +33,7 @@ Physical limitations to consider:
 
 * Max Item size: 2 MB
 * Max logical partition size: 20 GB
+
+---
+
+[Azure Database Services](../Azure%20Database%20Services.md)

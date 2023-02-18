@@ -3,9 +3,9 @@ title: Azure DevOps
 tags: [azure, cloud, devops]
 ---
 
-Combine Development and Operations together and shorten the development life cycle by providing CI/CD capabilities while ensuring high quality of deliverable
-
 ### Azure DevOps
+
+Combine Development and Operations together and shorten the development life cycle by providing CI/CD capabilities while ensuring high quality of deliverable
 
 Boards : Track process and the work done by team members etc.  
 Repo : Code Versioning  
@@ -15,15 +15,17 @@ Test Plans : Testing Tools
 
 Marketplace provides more tools and features that can be added into DevOps  
 DevOps supports both centralized and distributed management of code  
-[Centralized vs. Distributed Source Control](Centralized%20vs.%20Distributed%20Source%20Control.md)
 
 DevOps Continuous Assurance is a set of tools for configuration management for DevOps projects  
 These tools are used to track drifts in the security of the configurations used in apps
 
-### Azure DevTest Lab
+**Continuous Delivery**: Deployment to production is done manually (Requires manual approval)
+**Continuous Deployment**: Deployment to production is done automatically
 
-Provides the ability to create VMs with any OS and any artifacts that can be used for testing and development  
-To control costs admins can set limitations on the VM like which OS can be used, size of Disk, etc.
+### Table of Content
+
+- [DevOps Pipelines](DevOps%20Pipelines.md)
+- [Centralized vs. Distributed Source Control](Centralized%20vs.%20Distributed%20Source%20Control.md)
 
 ---
 

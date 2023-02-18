@@ -56,9 +56,7 @@ With virtual nodes each server handles multiple segments on the ring
 In real world applications the no. of virtual nodes is much greater than three and this makes the distribution of data much more even  
 Additional space is required to store metadata related to the virtual servers
 
-**<u>References</u>**:
-
-- [Consistent Hashing | Algorithms Every Developer Should Know For System Design - YouTube](https://www.youtube.com/watch?v=UF9Iqmg94tk)
+[Consistent Hashing | Algorithms Every Developer Should Know For System Design - YouTube](https://www.youtube.com/watch?v=UF9Iqmg94tk)
 
 ---
 

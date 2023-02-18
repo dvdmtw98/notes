@@ -1,6 +1,6 @@
 ---
 title: GitHub Actions
-tags: [github, devops, pipeline, index]
+tags: [github, devops, pipeline, cicd, index]
 ---
 
 It is a platform to automate Developer **Workflows**  

@@ -9,3 +9,7 @@ An instance is an virtual server for running applications on EC2. It can be taug
 AMI (Amazon Machine Image) images that consist of preconfigured software/ application
 
 Instance Type: Compute Optimized (Processing), Memory Optimized (In-memory), GPU Optimized, Storage Optimized, General Purpose (Hardware type of EC2)
+
+---
+
+[AWS](../AWS.md)

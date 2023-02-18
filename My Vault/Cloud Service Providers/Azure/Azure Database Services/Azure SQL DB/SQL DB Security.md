@@ -48,3 +48,7 @@ Create Database Master Key
 Create a Certificate to support TDE  
 Create a Database Encryption Key  
 Enable TDE on Database
+
+---
+
+[Azure Database Services](../Azure%20Database%20Services.md)

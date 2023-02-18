@@ -3,7 +3,7 @@ title: AWS
 tags: [aws, cloud, index]
 ---
 
-### AWS Core Services
+### Core Services
 
 * [AWS Analytics Services](AWS%20Analytics%20Services/AWS%20Analytics%20Services.md)
 * **AWS Compute Services**
@@ -12,7 +12,7 @@ tags: [aws, cloud, index]
 * [AWS Database Services](AWS%20Database%20Services/AWS%20Database%20Services.md)
 * [AWS Storage Services](AWS%20Storage%20Services/AWS%20Storage%20Services.md)
 
-### AWS Other Services
+### Other Services
 
 * [Identity and Access Management (IAM)](AWS%20Security%20Services/Identity%20and%20Access%20Management%20%28IAM%29.md)
 * [AWS Kinesis](AWS%20Other%20Services/Kinesis/AWS%20Kinesis.md)

@@ -35,3 +35,7 @@ It uses the list of classifier to provide an schema to the data
 ### Data Store
 Location for persistently storing data  
 E.g. S3, DynamoDB
+
+---
+
+[AWS](../AWS.md)

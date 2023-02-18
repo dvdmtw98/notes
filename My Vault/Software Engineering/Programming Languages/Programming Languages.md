@@ -30,7 +30,7 @@ e.g. C, C++
 **Interpreted (Dynamic)**  
 High Level Code is converted line by line into machine code  
 If an function needs to be executed 100 times then its source code will be converted to machine code 100 times  
-e.g. Python
+e.g. JavaScript, PHP
 
 **Managed (Execution Engine)**  
 High Level Code is converted into an Intermediate Language (IL)  

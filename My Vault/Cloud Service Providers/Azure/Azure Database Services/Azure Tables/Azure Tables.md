@@ -12,3 +12,7 @@ When entering data we must specify:
 
 * Partition key with is used to uniquely identify the partition in the data
 * Row Key which is used to uniquely identify row in a given partition
+
+---
+
+[Azure Database Services](../Azure%20Database%20Services.md)

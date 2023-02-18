@@ -12,3 +12,5 @@ When creating an external table we have two options:
 * Manually specify the columns that are going to be present in the data
 
 ---
+
+[AWS](../AWS.md)

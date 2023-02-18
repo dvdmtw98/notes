@@ -23,5 +23,6 @@ tags: [programming, concept]
 
 ---
 
-[C Sharp](../C%20Sharp.md)  
-[Python](../../Python/Python.md)
+[C Sharp](../Programming%20Languages/C%20Sharp/C%20Sharp.md)  
+[Python](../../Python/Python.md)  
+[Software Concepts](../../../Software%20Concepts/Software%20Concepts.md)

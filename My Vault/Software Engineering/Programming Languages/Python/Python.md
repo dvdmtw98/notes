@@ -5,18 +5,18 @@ title: Python
 ### Table of Content
 
 1. **Theoretical Concepts**
-	* [Association, Aggregation and Composition](../C%20Sharp/Theoretical%20Concepts/Association,%20Aggregation%20and%20Composition.md)
-	* [Reference Type vs. Value Type](../C%20Sharp/Theoretical%20Concepts/Reference%20Type%20vs.%20Value%20Type.md)
+	* [Association, Aggregation and Composition](../../Software%20Concepts/Association,%20Aggregation%20and%20Composition.md)
+	* [Reference Type vs. Value Type](../../Software%20Concepts/Reference%20Type%20vs.%20Value%20Type.md)
 	* [Memory Management](Theoretical%20Concepts/Memory%20Management.md)
 2. **Fundamental Concepts**
 	* [Bitwise Operator](Fundamental%20Concepts/Bitwise%20Operator.md)
 	* [Python Strings](Fundamental%20Concepts/Python%20Strings.md)
-	* [Python String Formatting](Fundamental%20Concepts/Python%20String%20Formatting.md)
+		* [Python String Formatting](Fundamental%20Concepts/Python%20String%20Formatting.md)
 	* [Python Iteration & Control Flow Statements](Fundamental%20Concepts/Python%20Iteration%20&%20Control%20Flow%20Statements.md)
 	* [Python Functions](Fundamental%20Concepts/Python%20Functions.md)
 	* [Python Collections](Fundamental%20Concepts/Python%20Collections.md)
 	* [Python Comprehension](Fundamental%20Concepts/Python%20Comprehension.md)
-	* [Python Generators](Fundamental%20Concepts/Python%20Generators.md)
+		* [Python Generators](Fundamental%20Concepts/Python%20Generators.md)
 	* [Python Exception Handling](Fundamental%20Concepts/Python%20Exception%20Handling.md)
 	* [Python File Operations](Fundamental%20Concepts/Python%20File%20Operations.md)
 3. **Object Oriented Concepts**

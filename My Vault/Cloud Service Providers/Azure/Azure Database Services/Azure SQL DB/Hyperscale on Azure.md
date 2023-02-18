@@ -12,5 +12,8 @@ Provides support for:
 * Real-time queries
 * Time series workloads
 
-**<u>References</u>**:
-* [What is the Hyperscale service tier? - Azure SQL Database | Microsoft Docs](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tier-hyperscale)
+[What is the Hyperscale service tier? - Azure SQL Database | Microsoft Docs](https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tier-hyperscale)
+
+---
+
+[Azure Database Services](../Azure%20Database%20Services.md)

@@ -10,3 +10,7 @@ tags: [aws, cloud, analytics, index]
 	* [Redshift Distribution Style](Redshift/Redshift%20Distribution%20Style.md)
 	* [Redshift Sort Key](Redshift/Redshift%20Sort%20Key.md)
 * [AWS Athena](AWS%20Athena.md)
+
+---
+
+[AWS](../AWS.md)

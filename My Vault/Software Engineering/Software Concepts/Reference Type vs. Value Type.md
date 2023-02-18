@@ -3,7 +3,7 @@ title: Reference Type vs. Value Type
 tags: [programming, concept]
 ---
 
-In C# all [Primitives Datatype](../Fundamental%20Concepts/Primitives%20Datatype.md) are defined under the hood using [Structs](../Object%20Oriented%20Concepts/Structs.md) while all non-primitive datatype are defined using [Classes](../Object%20Oriented%20Concepts/CSharp%20Classes.md)
+In C# all [Primitives Datatype](../Programming%20Languages/C%20Sharp/Fundamental%20Concepts/Primitives%20Datatype.md) are defined under the hood using [Structs](../Programming%20Languages/C%20Sharp/Object%20Oriented%20Concepts/Structs.md) while all non-primitive datatype are defined using [Classes](../Programming%20Languages/C%20Sharp/Object%20Oriented%20Concepts/CSharp%20Classes.md)
 
 In Python all datatypes are objects hence there are all reference type 
 

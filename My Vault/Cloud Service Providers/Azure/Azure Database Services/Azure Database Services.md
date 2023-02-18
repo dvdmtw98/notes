@@ -15,8 +15,8 @@ tags: [azure, cloud, database, index]
 
 * [Azure SQL DB](Azure%20SQL%20DB/Azure%20SQL%20DB.md)
 	* [Hyperscale on Azure](Azure%20SQL%20DB/Hyperscale%20on%20Azure.md)
+	* [Azure Elastic Pools](Azure%20SQL%20DB/Azure%20Elastic%20Pools.md)
 * [Purchasing Model](Azure%20SQL%20DB/Purchasing%20Model.md)
-* [Azure Elastic Pools](Azure%20SQL%20DB/Azure%20Elastic%20Pools.md)
 * [SQL Edge Data Retention](Azure%20SQL%20DB/SQL%20Edge%20Data%20Retention.md)
 * [Temporal Tables](Azure%20SQL%20DB/Temporal%20Tables.md)
 * [Connectivity Mode](Azure%20SQL%20DB/Connectivity%20Mode.md)
@@ -25,7 +25,7 @@ tags: [azure, cloud, database, index]
 ### Azure Tables
 
 * [Azure Tables](Azure%20Tables/Azure%20Tables.md)
-* [Azure Tables Partitioning](Azure%20Tables/Azure%20Tables%20Partitioning.md)
+	* [Azure Tables Partitioning](Azure%20Tables/Azure%20Tables%20Partitioning.md)
 
 ---
 

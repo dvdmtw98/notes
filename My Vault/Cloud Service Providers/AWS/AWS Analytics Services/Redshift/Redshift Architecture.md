@@ -45,7 +45,11 @@ Dense Compute (DC2) - SDD
 
 ---
 
-**<u>References</u>**:
+#### References
 
 * [Data warehouse system architecture - Amazon Redshift](https://docs.aws.amazon.com/redshift/latest/dg/c_high_level_system_architecture.html)
 * [Amazon Redshift Architecture. Understanding the foundations of… | by Atharva Inamdar | Towards Data Science](https://towardsdatascience.com/amazon-redshift-architecture-b674513eb996)
+
+---
+
+[AWS Analytics Services](../AWS%20Analytics%20Services.md)

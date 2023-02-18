@@ -73,4 +73,25 @@ Studies have shown that working on multi tasks at the same time can reduce our p
 
 ---
 
+### The Ikigai Diet
+
+Japan has the highest life expediency in the world: 85 years for men and 87.3 years for women
+
+#### Okinawa's Diet Miracle
+
+- Locals eat a wide **variety** of foods, especially vegetables. They eat a average of eighteen different food each day
+- They eat at least five servings of fruits and vegetables every day. On a daily basis they consume at least 7 types of fruits and vegetables
+- Grains are the foundation of their diet. Japanese people eat white rice every day sometimes with noodles
+- They rarely eat sugar, and if they do, it's **cane sugar**
+- Okinawans eat fish an average of three times per week, unlike in other parts of Japan, the most frequent consumed meat is fork
+
+Additionally,
+- Okinawans consume, in general, one-third as much sugar as the rest of Japan's population (sweets and chocolates are very rare)
+- They eat half as such salt as the rest of Japan; 7 grams per day compared to the average of 12 grams
+- They consume fewer calories, an average of 1785 per day, compared to 2,068 in the rest of Japan
+
+The key to staying healthy while consuming fewer calories is eating food with a high nutritional value and avoiding those that add to our overall caloric intake but offer little to no nutritional value. If we regularly consume too much calories
+
+---
+
 [Book List](Book%20List.md)

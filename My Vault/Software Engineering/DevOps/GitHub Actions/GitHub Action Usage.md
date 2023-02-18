@@ -9,8 +9,6 @@ Variable Name: `GITHUB_WORKSPACE`
 The same directory is also used by the checkout action  
 Before checkout clones a repo the content of working directory is cleared   
 
----
-
 ### Docker Actions
 
 Docker Actions can only to executed on Linux Runners  
@@ -24,14 +22,15 @@ When using Docker action the **working directory** is mounted as a **volume**. I
 
 In the Container the Working Directory is mounted at `/github/workspace/`
 
----
-
 ### Composite Actions
 
 The files that where included along with the composite action repo can be accessed at `/home/runner/work/_actions/repo-owner/name-of-action-repo/` or using `GITHUB_ACTION_PATH` variable
 
----
+### References
 
-**References**:
 - [Variables - GitHub Docs](https://docs.github.com/en/actions/learn-github-actions/variables)
 - [Contexts - GitHub Docs](https://docs.github.com/en/actions/learn-github-actions/contexts#context-availability)
+
+---
+
+[GitHub Actions](GitHub%20Actions.md)
