@@ -37,10 +37,11 @@ Conditional Access applies to all types of Identities (even Service Principals)
 
 ### Security Groups
 
-Azure AD **Security Groups** are Security Principals i.e. they can be given access to Azure Resources  
+They are used to group AD objects together and apply similar config and settings    
+Azure AD **Security Groups** are Security Principals i.e. they can be used to access Azure Resources  
 All types of identities can be added into a Security Group  
 The members can be added natively from cloud or can be synced from on-prem AD
-Details of groups synced from on-prem has to be directly changed in AD  
+Details of groups synced from on-prem has to be directly changed in on-prem AD  
 Members of groups can be added Statically or Dynamically (Using a condition)  
 
 Microsoft 365 groups are used to access 365 resources

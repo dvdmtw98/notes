@@ -22,8 +22,4 @@ tags: [programming, python]
  > * In Python access modifiers are not enforced which means protected and private members can still be accessed outside of their scope it is up to the developers to respect the access modifiers that have been declared
  > * The protected and private attributes should be only accessed outside the class using getter and setter methods or after turned them into a property using the `@property` decorator or `property()` method
 
----
-
-**<u>References</u>**:
-
-* [public, protected, private members in Python](https://www.tutorialsteacher.com/python/public-private-protected-modifiers)
+[public, protected, private members in Python](https://www.tutorialsteacher.com/python/public-private-protected-modifiers)

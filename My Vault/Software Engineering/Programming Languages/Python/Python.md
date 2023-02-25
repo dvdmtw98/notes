@@ -32,6 +32,7 @@ title: Python
 4. **Advanced Concepts**
 	- [Python Metaclasses](Advanced%20Concepts/Python%20Metaclasses.md)
 	- [Python Variable Scopes](Advanced%20Concepts/Python%20Variable%20Scopes.md)
+	- [Python Async Programming](Advanced%20Concepts/Python%20Async%20Programming.md)
 
 ---
 

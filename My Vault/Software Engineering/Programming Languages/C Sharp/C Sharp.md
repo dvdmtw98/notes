@@ -55,7 +55,7 @@ tags: [programming, csharp, index]
 dotnet --info 
 
 # View all templates 
-dotnet new 
+dotnet new
 
 # Create new console template 
 dotnet new console [--framework net5.0] [-o <project-name>]
@@ -104,7 +104,7 @@ dotnet run
 // Named Arguments 
 PrintOrderDetails(productName: "Red Mug", sellerName: "Gift Shop", orderNum: 31);
 
-// Optinal Arguments 
+// Optional Arguments 
 public void ExampleMethod(int required, string optionalstr = "default string", int optionalint = 10) {}
 ````
 

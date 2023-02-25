@@ -92,6 +92,8 @@ Additionally,
 
 The key to staying healthy while consuming fewer calories is eating food with a high nutritional value and avoiding those that add to our overall caloric intake but offer little to no nutritional value. If we regularly consume too much calories
 
+**Sanpin-cha**: A mix of green team and jasmine flowers is consumed by Okinawan's almost three times daily. Green tea has proven to reduce the free radicals present in our bodies, keeping us young longer
+
 ---
 
 [Book List](Book%20List.md)

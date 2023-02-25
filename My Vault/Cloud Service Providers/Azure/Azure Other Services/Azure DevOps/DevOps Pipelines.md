@@ -12,8 +12,12 @@ Azure DevOps Pipelines provide YAML based and graphical (legacy) approach for bu
 
 ### Agents
 
-Self-Hosted Agents are ideal when  we required a specific custom environment for our tools and/ or have some compliance requirement  
-Deployment Groups are similar to Agent Pools (Pool of Agents that are scoped to a DevOps Organization) but instead are scoped to stages   
+Self-Hosted Agents are ideal when we required a specific custom environment for our tools and/ or have some compliance requirement  
+
+**Agent Pool**: Pool of Agents that are scoped to a DevOps Organization
+
+Deployment Group are a logical group of machines that are scoped to stages (DEV, QA, PROD)  
+They are a set of machines are the configured to be used for a specific stage  
 
 [Self-Hosted Agents](Self-Hosted%20Agents.md)
 
@@ -36,6 +40,7 @@ Deployment Groups are similar to Agent Pools (Pool of Agents that are scoped to 
 
 - [Azure Pipelines New User Guide - Key concepts - Azure Pipelines | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops)
 - [Stages in Azure Pipelines - Azure Pipelines | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/stages?view=azure-devops&tabs=yaml)
+- [Build container images to deploy apps - Azure Pipelines | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/containers/build-image?view=azure-devops#what-agents-can-i-use-to-build-container-images)
 
 ---
 
