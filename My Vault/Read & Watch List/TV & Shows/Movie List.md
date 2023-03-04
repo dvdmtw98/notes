@@ -74,7 +74,6 @@ cssclass: numbered-rows
 |     | Hidden Figures                                 | 2016    |
 |     | A Nightmare on Elm Street                      | 1984    |
 |     | Re-Animator                                    | 1985    |
-|     | Riders of Justice                              | 2020    |
 |     | The Adventures of Baron Munchausen             | 1988    |
 |     | The Breakfast Club                             | 1985    |
 |     | The Count of Monte Cristo                      | 2002    |

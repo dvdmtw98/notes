@@ -2,6 +2,8 @@
 title: TCP Three-Way Handshake
 ---
 
+Three Way Handshake is used to share information between the client and server to synchronize the parameters that are going to be used in the connection
+
 ![Three Way Handshake|450](../../images/three-way-handshake.png)
 
 ### TCP Header Flags
@@ -20,4 +22,4 @@ The options are only shared between the client and server during the initial Han
 
 ---
 
-[TCP (Transmission Control Protocol)](../../../Computer%20Networks/TCP-IP%20Layers/4%20-%20Transport%20Layer%20Protocols/TCP%20(Transmission%20Control%20Protocol).md)
+[TCP (Transmission Control Protocol)](../../../Computer%20Networks/Layer-wise%20Concepts/Transport%20Layer%20Concepts/TCP%20(Transmission%20Control%20Protocol).md)

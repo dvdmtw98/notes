@@ -1,5 +1,6 @@
 ---
 title: HSTS (HTTP Strict Transport Security)
+tags: [security, web, concept]
 ---
 
 More Secure (Strict) version of HTTPS. Used by big sites like Facebook, Twitter, etc.

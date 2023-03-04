@@ -96,4 +96,32 @@ The key to staying healthy while consuming fewer calories is eating food with a 
 
 ---
 
+### Gentle Movement, Longer Life
+
+Research done of the Blue Zones suggest that the people who live the longest are not the ones who do the most exercise but rather the ones who **move** the most.
+
+Metabolism slows down by 90% after 30 mins of sitting. The enzymes that move the bad fats from the arteries to the muscles, where it gets burned off, slow down. After 2 hrs. good cholesterol drop by 20%. Just **getting up for 5 mins** is going to get **things going** again.
+
+---
+
+### Resilience and Wabi-sabi
+
+**Resilience** is our ability to **deal** with **seatbacks**. The more resilient we are, the more easier it will be to pick ourselves up and get back to what gives meaning to our lives.
+
+Resilient people know how to stay focused on their objectives, on what matters, without giving in to discouragement. Their flexibility is there source of strength. They concentrate on the things they an control and don't worry about those they can't.
+
+**Ascetic**: Person who lives life by leaving behind all worldly pleasures  
+**Cynics**: People who lead Ascetic lives  
+**Stoics**: There is nothing wrong with enjoying lives pleasures as long as they do not take control of your life as you enjoy them
+
+We finally land our dream job, but after a little while we are already hunting for a better one. We win the lottery and buy a nice car but then decide we can't live without a sailboat.  
+
+The Stoics believed this kind of desires and ambitions are not worth pursuing. The objective of a virtuous person is to reach a state of tranquility. In order to keep their minds virtuous, they practiced negative visualization. They imaged the worst that could happen in order to be prepared for the worst.
+
+Other central tenet of Stoicism is knowing **what we can control and what we cannot can't**. Worrying about things that are beyond our control accomplishes nothing.
+
+Both Stoicism and Buddhism reminds us that the present is all that exists, and its is the only thing we can control. Instead of worrying about the past or the future, we should appreciate things just as they are in the moment, in the now. Stoics also recommend reflecting on the impermanence of the things around us.
+
+---
+
 [Book List](Book%20List.md)
