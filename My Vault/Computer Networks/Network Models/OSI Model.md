@@ -38,13 +38,10 @@ Responsible for transporting bits over the network
 
 Translates messages from network layer into bits for physical layer  
 Responsible for checking if the data received from the physical layer is corrupted  
-Packets are send to the correct device on this layer using [MAC (Media Access Control) Address](../Layer-wise%20Concepts/Data%20Link%20(Network%20Interface)%20Concepts/MAC%20(Media%20Access%20Control)%20Address.md)
+Packets are send to the correct device on this layer using [MAC (Media Access Control) Address](../Layer-wise%20Concepts/Data%20Link%20Layer%20Concepts/MAC%20(Media%20Access%20Control)%20Address.md)
 Responsible for Hop to Hop Communication (Device to Device)  
 The data at this layer is called a Frame  
-[Data Link (Network Interface) Concepts](../Layer-wise%20Concepts/Data%20Link%20(Network%20Interface)%20Concepts/Data%20Link%20(Network%20Interface)%20Concepts.md)
-
- > [!IMPORTANT]
- > To understand how the IP to MAC Address Mapping takes place it is paramount to understand [ARP (Address Resolution Protocol)](../Layer-wise%20Concepts/Data%20Link%20(Network%20Interface)%20Concepts/ARP%20(Address%20Resolution%20Protocol).md)
+[Data Link Layer Concepts](../Layer-wise%20Concepts/Data%20Link%20Layer%20Concepts/Data%20Link%20Layer%20Concepts.md)
 
 ### Layer 3: Network Layer
 
@@ -52,7 +49,7 @@ Responsible for End to End Communication
 Transfers (routes) data using logical addresses  
 Uses IP Addresses and routing algorithms to transfer packets over the network  
 The source and destination IP Addresses are added into the packet in this layer  
-[Network (Internet Layer) Concepts](../Layer-wise%20Concepts/Network%20(Internet%20Layer)%20Concepts/Network%20(Internet%20Layer)%20Concepts.md)
+[Network (Internet) Layer Concepts](../Layer-wise%20Concepts/Network%20(Internet)%20Layer%20Concepts/Network%20(Internet)%20Layer%20Concepts.md)
 
 > [!IMPORTANT]  
 > Routing is sometimes also called **Switching**, this switching is a Layer 3 process  which is different from switches which is a Layer 2 device
@@ -64,12 +61,12 @@ Responsible for Service to Service Communication
 [Ports](../Layer-wise%20Concepts/Transport%20Layer%20Concepts/Network%20Ports.md) are used on this layer to send data to the right application  
 Segments (Sender) and reassembles (Receiver) data received from the higher layers  
 Segmented data in TCP is called Segments while data in UDP is referred as Datagram  
-Connection oriented ([TCP](../Layer-wise%20Concepts/Transport%20Layer%20Concepts/TCP%20(Transmission%20Control%20Protocol).md)) : Reliability: [TCP Three-Way Handshake](../../Information%20Security/Tools%20&%20Services/Nmap/TCP%20Three-Way%20Handshake.md)  
+Connection oriented ([TCP](../Layer-wise%20Concepts/Transport%20Layer%20Concepts/TCP%20(Transmission%20Control%20Protocol).md)) : Reliability: [TCP Three-Way Handshake](../Layer-wise%20Concepts/Transport%20Layer%20Concepts/TCP%20Three-Way%20Handshake.md)  
 Connectionless ([UDP](../Layer-wise%20Concepts/Transport%20Layer%20Concepts/UDP%20(User%20Datagram%20Protocol).md)) : Efficiency  
 [Transport Layer Concepts](../Layer-wise%20Concepts/Transport%20Layer%20Concepts/Transport%20Layer%20Concepts.md)
 
 > [!IMPORTANT]
-> Data in Later 4 is called **Segments** when TCP protocol is used and its called **Datagram** when the UDP protocol is used
+> Data in Layer 4 is called **Segments** when TCP is used and its called **Datagram** when UDP is used
 
 ### Layer 5: Session Layer
 

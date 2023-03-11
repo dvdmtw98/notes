@@ -15,7 +15,7 @@ Routing Tables can be populated via three approaches:
 
 * **Directly Connected**: Routes for networks which are attached (WAN and LAN interface)
 * **Static Routes**: Routers that are manually entered by a Administrator
-* **Dynamic Routes**: Routes that are automatically learned from other Routes. [Dynamic Routing Protocols](../Layer-wise%20Concepts/Network%20(Internet%20Layer)%20Concepts/Dynamic%20Routing%20Protocols.md) are used to share these Routes
+* **Dynamic Routes**: Routes that are automatically learned from other Routes. [Dynamic Routing Protocols](../Layer-wise%20Concepts/Network%20(Internet)%20Layer%20Concepts/Dynamic%20Routing%20Protocols.md) are used to share these Routes
 
 ![Routing Tables](../images/routering-tables.png)
 

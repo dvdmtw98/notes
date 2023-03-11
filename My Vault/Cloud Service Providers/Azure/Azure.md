@@ -37,6 +37,7 @@ tags: [azure, cloud, index]
 * [Log Analytics Workspace](Azure%20Analytics%20Services/Log%20Analytics%20Workspace.md)
 * [Azure Monitor](Azure%20Metrics%20&%20Logs/Azure%20Monitor.md)
 	* [Azure Alerts](Azure%20Metrics%20&%20Logs/Azure%20Alerts.md)
+	* [Application Insights](Azure%20Metrics%20&%20Logs/Application%20Insights.md)
 * [Health Checks](Azure%20Metrics%20&%20Logs/Health%20Checks.md)
 * [Azure Advisor](Azure%20Other%20Services/Azure%20Advisor.md)
 

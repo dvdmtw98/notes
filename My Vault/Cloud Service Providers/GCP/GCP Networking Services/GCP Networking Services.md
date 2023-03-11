@@ -41,7 +41,7 @@ Securely extend your on-premises network to Google's network through an IPsec VP
 
 ### Cloud Router
 
-Dynamically exchange routes between [GCP Virtual Private Cloud (VPC)](GCP%20Virtual%20Private%20Cloud%20%28VPC%29.md) network and your on-premises networks using [BGP (Border Gateway Protocol)](../../../Computer%20Networks/Layer-wise%20Concepts/Network%20(Internet%20Layer)%20Concepts/Routing%20Protocols/BGP%20(Border%20Gateway%20Protocol).md)
+Dynamically exchange routes between [GCP Virtual Private Cloud (VPC)](GCP%20Virtual%20Private%20Cloud%20%28VPC%29.md) network and your on-premises networks using [BGP (Border Gateway Protocol)](../../../Computer%20Networks/Layer-wise%20Concepts/Network%20(Internet)%20Layer%20Concepts/Routing%20Protocols/BGP%20(Border%20Gateway%20Protocol).md)
 
 ---
 

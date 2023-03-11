@@ -6,13 +6,13 @@ tags: [networking, data-link, index]
 ### Table of Content
 
 * **Devices**
-	- [NIC (Network Interface Card)](../../Network%20Components/NIC%20(Network%20Interface%20Card).md)
-	- [Bridge](../../Network%20Components/Bridge.md)
-	* [Switch](../../Network%20Components/Switch.md)
+	- [NIC (Network Interface Card)](../../Network%20Devices/NIC%20(Network%20Interface%20Card).md)
+	- [Bridge](../../Network%20Devices/Bridge.md)
+	* [Switch](../../Network%20Devices/Switch.md)
 		* [Switch MAC Address Learning](Switch%20MAC%20Address%20Learning.md)
 		* [Virtual LANs (VLANs)](Virtual%20LANs%20%28VLANs%29.md)
 * [MAC (Media Access Control) Address](MAC%20%28Media%20Access%20Control%29%20Address.md)
-* [ARP (Address Resolution Protocol)](ARP%20%28Address%20Resolution%20Protocol%29.md)
+* [ARP (Address Resolution Protocol)](ARP%20(Address%20Resolution%20Protocol).md)
 
 ---
 
@@ -40,5 +40,5 @@ No control on when the devices are allowed to communicate
 
 ### Devices & Protocols
 
-NICs/ Bridges/ Switches  
+NIC/ Bridges/ Switches  
 MAC Address  

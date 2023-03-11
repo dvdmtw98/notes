@@ -7,5 +7,5 @@ tags: [networking, security, index]
 
 * [Intranet, Extranet and Internet](Intranet,%20Extranet%20and%20Internet.md)
 * [DMZ (Demilitarized Zone)](DMZ%20%28Demilitarized%20Zone%29.md)
-* [Types of Firewall](../Network%20Components/Firewall/Types%20of%20Firewall.md)
+* [Types of Firewall](../Network%20Devices/Firewall/Types%20of%20Firewall.md)
 * [IDS vs. IPS](IDS%20vs.%20IPS.md)

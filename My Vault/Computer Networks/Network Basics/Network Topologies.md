@@ -32,7 +32,7 @@ Modern ring networks only use FDDI networks
 
 All devices in the network connect to a single point  
 This is the most popular physical LAN topology  
-If the central device ([Switch](../Network%20Components/Switch.md)) fails the entire network fails  
+If the central device ([Switch](../Network%20Devices/Switch.md)) fails the entire network fails  
 
 #### Hub and Spoke Topology
 

@@ -14,9 +14,10 @@ tags: [networking, network, index]
 * [APIPA (Automatic Private IP Addressing)](APIPA%20%28Automatic%20Private%20IP%20Addressing%29.md)
 * [Subnetting](Subnetting.md)
 * [ICMP (Internet Control Message Protocol)](ICMP%20%28Internet%20Control%20Message%20Protocol%29.md)
-* [Router](../../Network%20Components/Router.md)
+* [Router](../../Network%20Devices/Router.md)
 	* [Dynamic Routing Protocols](Dynamic%20Routing%20Protocols.md)
 	* [NAT (Network Address Translation)](NAT%20%28Network%20Address%20Translation%29.md)
+* [Tunneling Protocols](Tunneling%20Protocols.md)
 
 ---
 
@@ -54,7 +55,7 @@ All packets sent out are numbered so at target even if they are received out of 
 ### Devices & Protocols
 
 Router/ Multi Layer Switches (Has switching and routing capabilities)  
-IPv4/ IPv6/ ICMP
+IP/ ICMP/ ARP
 
 ### Time to Live (TTL)
 

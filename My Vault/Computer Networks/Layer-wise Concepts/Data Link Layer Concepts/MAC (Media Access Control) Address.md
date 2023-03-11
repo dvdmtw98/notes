@@ -5,7 +5,7 @@ tags: [networking, mac, data-link]
 
 It is the **Physical Addressing System** for a device operating on the Logical Level  
 These addresses are tied to the NIC of the device and they cannot be changed  
-No two [NIC (Network Interface Card)](../../Network%20Components/NIC%20(Network%20Interface%20Card).md) anywhere in the world will have the same MAC address
+No two [NIC (Network Interface Card)](../../Network%20Devices/NIC%20(Network%20Interface%20Card).md) anywhere in the world will have the same MAC address
 
 MAC Addresses are always made of 48 bits  
 They are represented using 12 hexadecimal characters  
@@ -25,7 +25,7 @@ MAC Address is used for communication between devices (True even if the devices 
 MAC Address: Used to Identify a device (Who)  
 IP Address: Used to locate a device (Where)
 
-[ARP (Address Resolution Protocol)](ARP%20%28Address%20Resolution%20Protocol%29.md) is used by devices to find the MAC Address of other devices
+[ARP (Address Resolution Protocol)](ARP%20(Address%20Resolution%20Protocol).md) is used by devices to find the MAC Address of other devices
 
 Command: `getmac /FO list /V`
 

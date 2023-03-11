@@ -14,4 +14,4 @@ Client accepts the "DHCP Offer" by replying with a "DHCP Request" message
 DHCP Server assigns client the IP Address and sends a "DHCP Ack" message finalizing the IP Address Lease
 
  > [!INFO]
- > If no DHCP Server is found a windows client will use [APIPA (Automatic Private IP Addressing)](../Layer-wise%20Concepts/Network%20(Internet%20Layer)%20Concepts/APIPA%20(Automatic%20Private%20IP%20Addressing).md) to configuration the device
+ > If no DHCP Server is found a windows client will use [APIPA (Automatic Private IP Addressing)](../Layer-wise%20Concepts/Network%20(Internet)%20Layer%20Concepts/APIPA%20(Automatic%20Private%20IP%20Addressing).md) to configuration the device

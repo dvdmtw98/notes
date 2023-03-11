@@ -6,16 +6,16 @@ tags: [networking, layer-1, index]
 ### Table of Content
 
 - [Network Topologies](../../Network%20Basics/Network%20Topologies.md)
-- **Types of Cables**
-	- [Twisted Pair](Cable%20Types/Twisted%20Pair.md)
-	- [Fiber Optic](Cable%20Types/Fiber%20Optic.md)
-- **Devices**
-	- [[Hub]]
-	- [Repeater](../../Network%20Components/Repeater.md)
-	- [WAP (Wireless Access Point)](../../Network%20Components/WAP%20(Wireless%20Access%20Point).md)
-	- [Modem](../../Network%20Components/Modem.md)
 - [Ethernet](Ethernet.md)
-	- [CSMA-CD (Carrier Sense Multiple Access - Collision Detection)](CSMA-CD%20%28Carrier%20Sense%20Multiple%20Access%20-%20Collision%20Detection%29.md)
+	- [Copper Cable](Copper%20Cable.md)
+	- [Fiber Optic Cable](Fiber%20Optic%20Cable.md)
+	- [Cable Category](Cable%20Category.md)
+	- [CSMA-CD](CSMA-CD.md)
+- **Devices**
+	- [Hub](../../Network%20Devices/Hub.md)
+	- [Repeater](../../Network%20Devices/Repeater.md)
+	- [WAP (Wireless Access Point)](../../Network%20Devices/WAP%20(Wireless%20Access%20Point).md)
+	- [Modem](../../Network%20Devices/Modem.md)
 
 > [!NOTE]
 > In the OSI Model and 5 Layer TCP/IP Model, Ethernet Protocol belongs in both the Physical Layer (Layer 1) & Data Link Layer (Layer 2)
@@ -31,6 +31,9 @@ Start and stop bits are used to indicate the start and end of the transmission t
 Uses a reference clock to coordinate the transmission between the sender and receiver
 
 ### Bandwidth Utilization
+
+Bandwidth: Measures the theoretical data transfer capacity  
+Throughput: Measures the actual data transfer capacity
 
 **Broadband**  
 Divides bandwidth into separate channels  
@@ -61,4 +64,16 @@ Divides the medium into channels based on frequencies and each session is transm
 Cables/ Wi-Fi/ Bluetooth/ NFC/ Radio waves/ Ethernet  
 Hub/ Access Points/ Media Converters/ Repeaters  
 
----
+### Transceivers
+
+Converts media from one format to another  
+**GBIC**: Hot pluggable Ethernet transceiver than can take copper or fiber as its connector
+
+| Transceiver                             | Speed           |
+|:--------------------------------------- |:--------------- |
+| SFP (Small form-factor pluggable)       | Up to 4.2 Gbps  |
+| SFP+                                    | Up to16 Gbps    |
+| QSFP (Quad Small form-factor pluggable) | Up to 40 Gbps   |
+| QSFP+                                   | Up to 41.2 Gbps |
+| QSFP28                                  | Up to 100 Gbps  |
+| QSFP56                                  | Up to 200 Gbps  | 

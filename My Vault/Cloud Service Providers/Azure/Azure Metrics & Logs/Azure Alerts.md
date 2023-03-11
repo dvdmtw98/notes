@@ -11,6 +11,8 @@ Proactively notify the user about any issue
 
 ![Azure Triggering Flow|550](../images/alert-triggering-flow.png)
 
+Administrative Category included information related to the creation, updating and deletion of resource
+
 ### Alert Signal Sources
 
 Subscription Activity Log: Health and Auto scale Events. Has 90 days retention for information  

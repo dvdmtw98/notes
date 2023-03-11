@@ -18,14 +18,6 @@ It can show Health, Performance, Capacity related insights
 
 [Azure Monitor overview - Azure Monitor | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)
 
-### Application Insights
-
-Application Insights is an telemetries SDK which can be installed in our code  
-It runs server side and optionally can setup to run on the client  
-Application Insights are tracked using an an unique GUID (Instrumentation Key)  
-
-[Azure Application Insights log-based metrics - Azure Monitor | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/app-insights-metrics)
-
 ### App Center
 
 App Center is an SDK similar to Application Insights that is used for Mobile Applications  

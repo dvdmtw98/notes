@@ -5,8 +5,8 @@ tags: [networking, security, device]
 
 We define the target IP that all request need to be forwarded on the client device  
 Proxies are protocol specific (i.e. HTTP proxy will only route HTTP traffic to proxy server)  
-Works at Layer 7 & Layer 4 ([Load Balancer](../Network%20Components/Load%20Balancer.md)s)  
-[VPN Server](../Network%20Components/VPN%20Server.md) similar to Proxies hide the IP Address but they additionally encrypt the traffic
+Works at Layer 7 & Layer 4 ([Load Balancer](../Network%20Devices/Load%20Balancer.md)s)  
+[VPN Server](../Network%20Devices/VPN%20Server.md) similar to Proxies hide the IP Address but they additionally encrypt the traffic
 
 ### Forward Proxy
 
@@ -16,7 +16,7 @@ They need configuration to be made in application to work
 **Anonymity** : Destination is not aware of the client  
 **Logging** : Log requests that are originating from the source network  
 **Block Websites** : Restrict and filter unwanted websites (gambling, social media, etc.)  
-**Content Checking** : Verifies the content is valid and doesn't have malicious content (Similar to application [Firewall](../Network%20Components/Firewall/Firewall.md))
+**Content Checking** : Verifies the content is valid and doesn't have malicious content (Similar to application [Firewall](../Network%20Devices/Firewall/Firewall.md))
 
 ---
 

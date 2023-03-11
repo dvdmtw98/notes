@@ -10,4 +10,6 @@ It is also called Multi-Port [Repeater](Repeater.md) as traffic that is received
 Because of this devices that are connected to an hub can see each others packets  
 Hubs can lead to increased network errors (Collision Domain)
 
-Hubs make use of Half Duplex Communication
+Hubs make use of Half Duplex Communication i.e. only one device can communicate at a time
+
+---

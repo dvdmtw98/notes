@@ -13,11 +13,11 @@ Resources are uniquely identified using a URL/ URI
 
 ### HTTPS Connection Setup
 
-![HTTP Connection Setup|550](../images/https-connection-setup.png)
+![HTTP Connection Setup|550](../../images/https-connection-setup.png)
 
 **Step 1**:  
-[TCP (Transmission Control Protocol)](../../Computer%20Networks/Layer-wise%20Concepts/Transport%20Layer%20Concepts/TCP%20(Transmission%20Control%20Protocol).md)  
-[TCP Three-Way Handshake](../Tools%20&%20Services/Nmap/TCP%20Three-Way%20Handshake.md)
+[TCP (Transmission Control Protocol)](../Transport%20Layer%20Concepts/TCP%20(Transmission%20Control%20Protocol).md)  
+[TCP Three-Way Handshake](../Transport%20Layer%20Concepts/TCP%20Three-Way%20Handshake.md)
 
 **Step 2**:  
 Client Hello: TLS Version, Cipher Suite Supported, etc.  
@@ -58,8 +58,8 @@ Each stream is independent of each other and can be received in any order
 Allows to request multiple resources at the same time
 
 <u>HTTP 3.0</u>  
-New protocol that uses [QUIC](../../Computer%20Networks/Layer-wise%20Concepts/Transport%20Layer%20Concepts/QUIC%20(Quick%20UDP%20Internet%20Connections).md) instead of TCP  
-QUIC is based on [UDP](../../Computer%20Networks/Layer-wise%20Concepts/Transport%20Layer%20Concepts/UDP%20(User%20Datagram%20Protocol).md) protocol  
+New protocol that uses [QUIC](../Transport%20Layer%20Concepts/QUIC%20(Quick%20UDP%20Internet%20Connections).md) instead of TCP  
+QUIC is based on [UDP](../Transport%20Layer%20Concepts/UDP%20(User%20Datagram%20Protocol).md) protocol  
 All quick streams share the same connection and hence multiple handshakes are not required  
 QUIC has an concept of Connection ID which allows uses to switch networks quickly and reliably
 

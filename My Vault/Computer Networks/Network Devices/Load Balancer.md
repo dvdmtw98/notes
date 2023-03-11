@@ -14,7 +14,7 @@ Load Balancer is just a special Reverse Proxy (Extra metadata to select correct 
 At layer 4 the IP Addresses and Ports of the Packets are visible  
 Using the configured algorithm (Round Robin, Least Connections, etc.) the load balancer decides which server the request should to forwarded
 
-The load Balancer using [NAT (Network Address Translation)](../Layer-wise%20Concepts/Network%20(Internet%20Layer)%20Concepts/NAT%20(Network%20Address%20Translation).md) will changes the source and target IP Address of the packet received  
+The load Balancer using [NAT (Network Address Translation)](../Layer-wise%20Concepts/Network%20(Internet)%20Layer%20Concepts/NAT%20(Network%20Address%20Translation).md) will changes the source and target IP Address of the packet received  
 Source Address is changes to the address of Load Balancer and the target address is changed to the IP Address of the server that will process the request
 
 Secure (As can't look at packets data)  
