@@ -4,7 +4,7 @@ tags: [networking, cable]
 ---
 
 Uses LED or laser to transmit data in the form of light through a thin glass fiber  
-Mainly used for [Wide Area Network (WAN)](../../../WAN%20(Wide%20Area%20Network)/Wide%20Area%20Network%20(WAN).md)  
+Mainly used for [Wide Area Network (WAN)](../../WAN%20(Wide%20Area%20Network)/Wide%20Area%20Network%20(WAN).md)  
 High Bandwidth and Long Distances, Immune to EMI, Doesn't Emanate Signals
 
 #### Cable Types
