@@ -3,7 +3,7 @@ title: Switch
 tags: [networking, device]
 ---
 
-It is a smarter (newer version) of [Hub](Hub.md)s  
+It is a smarter (newer version) of [Hub](../Hub.md)s  
 It is also called a Multiport Bridge
 
 It can memorize [MAC (Media Access Control) Address](../../Layer-wise%20Concepts/Data%20Link%20Layer%20Concepts/MAC%20(Media%20Access%20Control)%20Address.md) of all the devices connected using **MAC Address Table** (Mapping of Switch Port to MAC Address)  
