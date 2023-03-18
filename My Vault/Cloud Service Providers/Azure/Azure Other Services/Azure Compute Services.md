@@ -12,8 +12,6 @@ Since each virtual machine is independent of each other it has its own FS, ports
 
 ![VM and Containers|600](../images/virtual-machines-and-containers.png)
 
----
-
 ### Azure Virtual Machine
 
 Provides pre-prepared images from Azure Marketplace  
@@ -81,7 +79,7 @@ Can be used to deploy almost anything
 Min Nodes : 3  
 Max Nodes : 100
 
-### App Services
+### App Service
 
 Used to deploy Web Applications  
 We need to create an Package which will be then deployed by App Service on multiple nodes which will be accessible to the users from the web

@@ -5,14 +5,17 @@ tags: [networking, data-link, index]
 
 ### Table of Content
 
-* **Devices**
-	- [NIC (Network Interface Card)](../../Network%20Devices/NIC%20(Network%20Interface%20Card).md)
-	- [Bridge](../../Network%20Devices/Bridge.md)
-	* [Switch](../../Network%20Devices/Switch.md)
-		* [Switch MAC Address Learning](Switch%20MAC%20Address%20Learning.md)
-		* [Virtual LANs (VLANs)](Virtual%20LANs%20%28VLANs%29.md)
+* [Ethernet](Ethernet.md)
+	* [CSMA-CD](CSMA-CD.md)
 * [MAC (Media Access Control) Address](MAC%20%28Media%20Access%20Control%29%20Address.md)
 * [ARP (Address Resolution Protocol)](ARP%20(Address%20Resolution%20Protocol).md)
+* **Devices**
+	* [Switch](../../Network%20Devices/Switch/Switch.md)
+		* [Switch MAC Address Learning](../../Network%20Devices/Switch/Switch%20MAC%20Address%20Learning.md)
+		* [Types of Switch](../../Network%20Devices/Switch/Types%20of%20Switch.md)
+		* [Virtual LANs (VLANs)](Virtual%20LANs%20%28VLANs%29.md)
+	- [NIC (Network Interface Card)](../../Network%20Devices/NIC%20(Network%20Interface%20Card).md)
+	- [Bridge](../../Network%20Devices/Bridge.md)
 
 ---
 

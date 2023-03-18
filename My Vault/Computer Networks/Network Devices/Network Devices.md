@@ -9,16 +9,17 @@ tags: [networking, device, index]
 ### Network Devices
 
 * **Layer 1**
+	* [Hub](Hub.md)
 	* [WAP (Wireless Access Point)](WAP%20%28Wireless%20Access%20Point%29.md)
 	* [Repeater](Repeater.md)
-	* [Hub](Hub.md)
 	* [Modem](Modem.md)
 * **Layer 2**
-	* [NIC (Network Interface Card)](NIC%20%28Network%20Interface%20Card%29.md)
 	* [Bridge](Bridge.md)
-	* [Switch](Switch.md)
+	* [Switch](Switch/Switch.md)
+	* [NIC (Network Interface Card)](NIC%20%28Network%20Interface%20Card%29.md)
 * **Layer 3**
 	* [Router](Router.md)
+	* [Layer 3 Switch](Layer%203%20Switch.md)
 * **Layer 4**
 	* [Firewall](Firewall/Firewall.md)
 	* [Load Balancer](Load%20Balancer.md)

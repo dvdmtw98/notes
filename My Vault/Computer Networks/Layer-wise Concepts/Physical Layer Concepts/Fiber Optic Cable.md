@@ -12,7 +12,7 @@ High Bandwidth and Long Distances, Immune to EMI, Doesn't Emanate Signals
 **Single-Mode Fiber (SMF)**  
 Has a small core size (8.3-10µ)  
 Can only transmit single signal at a time  
-Can be used for very longer distances (25 miles)  
+Can be used for very longer distances (40 kms)  
 More expense compared to MMF  
 SMFs generally have yellow colored sheath
 

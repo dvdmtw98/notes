@@ -3,8 +3,8 @@ title: Azure Monitor
 tags: [azure, cloud, monitor, alert, metric]
 ---
 
-It is a powerful reporting and analytics tool  
-It uses Monitor Logs and Metrics Store as the backbone for providing resource insights
+It is a comprehensive monitoring solution for collection and analyzing telemetry data  
+It uses Logs and Metrics collected from the resources as the backbone for providing insights  
 
 For some services like SQL server we need to manually enable auditing and monitoring before Azure Monitor can collect data  
 For VM we need to install Log Analytics Agent for collecting its data
@@ -13,8 +13,7 @@ For VM we need to install Log Analytics Agent for collecting its data
 
 ![Azure Monitor|580](../images/azure-monitor.png)
 
-Azure Monitor Insights can be used to view KPIs for resources  
-It can show Health, Performance, Capacity related insights
+<u>Azure Monitor Insights</u> can be used to view KPIs of resources  
 
 [Azure Monitor overview - Azure Monitor | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-monitor/overview)
 

@@ -14,7 +14,7 @@ Bluetooth and even USB is considered a PAN
 Network in a small area (Small 1 floor office)  
 Covers around 100 meters or 300 feet  
 If CAT 5 cables are used each segment in the network cannot exceed 100 feet  
-The devices in the network can be connected using [Ethernet](../Layer-wise%20Concepts/Physical%20Layer%20Concepts/Ethernet.md) (IEEE 802.3) or Wi-Fi (IEEE 802.11)
+The devices in the network can be connected using [Ethernet](../Layer-wise%20Concepts/Data%20Link%20Layer%20Concepts/Ethernet.md) (IEEE 802.3) or Wi-Fi (IEEE 802.11)
 
 ### Campus Area Network (CAN)
 Connects LANs that are building centric across a university, industrial part of business park  

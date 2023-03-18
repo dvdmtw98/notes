@@ -14,8 +14,7 @@ The logs for resources are not stored anywhere by default, needs to be manually 
 
 ### Diagnostics Settings
 
-The Diagnostic Setting blade under service is used to specify the target for data  
-This blade also shows the types of logs and metrics that can be captured for a resource   
+This blade shows the types of logs and metrics that can be captured for a resource   
 Targets: [Azure Storage Account](../Azure%20Storage%20Account/Azure%20Storage%20Account.md), Event Hub, [Log Analytics Workspace](../Azure%20Analytics%20Services/Log%20Analytics%20Workspace.md)
 
 Storage Account: Cheap long term storage  
@@ -23,7 +22,7 @@ Event Hub: Send to External Solutions
 Log Analytics: Storage & Analytical Queries
 
 Diagnostic Settings can be enabled using Azure CLI, PowerShell, ARM Templates, REST API and [Azure Policy](../Azure%20Security%20Services/Azure%20Policy.md)  
-Using Policies the setting can be enabled by resource types
+Using Policies the setting can be enabled for all resource of a type
 
 ---
 

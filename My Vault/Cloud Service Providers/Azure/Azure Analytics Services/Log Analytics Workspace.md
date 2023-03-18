@@ -3,13 +3,10 @@ title: Log Analytics Workspace
 tags: [azure, cloud, analytics]
 ---
 
-An single subscription can have multiple Log Analytics Workspaces  
 Each workspace belong to a specific region  
 The pricing is based on the data ingested, retention period and operations performed  
 The data is stored in tables based on the type of data  
-KQL can be used to query the data
-
----
+KQL is used to query the data
 
 ### Access Control
 **Require Workspace Permission**  

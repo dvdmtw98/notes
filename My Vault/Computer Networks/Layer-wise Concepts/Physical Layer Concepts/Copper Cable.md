@@ -54,7 +54,7 @@ CAT short for Category
 Higher number means more twists and supports faster speeds  
 More twists also provides better protection from EMI  
 e.g. CAT 3, CAT 5, CAT 5e, CAT 6, CAT 6a, CAT 7, CAT 8  
-[Cable Category](Cable%20Category.md)
+[Ethernet Standard](Ethernet%20Standard.md)
 
 #### Cable Types
 

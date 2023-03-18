@@ -6,11 +6,11 @@ tags: [networking, layer-1, index]
 ### Table of Content
 
 - [Network Topologies](../../Network%20Basics/Network%20Topologies.md)
-- [Ethernet](Ethernet.md)
+	- [Cable Distribution](Cable%20Distribution.md)
+- **Types of Cables**
 	- [Copper Cable](Copper%20Cable.md)
 	- [Fiber Optic Cable](Fiber%20Optic%20Cable.md)
-	- [Cable Category](Cable%20Category.md)
-	- [CSMA-CD](CSMA-CD.md)
+- [Ethernet Standard](Ethernet%20Standard.md)
 - **Devices**
 	- [Hub](../../Network%20Devices/Hub.md)
 	- [Repeater](../../Network%20Devices/Repeater.md)
@@ -18,7 +18,8 @@ tags: [networking, layer-1, index]
 	- [Modem](../../Network%20Devices/Modem.md)
 
 > [!NOTE]
-> In the OSI Model and 5 Layer TCP/IP Model, Ethernet Protocol belongs in both the Physical Layer (Layer 1) & Data Link Layer (Layer 2)
+> - In the OSI Model and 5 Layer TCP/IP Model, Ethernet Protocol belongs in both the Physical Layer (Layer 1) & Data Link Layer (Layer 2)
+> - Layer 1 Ethernet contains the Physical Aspects (Cables) and Layer 2 Ethernet deals with the Logical Aspects (Protocols)
 
 ### Communication Synchronization
 

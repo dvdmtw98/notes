@@ -4,9 +4,9 @@ tags: [networking, protocol, physical]
 ---
 
 It is a network protocol that controls how data is transmitted over LAN (IEEE 802.3)  
-TCP/IP defines the Logical Protocols. Ethernet defines the Physical Protocols  
-It use [CSMA/CD](CSMA-CD.md) to detect if medium is empty  
-Deals with the physical aspects like speed, cable type, connectors, etc.
+Ethernet uses an <u>contention-based</u> approach to determine which device will use the network  
+While contention-based network can lead to collisions, they have lower overhead compared to deterministic networks where an electronic token would need to be passed around for devices to use the network  
+It use [CSMA/CD](../Data%20Link%20Layer%20Concepts/CSMA-CD.md) to detect if medium is empty  
 
 ### Ethernet Header
 
