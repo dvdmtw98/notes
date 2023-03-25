@@ -16,5 +16,6 @@ The `.` at the end of the command is to use say make the image using the files i
  > `.dockerignore` file can be created to skip adding on certain files into the container when using the COPY option
 
 **<u>Options</u>**:  
--t : Name to be assigned to the image  
--f : Dockerfile name
+`-t`: Name to be assigned to the image  
+`-f`: Dockerfile name  
+`--progress plan`: View output of commands executed inside container

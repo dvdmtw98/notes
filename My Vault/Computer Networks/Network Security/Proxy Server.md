@@ -16,7 +16,7 @@ They need configuration to be made in application to work
 **Anonymity** : Destination is not aware of the client  
 **Logging** : Log requests that are originating from the source network  
 **Block Websites** : Restrict and filter unwanted websites (gambling, social media, etc.)  
-**Content Checking** : Verifies the content is valid and doesn't have malicious content (Similar to application [Firewall](../Network%20Devices/Firewall/Firewall.md))
+**Content Checking** : Verifies the content is valid and doesn't have malicious content (Similar to application [Firewall](../Network%20Devices/Firewall.md))
 
 ---
 

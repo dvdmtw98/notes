@@ -13,7 +13,6 @@ tags: [azure, cloud, security, index]
 	* [Azure Blueprints](Azure%20Blueprints.md)
 * [Azure Resource Locks](Azure%20Resource%20Locks.md)
 * [Data Encryption & Auditing](Data%20Encryption%20&%20Auditing.md)
-* [Data Retention](Data%20Retention.md)
 * [Azure Security Center](Azure%20Security%20Center.md)
 
 ---

@@ -57,6 +57,4 @@ Permit or deny traffic based on the MAC Address of devices
 
 Forward packets based on priority markings
 
-### Spanning Tree Protocol (STP)
-
-Part of <u>IEEE 802.1d</u> standard
+---

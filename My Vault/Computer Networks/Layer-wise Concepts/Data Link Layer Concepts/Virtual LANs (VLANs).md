@@ -7,15 +7,27 @@ Break large physical LAN into smaller logical LANs
 This feature can be configured on managed switches  
 Assigns specific switch interfaces (ports) on the switch to specific VLANs (Port 1, 2, 3 - VLAN 100 and Port 4, 5, 6 - VLAN 200, etc.)
 
-VLANs reduce broadcast domain (Packet broadcast that occurs the 1st time MAC is added into switch table)  
-Allows to Segments network by role (HR, Sales). Increases security. Devices cannot communicate with outer VLANs
+VLANs reduce broadcast domain  
+Allows to Segments network by role (HR, Sales). Increases security  
+Devices on one VLAN cannot communicate with devices on another VLAN
 
-VLANs can span multiple physical switches. And these VLANs on different switches can be joined together using Ethernet.  
-Functionally this is an viable solution but it does not scale well when there are multiple VLANs (A lot of ports will be used up just to link the switches together)
+VLANs can span multiple physical switches  
+These VLANs on different switches can be joined together using Ethernet  
 
-![VLAN Trunking|420](../../images/vlan-trunking.png)
+This solution but it does not scale well when there are multiple VLANs  
+A lot of ports will be used up just to link the switches together
 
-An alternative is to used **<u>Trunking</u>** (802.1Q) which allows a single interface on the switch to act as a bridge for all the VLANs (Trunk Link)  
-When a packet is sent over the Trunk in the Ethernet Packet an extra header called the VLAN header which does info on which VLAN the packet should go
+![VLAN Trunking|400](../../images/vlan-trunking.png)
 
-ISL (Inter-Switch Link) an older standard that was used to trunk information between switches
+### VLAN Trunking
+
+Part of the <u>802.1q</u> standard  
+Allows a single interface (port) on the switch to act as a bridge for all the VLANs (Trunk Link)  
+
+When packet is sent over the Trunk an additional header called VLAN header is added to each packet  
+This header has two parts: Tag Protocol Identifier (TPI) & Tag Control Identifier (TCI)  
+The details in this header allows the packet to find the correct VLAN
+
+The VLAN that is left untagged becomes the default VLAN also called VLAN 0
+
+---

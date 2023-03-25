@@ -12,7 +12,7 @@ Azure DevOps Pipelines provide YAML based and graphical (legacy) approach for bu
 
 ### Agents
 
-Self-Hosted Agents are ideal when we required a specific custom environment for our tools and/ or have some compliance requirement  
+Self-Hosted Agents are ideal when we required a custom environment for our tools and/ or have some compliance requirement  
 
 **Agent Pool**: Pool of Agents that are scoped to a DevOps Organization
 

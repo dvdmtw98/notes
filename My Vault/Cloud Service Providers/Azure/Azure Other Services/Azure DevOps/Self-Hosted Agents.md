@@ -3,7 +3,7 @@ title: Self-Hosted Agents
 tags: [devops, cicd, orchestration]
 ---
 
-For using a machine that we own as a Agent we need to install the agent software on the machine
+To use a machine that we own as a Agent we need to install the agent software on the machine
 
 - Self-Hosted Agents allow us to create custom environments with dependencies that are tailored to our needs  
 - It decreases the build latency. Since we have the agent configured in advanced we don't have to wait for a cloud agent with the configuration we require to become available

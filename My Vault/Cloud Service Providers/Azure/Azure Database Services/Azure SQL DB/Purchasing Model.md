@@ -19,6 +19,4 @@ Offers greater flexibility over the DTU model
  > * Managed Instance does not support [Hyperscale](Hyperscale%20on%20Azure.md)
  > * SQL Database also supports Serverless option which is not supported by the other DBs
  
----
-
 [Azure Database Services](../Azure%20Database%20Services.md)

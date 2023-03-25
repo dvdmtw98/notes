@@ -10,7 +10,7 @@ Granular file access control
 Allows usage monitoring  
 Allows to lock file exclusively (Only 1 person can work on a file)
 
-e.g. SVN, PVCS, Source Safe, Team Foundation Server
+e.g. SVN, PVCS, Source Safe, Team Foundation Server (TFS)
 
 ### Distributed Source Control
 

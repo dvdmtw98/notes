@@ -21,10 +21,10 @@ tags: [networking, device, index]
 	* [Router](Router.md)
 	* [Layer 3 Switch](Layer%203%20Switch.md)
 * **Layer 4**
-	* [Firewall](Firewall/Firewall.md)
+	* [Firewall](Firewall.md)
 	* [Load Balancer](Load%20Balancer.md)
 * **Layer 7**
-	* [DHCP (Dynamic Host Configuration Protocol) Server](DHCP%20%28Dynamic%20Host%20Configuration%20Protocol%29%20Server.md)
+	* [DHCP Server](DHCP%20Server.md)
 	* [DNS Server](DNS%20Server/DNS%20Server.md)
 * [Proxy Server](../Network%20Security/Proxy%20Server.md)
 * [VPN Server](VPN%20Server.md)

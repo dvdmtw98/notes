@@ -6,7 +6,7 @@ tags: [software, app, deployment]
 ### Blue Green Deployment
 
 Blue and Green represent two production ready environments  
-A a flip in the network interface decides the instance that will receive the request    
+A flip in the network interface decides the instance that will receive the request    
 
 The network flip makes the Staging environment the new production environment, and what was production becomes staging  
 With this type of deployment we get the opportunity to **rollback** to the previous version if any issue arises  
@@ -28,9 +28,9 @@ A more sophisticated version of rolling deployment
 Different users will receive different versions of the application  
 
 > [!INFO] What is a Canary ?
-> - The names from a old mining particle  
-> - Canary (type of bird) are more sensitive to toxic gases in the air due to which they acted as a  early warning detector  
-> - If a canary fell over in its cage, it was clear that there was a danger and everyone needed to be cleared  
+> - The name comes from a old mining particle  
+> - Canary (type of bird) are more sensitive to toxic gases in the air, they acted as a danger detector  
+> - If a canary fell over in its cage, it was clear that there was danger and everyone needed to be cleared  
 
 In the software world a small subset of the end users act like the canary
 

@@ -5,13 +5,11 @@ tags: [algorithm, index]
 
 ### Algorithms
 
-1. [Kadane's Algorithm](Kadanes%20Algorithm.md)
-2. [Binary Search](Binary%20Search.md)
-3. [Floyd's Algorithm](Floyds%20Algorithm.md)
-4. [Union Find](Union%20Find.md)
+- [Kadane's Algorithm](Kadanes%20Algorithm.md)
+- [Binary Search](Binary%20Search.md)
+- [Floyd's Algorithm](Floyds%20Algorithm.md)
+- [Union Find](Union%20Find.md)
+
+[List of algorithms - Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms)
 
 ---
-
-**<u>References</u>**:
-
-* [List of algorithms - Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms)

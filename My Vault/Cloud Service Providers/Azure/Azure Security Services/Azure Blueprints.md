@@ -13,7 +13,9 @@ The various components that can be used in Blueprints are called as Artifacts
 
 ![Azure Blueprints|300](../images/azure-blueprints.png)
 
-ARM templates can also be used for creating and managing Policies. Azure Blueprints is another alternative for the same
+ARM templates can also be used for creating and managing Policies
+
+[How is Azure Blue Prints different from Resource Manager Templates - Microsoft Q&A](https://learn.microsoft.com/en-us/answers/questions/26851/how-is-azure-blue-prints-different-from-resource-m)
 
 ---
 

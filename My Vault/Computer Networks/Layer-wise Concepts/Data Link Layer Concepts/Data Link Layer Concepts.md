@@ -14,6 +14,7 @@ tags: [networking, data-link, index]
 		* [Switch MAC Address Learning](../../Network%20Devices/Switch/Switch%20MAC%20Address%20Learning.md)
 		* [Types of Switch](../../Network%20Devices/Switch/Types%20of%20Switch.md)
 		* [Virtual LANs (VLANs)](Virtual%20LANs%20%28VLANs%29.md)
+		* [Spanning Tree Protocol (STP)](Spanning%20Tree%20Protocol%20(STP).md)
 	- [NIC (Network Interface Card)](../../Network%20Devices/NIC%20(Network%20Interface%20Card).md)
 	- [Bridge](../../Network%20Devices/Bridge.md)
 

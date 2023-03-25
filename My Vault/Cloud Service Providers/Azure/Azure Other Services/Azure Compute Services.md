@@ -14,28 +14,24 @@ Since each virtual machine is independent of each other it has its own FS, ports
 
 ### Azure Virtual Machine
 
-Provides pre-prepared images from Azure Marketplace  
-Can create custom image as per requirement with custom services, runtime, apps, etc. and save in storage  
-Azure VM will provision VMs based on these images that can then be accessed by end users  
+**Components**: VM Size, Networking, OS Image, Virtual Disk (VHD)  
+Allows to use custom image that are created and save in Blob storage  
 Max Nodes : 1
 
 It is IaaS (Infrastructure as a Service)  
 We have total control over the OS and the services  
 Does not provide autoscaling  
-VMs are charged for even when they are in Stopped state (Storage Cost of the data that is stored on the VM disc)
+VMs are are billed even in the Stopped state (Storage Cost of the data that is stored on the VM disc)
 
 Best suited for:
-
 * Custom software requiring custom configuration
 * Lift and Shift (Moving On premises services to the Cloud as it is)
 
-Application/Scenarios:
+Application/Scenarios: Web apps, Databases, Jump box, etc.
 
-* Web apps & Web services
-* Databases
-* Jump box
-* Servers
-* Gateways, etc.
+VM Provisioning  
+**Azure CLI**: Separate command required for creating VM and opening port  
+**PowerShell**: Credentials objects needs to be created which is passed to the command to create VM. Port can be opened in the same command itself
 
 ### Virtual Machine Scale Set
 
@@ -48,9 +44,20 @@ Has auto scaling feature. Can be manually or automatically scaled based on need
 
 ### Azure Container Instances (ACI)
 
-Take Application, Config and other requirements and create container image and host on container repository ([Docker](../../../Software%20Engineering/DevOps/Docker/Docker.md) Hub, Azure Container Registry)  
-Can use pre-created container images as well  
-The Azure Container Instance will be generated/created in a Container Group (which is an VM in which the container runs)  
+ACI is created in a Container Group which is a VM on which the container with run  
+Container deployed in the same group share the VM, Networking, Storage and lifecycle  
+
+When creating ACI we can specify the CPU and Memory required (Default: 1 core & 1.5 GB)  
+Uses Azure Files to store persistent data that used by container  
+
+To access containers deployed to ACI over the internet we need to provide DNS label name  
+Domain Name: `http://<domain-label-name>.<region>.azurecontainer.io`  
+Containers can be made private to not have access from internet  
+
+**Restart Policy**: Always (Restart even if app exits gracefully), Failure and Never  
+**Elastic Burst**: Provision container to handle the extra compute required by AKS  
+
+Supports Windows and Linux Containers  
 It is an serverless offering similar to Azure Functions
 
 PaaS (Platform as a Service)  
@@ -60,7 +67,6 @@ Min Nodes : 0 (Jobs like running scripts)
 Max Nodes : 20
 
 Use cases:
-
 * Small and simple web apps
 * Background jobs
 * Scheduled Scripts

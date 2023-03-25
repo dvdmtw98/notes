@@ -31,3 +31,5 @@ Every time we ask for a dependency the map will figure out which dependency need
 Instead of creating the class ourselves we ask the container for a new instance, it will resolve the dependencies, construct the object and return it  
 The container can even resolve complex dependencies in a transparent manner  
 If we want to update a generic dependency we only need to update the container. This allows us to write cleaner and modular code
+
+---

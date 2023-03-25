@@ -3,7 +3,8 @@ title: Azure Automation
 tags: [azure, cloud, automation]
 ---
 
-Its a cloud based automation and configuration service that can be used across Azure and non-Azure environments  
+Cloud based automation and configuration management service that can be in Azure and non-Azure environments  
+
 It provides:
 - Process Automation
 - Update Management
@@ -11,7 +12,7 @@ It provides:
 
 ### Process Automation
 
-**Process Automation** allows to automate standard processes (i.e. DevOps processes, Azure Management, etc.)  
+**Process Automation** allows to automate standard processes (DevOps processes, Azure Management, etc.)  
 These automations can be performed using Graphical, PowerShell and Python runbooks
 
 ![Process Automation|500](../../images/azure-process-automation.png)
@@ -21,7 +22,7 @@ Hybrid Workers (VM with agent installed) allow to execute runbook on non-Azure e
 
 #### Run As Account
 
-For enabling Run As Account **creator** has to be **Owner Role** on Subscription    
+For enabling Run As Account **creator** has to have **Owner Role** on Subscription    
 It is an App Registration (Service Principal) that is created in AAD   
 This account is used to authenticate the Automation Scripts with AAD and to ensure it has the privileges required to perform the requested operation  
 The **created account** gets assigned **Contributor Role** on Subscription

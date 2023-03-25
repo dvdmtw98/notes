@@ -1,8 +1,9 @@
 ---
-title: DHCP (Dynamic Host Configuration Protocol) Server
+title: DHCP Server
 tags: [networking, device]
 ---
 
+Stands for Dynamic Host Configuration Protocol  
 Assigns IP Addresses, Subnet Mask, Default Gateway and DNS details to new devices on a network  
 If DHCP is not configured then these properties need to assign manually
 

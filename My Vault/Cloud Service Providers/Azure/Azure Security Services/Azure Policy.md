@@ -8,12 +8,14 @@ A policy can be created on (almost) all properties of any given resource
 The properties of the resources are exposed as aliases  
 A rule can be written around the policy to make a decision (cause a effect) based on the value received of the property defined in the policy  
 
-A policy is an single rule. Multiple policies can be grouped together into an **Initiative** which allows for easier assignment and enforcement of the policies    
+A policy is an single rule  
+Multiple policies can be grouped together into an **Initiative** which allows for easier assignment and enforcement of the policies    
 Policies are enforced at the Fabric level and cannot be bypassed by any method (though its possible to exclude resources from policies)
 
 ![Azure Policy|500](../images/azure-policy.png)
 
-Policy can be assigned to any scope: Management group, Subscription, Resource Group, Resource. The policies are inherited   
+Policy can be assigned to any scope: Management group, Subscription, Resource Group, Resource  
+Azure policies are inherited  
 Policies do not check for user permissions (It is checked in a previous step)  
 Policies are checked during the deployment of an resource  
 Policies are only applied to Resources that are newly created or modified. For applying to older resources the remediation option can be used  
@@ -30,8 +32,8 @@ DevOps has built-in support for policies via **Gates** which can be enabled Pre 
 ### Azure Policy for Kubernetes
 
 For AKS Policies need to be explicitly enabled (Onboarding for Kubernetes Service)  
-Once enabled services like Azure Defender can use the metrics from AKS to recommendations for compliance  
-Regulators compliance details for AKS can be found in Security Center  
+Once enabled services like Azure Defender can use the metrics from AKS to provide recommendations for compliance  
+Regulatory compliance policies (GDPR, HIPAA, etc.) for AKS can be found in Security Center  
 
 ### Policy Best Particles
 

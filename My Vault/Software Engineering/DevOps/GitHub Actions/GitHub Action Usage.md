@@ -7,7 +7,7 @@ Default Working Directory: `/home/runner/work/<repo-name>/<repo-name>`
 Variable Name: `GITHUB_WORKSPACE`  
 
 The same directory is also used by the checkout action  
-Before checkout clones a repo the content of working directory is cleared   
+Before the checkout action, clones a repo the content of working directory is cleared   
 
 ### Docker Actions
 
