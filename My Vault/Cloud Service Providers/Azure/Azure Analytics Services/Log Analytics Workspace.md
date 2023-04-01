@@ -8,6 +8,8 @@ The pricing is based on the data ingested, retention period and operations perfo
 The data is stored in tables based on the type of data  
 KQL is used to query the data
 
+Used as Storage for Logs connected using Application Insights
+
 ### Access Control
 **Require Workspace Permission**  
 No granular RBAC    

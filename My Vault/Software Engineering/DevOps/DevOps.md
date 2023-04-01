@@ -9,7 +9,7 @@ tags: [software, devops, index]
 - [Kubernetes](Kubernetes/Kubernetes.md)
 - [Git](Git/Git.md)
 - [GitHub Actions](GitHub%20Actions/GitHub%20Actions.md)
-- [Azure DevOps](../../Cloud%20Service%20Providers/Azure/Azure%20Other%20Services/Azure%20DevOps/Azure%20DevOps.md)
+- [Azure DevOps](../../Cloud%20Service%20Providers/Azure/Azure%20DevOps/Azure%20DevOps.md)
 
 ---
 

@@ -24,8 +24,6 @@ Historical data is useful for making predictions, finding trends and performing 
 
 ![Azure Stream Analytics|600](../images/azure-stream-analytics.png)
 
----
-
 ### Event Objects
 
 Events are small packets of data that are usually \<= 1 MB in size. They can be called datagrams as well  

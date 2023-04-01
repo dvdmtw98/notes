@@ -4,7 +4,11 @@ tags: [azure, cloud, security, active-directory]
 ---
 
 Enterprise Identity and Access Management service  
-Allows to sync with on-prem [Microsoft Active Directory](../../../Operating%20System/Windows/Microsoft%20Active%20Directory/Microsoft%20Active%20Directory.md)
+**Authentication**: [OpenID Connect](../../../Information%20Security/Access%20Management/OpenID%20Connect.md)  
+**Authorization**: [OAuth 2.0](../../../Information%20Security/Access%20Management/OAuth%202.0.md)
+
+Allows to sync with on-prem [Microsoft Active Directory](../../../Operating%20System/Windows/Microsoft%20Active%20Directory/Microsoft%20Active%20Directory.md)  
+Azure AD Connect is used to sync with on-prem AD
 
 AAD uses a flat hierarchy to store Identities  
 It utilizes cloud based authentication protocols instead of Kerberos, NTLM  
@@ -24,7 +28,7 @@ Auth request is sent to AAD from where it is sent to on-prem AD
 The result of the authentication is then sent back to AAD  
 The actual authentication is performed by on-prem AD
 
-**Federation**    
+**Federated**    
 The Federation service creates a SAML token which is passed to AAD  
 AAD in turn creates a access and refresh token which is used by the service
 
@@ -52,4 +56,11 @@ Microsoft 365 groups are used to access 365 resources
 Requires Premium P2  
 Allows users to elevate there permissions to a different role for a fixed period when a certain condition is meet  
 Allows active assignment (Valid for a fixed time) or eligible assignment (Have to elevate)  
-Not used for [Application Identity Types](Application%20Identity%20Types.md) i.e. Service Prinipals
+Not used for [Application Identity Types](Application%20Identity%20Types.md) i.e. Service Principals
+
+### Azure AD App Manifest
+
+It is the definition of the application object in the AD Identity Platform  
+It contains all the configuration related to authentication and authorization  
+
+---

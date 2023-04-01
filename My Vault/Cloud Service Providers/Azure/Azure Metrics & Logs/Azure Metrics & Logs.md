@@ -4,10 +4,12 @@ tags: [azure, cloud, alert, metric]
 ---
 
 **Azure Metrics**  
-The metrics of all resource are stored in the metrics store (timeseries data store) for 90 days  
+Numeric values that describe some aspect of the system at a particular time  
+Metrics of all resource are stored in the metrics store (timeseries data store) for 90 days  
 Data from the store can be sent to a target as required
 
 **Azure Logs**  
+Logs are events that occurred within the system (It can be unstructured data with timestamp)  
 The logs for resources are not stored anywhere by default, needs to be manually saved  
 
 ---
@@ -15,7 +17,7 @@ The logs for resources are not stored anywhere by default, needs to be manually 
 ### Diagnostics Settings
 
 This blade shows the types of logs and metrics that can be captured for a resource   
-Targets: [Azure Storage Account](../Azure%20Storage%20Account/Azure%20Storage%20Account.md), Event Hub, [Log Analytics Workspace](../Azure%20Analytics%20Services/Log%20Analytics%20Workspace.md)
+Targets: [Azure Storage Services](../Azure%20Storage%20Services/Azure%20Storage%20Services.md), Event Hub, [Log Analytics Workspace](../Azure%20Analytics%20Services/Log%20Analytics%20Workspace.md)
 
 Storage Account: Cheap long term storage  
 Event Hub: Send to External Solutions  

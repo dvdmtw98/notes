@@ -15,4 +15,5 @@ When entering data we must specify:
 
 ---
 
-[Azure Database Services](../Azure%20Database%20Services.md)
+[Azure Database Services](../Azure%20Database%20Services.md)  
+[Azure Storage Services](../../Azure%20Storage%20Services/Azure%20Storage%20Services.md)

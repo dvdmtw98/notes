@@ -1,5 +1,5 @@
 ---
-title: Azure File Storage
+title: Azure File Shares
 tags: [azure, cloud, storage]
 ---
 

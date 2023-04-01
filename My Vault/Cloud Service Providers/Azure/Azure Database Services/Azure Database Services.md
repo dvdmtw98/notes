@@ -8,8 +8,10 @@ tags: [azure, cloud, database, index]
 * [Azure Cosmos DB](Azure%20Cosmos%20DB/Azure%20Cosmos%20DB.md)
 	- [Table API](Azure%20Cosmos%20DB/Table%20API.md)
 	* [MongoDB API](Azure%20Cosmos%20DB/MongoDB%20API.md)
+* [Cosmos DB Consistency](Azure%20Cosmos%20DB/Cosmos%20DB%20Consistency.md)
 * [Cosmos DB Throughput](Azure%20Cosmos%20DB/Cosmos%20DB%20Throughput.md)
 * [Cosmos DB Partitioning](Azure%20Cosmos%20DB/Cosmos%20DB%20Partitioning.md)
+* [Service-side Features](Azure%20Cosmos%20DB/Service-side%20Features.md)
 
 ### Azure SQL DB
 

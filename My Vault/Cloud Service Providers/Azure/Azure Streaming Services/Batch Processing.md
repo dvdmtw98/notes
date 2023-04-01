@@ -8,8 +8,6 @@ Batch Processing is a framework that processes as much data as possible at a reg
 
 ![Batch Processing|500](../images/batch-processing.png)
 
----
-
 ### Lambda Architecture
 
 ![Lambda Architecture|500](../images/lambda-architecture.png)
@@ -35,8 +33,6 @@ It must support random writes of data
 **<u>Cruise Example</u>**  
 Cold Path: Load the data into Azure when in land (docked)  
 Hot Path: Get information about the local "delta" transactions that have taken place
-
----
 
 ### Kappa Architecture
 

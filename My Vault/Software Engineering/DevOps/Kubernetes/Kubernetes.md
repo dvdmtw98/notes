@@ -58,4 +58,4 @@ The port order in Kubernetes is the reverse of Docker (Left : Pod, Right : Node)
 ---
 
 [DevOps](../DevOps.md)  
-[Azure Compute Services](../../../Cloud%20Service%20Providers/Azure/Azure%20Other%20Services/Azure%20Compute%20Services.md)
+[Azure Compute Services](../../../Cloud%20Service%20Providers/Azure/Azure%20Compute%20Services/Azure%20Compute%20Services.md)  

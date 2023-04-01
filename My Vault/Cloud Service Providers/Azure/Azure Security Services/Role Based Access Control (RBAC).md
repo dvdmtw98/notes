@@ -33,4 +33,7 @@ Answers question: Where can it be done ?
 
 ### Role Assignment
 
-It is an combination of Role, Security Principle and Scope
+Attach Role Assignment to a Security Principal on a scope  
+Role Assignments are additive i.e. assigned permission will be sum of all roles assigned
+
+---

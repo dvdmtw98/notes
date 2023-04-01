@@ -1,12 +1,12 @@
 ---
-title: Theoretical Concepts
-tags: [security, indentity, concept]
+title: Authentication & Authorization
+tags: [security, identity, concept]
 ---
 
 ### Identity
 
 The fact of being someone or something  
-A user with an username and password  
+e.g. A user with an username and password  
 It can also be an application/server with identifies itself with an secret key or certificate
 
 ### Authentication
@@ -21,3 +21,7 @@ The process of ensuring that only authenticated identities get access to resourc
 ### Access Management
 
 The process of controlling, verifying, tracking and managing access to authorized users and applications
+
+---
+
+[Access Management](Access%20Management.md)

@@ -11,7 +11,7 @@ Suitable when we have very consist service usage (Autoscaling, etc. is not requi
 Types:
 
 * **Reserved Instances**: Azure Virtual Machines
-* **Reserved Capacity**: DBs, [Azure Storage Account](../Azure%20Storage%20Account/Azure%20Storage%20Account.md), [Databricks Clusters](../../../Data%20Analytics/Databricks/Databricks%20Clusters.md), etc.
+* **Reserved Capacity**: DBs, [Azure Storage Services](../Azure%20Storage%20Services/Azure%20Storage%20Services.md), [Databricks Clusters](../../../Data%20Analytics/Databricks/Databricks%20Clusters.md), etc.
 * **Software Plans**: Red Hat, SUSE Linux, etc.
 
 Reservations are made for 1 or 3 years

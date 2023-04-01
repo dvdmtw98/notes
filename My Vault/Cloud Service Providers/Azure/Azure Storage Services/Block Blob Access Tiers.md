@@ -1,9 +1,10 @@
 ---
-title: Access & Performance Tiers
+title: Block Blob Access Tiers
 tags: [azure, cloud, storage]
 ---
 
-## Access Tiers
+The default Access Tier used by Blobs is configured at the Storage Account Level  
+The Archive Tier can only be configured at the Blob Level
 
 ### Hot
 
@@ -23,20 +24,11 @@ If data is deleted before 180 days we need to pay an early deletion charge
 Lowest storage cost but highest access cost  
 Used for storing backups and audit/ compliance related data
 
-It can take several hours to retrieve the data. This is because the data is stored offline and needs to be rehydrated to be used  
+This is because the data is stored offline and needs to be rehydrated to be used  
 The data from archive can also be accessed by copying it into another access tier
 
+**Dehydration Priority**  
+Standard Priority: Can take anywhere from few minutes to a few hours  
+High Priority: Need to pay extra but most objects should be rehydrated in a hour
+
 ---
-
-## Performance Tiers
-
-### Standard Performance
-
-The cost effective storage solution and used for general access  
-Uses HDD for storing the data
-
-### Premium Performance
-
-Useful for high throughput applications and where small transactions are performed very frequently (Low latency)  
-Useful for interactive workloads, analytics, AL/ML and data transformation  
-ADLS Gen 2 does not support this tier as of April 2021

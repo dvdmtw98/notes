@@ -33,14 +33,17 @@ Provides sixteen 9s of durability
 
 ### Geo-zone-redundant Storage (GZRS)
 
-Copies data synchronously three times within AZs in the primary region and asynchronously copies the data to the secondary region where it is synchronously copied three times into a AZ  
-By default reads and writes only go to the primary region. We can configure the secondary region to allow read access (Read Access Geo-Zone-Redundant Storage)
+Copies data synchronously three times into AZs in the primary region and asynchronously copies the data to the secondary region where it is synchronously copied three times into a AZ  
+By default reads and writes only go to the primary region  
+We can configure the secondary region to allow read access (Read Access Geo-Zone-Redundant Storage)  
 Provides sixteen 9s of durability
 
 ![Geo Zone Redundant Storage|600](../images/geo-zone-redundant-storage.png)
 
+[Data redundancy - Azure Storage | Microsoft Docs](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy)
+
+RA-GRS is default Storage Account is created and is recommended for Production use
+
 ---
 
-**<u>References</u>**:
-
-[Data redundancy - Azure Storage | Microsoft Docs](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy)
+[Azure Storage Services](Azure%20Storage%20Services.md)

@@ -9,8 +9,6 @@ Streaming Unit % Utilization is the amount of memory that is consumed by the wor
 For light workload its between 10-20%  
 If this value is greater than 80% or there are backlogged events then SUs need to be increased
 
----
-
 ### Calculate Maximum Streaming Units Required for a Job
 
 ![Streaming Job Query|500](../images/streaming-job-query.png)

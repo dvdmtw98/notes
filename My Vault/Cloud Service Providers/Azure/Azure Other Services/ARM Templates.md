@@ -36,7 +36,7 @@ New-AzSubscriptionDeployment `
 	-TemplateFile <path-to-template>
 ```
 
-For deploying ARM Templates using Azure CLI and using [Azure Pipelines](Azure%20DevOps/Azure%20Pipelines.md) we need to create a Service Principal
+For deploying ARM Templates using Azure CLI and using [Azure Pipelines](../Azure%20DevOps/Azure%20Pipelines.md) we need to create a Service Principal
 
 ```bash
 # Create a Service Principal

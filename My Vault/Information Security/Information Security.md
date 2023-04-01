@@ -5,7 +5,7 @@ tags: [security, index]
 
 ### Table of Content
 
-* [Theoretical Concepts](Theoretical%20Concepts/Theoretical%20Concepts.md)
+* [Access Management](Access%20Management/Access%20Management.md)
 * [Cryptographic Algorithms](Cyptographic%20Algorithms/Cryptographic%20Algorithms.md)
 * [Windows Exploitation](Windows%20Exploitation/Windows%20Exploitation.md)
 * [Service Enumeration](Service%20Enumeration/Service%20Enumeration.md)
@@ -23,4 +23,4 @@ tags: [security, index]
 
 ---
 
-[Main Index](../Main%20Index.md)
+[Main Index](../../Main%20Index.md)

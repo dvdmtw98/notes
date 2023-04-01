@@ -3,7 +3,7 @@ title: Azure Boards
 tags: [devops, azure, cloud, boards]
 ---
 
-![Lead and Cycle Time](../../images/cycle-lead-time-concept.png)
+![Lead and Cycle Time](../images/cycle-lead-time-concept.png)
 
 **Lead Time**: Time from task creation to task competition  
 **Cycle Time**: Time from task assignment to task completion

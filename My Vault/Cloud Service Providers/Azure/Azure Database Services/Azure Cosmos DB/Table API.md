@@ -3,7 +3,7 @@ title: Table API
 tags: [azure, cloud, database, nosql, cosmos-db]
 ---
 
-The Table API for Cosmos DB uses [Azure Tables](../Azure%20Tables/Azure%20Tables.md) that are present in [Azure Storage Account](../../Azure%20Storage%20Account/Azure%20Storage%20Account.md) only under the hood but adds a couple of extra features and functionality on top of them
+The Table API for Cosmos DB uses [Azure Tables](../Azure%20Tables/Azure%20Tables.md) that are present in [Azure Storage Services](../../Azure%20Storage%20Services/Azure%20Storage%20Services.md) only under the hood but adds a couple of extra features and functionality on top of them
 
 | Azure Tables                                      | Cosmos DB                                              |
 | ------------------------------------------------- | ------------------------------------------------------ |

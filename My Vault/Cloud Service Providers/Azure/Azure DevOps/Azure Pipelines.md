@@ -8,7 +8,7 @@ tags: [azure, cloud, devops, cicd, orchestration]
 Azure DevOps Pipelines provide YAML based and graphical (legacy) approach for building pipeline  
 **Deployment gates** gives us additional control over the start and end of stages in a release pipeline
 
-![DevOps Pipeline Components](../../images/azure-devops-pipeline-components.svg)
+![DevOps Pipeline Components](../images/azure-devops-pipeline-components.svg)
 
 ### Agents
 
@@ -45,4 +45,4 @@ They are a set of machines are the configured to be used for a specific stage
 ---
 
 [Azure DevOps](Azure%20DevOps.md)  
-[ARM Templates](../ARM%20Templates.md)
+[ARM Templates](../Azure%20Other%20Services/ARM%20Templates.md)

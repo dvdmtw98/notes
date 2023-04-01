@@ -5,6 +5,17 @@ tags: [azure, cloud, iot]
 
 It is an network of internet connected devices are embedded in everyday objects and allows to send and receive data (settings, telemetry, etc.)
 
+### IoT Hub
+
+Bi-directional communication with streaming source  
+Was designed specify to connect to IoT devices, sensors, etc.  
+Allows to manage security for individual devices  
+Gives Insight into the producer and consumers, allows to monitor and control the source  
+It is a PaaS (Platform as a Service) offering  
+Highly secure, scalable and reliable service  
+Provides SDK for lot of programming languages  
+Supports : AMPQ, AMTT and HTTPS
+
 ### Azure IoT Central
 
 Similar to IoT Hub but provides ready made templates that can be used to create services  

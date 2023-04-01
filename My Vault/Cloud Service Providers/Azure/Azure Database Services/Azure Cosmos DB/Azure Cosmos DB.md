@@ -5,19 +5,28 @@ tags: [azure, cloud, database, nosql, cosmos-db, index]
 
 Fully Managed NoSQL Database designed to be highly scalable and highly performant  
 It supports enabling geo-replication of data with a click of a button  
-Has very low latency (\< 10ms)  
-Cosmos DB Explorer can be used to view the data
+Has very low latency `<` 10ms   
+Can perform Analytics on data using Spark  
 
 Designed for:
-
 * Highly Regional (Globally distributed DB)
 * Highly Responsive & Low Latency
+
+Cosmos DB automatically indexes all the columns in the data to allow faster queries  
+Time to Live (TTL) option can be setup in Cosmos DB to delete stale data automatically from the container after a fixed period of time
+
+In a Azure Subscription only 50 Cosmos DB Accounts can be created  
+Each account can contain any amount of data and databases
+
+**Request Unit (RU)**: Unit that encapsulates the resources used by DB. 1 RU roughly equals 1kb item read from a container
 
 ---
 
 ### Cosmos DB APIs
 
-* **NoSQL**
+The API to use has to be configured on the Cosmos DB Account
+
+* **SQL**
 	* Document Datastore (Cosmos DB Native Datastore)
 	* Allows to query data using SQL
 	* Recommended option when moving from other SQL databases
@@ -30,7 +39,7 @@ Designed for:
 	* API currently supports OLTP workloads
 * **Gremlin**
 	* Graph Datastore
-	* API currently supports OLTP workloads
+	* API supports OLTP workloads
 	* API is based on [Apache TinkerPop](Apache%20TinkerPop.md)
 * **Table**
 	* Key Value Datastore
@@ -39,26 +48,11 @@ Designed for:
 	* Relational Database
 	* Uses Citus Open Source to Scale Horizontally
 
-|                  | NoSQL     | Cassandra | MongoDB    | Gremlin    | Tables | PostgreSQL |
+|                  | SQL       | Cassandra | MongoDB    | Gremlin    | Tables | PostgreSQL |
 | ---------------- | --------- | --------- | ---------- | ---------- | ------ | ---------- |
 | Cosmos Database  | Database  | Keyspace  | Database   | Database   | NA     | Database   |
 | Cosmos Container | Container | Table     | Collection | Graph      | Table  | Table      |
 | Cosmos Entity    | Item      | Row       | Document   | Node/ Edge | Item   | Row        |
-
----
-
-### Data Consistency
-
-Cosmos DB supports multiple levels of consistency from Eventual Consistency to Strong Consistency  
-Strong - Bounded Staleness - Session - Consistent Prefix - Eventual
-
----
-
-Cosmos DB automatically indexed all the columns in the data to allow faster queries when using them  
-Time to Live (TTL) option can be setup in Cosmos DB to delete stale data automatically from the container after a fixed period of time
-
-In a Azure Subscription only 50 Cosmos DB Accounts can be created  
-Each account can contain any amount of data and databases
 
 ![Cosmos DB Structure|600](../../images/cosmos-db-structure.png)
 
