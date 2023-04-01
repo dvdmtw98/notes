@@ -24,4 +24,4 @@ e.g. Mercurial, Git
 ---
 
 [Azure DevOps](Azure%20DevOps.md)  
-[DevOps](../../../../Software%20Engineering/DevOps/DevOps.md)
+[DevOps](../../../Software%20Engineering/DevOps/DevOps.md)
