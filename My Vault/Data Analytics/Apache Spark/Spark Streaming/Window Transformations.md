@@ -9,9 +9,9 @@ Event time is used for windowing in structure streaming
 
 ### Types of Windows
 
-1. [Tumbling Window](../../../Cloud%20Service%20Providers/Azure/Azure%20Streaming%20Services/Streaming%20Window%20Functions.md#tumbling-window)  
+1. [Tumbling Window](../../../Cloud%20Service%20Providers/Azure/Azure%20Stream%20Services/Streaming%20Window%20Functions.md#tumbling-window)  
    Fixed Size window. No overlapping between windows. Amount of data in window varies
-2. [Sliding Window](../../../Cloud%20Service%20Providers/Azure/Azure%20Streaming%20Services/Streaming%20Window%20Functions.md#sliding-window)  
+2. [Sliding Window](../../../Cloud%20Service%20Providers/Azure/Azure%20Stream%20Services/Streaming%20Window%20Functions.md#sliding-window)  
    Fixed size. Overlap between windows. Amount of data in window varies
 3. <u>Global Window</u>  
    All data in stream in one window

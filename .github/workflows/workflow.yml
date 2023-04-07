@@ -18,6 +18,8 @@ jobs:
       - name: Build Digital Archive
         id: build-digital-archive
         uses: ./.github/actions
+        with:
+          MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
       - name: Netlify Deploy
         id: netlify-deploy
         uses: jsmrcaga/action-netlify-deploy@v2.0.0

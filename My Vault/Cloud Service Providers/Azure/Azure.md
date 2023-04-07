@@ -26,7 +26,7 @@ tags: [azure, cloud, index]
 * [Azure Automation](Azure%20Other%20Services/Azure%20Automation/Azure%20Automation.md)
 	* [Azure Configuration Management](Azure%20Other%20Services/Azure%20Automation/Azure%20Configuration%20Management.md)
 * [Azure Data Factory](Azure%20Other%20Services/Azure%20Data%20Factory/Azure%20Data%20Factory.md)
-* [Azure Streaming Services](Azure%20Streaming%20Services/Azure%20Streaming%20Services.md)
+* [Azure Stream Services](Azure%20Stream%20Services/Azure%20Stream%20Services.md)
 * [Azure Networking Services](Azure%20Networking%20Services/Azure%20Networking%20Services.md)
 * [Azure Security Services](Azure%20Security%20Services/Azure%20Security%20Services.md)
 * **Azure Caching Services**

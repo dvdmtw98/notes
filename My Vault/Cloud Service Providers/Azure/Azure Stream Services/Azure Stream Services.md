@@ -1,6 +1,6 @@
 ---
-title: Azure Streaming Services
-tags: [azure, cloud, streaming, index]
+title: Azure Stream Services
+tags: [azure, cloud, stream, index]
 ---
 
 ### Event Types
@@ -15,10 +15,12 @@ tags: [azure, cloud, streaming, index]
 
 * [Azure Event Grid](Azure%20Event%20Grid.md)
 * [Azure Event Hub](Azure%20Event%20Hub.md)
-* [Batch Processing](Batch%20Processing.md)
-* [Data Stream & Event Objects](Data%20Stream%20&%20Event%20Objects.md)
-* [Streaming Units](Streaming%20Units.md)
-* [Streaming Window Functions](Streaming%20Window%20Functions.md)
+* [Azure Notification Hub](Azure%20Notification%20Hub.md)
+* [Azure Service Bus](Azure%20Service%20Bus.md)
+* **Azure Stream Analytics**
+	* [Batch Processing](Batch%20Processing.md)
+	* [Streaming Units](Streaming%20Units.md)
+	* [Streaming Window Functions](Streaming%20Window%20Functions.md)
 
 ---
 

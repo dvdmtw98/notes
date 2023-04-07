@@ -23,7 +23,7 @@ Reservations are made for 1 or 3 years
 Buy VM for Azure as normal but it's an Spot VM  
 Microsoft can take away this capacity at anytime  
 Can set maximum price after purchase (If price above max price VM is evicted)  
-Best of interruptible workload ([Batch Processing](../Azure%20Streaming%20Services/Batch%20Processing.md), Non critical processing, etc.)
+Best of interruptible workload ([Batch Processing](../Azure%20Stream%20Services/Batch%20Processing.md), Non critical processing, etc.)
 
 ### Hybrid Use Benefit
 

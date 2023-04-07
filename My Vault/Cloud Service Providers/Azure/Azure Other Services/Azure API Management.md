@@ -4,6 +4,10 @@ tags: [azure, cloud, backend, api]
 ---
 
 Azure service to create consistent and modern API gateways for existing backend services  
+
+Pricing Tiers: Consumption, Developer, Basic, Standard, Premium, Isolated  
+Cache Types: Internal, External ([Azure Cache for Redis](Azure%20Caching%20Services/Azure%20Cache%20for%20Redis.md))
+
 **Versions**: Separates APIs with breaking changes  
 **Revisions**: Provides minor non-breaking changes to API
 
@@ -43,7 +47,7 @@ It can be used perform various operations like: converting data from XML to JSON
 Policies can be applied at the Global, Product, API and Operation scopes  
 They are defined using XML
 
-*Policy Types*: Restrictive, Advanced, Transformation, Caching
+**Policy Types**: Restrictive, Advanced, Transformation, Caching
 
 ---
 

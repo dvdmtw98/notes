@@ -19,4 +19,4 @@ Has 150+ preconfigured connectors and transformations
 ### Dataproc
 
 It is used for ETL pipelines that uses open-source technologies  
-Perform [Batch Processing](../../Azure/Azure%20Streaming%20Services/Batch%20Processing.md), querying and streaming using a managed [Spark Architecture](../../../Data%20Analytics/Apache%20Spark/Spark%20Architecture.md) and **Hadoop** Service
+Perform [Batch Processing](../../Azure/Azure%20Stream%20Services/Batch%20Processing.md), querying and streaming using a managed [Spark Architecture](../../../Data%20Analytics/Apache%20Spark/Spark%20Architecture.md) and **Hadoop** Service

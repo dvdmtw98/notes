@@ -1,9 +1,9 @@
 ---
 title: Azure Event Grid
-tags: [azure, cloud, streaming]
+tags: [azure, cloud, event]
 ---
 
-Used to implement Event based architectures (Pub Sub Model)  
+Used to implement Event based architectures (Pub/Sub Model)  
 Subscribers can be services in Azure or custom Webhooks  
 Supports sending events from one publisher to many subscribers  
 
@@ -28,6 +28,10 @@ Subscriber decides what to do with the event
 
 ### Custom Topics
 
-We can create our own publisher that will emit events from our application  
+Create our own publisher that will emit events from our application  
 The event by default will have the same schema as Azure Topics (Events on Azure)  
-It can be customized to send custom information
+It can be customized to include custom information
+
+---
+
+[Azure Stream Services](Azure%20Stream%20Services.md)

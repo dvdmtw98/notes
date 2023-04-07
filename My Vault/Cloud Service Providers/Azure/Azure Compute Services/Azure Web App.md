@@ -1,6 +1,6 @@
 ---
 title: Azure Web App
-tags: [azure, compute, webapp]
+tags: [azure, compute, web]
 ---
 
 We need to create an Package which will be then deployed by App Service on multiple nodes which will be accessible to the users from the web

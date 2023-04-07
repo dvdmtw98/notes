@@ -2,6 +2,11 @@ name: Digital Archive Builder
 author: David Varghese
 description: Action to build Mkdocs site using Markdown files
 
+inputs:
+  MEASUREMENT_ID:
+    description: Token to link site with Google Analytics Property
+    required: true
+
 runs:
   using: composite
   steps:
@@ -32,6 +37,12 @@ runs:
         uses: actions/setup-python@v4
         with:
             python-version: "3.11"
+      - name: Setup Google Analytics
+        uses: microsoft/variable-substitution@v1
+        with:
+          files: 'mkdocs/mkdocs.yml'
+        env:
+          extra.analytics.property: ${{ inputs.MEASUREMENT_ID }}
       - name: Install Dependencies
         id: install-dependencies
         shell: bash

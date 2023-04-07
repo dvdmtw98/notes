@@ -9,6 +9,12 @@ A physical facility
 Hosting for a group of networked servers  
 Has own power, cooling and networking infrastructure
 
+The servers in a datacenter a divided into multiple Groups  
+**Physical Grouping**: Fault Domain - Shares same power and network  
+**Logical Grouping**: Update Domain - Devices are Restarted/ Updated together
+
+Availability Set: Logical Grouping of multiple Fault Domains and Update Domains
+
 ### Regions
 
 One or more data centers connected to each other through high throughput networks ( \< 2 milliseconds)  
@@ -23,10 +29,9 @@ Partner Regions (China East, China North) : Regions not managed by Microsoft
 
 Logical grouping of data centers that belong in a same region  
 Designed to protect from data center failures  
-If one zone goes down the others still continue to work
+Each AZ is its own Fault Domain and Update Domain
 
 Two service categories:
-
 * Zonal Services (VMs, Disks) : Allows to choose AZ
 * Zone Redundant Services (SQL, Storage) : Service auto replicated at multiple AZs
 

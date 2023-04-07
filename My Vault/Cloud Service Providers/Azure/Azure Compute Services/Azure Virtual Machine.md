@@ -18,18 +18,22 @@ Lift and Shift (Moving On premises services to the Cloud as it is)
 
 Application/Scenarios: Web apps, Databases, Jump box, etc.
 
-VM Provisioning  
-**Azure CLI**: Separate command required for creating VM and opening port  
-**PowerShell**: Credentials objects needs to be created which is passed to the command to create VM. Port can be opened in the same command itself
+**Availability Set**  
+Fault Domain: Max 20  
+Update Domain: Max 3 (Region Specific)
+
+[Availability sets overview - Azure Virtual Machines | Microsoft Learn](https://learn.microsoft.com/bs-latn-ba/azure/virtual-machines/availability-set-overview#how-do-availability-sets-work)
 
 ### Virtual Machine Scale Set
 
-Choose an image which is automatically scaled by creating multiple instances of the image  
-This is hidden behind an Load Balancer  
-The Users are redirected to one of the VMs in the Scale Set  
+Allows to creating multiple VMs with the same configuration    
+The VMs in a scale set are hidden behind an Load Balancer  
+
+Users are directed to one of the VMs in the Scale Set  
 Max Nodes : 1000/ 600 (Depending on Image Selected)
 
-Has auto scaling feature. Can be manually or automatically scaled based on need
+Supports auto scaling feature  
+Can be performed manually or automatically based on metrics
 
 ---
 
