@@ -42,7 +42,7 @@ Provides sixteen 9s of durability
 
 [Data redundancy - Azure Storage | Microsoft Docs](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy)
 
-RA-GRS is default Storage Account is created and is recommended for Production use
+Storage Account is by default created with RA-GRS which is recommended for Production
 
 ---
 

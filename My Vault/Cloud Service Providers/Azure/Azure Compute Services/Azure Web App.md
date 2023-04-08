@@ -3,12 +3,14 @@ title: Azure Web App
 tags: [azure, compute, web]
 ---
 
-We need to create an Package which will be then deployed by App Service on multiple nodes which will be accessible to the users from the web
-
 PaaS (Platform as a Service)  
 Supports multiple programming languages and containers  
-Autoscaling  
+Supports Autoscaling  
 Max Nodes : 20/100 (Depending on Pricing Tier)
+
+> [!IMPORTANT] Web App Load Balancer Timeout  
+> - Web Apps have a Timeout of 230 seconds which cannot be changed  
+> - If some processing takes longer than 230 secs it is recommended to use Web Jobs and/or utilize pooling for the API 
 
 ### Web App for Containers
 

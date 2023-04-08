@@ -17,7 +17,7 @@ Supports configurable TTL for messages (Default 7 days)
 
 Messages that are consumed from the queue are not immediately deleted  
 However the message will not be visible in the queue for a period of time  
-This time period is called visibility timeout and this enabled fault tolerance in the system
+This time period is called visibility timeout and this enables fault tolerance in the system
 
 To prevent the message from reappearing we need to use the function/ method that deletes the message from queue when consumed
 

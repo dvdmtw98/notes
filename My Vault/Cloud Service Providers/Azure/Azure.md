@@ -14,7 +14,7 @@ tags: [azure, cloud, index]
 ### Azure Services
 
 * [Azure Compute Services](Azure%20Compute%20Services/Azure%20Compute%20Services.md)
-* [Azure Serverless Services](Azure%20Other%20Services/Azure%20Serverless%20Services.md)
+	* [Azure Logic App](Azure%20Other%20Services/Azure%20Logic%20App.md)
 * [Azure Database Services](Azure%20Database%20Services/Azure%20Database%20Services.md)
 	* [Polybase](Azure%20Other%20Services/Polybase.md)
 * [Azure Analytics Services](Azure%20Analytics%20Services/Azure%20Analytics%20Services.md)

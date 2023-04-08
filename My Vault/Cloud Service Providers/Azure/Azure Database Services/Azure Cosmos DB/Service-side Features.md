@@ -3,7 +3,7 @@ title: Server-side Features
 tags: [azure, cloud, nosql, cosmosdb]
 ---
 
-Stored Procedures, Triggers and UDFs are executed into the Database engine  
+Stored Procedures, Triggers and UDFs are executed in the Database engine  
 Currently only supported by the SQL API  
 Defined using JavaScript
 
@@ -20,7 +20,7 @@ Supports transactions
 
 #### Change Feed
 React to changes that occur in the Cosmos DB engine using server-side code  
-Allows to be notified for any insert and update operations  
+Allows to be notified for any insert and update operations (Delete not supported)  
 
 Reading data from database will consume throughput  
 Not supported for Azure Table API

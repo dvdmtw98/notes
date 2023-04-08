@@ -17,7 +17,7 @@ The below caching rules are only supported with Azure Standard CDN (Verizon & Ak
 
 #### Global
 Only one global rule can be created per endpoint  
-Can overrides cache headers
+Can override cache headers
 
 **Bypass Cache**: Don't cache resources even if cache control headers are present  
 **Override**: Override the cache header and set a custom caching duration  

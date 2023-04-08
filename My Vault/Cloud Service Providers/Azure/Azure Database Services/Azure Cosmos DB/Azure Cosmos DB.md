@@ -1,11 +1,11 @@
 ---
 title: Azure Cosmos DB
-tags: [azure, cloud, database, nosql, cosmos-db, index]
+tags: [azure, database, nosql, cosmos-db, index]
 ---
 
-Fully Managed NoSQL Database designed to be highly scalable and highly performant  
-It supports enabling geo-replication of data with a click of a button  
-Has very low latency `<` 10ms   
+Fully Managed NoSQL Database designed to be highly scalable and performant  
+Supports enabling geo-replication of data with a click of a button  
+Has very low latency "less than 10ms"   
 Can perform Analytics on data using Spark  
 
 Designed for:
@@ -26,7 +26,7 @@ Each account can contain any amount of data and databases
 
 The API to use has to be configured on the Cosmos DB Account
 
-* **SQL**
+* **SQL (Core)**
 	* Document Datastore (Cosmos DB Native Datastore)
 	* Allows to query data using SQL
 	* Recommended option when moving from other SQL databases

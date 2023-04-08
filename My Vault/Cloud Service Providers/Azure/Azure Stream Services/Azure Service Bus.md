@@ -18,6 +18,8 @@ Supports Duplicate Detection and Batch Processing
 **DLQ (Dead-letter Queue)**  
 Capture messages that where not processed in their lifetime and process them accordingly
 
+[Azure Service Bus topic filters - Azure Service Bus | Microsoft Learn](https://learn.microsoft.com/en-us/azure/service-bus-messaging/topic-filters)
+
 ---
 
 ### Pricing Tiers

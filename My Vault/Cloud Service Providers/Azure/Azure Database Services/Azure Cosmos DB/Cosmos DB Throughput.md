@@ -18,7 +18,7 @@ The container throughput is defined by partition key, size of data and other fac
 
 Once RU's are consumed subsequent requests are Rate Limited  
 By default manual scaling is required to acquire more RU's  
-We can configure autoscaling where for through be provide a maximum value  
+We can configure autoscaling where for throughput we provide a maximum value  
 The minimum is calculated as 10% of the maximum value
 
 ### Serverless Throughput

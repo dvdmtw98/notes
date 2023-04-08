@@ -21,8 +21,8 @@ Telemetry data processing, Data Archival, Transaction Processing, Anomaly Detect
 **Namespace**  
 Container for Event Hubs. More than one Event Hub can belong to a namespace  
 Any option applied to Namespace applies to all Event Hubs within it  
-Throughput units that determine the throughput of Event Hub is set on the Namespace
-The Event Hub <u>namespace</u> needs to be <u>created before</u> creating Event Hub
+Throughput units that determine the throughput of Event Hub is set on the Namespace  
+Event Hub <u>namespace</u> needs to be <u>created before</u> creating Event Hub
 
 **Event Producer**: Applications that sends data to Event Hub  
 

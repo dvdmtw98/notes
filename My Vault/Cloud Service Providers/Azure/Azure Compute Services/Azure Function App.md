@@ -6,14 +6,12 @@ tags: [azure, compute, serverless]
 Allows to deploy and run small **stateless** pieces of code (functions) in the cloud  
 PaaS (Platform as a Service) offering  
 Supports autoscaling  
+Min Nodes : 0  
+Max Nodes: 200  
 
 Functions use [Azure Service Plan](Azure%20Service%20Plan.md) as the underlying compute  
 Docker Containers can also be deployed to Function App  
 Functions code is executed via Triggers
-
-Used for designing macro/nano services  
-Min Nodes : 0  
-Max Nodes: 200  
 
 **Authentication**  
 Anonymous: No key required  
@@ -35,9 +33,12 @@ The language being used needs to support creating a basic web server
 
 Create stateful, serverless workflows (orchestrations)
 
-**Client (Starter) Function**: Initiates the orchestration. Use be called using any trigger  
+**Client (Starter) Function**: Initiates the orchestration. Can be called using any trigger  
 **Orchestrator Function**: Defines the steps in the workflow. The steps can be performed in sequence or parallel. Responsible for error handling  
-**Activity Function**: Performs a step in the workflow
+**Activity Function**: Performs a step in the workflow  
+**Entity Function**: Responsible for managing state information between the activities
+
+[Function types in Azure Durable Functions | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-types-features-overview)
 
 ---
 

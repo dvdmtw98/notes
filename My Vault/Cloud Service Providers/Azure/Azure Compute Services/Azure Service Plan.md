@@ -4,8 +4,7 @@ tags: [azure, compute]
 ---
 
 It is the underlying VM (compute) that powers Web App, Function App and Logic App  
-On Scaling Out a Load Balancer is setup which routes traffic between the VMs  
-
+On Scaling Out the Load Balancer is responsible for routing traffic between the VMs  
 
 ### Non-Isolated Plans
 

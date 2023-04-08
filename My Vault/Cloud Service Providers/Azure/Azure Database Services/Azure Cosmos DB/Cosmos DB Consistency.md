@@ -11,7 +11,7 @@ Cassandra & MongoDB: Writes (Account Level), Reads (Request Level)
 ![Cosmos DB Consistency Levels|600](../../images/cosmos-db-consistency-levels.png)
 
 Strong Consistency: On read get the most recent data  
-Bounded Staleness: Guarantees that the read has a max lag  
+Bounded Staleness: Guarantees that the read data will have a max lag  
 Session: Client Session will read its own writes  
 Consistent Prefix: Guarantees updates are read in order  
 Eventual: Provides no guarantee for order

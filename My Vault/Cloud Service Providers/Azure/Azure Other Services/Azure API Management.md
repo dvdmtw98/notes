@@ -43,7 +43,7 @@ Admins, Developers and Guests are the three built-in groups
 ### API Management Policies
 
 A collection of rules that can be executed sequentially on the request or response of an API   
-It can be used perform various operations like: converting data from XML to JSON, checking existence of headers and setting cache configuration  
+It can be used to perform various operations like: converting data from XML to JSON, checking existence of headers and setting cache configuration  
 Policies can be applied at the Global, Product, API and Operation scopes  
 They are defined using XML
 
