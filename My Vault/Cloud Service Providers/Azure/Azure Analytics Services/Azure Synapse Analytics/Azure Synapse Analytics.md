@@ -47,5 +47,5 @@ Serverless Pool is only an compute engine and hence cannot store any data
 
 ---
 
-[SQL DB Security](../../Azure%20Database%20Services/Azure%20SQL%20DB/SQL%20DB%20Security.md)  
-[Polybase](../../Azure%20Other%20Services/Polybase.md)
+[SQL DB Security](../../Azure%20Datastore%20Services/Azure%20SQL%20DB/SQL%20DB%20Security.md)  
+[Polybase](../../Azure%20Datastore%20Services/Polybase.md)

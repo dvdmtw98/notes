@@ -16,3 +16,5 @@ hydra -l <username> -P <password-list> <ip-address> <service-name>
 -s : Service Port (If running on non-default port)
 
 When username is known make use of "rockyou" wordlist for cracking password
+
+---

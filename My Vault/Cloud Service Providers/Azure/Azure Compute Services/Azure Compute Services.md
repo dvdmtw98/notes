@@ -9,6 +9,7 @@ tags: [azure, cloud, compute]
 - [Azure Container Instance (ACI)](Azure%20Container%20Instance%20(ACI).md)
 - [Azure Kubernetes Service (AKS)](Azure%20Kubernetes%20Service%20(AKS).md)
 	- [Kubernetes](../../../Software%20Engineering/DevOps/Kubernetes/Kubernetes.md)
+	- [Health Checks](Health%20Checks.md)
 - **Azure App Service**
 	- [Azure Service Plan](Azure%20Service%20Plan.md)
 	- [Azure Web App](Azure%20Web%20App.md)

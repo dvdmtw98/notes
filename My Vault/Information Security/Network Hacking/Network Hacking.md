@@ -23,8 +23,8 @@ title: Network Hacking
 * [Network Mapping (Information Gathering)](Network%20Mapping%20%28Information%20Gathering%29.md)
 * [MITM (Man in the Middle) Attack](MITM%20%28Man%20in%20the%20Middle%29%20Attack.md)
 * [ARP Spoofing - Poisoning](ARP%20Spoofing%20-%20Poisoning.md)
-* [BetterCap](Tools/BetterCap.md)
-* [BetterCap GUI](Tools/BetterCap%20GUI.md)
+* [BetterCap](../Tools/BetterCap/BetterCap.md)
+* [BetterCap GUI](../Tools/BetterCap/BetterCap%20GUI.md)
 * [HSTS (HTTP Strict Transport Security)](HSTS%20%28HTTP%20Strict%20Transport%20Security%29.md)
 * [Bypassing HTTPS (Hypertext Transfer Protocol Secure)](Bypassing%20HTTPS%20%28Hypertext%20Transfer%20Protocol%20Secure%29.md)
 * [DNS Spoofing](DNS%20Spoofing.md)
@@ -33,4 +33,4 @@ title: Network Hacking
 
 ### Tools and Services
 
-* [Nmap](../Tools%20&%20Services/Nmap/Nmap.md)
+* [Nmap](../Tools/Nmap/Nmap.md)

@@ -3,6 +3,11 @@ title: John the Ripper
 tags: [security, password]
 ---
 
+RAR5 hash cracking is not supported by John. [Hashcat](Hashcat.md) is preferred in its place
+
+John utilities location : `/usr/share/john` & `/usr/sbin`  
+List all utilities : `locate *2john*`
+
 <u>List Supported Formats</u>
 
 ````bash

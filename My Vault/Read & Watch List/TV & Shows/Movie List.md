@@ -20,7 +20,6 @@ cssclass: numbered-rows
 |     | The Cook The Thief and his Wife                | 1989    |
 |     | The Secret in their Eyes                       | 2009    |
 |     | The Talented Mr. Ripley                        | 1999    |
-|     | Videodrome                                     | 1983    |
 |     | The Thing                                      | 1982    |
 |     | Eastern Promises                               | 2007    |
 |     | Dead Poets Society                             | 1989    |

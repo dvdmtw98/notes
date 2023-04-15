@@ -6,7 +6,7 @@ tags: [dns, netwoking]
 #### Root Server
 They are the top level of the DNS Hierarchy  
 There are 13 set of Root Servers strategy placed around the world  
-Operated by 12 large organizations and universities like NASA, USC, ICANN, DoD
+Operated by large organizations and universities like NASA, USC, ICANN and DoD
 
 They are named using letters A through M (letter.root-servers.net)  
 Root Server Info Page can be accessed at letter.root-servers.org  
@@ -29,8 +29,8 @@ These servers are run we organizations providing web hosting services
 | Description                   | Command                              |
 |:----------------------------- |:------------------------------------ |
 | Get Root Nameservers          | `dig NS .`                           |
-| Get TLD Nameservers           | `dig NS com`                         |
-| Get Authoritative Nameservers | `dig google.com @a.gtld-servers.net` |
+| Get TLD Nameservers           | `dig NS com @a.root-servers.net`                         |
+| Get Authoritative Nameservers | `dig NS google.com @a.gtld-servers.net` |
 | Get Domain IP Address         | `dig google.com @ns1.google.com`     |
 
 [DNS server types | Cloudflare](https://www.cloudflare.com/learning/dns/dns-server-types/)

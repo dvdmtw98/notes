@@ -14,7 +14,7 @@ The Native Interface has a list of views that give more detailed information abo
 * Gantt View: Which gives an better visualization of concurrent runs
 * Dashboards: This is not available in Synapse Analytics
 
-ADF can also be connected with [Azure Monitor](../../Azure%20Metrics%20&%20Logs/Azure%20Monitor.md) to get more detailed and historic logs of the activities performed. This option is generally used by enterprises  
+ADF can also be connected with [Azure Monitor](../Azure%20Monitor/Azure%20Monitor.md) to get more detailed and historic logs of the activities performed. This option is generally used by enterprises  
 If we need to view history of operations that where performed before 45 days Azure Monitor is the only option
 
 ---

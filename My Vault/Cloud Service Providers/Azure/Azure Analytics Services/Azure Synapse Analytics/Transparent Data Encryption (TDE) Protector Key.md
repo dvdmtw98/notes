@@ -31,4 +31,4 @@ If the key is generated in KV ensure to take a backup of the key before using th
 
 ---
 
-[SQL DB Security](../../Azure%20Database%20Services/Azure%20SQL%20DB/SQL%20DB%20Security.md)
+[SQL DB Security](../../Azure%20Datastore%20Services/Azure%20SQL%20DB/SQL%20DB%20Security.md)

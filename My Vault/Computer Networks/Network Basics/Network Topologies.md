@@ -1,6 +1,6 @@
 ---
 title: Network Topology
-tags: network, concept
+tags: [network, concept]
 ---
 
 ### Wired Network Topology

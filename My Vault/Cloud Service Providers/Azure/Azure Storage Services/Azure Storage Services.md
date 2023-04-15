@@ -17,7 +17,7 @@ tags: [azure, cloud, storage, index]
 * [Azure Data Lake Storage](Azure%20Data%20Lake%20Storage.md)
 	* [Partitioning in ADLS](Partitioning%20in%20ADLS.md)
 * [Azure File Shares](Azure%20File%20Shares.md)
-* [Azure Tables](../Azure%20Database%20Services/Azure%20Tables/Azure%20Tables.md)
+* [Azure Tables](../Azure%20Datastore%20Services/Azure%20Tables/Azure%20Tables.md)
 * [Azure Queue](Azure%20Queue.md)
 
 ---

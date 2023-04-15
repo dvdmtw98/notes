@@ -20,8 +20,6 @@ hashcat -a <attack-mode> -m <hash-type> \
 Default attack mode : 0  
 When output is not specified the results are saved in a` .pot` file
 
+[Hashcat Docs (example_hashes)](https://hashcat.net/wiki/doku.php?id=example_hashes)
+
 ---
-
-**<u>References</u>**:
-
-* [example_hashes \[hashcat wiki\]](https://hashcat.net/wiki/doku.php?id=example_hashes)

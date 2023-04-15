@@ -37,7 +37,7 @@ This is achieved by maintaining multiple copies of the resources
 
 ### Disaster Recovery
 
-Creating copies of the required resources in two separate [Azure Regions](../Azure/Azure%20Concepts/Azure%20Regions%20&%20Zones.md) and setting up replication between them to so that they are up to date and then setting up an DNS between these two regions so that the traffic to the resource can be automatically redirected to the working region  
+Creating copies of the required resources in two separate [Azure Regions](../Azure/Azure%20Concepts/Azure%20Regions.md) and setting up replication between them to so that they are up to date and then setting up an DNS between these two regions so that the traffic to the resource can be automatically redirected to the working region  
 This is an type of Fault Tolerance that is provided for dealing with major disruption to services that can be caused by Natural Disasters
 
 ![Disaster Recovery|400](images/disaster-recovery.png)

@@ -7,6 +7,7 @@ tags: [security, enumeration, smtp]
 
 ````bash
 nmap -p 25 --script smtp-commands <ip-address>
+
 sudo apt install smtp-user-enum
 smtp-ser-enum -M VRFY -U <wordlist> -t <target-ip>
 ````

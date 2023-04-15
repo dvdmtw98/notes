@@ -1,6 +1,6 @@
 ---
 title: DNS
-tags: [networking, device, dns]
+tags: [networking, protocol, dns]
 ---
 
 Stands for Domain Name System  
