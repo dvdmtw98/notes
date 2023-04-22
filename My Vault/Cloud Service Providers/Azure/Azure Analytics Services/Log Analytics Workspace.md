@@ -3,7 +3,7 @@ title: Log Analytics Workspace
 tags: [azure, cloud, analytics]
 ---
 
-Each workspace belong to a specific region  
+Each workspace belongs to a specific region  
 The pricing is based on the data ingested, retention period and operations performed  
 The data is stored in tables based on the type of data  
 KQL is used to query the data

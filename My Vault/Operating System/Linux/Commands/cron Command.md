@@ -46,8 +46,4 @@ crontab -r
  > * For cron jobs of the root user add "sudo" before the command
  > * Cron jobs are saved in /etc under the folders /cron.d, /cron.hourly, /cron.daily, /cron.monthly, /cron.weekly (Useful if crontab is not present)
 
----
-
-**<u>References</u>**:
-
-* [Crontab.guru - The cron schedule expression editor](https://crontab.guru/)
+[Crontab.guru - The cron schedule expression editor](https://crontab.guru/)

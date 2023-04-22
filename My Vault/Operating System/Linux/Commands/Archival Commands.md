@@ -1,5 +1,5 @@
 ---
-title: Archive Related Commands
+title: Archival Commands
 tags: [os, linux, command]
 ---
 

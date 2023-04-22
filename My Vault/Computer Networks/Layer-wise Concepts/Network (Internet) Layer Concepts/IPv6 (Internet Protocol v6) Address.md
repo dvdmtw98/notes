@@ -25,17 +25,17 @@ There is no concept of Classes in IPv6
 
 ### Types of IPv6 Addresses
 
-1. <u>Unicast (One-to-One)</u>  
-   Global Addresses (Similar Public IPv4 Addresses)  
-   Link-Local Addresses (Similar to APIPA Addresses) - Starts with FE80  
-   Unique Local Addresses (Similar to Private IPv4 Addresses) - Starts with FC, FD
+**Unicast (One-to-One)**  
+Global Addresses (Similar Public IPv4 Addresses)  
+Link-Local Addresses (Similar to APIPA Addresses) - Starts with FE80  
+Unique Local Addresses (Similar to Private IPv4 Addresses) - Starts with FC, FD
 
-2. <u>Multicast (One-to-Many)</u>  
-   Broadcast was replaced with Multicast in IPv6  
-   Multicast Address : ff00::/8
+**Multicast (One-to-Many)**  
+Broadcast was replaced with Multicast in IPv6  
+Multicast Address : ff00::/8
 
-3. <u>Anycast (One-to-One-of-Many)</u>  
-   Identifies multiple paths to target but sends the pack only on the shortest path
+**Anycast (One-to-One-of-Many)**  
+Identifies multiple paths to target but sends the pack only on the shortest path
 
-4. <u>Loopback Address (::1)</u>  
-   The localhost address of the device
+**Loopback Address (::1)**  
+The localhost address of the device

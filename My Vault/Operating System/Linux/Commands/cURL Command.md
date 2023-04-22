@@ -29,8 +29,4 @@ curl https://www.google.com -o ~/google.html
 -v : View request and handshake information  
 -I : View Header only
 
----
-
-**<u>References</u>**:
-
-* [Linux Essentials: Curl Fundamentals - YouTube](https://www.youtube.com/watch?v=Xy7fDxz39FM)
+[Linux Essentials: Curl Fundamentals - YouTube](https://www.youtube.com/watch?v=Xy7fDxz39FM)

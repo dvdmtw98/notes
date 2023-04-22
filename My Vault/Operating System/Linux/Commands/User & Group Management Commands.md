@@ -4,12 +4,12 @@ tags: [os, linux, command]
 ---
 
 **<u>User ID</u>**  
-UID 0 : Root User  
-UIDs 1--99 : Special System Users  
-UID 100--999 : Dynamic allocated system users  
-UID 1000-9999 : Used for User accounts  
-UID 10000-65534 : Remote Users  
-UID 65534 : nobody (Special user with no privileges)
+UID 0: Root User  
+UIDs 1-99: Special System Users  
+UID 100-999: Dynamic allocated system users  
+UID 1000-9999: Used for User accounts  
+UID 10000-65534: Remote Users  
+UID 65534: nobody (Special user with no privileges)
 
 ### Add/ Delete User
 

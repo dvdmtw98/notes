@@ -31,4 +31,4 @@ sudo arp-scan -I <interface> -l
 
 ---
 
-[Linux Network Related Commands](../../Operating%20System/Linux/Commands/Linux%20Network%20Related%20Commands.md)
+[Network Related Commands](../../Operating%20System/Linux/Commands/Network%20Related%20Commands.md)

@@ -6,6 +6,7 @@ tags: [security, index]
 ### Table of Content
 
 * [Introductory Concepts](Introductory%20Concepts/Introductory%20Concepts.md)
+* [Malware](Malware/Malware.md)
 * [Access Management](Access%20Management/Access%20Management.md)
 * [Algorithms](Algorithms/Algorithms.md)
 * [Windows Exploitation](Windows%20Exploitation/Windows%20Exploitation.md)

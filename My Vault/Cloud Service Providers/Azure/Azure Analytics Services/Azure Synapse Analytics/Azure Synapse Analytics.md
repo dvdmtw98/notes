@@ -7,7 +7,7 @@ It is a data warehouse and a unified analytics platform
 It uses ADLS Gen 2 (Data Lake) as its underlying datastore  
 It is a PaaS (Platform as a Service) offering
 
-Data Warehouse Unit (DWU): Unit used for represent the cost/ compute of SQL Pool
+Data Warehouse Unit (DWU): Unit used to represent the cost/ compute of SQL Pool
 
 ![Synapse Architecture|600](../../images/azure-synapse-architecture.png)
 
@@ -33,15 +33,15 @@ Allows to write Spark in .NET as well
 
 ### Synapse SQL
 
-Distributed version of T-SQL  
-Supports streaming features that allows to save data into SQL Tables  
+The distributed version of T-SQL  
+Supports streaming features that allow saving data into SQL Tables  
 Allows to integrate AI with SQL
 
-### Serverless Pools
+### Serverless Pool
 
 In Serverless the topology changes by adding, removing or failovers of nodes  
-An Serverless Pool is automatically created when a new Synapse Workspace is created  
-Serverless Pool is only an compute engine and hence cannot store any data
+A Serverless Pool is automatically created when a new Synapse Workspace is created  
+Serverless Pool is only a computing engine and hence cannot store any data
 
 [Synapse SQL architecture - Azure Synapse Analytics | Microsoft Docs](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/overview-architecture)
 

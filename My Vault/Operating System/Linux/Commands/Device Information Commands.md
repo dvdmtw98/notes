@@ -17,6 +17,10 @@ df -hT # File System Usage
 -c : Total Size  
 -T : Show File System Type
 
+Third party tool to view the disk usage information  
+`sudo apt install ncdu`
+
+
 ### CPU & Memory Usage
 
 ````shell

@@ -1,5 +1,5 @@
 ---
-title: Linux Network Related Commands
+title: Network Related Commands
 tags: [os, linux, command]
 ---
 
@@ -7,21 +7,25 @@ tags: [os, linux, command]
 
 ````shell
 ip a
-ip a show <interface>
-arp -a # View ARP Table
-iwconfig # ifconfig for Wireless Interface
+ifconfig
+iwconfig
 
-ip route show
-route # View routing table
+# View ARP Details
+ip n
+arp -a
+
+# View Route Details
+ip r
+route
 route -n # View Default Gateway
 ````
 
 ### Netstat Command
 
 ````shell
-netstat -r (View routing table)
-netstat -a (View All Connection)
-netstat -l (View Listening Ports)
+netstat -r # View routing table
+netstat -a # View All Connection
+netstat -l # View Listening Ports
 ````
 
 **<u>Flags</u>**:  

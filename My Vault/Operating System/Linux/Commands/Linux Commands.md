@@ -5,11 +5,11 @@ tags: [os, linux, command, index]
 
 ### Topic Related Commands
 
-* [Archive Related Commands](Archive%20Related%20Commands.md)
-* [Copy & Backup Related Commands](Copy%20&%20Backup%20Related%20Commands.md)
+* [Archival Commands](Archival%20Commands.md)
+* [Copy Commands](Copy%20Commands.md)
 * [Device Information Commands](Device%20Information%20Commands.md)
-* [File Permission & Ownership Commands](File%20Permission%20&%20Ownership%20Commands.md)
-* [Linux Network Related Commands](Linux%20Network%20Related%20Commands.md)
+* [File Permission Commands](File%20Permission%20Commands.md)
+* [Network Related Commands](Network%20Related%20Commands.md)
 * [Package Management Commands](Package%20Management%20Commands.md)
 * [Process Management Commands](Process%20Management%20Commands.md)
 * [Service Management Commands](Service%20Management%20Commands.md)
@@ -31,26 +31,9 @@ tags: [os, linux, command, index]
 * [sftp Command](sftp%20Command.md)
 * [sort & uniq Command](sort%20&%20uniq%20Command.md)
 * [ssh Command](ssh%20Command.md)
-* [SSH Port Forwarding](SSH%20Port%20Forwarding.md)
+	* [SSH Port Forwarding](SSH%20Port%20Forwarding.md)
 * [xargs Command](xargs%20Command.md)
 * [xrandr Command](xrandr%20Command.md)
-
----
-
-### Miscellaneous Commands
-
-1. <u>Convert</u>  
-   It is used to perform various operations on image files  
-   `sudo apt install imagemagick`  
-   [How to Quickly Resize, Convert & Modify Images from the Linux Terminal](https://www.howtogeek.com/109369/how-to-quickly-resize-convert-modify-images-from-the-linux-terminal/)
-
-2. <u>TLDR</u>  
-   Shows some of the possible operations with examples for an command  
-   `sudo apt tldr`
-
-3. <u>Ncdu</u>  
-   View the folders occupying the most space on system  
-   `sudo apt install ncdu`
 
 ---
 

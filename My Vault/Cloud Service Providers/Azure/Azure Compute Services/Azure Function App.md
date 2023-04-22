@@ -14,17 +14,18 @@ Docker Containers can also be deployed to Function App
 Functions code is executed via Triggers
 
 **Authentication**  
-Anonymous: No key required  
+Anonymous: No key is required  
 Function: Key created per function  
 Admin: Key used across function app
 
 **Pricing**  
 Consumption Plan, App Service Plan & Premium Plan  
-Consumption plan has a timeout of 5mins  
-Premium Plans provide better speed, security, supports reserved instance & can autoscale  
+Consumption Plan has a timeout of 5mins  
+Premium Plans provide better speed and security  
+Supports reserved instances & can autoscale  
 
 **Custom Handlers**  
-They allow to implement function using unsupported languages  
+They allow implementing functions using unsupported languages  
 The language being used needs to support creating a basic web server  
 
 #azure-compute-service #azure-serverless-service
