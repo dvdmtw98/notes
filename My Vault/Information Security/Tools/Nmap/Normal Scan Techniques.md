@@ -23,7 +23,8 @@ The results returned by Ping Sweep is not very accurate. Active devices are some
 
 #### Disables Ping Scan
 
-All hosted are treated as online and Scan for top 1000 ports is performed. Useful if ICMP packets are filtered
+All hosted are treated as online and Scan for top 1000 ports is performed  
+Useful if ICMP packets are filtered
 
 ````bash
 nmap -Pn <ip-address>
@@ -61,7 +62,8 @@ Unreachable : Filtered
 
 #### UDP Connect Scan
 
-If the port is closed the service will respond using an ICMP (ping) packet
+If the port is closed the service will respond using an ICMP (ping) packet  
+UDP Scans are mostly only ran on top 1000 ports as it is a very slow scan
 
 ````bash
 nmap -sU <ip-address>

@@ -4,7 +4,7 @@ tags: [list, show]
 title: Show List
 ---
 
-### English Shows
+### Western Shows
 
 | No. | Name                | Release        | Seasons |
 |:---:|:------------------- | -------------- | ------- |

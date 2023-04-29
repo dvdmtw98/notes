@@ -4,7 +4,7 @@ tags: [list, movie]
 cssclass: numbered-rows
 ---
 
-### English Movies
+### Western Movies
 
 | No. | Names                                          | Release |
 | --- | ---------------------------------------------- | ------- |
@@ -83,7 +83,11 @@ cssclass: numbered-rows
 |     | The Untouchables                               | 1987    |
 |     | The Warriors                                   | 1979    |
 |     | The Wicker Man                                 | 1973    |
-|     | The Princess Bride                             | 1987    | 
+|     | The Princess Bride                             | 1987    |
+|     | 127 Hours                                      | 2010    |
+|     | A Separation                                   | 2011    |
+|     | Dr. Strangelove                                | 1964    |
+|     | Gattaca                                        | 1997    | 
 
 ### Asian Movies
 
@@ -97,12 +101,15 @@ cssclass: numbered-rows
 |     | Seven Samurai        | 1954    |
 |     | Yojimbo              | 1961    |
 |     | Hard Boiled          | 1992    |
-|     | Bedevilled           | 2010    |
 |     | Enter the Dragon     | 1973    |
 |     | In the Mood for Love | 2000    |
 |     | One Cut of the Dead  | 2017    |
 |     | Nobody Knows         | 2004    |
 |     | Lady Snowblood       | 1973    |
+|     | Chungking Express    | 1994    |
+|     | Cure                 | 1997    |
+|     | Fallen Angels        | 1995    |
+|     | House                | 1977    | 
 
 ### Animated Movies
 

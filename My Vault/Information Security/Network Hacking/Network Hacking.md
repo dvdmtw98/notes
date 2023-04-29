@@ -2,12 +2,10 @@
 title: Network Hacking
 ---
 
+### Pre-Connection Attacks
 
 * [Changing MAC Address](Changing%20MAC%20Address.md)
 * [Enabling Monitor Mode](Enabling%20Monitor%20Mode.md)
-
-### Pre-Connection Attacks
-
 * [Packet Sniffing](Packet%20Sniffing.md)
 * [De-Authentication Attack](De-Authentication%20Attack.md)
 
@@ -31,6 +29,4 @@ title: Network Hacking
 * [DNS Spoofing Attack](DNS%20Spoofing%20Attack.md)
 * [Injecting JavaScript Code](Injecting%20JavaScript%20Code.md)
 
-### Tools and Services
-
-* [Nmap](../Tools/Nmap/Nmap.md)
+---

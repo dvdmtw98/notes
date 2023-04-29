@@ -5,24 +5,23 @@ title: Network Mapping (Information Gathering)
 #### NetDiscover
 
 ````bash
-sudo netdiscover
-sudo netdiscover -p # Passive Scan
-sudo netdiscover -i eth0 # Scan an specific Interface
+# Scan a specific Interface
+sudo netdiscover -i eth0
+
 sudo netdiscover -i <interface> -r <ip-address>
 ````
 
-#### Nmap/ Zenmap
+#### Nmap
 
 ````bash
 # Ping Scan
 nmap -sn <ip-address> 
+
 # Quick Scan
 nmap -sS -T4 -F <ip-address> 
-# Quick Scan Plus
-nmap -sV -O -F -T4 --version-light <ip-address>
 ````
 
-### Arp-Scan
+#### Arp Scan
 
 ````shell
 # Causes lot on noise on Network

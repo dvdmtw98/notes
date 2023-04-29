@@ -56,7 +56,6 @@ The output file has no extension as the converted data is not necessarily a text
 <u> HTTP Server</u>
 
 ````bash
-python -m SimpleHTTPServer <port-no>
 python3 -m http.server <port-no>
 ````
 

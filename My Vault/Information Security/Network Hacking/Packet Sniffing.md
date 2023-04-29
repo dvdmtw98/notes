@@ -2,19 +2,19 @@
 title: Packet Sniffing
 ---
 
-1. <u>Sniff Packets on 2.4GHz Network</u>
+<u>Sniff Packets on 2.4GHz Network</u>
 
 ````bash
 airodump-ng <interface>
 ````
 
-2. <u>Sniff Packets on 5GHz Networks</u>
+<u>Sniff Packets on 5GHz Networks</u>
 
 ````bash
 airodump-ng --band a wlan0
 ````
 
-3. <u>Sniff Packets on 2.4GHz and 5GHz Networks</u>
+<u>Sniff Packets on 2.4GHz and 5GHz Networks</u>
 
 ````bash
 airodump-ng --band abg wlan0
@@ -35,7 +35,7 @@ Cipher : Cipher used
 Auth : Authentication method used  
 ESSID : Name of Wireless Network
 
-4. <u>Sniff Packets on Specific Network</u>
+<u>Sniff Packets on Specific Network</u>
 
 ````bash
 airodump-ng --bssid <router-bssid> --channel <channel> --write <filename> <interface>
