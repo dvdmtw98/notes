@@ -7,13 +7,15 @@ tags: [security, index]
 
 * [Algorithms](Algorithms/Algorithms.md)
 * [Introductory Concepts](Introductory%20Concepts/Introductory%20Concepts.md)
-	* [Malware](Malware/Malware.md)
-* [Information Gathering](Information%20Gathering.md)
-* [Service Enumeration](Service%20Enumeration/Service%20Enumeration.md)
+	* [Malware](Introductory%20Concepts/Malware/Malware.md)
+* [Information Gathering](Information%20Gathering/Information%20Gathering.md)
+	* [Service Enumeration](Information%20Gathering/Service%20Enumeration.md)
+	* [Web App Enumeration](Exploitation/Web%20App%20Exploitation/Web%20App%20Enumeration.md)
+* [Exploitation](Exploitation/Exploitation.md)
+	* [Windows Exploitation](Exploitation/Windows%20Exploitation/Windows%20Exploitation.md)
+	* [Web App Exploitation](Exploitation/Web%20App%20Exploitation/Web%20App%20Exploitation.md)
 * [Access Management](Access%20Management/Access%20Management.md)
-* [Windows Exploitation](Windows%20Exploitation/Windows%20Exploitation.md)
 * [Password Cracking](Password%20Cracking/Password%20Cracking.md)
-* [Web App Exploitation](Web%20App%20Exploitation/Web%20App%20Exploitation.md)
 * [Network Hacking](Network%20Hacking/Network%20Hacking.md)
 
 ### Tools and Services

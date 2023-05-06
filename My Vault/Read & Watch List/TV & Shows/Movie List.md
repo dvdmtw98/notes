@@ -87,7 +87,10 @@ cssclass: numbered-rows
 |     | 127 Hours                                      | 2010    |
 |     | A Separation                                   | 2011    |
 |     | Dr. Strangelove                                | 1964    |
-|     | Gattaca                                        | 1997    | 
+|     | Gattaca                                        | 1997    |
+|     | Investigation of a Citizen Above Suspicion     | 1970    |
+|     | Irréversible                                   | 2002    |
+|     | Monty Python's Life of Brian                   | 1979    | 
 
 ### Asian Movies
 
@@ -113,14 +116,14 @@ cssclass: numbered-rows
 
 ### Animated Movies
 
-|No.|Names|Release|
-|---|-----|-------|
-||The Iron Giant|1999|
-||Persepolis|2000|
-||Klaus|2019|
-||The Mitchells vs. the Machines|2021|
-||The Little Prince|2016|
-||Tim Burton's The Nightmare Before Christmas|1993|
-||Wallace & Gromit: The Curse of the Were-Rabbit|2005|
+| No. | Names                                          | Release |
+| --- | ---------------------------------------------- | ------- |
+|     | The Iron Giant                                 | 1999    |
+|     | Persepolis                                     | 2000    |
+|     | Klaus                                          | 2019    |
+|     | The Mitchells vs. the Machines                 | 2021    |
+|     | The Little Prince                              | 2016    |
+|     | Tim Burton's The Nightmare Before Christmas    | 1993    |
+|     | The Triplets of Belleville                     | 2003    | 
 
 [Read & Watch List](../Read%20&%20Watch%20List.md)

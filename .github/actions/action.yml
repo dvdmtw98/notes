@@ -38,7 +38,7 @@ runs:
         with:
             python-version: "3.11"
       - name: Setup Google Analytics
-        uses: microsoft/variable-substitution@v1
+        uses: TomaszKandula/variable-substitution@v1.0.1
         with:
           files: 'mkdocs/mkdocs.yml'
         env:

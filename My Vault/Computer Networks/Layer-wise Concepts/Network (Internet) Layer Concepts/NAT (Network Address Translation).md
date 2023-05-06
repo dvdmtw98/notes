@@ -6,21 +6,45 @@ tags: [networking, network, nat]
 Converts Private IP Address to Public IP Address  
 Allows to map multiple private IP Addresses to a single public IP
 
-<u>Working</u>  
-Router has 2 interfaces - public interface (Assume 145.12.131.7) and private interface (Default Gateway)  
-Search for google.com (215.58.194.174,80) we are making an HTTP request to google server for this we need to open an high dynamic port on our device (Assume 50111)
+[NAT Explained | Overload, Dynamic & Static - YouTube](https://www.youtube.com/watch?v=qij5qpHcbBk)  
+[Network Address Translation - YouTube](https://www.youtube.com/playlist?list=PLIFyRwBY_4bQ7tJvbLA9A0v8Fq9l-H923)
 
-**Step 1**: Send request to Google server at port 80 from our device (Assume 192.168.1.100) on port 50111. We are listening for response on port 50111  
-**Step 2**: NAT maps private IP and port to public IP and port. This information (mapping) is stored in the NAT translation table  
-**Step 3**: Router will forward the packet to google web server using the public IP address and public high dynamic port  
-**Step 4**: Google sends back reply on our public IP address for the public high dynamic port from its IP and port 80  
-**Step 5**: On our router NAT looks for the mapping for the incoming request  
+### Types of NAT
+
+#### Static NAT (SNAT)
+Translates private IP Address to a fixed public IP Address  
+If multiple devices on the network, for each device a public IP Address is required  
+SNAT does not utilize a NAT table  
+
+This type of NAT is used on Web Servers that are exposed publicly where the port is fixed  
+Static NAT does not converse any IP Addresses
+
+#### Dynamic NAT (DNAT)
+Maps each private IP Address to a different public IP Address (Modifies Layer 3 header)  
+
+The private to public address mapping is performed using a Pool of reserved public address  
+The public IP is selected dynamically from the pool
+
+#### PAT (Port Address Translation)
+It is also a type of DNAT. Most commonly used in home networks  
+It is also called NAT Overloading, Network & Port Translation (NAPT) & IP Masquerading
+
+Maps multiple private IP Address to a single public IP Address by changing the IP Address & port number (Modify Layer 3 & Layer 4 headers)  
+
+---
+
+### Working
+
+Router has 2 interfaces: Public and Private  
+Lets assume we want to connect to google.com from our Laptop
+
+**Step 1**: Generate a request to sent to Google Server which is listening on port 80 from our devices Private IP Address on a Random High Port  
+**Step 2**: NAT maps our devices private IP and port to its public IP and random port. This information (mapping) is stored in the NAT translation table. If there is no port conflict then the port number is not changed by NAT  
+**Step 3**: Router will forward the packet to google web server which will appear to have originated from the public IP address of our router   
+**Step 4**: Google sends back reply on our public IP address  
+**Step 5**: NAT looks for the destination IP Address and Port and looks mapping that matches the incoming request  
 **Step 6**: The packet is forwarded to the appropriate device on the LAN
 
 ![NAT Table|650](../../images/nat-table.png)
 
-### Types of NAT
-
-* **Static NAT (SNAT)** : One Public IP mapped to one Private IP statically
-* **Dynamic NAT (DNAT)** : Maps single private IP Address to a single public IP Address  (Modifies Layer 3 header). If there are multiple private IPs then a similar amount of public IP Addresses also required for translation. The private IP is assigned dynamically to the private IP.
-* **PAT (Port Address Translation)** : Type of DNAT. Maps multiple private IP Address with a single public IP Address by changing the IP Address & port numbers (Modify Layer 3 & Layer 4 headers). It is also called port overloading, Network & Port Translation (NAPT) & IP Masquerading
+[Network (Internet) Layer Concepts](Network%20(Internet)%20Layer%20Concepts.md)

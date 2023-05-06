@@ -29,9 +29,9 @@ Use "db_status" to check the status of the DB
 
 ### Types of Modules
 
-- **Exploits**: Code that takes advantage of Vulnerability (uses Payloads)
+- **Exploits**: Code that takes advantage of Vulnerability
 - **Payloads**: Code that runs remotely (Reverse Shell, Meterpreter)
-- **Auxiliary**: Modules used for port scanning, fuzzing, sniffing etc. (Information Gathering)
+- **Auxiliary**: Modules used for port scanning, fuzzing, sniffing etc. (Enumeration)
 - **NOPS**: Helps to keep the payload size same across exploits (used for Buffer Overflow)
 - **POST**: Post Exploitation Actions (Clearing Tracks, Keyloggers)
 - **Encoders**: Ensure the payload is delivered intact (Evade Security)
@@ -39,14 +39,7 @@ Use "db_status" to check the status of the DB
 
 Location of Modules : `/usr/share/metasploit-framework/modules/`
 
-### Payload Types
-
-| Stagged Payload                                                                                                 | Unstagged Payload                                       |
-| --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| When using Stagged Payload a small part of the payload is downloaded and then rest of the payload is downloaded | Unstagged Payload the entire code is executed in one go |
-| They cannot be listened to using Netcat we have to use Metasploit multi/handler                                 | Netcat listener can be used to listen to them           |
-
-### Load Resource Scripts
+#### Load Resource Scripts
 
 ````bash
 # Extension: .rc
