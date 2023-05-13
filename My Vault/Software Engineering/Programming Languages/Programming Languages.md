@@ -3,20 +3,21 @@ title: Programming Languages
 tags: [programming, index]
 ---
 
-### Programming Languages
+### Programming
 
 * [C](C/C.md)
 * [C#](C%20Sharp/C%20Sharp.md)
 * [Python](Python/Python.md)
 * [Bash](../../Operating%20System/Linux/Shell%20Scripting/Bash.md)
+* [Rust](Rust/Rust.md)
 
 ### Web Development
 
 * [CSS](CSS/CSS.md)
 * [JavaScript](JavaScript/JavaScript.md)
-* [ASP.NET](ASP.NET/ASP.NET.md)
 * [Node.js](Node.js/Node.js.md)
 * [Svelte](Svelte/Svelte.md)
+* [ASP.NET](ASP.NET/ASP.NET.md)
 
 ---
 

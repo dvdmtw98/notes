@@ -29,8 +29,6 @@ Small and simple web apps
 Background jobs  
 Scheduled Scripts  
 
-#azure-serverless-service 
-
 ---
 
 [Azure Compute Services](Azure%20Compute%20Services.md)

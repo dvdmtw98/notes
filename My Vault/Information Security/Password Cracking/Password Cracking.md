@@ -10,3 +10,9 @@ tags: [security, password, index]
 * [Hydra](Hydra.md)
 
 ---
+
+**Credential Stuffing**  
+A collection of stolen login credentials from one service is used to attempt to break into accounts on various accounts
+
+**Password Spraying**  
+Using a single common password against multiple accounts on the same application

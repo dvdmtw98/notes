@@ -7,8 +7,10 @@ title: Python
 1. **Theoretical Concepts**
 	* [Association, Aggregation and Composition](../../Software%20Concepts/Association,%20Aggregation%20and%20Composition.md)
 	* [Reference Type vs. Value Type](../../Software%20Concepts/Reference%20Type%20vs.%20Value%20Type.md)
-	* [Memory Management](Theoretical%20Concepts/Memory%20Management.md)
-2. **Fundamental Concepts**
+	* [Memory Management (Programming Languages)](../../Software%20Concepts/Memory%20Management%20(Programming%20Languages).md)
+		* [Python Memory Management](Theoretical%20Concepts/Python%20Memory%20Management.md)
+		* [Stack and Heap Memory](../../Software%20Concepts/Stack%20and%20Heap%20Memory.md)
+1. **Fundamental Concepts**
 	* [Bitwise Operator](Fundamental%20Concepts/Bitwise%20Operator.md)
 	* [Python Strings](Fundamental%20Concepts/Python%20Strings.md)
 		* [Python String Formatting](Fundamental%20Concepts/Python%20String%20Formatting.md)
@@ -19,7 +21,7 @@ title: Python
 		* [Python Generators](Fundamental%20Concepts/Python%20Generators.md)
 	* [Python Exception Handling](Fundamental%20Concepts/Python%20Exception%20Handling.md)
 	* [Python File Operations](Fundamental%20Concepts/Python%20File%20Operations.md)
-3. **Object Oriented Concepts**
+2. **Object Oriented Concepts**
 	* [Python Classes](Object%20Oriented%20Concepts/Python%20Classes.md)
 	* [Python Constructor](Object%20Oriented%20Concepts/Python%20Constructor.md)
 	* [Python Methods](Object%20Oriented%20Concepts/Python%20Methods.md)
@@ -29,7 +31,7 @@ title: Python
 	* [Python Inheritance](Object%20Oriented%20Concepts/Python%20Inheritance.md)
 	* [Python Method Overriding](Object%20Oriented%20Concepts/Python%20Method%20Overriding.md)
 	* [Python Abstract Class & Method](Object%20Oriented%20Concepts/Python%20Abstract%20Class%20&%20Method.md)
-4. **Advanced Concepts**
+3. **Advanced Concepts**
 	- [Python Metaclasses](Advanced%20Concepts/Python%20Metaclasses.md)
 	- [Python Variable Scopes](Advanced%20Concepts/Python%20Variable%20Scopes.md)
 	- [Python Async Programming](Advanced%20Concepts/Python%20Async%20Programming.md)

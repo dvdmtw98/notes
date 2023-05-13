@@ -3,25 +3,6 @@ title: Memory Management
 tags: [programming, python, software, concept]
 ---
 
-### Heap and Stack Memory
-
-The Heap is used to hold the **actual** value of the reference type objects (The reference variable is stored in the stack)
-
- > [!important]
- > * Memory Heap is not the same as the Data Structure Heap
- > * Memory Heap is free space reserved for storing values that are required by the program
-
-The Stack memory is used to hold the the value type objects
-
-![Memory Structure|450](../images/memory-structure.png)
-
-Each function in the program gets its own Stack Frame in the stack memory  
-Each frame stores some metadata along with it which helps to identify the scope of the variables (Local and Global variables)  
-Classes are created in the Heap memory and the methods of the class are created on the Stack memory from where they interact with the object in the Heap  
-Stack Frame is removed from memory as soon as the function/ method is returned
-
----
-
 ### Reference Counting
 
 Internally every object in Python holds three things : Its type, value and reference count  

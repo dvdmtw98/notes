@@ -6,10 +6,11 @@ tags: [networking, network, nat]
 Converts Private IP Address to Public IP Address  
 Allows to map multiple private IP Addresses to a single public IP
 
-[NAT Explained | Overload, Dynamic & Static - YouTube](https://www.youtube.com/watch?v=qij5qpHcbBk)  
-[Network Address Translation - YouTube](https://www.youtube.com/playlist?list=PLIFyRwBY_4bQ7tJvbLA9A0v8Fq9l-H923)
 
 ### Types of NAT
+
+[NAT Explained | Overload, Dynamic & Static - YouTube](https://www.youtube.com/watch?v=qij5qpHcbBk)  
+[Network Address Translation - YouTube](https://www.youtube.com/playlist?list=PLIFyRwBY_4bQ7tJvbLA9A0v8Fq9l-H923)
 
 #### Static NAT (SNAT)
 Translates private IP Address to a fixed public IP Address  
@@ -45,6 +46,6 @@ Lets assume we want to connect to google.com from our Laptop
 **Step 5**: NAT looks for the destination IP Address and Port and looks mapping that matches the incoming request  
 **Step 6**: The packet is forwarded to the appropriate device on the LAN
 
-![NAT Table|650](../../images/nat-table.png)
+![PAT Working|650](../../images/nat-table.png)
 
 [Network (Internet) Layer Concepts](Network%20(Internet)%20Layer%20Concepts.md)
