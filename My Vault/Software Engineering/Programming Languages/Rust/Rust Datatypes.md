@@ -21,7 +21,9 @@ fn main() {
 
 Rust has two types of strings: `String` and `&str`  
 String is stored in heap memory and can be mutated  
-&str (String Slice) is used to view into string. It has fixed size. String literals are denoted by slices
+
+&str (String Slice) is used to view into a string. It has fixed size  
+String literals are denoted by slices
 
 ### Compound Datatypes
 
@@ -39,4 +41,5 @@ println!("Array Index 1 Value: {}", array[1]);
 
 // Array of Size 8 with all values initialized to 0
 let array2 = [0; 8];
-println!("{:?}", ar
+println!("{:?}", array2);
+```

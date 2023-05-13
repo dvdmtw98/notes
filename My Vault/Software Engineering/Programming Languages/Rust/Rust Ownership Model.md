@@ -35,16 +35,16 @@ In Rust the value of string1 is copied to string2 (Rule 2) and then string1 is i
 Since string1 is invalidated unlike in shallow copy Rust calls this operation as **Move**  
 This causes the ownership of the variable to be passed to string2 from string1
 
-![Move Operation|280](images/move-operation.svg)
+![Move Operation|280](images/move-operation.png)
 
 ```rust
 let string2 = string1.clone();
 println!("{}", string1);
 ```
 
-The `clone()` method has to used to perform the more expensive (deep) copy operation  
+The `clone()` method has to be used to perform the more expensive (deep) copy operation  
 
-![Copy Operation|280](images/copy-operation.svg)
+![Copy Operation|280](images/copy-operation.png)
 
 The scalar datatypes implement a Trait called Copy which allows them to be copied automatically
 
@@ -82,7 +82,7 @@ fn takes_and_gives_ownership(input_string: String) -> String {
 Instead of assigning the ownership of a value to different variables we can pass the reference to the value to another variable (borrow the value from owner)  
 Since the variable that borrowed the value does not own the value when it goes out of scope the value is not cleared
 
-![Borrow Value|500](../../../borrow-value.svg)
+![Borrow Value|500](images/borrow-value.png)
 
 ```rust
 fn main() {
@@ -100,7 +100,7 @@ fn calculate_length(input_string: &String) -> usize {
 References are immutable by default. We cannot use them to modify the data  
 To mutate data using references we must create a mutable reference (`&mut var1`)  
 
-In a given scope there can only be a single mutable reference to a specific data
+In a given scope there can only be a single mutable reference to specific data
 
 ```rust
 // Below code will result in Panic (Two mutable reference to same data)
@@ -111,7 +111,7 @@ let ref2 = &mut s1;
 println!("Ref1: {}\nRef2: {}", ref1, ref2);
 ```
 
-If we create a immutable reference we cannot have a mutable reference to the same data as long as the immutable reference is in scope (Reverse is also true)
+If we create an immutable reference we cannot have a mutable reference to the same data as long as the immutable reference is in scope (Reverse is also true)
 
 ```rust
 // Below code is valid (Will compile properly)

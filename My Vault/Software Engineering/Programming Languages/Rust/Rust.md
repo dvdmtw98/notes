@@ -17,9 +17,10 @@ tags: [rust, programming, index]
 
 ---
 
-### Best Practice's & Coding Conventions
+### Best Practices & Coding Conventions
 
 - Variable, Function, Method and Module names should follow snake case  
+- Enums, Traits and Types should be written in Pascal Case
 
 ---
 
