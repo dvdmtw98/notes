@@ -4,7 +4,7 @@ tags: [programming, c]
 ---
 
 Allows us to pass variables by its reference (address)  
-Accessing a value using its address of the pointer is called **dereferencing the pointer**
+Accessing a value using the address of the pointer is called **dereferencing the pointer**
 
 `*` : Value at Address Operator  
 `&` : Address of Operator  

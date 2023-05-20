@@ -29,7 +29,7 @@ The `.iter()` method is used to iterate over a array and the `.iter().enumerate(
 
 ```rust
 let array = [1, 2, 3, 4, 5, 6, 7, 8];
-for (index, element) in array.iter().enumerate() {
+for (index, &element) in array.iter().enumerate() {
 	println!("Value at Index {}: {}", index, element);
 }
 ```

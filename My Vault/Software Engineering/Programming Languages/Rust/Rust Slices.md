@@ -4,14 +4,14 @@ tags: [rust, programming, slices]
 ---
 
 Allows to reference a contiguous sequence of elements in a collection without having to use the entire collection  
-Similar to references slices do not take ownership of the underlying data  
+Similar to references slices, do not take ownership of the underlying data  
 String Literals are string slices (They slice to the location in the binary containing the string)
 
 Slices work by storing a reference to the first element of the collection and a length  
 
 ![Slice Type|280](images/slice-type.png)
 
-String and String Literals are also both a type of String Slice
+String are also a type of String Slice
 
 ```rust
 fn main() {
@@ -25,7 +25,7 @@ fn first_word(string: &str) -> &str {
     let string_array = string.as_bytes();
     for (index, &char) in string_array.iter().enumerate() {
         if char == b' ' {
-            return &string[..index];
+            &string[..index];
         }
     }
 
