@@ -10,6 +10,7 @@ tags: [rust, programming, index]
 		- [Stack and Heap Memory](../../Software%20Concepts/Stack%20and%20Heap%20Memory.md)
 		- [Rust Ownership Model](Rust%20Ownership%20Model.md)
 	- [Rust Module System](Rust%20Module%20System.md)
+		- [Rust Module Namespace](Rust%20Module%20Namespace)
 1. **Fundamental Concepts**
 	- [Rust Datatypes](Rust%20Datatypes.md)
 	- [Rust Functions](Rust%20Functions.md)
@@ -18,6 +19,7 @@ tags: [rust, programming, index]
 	- [Rust Slices](Rust%20Slices.md)
 	- [Rust Structs](Rust%20Structs.md)
 	- [Rust Enums](Rust%20Enums.md)
+	- [Rust Collections](Rust%20Collections)
 
 ---
 
@@ -47,6 +49,7 @@ cargo install <binary-name>
 - Variable, Function, Method and Module names should follow snake case  
 - Enums, Traits and Types should be written in Pascal Case
 - Constant names should be written in All Caps
+- When using functions it is idiomatic in Rust to bring the parent module into scope
 
 ---
 

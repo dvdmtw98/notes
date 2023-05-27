@@ -69,15 +69,15 @@ The `src/main.rs` and `src/lib.rs` files are called root crates as they form the
 So even if we do not create any module using the `mod` keyword our code will contain a module called `crate` i.e. the root crate
 
 ```rust
-crate
- └── front_of_house
-     ├── hosting
-     │   ├── add_to_waitlist
-     │   └── seat_at_table
-     └── serving
-         ├── take_order
-         ├── serve_order
-         └── take_payment
+crate modules
+└── mod front_of_house: pub(crate)
+    ├── mod hosting: pub(self)
+    │   ├── fn add_to_wait_list: pub(self)
+    │   └── fn seat_at_table: pub(self)
+    └── mod serving: pub(self)
+        ├── fn serve_order: pub(self)
+        ├── fn take_order: pub(self)
+        └── fn take_payment: pub(self)
 ```
 
 Modules that are at the same level `hosting` and `serving` as called sibling modules

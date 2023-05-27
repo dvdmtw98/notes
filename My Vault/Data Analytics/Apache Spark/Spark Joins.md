@@ -5,8 +5,6 @@ tags: [analytics, spark]
 
 Joins use more shuffles than any other process in Spark. It always leads to bad performance
 
----
-
 ### Broadcast Hash Join (Map Side Join/ Replicated Join)
 
 * Used when we want to compare a small and large table
@@ -20,8 +18,6 @@ empDF.join(broadcast(deptDF), empDF.emp_dept_id == deptDF.dept_id, "inner").show
 ````
 
 ![Broadcast Joins|550](images/broadcast-join.jpg)
-
----
 
 ### Shuffle Hash Join
 
@@ -37,8 +33,6 @@ If we try to join normally for similar data we need to access all the partitions
 
 ![Shuffle Hash Join 2|400](images/shuffle-hash-join-2.png)
 
----
-
 ### Sort Merge Join
 
 * Used to join very large tables
@@ -47,8 +41,6 @@ If we try to join normally for similar data we need to access all the partitions
 * The join key needs to be orderable (sortable) for this algorithm to work
 
 ![Sort Merge Join|550](images/sort-merge-join.jpg)
-
----
 
 **<u>References</u>**:
 

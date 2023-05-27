@@ -22,7 +22,7 @@ Provides Libraries for various workloads/ types of data:
 ---
 
 Spark can be run on YARN, Mesos, Kubernetes, EMR (Elastic MapReduce) or Standalone Mode  
-80% of the time YARN is used
+Most of the time YARN is used
 
 Spark has no limitation on the type of data source and destination it can be anywhere  
 Spark does not have an inbuilt storage solution so we need to provide an distributed storage environment  

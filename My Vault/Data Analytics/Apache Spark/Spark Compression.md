@@ -30,8 +30,6 @@ spark.conf.set("spark.sql.parquet.compression.codec","gzip")
 ds.write.format("parquet").option("compression","gzip").save("file:///home/ak/data/dsgzip")
 ````
 
----
-
 **<u>References</u>**:
 
 * [Choosing a Data Compression Format | 5.6.x | Cloudera Documentation](https://docs.cloudera.com/documentation/enterprise/5-6-x/topics/admin_data_compression_performance.html)
