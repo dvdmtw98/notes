@@ -19,6 +19,12 @@ fn main() {
 }
 ```
 
+Rust has two types of strings: `String` and `&str`  
+String is stored in heap memory and can be mutated  
+
+&str (String Slice) is used to view into a string. It has fixed size  
+String literals are also denoted using slices. Literals are saved directly in the binary file
+
 ### Compound Datatypes
 
 Tuples and Arrays are both fixed length  

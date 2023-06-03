@@ -81,6 +81,10 @@ fn main() {
 }
 ```
 
+### Unit Structs
+
+[Defining and Instantiating Structs - The Rust Programming Language](https://doc.rust-lang.org/book/ch05-01-defining-structs.html)
+
 ### Methods
 
 Methods are functions that are defined within the context of the struct  

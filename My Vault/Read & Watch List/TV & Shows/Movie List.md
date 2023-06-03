@@ -90,7 +90,10 @@ cssclass: numbered-rows
 |     | Gattaca                                        | 1997    |
 |     | Investigation of a Citizen Above Suspicion     | 1970    |
 |     | Irréversible                                   | 2002    |
-|     | Monty Python's Life of Brian                   | 1979    | 
+|     | Monty Python's Life of Brian                   | 1979    |
+|     | Manchester by the Sea                          | 2016    |
+|     | Silence                                        | 2016    |
+|     | The Florida Project                            | 2017    | 
 
 ### Asian Movies
 
@@ -112,7 +115,10 @@ cssclass: numbered-rows
 |     | Chungking Express    | 1994    |
 |     | Cure                 | 1997    |
 |     | Fallen Angels        | 1995    |
-|     | House                | 1977    | 
+|     | House                | 1977    |
+|     | Maborosi             | 1995    |
+|     | Our Little Sister    | 2015    |
+|     | Tampopo              | 1985    | 
 
 ### Animated Movies
 

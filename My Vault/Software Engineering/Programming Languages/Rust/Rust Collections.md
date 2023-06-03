@@ -74,10 +74,90 @@ match &row[1] {
 
 #### Strings
 
-It is an collection of UTF-8 encoded characters
+It is an collection of UTF-8 encoded characters. String is a wrapper over `Vec<u8>`
+In UTF-8 characters can be represented using anywhere from 1 to 4 bytes  
+Since string as UTF-8 encoded even characters from other languages can be stored in them
 
-Rust has two types of strings: `String` and `&str`  
-String is stored in heap memory and can be mutated  
+```rust
+let mut string = String::from("Hello");
+string.push_str(" World");
+string.push('!');
+println!("{}", string);
+```
 
-&str (String Slice) is used to view into a string. It has fixed size  
-String literals are denoted by slices
+Multiple strings can be joined together using the `+` operator or using the `format!()` macro
+
+```rust
+let str1 = String::from("Hello");
+let str2 = String::from("World");
+let str3 = String::from("!");
+println!("{}", format!("{str1} {str2}{str3}"));
+```
+
+The below string contains 12 characters but requires 24 bytes to be stored in memory  
+Since different characters can have different lengths we cannot index into a string
+
+```rust
+let hello = String::from("Здравствуйте");
+```
+
+Additionally, there are three relevant ways to look at a string. As bytes (`u8`), scalar values (Rust char type representation) and grapheme clusters (Human characters)  
+
+```rust
+let hello = "Здравствуйте";
+let result = &hello[0..6]; // Slice 1st three characters
+```
+
+While it is not possible to index over a String it is possible to create a string slice but since characters can be represented using different lengths the output could be different from what is expected
+
+[Storing UTF-8 Encoded Text with Strings - The Rust Programming Language](https://doc.rust-lang.org/book/ch08-02-strings.html)
+
+```rust
+let welcome = String::from("नमस्ते");
+for char in welcome.chars() {
+	println!("{}", char);
+}
+```
+
+`.bytes()`: Iterate over Bytes  
+`.chars()`: Iterate over Rust Char represent of string  
+`.graphemes(true)`: Iterate over graphemes (Import from `unicode-segmentation` Crate)
+
+#### HashMap
+
+Used to represent Key Value pair data
+
+```rust
+let mut dictionary = HashMap::new();
+
+dictionary.insert(String::from("Blue"), 10);
+dictionary.insert(String::from("Red"), 8);
+```
+
+If we pass a variable denoting a String as key the dictionary will get ownership of the value
+
+```rust
+let result = dictionary
+	.get(&String::from("Blue"))
+	.expect("Requested Key not Found");
+println!("{}", result);
+
+for (key, value) in &dictionary {
+	println!("Key: {} -> Value: {}", key, value);
+}
+```
+
+For fetching a value and iteration we need to borrow the reference to the value
+
+```rust
+let mut word_map = HashMap::new();
+let string = "Hello Hello Wonderful World";
+
+for word in string.split_whitespace() {
+	let count = word_map.entry(word).or_insert(0);
+	*count += 1;
+}
+println!("{:?}", word_map);
+```
+
+`.or_insert()` methods returns an mutable reference to the value of the selected key. We can use this reference to modify the value

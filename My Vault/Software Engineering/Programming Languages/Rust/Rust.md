@@ -10,16 +10,20 @@ tags: [rust, programming, index]
 		- [Stack and Heap Memory](../../Software%20Concepts/Stack%20and%20Heap%20Memory.md)
 		- [Rust Ownership Model](Rust%20Ownership%20Model.md)
 	- [Rust Module System](Rust%20Module%20System.md)
-		- [Rust Module Namespace](Rust%20Module%20Namespace)
+		- [Rust Module Namespace](Rust%20Module%20Namespace.md)
 1. **Fundamental Concepts**
 	- [Rust Datatypes](Rust%20Datatypes.md)
 	- [Rust Functions](Rust%20Functions.md)
 	- [Rust Control Flow](Rust%20Control%20Flow.md)
-		- [Rust Match Expression](Rust%20Match%20Expression)
+		- [Rust Match Expression](Rust%20Match%20Expression.md)
 	- [Rust Slices](Rust%20Slices.md)
 	- [Rust Structs](Rust%20Structs.md)
 	- [Rust Enums](Rust%20Enums.md)
-	- [Rust Collections](Rust%20Collections)
+	- [Rust Collections](Rust%20Collections.md)
+	- [Rust Error Handling](Rust%20Error%20Handling.md)
+3. **Advanced Concepts**
+	- [Rust Generics](Rust%20Generics.md)
+	- [Rust Traits](Rust%20Traits.md)
 
 ---
 
@@ -34,6 +38,9 @@ cargo build
 
 # Compiles and runs code
 cargo run
+
+# Add Dependency to Project
+cargo add <crate-name>
 
 # Install a Rust Binary
 cargo install <binary-name>

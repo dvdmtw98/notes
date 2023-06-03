@@ -120,9 +120,9 @@ The value of `T` needs to be extracted from the Some Enum before it can be used
     println!("{}", result);
 ```
 
-`unwrap()` returns the Some value and panics of None is returned (Not recommended)  
+`unwrap()` returns the Some value and panics when None is returned (Not recommended)  
 `unwrap_or()` allows to define default value that will be used if value of Some is None  
-`unwrap_or_else()` returns Some value of calculates from a closure  
+`unwrap_or_else()` returns Some value or calculates value from a closure  
 `unwrap_or_default()` returns Some value or returns default value for the datatype
 
 [Option in std::option - Rust](https://doc.rust-lang.org/std/option/enum.Option.html)
