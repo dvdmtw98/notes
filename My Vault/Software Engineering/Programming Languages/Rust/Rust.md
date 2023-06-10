@@ -24,6 +24,7 @@ tags: [rust, programming, index]
 3. **Advanced Concepts**
 	- [Rust Generics](Rust%20Generics.md)
 	- [Rust Traits](Rust%20Traits.md)
+	- [Rust Lifetimes](Rust%20Lifetimes.md)
 
 ---
 

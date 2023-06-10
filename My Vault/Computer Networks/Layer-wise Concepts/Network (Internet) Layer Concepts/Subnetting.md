@@ -14,9 +14,15 @@ It also allows for more efficient routing via router summarization i.e. Routing 
 
 ### Fixed Length Subnetting
 
-Also called Fixed Length Subnet Mask (FLSM)  
 We borrow host bits to create smaller networks from a Class A, B or C network  
-We end up creating more networks but the amount of IP addresses available reduces  
+We end up with more networks but the amount of IP addresses in each network reduces  
+
+**Observation**  
+255.255.255.X: Every bit we borrow results in the subnet getting divided in half  
+
+255.255.255.0: 1 Network  
+255.255.255.128: 2 Network  
+255.255.255.192: 4 Network
 
 |     |     |     |     |  x  | Network | Addresses |
 |:---:|:---:|:---:|:---:|:---:|:-------:|:---------:|
@@ -36,8 +42,28 @@ We end up creating more networks but the amount of IP addresses available reduce
 |    32     | 0, 32, 64, 96, 128, 160, 192, 224                                      |
 |    16     | 0, 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, 240 | 
 
-If Subnet Mask contains 0 in Network IP it will be 0  
-If Subnet Mash contains 0 in Broadcast IP it will be 255
+[Professor Messer - Seven Second Subnetting - YouTube](https://www.youtube.com/watch?v=ZxAwQB8TZsM)
+
+**Step 1**: Using Chart convert IP Address and Subnet Mask to Decimal Notation  
+`/26`: 255.255.255.192  
+`/24`: 255.255.255.0  
+`/20`: 255.255.240.0
+
+**Step 2**: Calculate Network Address  
+If subnet mask is 255 bring down the address  
+If its 0, use 0
+
+For any other value based on value of x refer charts
+
+**Step 3**: Calculate Broadcast Address  
+If subnet mask is 255 bring down the address  
+If its 0, use 255
+
+For any other value based on value of x refer charts
+
+**Step 4**: Calculate Usage IPs  
+First IP = Network Address + 1  
+Last IP = Broadcast Address - 1
 
 #### Exercise
 
@@ -61,4 +87,3 @@ If Subnet Mash contains 0 in Broadcast IP it will be 255
 | Broadcast IP |        18.191.255.255         |
 | Usable Hosts | 169.160.0.1 - 169.191.255.254 | 
 
-[Professor Messer - Seven Second Subnetting - YouTube](https://www.youtube.com/watch?v=ZxAwQB8TZsM)

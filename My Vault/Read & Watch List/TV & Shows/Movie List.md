@@ -118,7 +118,6 @@ cssclass: numbered-rows
 |     | House                | 1977    |
 |     | Maborosi             | 1995    |
 |     | Our Little Sister    | 2015    |
-|     | Tampopo              | 1985    | 
 
 ### Animated Movies
 
