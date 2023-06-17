@@ -25,6 +25,6 @@ enum4linux -U -o <ip-address>
 # Nmap SMB Scripts
 nmap -p 445 --script=smb-enum-shares,smb-enum-users <ip-address>
 
-# Metasploit Auxiliary Modules
+# SMB Version (Metasploit)
 auxiliary/scanner/smb/smb_version
 ```

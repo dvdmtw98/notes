@@ -16,6 +16,7 @@ cssclass: numbered-rows, wide-page
 |     |        ![Dorohedoro\|72](images/dorohedoro.jpg)        |    Dorohedoro     |   Hayashida Q.   |           Fiction, Action, Fantasy           |         [Link](https://myanimelist.net/manga/1133/Dorohedoro)          | #completed |
 |     |       ![The Sandman\|72](images/the-sandman.jpg)       |    The Sandman    |   Neil Gaiman    |        Fiction, Dark Fantasy, Horror         | [Link](https://www.goodreads.com/book/show/23753.The_Absolute_Sandman) | #completed |
 |     |       ![The Horizon\|72](images/the-horizon.jpg)       |    The Horizon    |  Ji-Hoon Jeong   |          Fiction, Adventure, Drama           |        [Link](https://myanimelist.net/manga/125036/The_Horizon)        | #completed |
-|     |          ![akumetsu\|72](images/akumetsu.jpg)          |     Akumetsu      | Yoshiaki Tabata  |       Fiction, Drama, Action, Suspense       |          [Link](https://myanimelist.net/manga/1101/Akumetsu)           |  #reading  | 
+|     |          ![akumetsu\|72](images/akumetsu.jpg)          |     Akumetsu      | Yoshiaki Tabata  |       Fiction, Drama, Action, Suspense       |          [Link](https://myanimelist.net/manga/1101/Akumetsu)           | #completed |
+|     |           ![smashed\|72](images/smashed.jpg)           |      Smashed      |    Junji Ito     |        Fiction, Horror, Supernatural         |                                                                        |  #reading  | 
 
 [Read & Watch List](../Read%20&%20Watch%20List.md)
