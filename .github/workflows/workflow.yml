@@ -5,8 +5,8 @@ on:
   push:
     branches: [ main ]
     paths-ignore:
-      - "Read & Watch List/**"
-      - "Languages/**"
+      - "My Vault/Read & Watch List/**"
+      - "My Vault/Languages/**"
 
 jobs:
   digital-archive:

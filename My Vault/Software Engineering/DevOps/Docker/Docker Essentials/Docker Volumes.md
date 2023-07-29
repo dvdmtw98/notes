@@ -3,7 +3,7 @@ title: Docker Volumes
 tags: [docker, devops, container]
 ---
 
-Containers are supposed to be immutable and ephemeral  
+Containers are immutable and ephemeral  
 This is an issue if our application generates persistent data
 
 Docker has two solutions to deal with this problem:

@@ -129,5 +129,45 @@
       ],
       "key": "O"
     }
+  ],
+  "obsidian-wrap-with-shortcuts:wrap-with-shortcut-w1688287199614": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "obsidian-wrap-with-shortcuts:wrap-with-shortcut-w1688287338417": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
+    }
+  ],
+  "obsidian-wrap-with-shortcuts:wrap-with-shortcut-w1688287348399": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "3"
+    }
+  ],
+  "obsidian-wrap-with-shortcuts:wrap-with-shortcut-w1688287362677": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "4"
+    }
+  ],
+  "obsidian-wrap-with-shortcuts:wrap-with-shortcut-w1688287374384": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "5"
+    }
   ]
 }

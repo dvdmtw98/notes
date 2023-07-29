@@ -3,7 +3,7 @@ title: Hydra
 tags: [security, password]
 ---
 
-Used for online cracking i.e. to try and guess the password for the service
+Used for performing online password cracking
 
 ````bash
 hydra -l <username> -P <password-list> <ip-address> <service-name>
@@ -13,8 +13,7 @@ hydra -l <username> -P <password-list> <ip-address> <service-name>
 -L : List of Usernames  
 -p : Single Password  
 `-t <num>` : Number of tasks to run in parallel (Default : 16)  
--s : Service Port (If running on non-default port)
 
-When username is known make use of "rockyou" wordlist for cracking password
-
----
+> [!NOTE]
+> - For SSH set no. of parallel tasks (-t) to 4
+> - On new versions of Kali wide compatibility mode needs to be enabled for online cracking of SSH passwords of old systems

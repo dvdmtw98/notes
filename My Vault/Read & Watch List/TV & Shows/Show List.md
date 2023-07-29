@@ -19,7 +19,7 @@ title: Show List
 
 | No. | Name        | Release        | Seasons |
 | --- | ----------- | -------------- | ------- |
-|     | Asur        | 2020 - Present | 1\*     |
+|     | Asur        | 2020 - Present | 2\*     |
 |     | Beyond Evil | 2021           | 1       |
 
 ### Anime Shows

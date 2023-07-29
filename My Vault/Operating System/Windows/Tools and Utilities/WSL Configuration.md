@@ -5,12 +5,12 @@ tags: [os, windows, tool]
 
 ### Moving WSL to a Different Drive
 
-````batch
+```batch
 wsl --list -v
 
 wsl --shutdown
 wsl --terminate <distro-name>
-````
+```
 
 <u>Exporting Distro</u>
 

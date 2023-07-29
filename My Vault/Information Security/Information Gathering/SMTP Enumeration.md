@@ -3,7 +3,7 @@ title: SMTP Enumeration
 tags: [security, enumeration, smtp]
 ---
 
-1. <u>SMTP Username Enumeration</u>
+<u>SMTP Username Enumeration</u>
 
 ````bash
 nmap -p 25 --script smtp-commands <ip-address>

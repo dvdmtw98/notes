@@ -31,8 +31,6 @@ align-content : Set the spacing between the lines
  > [!note]
  > **align-content** has **no effect** if there is only one row of flex items
 
----
-
 ### Other Properties
 
 flex-wrap : Wrap the flex items if they cannot fit on the same line  

@@ -20,7 +20,7 @@ The bridge Network has its own DHCP and DNS server
 All the container connected to the same Virtual Network can communicate with each other without exposing any ports
 
  > [!NOTE]
- > * The default Bridge network does not have resolve Container DNS names
+ > * The default Bridge network does not resolve Container DNS names
  > * On this network containers can be connected to each other only by using the `--link` flag (This flag is considered legacy)
  > * It is recommended to always create a user-defined Bridge Network
  > * The **name of the container** is used as its **hostname** on the network (defaut)

@@ -37,8 +37,6 @@ Compaction is an very IO heavy operation and can greatly slow down the DB if not
 
 Most production databases maintain a Summary Table and [Bloom Filter](../../Software%20Engineering/Data%20Structures%20&%20Algorithms/Data%20Structures/Bloom%20Filter.md) to reduce the no. of random IO required to find data
 
----
-
 <u>References</u>:  
 [What is a LSM Tree? - DEV Community 👩‍💻👨‍💻](https://dev.to/creativcoder/what-is-a-lsm-tree-3d75)
 

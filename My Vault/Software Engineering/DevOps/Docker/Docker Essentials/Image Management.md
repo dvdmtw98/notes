@@ -3,17 +3,18 @@ title: Image Management
 tags: [docker, devops, container]
 ---
 
-An image can be taught of as a collection of binaries and dependencies along with metadata about image and how to run the image  
-Image has no kernel, drivers, etc. as the host system provides them
+Image: A program/software along with binaries and dependencies. Additionally, image also contains metadata about itself and instructions on how it can be executed.  
+Image does not contain kernel, drivers, etc. (Shared with host system)
 
-Docker Images are made up of layers. The starting blank layer is called as **scratch**  
-Docker uses **Union File System** to combine the multiple layers that makeup an image
+Docker Images are made up of layers. A blank image starts from with the layer **scratch**  
+Docker uses **Union File System (UFS)** to combine the multiple layers
 
-Each layer in a image is assigned a unique hash value  
+Each layer in a image has a unique hash value  
 If multiple images share a layer then that layer needs to be downloaded only once  
-When we run a container docker added an read/ write layer over the base image because of this a whole new copy of the image does not have to be created
+When we run a container an read/ write layer is added over the base image in which the program contained in the image is executed  
+Because of this the image that is used for creating the container is never modified
 
-A tag can be specified after the container name (Tag specifies the version of the container to be used) when downloading an image
+Tag specifies the version of the container to be used. Default tag is `latest`
 
 |Command|Description|
 |:------|:----------|
@@ -24,8 +25,6 @@ A tag can be specified after the container name (Tag specifies the version of th
 |`docker image tag <name>[:<tag>] <new-name>[:<new-tag>]`|Change Image Name|
 |`docker image rm <image-name>`|Remove Image from Docker|
 |`docker image rm $(docker image ls -aq)`|Remove all Images from Docker|
-
-If we don't specify a tag then latest will be assigned to it by default
 
 ---
 

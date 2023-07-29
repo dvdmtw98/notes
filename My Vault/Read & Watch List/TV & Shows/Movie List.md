@@ -8,7 +8,6 @@ cssclass: numbered-rows
 
 | No. | Names                                          | Release |
 | --- | ---------------------------------------------- | ------- |
-|     | Heathers                                       | 1988    |
 |     | Magnolia                                       | 1999    |
 |     | Predestination                                 | 2014    |
 |     | Shaun of the Dead                              | 2004    |

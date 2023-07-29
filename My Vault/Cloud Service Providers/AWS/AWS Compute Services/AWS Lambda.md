@@ -67,6 +67,4 @@ def lambda_handler(event, context):
 		)
 ```
 
----
-
 [AWS](../AWS.md)

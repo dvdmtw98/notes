@@ -5,28 +5,36 @@ tags: [os, linux, command]
 
 ### Install .deb Files
 
-````shell
-dpkg -l # List Installed Packages
+```shell
+# List Installed Packages
+dpkg -l
 
-dpkg -i <filename> # Install .deb Package
-apt install -f # Install Dependencies
-````
+# Install .deb Package & Install dependencies
+dpkg -i <filename> 
+apt install -f
+```
 
 Deb packages can be installed with apt as well
 
 ### Update System
 
-````shell
+```shell
 sudo apt update
-sudo apt upgrade # Updates Packages, Installs new Dependencies
-sudo apt full-upgrade # Update Packages, Installs new Dependencies, Removes Broken/ Unused Packages
+# Updates Packages, Installs new Dependencies
+sudo apt upgrade
+# Update Packages, Installs new Dependencies, Removes Broken/ Unused Packages
+sudo apt full-upgrade
 
 apt-key adv --keyserver hkp://keys.gnupg.net --recv-keys <key-last-8-char>
-````
+
+sudo pacman -Syu
+# Update AUR Packages
+sudo yay -Syu
+```
 
 ### View Package Information
 
-````shell
+```shell
 # Edit Repo List
 sudo apt edit-sources
 
@@ -39,11 +47,11 @@ apt show <package-name>
 # List at available packages
 apt list [-a] <package-name>
 apt list --installed
-````
+```
 
 ### View Package for Library
 
-````bash
+```bash
 apt install apt-file
 apt-file update
 
@@ -51,12 +59,18 @@ apt-file update
 apt-file find <library-name>
 # View files in a package
 apt-file list <package-name>
-````
+```
 
 ### Remove Packages
 
-````shell
+```shell
 sudo apt remove <package-name>
-sudo apt purge <package-name> # Remove User data as well
-sudo apt autoremove # Remove old unused files from apt cache
-````
+# Remove User data as well
+sudo apt purge <package-name>
+# Remove old unused files from apt cache
+sudo apt autoremove
+
+sudo pacman -R <package-name>
+# Remove Orphaned Packages
+pacman -Qqtd | sudo pacman -Rns -
+```

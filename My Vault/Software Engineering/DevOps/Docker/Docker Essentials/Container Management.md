@@ -8,7 +8,7 @@ docker container ls 	# List running containers
 docker container ls -a 	# List all containers
 ````
 
-`ps` is an alias for the `ls` command in docker  
+`ps` is an alias for the `ls` command  
 `ls` is the newer command and should be used
 
 ````bash
