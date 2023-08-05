@@ -98,7 +98,6 @@ cssclass: numbered-rows
 
 | No. | Names                | Release |
 | --- | -------------------- | ------- |
-|     | Kwaidan              | 1964    |
 |     | Confessions          | 2010    |
 |     | Onibaba              | 1964    |
 |     | 13 Assassins         | 2010    |
