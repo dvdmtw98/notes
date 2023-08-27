@@ -18,6 +18,6 @@ cssclass: numbered-rows, wide-page
 |     |       ![The Horizon\|72](images/the-horizon.jpg)       |    The Horizon    |  Ji-Hoon Jeong   |          Fiction, Adventure, Drama           |        [Link](https://myanimelist.net/manga/125036/The_Horizon)        | ⭐⭐⭐⭐⭐ | #completed |
 |     |          ![akumetsu\|72](images/akumetsu.jpg)          |     Akumetsu      | Yoshiaki Tabata  |       Fiction, Drama, Action, Suspense       |          [Link](https://myanimelist.net/manga/1101/Akumetsu)           | ⭐⭐⭐     | #completed |
 |     |           ![smashed\|72](images/smashed.jpg)           |      Smashed      |    Junji Ito     |        Fiction, Horror, Supernatural         |                                                                        | ⭐⭐⭐     | #completed |
-|     |        ![homunculus\|72](images/homunculus.jpg)        |    Homunculus     |  Hideo Yamamoto  |    Fiction, Drama, Mystery, Supernatural     |          [Link](https://myanimelist.net/manga/936/Homunculus)          |            |  #reading  | 
+|     |        ![homunculus\|72](images/homunculus.jpg)        |    Homunculus     |  Hideo Yamamoto  |    Fiction, Drama, Mystery, Supernatural     |          [Link](https://myanimelist.net/manga/936/Homunculus)          | ⭐⭐⭐     | #completed |
 
 [Read & Watch List](../Read%20&%20Watch%20List.md)
