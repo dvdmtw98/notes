@@ -7,6 +7,7 @@ on:
     paths-ignore:
       - "My Vault/Read & Watch List/**"
       - "My Vault/Languages/**"
+      - "My Vault/.obsidian/**"
 
 jobs:
   digital-archive:
