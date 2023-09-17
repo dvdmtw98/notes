@@ -5,9 +5,9 @@ tags: [security, index]
 
 ### Table of Content
 
-* [Algorithms](Algorithms/Algorithms.md)
 * [Introductory Concepts](Introductory%20Concepts/Introductory%20Concepts.md)
 	* [Malware](Introductory%20Concepts/Malware/Malware.md)
+* [Algorithms](Algorithms/Algorithms.md)
 * [Information Gathering](Information%20Gathering/Information%20Gathering.md)
 * [Service Enumeration](Information%20Gathering/Service%20Enumeration.md)
 	* [Web App Enumeration](Exploitation/Web%20App%20Exploitation/Web%20App%20Enumeration.md)

@@ -6,6 +6,7 @@ tags: [database, sql, concept, index]
 ### Database Concepts
 
 * **Relational** [Data Modeling](../../Database%20Concepts/Data%20Modeling.md)
+	* [Relational Model](Relational%20Model.md)
 	* [Normalization](Normalization.md)
 * [Types of Keys](Types%20of%20Keys.md)
 * [Row vs. Column Store](../../Database%20Concepts/Row%20vs.%20Column%20Store.md)
@@ -26,7 +27,5 @@ tags: [database, sql, concept, index]
 * [Views](Views.md)
 * [Materialized View](../Oracle%20SQL/Materialized%20View.md)
 
----
-
-Having Clause: Filter records based on Aggregate Functions
+Having Clause: Filter records based on Aggregate Functions  
 Qualify Clause: Filter records based on Analytical Functions
