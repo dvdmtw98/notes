@@ -85,13 +85,11 @@ cssclass: numbered-rows
 |     | The Princess Bride                             | 1987    |
 |     | 127 Hours                                      | 2010    |
 |     | A Separation                                   | 2011    |
-|     | Dr. Strangelove                                | 1964    |
 |     | Gattaca                                        | 1997    |
 |     | Investigation of a Citizen Above Suspicion     | 1970    |
 |     | Irréversible                                   | 2002    |
 |     | Monty Python's Life of Brian                   | 1979    |
 |     | Manchester by the Sea                          | 2016    |
-|     | Silence                                        | 2016    |
 |     | The Florida Project                            | 2017    | 
 
 ### Asian Movies

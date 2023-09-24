@@ -1,6 +1,8 @@
 ---
 title: Internet of Things (IoT)
-tags: [networking, concepts]
+tags:
+  - networking
+  - concept
 ---
 
 ### 802.11 (Wi-Fi)

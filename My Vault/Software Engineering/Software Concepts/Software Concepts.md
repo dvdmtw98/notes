@@ -1,6 +1,10 @@
 ---
 title: Software Concepts
-tags: [software, programming, concepts, index]
+tags:
+  - software
+  - programming
+  - index
+  - concept
 ---
 
 ### Table of Content
