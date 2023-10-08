@@ -7,9 +7,11 @@ tags:
   - soc
 ---
 
+### Pyramid of Pain
+
 The model helps to determine the level of difficulty it will cause an adversary to change the indicators associated with them, and their campaign.
 
-![pyramid-of-pain/|520](images/pyramid-of-pain.png)
+![pyramid-of-pain|520](../images/pyramid-of-pain.png)
 
 **File Hash (Trivial)**  
 Changing even a single character in a file cases the hash to change  
@@ -63,8 +65,8 @@ Improved Version: [Unified Kill Chain: Raising Resilience Against Cyber Attacks]
 ![unified-kill-chain|600](../images/unified-kill-chain.png)
 
 Phase 1: In - Attacker tried to establish a initial foothold - Make of the 1st 9 stages  
-Phase 2: Through
-Phase 3: Out
+Phase 2: Through - Attack seeks to gain additional privileges -  Covers Stages 9 to 14  
+Phase 3: Out - Action of Objective of Attack - Covers Stages 15 to 18
 
 ### Diamond Model of Intrusion Analysis
 
@@ -72,6 +74,6 @@ A framework for analyzing cybersecurity incidents and intrusions by exploring th
 
 ### MITRE ATT&CK Framework
 
-A knowledge base mentioned by MITRE for listing and explaining specific adversary tactics, techniques and common knowledge or procedures
+A knowledge base mentioned by MITRE for listing and explaining adversary tactics, techniques and procedures
 
 The pre-ATT&CK tactics matrix aligns to the reconnaissance and weaponization phase of the kill chain
