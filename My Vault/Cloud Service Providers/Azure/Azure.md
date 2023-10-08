@@ -8,6 +8,10 @@ tags: [azure, cloud, index]
 - [Azure Regions](Azure%20Concepts/Azure%20Regions.md)
 - [Cost Reducing Approaches](Azure%20Concepts/Cost%20Reducing%20Approaches.md)
 - [Azure Documents](Azure%20Concepts/Azure%20Documents.md)
+- [Security Concepts](Security%20Concepts.md)
+	- [IDS vs. IPS](../../Computer%20Networks/Network%20Security/IDS%20vs.%20IPS.md)
+	- [Threat Modeling](Threat%20Modeling.md)
+	- [Zero-Trust Methodologies](../../Information%20Security/Introductory%20Concepts/Zero-Trust%20Methodologies.md)
 
 ### Service Categories
 

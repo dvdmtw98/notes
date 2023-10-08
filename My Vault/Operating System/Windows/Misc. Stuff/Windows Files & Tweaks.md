@@ -13,11 +13,21 @@ tags: [os, windows, concept]
 
 ---
 
-### Start Menu Shortcut Location
+### Shell Shortcuts
 
+Shell Shortcut: `shell:startup`  
 `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`
 
+Shell Shortcut: `shell:common startup`  
 `C:\Users\David\AppData\Roaming\Microsoft\Windows\Start Menu\Programs`
+
+Start Menu Items: `shell:programs` & `shell:common programs`  
+Apps Folder: `shell:appsfolder`
+
+Send To Menu: `shell:sendto`  
+Fonts Folder: `shell:fonts`
+
+Taskbar Shortcuts: `C:\Users\David\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar`
 
 ---
 

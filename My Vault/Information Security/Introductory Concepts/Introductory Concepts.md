@@ -9,6 +9,12 @@ tags:
 **Information Security**: Protecting the data stored in the system  
 **Information System Security**: Protecting the system that holds the data
 
+**SIEM**: Security Incident and Event Management  
+**SOAR**: Security Orchestration and Automated Response  
+
+**XDR**: Extended Detection and Response (Network)  
+**EDR**: Endpoint Detection and Response (Code)
+
 ### CIA Triad
 
 **Confidentiality**  
@@ -61,7 +67,7 @@ Administrative Controls - Procedural Controls, Legal & Regulatory Controls
 
 [Type of Hackers](Type%20of%20Hackers.md)  
 [Threat Actors](Threat%20Actors.md)  
-[Attack Frameworks](Attack%20Frameworks.md)
+[Cyber Defense Frameworks](Cyber%20Defense%20Frameworks.md)
 
 ### Stages of Hacking
 

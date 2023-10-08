@@ -6,6 +6,9 @@ tags: [security, index]
 ### Table of Content
 
 * [Introductory Concepts](Introductory%20Concepts/Introductory%20Concepts.md)
+	* [Cyber Defense Frameworks](Introductory%20Concepts/Cyber%20Defense%20Frameworks.md)
+	* [Threat Modeling](../Cloud%20Service%20Providers/Azure/Threat%20Modeling.md)
+	* [IDS vs. IPS](../Computer%20Networks/Network%20Security/IDS%20vs.%20IPS.md)
 	* [Access Control Models](Introductory%20Concepts/Access%20Control%20Models.md)
 	* [Malware](Introductory%20Concepts/Malware/Malware.md)
 * [Algorithms](Algorithms/Algorithms.md)
@@ -27,6 +30,7 @@ tags: [security, index]
 * [Nmap](Tools/Nmap/Nmap.md)
 * [BetterCap](Tools/BetterCap/BetterCap.md)
 * [Misc. Utilities](Tools/Misc.%20Utilities.md)
+* [Splunk](Tools/Splunk.md)
 
 ---
 

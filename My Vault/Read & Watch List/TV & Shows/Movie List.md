@@ -114,6 +114,7 @@ cssclass: numbered-rows
 |     | House                | 1977    |
 |     | Maborosi             | 1995    |
 |     | Our Little Sister    | 2015    |
+|     | Silenced             | 2011    |
 
 ### Animated Movies
 

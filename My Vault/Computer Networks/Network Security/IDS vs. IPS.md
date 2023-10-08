@@ -4,10 +4,13 @@ tags: [networking, security]
 ---
 
 ### Detection System
+
 Detect attacks on the network and log and report the incident (Passively)
 
 ### Prevention System  
-Detect attacks on the network and makes changes on the network to try and prevent it (Actively). Makes changes to the ACL or closes services, sessions or ports
+
+Detect attacks on the network and makes changes on the network to try and prevent it  
+Makes changes to the ACL or closes services, sessions or ports
 
 IDS/ IPS are of two types:
 
@@ -16,3 +19,7 @@ IDS/ IPS are of two types:
 
  > [!NOTE]
  > IDS/ IPS are more robust and more feature rich as compared to firewalls
+ 
+Signature Based Detection  
+Analogy-based Detection (Advanced Technique)  
+Stateful Protocol Analysis (Profile Technique)
