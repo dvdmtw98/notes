@@ -4,8 +4,8 @@ tags: [azure, cloud, security, active-directory]
 ---
 
 Enterprise Identity and Access Management service  
-**Authentication**: [OpenID Connect](../../../Information%20Security/Access%20Management/OpenID%20Connect.md)  
-**Authorization**: [OAuth 2.0](../../../Information%20Security/Access%20Management/OAuth%202.0.md)
+**Authentication**: [OpenID Connect](../../../Cyber%20Security/Access%20Management/OpenID%20Connect.md)  
+**Authorization**: [OAuth 2.0](../../../Cyber%20Security/Access%20Management/OAuth%202.0.md)
 
 Allows to sync with on-prem [Microsoft Active Directory](../../../Operating%20System/Windows/Microsoft%20Active%20Directory/Microsoft%20Active%20Directory.md)  
 Azure AD Connect is used to sync with on-prem AD

@@ -21,4 +21,4 @@ tags: [security, cryptography, index]
 
 ---
 
-[Information Security](../Information%20Security.md)
+[Cyber Security](../Cyber%20Security.md)

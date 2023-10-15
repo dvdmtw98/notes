@@ -7,38 +7,10 @@ tags:
   - soc
 ---
 
-### Pyramid of Pain
-
-The model helps to determine the level of difficulty it will cause an adversary to change the indicators associated with them, and their campaign.
-
-![pyramid-of-pain|520](../images/pyramid-of-pain.png)
-
-**File Hash (Trivial)**  
-Changing even a single character in a file cases the hash to change  
-If used as IOC (Indicator of Compromise) can be easily evaded by attacker
-
-**IP Address (Easy)**  
-Attackers can use Fast Flux to rapidly change there IP Address  
-[Fast Flux 101: How Cybercriminals Improve the Resilience of Their Infrastructure to Evade Detection and Law Enforcement Takedowns](https://unit42.paloaltonetworks.com/fast-flux-101/)
-
-**Domain Name (Simple)**  
-Attacker can purchase multiple domains for the campaign  
-Punycode can be used to purchase lookalike domains  
-URL shorteners can be used to hide the actual Domain Name
-
-**Host and Network Artifacts (Annoying)**  
-Attacker will have to circle back and change there attack tools and procedures  
-Network Artifacts: Suspicious URLs, Unknown User Agent  
-Host Artifacts: Suspicious Process, File Access
-
-**Tools (Challenging)**  
-At this stage most attacker might totally give up the attack  
-Antivirus Signatures, YARA rules and detection rules can be used  
-SSDeep - Fuzzy Hashing - Performs Similarity Matching
-
-**TTPs (Tough)**  
-By blocking a attackers TTP the attacker is left with no option but to give up on the attack  
-MITRE ATT&CK Matrix
+#### Security Frameworks  
+Guidelines used for building plans to mitigate risks and threats  
+Purpose: Protecting PII, Protecting Financial data, Identify Security Weakness, Managing Risks, Aligning security with business goals  
+Components: Setting Goals, Setting Guidelines, Implementing Processes, Monitoring & Communicating Results
 
 ### Lockheed Martin Cyber Kill Chain
 
@@ -58,9 +30,10 @@ MITRE ATT&CK Matrix
 
 Main focus of Framework: Malware Delivery and Network Security  
 Does not detect: Insider Attacks  
-Improved Version: [Unified Kill Chain: Raising Resilience Against Cyber Attacks](https://unifiedkillchain.com/)
 
 ### Unified Kill Chain (UKC)
+
+[Unified Kill Chain: Raising Resilience Against Cyber Attacks](https://unifiedkillchain.com/)
 
 ![unified-kill-chain|600](../images/unified-kill-chain.png)
 
@@ -72,8 +45,25 @@ Phase 3: Out - Action of Objective of Attack - Covers Stages 15 to 18
 
 A framework for analyzing cybersecurity incidents and intrusions by exploring the relationship between four core features: adversary, capacity, infrastructure and victim
 
+**Adversary Operator**: Hacker conducting the intrusion activity  
+**Adversary Customer**: Entity that stands to benefit from the intrusion activity
+
+**Victim Persona**: People and organization being targeted  
+**Victim Assets**: The attack surface that is used
+
+**Type 1 Infrastructure**: Infrastructure controlled by Adversary  
+**Type 2 Infrastructure**: Infrastructure controlled by a intermediary
+
+Extended Diamond Model consists additionally 6 meta-features and 2 axis's:  
+**Meta-Features**: Timestamp, Phase, Result, Direction, Methodology, Resources  
+**Axis**: Social-Political & Technology
+
+![Diamond Model|480](../images/diamond-model.png)
+
 ### MITRE ATT&CK Framework
 
-A knowledge base mentioned by MITRE for listing and explaining adversary tactics, techniques and procedures
+A knowledge base mentioned by MITRE for listing and explaining adversary tactics, techniques and procedures (common knowledge)  
 
-The pre-ATT&CK tactics matrix aligns to the reconnaissance and weaponization phase of the kill chain
+The pre-ATT&CK tactics matrix aligns to the reconnaissance and weaponization phase of the Cyber Kill Chain while the ATT&CK Enterprise framework aligns to the remaining stages of the Cyber Kill Chain
+
+A separate ATT&CK framework exists for mobile devices

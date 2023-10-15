@@ -11,7 +11,7 @@ Allows to access www browsing services
 Uses TCP  
 [HTTP(S) Protocol](HTTP(S)%20Protocol.md) allows to access www browsing services in an secure manner  
 TLS/ SSL for encryption  
-Variation of HTTPS : [HSTS (HTTP Strict Transport Security)](../../../Information%20Security/Network%20Hacking/HSTS%20%28HTTP%20Strict%20Transport%20Security%29.md)
+Variation of HTTPS : [HSTS (HTTP Strict Transport Security)](../../../Cyber%20Security/Network%20Hacking/HSTS%20(HTTP%20Strict%20Transport%20Security).md)
 
 <u>TLS/ SSL (Transport Layer Security & Secure Socket Layer)</u>  
 Uses TCP  

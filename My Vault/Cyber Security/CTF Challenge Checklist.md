@@ -41,4 +41,4 @@ tags: [security, ctf, checklist]
 
 ---
 
-[Information Security](Information%20Security.md)
+[Cyber Security](Cyber%20Security.md)

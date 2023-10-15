@@ -11,4 +11,4 @@ tags: [networking, application, protocol]
 * [Mail Application Protocols](Mail%20Application%20Protocols.md)
 * [Browser Application Protocols](Browser%20Application%20Protocols.md)
 	* [HTTP(S) Protocol](HTTP(S)%20Protocol.md)
-	* [HSTS (HTTP Strict Transport Security)](../../../Information%20Security/Network%20Hacking/HSTS%20%28HTTP%20Strict%20Transport%20Security%29.md)
+	* [HSTS (HTTP Strict Transport Security)](../../../Cyber%20Security/Network%20Hacking/HSTS%20(HTTP%20Strict%20Transport%20Security).md)

@@ -1,13 +1,15 @@
 ---
 title: Main Index
-tags: [main, index]
+tags:
+  - main
+  - index
 ---
 
 ### Table of Content
 
 * [Cloud Service Providers](Cloud%20Service%20Providers/Cloud%20Service%20Providers.md)
-* [Information Security](Information%20Security/Information%20Security.md)
 * [Computer Networks](Computer%20Networks/Computer%20Networks.md)
+* [Cyber Security](Cyber%20Security/Cyber%20Security.md)
 * [Operating System](Operating%20System/Operating%20System.md)
 * [Software Engineering](Software%20Engineering/Software%20Engineering.md)
 * [Database Engineering](Database%20Engineering/Database%20Engineering.md)

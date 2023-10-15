@@ -1,12 +1,17 @@
 ---
-title: Information Security
-tags: [security, index]
+title: Cybersecurity
+tags:
+  - security
+  - index
 ---
 
 ### Table of Content
 
 * [Introductory Concepts](Introductory%20Concepts/Introductory%20Concepts.md)
+	* [Pyramid of Pain](Introductory%20Concepts/Pyramid%20of%20Pain.md)
 	* [Cyber Defense Frameworks](Introductory%20Concepts/Cyber%20Defense%20Frameworks.md)
+	* [Cyber Threat Intelligence (CTI)](Introductory%20Concepts/Cyber%20Threat%20Intelligence%20(CTI).md)
+	* [CISSP Security Domains](Information%20Gathering/CISSP%20Security%20Domains.md)
 	* [Threat Modeling](../Cloud%20Service%20Providers/Azure/Threat%20Modeling.md)
 	* [IDS vs. IPS](../Computer%20Networks/Network%20Security/IDS%20vs.%20IPS.md)
 	* [Access Control Models](Introductory%20Concepts/Access%20Control%20Models.md)

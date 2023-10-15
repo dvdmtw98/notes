@@ -11,7 +11,7 @@ tags: [azure, cloud, index]
 - [Security Concepts](Security%20Concepts.md)
 	- [IDS vs. IPS](../../Computer%20Networks/Network%20Security/IDS%20vs.%20IPS.md)
 	- [Threat Modeling](Threat%20Modeling.md)
-	- [Zero-Trust Methodologies](../../Information%20Security/Introductory%20Concepts/Zero-Trust%20Methodologies.md)
+	- [Zero-Trust Methodologies](../../Cyber%20Security/Introductory%20Concepts/Zero-Trust%20Methodologies.md)
 
 ### Service Categories
 

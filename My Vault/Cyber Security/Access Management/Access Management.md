@@ -11,4 +11,4 @@ tags: [security, identity, access, index]
 
 ---
 
-[Information Security](../Information%20Security.md)
+[Cyber Security](../Cyber%20Security.md)

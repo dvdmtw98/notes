@@ -45,4 +45,4 @@ cat /etc/hosts # Hosts File
 
 ---
 
-[Network Mapping (Information Gathering)](../../../Information%20Security/Network%20Hacking/Network%20Mapping%20%28Information%20Gathering%29.md)
+[Network Mapping (Information Gathering)](../../../Cyber%20Security/Network%20Hacking/Network%20Mapping%20(Information%20Gathering).md)

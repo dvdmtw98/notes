@@ -19,4 +19,4 @@ It can extend the connection of a wired network, connect entire LAN, connect dif
 * [Securing Wireless Network](Securing%20Wireless%20Network.md)
 * [Wireless Encryption Standards](Wireless%20Encryption%20Standards.md)
 	* [WPA2 (Wi-Fi Protected Access 2)](WPA2%20%28Wi-Fi%20Protected%20Access%202%29.md)
-	* [WPA - WPA2 (Wi-Fi Protected Access)](../../Information%20Security/Network%20Hacking/WPA%20-%20WPA2%20%28Wi-Fi%20Protected%20Access%29.md)
+	* [WPA - WPA2 (Wi-Fi Protected Access)](../../Cyber%20Security/Network%20Hacking/WPA%20-%20WPA2%20(Wi-Fi%20Protected%20Access).md)
