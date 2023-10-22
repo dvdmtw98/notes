@@ -1,6 +1,6 @@
 Trust no one, verify everything
 
-![ms-zero-trust-model|600](../images/ms-zero-trust-model.png)
+![ms-zero-trust-model|600](../../../Cyber%20Security/images/ms-zero-trust-model.png)
 
 6 Pillars: IDEA-IN  
 3 Principles: LAV

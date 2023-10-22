@@ -6,9 +6,9 @@ tags: [cloud, security]
 A system entity that creates, maintains and manages identity information for principals and also provides authentication services to applications within a federation or distributed network
 
 A trusted provider of your user identity that lets you use authentication to access other services  
-Identity providers could be : Facebook, Amazon, Google, Twitter, GitHub, LinkedIn, etc.
+Identity providers could be: Facebook, Amazon, Google, Twitter, GitHub, LinkedIn, etc.
 
-Federated Identity is a method of linking a user's identity across multiple separate identity management systems
+**Federated Identity** is a method of linking a user's identity across multiple separate identity management systems
 
 ---
 

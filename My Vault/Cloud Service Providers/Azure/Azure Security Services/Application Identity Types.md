@@ -26,8 +26,4 @@ They are of two types: **System assigned** and **User assigned**
 System assigned is managed by Azure and is created automatically when we create a new resource and no one knows its credentials  
 User assigned is a separate object in Azure what we need to create and then assign to the Azure resources as required
 
----
-
-**<u>References</u>**:
-
-* [Demystifying Service Principals - Managed Identities - Azure DevOps Blog](https://devblogs.microsoft.com/devops/demystifying-service-principals-managed-identities/)
+[Demystifying Service Principals - Managed Identities - Azure DevOps Blog](https://devblogs.microsoft.com/devops/demystifying-service-principals-managed-identities/)

@@ -10,8 +10,6 @@ It is PaaS (sometimes called Firewall as a Service)
 Has high availability and high scalability  
 Supports FQDN (Fully Qualified Domain Name) filtering
 
----
-
 ### Azure DDoS Protection
 
 DoS : Denial of Service (Used to cause disruption of services)

@@ -8,7 +8,9 @@ tags:
 ![CISSP Domains|600](../images/cissp-security-domains.png)
 
 #### Security and Risk Management  
-Security goals and objects, risk mitigation, compliance, business continuity and the law  
+Defining security goals and objects, Compliance, Legal Regulations  
+Risk Mitigation - Ensure right procedure and rules in place  
+Business Continuity - Maintain everyday productivity by using disaster recovery plans  
 e.g. Creating new compliance rules for organization, Social Engineering Attacks
 
 #### Asset Security
@@ -17,14 +19,16 @@ e.g. Save disposal of old assets, Physical Attack (USB, Thumb drive, Keycard Clo
 
 #### Security Architecture & Engineering
 Optimizes data security by ensuring effective tools, systems and processes are in place  
+Shared Responsibility - Employees in an organization play a active role in minimizing risks  
 e.g. Configuring Firewall
 
 #### Communication and Network Security  
 Managing and security physical networks and wireless communication  
 e.g. User behavior's analysis - employees connect to unprotected access points, Password Attack, Adversarial AI
 
-#### Identity and Access Management
+#### Identity and Access Management (IAM)
 Keeping data secure by ensuring users follow established policies to control and manage physical assets, like office spaces, and logical assets, such as networks and applications  
+Components: Identification, Authentication, Authorization, Accountability  
 e.g. Configuring employees keycard access, Adversarial AI
 
 #### Security Assessment and Testing  

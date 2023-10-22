@@ -1,5 +1,5 @@
 ---
-title: Introductory Concepts
+title: Foundational Concepts
 tags:
   - security
   - terms
@@ -14,8 +14,8 @@ tags:
 **SIEM**: Security Incident and Event Management  
 **SOAR**: Security Orchestration and Automated Response  
 
-**XDR**: Extended Detection and Response (Network)  
-**EDR**: Endpoint Detection and Response (Code)
+**EDR**: Endpoint Detection and Response  
+**XDR**: Extended Detection and Response. Combines intel from multiple sources to provide a holistic view of the incident
 
 ### CIA Triad
 
@@ -61,14 +61,21 @@ DoS - Availability
 Masquerading - Spoofing (Authenticity), Phishing (Confidentiality, Anonymity)  
 Correlation & Traceback - Anonymity
 
-### Migrating Threats
+### Migrating Threats/ Security Controls
 
 Physical Controls  
 Technical Controls  
 Administrative Controls - Procedural Controls, Legal & Regulatory Controls  
 
-[Type of Hackers](Type%20of%20Hackers.md)  
-[Threat Actors](Threat%20Actors.md)  
+[Control Categories - Google Docs](https://docs.google.com/document/d/1XKBnKZkOY_YULCZdY0SLBk9XFx76V5yBaoa7-eI2aDo/edit?usp=sharing)
+
+### Security Audits
+
+Establishing the scope and goals  
+Conducting a risk assessment: Identifying potential risks, threats and vulnerabilities  
+Completing a controls assessment: Reviewing existing assets and evaluating risks  
+Assessing compliance  
+Communicating results
 
 ### Stages of Hacking
 

@@ -13,7 +13,7 @@ A firewall can operate at Layer 4 through 7 depending on its type and configurat
 
 ### Types of Firewalls
 
-#### Packet Filtering
+#### Packet/Port Filtering
 The original type of firewall (Very basic)  
 Filter packets based on IP Address and ports
 

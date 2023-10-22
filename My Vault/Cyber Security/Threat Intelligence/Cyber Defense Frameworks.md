@@ -58,7 +58,7 @@ Extended Diamond Model consists additionally 6 meta-features and 2 axis's:
 **Meta-Features**: Timestamp, Phase, Result, Direction, Methodology, Resources  
 **Axis**: Social-Political & Technology
 
-![Diamond Model|480](../images/diamond-model.png)
+![Diamond Model|460](../images/diamond-model.png)
 
 ### MITRE ATT&CK Framework
 
@@ -67,3 +67,34 @@ A knowledge base mentioned by MITRE for listing and explaining adversary tactics
 The pre-ATT&CK tactics matrix aligns to the reconnaissance and weaponization phase of the Cyber Kill Chain while the ATT&CK Enterprise framework aligns to the remaining stages of the Cyber Kill Chain
 
 A separate ATT&CK framework exists for mobile devices
+
+### NIST Risk Management Framework (RMF)
+
+**Prepare**: Steps that are required to manage security before a incident occurs  
+**Categorize**: Used to develop risk management processes   
+**Select**: Choose, customize and capture documents that controls the protection  
+**Implement**: Implement security and privacy plans  
+**Assess**: Determine if controls are implemented correctly  
+**Authorize**: Being accountable for the security and privacy risks that might exist  
+**Monitor**: Be aware of how systems operate
+
+### NIST Cyber Security Framework (CSF)
+
+**Identify**: Management of risks and its effects on people and assets  
+e.g. Monitoring organizations assets to detect security incidents  
+**Protect**: Strategy used to protect an organization (policies, procedures, training, tools)  
+**Detect**: Identifying potential security incidents and improving monitoring  
+**Respond**: Ensure proper procedures are used to contain, neutralize and analyze incident  
+**Recover**: Return affected systems to normal operations 
+
+NIST S.P. 800-53: NIST CSF designed to be used by the federal government
+
+### OWASP Security Principles
+
+Minimize attack surface area: Disable unrequired features, complex passwords, etc.
+Principle of least privilege: Limits the damage done when breach occurs  
+Defense in depth: Should use multiple different security controls (MFA, Firewalls, ACL, IDS) Separation of duties: Critical actions should rely on multiple people  
+Keep security simple: Complex security systems can become unmanageable  
+Fix security issues correctly: Weak Wi-Fi passwords, etc.
+
+[OWASP Developer Guide | Principles of Security | OWASP Foundation](https://owasp.org/www-project-developer-guide/draft/04-foundations/03-security-principles)

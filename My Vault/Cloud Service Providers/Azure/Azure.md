@@ -8,10 +8,6 @@ tags: [azure, cloud, index]
 - [Azure Regions](Azure%20Concepts/Azure%20Regions.md)
 - [Cost Reducing Approaches](Azure%20Concepts/Cost%20Reducing%20Approaches.md)
 - [Azure Documents](Azure%20Concepts/Azure%20Documents.md)
-- [Security Concepts](Security%20Concepts.md)
-	- [IDS vs. IPS](../../Computer%20Networks/Network%20Security/IDS%20vs.%20IPS.md)
-	- [Threat Modeling](Threat%20Modeling.md)
-	- [Zero-Trust Methodologies](../../Cyber%20Security/Introductory%20Concepts/Zero-Trust%20Methodologies.md)
 
 ### Service Categories
 
@@ -25,6 +21,10 @@ tags: [azure, cloud, index]
 * [Azure Messaging Services](Azure%20Messaging%20Services/Azure%20Messaging%20Services.md)
 * [Azure Networking Services](Azure%20Networking%20Services/Azure%20Networking%20Services.md)
 * [Azure Security Services](Azure%20Security%20Services/Azure%20Security%20Services.md)
+	- [Security Concepts](Azure%20Security%20Services/Security%20Concepts.md)
+	- [Zero-Trust Methodologies](Azure%20Security%20Services/Zero-Trust%20Methodologies.md)
+	- [Threat Modeling](../../Cyber%20Security/Threat%20Intelligence/Threat%20Modeling.md)
+	* [Identity Providers (IdP)](../GCP/GCP%20Security%20Services/Identity%20Providers%20(IdP).md)
 * **Azure Caching Services**
 	* [Azure CDN](Azure%20Other%20Services/Azure%20Caching%20Services/Azure%20CDN.md)
 	* [Azure Cache for Redis](Azure%20Other%20Services/Azure%20Caching%20Services/Azure%20Cache%20for%20Redis.md)
