@@ -9,17 +9,17 @@ Enterprise Identity and Access Management service
 
 AAD uses a flat hierarchy to store Identities  
 It utilizes cloud based authentication protocols instead of Kerberos, NTLM  
-Allows for [Role Based Access Control (RBAC)](Role%20Based%20Access%20Control%20(RBAC).md)  
+Allows for [Role Based Access Control (RBAC)](../Role%20Based%20Access%20Control%20(RBAC).md)
 
 **App Registration**: Allows developers to integrate web-apps to Azure AD
 
 * **Azure AD Concepts**
-	* [External Identity Types](Azure%20Active%20Directory/External%20Identity%20Types.md)
-	* [Application Identity Types](Azure%20Active%20Directory/Application%20Identity%20Types.md)
+	* [External Identity Types](External%20Identity%20Types.md)
+	* [Application Identity Types](Application%20Identity%20Types.md)	
 * **Azure AD Features**
-	* [Device Identity Management](Azure%20Active%20Directory/Device%20Identity%20Management.md)
-	* [Azure AD Connect](Azure%20Active%20Directory/Azure%20AD%20Connect.md)
-	* [Azure AD Conditional Access](Azure%20Active%20Directory/Azure%20AD%20Conditional%20Access.md)
+	* [Device Identity Management](Device%20Identity%20Management.md)
+	* [Azure AD Connect](Azure%20AD%20Connect.md)
+	* [Azure AD Conditional Access](Azure%20AD%20Conditional%20Access.md)
 
 #### AAD Service Tiers
 **Free**: MFA, SSO, Basic Security & Usage Reports, User Management  
@@ -40,7 +40,7 @@ Microsoft 365 groups are used to access 365 resources
 #### Privileges Identity Managed (PIM)
 Allows users to elevate there permissions to a different role for a fixed period when a certain condition is meet  
 Allows active assignment (Valid for a fixed time) or eligible assignment (Have to elevate)  
-Not used for [Application Identity Types](Azure%20Active%20Directory/Application%20Identity%20Types.md) i.e. Service Principals  
+Not used for [Application Identity Types](Application%20Identity%20Types.md) i.e. Service Principals  
 Requires AAD Premium 2  
 
 #### Azure AD App Manifest
