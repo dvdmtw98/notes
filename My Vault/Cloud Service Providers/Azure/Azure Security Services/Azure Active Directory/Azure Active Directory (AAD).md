@@ -4,11 +4,8 @@ tags: [azure, cloud, security, active-directory]
 ---
 
 Enterprise Identity and Access Management service  
-**Authentication**: [OpenID Connect](../../../Cyber%20Security/Access%20Management/OpenID%20Connect.md)  
-**Authorization**: [OAuth 2.0](../../../Cyber%20Security/Access%20Management/OAuth%202.0.md)
-
-Allows to sync with on-prem [Microsoft Active Directory](../../../Operating%20System/Windows/Microsoft%20Active%20Directory/Microsoft%20Active%20Directory.md)  
-Azure AD Connect is used to sync with on-prem AD
+**Authentication**: [OpenID Connect](../../../../Cyber%20Security/Access%20Management/OpenID%20Connect.md)  
+**Authorization**: [OAuth 2.0](../../../../Cyber%20Security/Access%20Management/OAuth%202.0.md)
 
 AAD uses a flat hierarchy to store Identities  
 It utilizes cloud based authentication protocols instead of Kerberos, NTLM  
@@ -16,38 +13,21 @@ Allows for [Role Based Access Control (RBAC)](Role%20Based%20Access%20Control%20
 
 **App Registration**: Allows developers to integrate web-apps to Azure AD
 
----
+* **Azure AD Concepts**
+	* [External Identity Types](Azure%20Active%20Directory/External%20Identity%20Types.md)
+	* [Application Identity Types](Azure%20Active%20Directory/Application%20Identity%20Types.md)
+* **Azure AD Features**
+	* [Device Identity Management](Azure%20Active%20Directory/Device%20Identity%20Management.md)
+	* [Azure AD Connect](Azure%20Active%20Directory/Azure%20AD%20Connect.md)
+	* [Azure AD Conditional Access](Azure%20Active%20Directory/Azure%20AD%20Conditional%20Access.md)
 
-### AAD Service Tiers
+#### AAD Service Tiers
 **Free**: MFA, SSO, Basic Security & Usage Reports, User Management  
 **Office 365 Apps**: Company Branding, SLA, Sync on-prem & cloud  
 **Premium 1**: Hybrid Architecture, Advanced Group Access, Conditional Access  
 **Premium 2**: Identity Protection, Identity Governance
 
-### Supported Authentication Types
-
-**Cloud based**  
-Uses Password Hash  
-For on-prem identities the hash of the hash is stored in AAD  
-No on-prem component is involved
-
-**Passthrough**  
-Auth request is sent to AAD from where it is sent to on-prem AD  
-The result of the authentication is then sent back to AAD  
-The actual authentication is performed by on-prem AD
-
-**Federated**    
-The Federation service creates a SAML token which is passed to AAD  
-AAD in turn creates a access and refresh token which is used by the service
-
-### Conditional Access
-
-P1 tier and above supports <u>Conditional Access</u> a feature that allows to enforce certain policies or controls when a predefined condition is met  
-Conditional Access applies to all types of Identities (even Service Principals)  
-e.g. 2FA when accessing from a different location
-
-### Security Groups
-
+#### Security Groups
 They are used to group AD objects together and apply similar config and settings    
 Azure AD **Security Groups** are Security Principals i.e. they can be used to access Azure Resources  
 All types of identities can be added into a Security Group  
@@ -57,16 +37,23 @@ Members of groups can be added Statically or Dynamically (Using a condition)
 
 Microsoft 365 groups are used to access 365 resources
 
-### Privileges Identity Managed (PIM)
-
-Requires Premium 2  
+#### Privileges Identity Managed (PIM)
 Allows users to elevate there permissions to a different role for a fixed period when a certain condition is meet  
 Allows active assignment (Valid for a fixed time) or eligible assignment (Have to elevate)  
-Not used for [Application Identity Types](Application%20Identity%20Types.md) i.e. Service Principals
+Not used for [Application Identity Types](Azure%20Active%20Directory/Application%20Identity%20Types.md) i.e. Service Principals  
+Requires AAD Premium 2  
 
-### Azure AD App Manifest
-
+#### Azure AD App Manifest
 It is the definition of the application object in the AD Identity Platform  
 It contains all the configuration related to authentication and authorization  
 
----
+#### Azure AD Password Protection  
+Protect passwords from identity attacks like Password Spraying  
+Uses an auto updating global password ban list  
+Required AAD Premium 1 or Premium 2
+
+#### Emergency Access Accounts
+Emergency accounts to prevent admins from accidently being locked out of Azure AD  
+Recommendation is to have two or more emergency access accounts per organization  
+They are highly privileged and are not assigned to a specific user  
+These accounts are not federated and not synced from on-premises environment  

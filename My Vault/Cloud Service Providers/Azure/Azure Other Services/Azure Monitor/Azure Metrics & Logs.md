@@ -30,7 +30,7 @@ Using Policies the setting can be enabled for all resource of a type
 
 ### Sources of Diagnostic Data
 
-* [Azure Active Directory (AAD)](../../Azure%20Security%20Services/Azure%20Active%20Directory%20(AAD).md) contains **logs** related to Audits & Sign-In. In the free ADD skew the data is stored for 7 days while Premium stores for 30 days
+* [Azure Active Directory (AAD)](../../Azure%20Security%20Services/Azure%20Active%20Directory/Azure%20Active%20Directory%20(AAD).md) contains **logs** related to Audits & Sign-In. In the free ADD skew the data is stored for 7 days while Premium stores for 30 days
 * At the Subscription level there is **Activity Log** which houses the activity information & service health details of resource in that subscription (Has a 90 day retention)
 * At the Resource level we have **Metrics & Logs** which are different based on the resource
 * Guests/ Extensions/ Agents also spit out **Metrics & Logs**. Logs from this level can only be sent to Log Analytics (but from Log Analytics they can be exported to Event Hub & Storage Account)

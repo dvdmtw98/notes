@@ -31,6 +31,4 @@ Available in different sizes, types and performance tiers
 Managed: Disk is managed by Microsoft  
 Unmanaged: Disk is stored in Blob managed by user
 
----
-
-[Azure](../Azure.md)
+[Azure Disk Encryption (ADE)](../Azure%20Security%20Services/Azure%20Disk%20Encryption%20(ADE).md)

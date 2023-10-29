@@ -17,6 +17,8 @@ tags:
 **EDR**: Endpoint Detection and Response  
 **XDR**: Extended Detection and Response. Combines intel from multiple sources to provide a holistic view of the incident
 
+
+
 ### CIA Triad
 
 **Confidentiality**  
@@ -31,7 +33,11 @@ Hash, ECC, Backup
 Information can be accessed, stored and protected at all times  
 Redundancy, Physical Protection
 
-### AAA
+
+**Risk**: Anything that can affect the CIA of a asset (Likelihood * Impact)  
+**Threat**: Any circumstance that can negatively effect an asset
+
+### AAA Framework
 
 AAA framework also refers to Authentication, Authorization & Accounting  
 Unlike CIA Triad - Assurance, Authenticity and Anonymity are independent of each other  

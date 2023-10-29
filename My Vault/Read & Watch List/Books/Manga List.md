@@ -19,6 +19,6 @@ cssclass: numbered-rows, wide-page
 |     |          ![akumetsu\|72](images/akumetsu.jpg)          |     Akumetsu      | Yoshiaki Tabata  |       Fiction, Drama, Action, Suspense       |          [Link](https://myanimelist.net/manga/1101/Akumetsu)           | ⭐⭐⭐     | #completed |
 |     |           ![smashed\|72](images/smashed.jpg)           |      Smashed      |    Junji Ito     |        Fiction, Horror, Supernatural         |                                                                        | ⭐⭐⭐     | #completed |
 |     |        ![homunculus\|72](images/homunculus.jpg)        |    Homunculus     |  Hideo Yamamoto  |    Fiction, Drama, Mystery, Supernatural     |          [Link](https://myanimelist.net/manga/936/Homunculus)          | ⭐⭐⭐     | #completed |
-|     |             ![pluto\|72](images/pluto.jpg)             |       Pluto       |  Naoki Urasawa   |       Fiction, Action, Mystery, Si-Fi        |            [Link](https://myanimelist.net/manga/745/Pluto)             |            |  #reading  | 
+|     |             ![pluto\|72](images/pluto.jpg)             |       Pluto       |  Naoki Urasawa   |       Fiction, Action, Mystery, Si-Fi        |            [Link](https://myanimelist.net/manga/745/Pluto)             | ⭐⭐⭐⭐   | #completed |
 
 [Read & Watch List](../Read%20&%20Watch%20List.md)

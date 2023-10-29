@@ -38,6 +38,6 @@ All Purpose in Standard Tier supports standard auto scaling while in Premium tie
 ### Credential Management
 
 To access credentials stored in [Azure Key Vault](../../Cloud%20Service%20Providers/Azure/Azure%20Security%20Services/Azure%20Key%20Vault.md) from Databricks we needs to create a Secret Scope  
-Databricks supports credential passthrough (Advanced Option) which allows to access other services using [Azure Active Directory (AAD)](../../Cloud%20Service%20Providers/Azure/Azure%20Security%20Services/Azure%20Active%20Directory%20%28AAD%29.md)
+Databricks supports credential passthrough (Advanced Option) which allows to access other services using [Azure Active Directory (AAD)](../../Cloud%20Service%20Providers/Azure/Azure%20Security%20Services/Azure%20Active%20Directory/Azure%20Active%20Directory%20(AAD).md)
 
 ---

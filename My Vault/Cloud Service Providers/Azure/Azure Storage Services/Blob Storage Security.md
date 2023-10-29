@@ -6,8 +6,6 @@ tags: [azure, cloud, storage, security]
 ### Data at Rest
 
 Data at rest is protected using Storage Service Encryption (SSE) which uses a 256 bit AES   Algorithm to encrypt and decrypt the data automatically  
-The disk images (VDH) used by VMs can be encrypted using Azure Disk Encryption  
-Bit locker to encrypt Windows Images and dm-crypt for Linux Images
 
 ### Data in Transit
 

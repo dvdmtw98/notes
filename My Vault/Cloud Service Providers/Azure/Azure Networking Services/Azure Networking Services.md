@@ -7,7 +7,9 @@ tags: [azure, cloud, networking, index]
 
 * [Azure Virtual Network](Azure%20Virtual%20Network.md)
 * [Network Security Groups (NSG)](Network%20Security%20Groups%20%28NSG%29.md)
-* [Virtual Network Security](Virtual%20Network%20Security.md)
+* [Azure DDoS Protection](Azure%20DDoS%20Protection.md)
+* [Azure Firewall](Azure%20Firewall.md)
+* [Azure Web Application Firewall (WAF)](../Azure%20Security%20Services/Azure%20Web%20Application%20Firewall%20(WAF).md)
 
 ---
 

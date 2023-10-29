@@ -37,18 +37,9 @@ They can be enabled/ applied using T-SQL as well
 
 ---
 
-### [Transparent Data Encryption (TDE) Protector Key](../../Azure%20Analytics%20Services/Azure%20Synapse%20Analytics/Transparent%20Data%20Encryption%20%28TDE%29%20Protector%20Key.md)
+### Transparent Data Encryption (TDE)
 
 Can be applied to SQL Server, Azure SQL Database, [Azure Synapse Analytics](../../Azure%20Analytics%20Services/Azure%20Synapse%20Analytics/Azure%20Synapse%20Analytics.md)  
 Performs real time I/O encryption and decryption of data and log files  
-Uses an Database Encryption Key (DEK). It is an symmetric key
-
-**<u>Steps to apply TDE</u>**  
-Create Database Master Key  
-Create a Certificate to support TDE  
-Create a Database Encryption Key  
-Enable TDE on Database
-
----
-
-[Azure Datastore Services](../Azure%20Datastore%20Services.md)
+Uses an Database Encryption Key (DEK). It is an symmetric key  
+[Transparent Data Encryption (TDE)](../../Azure%20Security%20Services/Transparent%20Data%20Encryption%20(TDE).md)

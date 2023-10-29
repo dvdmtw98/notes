@@ -14,8 +14,8 @@ It is an account in AD that represents that Application in that tenant
 SP can authenticate using Secret or Certificate  
 Service Principals can be restricted by using RBAC rules
 
-If the SP is multi-tenant there will be a special Global Representation Object which will be created in the home tenant (Tenant in which Application was registered) and each Tenant will have a SP which can be used by the application
-
+In each tenant where the application is used a SP will be created  
+All the SP reference the globally unique application object. The application object is created in the home tenant (Tenant where App Registration was performed)
 
 ### Managed Identity
 

@@ -89,6 +89,10 @@ e.g. Monitoring organizations assets to detect security incidents
 
 NIST S.P. 800-53: NIST CSF designed to be used by the federal government
 
+**Core**: The desired security outcome of a security plan (the 5 functions above)  
+**Tiers**: A way of measuring the sophistication of an organizations cybersecurity program  
+**Profile**: Templates that are tailored to address the specific risks of an organization
+
 ### OWASP Security Principles
 
 Minimize attack surface area: Disable unrequired features, complex passwords, etc.

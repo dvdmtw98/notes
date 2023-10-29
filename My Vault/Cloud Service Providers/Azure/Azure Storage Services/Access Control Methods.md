@@ -18,7 +18,7 @@ When Shared Key and/or SAS Key is used for Authentication RBAC and ACL have no e
 Fine grained access to data (to files and directories)  
 Supported for ADLS Storage
 
-[Azure Active Directory (AAD)](../Azure%20Security%20Services/Azure%20Active%20Directory%20(AAD).md)
+[Azure Active Directory (AAD)](../Azure%20Security%20Services/Azure%20Active%20Directory/Azure%20Active%20Directory%20(AAD).md)
 
 ---
 
