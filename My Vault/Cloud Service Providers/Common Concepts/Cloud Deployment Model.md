@@ -41,10 +41,10 @@ Great flexibility
 |Utilize existing infrastructure|IT skills and expertise are mandatory|
 |Meet any security requirement||
 
-### Cross Cloud
+### Multi Cloud
 
 Uses multiple cloud providers  
-Also called as "multi-cloud" or "hybrid-cloud"
+Also called as "cross-cloud" or "hybrid-cloud"
 
 ---
 

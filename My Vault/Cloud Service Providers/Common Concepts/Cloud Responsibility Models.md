@@ -3,11 +3,10 @@ title: Cloud Service Models
 tags: [cloud, concept]
 ---
 
-### Responsibility Model
-
 ![Cloud Service Offering|500](images/cloud-service-offering-azure.png)
 
----
+In all cases CSP is responsible for managing the Infrastructure (Hardware)  
+In all the cases the customer is responsible for managing the data and identities
 
 ### On Premises
 
@@ -17,7 +16,6 @@ Cloud provider manages nothing. We manage everything
 * Platform - OS, Middleware & Runtime
 * Software - Application & Data
 
----
 
 ### Infrastructure as a Service (IaaS)
 
@@ -36,7 +34,6 @@ Virtual Machine
 Virtual Networks  
 Managed Disks
 
----
 
 ### Platform as a Service (PaaS)
 
@@ -60,9 +57,7 @@ Reduced development time
 
 **<u>Cons</u>**  
 Lack of Control  
-Vendor Lockin
-
----
+Vendor Lock-in
 
 ### Software as a Service (SaaS)
 

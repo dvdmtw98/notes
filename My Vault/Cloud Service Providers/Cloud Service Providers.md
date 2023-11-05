@@ -12,7 +12,7 @@ tags: [cloud, index]
 	- [Snowflake](Snowflake/Snowflake.md)
 - **Cloud Concepts**
 	- [Benefits of Cloud Computing](Common%20Concepts/Benefits%20of%20Cloud%20Computing.md)
-	- [Cloud Service Models](Common%20Concepts/Cloud%20Service%20Models.md)
+	- [Cloud Responsibility Models](Common%20Concepts/Cloud%20Responsibility%20Models.md)
 	- [Cloud Deployment Model](Common%20Concepts/Cloud%20Deployment%20Model.md)
 	- [CapEx and OpEx](Common%20Concepts/CapEx%20and%20OpEx.md)
 	- [Service Level Agreement](Common%20Concepts/Service%20Level%20Agreement.md)

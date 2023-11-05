@@ -7,6 +7,8 @@ Enterprise Identity and Access Management service
 **Authentication**: [OpenID Connect](../../../../Cyber%20Security/Access%20Management/OpenID%20Connect.md)  
 **Authorization**: [OAuth 2.0](../../../../Cyber%20Security/Access%20Management/OAuth%202.0.md)
 
+Azure AD is now renamed to Microsoft Entra ID
+
 AAD uses a flat hierarchy to store Identities  
 It utilizes cloud based authentication protocols instead of Kerberos, NTLM  
 Allows for [Role Based Access Control (RBAC)](../Role%20Based%20Access%20Control%20(RBAC).md)
@@ -17,25 +19,25 @@ Allows for [Role Based Access Control (RBAC)](../Role%20Based%20Access%20Control
 	* [External Identity Types](External%20Identity%20Types.md)
 	* [Application Identity Types](Application%20Identity%20Types.md)	
 * **Azure AD Features**
-	* [Device Identity Management](Device%20Identity%20Management.md)
 	* [Azure AD Connect](Azure%20AD%20Connect.md)
 	* [Azure AD Conditional Access](Azure%20AD%20Conditional%20Access.md)
 
 #### AAD Service Tiers
 **Free**: MFA, SSO, Basic Security & Usage Reports, User Management  
-**Office 365 Apps**: Company Branding, SLA, Sync on-prem & cloud  
+**Microsoft 365**: Custom Branding, SLA, Password Reset    
 **Premium 1**: Hybrid Architecture, Advanced Group Access, Conditional Access  
 **Premium 2**: Identity Protection, Identity Governance
 
 #### Security Groups
 They are used to group AD objects together and apply similar config and settings    
-Azure AD **Security Groups** are Security Principals i.e. they can be used to access Azure Resources  
+Azure AD **Security Groups** are Security Principals (can be used to access Azure Resources)  
 All types of identities can be added into a Security Group  
 The members can be added natively from cloud or can be synced from on-prem AD  
 Details of groups synced from on-prem has to be directly changed in on-prem AD  
 Members of groups can be added Statically or Dynamically (Using a condition)  
 
-Microsoft 365 groups are used to access 365 resources
+Microsoft 365 groups are used to access 365 resources  
+Only users can be added into a Microsoft 365 group
 
 #### Privileges Identity Managed (PIM)
 Allows users to elevate there permissions to a different role for a fixed period when a certain condition is meet  
@@ -49,7 +51,7 @@ It contains all the configuration related to authentication and authorization
 
 #### Azure AD Password Protection  
 Protect passwords from identity attacks like Password Spraying  
-Uses an auto updating global password ban list  
+Uses an auto updating global password ban list to prevent some of certain words  
 Required AAD Premium 1 or Premium 2
 
 #### Emergency Access Accounts
