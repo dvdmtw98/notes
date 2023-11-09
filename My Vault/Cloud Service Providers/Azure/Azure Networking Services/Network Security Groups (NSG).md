@@ -17,11 +17,6 @@ NSGs can be configured on the VM NIC in addition to the Subnet
 * Direction
 * Priority (Order of Evaluation)
 
-#### Default Security Rules
-
-Inbound: Allow VNet, Any Azure Load Balancer, Deny everything else  
-Outbound: Allow VNet, Allow Internet, Deny everything else
-
 #### Security Rules Logic
 
 Two security rules with the same priority and direction cannot be created  

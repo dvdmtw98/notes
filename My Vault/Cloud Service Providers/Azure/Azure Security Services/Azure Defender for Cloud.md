@@ -10,7 +10,7 @@ Was previous called Azure Security Center
 It is a unified infrastructure security management system (CASB)  
 Provides advanced protection for your Azure and on-premises workloads  
 
-**Azure Defender for Identity**: Uses signals from on-prem AD to identity, detect and investigate advanced threats
+**Azure Defender for Identity**: Uses signals from on-prem AD to identity, detect and investigate advanced threats  
 **Azure Defender for Endpoint**: Endpoint protection component (Laptops, Mobiles, etc.)
 
 Can also protect VMs running in other CSP environment via. Azure Arc  

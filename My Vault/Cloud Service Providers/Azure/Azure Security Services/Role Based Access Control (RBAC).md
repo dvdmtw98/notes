@@ -35,5 +35,3 @@ Answers question: Where can it be done ?
 
 Attach Role Assignment to a Security Principal on a scope  
 Role Assignments are additive i.e. assigned permission will be sum of all roles assigned
-
----

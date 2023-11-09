@@ -1,10 +1,15 @@
+---
+title: Threat Modeling
+tags:
+  - security
+  - concept
+  - intelligence
+---
 
-**Threat Modelling**  
-A structured process for identifying attackers and cataloging possible threats
-
+A structured process for identifying attackers and cataloging possible threats  
 **TTP**: Tactics (Object/Goal), Techniques and Procedures
 
-**Methodologies**  
+#### Methodologies  
 STRIDE: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege  
 PASTA: Process for Attack Simulation and Threat Analysis  
 Trike: Open Source Threat Modelling Process  

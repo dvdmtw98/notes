@@ -17,7 +17,7 @@ For on-prem identities the hash of the hash is stored in AAD
 No on-prem component is involved
 
 **Pass-through**  
-Auth request is sent to AAD from where it is sent to on-prem AD  
+Authentication request is sent to AAD from where it is sent to on-prem AD  
 The result of the authentication is then sent back to AAD  
 The actual authentication is performed by on-prem AD
 

@@ -3,9 +3,8 @@ title: Virtual Network Security
 tags: [azure, cloud, networking, security]
 ---
 
-DoS: Denial of Service (Used to cause disruption of services)
-Designed to:
-Prevent malicious traffic  
+DoS: Denial of Service (Used to cause disruption of services)  
+Designed to: Prevent malicious traffic  
 Prevent additional cost for auto scaling environments
 
 #### Common DDoS Attack Types

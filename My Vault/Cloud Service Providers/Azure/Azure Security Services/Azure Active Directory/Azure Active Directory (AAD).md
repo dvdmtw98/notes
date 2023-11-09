@@ -30,8 +30,9 @@ Allows for [Role Based Access Control (RBAC)](../Role%20Based%20Access%20Control
 
 #### Security Groups
 They are used to group AD objects together and apply similar config and settings    
-Azure AD **Security Groups** are Security Principals (can be used to access Azure Resources)  
+Azure AD **Security Groups** are Security Principals (allows access Azure Resources)  
 All types of identities can be added into a Security Group  
+
 The members can be added natively from cloud or can be synced from on-prem AD  
 Details of groups synced from on-prem has to be directly changed in on-prem AD  
 Members of groups can be added Statically or Dynamically (Using a condition)  

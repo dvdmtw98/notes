@@ -17,8 +17,6 @@ tags:
 **EDR**: Endpoint Detection and Response  
 **XDR**: Extended Detection and Response. Combines intel from multiple sources to provide a holistic view of the incident
 
-
-
 ### CIA Triad
 
 **Confidentiality**  
@@ -57,10 +55,6 @@ Aggregation, Mixing, Proxies, Pseudonyms
 ### Security Threats
 
 [Malware](Malware/Malware.md)  
-Unauthorized Access  
-System Failure  
-Social Engineering
-
 Eavesdropping - Confidentiality  
 Alteration - Integrity  
 DoS - Availability  
@@ -74,14 +68,6 @@ Technical Controls
 Administrative Controls - Procedural Controls, Legal & Regulatory Controls  
 
 [Control Categories - Google Docs](https://docs.google.com/document/d/1XKBnKZkOY_YULCZdY0SLBk9XFx76V5yBaoa7-eI2aDo/edit?usp=sharing)
-
-### Security Audits
-
-Establishing the scope and goals  
-Conducting a risk assessment: Identifying potential risks, threats and vulnerabilities  
-Completing a controls assessment: Reviewing existing assets and evaluating risks  
-Assessing compliance  
-Communicating results
 
 ### Stages of Hacking
 

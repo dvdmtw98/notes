@@ -1,7 +1,6 @@
 ---
 title: Device Identity Management
 tags:
-  - active-directory
   - azure
   - cloud
   - security

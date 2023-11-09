@@ -14,7 +14,7 @@ Sites between cloud users and cloud applications and monitors all activity and e
 Identify and remediate risks through security assessments and automated compliance monitoring
 
 **Shadow IT**  
-Business agility process where departments can purchase and provision their own IT resources without the approval of the centralized IT department
+Business agility process where departments purchases and provisions their own IT resources without the approval of the centralized IT department  
 
 **Automated Investigation and Remediation (AIR)**  
 Uses inspection algorithm that triggers an alert that creates an incident. Once the incident is created its matched with an remediation action
