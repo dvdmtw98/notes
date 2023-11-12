@@ -1,5 +1,4 @@
 ---
-title: Data Control Language (DCL)
 tags: [database, sql, oracle]
 ---
 

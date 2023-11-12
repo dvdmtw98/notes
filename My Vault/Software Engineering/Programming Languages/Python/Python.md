@@ -1,5 +1,4 @@
 ---
-title: Python
 ---
 
 ### Table of Content

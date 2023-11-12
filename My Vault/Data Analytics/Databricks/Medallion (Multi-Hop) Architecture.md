@@ -1,5 +1,4 @@
 ---
-title: Medallion (Multi-Hop) Architecture
 tags: [analytics, databricks]
 ---
 

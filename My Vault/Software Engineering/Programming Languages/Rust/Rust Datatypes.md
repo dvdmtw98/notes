@@ -1,5 +1,4 @@
 ---
-title: Rust Datatypes
 tags: [rust, programming, datatypes]
 ---
 

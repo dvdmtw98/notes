@@ -1,5 +1,4 @@
 ---
-title: Fermats Little Theorem
 tags: [security, math]
 ---
 

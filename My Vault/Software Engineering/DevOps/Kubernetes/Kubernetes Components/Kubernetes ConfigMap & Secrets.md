@@ -1,5 +1,4 @@
 ---
-title: Kubernetes ConfigMap & Secrets
 tags: [kubernetes, container, devops, orchestration]
 ---
 

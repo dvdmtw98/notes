@@ -1,5 +1,4 @@
 ---
-title: DNS Zone Types
 tags: [networking, device, dns]
 ---
 

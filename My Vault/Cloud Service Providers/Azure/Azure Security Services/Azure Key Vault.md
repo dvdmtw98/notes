@@ -1,5 +1,4 @@
 ---
-title: Azure Key Vault
 tags: [azure, cloud, security]
 ---
 

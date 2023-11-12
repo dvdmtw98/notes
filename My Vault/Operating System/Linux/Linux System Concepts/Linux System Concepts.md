@@ -1,5 +1,4 @@
 ---
-title: Linux System Concepts
 tags: [os, linux, concept]
 ---
 

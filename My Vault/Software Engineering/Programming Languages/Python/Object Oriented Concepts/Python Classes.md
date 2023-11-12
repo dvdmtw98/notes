@@ -1,5 +1,4 @@
 ---
-title: Python Classes
 tags: [programming, python]
 ---
 

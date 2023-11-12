@@ -1,5 +1,4 @@
 ---
-title: Japanese Words
 tags: [language, japanese]
 ---
 

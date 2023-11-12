@@ -1,5 +1,4 @@
 ---
-title: Virtual LANs (VLANs)
 tags: [networking, vlan, data-link]
 ---
 

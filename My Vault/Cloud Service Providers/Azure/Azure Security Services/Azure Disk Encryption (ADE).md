@@ -1,5 +1,4 @@
 ---
-title: Azure Disk Encryption (ADE)
 tags:
   - azure
   - cloud

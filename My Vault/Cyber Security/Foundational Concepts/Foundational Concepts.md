@@ -1,5 +1,4 @@
 ---
-title: Foundational Concepts
 tags:
   - security
   - terms

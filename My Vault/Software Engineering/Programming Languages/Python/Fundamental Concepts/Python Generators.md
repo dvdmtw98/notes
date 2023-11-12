@@ -1,5 +1,4 @@
 ---
-title: Python Generators
 tags: [programming, python]
 ---
 

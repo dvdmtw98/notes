@@ -1,5 +1,4 @@
 ---
-title: Linux Index
 tags: [os, linux, index]
 ---
 

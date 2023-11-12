@@ -1,5 +1,4 @@
 ---
-title: Polybase
 tags: [azure, cloud, sql, polybase]
 ---
 

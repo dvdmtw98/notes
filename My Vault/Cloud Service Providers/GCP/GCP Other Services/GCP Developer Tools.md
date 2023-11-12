@@ -1,5 +1,4 @@
 ---
-title: GCP Developer Tools
 tags: [gcp, cloud]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Hiragana Vowels
 tags: [language, japanese, hiragana]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Bash Variables
 tags: [os, linux, bash, programming]
 ---
 

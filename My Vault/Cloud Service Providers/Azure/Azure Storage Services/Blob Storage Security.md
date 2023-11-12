@@ -1,5 +1,4 @@
 ---
-title: Blob Storage Security
 tags: [azure, cloud, storage, security]
 ---
 

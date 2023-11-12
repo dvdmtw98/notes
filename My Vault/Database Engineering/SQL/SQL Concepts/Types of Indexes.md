@@ -1,5 +1,4 @@
 ---
-title: Types of Indexes
 tags: [database, sql, concept]
 ---
 

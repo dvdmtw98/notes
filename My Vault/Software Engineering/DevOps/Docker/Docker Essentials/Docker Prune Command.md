@@ -1,5 +1,4 @@
 ---
-title: Docker Prune Command
 tags: [docker, devops, container]
 ---
 

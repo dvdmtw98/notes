@@ -1,5 +1,4 @@
 ---
-title: CSMA-CD
 tags: [networking, concept, physical]
 ---
 

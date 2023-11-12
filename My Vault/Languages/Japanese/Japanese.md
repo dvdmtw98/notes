@@ -1,5 +1,4 @@
 ---
-title: Japanese
 ---
 
 ### Table of Content

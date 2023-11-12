@@ -1,5 +1,4 @@
 ---
-title: Entity Framework
 tags: [programming, asp.net, csharp, webdev]
 ---
 

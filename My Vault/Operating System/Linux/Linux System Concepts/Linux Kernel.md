@@ -1,5 +1,4 @@
 ---
-title: Linux Kernel
 tags: [os, linux, concept]
 ---
 

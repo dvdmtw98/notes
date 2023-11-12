@@ -1,5 +1,4 @@
 ---
-title: Mongoose
 tags: [programming, javascript, nodejs, webdev]
 ---
 

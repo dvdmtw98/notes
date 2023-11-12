@@ -1,5 +1,4 @@
 ---
-title: Microsoft Active Directory
 tags: [windows, active-directory, security]
 ---
 

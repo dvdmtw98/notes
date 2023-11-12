@@ -1,5 +1,4 @@
 ---
-title: Docker Network
 tags: [docker, devops, container]
 ---
 

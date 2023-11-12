@@ -1,5 +1,4 @@
 ---
-title: Kubernetes Namespace
 tags: [kubernetes, container, devops, orchestration]
 ---
 

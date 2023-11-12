@@ -1,5 +1,4 @@
 ---
-title: RSA Algorithm
 tags: [security, cryptography]
 ---
 
@@ -55,10 +54,10 @@ d = ((60 * 8) + 1) / 13 = 37
 
 [Modular Exponentiation](Math%20Concepts/Modular%20Exponentiation.md)
 
-| Encryption                                                                           | Decryption                                                                                |
-| ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| Encryption                                                                            | Decryption                                                                                 |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | (e, n) = (13, 143) = Public Key<br/>P = Plain Text                                    | (d, n) =  (37, 143) = Private Key<br/>C = Cipher Text                                      |
-| C = $P^e$ mod n, P < n<br/>C = 1313 mod 143                                          | P = $C^d$ mod n<br/>P = 5237 mod 143                                                       |
+| C = $P^e$ mod n, P < n<br/>C = 1313 mod 143                                           | P = $C^d$ mod n<br/>P = 5237 mod 143                                                       |
 | C = \[(13 mod 143)($13^4$ mod 143)($13^8$ mod 143)\] mod 143<br/>C = 52 (Cipher Text) | P = \[(52 mod 143 = 52)($52^4$ mod 143 = 26 )($52^{32}$ mod 143 = 91)\] mod 143<br/>P = 13 |
 
 The Plain Text that is specified is the algorithm is the ASCII code of the character to be encoded

@@ -1,5 +1,4 @@
 ---
-title: Encryption Commands
 tags: [os, windows, command]
 ---
 

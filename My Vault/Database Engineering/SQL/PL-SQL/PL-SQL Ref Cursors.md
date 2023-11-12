@@ -1,5 +1,4 @@
 ---
-title: PL-SQL Ref Cursors
 tags: [database, sql, oracle]
 ---
 

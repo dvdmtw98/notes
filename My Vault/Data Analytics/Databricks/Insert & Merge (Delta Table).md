@@ -1,5 +1,4 @@
 ---
-title: Insert & Merge (Delta Table)
 tags: [analytics, databricks]
 ---
 

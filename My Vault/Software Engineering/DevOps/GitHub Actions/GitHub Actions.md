@@ -1,5 +1,4 @@
 ---
-title: GitHub Actions
 tags: [github, devops, pipeline, cicd, index]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: CSharp Indexers
 tags: [programming, csharp]
 ---
 

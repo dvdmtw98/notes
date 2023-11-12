@@ -1,5 +1,4 @@
 ---
-title: AWS Glue
 tags: [aws, cloud, etl, orchestration]
 ---
 

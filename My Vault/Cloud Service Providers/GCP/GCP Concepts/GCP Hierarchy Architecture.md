@@ -1,5 +1,4 @@
 ---
-title: GCP Hierarchy Architecture
 tags: [gcp, cloud, concept]
 ---
 

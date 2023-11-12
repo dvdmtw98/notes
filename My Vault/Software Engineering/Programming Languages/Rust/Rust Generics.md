@@ -1,5 +1,4 @@
 ---
-title: Rust Generics
 tags: [rust, programming]
 ---
 

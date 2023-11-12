@@ -1,5 +1,4 @@
 ---
-title: GCP Container Services
 tags: [gcp, cloud, container]
 ---
 

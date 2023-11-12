@@ -1,5 +1,4 @@
 ---
-title: Oracle Database Config
 tags: [database, sql, oracle]
 ---
 

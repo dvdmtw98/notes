@@ -1,5 +1,4 @@
 ---
-title: Network Security Groups (NSG)
 tags: [azure, cloud, networking, security]
 ---
 

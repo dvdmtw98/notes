@@ -1,5 +1,4 @@
 ---
-title: Memory Management
 tags: [programming, python, software, concept]
 ---
 

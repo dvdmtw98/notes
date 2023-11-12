@@ -1,5 +1,4 @@
 ---
-title: JS - Other Features
 tags: [programming, javascript, webdev]
 ---
 

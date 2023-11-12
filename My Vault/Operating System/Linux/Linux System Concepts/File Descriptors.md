@@ -1,5 +1,4 @@
 ---
-title: File Descriptors
 tags: [os, linux, concept]
 ---
 

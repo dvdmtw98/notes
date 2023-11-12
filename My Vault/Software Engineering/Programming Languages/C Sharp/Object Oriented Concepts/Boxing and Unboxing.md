@@ -1,5 +1,4 @@
 ---
-title: Boxing and Unboxing
 tags: [programming, csharp]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Virtual Network Security
 tags: [azure, cloud, networking, security]
 ---
 

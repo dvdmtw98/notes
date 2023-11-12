@@ -1,5 +1,4 @@
 ---
-title: Spark Operations
 tags: [analytics, spark]
 ---
 

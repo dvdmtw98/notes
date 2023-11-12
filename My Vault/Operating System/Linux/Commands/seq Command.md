@@ -1,5 +1,4 @@
 ---
-title: seq Command
 tags: [os, linux, command]
 ---
 

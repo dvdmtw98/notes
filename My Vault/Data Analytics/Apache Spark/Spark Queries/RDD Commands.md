@@ -1,5 +1,4 @@
 ---
-title: RDD Commands
 tags: [analytics, spark]
 ---
 

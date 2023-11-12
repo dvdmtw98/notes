@@ -1,5 +1,4 @@
 ---
-title: PL-SQL Collections
 tags: [database, sql, oracle]
 ---
 

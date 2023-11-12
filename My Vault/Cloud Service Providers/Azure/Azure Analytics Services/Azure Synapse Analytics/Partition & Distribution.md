@@ -1,5 +1,4 @@
 ---
-title: Partition & Distribution
 tags: [azure, cloud, analytics, data-warehouse, synapse, partition]
 ---
 

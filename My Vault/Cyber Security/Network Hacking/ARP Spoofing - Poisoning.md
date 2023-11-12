@@ -1,5 +1,4 @@
 ---
-title: ARP Spoofing - Poisoning
 ---
 
 ````bash

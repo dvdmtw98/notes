@@ -1,5 +1,4 @@
 ---
-title: Primitives Datatype
 tags: [programming, csharp]
 ---
 

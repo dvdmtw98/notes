@@ -1,5 +1,4 @@
 ---
-title: Fiber Distributed Data Interface (FDDI)
 tags: [networking, wan]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: HSTS (HTTP Strict Transport Security)
 tags: [security, web, concept]
 ---
 

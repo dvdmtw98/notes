@@ -1,5 +1,4 @@
 ---
-title: User Defined Schema
 tags: [analytics, spark]
 ---
 

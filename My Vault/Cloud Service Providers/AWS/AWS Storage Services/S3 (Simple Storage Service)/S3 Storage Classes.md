@@ -1,5 +1,4 @@
 ---
-title: S3 Storage Classes
 tags: [aws, cloud, storage, s3]
 ---
 

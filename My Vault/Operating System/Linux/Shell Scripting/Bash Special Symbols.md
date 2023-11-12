@@ -1,5 +1,4 @@
 ---
-title: Bash Special Symbols
 tags: [os, linux, bash, programming]
 ---
 

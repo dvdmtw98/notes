@@ -1,5 +1,4 @@
 ---
-title: SEARCH and FIND Function
 tags: [excel]
 ---
 

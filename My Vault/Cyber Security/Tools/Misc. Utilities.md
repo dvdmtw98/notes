@@ -1,5 +1,4 @@
 ---
-title: Other Tools
 tags: [security, tool]
 ---
 

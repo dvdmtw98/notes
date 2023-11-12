@@ -1,5 +1,4 @@
 ---
-title: Data Link (Network Interface) Protocols
 tags: [networking, data-link, index]
 ---
 

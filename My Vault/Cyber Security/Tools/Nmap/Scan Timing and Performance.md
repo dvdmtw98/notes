@@ -1,5 +1,4 @@
 ---
-title: Scan Timing and Performance
 tags: [security, tool, nmap]
 ---
 

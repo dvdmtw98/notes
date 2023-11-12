@@ -1,5 +1,4 @@
 ---
-title: IPv4 (Internet Protocol v4) Address
 tags: [networking, network, ip, subnet]
 ---
 

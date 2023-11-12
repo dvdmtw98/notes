@@ -1,5 +1,4 @@
 ---
-title: Proxy Server
 tags: [networking, security, device]
 ---
 

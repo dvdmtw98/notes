@@ -1,5 +1,4 @@
 ---
-title: Rust Functions
 tags: [rust, programming, function]
 ---
 

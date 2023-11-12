@@ -1,5 +1,4 @@
 ---
-title: GCP Data Analytics Services
 tags: [gcp, cloud, analytics]
 ---
 

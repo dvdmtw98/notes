@@ -1,5 +1,4 @@
 ---
-title: Python Exception Handling
 tags: [programming, python]
 ---
 

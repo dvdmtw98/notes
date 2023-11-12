@@ -1,5 +1,4 @@
 ---
-title: Partitioning in ADLS
 tags: [azure, cloud, storage, partition]
 ---
 

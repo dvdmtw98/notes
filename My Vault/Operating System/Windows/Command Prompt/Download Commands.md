@@ -1,5 +1,4 @@
 ---
-title: Download Commands
 tags: [os, windows, command]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: EC2 (Elastic Cloud Compute)
 tags: [aws, cloud, compute]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Database Theorems
 tags: [database, concept, nosql]
 ---
 

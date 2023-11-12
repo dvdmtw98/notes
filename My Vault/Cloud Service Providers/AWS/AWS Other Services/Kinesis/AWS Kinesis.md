@@ -1,5 +1,4 @@
 ---
-title: AWS Kinesis
 tags: [aws, cloud, streaming]
 ---
 

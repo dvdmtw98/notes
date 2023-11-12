@@ -1,5 +1,4 @@
 ---
-title: MapReduce
 tags: [analytics, hadoop]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Enums
 tags: [programming, csharp]
 ---
 

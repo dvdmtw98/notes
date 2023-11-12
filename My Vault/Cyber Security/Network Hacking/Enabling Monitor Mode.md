@@ -1,5 +1,4 @@
 ---
-title: Enabling Monitor Mode
 ---
 
 Managed Mode: View/ Capture packets meant for source device only  

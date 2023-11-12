@@ -1,5 +1,4 @@
 ---
-title: Consistent Hashing
 tags: [system-design, concept]
 ---
 

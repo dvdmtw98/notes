@@ -1,5 +1,4 @@
 ---
-title: Azure Web App
 tags: [azure, compute, web]
 ---
 

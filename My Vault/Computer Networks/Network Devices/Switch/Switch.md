@@ -1,5 +1,4 @@
 ---
-title: Switch
 tags: [networking, device]
 ---
 

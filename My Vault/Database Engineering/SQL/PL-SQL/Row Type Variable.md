@@ -1,5 +1,4 @@
 ---
-title: Row Type Variable
 tags: [database, sql, oracle]
 ---
 

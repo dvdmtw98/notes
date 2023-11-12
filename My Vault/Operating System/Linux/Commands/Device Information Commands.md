@@ -1,5 +1,4 @@
 ---
-title: Device Information Commands
 tags: [os, linux, command]
 ---
 

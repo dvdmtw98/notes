@@ -1,5 +1,4 @@
 ---
-title: Azure Metrics & Logs
 tags: [azure, cloud, alert, metric]
 ---
 

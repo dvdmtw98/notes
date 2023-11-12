@@ -1,5 +1,4 @@
 ---
-title: Log Analytics Workspace
 tags: [azure, cloud, analytics]
 ---
 

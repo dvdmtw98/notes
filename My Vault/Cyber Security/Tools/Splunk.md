@@ -1,18 +1,12 @@
 ---
-title: Splunk
 tags:
   - security
   - concept
   - splunk
 ---
 
-
-
 Splunk Job is active for 10mins  
 Shared Splunk Job active for 7 days
-
-Time, Index, Source, Host, Source Type are default fields in Splunk  
-They are generated when Splunk Indexes the data
 
 #### Main Components
 **Forwarder**: Universal or Heavy (Reads the data from the source systems)  
@@ -42,11 +36,25 @@ Splunk Search Language is made of five components:
 **Arguments**: Variables to apply to the function  
 **Clauses**: Defines how the results are grouped/defined
 
-Boolean Operators (AND, OR, NOT) - No operator implies AND  
+**Boolean Operators (AND, OR, NOT)**    
+No operator between fields implies AND  
 Booleans are evaluated in the order NOT, OR, AND
 
-Transforming Commands: Commands that create statistics and visualizations  
 Search Modes: Fast, Smart, Verbose
+
+**Transforming Commands**  
+Commands that create statistics and visualizations  
+SPL that contains an transforming command is always executed in smart mode  
+e.g. Top, Rare, Stats
+
+Time related operation (Earliest & Latest) specified in the SPL will have precedence over the Time Picker range 
+
+#### Splunk Fields
+
+Time, Index, Source, Host, Source Type are fields added by default in Splunk  
+They are generated when Splunk Indexes the data  
+
+**Field Types**: ∝ (Character), # (Numeric)
 
 #### Knowledge Objects
 
@@ -56,4 +64,4 @@ Data Enrichment
 Data Normalization  
 Data Models
 
-Knowledge Objects can saved, shared and used in search
+Knowledge Objects can be saved, shared and used in search

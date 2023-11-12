@@ -1,5 +1,4 @@
 ---
-title: GCP IAM Services
 tags: [gcp, cloud, security]
 ---
 

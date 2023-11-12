@@ -1,5 +1,4 @@
 ---
-title: GCP Resource Hierarchy
 tags: [gcp, cloud, concept]
 ---
 

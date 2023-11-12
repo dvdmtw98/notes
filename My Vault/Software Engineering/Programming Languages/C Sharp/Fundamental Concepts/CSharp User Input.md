@@ -1,5 +1,4 @@
 ---
-title: CSharp User Input
 tags: [programming, csharp]
 ---
 

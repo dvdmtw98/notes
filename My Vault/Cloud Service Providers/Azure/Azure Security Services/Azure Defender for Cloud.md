@@ -1,5 +1,4 @@
 ---
-title: Azure Defender for Cloud
 tags:
   - cloud
   - azure

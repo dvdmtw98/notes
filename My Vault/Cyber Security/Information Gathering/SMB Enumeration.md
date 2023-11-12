@@ -1,5 +1,4 @@
 ---
-title: SMB Enumeration
 tags: [security, enumeration, smb]
 ---
 

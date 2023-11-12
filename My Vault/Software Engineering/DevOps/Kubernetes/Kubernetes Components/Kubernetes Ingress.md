@@ -1,5 +1,4 @@
 ---
-title: Kubernetes Ingress
 tags: [kubernetes, container, devops, orchestration]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Azure Storage Account Types
 tags: [azure, storage, cloud]
 ---
 

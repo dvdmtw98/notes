@@ -1,5 +1,4 @@
 ---
-title: CSS Flexbox
 tags: [programming, css, webdev]
 ---
 

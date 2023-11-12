@@ -1,5 +1,4 @@
 ---
-title: WAP (Wireless Access Point)
 tags: [networking, device, wireless]
 ---
 

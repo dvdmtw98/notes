@@ -1,5 +1,4 @@
 ---
-title: HDFS Operations
 tags: [analytics, hadoop]
 ---
 

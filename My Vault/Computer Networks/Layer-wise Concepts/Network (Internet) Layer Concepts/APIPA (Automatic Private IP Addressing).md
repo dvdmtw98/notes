@@ -1,5 +1,4 @@
 ---
-title: APIPA (Automatic Private IP Addressing)
 tags: [networking, network, ip, subnet]
 ---
 

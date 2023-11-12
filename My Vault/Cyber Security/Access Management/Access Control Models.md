@@ -1,5 +1,4 @@
 ---
-title: Access Control Models
 tags:
   - security
   - access

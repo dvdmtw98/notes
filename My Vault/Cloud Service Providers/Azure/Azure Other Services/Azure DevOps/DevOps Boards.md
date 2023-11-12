@@ -1,5 +1,4 @@
 ---
-title: Azure Boards
 tags: [devops, azure, cloud, boards]
 ---
 

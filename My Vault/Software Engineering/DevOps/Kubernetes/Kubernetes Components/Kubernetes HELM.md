@@ -1,5 +1,4 @@
 ---
-title: Kubernetes HELM
 tags: [kubernetes, container, devops, orchestration]
 ---
 

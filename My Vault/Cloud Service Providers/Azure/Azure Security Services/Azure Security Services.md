@@ -1,5 +1,4 @@
 ---
-title: Azure Security Services
 tags: [azure, cloud, security, index]
 ---
 
@@ -24,6 +23,7 @@ tags: [azure, cloud, security, index]
 	* [Azure Blueprints](Azure%20Blueprints.md)
 	* [Azure Policy](Azure%20Policy.md)
 	* [Azure Defender for Cloud](Azure%20Defender%20for%20Cloud.md)
+	* [Data Loss Prevention (DLP)](../../GCP/GCP%20Security%20Services/Data%20Loss%20Prevention%20(DLP).md)
 * **Azure Encryption**
 	* [Azure Disk Encryption (ADE)](Azure%20Disk%20Encryption%20(ADE).md)
 	* [Transparent Data Encryption (TDE)](Transparent%20Data%20Encryption%20(TDE).md)

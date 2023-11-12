@@ -1,5 +1,4 @@
 ---
-title: GCP Cloud Deployment Manager
 tags: [gcp, cloud]
 ---
 

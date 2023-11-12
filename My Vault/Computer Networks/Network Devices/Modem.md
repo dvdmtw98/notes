@@ -1,5 +1,4 @@
 ---
-title: Modem
 tags: [networking, device]
 ---
 

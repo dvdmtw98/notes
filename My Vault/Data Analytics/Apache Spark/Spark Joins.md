@@ -1,5 +1,4 @@
 ---
-title: Spark Joins
 tags: [analytics, spark]
 ---
 

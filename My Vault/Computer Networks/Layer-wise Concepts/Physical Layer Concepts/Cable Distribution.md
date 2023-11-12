@@ -1,5 +1,4 @@
 ---
-title: Cable Distribution
 tags: [networking, cabling]
 ---
 

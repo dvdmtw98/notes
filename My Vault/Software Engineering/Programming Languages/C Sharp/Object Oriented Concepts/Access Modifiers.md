@@ -1,5 +1,4 @@
 ---
-title: Access Modifiers
 tags: [programming, csharp]
 ---
 

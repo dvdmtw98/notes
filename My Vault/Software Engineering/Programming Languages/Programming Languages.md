@@ -1,5 +1,4 @@
 ---
-title: Programming Languages
 tags: [programming, index]
 ---
 

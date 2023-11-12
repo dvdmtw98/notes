@@ -1,5 +1,4 @@
 ---
-title: Fiber Optic Cables
 tags: [networking, cable]
 ---
 

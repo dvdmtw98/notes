@@ -1,5 +1,4 @@
 ---
-title: DMZ (Demilitarized Zone)
 tags: [networking, security]
 ---
 

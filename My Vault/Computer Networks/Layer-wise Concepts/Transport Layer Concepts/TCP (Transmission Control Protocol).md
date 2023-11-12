@@ -1,5 +1,4 @@
 ---
-title: TCP (Transmission Control Protocol)
 tags: [networking, transport, tcp]
 ---
 

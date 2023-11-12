@@ -1,5 +1,4 @@
 ---
-title: Data Definition Language (DDL)
 tags: [database, sql, oracle]
 ---
 

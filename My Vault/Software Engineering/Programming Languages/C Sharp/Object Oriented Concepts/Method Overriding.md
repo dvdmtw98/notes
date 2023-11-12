@@ -1,5 +1,4 @@
 ---
-title: Method Overriding
 tags: [programming, csharp]
 ---
 

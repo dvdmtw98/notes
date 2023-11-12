@@ -1,5 +1,4 @@
 ---
-title: Bloom Filter
 tags: [data-structure]
 ---
 
@@ -39,11 +38,11 @@ If even one of the hash values is 0 then with 100% guarantee we can say that the
 
 ### Time and Space Complexity
 
-|Operation|Complexity|
-|---------|----------|
-|Insertion|O(k)|
-|Search|O(k)|
-|Space|O(m)|
+| Operation | Complexity |
+| --------- | ---------- |
+| Insertion | O(k)       |
+| Search    | O(k)       |
+| Space     | O(m)       |
 
 ### Applications
 

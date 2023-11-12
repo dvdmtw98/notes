@@ -1,5 +1,4 @@
 ---
-title: Kafka Commands
 tags: [analytics, kafka]
 ---
 

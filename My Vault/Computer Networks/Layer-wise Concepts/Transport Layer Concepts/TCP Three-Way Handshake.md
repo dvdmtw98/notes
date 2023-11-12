@@ -1,5 +1,4 @@
 ---
-title: TCP Three-Way Handshake
 ---
 
 Three Way Handshake is used to share information between the client and server to synchronize the parameters that are going to be used in the connection
@@ -20,7 +19,7 @@ The options are only shared between the client and server during the initial Han
 | FIN (Finish)          | Teardown virtual connection established between the hosts |
 | RST (Reset)           | Send when host receives unexpected data                   |
 | PSH (Push)            | Informs to process the data with priority                 |
-| URG (Urgent)          | Packets to be processed immediately                       | 
+| URG (Urgent)          | Packets to be processed immediately                       |
 
 The RST flag will be send if client makes a request to a server that is not currently accepting any new connection  
 PSH increases the priority of the transmitted data  

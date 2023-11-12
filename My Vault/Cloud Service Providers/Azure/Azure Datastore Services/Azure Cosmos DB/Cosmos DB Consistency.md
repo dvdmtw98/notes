@@ -1,5 +1,4 @@
 ---
-title: Cosmos DB Consistency
 tags: [azure, cloud, database, nosql]
 ---
 

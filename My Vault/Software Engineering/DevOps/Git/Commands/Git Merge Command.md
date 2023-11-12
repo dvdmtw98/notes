@@ -1,5 +1,4 @@
 ---
-title: Git Merge Command
 tags: [git, devops]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: File System Structure
 tags: [os, linux, concept]
 ---
 

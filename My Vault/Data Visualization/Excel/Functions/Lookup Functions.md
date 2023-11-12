@@ -1,5 +1,4 @@
 ---
-title: Lookup Functions
 tags: [excel]
 ---
 

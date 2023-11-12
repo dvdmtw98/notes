@@ -1,5 +1,4 @@
 ---
-title: Docker Compose
 tags: [docker, devops, container]
 ---
 

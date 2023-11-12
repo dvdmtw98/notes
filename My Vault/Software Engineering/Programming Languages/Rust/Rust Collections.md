@@ -1,5 +1,4 @@
 ---
-title: Rust Collections
 tags: [rust, programming]
 ---
 

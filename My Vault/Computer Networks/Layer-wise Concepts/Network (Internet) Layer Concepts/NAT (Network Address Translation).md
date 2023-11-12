@@ -1,5 +1,4 @@
 ---
-title: NAT (Network Address Translation)
 tags: [networking, network, nat]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Slowly Changing Dimension (SCD)
 tags: [analytics, concept]
 ---
 

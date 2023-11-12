@@ -1,5 +1,4 @@
 ---
-title: Ikigai
 tags: [book, self-help]
 ---
 

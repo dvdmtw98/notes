@@ -1,5 +1,4 @@
 ---
-title: Azure Analytics Services
 tags: [azure, cloud, analytics, index]
 ---
 

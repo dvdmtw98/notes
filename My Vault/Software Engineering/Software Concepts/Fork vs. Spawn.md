@@ -1,5 +1,4 @@
 ---
-title: Fork vs. Spawn
 tags: [programming, os, concept]
 ---
 

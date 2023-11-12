@@ -1,5 +1,4 @@
 ---
-title: Ethernet
 tags: [networking, protocol, physical]
 ---
 

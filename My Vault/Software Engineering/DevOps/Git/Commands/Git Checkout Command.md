@@ -1,5 +1,4 @@
 ---
-title: Git Checkout Command
 tags: [git, devops]
 ---
 

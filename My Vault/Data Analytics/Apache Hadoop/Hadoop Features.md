@@ -1,5 +1,4 @@
 ---
-title: Hadoop Features
 tags: [analytics, hadoop]
 ---
 

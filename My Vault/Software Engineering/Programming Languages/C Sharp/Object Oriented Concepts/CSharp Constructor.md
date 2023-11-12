@@ -1,5 +1,4 @@
 ---
-title: CSharp Constructor
 tags: [programming, csharp]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Extension Methods
 tags: [programming, csharp]
 ---
 

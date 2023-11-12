@@ -1,5 +1,4 @@
 ---
-title: Dial Up Connection
 tags: [networking, wan]
 ---
 

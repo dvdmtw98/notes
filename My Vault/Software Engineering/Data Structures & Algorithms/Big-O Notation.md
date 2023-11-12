@@ -1,5 +1,4 @@
 ---
-title: Big-O Notation
 tags: [programming, concept]
 ---
 

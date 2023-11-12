@@ -1,5 +1,4 @@
 ---
-title: OR and AND Criteria
 tags: [excel]
 ---
 

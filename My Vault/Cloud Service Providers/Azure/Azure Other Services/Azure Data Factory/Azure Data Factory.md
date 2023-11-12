@@ -1,5 +1,4 @@
 ---
-title: Azure Data Factory
 tags: [azure, cloud, etl, orchestration]
 ---
 

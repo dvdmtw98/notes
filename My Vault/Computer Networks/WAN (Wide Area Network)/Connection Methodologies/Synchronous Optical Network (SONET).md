@@ -1,5 +1,4 @@
 ---
-title: Synchronous Optical Network (SONET)
 tags: [networking, wan]
 ---
 

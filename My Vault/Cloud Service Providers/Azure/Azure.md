@@ -1,5 +1,4 @@
 ---
-title: Azure
 tags: [azure, cloud, index]
 ---
 

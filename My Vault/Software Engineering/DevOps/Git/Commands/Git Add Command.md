@@ -1,5 +1,4 @@
 ---
-title: Git Add Command
 tags: [git, devops]
 ---
 

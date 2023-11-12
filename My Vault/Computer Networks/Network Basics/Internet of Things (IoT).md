@@ -1,5 +1,4 @@
 ---
-title: Internet of Things (IoT)
 tags:
   - networking
   - concept

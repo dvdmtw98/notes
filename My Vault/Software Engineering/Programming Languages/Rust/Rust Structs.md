@@ -1,5 +1,4 @@
 ---
-title: Rust Structs
 tags: [rust, programming, structs]
 ---
 

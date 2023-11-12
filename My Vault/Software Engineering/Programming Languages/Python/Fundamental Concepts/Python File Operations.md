@@ -1,5 +1,4 @@
 ---
-title: Python File Operations
 tags: [programming, python]
 ---
 

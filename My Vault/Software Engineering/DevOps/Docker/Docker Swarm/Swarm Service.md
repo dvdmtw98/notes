@@ -1,5 +1,4 @@
 ---
-title: Swarm Service
 tags: [docker, devops, container, orchestration]
 ---
 

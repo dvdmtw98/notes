@@ -1,5 +1,4 @@
 ---
-title: External Identity Types
 tags:
   - security
   - azure

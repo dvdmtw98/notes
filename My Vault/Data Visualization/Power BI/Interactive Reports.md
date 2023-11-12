@@ -1,5 +1,4 @@
 ---
-title: Interactive Reports
 tags: [powerbi, visulization, reporting]
 ---
 

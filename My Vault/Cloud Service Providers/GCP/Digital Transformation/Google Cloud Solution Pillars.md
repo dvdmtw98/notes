@@ -1,5 +1,4 @@
 ---
-title: Google Cloud Solution Pillars
 tags: [cloud, concept]
 ---
 

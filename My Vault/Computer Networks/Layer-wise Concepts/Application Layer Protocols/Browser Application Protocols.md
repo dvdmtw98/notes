@@ -1,5 +1,4 @@
 ---
-title: Browser Application Protocols
 tags: [networking, application, protocol]
 ---
 

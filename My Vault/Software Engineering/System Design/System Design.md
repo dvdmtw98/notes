@@ -1,5 +1,4 @@
 ---
-title: System Design
 tags: [system-design, index]
 ---
 

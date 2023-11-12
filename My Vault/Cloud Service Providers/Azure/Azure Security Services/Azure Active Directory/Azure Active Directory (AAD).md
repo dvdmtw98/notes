@@ -1,5 +1,4 @@
 ---
-title: Azure Active Directory (AAD)
 tags: [azure, cloud, security, active-directory]
 ---
 

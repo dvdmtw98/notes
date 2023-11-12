@@ -1,5 +1,4 @@
 ---
-title: Kubernetes Components
 tags: [kubernetes, container, devops, orchestration]
 ---
 

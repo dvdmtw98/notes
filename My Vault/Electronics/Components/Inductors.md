@@ -1,5 +1,4 @@
 ---
-title: Inductors
 tags: [electrical, component]
 ---
 

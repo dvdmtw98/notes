@@ -1,5 +1,4 @@
 ---
-title: RIP & RIPv2 (Routing Information Protocol)
 tags: [networking, routing, algorithm]
 ---
 

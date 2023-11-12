@@ -1,5 +1,4 @@
 ---
-title: ssh Command
 tags: [os, linux, command]
 ---
 

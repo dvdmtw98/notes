@@ -1,5 +1,4 @@
 ---
-title: File Transfer Application Protocols
 tags: [networking, application, protocol]
 ---
 

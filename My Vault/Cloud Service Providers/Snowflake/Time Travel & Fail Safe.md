@@ -1,5 +1,4 @@
 ---
-title: Time Travel & Fail Safe
 tags: [snowflake, cloud, data-warehouse]
 ---
 

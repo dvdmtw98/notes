@@ -1,5 +1,4 @@
 ---
-title: WPA - WPA2 (Wi-Fi Protected Access)
 ---
 
 Each packet is encrypted using an unique temporary key  

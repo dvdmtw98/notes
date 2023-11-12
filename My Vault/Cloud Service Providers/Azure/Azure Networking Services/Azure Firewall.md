@@ -1,5 +1,4 @@
 ---
-title: Azure Firewall
 tags:
   - azure
   - cloud

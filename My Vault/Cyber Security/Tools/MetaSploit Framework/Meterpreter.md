@@ -1,5 +1,4 @@
 ---
-title: Meterpreter
 tags: [security, tool, metasploit]
 ---
 

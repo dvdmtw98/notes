@@ -1,5 +1,4 @@
 ---
-title: Spark Streaming with Kafka
 tags: [analytics, spark, streaming]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Azure Virtual Machine
 tags: [azure, compute, vm]
 ---
 

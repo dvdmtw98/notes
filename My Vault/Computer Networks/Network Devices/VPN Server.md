@@ -1,5 +1,4 @@
 ---
-title: VPN Server
 tags: [networking, device]
 ---
 

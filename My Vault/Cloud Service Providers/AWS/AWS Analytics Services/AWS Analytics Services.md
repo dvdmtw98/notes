@@ -1,5 +1,4 @@
 ---
-title: AWS Analytics Services
 tags: [aws, cloud, analytics, index]
 ---
 

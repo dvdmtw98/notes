@@ -1,5 +1,4 @@
 ---
-title: Hive Custom Partitioning
 tags: [analytics, hive, partition]
 ---
 

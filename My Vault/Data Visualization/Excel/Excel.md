@@ -1,5 +1,4 @@
 ---
-title: Excel
 tags: [excel, index]
 ---
 

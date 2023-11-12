@@ -1,5 +1,4 @@
 ---
-title: Control Groups (cgroups)
 tags: [os, linux, concept]
 ---
 

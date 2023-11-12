@@ -1,5 +1,4 @@
 ---
-title: Package Management Commands
 tags: [os, linux, command]
 ---
 

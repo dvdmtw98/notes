@@ -1,5 +1,4 @@
 ---
-title: Kubernetes Deployments
 tags: [kubernetes, container, devops, orchestration]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: De-Authentication Attack
 ---
 
 The attack is performed by changing our MAC to Target MAC and sending Disconnect Request to the Router  

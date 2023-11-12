@@ -1,5 +1,4 @@
 ---
-title: GCP AI Services
 tags: [gcp, cloud, ai]
 ---
 

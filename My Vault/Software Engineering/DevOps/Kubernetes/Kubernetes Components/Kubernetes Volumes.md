@@ -1,5 +1,4 @@
 ---
-title: Kubernetes Volumes
 tags: [kubernetes, container, devops, orchestration]
 ---
 

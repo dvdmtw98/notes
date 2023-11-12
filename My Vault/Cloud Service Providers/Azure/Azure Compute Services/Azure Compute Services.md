@@ -1,5 +1,4 @@
 ---
-title: Azure Compute Services
 tags: [azure, cloud, compute]
 ---
 

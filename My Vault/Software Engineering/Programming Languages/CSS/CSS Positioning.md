@@ -1,5 +1,4 @@
 ---
-title: CSS Positioning
 tags: [programming, css, webdev]
 ---
 

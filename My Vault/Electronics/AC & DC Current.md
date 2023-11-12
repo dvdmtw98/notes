@@ -1,5 +1,4 @@
 ---
-title: AC & DC Current
 tags: [electrical, concept]
 ---
 

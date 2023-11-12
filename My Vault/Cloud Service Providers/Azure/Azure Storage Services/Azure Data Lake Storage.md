@@ -1,5 +1,4 @@
 ---
-title: Azure Data Lake Storage
 tags: [azure, cloud, storage]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Azure CDN
 tags: [azure, cloud, cdn, cache]
 ---
 

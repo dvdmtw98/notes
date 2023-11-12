@@ -1,5 +1,4 @@
 ---
-title: Views
 ---
 
 ````sql

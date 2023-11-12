@@ -1,5 +1,4 @@
 ---
-title: Vim Editor
 tags: [os, linux, tools]
 ---
 

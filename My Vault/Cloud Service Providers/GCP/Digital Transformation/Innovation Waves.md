@@ -1,5 +1,4 @@
 ---
-title: Innovation Waves
 tags: [cloud, concept]
 ---
 

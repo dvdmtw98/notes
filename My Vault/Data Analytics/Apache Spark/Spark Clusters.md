@@ -1,5 +1,4 @@
 ---
-title: Spark Clusters
 tags: [analytics, spark]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Building Docker Image
 tags: [docker, devops, container]
 ---
 

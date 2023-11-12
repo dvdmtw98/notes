@@ -1,5 +1,4 @@
 ---
-title: Excel Function Tips
 tags: [excel]
 ---
 

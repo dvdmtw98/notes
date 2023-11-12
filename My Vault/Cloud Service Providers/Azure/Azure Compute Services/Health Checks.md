@@ -1,5 +1,4 @@
 ---
-title: Health Checks
 tags: [azure, cloud, alert, metric]
 ---
 

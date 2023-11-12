@@ -1,5 +1,4 @@
 ---
-title: Python String Formatting
 tags: [programming, python]
 ---
 

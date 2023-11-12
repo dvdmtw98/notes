@@ -1,5 +1,4 @@
 ---
-title: English
 tags: [language, english, index]
 ---
 

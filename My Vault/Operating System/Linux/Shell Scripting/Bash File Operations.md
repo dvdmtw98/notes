@@ -1,5 +1,4 @@
 ---
-title: Bash File Operations
 tags: [os, linux, bash, programming]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: ASP.NET
 tags: [programming, asp.net, csharp, webdev, index]
 ---
 

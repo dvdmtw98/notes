@@ -1,5 +1,4 @@
 ---
-title: Linux Misc. Commands
 tags: [os, linux, command]
 ---
 

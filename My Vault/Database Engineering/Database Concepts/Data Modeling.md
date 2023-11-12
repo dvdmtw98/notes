@@ -1,5 +1,4 @@
 ---
-title: Data Modeling
 tags: [database, concept]
 ---
 

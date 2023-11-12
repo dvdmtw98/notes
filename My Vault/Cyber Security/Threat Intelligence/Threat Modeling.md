@@ -1,5 +1,4 @@
 ---
-title: Threat Modeling
 tags:
   - security
   - concept

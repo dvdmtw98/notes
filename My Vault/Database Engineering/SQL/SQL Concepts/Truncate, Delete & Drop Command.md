@@ -1,5 +1,4 @@
 ---
-title: Truncate, Delete & Drop Command
 tags: [database, sql]
 ---
 

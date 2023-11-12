@@ -1,5 +1,4 @@
 ---
-title: DNS Spoofing
 ---
 
 DNS Server converts the website URL to IP address of Server  

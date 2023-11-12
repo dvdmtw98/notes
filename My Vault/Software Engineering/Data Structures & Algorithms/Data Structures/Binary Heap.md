@@ -1,5 +1,4 @@
 ---
-title: Binary Heap
 tags: [data-structure]
 ---
 
@@ -20,11 +19,11 @@ Prims Minimum Spanning Tree (MST)
 
 ### Time Complexity
 
-|Operation|Worst|
-|---------|-----|
-|Lookup|O(n)|
-|Adding|O(log(n))|
-|Remove|O(log(n))|
+| Operation | Worst     |
+| --------- | --------- |
+| Lookup    | O(n)      |
+| Adding    | O(log(n)) |
+| Remove    | O(log(n)) |
 
 ### Binary Heap Representation (Using Array)
 

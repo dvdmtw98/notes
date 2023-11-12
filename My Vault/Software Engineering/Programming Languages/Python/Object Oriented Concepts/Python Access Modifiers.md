@@ -1,5 +1,4 @@
 ---
-title: Python Access Modifiers
 tags: [programming, python]
 ---
 

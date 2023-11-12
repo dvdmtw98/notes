@@ -1,5 +1,4 @@
 ---
-title: Injecting JavaScript Code
 ---
 
 Create a .js with the code to be executed  

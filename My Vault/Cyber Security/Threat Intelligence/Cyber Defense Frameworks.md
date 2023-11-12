@@ -1,5 +1,4 @@
 ---
-title: Cyber Defense Frameworks
 tags:
   - security
   - concept

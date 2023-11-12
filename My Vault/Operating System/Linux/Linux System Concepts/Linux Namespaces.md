@@ -1,5 +1,4 @@
 ---
-title: Linux Namespaces
 tags: [os, linux, concept]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Movie List
 tags: [list, movie]
 cssclass: numbered-rows
 ---
@@ -90,7 +89,7 @@ cssclass: numbered-rows
 |     | Irréversible                                   | 2002    |
 |     | Monty Python's Life of Brian                   | 1979    |
 |     | Manchester by the Sea                          | 2016    |
-|     | The Florida Project                            | 2017    | 
+|     | The Florida Project                            | 2017    |
 
 ### Asian Movies
 
@@ -118,14 +117,14 @@ cssclass: numbered-rows
 
 ### Animated Movies
 
-| No. | Names                                          | Release |
-| --- | ---------------------------------------------- | ------- |
-|     | The Iron Giant                                 | 1999    |
-|     | Persepolis                                     | 2000    |
-|     | Klaus                                          | 2019    |
-|     | The Mitchells vs. the Machines                 | 2021    |
-|     | The Little Prince                              | 2016    |
-|     | Tim Burton's The Nightmare Before Christmas    | 1993    |
-|     | The Triplets of Belleville                     | 2003    | 
+| No. | Names                                       | Release |
+| --- | ------------------------------------------- | ------- |
+|     | The Iron Giant                              | 1999    |
+|     | Persepolis                                  | 2000    |
+|     | Klaus                                       | 2019    |
+|     | The Mitchells vs. the Machines              | 2021    |
+|     | The Little Prince                           | 2016    |
+|     | Tim Burton's The Nightmare Before Christmas | 1993    |
+|     | The Triplets of Belleville                  | 2003    |
 
 [Read & Watch List](../Read%20&%20Watch%20List.md)

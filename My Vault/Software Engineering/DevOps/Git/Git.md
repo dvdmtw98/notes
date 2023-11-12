@@ -1,5 +1,4 @@
 ---
-title: Git
 tags: [git, devops, index]
 ---
 

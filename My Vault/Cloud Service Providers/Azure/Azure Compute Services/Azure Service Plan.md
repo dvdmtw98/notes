@@ -1,5 +1,4 @@
 ---
-title: Azure Service Plan
 tags: [azure, compute]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Wireless Encryption Standards
 tags: [networking, wireless, security]
 ---
 

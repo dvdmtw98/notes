@@ -1,5 +1,4 @@
 ---
-title: Upcasting and Downcasting
 tags: [programming, csharp]
 ---
 

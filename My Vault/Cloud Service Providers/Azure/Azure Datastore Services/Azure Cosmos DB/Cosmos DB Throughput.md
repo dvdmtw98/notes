@@ -1,5 +1,4 @@
 ---
-title: Cosmos DB Throughput
 tags: [azure, cloud, database, nosql, cosmos-db]
 ---
 

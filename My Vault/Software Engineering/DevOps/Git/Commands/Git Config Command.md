@@ -1,5 +1,4 @@
 ---
-title: Git Config Command
 tags: [git, devops]
 ---
 

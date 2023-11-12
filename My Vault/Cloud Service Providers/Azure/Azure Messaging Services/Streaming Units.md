@@ -1,5 +1,4 @@
 ---
-title: Streaming Units
 tags: [azure, cloud, streaming, concept]
 ---
 

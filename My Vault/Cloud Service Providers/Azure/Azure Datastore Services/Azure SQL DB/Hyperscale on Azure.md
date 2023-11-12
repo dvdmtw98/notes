@@ -1,5 +1,4 @@
 ---
-title: Hyperscale on Azure
 tags: [azure, cloud, database, sql]
 ---
 

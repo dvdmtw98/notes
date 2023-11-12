@@ -1,5 +1,4 @@
 ---
-title: Cost Reducing Approaches
 tags: [azure, cloud, cost]
 ---
 

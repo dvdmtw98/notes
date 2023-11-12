@@ -1,5 +1,4 @@
 ---
-title: AWS Storage Services
 tags: [aws, cloud, storage, index]
 ---
 

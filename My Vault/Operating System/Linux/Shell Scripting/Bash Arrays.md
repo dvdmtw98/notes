@@ -1,5 +1,4 @@
 ---
-title: Bash Arrays
 tags: [os, linux, bash, programming]
 ---
 

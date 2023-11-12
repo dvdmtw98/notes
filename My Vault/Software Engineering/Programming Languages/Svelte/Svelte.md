@@ -1,5 +1,4 @@
 ---
-title: Svelte
 tags: [programming, javascript, svelte, webdev, index]
 ---
 

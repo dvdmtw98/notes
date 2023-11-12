@@ -1,5 +1,4 @@
 ---
-title: Arithmetic Operators
 tags: [programming, csharp]
 ---
 

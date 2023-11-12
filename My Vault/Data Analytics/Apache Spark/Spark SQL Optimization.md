@@ -1,5 +1,4 @@
 ---
-title: Spark SQL Optimization
 tags: [analytics, spark]
 ---
 

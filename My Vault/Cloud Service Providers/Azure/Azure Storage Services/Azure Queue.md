@@ -1,5 +1,4 @@
 ---
-title: Azure Queue
 tags: [azure, storage, queue]
 ---
 

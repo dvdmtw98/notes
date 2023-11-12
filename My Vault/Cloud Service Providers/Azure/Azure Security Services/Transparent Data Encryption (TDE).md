@@ -1,5 +1,4 @@
 ---
-title: Transparent Data Encryption (TDE)
 tags:
   - azure
   - cloud

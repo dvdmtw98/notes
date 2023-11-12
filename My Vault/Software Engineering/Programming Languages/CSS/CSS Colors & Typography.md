@@ -1,5 +1,4 @@
 ---
-title: CSS Colors & Typography
 tags: [programming, css, webdev]
 ---
 

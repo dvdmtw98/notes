@@ -1,5 +1,4 @@
 ---
-title: Types of Errors
 tags: [excel]
 ---
 

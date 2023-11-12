@@ -1,5 +1,4 @@
 ---
-title: Rust Control Flow
 tags: [rust, programming, control-flow]
 ---
 

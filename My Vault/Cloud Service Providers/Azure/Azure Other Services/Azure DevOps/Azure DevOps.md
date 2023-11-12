@@ -1,5 +1,4 @@
 ---
-title: Azure DevOps
 tags: [azure, cloud, devops]
 ---
 

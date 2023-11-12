@@ -1,5 +1,4 @@
 ---
-title: Node.js
 tags: [programming, javascript, nodejs, webdev, index]
 ---
 

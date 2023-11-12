@@ -1,5 +1,4 @@
 ---
-title: Docker Hub
 tags: [docker, devops, container]
 ---
 

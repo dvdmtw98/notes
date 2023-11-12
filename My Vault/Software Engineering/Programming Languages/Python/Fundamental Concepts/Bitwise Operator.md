@@ -1,5 +1,4 @@
 ---
-title: Bitwise Operator
 tags: [programming, python]
 ---
 

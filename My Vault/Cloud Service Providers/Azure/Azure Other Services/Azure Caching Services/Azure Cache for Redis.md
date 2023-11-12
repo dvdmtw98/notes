@@ -1,5 +1,4 @@
 ---
-title: Azure Cache for Redis
 tags: [azure, cloud, redis, cache]
 ---
 

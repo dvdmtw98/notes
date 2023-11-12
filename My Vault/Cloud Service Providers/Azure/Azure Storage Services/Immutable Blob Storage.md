@@ -1,5 +1,4 @@
 ---
-title: Immutable Blob Storage
 tags: [azure, cloud, storage]
 ---
 

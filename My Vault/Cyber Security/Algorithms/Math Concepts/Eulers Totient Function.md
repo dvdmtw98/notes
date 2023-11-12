@@ -1,5 +1,4 @@
 ---
-title: Eulers Totient Function
 tags: [security, math]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Event Listeners
 tags: [programming, javascript, webdev]
 ---
 

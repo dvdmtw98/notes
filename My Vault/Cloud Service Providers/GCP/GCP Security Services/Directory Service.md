@@ -1,5 +1,4 @@
 ---
-title: Directory Service
 tags: [gcp, cloud, security]
 ---
 

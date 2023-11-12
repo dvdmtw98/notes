@@ -1,5 +1,4 @@
 ---
-title: Pyramid of Pain
 tags:
   - security
   - concept

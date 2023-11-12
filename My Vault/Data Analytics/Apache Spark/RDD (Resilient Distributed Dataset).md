@@ -1,5 +1,4 @@
 ---
-title: RDD (Resilient Distributed Dataset)
 tags: [analytics, spark]
 ---
 

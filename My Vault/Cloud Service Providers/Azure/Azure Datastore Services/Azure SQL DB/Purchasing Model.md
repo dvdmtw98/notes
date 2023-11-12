@@ -1,5 +1,4 @@
 ---
-title: Purchasing Model
 tags: [azure, cloud, database, sql]
 ---
 

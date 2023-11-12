@@ -1,5 +1,4 @@
 ---
-title: Kubernetes
 tags: [kubernetes, container, devops, orchestration, index]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: NTFS Alternative File Stream
 tags: [os, windows, concept]
 ---
 
@@ -24,10 +23,10 @@ When we download files from the net the file is marked as untrusted as it is fro
 The OS knows this because of an Alternative File Stream called Zone Identifier  
 This store the information about the zone of the file.
 
-|Zone|Location|
-|----|--------|
-|0|My Computer|
-|1|Local Intranet Zone|
-|2|Trusted Sites Zone|
-|3|Internet Zone|
-|4|Restricted Sites Zone|
+| Zone | Location              |
+| ---- | --------------------- |
+| 0    | My Computer           |
+| 1    | Local Intranet Zone   |
+| 2    | Trusted Sites Zone    |
+| 3    | Internet Zone         |
+| 4    | Restricted Sites Zone |

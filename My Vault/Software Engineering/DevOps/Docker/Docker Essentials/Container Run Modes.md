@@ -1,5 +1,4 @@
 ---
-title: Container Run Modes
 tags: [docker, devops, container]
 ---
 

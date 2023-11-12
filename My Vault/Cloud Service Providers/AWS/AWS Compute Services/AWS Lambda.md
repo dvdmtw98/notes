@@ -1,5 +1,4 @@
 ---
-title: AWS Lambda
 tags: [aws, cloud, compute, serverless]
 ---
 

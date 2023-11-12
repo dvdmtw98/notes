@@ -1,5 +1,4 @@
 ---
-title: Docker Volumes
 tags: [docker, devops, container]
 ---
 

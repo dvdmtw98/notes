@@ -1,5 +1,4 @@
 ---
-title: Password Cracking
 tags: [security, password, index]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Voltage
 tags: [electrical, concept]
 ---
 

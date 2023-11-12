@@ -1,5 +1,4 @@
 ---
-title: Azure Tables
 tags: [azure, cloud, database, no-sql, tables]
 ---
 

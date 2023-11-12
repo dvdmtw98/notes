@@ -1,5 +1,4 @@
 ---
-title: Azure Web Application Firewall (WAF)
 tags:
   - azure
   - cloud

@@ -1,5 +1,4 @@
 ---
-title: Union Find
 tags: [algorithm]
 ---
 

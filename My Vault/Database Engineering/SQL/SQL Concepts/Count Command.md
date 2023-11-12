@@ -1,5 +1,4 @@
 ---
-title: Count Command
 tags: [database, sql]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: C
 tags: [programming, c, index]
 ---
 

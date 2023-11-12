@@ -1,5 +1,4 @@
 ---
-title: Hashcat
 tags: [security, password]
 ---
 

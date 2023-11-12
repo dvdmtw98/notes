@@ -1,5 +1,4 @@
 ---
-title: GCP Virtual Private Cloud (VPC)
 tags: [gcp, cloud, networking]
 ---
 

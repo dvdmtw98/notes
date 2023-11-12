@@ -1,5 +1,4 @@
 ---
-title: sort & uniq Command
 tags: [os, linux, command]
 ---
 

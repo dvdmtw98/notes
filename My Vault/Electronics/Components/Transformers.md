@@ -1,5 +1,4 @@
 ---
-title: Transformers
 tags: [electrical, component]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Control Flow and Loops
 tags: [database, sql, oracle]
 ---
 

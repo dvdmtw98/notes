@@ -1,5 +1,4 @@
 ---
-title: Dotnet Framework Intoduction
 tags: [programming, csharp, concept]
 ---
 

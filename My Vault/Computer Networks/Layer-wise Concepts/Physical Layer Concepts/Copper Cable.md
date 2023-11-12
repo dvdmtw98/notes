@@ -1,5 +1,4 @@
 ---
-title: Copper Cables
 tags: [networking, cable]
 ---
 

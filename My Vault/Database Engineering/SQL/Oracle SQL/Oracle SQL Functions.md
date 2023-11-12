@@ -1,5 +1,4 @@
 ---
-title: Oracle SQL Functions
 tags: [database, sql, oracle]
 ---
 

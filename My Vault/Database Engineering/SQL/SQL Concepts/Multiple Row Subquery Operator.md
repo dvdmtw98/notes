@@ -1,5 +1,4 @@
 ---
-title: Multiple Row Subquery Operator
 tags: [database, sql]
 ---
 

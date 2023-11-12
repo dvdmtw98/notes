@@ -1,5 +1,4 @@
 ---
-title: C Arrays
 tags: [programming, c]
 ---
 

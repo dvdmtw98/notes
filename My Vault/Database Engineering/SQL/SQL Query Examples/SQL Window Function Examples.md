@@ -1,5 +1,4 @@
 ---
-title: SQL Window Function Examples
 tags: [database, sql]
 ---
 

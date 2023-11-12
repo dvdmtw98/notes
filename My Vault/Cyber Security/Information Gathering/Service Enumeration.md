@@ -1,5 +1,4 @@
 ---
-title: Service Enumeration
 tags: [security, enumeration, index]
 ---
 

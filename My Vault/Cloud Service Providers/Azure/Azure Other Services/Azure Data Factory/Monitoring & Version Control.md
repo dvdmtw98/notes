@@ -1,5 +1,4 @@
 ---
-title: Monitoring & Version Control
 tags: [azure, cloud, etl, orchestration]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: ICMP (Internet Control Message Protocol)
 tags: [networking, network, protocol]
 ---
 

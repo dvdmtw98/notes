@@ -1,5 +1,4 @@
 ---
-title: GCP ETL Services
 tags: [gcp, cloud, etl, orchestration]
 ---
 

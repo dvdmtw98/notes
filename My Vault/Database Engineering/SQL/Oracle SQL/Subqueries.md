@@ -1,5 +1,4 @@
 ---
-title: Subqueries
 tags: [database, sql, oracle]
 ---
 

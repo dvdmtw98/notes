@@ -1,5 +1,4 @@
 ---
-title: Structs
 tags: [programming, csharp]
 ---
 

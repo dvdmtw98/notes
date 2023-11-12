@@ -1,5 +1,4 @@
 ---
-title: Azure Networking Services
 tags: [azure, cloud, networking, index]
 ---
 

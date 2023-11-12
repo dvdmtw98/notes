@@ -1,5 +1,4 @@
 ---
-title: Kubernetes StatefulSet
 tags: [kubernetes, container, devops, orchestration]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: CSS Specificity
 tags: [programming, css, webdev]
 ---
 

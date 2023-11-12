@@ -1,5 +1,4 @@
 ---
-title: Active Directory Terminologies
 tags: [windows, active-directory, security]
 ---
 

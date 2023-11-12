@@ -1,5 +1,4 @@
 ---
-title: Management Protocols
 tags: [networking, application, protocol]
 ---
 

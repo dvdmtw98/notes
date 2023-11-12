@@ -1,5 +1,4 @@
 ---
-title: Modular Exponentiation
 tags: [security, math]
 ---
 

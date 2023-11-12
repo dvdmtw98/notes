@@ -1,5 +1,4 @@
 ---
-title: IPv6 (Internet Protocol v6) Address
 tags: [networking, network, ip, subnet]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Rust Lifetimes
 tags: [rust, programming]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: GCP ML Services
 tags: [gcp, cloud, ml]
 ---
 

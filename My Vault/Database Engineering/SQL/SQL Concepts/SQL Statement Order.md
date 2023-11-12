@@ -1,5 +1,4 @@
 ---
-title: SQL Statement Order
 tags: [database, sql]
 ---
 

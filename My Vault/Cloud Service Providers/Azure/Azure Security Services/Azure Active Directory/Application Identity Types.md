@@ -1,5 +1,4 @@
 ---
-title: Application Identity Types
 tags: [azure, cloud, security, identity]
 ---
 

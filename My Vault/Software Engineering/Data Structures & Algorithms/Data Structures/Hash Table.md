@@ -1,5 +1,4 @@
 ---
-title: Hash Table
 tags: [data-structure]
 ---
 

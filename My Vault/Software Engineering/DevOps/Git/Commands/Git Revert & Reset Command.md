@@ -1,5 +1,4 @@
 ---
-title: Git Revert & Reset Command
 tags: [git, devops]
 ---
 

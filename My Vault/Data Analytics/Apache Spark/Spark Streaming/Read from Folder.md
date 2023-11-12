@@ -1,5 +1,4 @@
 ---
-title: Read from Folder
 tags: [analytics, spark, streaming]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Anthos
 tags: [gcp, cloud, hybrid]
 ---
 

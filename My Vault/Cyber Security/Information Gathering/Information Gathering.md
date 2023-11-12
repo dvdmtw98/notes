@@ -1,5 +1,4 @@
 ---
-title: Information Gathering
 tags: [osint, recon, security]
 ---
 

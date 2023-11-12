@@ -1,5 +1,4 @@
 ---
-title: Bridge
 tags: [networking, device]
 ---
 

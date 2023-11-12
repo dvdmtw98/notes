@@ -1,5 +1,4 @@
 ---
-title: Data Visualization
 tags: [data, visualization, index]
 ---
 

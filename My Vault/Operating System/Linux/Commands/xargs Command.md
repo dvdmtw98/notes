@@ -1,5 +1,4 @@
 ---
-title: xargs Command
 tags: [os, linux, command]
 ---
 

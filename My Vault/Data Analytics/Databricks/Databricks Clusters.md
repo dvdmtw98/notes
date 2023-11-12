@@ -1,5 +1,4 @@
 ---
-title: Databricks Clusters
 tags: [analytics, databricks]
 ---
 

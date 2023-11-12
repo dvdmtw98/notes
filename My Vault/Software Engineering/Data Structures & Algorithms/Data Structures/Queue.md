@@ -1,5 +1,4 @@
 ---
-title: Queue
 tags: [data-structure]
 ---
 

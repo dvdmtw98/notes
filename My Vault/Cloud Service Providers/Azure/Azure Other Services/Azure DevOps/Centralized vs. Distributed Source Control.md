@@ -1,5 +1,4 @@
 ---
-title: Centralized vs. Distributed Source Control
 tags: [cloud, devops, version-control]
 ---
 

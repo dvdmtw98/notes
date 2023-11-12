@@ -1,5 +1,4 @@
 ---
-title: Git Push Command
 tags: [git, devops]
 ---
 

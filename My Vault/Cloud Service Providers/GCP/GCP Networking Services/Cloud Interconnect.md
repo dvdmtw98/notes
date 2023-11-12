@@ -1,5 +1,4 @@
 ---
-title: Cloud Interconnect
 tags: [gcp, cloud, networking]
 ---
 

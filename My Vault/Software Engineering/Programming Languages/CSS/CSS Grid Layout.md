@@ -1,5 +1,4 @@
 ---
-title: CSS Grid Layout
 tags: [programming, css, webdev]
 ---
 

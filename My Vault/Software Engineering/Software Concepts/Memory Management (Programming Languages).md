@@ -1,5 +1,4 @@
 ---
-title: Rust Ownership Model
 ---
 
 ### Garbage Collection

@@ -1,5 +1,4 @@
 ---
-title: Bash Conditional Statements
 tags: [os, linux, bash, programming]
 ---
 

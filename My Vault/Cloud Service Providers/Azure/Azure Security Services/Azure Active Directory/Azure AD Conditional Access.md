@@ -1,5 +1,4 @@
 ---
-title: Azure AD Conditional Access
 tags:
   - active-directory
   - azure

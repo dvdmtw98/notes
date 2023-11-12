@@ -1,5 +1,4 @@
 ---
-title: Delta Lake (Spark Queries)
 tags: [analytics, spark]
 ---
 

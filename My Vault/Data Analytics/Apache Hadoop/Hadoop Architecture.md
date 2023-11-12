@@ -1,5 +1,4 @@
 ---
-title: Hadoop Architecture
 tags: [analytics, hadoop]
 ---
 

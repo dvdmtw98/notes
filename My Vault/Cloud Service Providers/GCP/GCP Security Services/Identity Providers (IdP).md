@@ -1,5 +1,4 @@
 ---
-title: Identity Providers (IdP)
 tags: [cloud, security]
 ---
 

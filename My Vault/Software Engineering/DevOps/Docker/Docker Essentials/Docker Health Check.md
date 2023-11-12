@@ -1,5 +1,4 @@
 ---
-title: Docker Health Check
 tags: [docker, devops, container]
 ---
 

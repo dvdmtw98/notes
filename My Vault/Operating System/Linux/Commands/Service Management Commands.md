@@ -1,5 +1,4 @@
 ---
-title: Service Management Commands
 tags: [os, linux, command]
 ---
 
@@ -47,7 +46,7 @@ systemctl isolate rescue.target
 ````
 
 | Runtime Level | Usage                                   | Target            |
-|:-------------:| --------------------------------------- | ----------------- |
+| :-----------: | --------------------------------------- | ----------------- |
 |       0       | Shutdown the System                     | poweroff.target   |
 |       1       | Single User Mode (Maintenance & Repair) | rescue.target     |
 |       2       | Multi User Mode with no NFS             | multi-user.target |

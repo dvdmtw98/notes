@@ -1,5 +1,4 @@
 ---
-title: SQL Query Examples
 tags: [database, sql, index]
 ---
 

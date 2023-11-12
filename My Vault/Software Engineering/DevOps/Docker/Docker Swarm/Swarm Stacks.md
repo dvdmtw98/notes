@@ -1,5 +1,4 @@
 ---
-title: Swarm Stacks
 tags: [docker, devops, container, orchestration]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Excel Evaluate Formula
 tags: [excel]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Apache Kafka
 tags: [analytics, kafka, index]
 ---
 

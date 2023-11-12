@@ -1,5 +1,4 @@
 ---
-title: Dotnet Implementations
 tags: [programming, csharp, concept]
 ---
 

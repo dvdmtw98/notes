@@ -1,5 +1,4 @@
 ---
-title: Dynamo DB Secondary Index
 tags: [aws, cloud, database, dynamodb]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Digital Subscriber Line (DSL)
 tags: [networking, wan]
 ---
 

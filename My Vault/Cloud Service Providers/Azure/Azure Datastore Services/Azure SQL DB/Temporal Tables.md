@@ -1,5 +1,4 @@
 ---
-title: Temporal Tables
 tags: [azure, cloud, database, sql]
 ---
 

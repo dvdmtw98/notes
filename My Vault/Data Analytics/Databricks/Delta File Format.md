@@ -1,5 +1,4 @@
 ---
-title: Delta File Format
 tags: [analytics, databricks]
 ---
 

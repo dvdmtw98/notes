@@ -1,5 +1,4 @@
 ---
-title: Snowflake Table Types
 tags: [snowflake, cloud, data-warehouse]
 ---
 

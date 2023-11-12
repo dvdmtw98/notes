@@ -1,5 +1,4 @@
 ---
-title: Join Query
 tags: [analytics, spark]
 ---
 

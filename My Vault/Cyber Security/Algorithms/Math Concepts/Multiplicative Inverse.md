@@ -1,5 +1,4 @@
 ---
-title: Multiplicative Inverse
 tags: [security, math]
 ---
 

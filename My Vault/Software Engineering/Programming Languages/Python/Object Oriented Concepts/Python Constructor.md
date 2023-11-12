@@ -1,5 +1,4 @@
 ---
-title: Python Constructor
 tags: [programming, python]
 ---
 

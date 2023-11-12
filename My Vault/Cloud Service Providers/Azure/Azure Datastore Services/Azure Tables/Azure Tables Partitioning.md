@@ -1,5 +1,4 @@
 ---
-title: Azure Tables Partitioning
 tags: [azure, cloud, database, no-sql, tables, partition]
 ---
 

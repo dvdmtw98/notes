@@ -1,5 +1,4 @@
 ---
-title: Azure Datastore Services
 tags: [azure, datastore, index]
 ---
 

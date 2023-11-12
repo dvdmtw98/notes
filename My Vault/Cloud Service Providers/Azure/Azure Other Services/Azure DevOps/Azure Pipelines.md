@@ -1,5 +1,4 @@
 ---
-title: DevOps Pipelines
 tags: [azure, cloud, devops, cicd, orchestration]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Bash Functions
 tags: [os, linux, bash, programming]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: lsof Command
 tags: [os, linux, command]
 ---
 

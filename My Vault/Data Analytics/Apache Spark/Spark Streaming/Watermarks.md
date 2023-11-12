@@ -1,5 +1,4 @@
 ---
-title: Watermarks
 tags: [analytics, spark, streaming]
 ---
 

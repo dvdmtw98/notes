@@ -1,5 +1,4 @@
 ---
-title: Software Licensing
 tags: [programming, software, concept]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Azure Blob Types
 tags: [azure, cloud, storage, blob]
 ---
 

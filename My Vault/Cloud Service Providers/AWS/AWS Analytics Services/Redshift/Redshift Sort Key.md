@@ -1,5 +1,4 @@
 ---
-title: Redshift Sort Key
 tags: [aws, cloud, analytics, redshift]
 ---
 

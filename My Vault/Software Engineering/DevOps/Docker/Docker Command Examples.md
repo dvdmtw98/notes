@@ -1,5 +1,4 @@
 ---
-title: Docker Command Examples
 tags: [docker, devops, container]
 ---
 

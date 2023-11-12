@@ -1,5 +1,4 @@
 ---
-title: Array
 tags: [data-structure]
 ---
 

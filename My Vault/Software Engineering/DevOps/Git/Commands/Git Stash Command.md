@@ -1,5 +1,4 @@
 ---
-title: Git Stash Command
 tags: [git, devops]
 ---
 

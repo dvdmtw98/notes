@@ -1,5 +1,4 @@
 ---
-title: Metasploit Framework
 tags: [security, tool, metasploit, index]
 ---
 

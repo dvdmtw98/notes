@@ -1,5 +1,4 @@
 ---
-title: Swarm Network
 tags: [docker, devops, container, orchestration]
 ---
 

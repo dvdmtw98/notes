@@ -1,5 +1,4 @@
 ---
-title: GCP Storage Services
 tags: [gcp, cloud, storage]
 ---
 

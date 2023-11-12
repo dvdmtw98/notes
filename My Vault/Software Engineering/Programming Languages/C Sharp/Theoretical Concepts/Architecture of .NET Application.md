@@ -1,5 +1,4 @@
 ---
-title: Architecture of .NET Application
 tags: [programming, csharp, concept]
 ---
 

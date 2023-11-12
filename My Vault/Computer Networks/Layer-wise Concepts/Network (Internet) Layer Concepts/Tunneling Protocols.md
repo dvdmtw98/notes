@@ -1,5 +1,4 @@
 ---
-title: 'Tunneling Protocols'
 tags: [networking, protocols, tunneling]
 ---
 

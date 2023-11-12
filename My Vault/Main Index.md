@@ -1,8 +1,5 @@
 ---
-title: Main Index
-tags:
-  - main
-  - index
+tags: [main, index]
 ---
 
 ### Table of Content

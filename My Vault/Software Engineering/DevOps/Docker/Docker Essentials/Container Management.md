@@ -1,5 +1,4 @@
 ---
-title: Container Management
 tags: [docker, devops, container]
 ---
 

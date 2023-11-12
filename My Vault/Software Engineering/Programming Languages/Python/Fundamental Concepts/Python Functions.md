@@ -1,5 +1,4 @@
 ---
-title: Python Functions
 tags: [programming, python]
 ---
 

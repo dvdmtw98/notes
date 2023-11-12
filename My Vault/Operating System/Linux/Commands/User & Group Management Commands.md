@@ -1,5 +1,4 @@
 ---
-title: User & Group Management Commands
 tags: [os, linux, command]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Image Management
 tags: [docker, devops, container]
 ---
 
@@ -16,15 +15,15 @@ Because of this the image that is used for creating the container is never modif
 
 Tag specifies the version of the container to be used. Default tag is `latest`
 
-|Command|Description|
-|:------|:----------|
-|`docker image ls`|View all Images|
-|`docker image pull <image-name>`|Pull image from Docker Hub|
-|`docker image history <container-name>`|View Image Layers|
-|`docker image inspect <container-name>`|View Image Metadata|
-|`docker image tag <name>[:<tag>] <new-name>[:<new-tag>]`|Change Image Name|
-|`docker image rm <image-name>`|Remove Image from Docker|
-|`docker image rm $(docker image ls -aq)`|Remove all Images from Docker|
+| Command                                                  | Description                   |
+| :------------------------------------------------------- | :---------------------------- |
+| `docker image ls`                                        | View all Images               |
+| `docker image pull <image-name>`                         | Pull image from Docker Hub    |
+| `docker image history <container-name>`                  | View Image Layers             |
+| `docker image inspect <container-name>`                  | View Image Metadata           |
+| `docker image tag <name>[:<tag>] <new-name>[:<new-tag>]` | Change Image Name             |
+| `docker image rm <image-name>`                           | Remove Image from Docker      |
+| `docker image rm $(docker image ls -aq)`                 | Remove all Images from Docker |
 
 ---
 

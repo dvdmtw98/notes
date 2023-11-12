@@ -1,5 +1,4 @@
 ---
-title: Data Redundancy Options
 tags: [azure, cloud, storage, redundency]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Bcrypt Usage
 tags: [programming, javascript, nodejs, webdev]
 ---
 

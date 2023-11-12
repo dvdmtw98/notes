@@ -1,5 +1,4 @@
 ---
-title: Interface
 tags: [programming, csharp]
 ---
 

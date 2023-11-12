@@ -1,5 +1,4 @@
 ---
-title: C Sharp
 tags: [programming, csharp, index]
 ---
 

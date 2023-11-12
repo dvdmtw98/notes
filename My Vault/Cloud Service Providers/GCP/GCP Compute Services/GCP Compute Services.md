@@ -1,5 +1,4 @@
 ---
-title: GCP Compute Services
 tags: [gcp, cloud, compute]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Layer 3 Switch
 tags: [networking, devices]
 ---
 

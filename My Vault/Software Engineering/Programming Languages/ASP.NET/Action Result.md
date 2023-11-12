@@ -1,5 +1,4 @@
 ---
-title: Action Result
 tags: [programming, asp.net, csharp, webdev]
 ---
 

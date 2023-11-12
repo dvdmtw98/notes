@@ -1,5 +1,4 @@
 ---
-title: SQL Edge Data Retention
 tags: [azure, cloud, database, sql]
 ---
 

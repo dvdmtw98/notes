@@ -1,5 +1,4 @@
 ---
-title: Rust Traits
 tags: [rust, programming]
 ---
 

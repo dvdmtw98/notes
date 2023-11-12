@@ -1,5 +1,4 @@
 ---
-title: Azure Alerts
 tags: [azure, cloud, alert, metric]
 ---
 

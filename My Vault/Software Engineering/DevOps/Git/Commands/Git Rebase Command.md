@@ -1,5 +1,4 @@
 ---
-title: Git Rebase Command
 tags: [git, devops]
 ---
 

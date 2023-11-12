@@ -1,5 +1,4 @@
 ---
-title: AWS Athena
 tags: [aws, cloud, analytics]
 ---
 

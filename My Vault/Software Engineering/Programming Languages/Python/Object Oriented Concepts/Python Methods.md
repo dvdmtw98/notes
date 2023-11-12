@@ -1,5 +1,4 @@
 ---
-title: Python Methods
 tags: [programming, python]
 ---
 

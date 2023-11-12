@@ -1,5 +1,4 @@
 ---
-title: Dynamic Data Masking
 tags: [azure, cloud, analytics, data-warehouse, synapse, security]
 ---
 

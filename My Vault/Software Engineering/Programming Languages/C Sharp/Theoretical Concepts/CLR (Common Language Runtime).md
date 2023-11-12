@@ -1,5 +1,4 @@
 ---
-title: CLR (Common Language Runtime)
 tags: [programming, csharp, concept]
 ---
 

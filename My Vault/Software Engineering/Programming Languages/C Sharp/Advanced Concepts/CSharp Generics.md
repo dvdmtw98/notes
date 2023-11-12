@@ -1,5 +1,4 @@
 ---
-title: CSharp Generics
 tags: [programming, csharp]
 ---
 

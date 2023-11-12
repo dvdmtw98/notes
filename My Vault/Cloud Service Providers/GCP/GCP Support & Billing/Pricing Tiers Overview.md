@@ -1,5 +1,4 @@
 ---
-title: Pricing Tiers Overview
 tags: [gcp, cloud, billing]
 ---
 

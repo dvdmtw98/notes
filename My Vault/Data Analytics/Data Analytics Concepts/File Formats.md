@@ -1,5 +1,4 @@
 ---
-title: File Formats
 tags: [analytics, concept]
 ---
 

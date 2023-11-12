@@ -1,5 +1,4 @@
 ---
-title: Redshift Architecture
 tags: [aws, cloud, analytics, redshift]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Stack
 tags: [data-structure]
 ---
 

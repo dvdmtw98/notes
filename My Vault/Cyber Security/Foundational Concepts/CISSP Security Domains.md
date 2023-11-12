@@ -1,5 +1,4 @@
 ---
-title: CISSP Domains
 tags:
   - security
   - concept

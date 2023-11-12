@@ -1,5 +1,4 @@
 ---
-title: Rust Module System
 tags: [rust, programming]
 ---
 

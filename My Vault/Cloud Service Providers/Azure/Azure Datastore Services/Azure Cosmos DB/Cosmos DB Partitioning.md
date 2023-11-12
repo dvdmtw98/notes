@@ -1,5 +1,4 @@
 ---
-title: Cosmos DB Partitioning
 tags: [azure, database, nosql, cosmos-db, partition]
 ---
 

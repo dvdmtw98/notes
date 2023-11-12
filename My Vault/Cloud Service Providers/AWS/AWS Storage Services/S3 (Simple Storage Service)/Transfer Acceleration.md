@@ -1,5 +1,4 @@
 ---
-title: Transfer Acceleration
 tags: [aws, cloud, storage, s3]
 ---
 

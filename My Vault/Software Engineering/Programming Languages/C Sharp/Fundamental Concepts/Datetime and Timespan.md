@@ -1,5 +1,4 @@
 ---
-title: Datetime and Timespan
 tags: [programming, csharp]
 ---
 

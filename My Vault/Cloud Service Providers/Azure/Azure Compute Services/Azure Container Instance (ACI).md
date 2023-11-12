@@ -1,5 +1,4 @@
 ---
-title: Azure Container Instance (ACI)
 tags: [azure, compute, container, serverless]
 ---
 

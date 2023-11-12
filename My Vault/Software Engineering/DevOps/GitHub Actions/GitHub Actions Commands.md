@@ -1,5 +1,4 @@
 ---
-title: GitHub Actions Commands
 tags: [github, devops, pipeline]
 ---
 

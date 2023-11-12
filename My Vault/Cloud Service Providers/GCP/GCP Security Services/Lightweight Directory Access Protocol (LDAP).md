@@ -1,5 +1,4 @@
 ---
-title: Lightweight Directory Access Protocol (LDAP)
 tags: [gcp, cloud, security]
 ---
 

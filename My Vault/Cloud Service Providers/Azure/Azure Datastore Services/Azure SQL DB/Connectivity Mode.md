@@ -1,5 +1,4 @@
 ---
-title: Connectivity Mode
 tags: [azure, cloud, database, sql]
 ---
 

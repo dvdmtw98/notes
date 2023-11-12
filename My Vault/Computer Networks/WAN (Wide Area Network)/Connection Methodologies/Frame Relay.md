@@ -1,5 +1,4 @@
 ---
-title: Frame Relay
 tags: [networking, wan]
 ---
 

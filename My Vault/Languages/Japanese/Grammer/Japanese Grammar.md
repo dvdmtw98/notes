@@ -1,5 +1,4 @@
 ---
-title: Japanese Grammar
 tags: [language, japanese, grammer]
 ---
 

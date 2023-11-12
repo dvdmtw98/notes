@@ -1,5 +1,4 @@
 ---
-title: T-Carrier and E-Carrier Digital Signal Lines
 tags: [networking, wan]
 ---
 

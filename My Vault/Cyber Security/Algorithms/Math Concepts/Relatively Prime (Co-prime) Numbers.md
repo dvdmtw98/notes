@@ -1,5 +1,4 @@
 ---
-title: Relatively Prime (Co-prime) Numbers
 tags: [security, math]
 ---
 

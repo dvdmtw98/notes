@@ -1,5 +1,4 @@
 ---
-title: Python Variable Scopes
 tags: [programming, python]
 ---
 

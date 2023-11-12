@@ -1,5 +1,4 @@
 ---
-title: Hive Default Partitioning
 tags: [analytics, hive, partition]
 ---
 

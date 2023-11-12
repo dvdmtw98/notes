@@ -1,5 +1,4 @@
 ---
-title: Floyds Algorithm
 tags: [algorithm]
 ---
 

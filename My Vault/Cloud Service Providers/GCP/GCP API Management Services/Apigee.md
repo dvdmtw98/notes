@@ -1,5 +1,4 @@
 ---
-title: Apigee
 tags: [gcp, cloud, api]
 ---
 

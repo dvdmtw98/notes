@@ -1,5 +1,4 @@
 ---
-title: WEP Cracking
 ---
 
 ### Busy Network

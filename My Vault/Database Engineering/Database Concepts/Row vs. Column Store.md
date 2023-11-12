@@ -1,5 +1,4 @@
 ---
-title: Row vs. Column Store
 tags: [database, concept]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Hive File Formats
 tags: [analytics, hive]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Kubernetes Pods
 tags: [kubernetes, container, devops, orchestration]
 ---
 

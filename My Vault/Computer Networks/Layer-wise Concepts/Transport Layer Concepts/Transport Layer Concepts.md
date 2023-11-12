@@ -1,5 +1,4 @@
 ---
-title: Transport Layer Protocols
 tags: [networking, transport, index]
 ---
 

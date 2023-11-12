@@ -1,5 +1,4 @@
 ---
-title: MAC (Media Access Control) Address
 tags: [networking, mac, data-link]
 ---
 

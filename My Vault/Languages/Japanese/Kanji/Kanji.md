@@ -1,5 +1,4 @@
 ---
-title: Kanji
 tags: [language, japanese, kanji]
 ---
 

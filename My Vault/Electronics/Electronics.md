@@ -1,5 +1,4 @@
 ---
-title: Electronics
 tags: [electrical, index]
 ---
 

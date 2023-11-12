@@ -1,5 +1,4 @@
 ---
-title: GCP Networking Services
 tags: [gcp, cloud, networking]
 ---
 

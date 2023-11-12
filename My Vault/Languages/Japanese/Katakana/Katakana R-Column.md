@@ -1,5 +1,4 @@
 ---
-title: Katakana R-Column
 tags: [language, japanese, katakana]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Switch MAC Address Learning
 tags: [networking, mac, data-link]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Databricks SQL (Misc.)
 tags: [analytics, databricks]
 ---
 

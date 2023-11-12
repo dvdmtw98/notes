@@ -1,5 +1,4 @@
 ---
-title: Azure Event Grid
 tags: [azure, cloud, event]
 ---
 

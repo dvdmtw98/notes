@@ -1,5 +1,4 @@
 ---
-title: Azure Cosmos DB
 tags: [azure, database, nosql, cosmos-db, index]
 ---
 

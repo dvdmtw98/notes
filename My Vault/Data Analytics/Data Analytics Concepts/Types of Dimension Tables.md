@@ -1,5 +1,4 @@
 ---
-title: Types of Dimension Tables
 tags: [analytics, concept]
 ---
 

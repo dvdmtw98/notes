@@ -1,5 +1,4 @@
 ---
-title: Public & Private IP Addresses
 tags: [networking, network, ip, subnet]
 ---
 

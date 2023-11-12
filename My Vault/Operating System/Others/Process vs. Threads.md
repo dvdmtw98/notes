@@ -1,5 +1,4 @@
 ---
-title: Process vs. Threads
 tags: [os, software, concept]
 ---
 

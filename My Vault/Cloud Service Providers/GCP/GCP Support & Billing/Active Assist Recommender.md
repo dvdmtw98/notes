@@ -1,5 +1,4 @@
 ---
-title: Active Assist Recommender
 tags: [gcp, cloud, recommendation]
 ---
 

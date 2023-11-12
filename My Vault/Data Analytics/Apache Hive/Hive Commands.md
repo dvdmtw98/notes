@@ -1,5 +1,4 @@
 ---
-title: Hive Commands
 tags: [analytics, hive]
 ---
 

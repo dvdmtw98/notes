@@ -1,5 +1,4 @@
 ---
-title: Changing MAC Address
 ---
 
 [MAC (Media Access Control) Address](../../Computer%20Networks/Layer-wise%20Concepts/Data%20Link%20Layer%20Concepts/MAC%20(Media%20Access%20Control)%20Address.md) is used to identify devices on a network.  

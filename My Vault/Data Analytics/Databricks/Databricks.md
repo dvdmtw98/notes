@@ -1,5 +1,4 @@
 ---
-title: Databricks
 tags: [analytics, databricks, index]
 ---
 

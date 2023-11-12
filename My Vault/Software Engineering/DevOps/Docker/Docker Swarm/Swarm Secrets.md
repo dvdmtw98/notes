@@ -1,5 +1,4 @@
 ---
-title: Swarm Secrets
 tags: [docker, devops, container, orchestration]
 ---
 

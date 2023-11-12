@@ -1,5 +1,4 @@
 ---
-title: Integrated Services Digital Network (ISDN)
 tags: [networking, wan]
 ---
 

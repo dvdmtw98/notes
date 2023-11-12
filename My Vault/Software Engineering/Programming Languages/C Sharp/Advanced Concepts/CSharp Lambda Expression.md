@@ -1,5 +1,4 @@
 ---
-title: CSharp Lambda Expression
 tags: [programming, csharp]
 ---
 

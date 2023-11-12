@@ -1,5 +1,4 @@
 ---
-title: DNS Records
 tags: [networking, device, dns]
 ---
 

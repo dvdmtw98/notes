@@ -1,5 +1,4 @@
 ---
-title: Azure Blueprints
 tags: [azure, cloud, policy, security]
 ---
 

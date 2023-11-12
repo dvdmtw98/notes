@@ -1,5 +1,4 @@
 ---
-title: Property
 tags: [programming, python]
 ---
 

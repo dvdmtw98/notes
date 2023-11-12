@@ -1,5 +1,4 @@
 ---
-title: sftp Command
 tags: [os, linux, command]
 ---
 

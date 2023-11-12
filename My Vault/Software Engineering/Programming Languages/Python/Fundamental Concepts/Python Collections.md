@@ -1,5 +1,4 @@
 ---
-title: Python Collections
 tags: [programming, python]
 ---
 

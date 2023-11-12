@@ -1,5 +1,4 @@
 ---
-title: Association, Aggregation and Composition
 tags: [programming, concept]
 ---
 

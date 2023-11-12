@@ -1,5 +1,4 @@
 ---
-title: Hub
 tags: [networking, device]
 ---
 

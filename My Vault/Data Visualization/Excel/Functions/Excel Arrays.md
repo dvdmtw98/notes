@@ -1,5 +1,4 @@
 ---
-title: Excel Arrays
 tags: [excel]
 ---
 

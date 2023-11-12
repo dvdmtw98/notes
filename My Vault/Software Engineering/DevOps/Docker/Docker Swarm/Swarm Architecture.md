@@ -1,5 +1,4 @@
 ---
-title: Swarm Architecture
 tags: [docker, devops, container, orchestration]
 ---
 

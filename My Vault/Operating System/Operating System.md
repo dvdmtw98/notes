@@ -1,5 +1,4 @@
 ---
-title: Operating System
 tags: [os, windows, linux, index]
 ---
 

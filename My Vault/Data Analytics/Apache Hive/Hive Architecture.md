@@ -1,5 +1,4 @@
 ---
-title: Hive Architecture
 tags: [analytics, hive]
 ---
 

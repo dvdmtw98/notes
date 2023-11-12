@@ -1,5 +1,4 @@
 ---
-title: Docker
 tags: [docker, devops, container, index]
 ---
 

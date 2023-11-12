@@ -1,5 +1,4 @@
 ---
-title: Katakana
 tags: [language, japanese, katakana, index]
 ---
 

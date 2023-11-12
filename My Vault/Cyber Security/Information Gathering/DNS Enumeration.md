@@ -1,5 +1,4 @@
 ---
-title: DNS Enumeration
 tags: [security, enumeration, dns]
 ---
 

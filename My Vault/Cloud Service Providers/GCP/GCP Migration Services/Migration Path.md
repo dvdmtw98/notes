@@ -1,5 +1,4 @@
 ---
-title: Migration Path
 tags: [gcp, cloud, migration]
 ---
 

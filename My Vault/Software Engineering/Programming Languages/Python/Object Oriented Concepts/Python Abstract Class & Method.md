@@ -1,5 +1,4 @@
 ---
-title: Python Abstract Class & Method
 tags: [programming, python]
 ---
 

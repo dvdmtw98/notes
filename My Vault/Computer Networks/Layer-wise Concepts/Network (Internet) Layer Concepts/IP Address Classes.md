@@ -1,5 +1,4 @@
 ---
-title: IP Address Classes
 tags: [networking, network, ip, subnet]
 ---
 

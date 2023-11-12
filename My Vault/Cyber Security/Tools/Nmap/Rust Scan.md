@@ -1,5 +1,4 @@
 ---
-title: Rust Scan
 tags: [security, tool, nmap]
 ---
 

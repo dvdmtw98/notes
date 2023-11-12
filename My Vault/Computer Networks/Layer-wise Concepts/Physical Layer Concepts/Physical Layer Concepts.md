@@ -1,5 +1,4 @@
 ---
-title: Physical Layer Concepts
 tags: [networking, layer-1, index]
 ---
 
@@ -71,10 +70,10 @@ Converts media from one format to another
 **GBIC**: Hot pluggable Ethernet transceiver than can take copper or fiber as its connector
 
 | Transceiver                             | Speed           |
-|:--------------------------------------- |:--------------- |
+| :-------------------------------------- | :-------------- |
 | SFP (Small form-factor pluggable)       | Up to 4.2 Gbps  |
 | SFP+                                    | Up to16 Gbps    |
 | QSFP (Quad Small form-factor pluggable) | Up to 40 Gbps   |
 | QSFP+                                   | Up to 41.2 Gbps |
 | QSFP28                                  | Up to 100 Gbps  |
-| QSFP56                                  | Up to 200 Gbps  | 
+| QSFP56                                  | Up to 200 Gbps  |

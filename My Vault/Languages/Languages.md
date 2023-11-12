@@ -1,5 +1,4 @@
 ---
-title: Languages
 tags: [language, index]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Azure Service Bus
 tags: [azure, event, queue]
 ---
 

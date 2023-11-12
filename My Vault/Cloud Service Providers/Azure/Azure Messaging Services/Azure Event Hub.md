@@ -1,5 +1,4 @@
 ---
-title: Azure Event Hub
 tags: [azure, cloud, event]
 ---
 

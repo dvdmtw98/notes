@@ -1,5 +1,4 @@
 ---
-title: Protecting Excel Workbooks
 tags: [excel]
 ---
 

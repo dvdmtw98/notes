@@ -1,5 +1,4 @@
 ---
-title: Graph
 tags: [data-structure]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Types of Migration
 tags: [cloud, concept, migration]
 ---
 

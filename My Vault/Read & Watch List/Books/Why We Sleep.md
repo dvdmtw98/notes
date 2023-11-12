@@ -1,5 +1,4 @@
 ---
-title: Why We Sleep
 tags: [book, science]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: GCP
 tags: [gcp, cloud, index]
 ---
 

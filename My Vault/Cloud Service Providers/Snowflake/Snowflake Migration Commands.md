@@ -1,5 +1,4 @@
 ---
-title: Snowflake Migration Commands
 tags: [snowflake, cloud, data-warehouse]
 ---
 

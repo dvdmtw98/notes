@@ -1,5 +1,4 @@
 ---
-title: Topics and Partition
 tags: [analytics, kafka, partition]
 ---
 

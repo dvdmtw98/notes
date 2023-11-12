@@ -1,5 +1,4 @@
 ---
-title: Self-Hosted Agents
 tags: [devops, cicd, orchestration]
 ---
 

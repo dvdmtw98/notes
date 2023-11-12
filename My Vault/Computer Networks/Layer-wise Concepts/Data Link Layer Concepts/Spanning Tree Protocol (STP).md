@@ -1,5 +1,4 @@
 ---
-title: Spanning Tree Protocol (STP)
 tags: [networking, switch, protocol]
 ---
 

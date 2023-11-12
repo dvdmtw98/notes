@@ -1,5 +1,4 @@
 ---
-title: Bash
 tags: [os, linux, bash, programming, index]
 ---
 

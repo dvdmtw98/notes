@@ -1,5 +1,4 @@
 ---
-title: SSID (Service Set Identifier)
 tags: [networking, wireless]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Casting Datatype
 tags: [programming, csharp]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: GCP Security Services
 tags: [gcp, cloud, security, index]
 ---
 

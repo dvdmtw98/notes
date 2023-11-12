@@ -1,5 +1,4 @@
 ---
-title: Spark Config & Settings
 tags: [analytics, spark]
 ---
 

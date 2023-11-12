@@ -1,5 +1,4 @@
 ---
-title: Git Remote Command
 tags: [git, devops]
 ---
 

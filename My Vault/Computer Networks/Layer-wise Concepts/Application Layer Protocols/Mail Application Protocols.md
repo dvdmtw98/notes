@@ -1,5 +1,4 @@
 ---
-title: Mail Application Protocols
 tags: [networking, application, protocol]
 ---
 

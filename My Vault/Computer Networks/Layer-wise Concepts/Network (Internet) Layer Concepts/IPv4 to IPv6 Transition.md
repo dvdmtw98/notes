@@ -1,5 +1,4 @@
 ---
-title: IPv4 to IPv6 Transition
 tags: [networking, network, ip, subnet]
 ---
 

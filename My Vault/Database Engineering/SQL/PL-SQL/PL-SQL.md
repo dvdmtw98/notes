@@ -1,5 +1,4 @@
 ---
-title: PL-SQL
 tags: [database, sql, oracle, index]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Rust Slices
 tags: [rust, programming, slices]
 ---
 

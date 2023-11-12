@@ -1,5 +1,4 @@
 ---
-title: Regex
 tags: [programming, concept]
 ---
 

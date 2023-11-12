@@ -1,5 +1,4 @@
 ---
-title: Windows Index
 tags: [os, windows, index]
 ---
 
@@ -22,6 +21,11 @@ tags: [os, windows, index]
 	* [Windows Shortcuts](Misc.%20Stuff/Windows%20Shortcuts.md)
 	* [Microsoft Active Directory](Microsoft%20Active%20Directory/Microsoft%20Active%20Directory.md)
 	* [NTFS Alternative File Stream](Misc.%20Stuff/NTFS%20Alternative%20File%20Stream.md)
+
+**SCCM (Security Center Configuration Manager)**  
+Windows-centric Endpoint Management tool  
+Typically configured on an on-prem Windows Server device  
+Renamed to Microsoft Endpoint Configuration Manager (MECM)
 
 ---
 

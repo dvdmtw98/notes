@@ -1,5 +1,4 @@
 ---
-title: Modular Arithmetic
 tags: [security, math]
 ---
 
@@ -27,10 +26,10 @@ then `(x * a) ≡ (y * b) mod n`
 \[(a mod n) - (b mod n)\] mod n ≡ (a - b) mod n  
 \[(a mod n) \* (b mod n)\] mod n ≡ (a \* b) mod n  
 
-| Property          | Expression                                                                                         |
-| ----------------- | -------------------------------------------------------------------------------------------------- |
+| Property          | Expression                                                                                          |
+| ----------------- | --------------------------------------------------------------------------------------------------- |
 | Commutative Laws  | (a + b) mod n = (b + a) mod n<br/>`(a * b) mod n = (b * a) mod n`                                   |
 | Associative Laws  | \[(a + b) + c\] mod n = \[a + (b + c)\] mod n<br/>\[(a \* b) \* c\] mod n = \[a \* (b \* c)\] mod n |
-| Distributive Laws | \[a \* (b + c)\] mod n = \[(a \* b) + (a \* c) mod n\]                                             |
+| Distributive Laws | \[a \* (b + c)\] mod n = \[(a \* b) + (a \* c) mod n\]                                              |
 | Identities        | (0 + a) mod n = a mod n<br/>(1 \* a) mod n = a mod n                                                |
 | Additive Laws     | For each a∈Z<sub>n</sub> there exists '-a' such that<br/>a + (-a) ≡ 0 mod n                         |

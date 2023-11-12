@@ -1,5 +1,4 @@
 ---
-title: Database Engineering
 tags: [database, sql, nosql, index]
 ---
 

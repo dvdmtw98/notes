@@ -1,5 +1,4 @@
 ---
-title: Azure IoT Services
 tags: [azure, cloud, iot]
 ---
 

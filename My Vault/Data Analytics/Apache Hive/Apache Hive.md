@@ -1,5 +1,4 @@
 ---
-title: Apache Hive
 tags: [analytics, hive, index]
 ---
 

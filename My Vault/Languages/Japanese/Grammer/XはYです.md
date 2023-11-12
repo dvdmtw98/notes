@@ -1,5 +1,4 @@
 ---
-title: XはYです
 tags: [language, japanese, grammer]
 ---
 

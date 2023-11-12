@@ -1,5 +1,4 @@
 ---
-title: CSharp Methods
 tags: [programming, csharp]
 ---
 

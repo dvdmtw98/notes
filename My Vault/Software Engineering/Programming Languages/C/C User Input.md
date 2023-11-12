@@ -1,5 +1,4 @@
 ---
-title: C User Input
 tags: [programming, c]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: CSharp Classes
 tags: [programming, csharp]
 ---
 

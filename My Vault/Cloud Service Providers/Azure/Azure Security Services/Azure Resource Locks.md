@@ -1,5 +1,4 @@
 ---
-title: Azure Resource Locks
 tags: [azure, cloud, security]
 ---
 

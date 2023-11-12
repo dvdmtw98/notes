@@ -1,5 +1,4 @@
 ---
-title: CSharp Arrays
 tags: [programming, csharp]
 ---
 

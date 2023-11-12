@@ -1,5 +1,4 @@
 ---
-title: Stream Processing
 tags: [analytics, spark, streaming]
 ---
 

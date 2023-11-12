@@ -1,5 +1,4 @@
 ---
-title: Batch Processing
 tags: [azure, cloud, streaming, concept]
 ---
 

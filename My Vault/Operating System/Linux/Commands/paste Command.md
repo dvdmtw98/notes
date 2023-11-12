@@ -1,5 +1,4 @@
 ---
-title: paste Command
 tags: [os, linux, command]
 ---
 

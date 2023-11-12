@@ -1,5 +1,4 @@
 ---
-title: Azure Policy
 tags: [azure, cloud, security, policy]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Excel Operators
 tags: [excel]
 ---
 

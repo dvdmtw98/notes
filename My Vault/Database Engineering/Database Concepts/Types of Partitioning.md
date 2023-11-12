@@ -1,5 +1,4 @@
 ---
-title: Types of Partitioning
 tags: [database, concept, partitioning]
 ---
 

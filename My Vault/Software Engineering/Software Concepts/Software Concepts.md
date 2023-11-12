@@ -1,5 +1,4 @@
 ---
-title: Software Concepts
 tags:
   - software
   - programming

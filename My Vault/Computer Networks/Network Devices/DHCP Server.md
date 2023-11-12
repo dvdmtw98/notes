@@ -1,5 +1,4 @@
 ---
-title: DHCP Server
 tags: [networking, device]
 ---
 

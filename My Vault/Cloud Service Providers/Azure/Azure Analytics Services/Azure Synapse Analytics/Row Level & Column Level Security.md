@@ -1,5 +1,4 @@
 ---
-title: Row Level & Column Level Security
 tags: [azure, cloud, analytics, data-warehouse, synapse, security]
 ---
 

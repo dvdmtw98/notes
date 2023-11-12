@@ -1,5 +1,4 @@
 ---
-title: Python Comprehension
 tags: [programming, python]
 ---
 

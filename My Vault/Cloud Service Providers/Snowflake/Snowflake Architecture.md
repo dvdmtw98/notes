@@ -1,5 +1,4 @@
 ---
-title: Snowflake Architecture
 tags: [snowflake, cloud, data-warehouse]
 ---
 

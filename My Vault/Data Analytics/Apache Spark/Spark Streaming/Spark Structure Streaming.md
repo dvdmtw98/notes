@@ -1,5 +1,4 @@
 ---
-title: Spark Structure Streaming
 tags: [analytics, spark, streaming]
 ---
 

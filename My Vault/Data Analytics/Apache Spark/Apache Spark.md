@@ -1,5 +1,4 @@
 ---
-title: Apache Spark
 tags: [analytics, spark, index]
 ---
 

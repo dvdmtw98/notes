@@ -1,5 +1,4 @@
 ---
-title: Rust Ownership Model
 tags: [rust, programming, memory-management, ownership]
 ---
 

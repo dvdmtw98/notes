@@ -1,5 +1,4 @@
 ---
-title: CSS Inheritance
 tags: [programming, css, webdev]
 ---
 

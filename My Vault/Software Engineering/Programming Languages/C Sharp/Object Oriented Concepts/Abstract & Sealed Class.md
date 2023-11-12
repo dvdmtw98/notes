@@ -1,5 +1,4 @@
 ---
-title: Abstract & Sealed Class
 tags: [programming, csharp]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: CIDR (Classless Inter-Domain Routing)
 tags: [networking, network, ip]
 ---
 

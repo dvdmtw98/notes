@@ -1,5 +1,4 @@
 ---
-title: Application Layer Protocols
 tags: [networking, application, protocol]
 ---
 

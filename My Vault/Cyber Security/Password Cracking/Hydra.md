@@ -1,5 +1,4 @@
 ---
-title: Hydra
 tags: [security, password]
 ---
 

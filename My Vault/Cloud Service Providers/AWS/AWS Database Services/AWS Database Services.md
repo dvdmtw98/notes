@@ -1,5 +1,4 @@
 ---
-title: AWS Database Services
 tags: [aws, cloud, database, index]
 ---
 

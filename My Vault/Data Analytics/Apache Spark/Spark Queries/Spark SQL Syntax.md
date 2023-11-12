@@ -1,5 +1,4 @@
 ---
-title: Spark SQL Syntax
 tags: [analytics, spark]
 ---
 

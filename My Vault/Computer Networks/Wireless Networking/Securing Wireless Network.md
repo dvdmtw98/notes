@@ -1,5 +1,4 @@
 ---
-title: Securing Wireless Network
 tags: [networking, wireless, security]
 ---
 

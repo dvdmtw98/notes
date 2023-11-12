@@ -1,5 +1,4 @@
 ---
-title: Power BI Embedded
 tags: [powerbi, visulization, reporting]
 ---
 

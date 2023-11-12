@@ -1,5 +1,4 @@
 ---
-title: Attributes
 tags: [programming, python]
 ---
 

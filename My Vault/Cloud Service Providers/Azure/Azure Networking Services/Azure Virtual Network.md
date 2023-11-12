@@ -1,5 +1,4 @@
 ---
-title: Azure Virtual Network
 tags: [azure, cloud, networking]
 ---
 

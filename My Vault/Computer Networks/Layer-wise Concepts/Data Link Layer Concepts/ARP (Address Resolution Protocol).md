@@ -1,5 +1,4 @@
 ---
-title: ARP (Address Resolution Protocol)
 tags: [networking, arp, data-link]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Hadoop Daemons
 tags: [analytics, hadoop]
 ---
 

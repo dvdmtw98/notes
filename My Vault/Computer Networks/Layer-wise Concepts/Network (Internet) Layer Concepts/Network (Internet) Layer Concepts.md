@@ -1,5 +1,4 @@
 ---
-title: Network (Internet Layer) Protocols
 tags: [networking, network, index]
 ---
 

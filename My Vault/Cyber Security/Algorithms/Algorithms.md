@@ -1,5 +1,4 @@
 ---
-title: Algorithms
 tags: [security, cryptography, index]
 ---
 

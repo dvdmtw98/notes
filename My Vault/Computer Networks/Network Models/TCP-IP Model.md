@@ -1,5 +1,4 @@
 ---
-title: TCP-IP Model
 tags: [networking, model, concept]
 ---
 

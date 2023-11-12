@@ -1,5 +1,4 @@
 ---
-title: Capacitors
 tags: [electrical, component]
 ---
 

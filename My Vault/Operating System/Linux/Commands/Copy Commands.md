@@ -1,5 +1,4 @@
 ---
-title: Copy Commands
 tags: [os, linux, command]
 ---
 

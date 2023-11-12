@@ -1,5 +1,4 @@
 ---
-title: Azure Configuration Management
 tags: [azure, cloud, software]
 ---
 

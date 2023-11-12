@@ -1,5 +1,4 @@
 ---
-title: BeEF
 tags: [security, tool, web]
 ---
 

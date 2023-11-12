@@ -1,5 +1,4 @@
 ---
-title: Device Drivers
 tags: [os, linux, concept]
 ---
 

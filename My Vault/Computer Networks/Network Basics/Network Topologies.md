@@ -1,5 +1,4 @@
 ---
-title: Network Topology
 tags: [network, concept]
 ---
 

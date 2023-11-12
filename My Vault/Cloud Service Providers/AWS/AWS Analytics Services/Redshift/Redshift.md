@@ -1,5 +1,4 @@
 ---
-title: Redshift
 tags: [aws, cloud, analytics, redshift]
 ---
 

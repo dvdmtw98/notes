@@ -1,5 +1,4 @@
 ---
-title: Spark Job, Task and Stage
 tags: [analytics, spark]
 ---
 

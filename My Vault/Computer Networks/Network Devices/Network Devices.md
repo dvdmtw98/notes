@@ -1,5 +1,4 @@
 ---
-title: Network Devices
 tags: [networking, device, index]
 ---
 

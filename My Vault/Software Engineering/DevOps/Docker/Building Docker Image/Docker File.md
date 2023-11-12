@@ -1,5 +1,4 @@
 ---
-title: Docker File
 tags: [docker, devops, container]
 ---
 

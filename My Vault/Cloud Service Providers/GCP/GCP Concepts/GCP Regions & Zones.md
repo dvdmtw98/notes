@@ -1,5 +1,4 @@
 ---
-title: GCP Regions & Zones
 tags: [gcp, cloud, concept]
 ---
 

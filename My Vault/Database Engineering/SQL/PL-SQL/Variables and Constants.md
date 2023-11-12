@@ -1,5 +1,4 @@
 ---
-title: Variables and Constants
 tags: [database, sql, oracle]
 ---
 

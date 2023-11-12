@@ -1,5 +1,4 @@
 ---
-title: Azure Messaging Services
 tags: [azure, cloud, stream, index]
 ---
 

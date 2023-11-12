@@ -1,5 +1,4 @@
 ---
-title: Partitioning & Bucketing
 tags: [analytics, spark, partition]
 ---
 

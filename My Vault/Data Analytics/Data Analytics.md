@@ -1,5 +1,4 @@
 ---
-title: Data Analytics
 tags: [analytics, index]
 ---
 

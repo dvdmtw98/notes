@@ -1,5 +1,4 @@
 ---
-title: Apache TinkerPop
 tags: [azure, cloud, database, nosql, cosmos-db]
 ---
 

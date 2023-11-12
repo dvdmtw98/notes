@@ -1,5 +1,4 @@
 ---
-title: Spark Architecture
 tags: [analytics, spark]
 ---
 

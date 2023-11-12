@@ -1,5 +1,4 @@
 ---
-title: Cloud Billing Account
 tags: [gcp, cloud, billing]
 ---
 

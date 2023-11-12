@@ -1,5 +1,4 @@
 ---
-title: Binary Search Tree
 tags: [data-structure]
 ---
 
@@ -16,11 +15,11 @@ Syntax Trees
 
 ### Time Complexity
 
-|Operation|Average|Worst|
-|---------|-------|-----|
-|Lookup|O(log(n))|O(n)|
-|Insert|O(log(n))|O(n)|
-|Delete|O(log(n))|O(n)|
+| Operation | Average   | Worst |
+| --------- | --------- | ----- |
+| Lookup    | O(log(n)) | O(n)  |
+| Insert    | O(log(n)) | O(n)  |
+| Delete    | O(log(n)) | O(n)  |
 
 O(n) : When the Tree in a Straight Line (Linked List)/ Unbalanced Tree  
 To get the log(n) time complexity the tree needs to be balanced

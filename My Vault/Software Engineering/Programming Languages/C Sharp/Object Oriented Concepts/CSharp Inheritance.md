@@ -1,5 +1,4 @@
 ---
-title: CSharp Inheritance
 tags: [programming, csharp]
 ---
 

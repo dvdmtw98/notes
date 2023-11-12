@@ -1,5 +1,4 @@
 ---
-title: Binary Tree
 tags: [data-structure]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: CTF Challenges Checklist
 tags: [security, ctf, checklist]
 ---
 

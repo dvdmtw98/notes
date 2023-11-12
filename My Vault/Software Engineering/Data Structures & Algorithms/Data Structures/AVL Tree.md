@@ -1,5 +1,4 @@
 ---
-title: AVL Tree
 tags: [data-structure]
 ---
 
@@ -7,11 +6,11 @@ AVL Tree is an type of BST that will automatically balance itself which in turn 
 
 ### Time Complexity
 
-|Operation|Worst|
-|---------|-----|
-|Insert|O(log(n))|
-|Delete|O(log(n))|
-|Search|O(log(n))|
+| Operation | Worst     |
+| --------- | --------- |
+| Insert    | O(log(n)) |
+| Delete    | O(log(n)) |
+| Search    | O(log(n)) |
 
 ### Tree Rotations
 

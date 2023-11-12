@@ -1,5 +1,4 @@
 ---
-title: Python Method Overriding
 tags: [programming, python]
 ---
 

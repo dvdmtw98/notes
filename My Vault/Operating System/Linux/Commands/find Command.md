@@ -1,5 +1,4 @@
 ---
-title: find Command
 tags: [os, linux, command]
 ---
 

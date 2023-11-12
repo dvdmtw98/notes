@@ -1,5 +1,4 @@
 ---
-title: Git Rm Command
 tags: [git, devops]
 ---
 

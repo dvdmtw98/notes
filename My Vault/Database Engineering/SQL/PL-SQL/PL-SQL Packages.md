@@ -1,5 +1,4 @@
 ---
-title: PL-SQL Packages
 tags: [database, sql, oracle]
 ---
 

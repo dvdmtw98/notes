@@ -1,5 +1,4 @@
 ---
-title: Azure Elastic Pools
 tags: [azure, cloud, database, sql]
 ---
 

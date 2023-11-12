@@ -1,5 +1,4 @@
 ---
-title: JavaScript
 tags: [programming, javascript, webdev, index]
 ---
 

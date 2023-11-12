@@ -1,5 +1,4 @@
 ---
-title: Data Query Language (DQL)
 tags: [database, sql, oracle]
 ---
 

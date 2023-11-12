@@ -1,5 +1,4 @@
 ---
-title: App Function App
 tags: [azure, compute, serverless]
 ---
 

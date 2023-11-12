@@ -1,5 +1,4 @@
 ---
-title: xrandr Command
 tags: [os, linux, command]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Kubernetes YAML File
 tags: [kubernetes, container, devops, orchestration]
 ---
 

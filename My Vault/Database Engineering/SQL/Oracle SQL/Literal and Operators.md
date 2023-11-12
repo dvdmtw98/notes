@@ -1,5 +1,4 @@
 ---
-title: Literal and Operators
 tags: [database, sql, oracle]
 ---
 

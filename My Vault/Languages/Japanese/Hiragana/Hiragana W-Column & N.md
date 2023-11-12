@@ -1,5 +1,4 @@
 ---
-title: Hiragana W-Column & N
 tags: [language, japanese, hiragana]
 ---
 

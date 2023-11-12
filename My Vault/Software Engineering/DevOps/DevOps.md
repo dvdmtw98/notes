@@ -1,5 +1,4 @@
 ---
-title: DevOps
 tags: [software, devops, index]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: CSS
 tags: [programming, css, webdev, index]
 ---
 

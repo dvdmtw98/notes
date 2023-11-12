@@ -1,5 +1,4 @@
 ---
-title: Deployment Strategy
 tags: [software, app, deployment]
 ---
 

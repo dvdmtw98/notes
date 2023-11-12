@@ -1,5 +1,4 @@
 ---
-title: grep Command
 tags: [os, linux, command]
 ---
 

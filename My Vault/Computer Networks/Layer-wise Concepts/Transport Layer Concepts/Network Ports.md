@@ -1,5 +1,4 @@
 ---
-title: Network Ports
 tags: [networking, transport, port]
 ---
 
@@ -44,7 +43,7 @@ PC (High Random Port) ← Web Server (Specific Port)
 | SQLnet Protocol                               | 1521       | Used to communicate with Oracle database engine                                       |
 | MySQL Protocol                                | 3306       | Used to communicate with MySQL database engine                                        |
 | RDP (Remote Desktop Protocol)                 | 3389       | Provides graphical remote control over another device                                 |
-| SIP (Session Initiation Protocol)             | 5060, 5061 | Used to initiate VoIP and video calls                                                 | 
+| SIP (Session Initiation Protocol)             | 5060, 5061 | Used to initiate VoIP and video calls                                                 |
 
 TFTP: Does not support authentication. It is a stripped down version of FTP  
 IMAP: Allows to view emails without having to download them to local device. Email server keeps emails synced across devices  

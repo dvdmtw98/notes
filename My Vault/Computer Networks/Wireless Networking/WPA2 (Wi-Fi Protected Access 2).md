@@ -1,5 +1,4 @@
 ---
-title: WPA2 (Wi-Fi Protected Access 2)
 tags: [networking, wireless, security]
 ---
 

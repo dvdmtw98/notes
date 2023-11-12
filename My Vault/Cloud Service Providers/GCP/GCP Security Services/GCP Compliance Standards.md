@@ -1,5 +1,4 @@
 ---
-title: GCP Compliance Standards
 tags: [gcp, cloud, security, policy]
 ---
 

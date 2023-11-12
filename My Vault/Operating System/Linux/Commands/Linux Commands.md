@@ -1,5 +1,4 @@
 ---
-title: Linux Commands
 tags: [os, linux, command, index]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Stack and Heap Memory
 tags: [programming, memory-management, software]
 ---
 

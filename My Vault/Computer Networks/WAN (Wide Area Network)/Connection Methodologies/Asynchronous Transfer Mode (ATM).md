@@ -1,5 +1,4 @@
 ---
-title: Asynchronous Transfer Mode (ATM)
 tags: [networking, wan]
 ---
 

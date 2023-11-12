@@ -1,5 +1,4 @@
 ---
-title: Types of Switch
 tags: [networking, device]
 ---
 

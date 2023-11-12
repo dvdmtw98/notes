@@ -1,5 +1,4 @@
 ---
-title: Linux Environment Variables
 tags: [os, linux, bash, programming]
 ---
 

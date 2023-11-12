@@ -1,5 +1,4 @@
 ---
-title: Redshift Distribution Style
 tags: [aws, cloud, analytics, redshift]
 ---
 

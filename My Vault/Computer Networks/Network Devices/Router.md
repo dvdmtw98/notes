@@ -1,5 +1,4 @@
 ---
-title: Router
 tags: [networking, device, routing]
 ---
 

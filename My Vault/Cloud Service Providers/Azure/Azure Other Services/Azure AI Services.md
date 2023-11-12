@@ -1,5 +1,4 @@
 ---
-title: Azure AI Services
 tags: [azure, cloud, ai]
 ---
 

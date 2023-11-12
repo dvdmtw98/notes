@@ -1,5 +1,4 @@
 ---
-title: Remote Communication Protocols
 tags: [networking, application, protocol]
 ---
 

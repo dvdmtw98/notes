@@ -1,5 +1,4 @@
 ---
-title: CSS Box Model
 tags: [programming, css, webdev]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Folders as Virtual Drive
 tags: [os, windows, command]
 ---
 

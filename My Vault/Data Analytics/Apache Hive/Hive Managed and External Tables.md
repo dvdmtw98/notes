@@ -1,5 +1,4 @@
 ---
-title: Hive Managed and External Tables
 tags: [analytics, hive]
 ---
 

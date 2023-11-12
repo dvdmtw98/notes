@@ -1,5 +1,4 @@
 ---
-title: Wireless Networking
 tags: [networking, wireless, index]
 ---
 

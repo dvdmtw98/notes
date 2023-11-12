@@ -1,5 +1,4 @@
 ---
-title: Rust Enums
 tags: [rust, programming, enum]
 ---
 

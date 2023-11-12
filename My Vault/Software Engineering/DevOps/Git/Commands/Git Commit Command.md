@@ -1,5 +1,4 @@
 ---
-title: Git Commit Command
 tags: [git, devops]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Transaction Control Language (TCL)
 tags: [database, sql, oracle]
 ---
 

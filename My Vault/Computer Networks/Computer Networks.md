@@ -1,5 +1,4 @@
 ---
-title: Computer Networks
 tags: [networking, index]
 ---
 

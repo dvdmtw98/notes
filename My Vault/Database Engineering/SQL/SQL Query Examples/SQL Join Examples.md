@@ -1,5 +1,4 @@
 ---
-title: SQL Join Examples
 tags: [database, sql]
 ---
 

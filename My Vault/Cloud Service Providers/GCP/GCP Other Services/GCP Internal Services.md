@@ -1,5 +1,4 @@
 ---
-title: GCP Internal Services
 tags: [gcp, cloud, internal]
 ---
 

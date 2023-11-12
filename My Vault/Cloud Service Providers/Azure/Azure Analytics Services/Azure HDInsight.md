@@ -1,5 +1,4 @@
 ---
-title: Azure HDInsight
 tags: [azure, cloud, analytics, cluster]
 ---
 

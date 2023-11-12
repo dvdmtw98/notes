@@ -1,5 +1,4 @@
 ---
-title: Strings
 tags: [programming, csharp]
 ---
 

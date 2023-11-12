@@ -1,5 +1,4 @@
 ---
-title: Table API
 tags: [azure, database, nosql, cosmos-db]
 ---
 

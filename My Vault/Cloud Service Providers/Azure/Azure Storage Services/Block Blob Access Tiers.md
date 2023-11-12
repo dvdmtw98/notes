@@ -1,5 +1,4 @@
 ---
-title: Block Blob Access Tiers
 tags: [azure, cloud, storage]
 ---
 

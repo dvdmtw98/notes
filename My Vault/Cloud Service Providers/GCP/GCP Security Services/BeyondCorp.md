@@ -1,5 +1,4 @@
 ---
-title: BeyondCorp
 tags: [gcp, cloud, security]
 ---
 

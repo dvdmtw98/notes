@@ -1,5 +1,4 @@
 ---
-title: Bash User Input
 tags: [os, linux, bash, programming]
 ---
 

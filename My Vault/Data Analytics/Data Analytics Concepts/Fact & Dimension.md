@@ -1,5 +1,4 @@
 ---
-title: Fact & Dimension
 tags: [analytics, concept]
 ---
 

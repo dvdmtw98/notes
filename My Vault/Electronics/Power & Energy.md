@@ -1,5 +1,4 @@
 ---
-title: Power & Energy
 tags: [electrical, concept]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Packet Sniffing
 ---
 
 <u>Sniff Packets on 2.4GHz Network</u>

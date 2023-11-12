@@ -1,5 +1,4 @@
 ---
-title: Resistors
 tags: [electrical, component]
 ---
 

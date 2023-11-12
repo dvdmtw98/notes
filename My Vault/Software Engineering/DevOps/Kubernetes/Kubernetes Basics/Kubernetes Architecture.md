@@ -1,5 +1,4 @@
 ---
-title: Kubernetes Architecture
 tags: [kubernetes, container, devops, orchestration]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: ARM Templates
 tags: [devops, iac, azure, cloud]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Sqoop Commands
 tags: [analytics, sqoop]
 ---
 

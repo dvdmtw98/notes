@@ -1,5 +1,4 @@
 ---
-title: Windows Shortcuts
 tags: [os, windows, shortcut]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: IEEE 802.11 Standards
 tags: [networking, wireless, standard]
 ---
 

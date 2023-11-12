@@ -1,5 +1,4 @@
 ---
-title: Network Geography
 tags: [networking, concept]
 ---
 

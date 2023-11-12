@@ -1,5 +1,4 @@
 ---
-title: WSL Configuration
 tags: [os, windows, tool]
 ---
 

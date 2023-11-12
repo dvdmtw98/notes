@@ -1,5 +1,4 @@
 ---
-title: PL-SQL User Defined Exception
 tags: [database, sql, oracle]
 ---
 

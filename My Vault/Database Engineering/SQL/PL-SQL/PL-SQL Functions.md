@@ -1,5 +1,4 @@
 ---
-title: PL-SQL Functions
 tags: [database, sql, oracle]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Azure Documents
 tags: [azure, cloud, document]
 ---
 

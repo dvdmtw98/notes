@@ -1,5 +1,4 @@
 ---
-title: Git Branch Command
 tags: [git, devops]
 ---
 

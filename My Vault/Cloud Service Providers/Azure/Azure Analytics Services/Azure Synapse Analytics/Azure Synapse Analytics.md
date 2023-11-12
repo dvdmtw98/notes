@@ -1,5 +1,4 @@
 ---
-title: Azure Synapse Analytics
 tags: [azure, cloud, analytics, data-warehouse, synapse]
 ---
 

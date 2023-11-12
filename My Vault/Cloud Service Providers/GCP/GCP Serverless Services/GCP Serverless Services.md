@@ -1,5 +1,4 @@
 ---
-title: GCP Serverless Services
 tags: [gcp, cloud, serverless]
 ---
 

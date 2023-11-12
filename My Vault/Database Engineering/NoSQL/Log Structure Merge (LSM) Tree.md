@@ -1,5 +1,4 @@
 ---
-title: Log Structure Merge (LSM) Tree
 tags: [database, nosql, data-structure]
 ---
 

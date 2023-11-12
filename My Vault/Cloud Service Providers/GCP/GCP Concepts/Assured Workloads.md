@@ -1,5 +1,4 @@
 ---
-title: Assured Workloads
 tags: [gcp, cloud, concept]
 ---
 

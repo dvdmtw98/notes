@@ -1,5 +1,4 @@
 ---
-title: Application Security
 tags: [devops, security]
 ---
 

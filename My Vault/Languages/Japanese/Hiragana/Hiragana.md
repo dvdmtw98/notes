@@ -1,5 +1,4 @@
 ---
-title: Hiragana
 tags: [language, japanese, hiragana, index]
 ---
 

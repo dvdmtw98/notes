@@ -1,5 +1,4 @@
 ---
-title: SMTP Enumeration
 tags: [security, enumeration, smtp]
 ---
 

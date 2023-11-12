@@ -1,17 +1,18 @@
 ---
-title: Firewall
 tags: [networking, device, security]
 ---
 
 Protect LAN from malicious activity on the Internet  
 Controls the flow of information in and out from the network  
-Firewalls can be Standalone Network Device or a software on a Computer System
-
+Firewalls can be Standalone Network Device or a software on a device  
 A firewall can operate at Layer 4 through 7 depending on its type and configuration
 
----
+**Host-based Firewall**  
+Windows: Windows Firewall  
+MacOS: PF (Packet Filtering) - OSX >= 10 & IPFW (IP Firewall)  
+FreeBSD: PF & IPFW  
+Linux: iptables
 
-### Types of Firewalls
 
 #### Packet/Port Filtering
 The original type of firewall (Very basic)  
@@ -30,5 +31,3 @@ Detects malicious applications and services that tries to bypass it
 Performs deep Layer 7 packet inspection  
 Can look through traffic to detect and prevent attacks  
 Connected to the cloud to get the latest threat information
-
----

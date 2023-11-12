@@ -1,5 +1,4 @@
 ---
-title: Cloud Service Models
 tags: [cloud, concept]
 ---
 

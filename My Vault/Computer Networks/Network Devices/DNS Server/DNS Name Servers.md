@@ -1,5 +1,4 @@
 ---
-title: DNS Name Servers
 tags: [dns, netwoking]
 ---
 
@@ -26,12 +25,12 @@ These servers are run we organizations providing web hosting services
 
 ### Commands
 
-| Description                   | Command                              |
-|:----------------------------- |:------------------------------------ |
-| Get Root Nameservers          | `dig NS .`                           |
-| Get TLD Nameservers           | `dig NS com @a.root-servers.net`                         |
+| Description                   | Command                                 |
+| :---------------------------- | :-------------------------------------- |
+| Get Root Nameservers          | `dig NS .`                              |
+| Get TLD Nameservers           | `dig NS com @a.root-servers.net`        |
 | Get Authoritative Nameservers | `dig NS google.com @a.gtld-servers.net` |
-| Get Domain IP Address         | `dig google.com @ns1.google.com`     |
+| Get Domain IP Address         | `dig google.com @ns1.google.com`        |
 
 [DNS server types | Cloudflare](https://www.cloudflare.com/learning/dns/dns-server-types/)
 

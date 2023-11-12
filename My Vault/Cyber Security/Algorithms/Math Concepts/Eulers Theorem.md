@@ -1,5 +1,4 @@
 ---
-title: Eulers Theorem
 tags: [security, math]
 ---
 

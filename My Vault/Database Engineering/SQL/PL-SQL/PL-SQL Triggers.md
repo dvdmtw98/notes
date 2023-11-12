@@ -1,5 +1,4 @@
 ---
-title: PL-SQL Triggers
 tags: [database, sql, oracle]
 ---
 

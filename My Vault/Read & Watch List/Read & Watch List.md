@@ -1,5 +1,4 @@
 ---
-title: Various Lists
 tags: [list, index]
 ---
 

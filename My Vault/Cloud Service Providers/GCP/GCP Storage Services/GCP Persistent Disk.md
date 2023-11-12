@@ -1,5 +1,4 @@
 ---
-title: GCP Persistent Disk
 tags: [gcp, cloud, storage]
 ---
 

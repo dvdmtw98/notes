@@ -1,5 +1,4 @@
 ---
-title: EJS Syntax
 tags: [programming, javascript, nodejs, webdev]
 ---
 

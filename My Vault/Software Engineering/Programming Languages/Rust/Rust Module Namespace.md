@@ -1,5 +1,4 @@
 ---
-title: Rust Module Namespace
 tags: [rust, programming]
 ---
 

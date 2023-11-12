@@ -1,5 +1,4 @@
 ---
-title: GCD - Euclids Algorithm
 tags: [security, math]
 ---
 

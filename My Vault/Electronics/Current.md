@@ -1,5 +1,4 @@
 ---
-title: Current
 tags: [electrical, concept]
 ---
 

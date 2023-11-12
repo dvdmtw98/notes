@@ -1,5 +1,4 @@
 ---
-title: Data Structures
 tags: [data-structure, index]
 ---
 

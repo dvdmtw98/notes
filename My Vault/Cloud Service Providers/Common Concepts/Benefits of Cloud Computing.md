@@ -1,5 +1,4 @@
 ---
-title: Benefits of Cloud Computing
 tags: [cloud, concept]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: HTTP(S) Protocol
 tags: [security, web, http, concept]
 ---
 

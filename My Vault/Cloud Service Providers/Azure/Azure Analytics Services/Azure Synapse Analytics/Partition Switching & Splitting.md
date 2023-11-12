@@ -1,5 +1,4 @@
 ---
-title: Partition Switching & Splitting
 tags: [azure, cloud, analytics, data-warehouse, synapse, partition]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Binary Search
 tags: [algorithm]
 ---
 

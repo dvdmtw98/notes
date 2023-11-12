@@ -1,5 +1,4 @@
 ---
-title: Azure AD Connect
 tags:
   - active-directory
   - cloud

@@ -1,5 +1,4 @@
 ---
-title: CSS Element Types
 tags: [programming, css, webdev]
 ---
 

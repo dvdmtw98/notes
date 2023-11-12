@@ -1,5 +1,4 @@
 ---
-title: C Pointers
 tags: [programming, c]
 ---
 

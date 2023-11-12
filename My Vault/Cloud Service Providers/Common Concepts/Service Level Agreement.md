@@ -1,5 +1,4 @@
 ---
-title: Service Level Agreement
 tags: [cloud, support]
 ---
 

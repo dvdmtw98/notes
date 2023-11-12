@@ -1,5 +1,4 @@
 ---
-title: Application Insights
 tags: [azure, cloud, metrics, logs]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Dynamic Routing Protocols
 tags: [networking, routing, network]
 ---
 

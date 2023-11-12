@@ -1,5 +1,4 @@
 ---
-title: Kafka Architecture
 tags: [analytics, kafka]
 ---
 

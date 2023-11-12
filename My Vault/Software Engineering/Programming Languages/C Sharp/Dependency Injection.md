@@ -1,5 +1,4 @@
 ---
-title: Dependency Injection
 tags: [programming, concept]
 ---
 

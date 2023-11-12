@@ -1,5 +1,4 @@
 ---
-title: Power BI Service
 tags: [powerbi, visulization, reporting]
 ---
 

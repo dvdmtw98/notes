@@ -1,5 +1,4 @@
 ---
-title: Repeater
 tags: [networking, device]
 ---
 

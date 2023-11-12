@@ -1,5 +1,4 @@
 ---
-title: Rust Error Handling
 tags: [rust, programming]
 ---
 

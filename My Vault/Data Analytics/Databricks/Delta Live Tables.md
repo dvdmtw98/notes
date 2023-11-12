@@ -1,5 +1,4 @@
 ---
-title: Delta Live Tables
 tags: [analytics, databricks]
 ---
 

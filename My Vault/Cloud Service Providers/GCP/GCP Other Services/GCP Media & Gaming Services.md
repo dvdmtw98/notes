@@ -1,5 +1,4 @@
 ---
-title: GCP Media and Gaming Services
 tags: [gcp, cloud]
 ---
 

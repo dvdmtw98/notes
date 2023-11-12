@@ -1,5 +1,4 @@
 ---
-title: Recursion
 tags: [programming, recursion]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Kafka Replication
 tags: [analytics, kafka]
 ---
 

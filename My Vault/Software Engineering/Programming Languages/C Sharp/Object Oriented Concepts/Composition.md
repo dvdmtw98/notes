@@ -1,5 +1,4 @@
 ---
-title: Composition
 tags: [programming, csharp]
 ---
 

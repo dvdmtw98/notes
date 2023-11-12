@@ -1,5 +1,4 @@
 ---
-title: PL-SQL Procedures
 tags: [database, sql, oracle]
 ---
 

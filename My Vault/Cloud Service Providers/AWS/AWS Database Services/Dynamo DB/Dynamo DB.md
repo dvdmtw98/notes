@@ -1,5 +1,4 @@
 ---
-title: Dynamo DB
 tags: [aws, cloud, database, dynamodb]
 ---
 

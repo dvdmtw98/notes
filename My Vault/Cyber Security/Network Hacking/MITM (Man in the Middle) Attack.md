@@ -1,5 +1,4 @@
 ---
-title: MITM (Man in the Middle) Attack
 ---
 
 ### ARP Poisoning/Spoofing

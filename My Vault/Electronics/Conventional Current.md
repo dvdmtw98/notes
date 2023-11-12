@@ -1,5 +1,4 @@
 ---
-title: Conventional Current
 tags: [electrical, concept]
 ---
 

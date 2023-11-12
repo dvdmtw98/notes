@@ -1,5 +1,4 @@
 ---
-title: Snowflake
 tags: [snowflake, cloud, data-warehouse, index]
 ---
 

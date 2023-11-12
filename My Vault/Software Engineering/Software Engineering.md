@@ -1,5 +1,4 @@
 ---
-title: Software Engineering
 tags: [software, programming, devops, index]
 ---
 

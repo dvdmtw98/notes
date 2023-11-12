@@ -1,5 +1,4 @@
 ---
-title: RAID
 tags: [os, concept]
 ---
 

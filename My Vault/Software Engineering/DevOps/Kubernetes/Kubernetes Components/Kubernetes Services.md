@@ -1,5 +1,4 @@
 ---
-title: Kubernetes Services
 tags: [kubernetes, container, devops, orchestration]
 ---
 

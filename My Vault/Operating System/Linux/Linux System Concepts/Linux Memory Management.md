@@ -1,5 +1,4 @@
 ---
-title: Linux Memory Management
 tags: [os, linux, concept]
 ---
 

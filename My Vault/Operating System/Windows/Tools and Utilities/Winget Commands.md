@@ -1,5 +1,4 @@
 ---
-title: Winget Commands
 tags: [os, windows, tool]
 ---
 

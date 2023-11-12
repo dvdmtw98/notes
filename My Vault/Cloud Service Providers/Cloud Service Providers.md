@@ -1,5 +1,4 @@
 ---
-title: Cloud Service Providers
 tags: [cloud, index]
 ---
 

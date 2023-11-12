@@ -1,5 +1,4 @@
 ---
-title: BGP (Border Gateway Protocol)
 tags: [networking, routing, algorithm]
 ---
 

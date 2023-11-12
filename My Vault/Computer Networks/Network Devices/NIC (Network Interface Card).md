@@ -1,5 +1,4 @@
 ---
-title: NIC (Network Interface Card)
 tags: [networking, device]
 ---
 

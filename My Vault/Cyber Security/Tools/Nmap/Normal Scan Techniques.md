@@ -1,5 +1,4 @@
 ---
-title: Normal Scan Techniques
 tags: [security, tool, nmap]
 ---
 

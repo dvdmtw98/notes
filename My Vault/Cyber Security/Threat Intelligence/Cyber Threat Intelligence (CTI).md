@@ -1,5 +1,4 @@
 ---
-title: Cyber Threat Intelligence (CTI)
 tags:
   - security
   - concept

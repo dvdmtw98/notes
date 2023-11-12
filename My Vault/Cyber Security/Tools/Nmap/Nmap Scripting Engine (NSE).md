@@ -1,5 +1,4 @@
 ---
-title: Nmap Scripting Engine (NSE)
 tags: [security, tool, nmap]
 ---
 

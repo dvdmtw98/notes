@@ -1,5 +1,4 @@
 ---
-title: Rust Match Expression
 tags: [rust, programming, control-flow]
 ---
 

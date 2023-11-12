@@ -1,5 +1,4 @@
 ---
-title: cURL Command
 tags: [os, linux, command, web]
 ---
 

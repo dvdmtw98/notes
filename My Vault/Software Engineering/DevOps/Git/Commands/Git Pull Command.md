@@ -1,5 +1,4 @@
 ---
-title: Git Pull Command
 tags: [git, devops]
 ---
 

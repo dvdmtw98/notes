@@ -1,5 +1,4 @@
 ---
-title: Rust
 tags: [rust, programming, index]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Load Balancer
 tags: [networking, device]
 ---
 

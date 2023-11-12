@@ -1,5 +1,4 @@
 ---
-title: Azure Regions
 tags: [azure, regions, concept]
 ---
 

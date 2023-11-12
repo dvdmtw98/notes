@@ -1,5 +1,4 @@
 ---
-title: SQL Concepts
 tags: [database, sql, concept, index]
 ---
 

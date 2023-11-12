@@ -1,5 +1,4 @@
 ---
-title: Apache Hadoop
 tags: [analytics, hadoop, index]
 ---
 

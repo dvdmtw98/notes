@@ -1,5 +1,4 @@
 ---
-title: File Permission Commands
 tags: [os, linux, command]
 ---
 

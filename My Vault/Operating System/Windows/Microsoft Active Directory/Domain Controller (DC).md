@@ -1,5 +1,4 @@
 ---
-title: Domain Controller (DC)
 tags: [windows, active-directory, security]
 ---
 

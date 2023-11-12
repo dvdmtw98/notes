@@ -1,5 +1,4 @@
 ---
-title: CapEx and OpEx
 tags: [cloud, concept]
 ---
 

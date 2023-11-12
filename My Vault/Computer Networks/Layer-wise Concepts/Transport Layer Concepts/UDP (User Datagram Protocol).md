@@ -1,5 +1,4 @@
 ---
-title: UDP (User Datagram Protocol)
 tags: [networking, transport, udp]
 ---
 

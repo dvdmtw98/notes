@@ -1,5 +1,4 @@
 ---
-title: Excel Shortcuts
 tags: [excel]
 ---
 

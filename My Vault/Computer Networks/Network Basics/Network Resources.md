@@ -1,5 +1,4 @@
 ---
-title: Network Resources
 tags: [networking, concept]
 ---
 

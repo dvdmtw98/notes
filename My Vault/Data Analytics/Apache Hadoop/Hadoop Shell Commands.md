@@ -1,5 +1,4 @@
 ---
-title: Hadoop Shell Commands
 tags: [analytics, hadoop]
 ---
 

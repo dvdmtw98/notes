@@ -1,5 +1,4 @@
 ---
-title: DNS
 tags: [networking, protocol, dns]
 ---
 

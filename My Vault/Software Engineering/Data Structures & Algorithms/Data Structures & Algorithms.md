@@ -1,5 +1,4 @@
 ---
-title: Data Structures & Algorithms
 tags: [data-structure, algorithm, index]
 ---
 

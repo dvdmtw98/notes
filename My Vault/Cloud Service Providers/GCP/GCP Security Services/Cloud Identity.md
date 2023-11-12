@@ -1,5 +1,4 @@
 ---
-title: Cloud Identity
 tags: [gcp, cloud, security]
 ---
 

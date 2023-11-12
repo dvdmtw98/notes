@@ -1,5 +1,4 @@
 ---
-title: Window Transformations
 tags: [analytics, spark, streaming]
 ---
 

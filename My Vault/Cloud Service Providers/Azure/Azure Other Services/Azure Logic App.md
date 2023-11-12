@@ -1,5 +1,4 @@
 ---
-title: Azure Logic App
 tags: [azure, workflow, serverless]
 ---
 

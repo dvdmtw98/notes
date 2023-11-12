@@ -1,5 +1,4 @@
 ---
-title: OSI Model
 tags: [networking, model, concept]
 ---
 

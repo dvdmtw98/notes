@@ -1,5 +1,4 @@
 ---
-title: GCP Hybrid Cloud Services
 tags: [gcp, cloud, hybrid]
 ---
 

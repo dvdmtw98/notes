@@ -1,5 +1,4 @@
 ---
-title: QUIC (Quick UDP Internet Connections)
 tags: [networking, transport, udp]
 ---
 

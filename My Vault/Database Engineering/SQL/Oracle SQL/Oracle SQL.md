@@ -1,5 +1,4 @@
 ---
-title: Oracle SQL
 tags: [database, sql, oracle, index]
 ---
 

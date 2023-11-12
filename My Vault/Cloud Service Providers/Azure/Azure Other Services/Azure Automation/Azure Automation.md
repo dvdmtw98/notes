@@ -1,5 +1,4 @@
 ---
-title: Azure Automation
 tags: [azure, cloud, automation]
 ---
 

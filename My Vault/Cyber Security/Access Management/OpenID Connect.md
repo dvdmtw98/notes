@@ -1,5 +1,4 @@
 ---
-title: OpenID Connect
 tags: [security, identity-management, authentication]
 ---
 

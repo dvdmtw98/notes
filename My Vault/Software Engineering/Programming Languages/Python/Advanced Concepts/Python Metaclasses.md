@@ -1,5 +1,4 @@
 ---
-title: Python Metaclasses
 tags: [programming, python]
 ---
 

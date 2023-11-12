@@ -1,5 +1,4 @@
 ---
-title: Azure API Management
 tags: [azure, cloud, backend, api]
 ---
 

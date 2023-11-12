@@ -1,5 +1,4 @@
 ---
-title: Databricks Auto Loader
 tags: [analytics, databricks]
 ---
 

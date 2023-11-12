@@ -1,5 +1,4 @@
 ---
-title: Python Inheritance
 tags: [programming, python]
 ---
 

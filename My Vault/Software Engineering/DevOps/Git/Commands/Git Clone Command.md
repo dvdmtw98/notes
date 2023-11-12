@@ -1,5 +1,4 @@
 ---
-title: Git Clone Command
 tags: [git, devops]
 ---
 

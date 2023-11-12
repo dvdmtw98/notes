@@ -1,5 +1,4 @@
 ---
-title: Swarm Cluster Management
 tags: [docker, devops, container, orchestration]
 ---
 

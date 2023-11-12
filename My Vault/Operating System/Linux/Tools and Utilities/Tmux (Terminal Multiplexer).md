@@ -1,5 +1,4 @@
 ---
-title: Tmux (Terminal Multiplexer)
 tags: [os, linux, tools]
 ---
 

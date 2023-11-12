@@ -1,5 +1,4 @@
 ---
-title: Python Async Programming
 tags: [python, programming, advanced]
 ---
 

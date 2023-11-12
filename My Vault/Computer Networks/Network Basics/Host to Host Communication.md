@@ -1,5 +1,4 @@
 ---
-title: Host to Host Communication
 tags: [networking, concept]
 ---
 

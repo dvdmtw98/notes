@@ -1,5 +1,4 @@
 ---
-title: Data Manipulation Language (DML)
 tags: [database, sql, oracle]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Security Concepts
 tags:
   - cloud
   - azure

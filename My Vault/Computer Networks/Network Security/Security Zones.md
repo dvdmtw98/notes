@@ -1,5 +1,4 @@
 ---
-title: Security Zones
 tags:
   - networking
   - security

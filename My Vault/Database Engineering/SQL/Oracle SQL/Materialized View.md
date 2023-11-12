@@ -1,5 +1,4 @@
 ---
-title: Materialized View
 tags: [database, sql, oracle]
 ---
 

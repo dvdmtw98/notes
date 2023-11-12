@@ -1,5 +1,4 @@
 ---
-title: Symbolic Links
 tags: [os, windows, command]
 ---
 

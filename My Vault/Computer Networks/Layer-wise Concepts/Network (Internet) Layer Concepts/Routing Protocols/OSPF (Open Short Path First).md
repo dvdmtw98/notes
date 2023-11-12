@@ -1,5 +1,4 @@
 ---
-title: OSPF (Open Short Path First)
 tags: [networking, routing, algorithm]
 ---
 

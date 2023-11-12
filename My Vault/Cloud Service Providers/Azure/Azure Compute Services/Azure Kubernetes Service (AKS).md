@@ -1,5 +1,4 @@
 ---
-title: Azure Kubernetes Service (AKS)
 tags: [azure, compute, container, orchestration]
 ---
 

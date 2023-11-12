@@ -1,5 +1,4 @@
 ---
-title: Lists (Dynamic Arrays)
 tags: [programming, csharp]
 ---
 

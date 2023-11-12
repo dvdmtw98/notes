@@ -1,5 +1,4 @@
 ---
-title: Nmap
 tags: [security, tool, nmap, index]
 ---
 

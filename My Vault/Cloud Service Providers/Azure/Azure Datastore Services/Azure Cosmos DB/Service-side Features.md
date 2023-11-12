@@ -1,5 +1,4 @@
 ---
-title: Server-side Features
 tags: [azure, cloud, nosql, cosmosdb]
 ---
 

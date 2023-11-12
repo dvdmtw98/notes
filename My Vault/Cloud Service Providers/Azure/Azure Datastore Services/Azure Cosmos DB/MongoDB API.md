@@ -1,5 +1,4 @@
 ---
-title: MongoDB API
 tags: [azure, cloud, database, nosql, cosmos-db]
 ---
 

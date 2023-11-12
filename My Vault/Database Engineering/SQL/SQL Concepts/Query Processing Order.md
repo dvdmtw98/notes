@@ -1,5 +1,4 @@
 ---
-title: Query Processing Order
 tags: [database, sql]
 ---
 

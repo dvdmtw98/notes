@@ -1,5 +1,4 @@
 ---
-title: Normalization
 tags: [database, sql, concept]
 ---
 

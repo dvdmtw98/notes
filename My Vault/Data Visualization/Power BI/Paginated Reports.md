@@ -1,5 +1,4 @@
 ---
-title: Paginated Reports
 tags: [powerbi, visulization, reporting]
 ---
 

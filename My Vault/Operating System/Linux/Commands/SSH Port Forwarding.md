@@ -1,5 +1,4 @@
 ---
-title: SSH Port Forwarding
 tags: [os, linux, command]
 ---
 

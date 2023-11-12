@@ -1,5 +1,4 @@
 ---
-title: Dataframe Commands
 tags: [analytics, spark]
 ---
 

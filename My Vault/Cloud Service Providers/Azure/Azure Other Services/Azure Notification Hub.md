@@ -1,5 +1,4 @@
 ---
-title: Azure Notification Hub
 tags: [azure, cloud, event]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Types of Keys
 tags: [database, sql, concept]
 ---
 

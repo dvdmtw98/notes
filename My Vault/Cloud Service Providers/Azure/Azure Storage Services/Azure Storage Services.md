@@ -1,5 +1,4 @@
 ---
-title: Azure Storage Services
 tags: [azure, cloud, storage, index]
 ---
 

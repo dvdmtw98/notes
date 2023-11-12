@@ -1,5 +1,4 @@
 ---
-title: Relational Model
 tags:
   - sql
   - database

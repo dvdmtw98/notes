@@ -1,3 +1,10 @@
+---
+tags:
+  - security
+  - terms
+  - concept
+---
+
 #### While Hats
 Non-malicious hackers who attempt to break into a companies systems at their request
 
@@ -8,9 +15,11 @@ Malicious Hackers who break into computer systems and networks without authoriza
 Hackers without any affliction to any company that attempts to break into a company's network and risks breaking the law  
 They do not have any malicious intent
 
-#### Blue Hat
+#### Red Hat
 Hackers who attempt to hack into a network with the permission of the company but are not employed by the company  
 e.g. Bug Bounty Hacks, Freelancer Pen-tester
+
+---
 
 ### Skill Level
 

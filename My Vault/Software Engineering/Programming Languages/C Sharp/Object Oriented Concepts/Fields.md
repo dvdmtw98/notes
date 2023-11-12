@@ -1,5 +1,4 @@
 ---
-title: Fields
 tags: [programming, csharp]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: File & Directory Operations
 tags: [programming, csharp]
 ---
 

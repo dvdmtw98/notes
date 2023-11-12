@@ -1,5 +1,4 @@
 ---
-title: ETL vs ELT
 tags: [analytics, concept, etl]
 ---
 

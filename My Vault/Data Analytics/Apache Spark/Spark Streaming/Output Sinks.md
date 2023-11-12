@@ -1,5 +1,4 @@
 ---
-title: Output Sinks
 tags: [analytics, spark, streaming]
 ---
 

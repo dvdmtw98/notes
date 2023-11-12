@@ -1,5 +1,4 @@
 ---
-title: JS - Under the Hood
 tags: [programming, javascript, webdev]
 ---
 

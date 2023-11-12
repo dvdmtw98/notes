@@ -1,5 +1,4 @@
 ---
-title: Spark Compression
 tags: [analytics, spark]
 ---
 

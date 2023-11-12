@@ -1,5 +1,4 @@
 ---
-title: Bash Iteration Statements
 tags: [os, linux, bash, programming]
 ---
 

@@ -1,5 +1,4 @@
 ---
-title: Linked List
 tags: [data-structure]
 ---
 

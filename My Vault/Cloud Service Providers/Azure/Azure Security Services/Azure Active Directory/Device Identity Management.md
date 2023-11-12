@@ -1,5 +1,4 @@
 ---
-title: Device Identity Management
 tags:
   - azure
   - cloud

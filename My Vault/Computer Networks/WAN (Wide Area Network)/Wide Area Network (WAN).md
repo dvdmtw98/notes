@@ -1,5 +1,4 @@
 ---
-title: Wide Area Network (WAN)
 tags: [networking, index, wan]
 ---
 

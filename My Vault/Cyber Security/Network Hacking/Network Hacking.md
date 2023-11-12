@@ -1,5 +1,4 @@
 ---
-title: Network Hacking
 ---
 
 ### Pre-Connection Attacks

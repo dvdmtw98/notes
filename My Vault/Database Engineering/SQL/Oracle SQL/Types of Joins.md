@@ -1,5 +1,4 @@
 ---
-title: Types of Joins
 tags: [database, sql, oracle]
 ---
 
