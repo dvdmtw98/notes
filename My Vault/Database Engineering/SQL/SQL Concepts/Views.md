@@ -40,8 +40,4 @@ Along with the above conditions if EXPRESSIONS are used in any column then we ca
 
 Allow with DISTINCT, Group Functions, GROUP BY Clause, EXPRESSIONS if during view creation we don't include NOT NULL fields then values cannot be inserted into the view
 
----
-
-**<u>References</u>**:
-
-* [sql - Can a view be updated/inserted/deleted? If Yes under what conditions? - Stack Overflow](https://stackoverflow.com/questions/47297493/can-a-view-be-updated-inserted-deleted-if-yes-under-what-conditions)
+[Can a view be updated/inserted/deleted? If Yes under what conditions? - Stack Overflow](https://stackoverflow.com/questions/47297493/can-a-view-be-updated-inserted-deleted-if-yes-under-what-conditions)

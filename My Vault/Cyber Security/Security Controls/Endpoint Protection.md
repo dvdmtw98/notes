@@ -27,4 +27,4 @@ A system that can provide automated identification of suspicious activities by u
 They are heavily dependent on advanced computational techniques like AI and ML  
 e.g. Microsoft Advanced Threat Analytics & Splunk User Behavior Analytics
 
-![endpoint-security-evolution|600](../images/endpoint-security-evolution.webp)
+![endpoint-security-evolution|540](../images/endpoint-security-evolution.webp)

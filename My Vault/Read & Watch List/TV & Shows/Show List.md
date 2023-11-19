@@ -1,7 +1,9 @@
 ---
-cssclass: numbered-rows
-tags: [list, show]
-title: Show List
+cssclasses:
+  - numbered-rows
+tags:
+  - list
+  - show
 ---
 
 ### Western Shows

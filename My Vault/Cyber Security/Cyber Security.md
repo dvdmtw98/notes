@@ -4,28 +4,35 @@ tags:
   - index
 ---
 
-### Table of Content
+### Security Concepts
 
-* [Foundational Concepts](Foundational%20Concepts/Foundational%20Concepts.md)
-	* [Pyramid of Pain](Foundational%20Concepts/Pyramid%20of%20Pain.md)
-	* [Type of Hackers](Foundational%20Concepts/Type%20of%20Hackers.md)
+* [Fundamental Concepts](Foundational%20Concepts/Fundamental%20Concepts.md)
+	* [Zero-Trust Model](../Cloud%20Service%20Providers/Azure/Azure%20Security%20Services/Zero-Trust%20Model.md)
 	* [Threat Actors](Foundational%20Concepts/Threat%20Actors.md)
+	* [Pyramid of Pain](Foundational%20Concepts/Pyramid%20of%20Pain.md)
 	* [CISSP Security Domains](Foundational%20Concepts/CISSP%20Security%20Domains.md)
+* **Security Attacks**
+	* [[Social Engineering]]
 	* [Malware](Foundational%20Concepts/Malware/Malware.md)
+* [[Security Controls]]
+	* [[Physical Security]]
+	* [[Data Protection]]
+		* [Data Loss Prevention (DLP)](../Cloud%20Service%20Providers/GCP/GCP%20Security%20Services/Data%20Loss%20Prevention%20(DLP).md)
+		* [Root of Trust](Root%20of%20Trust.md)
 	* [Device Security Controls](Security%20Controls/Device%20Security%20Controls.md)
 	* [Mobile Device Security](Mobile%20Device%20Security.md)
+	* [Access Management](Access%20Management/Access%20Management.md)
+	* [Security Zones](../Computer%20Networks/Network%20Security/Security%20Zones.md)
+	* [Virtualization](Virtualization.md)
 * **Threat Intelligence**
 	* [Cyber Defense Frameworks](Threat%20Intelligence/Cyber%20Defense%20Frameworks.md)
 	* [Cyber Threat Intelligence (CTI)](Threat%20Intelligence/Cyber%20Threat%20Intelligence%20(CTI).md)
 	* [Threat Modeling](Threat%20Intelligence/Threat%20Modeling.md)
-* **Security Mechanisms**
-	* [Access Management](Access%20Management/Access%20Management.md)
+* **Security Devices**
 	* [Endpoint Protection](Security%20Controls/Endpoint%20Protection.md)
 		* [IDS and IPS](../Computer%20Networks/Network%20Security/IDS%20and%20IPS.md)
-	* [Data Loss Prevention (DLP)](../Cloud%20Service%20Providers/GCP/GCP%20Security%20Services/Data%20Loss%20Prevention%20(DLP).md)
 	* [Proxy Server](../Computer%20Networks/Network%20Security/Proxy%20Server.md)
 	* [VPN Server](../Computer%20Networks/Network%20Devices/VPN%20Server.md)
-	* [Security Zones](../Computer%20Networks/Network%20Security/Security%20Zones.md)
 	* [Firewall](../Computer%20Networks/Network%20Devices/Firewall.md)
 * [Algorithms](Algorithms/Algorithms.md)
 
@@ -49,7 +56,3 @@ tags:
 * [BetterCap](Tools/BetterCap/BetterCap.md)
 * [Splunk](Tools/Splunk.md)
 * [Misc. Utilities](Tools/Misc.%20Utilities.md)
-
----
-
-[Main Index](../Main%20Index.md)

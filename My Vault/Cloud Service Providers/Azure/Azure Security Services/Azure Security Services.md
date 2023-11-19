@@ -5,7 +5,7 @@ tags: [azure, cloud, security, index]
 ### Table of Content
 
 * [Security Concepts](Security%20Concepts.md)
-	* [Zero-Trust Security Model](Zero-Trust%20Security%20Model.md)
+	* [Zero-Trust Model](Zero-Trust%20Model.md)
 	* [Threat Modeling](../../../Cyber%20Security/Threat%20Intelligence/Threat%20Modeling.md)
 * **Identity & Access Management**
 	* [Identity Providers (IdP)](../../GCP/GCP%20Security%20Services/Identity%20Providers%20(IdP).md)

@@ -51,10 +51,24 @@ Time related operation (Earliest & Latest) specified in the SPL will have preced
 
 #### Splunk Fields
 
-Time, Index, Source, Host, Source Type are fields added by default in Splunk  
-They are generated when Splunk Indexes the data  
+host, source, sourcetype, \_raw and \_time are fields extracted at index time  
+**Field Types**: ∝ (String), # (Numeric)
 
-**Field Types**: ∝ (Character), # (Numeric)
+Interesting Fields are fields that have value in at least 20% of the events  
+Splunk field names are case-sensitive while the value are not case-sensitive  
+Calculated fields allows to store an derived field that needs to be used repeatedly  
+
+`| fields`: Fields to include in result. Use `-` before name to exclude a field  
+`| eval`: Used to calculate and manipulate field values. Can create a new field  
+`| erex` & `| rex`: Extract fields from data that was not automatically extracted
+
+**Field Evaluation Order**  
+Extracted Fields - Field Alias - Calculated Field - Lookup - Event Types - Tags
+
+#### Scheduled Reports & Alerts
+
+Reports that are generate based on a time interval  
+Scheduled report priority can only be set by the admin
 
 #### Knowledge Objects
 

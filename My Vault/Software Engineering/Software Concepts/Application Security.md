@@ -2,7 +2,7 @@
 tags: [devops, security]
 ---
 
-### Static Application Security
+#### Static Application Security
 
 Also called White box testing
 
@@ -13,18 +13,14 @@ When enabled an Action is setup to perform the code analysis
 **SonarQube** (has Free version) & **SonarCloud** (Cloud based SaaS) are popular enterprise code analysis tool  
 **MPD** (Programming Mistake Detector) is an code analysis tool used in the Java ecosystem, **Roslyn Analyzer** is similarly used for C# code
 
----
-
-### Dynamic Application Security
+#### Dynamic Application Security
 
 Also called Black box testing  
 The code of the application is not analyzed by the tool
 
 ZAP (Zed Attack Proxy) an tool from OWASP (Open Web Application Security Project) popular tool to run Dynamic Web Application Security Tests
 
----
-
-### Dependency Scanning/ Software Composition Analysis (SCA)
+#### Dependency Scanning/ Software Composition Analysis (SCA)
 
 Used to check if packages used by application are secure  
 These tools also allow to generate a overview on the [Software Licensing](Software%20Licensing.md) used by the dependencies  
