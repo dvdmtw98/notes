@@ -9,6 +9,10 @@
 	margin-bottom: -1em;
 }
 
+.markdown-rendered div:has(h1, h2, h3, h4, h5, h6) + div > :is(pre) {
+	margin-top: 2.4em;
+}
+
 .markdown-rendered div:has(pre, p) + div:has(h1, h2, h3, h4, h5, h6) + div > :is(table, div.block-language-dataview) {
 	margin-top: 3em;
 }

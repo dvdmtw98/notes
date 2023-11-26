@@ -1,6 +1,9 @@
 ---
-tags: [list, book]
-cssclass: numbered-rows, wide-page
+tags:
+  - list
+  - book
+cssclasses:
+  - numbered-rows
 ---
 
 |  No.  |                         Cover                          |       Name        |      Author      |                    Genre                     |                              MyAnimeList                               | Rating |   Status   |

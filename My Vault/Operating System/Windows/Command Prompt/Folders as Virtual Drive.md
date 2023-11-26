@@ -6,7 +6,7 @@ tags: [os, windows, command]
 
 ````batch
 :: Mounts the Test folder as X Drive
-subst X: D:UsersTest 
+subst X: D:\Users\Test 
 
 subst X: /D
 ````
