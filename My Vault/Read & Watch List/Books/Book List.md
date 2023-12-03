@@ -31,6 +31,7 @@ cssclasses:
 |  | ![Ikigai\|72](images/ikigai.jpg) | [Ikigai](Ikigai.md) | Francesc Miralles & Hector Garcia | Non-Fiction, Self Help, Health, Psychology | [Link](https://www.goodreads.com/en/book/show/40534545-ikigai) | ⭐⭐⭐ | #completed |
 |  | ![project-hail-mary\|72](images/project-hail-mary.jpg) | Project Hail Mary | Andy Weir | Fiction, Space, Fantasy, Thriller | [Link](https://www.goodreads.com/book/show/54493401-project-hail-mary) | ⭐⭐⭐⭐ | #completed |
 |  | ![the-kind-worth-killing\|72](images/the-kind-worth-killing.jpg) | The Kind Worth Killing | Peter Swanson | Fiction, Thriller, Mystery, Crime | [Link](https://www.goodreads.com/book/show/21936809-the-kind-worth-killing) | ⭐⭐⭐ | #completed |
-|  | ![dark-matter\|72](images/dark-matter.jpg) | Dark Matter | Blake Crouch | Fiction, Mystery, Thriller, Fantasy | [Link](https://www.goodreads.com/book/show/27833670-dark-matter) |  | #reading |
+|  | ![dark-matter\|72](images/dark-matter.jpg) | Dark Matter | Blake Crouch | Fiction, Mystery, Thriller, Fantasy | [Link](https://www.goodreads.com/book/show/27833670-dark-matter) | ⭐⭐⭐⭐ | #completed |
+|  | ![the-cuckoos-egg\|72](images/the-cuckoos-egg.jpg) | The Cuckoo's Egg | Clifford Stoll | Non-Fiction, Technology, History, Crime | [Link](https://www.goodreads.com/book/show/18154.The_Cuckoo_s_Egg) |  | #reading |
 
 [Read & Watch List](../Read%20&%20Watch%20List.md)
