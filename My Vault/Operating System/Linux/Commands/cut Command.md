@@ -4,8 +4,11 @@ tags: [os, linux, command]
 
 ````shell
 cut -d ' ' -f 2-5 <filename>
+
 cut -d ' ' -f 2,6 --complement <filename>
-cut -c -3,7- <filename> # Select characters till 3 and from 7 till end
+
+# Select upto 3rd characters then from 7th till end
+cut -c -3,7- <filename>
 ````
 
 **<u>Flags</u>**:  

@@ -12,11 +12,11 @@ tags:
 	* [Pyramid of Pain](Foundational%20Concepts/Pyramid%20of%20Pain.md)
 	* [CISSP Security Domains](Foundational%20Concepts/CISSP%20Security%20Domains.md)
 * **Security Attacks**
-	* [[Social Engineering]]
+	* [Social Engineering](Social%20Engineering.md)
 	* [Malware](Foundational%20Concepts/Malware/Malware.md)
-* [[Security Controls]]
-	* [[Physical Security]]
-	* [[Data Protection]]
+* [Security Controls](Security%20Controls.md)
+	* [Physical Security](Physical%20Security.md)
+	* [Data Protection](Data%20Protection.md)
 		* [Data Loss Prevention (DLP)](../Cloud%20Service%20Providers/GCP/GCP%20Security%20Services/Data%20Loss%20Prevention%20(DLP).md)
 		* [Root of Trust](Root%20of%20Trust.md)
 	* [Device Security Controls](Security%20Controls/Device%20Security%20Controls.md)

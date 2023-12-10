@@ -6,7 +6,10 @@ tags: [os, linux, command]
 
 ````shell
 sort <filename>
-sort -n <filename> (Numeric Sort)
+
+# Numeric Sort
+sort -n <filename>
+
 sort -k 2,2n -k4,4n <filename>
 ````
 

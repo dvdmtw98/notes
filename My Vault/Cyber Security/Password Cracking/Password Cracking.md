@@ -14,4 +14,4 @@ tags: [security, password, index]
 A collection of stolen login credentials from one service is used to attempt to break into accounts on other services
 
 **Password Spraying**  
-Using a single common password against multiple accounts on the same application
+Using a single password against multiple accounts on the same application

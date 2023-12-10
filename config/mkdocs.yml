@@ -47,22 +47,28 @@ theme:
         - toc.follow
         - search.suggest
         - search.share
+        - content.tooltips
     font:
         text: Roboto
         code: Source Code Pro
     palette:
+        - media: "(prefers-color-scheme)"
+          primary: black
+          toggle:
+              icon: material/brightness-auto
+              name: Switch to light mode
         - media: "(prefers-color-scheme: light)"
           scheme: default
           primary: black
           toggle:
-              icon: material/weather-night
+              icon: material/brightness-7
               name: Switch to dark mode
         - media: "(prefers-color-scheme: dark)"
           scheme: slate
           primary: black
           toggle:
-              icon: material/weather-sunny
-              name: Switch to light mode
+              icon: material/brightness-4
+              name: Switch to system preference
 
 # Python Markdown Plugins
 markdown_extensions:
@@ -99,12 +105,15 @@ markdown_extensions:
     # Table of Content
     - toc:
           permalink: "#"
+    # Improved Tooltips
+    - abbr
 
 # Third Party Plugins
 plugins:
     - search
     - tags
     - social
+    - privacy
     - glightbox:
           auto_caption: true
     - redirects:
