@@ -42,6 +42,4 @@ cat /etc/resolv.conf # DNS Configuration
 cat /etc/hosts # Hosts File
 ````
 
----
-
 [Network Mapping (Information Gathering)](../../../Cyber%20Security/Network%20Hacking/Network%20Mapping%20(Information%20Gathering).md)
