@@ -4,6 +4,7 @@ tags:
   - book
 cssclasses:
   - numbered-rows
+  - wide-table
 ---
 
 | No. | Cover | Name | Author | Genre | Goodreads | Rating | Status |

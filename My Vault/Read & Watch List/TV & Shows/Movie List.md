@@ -1,6 +1,10 @@
 ---
-tags: [list, movie]
-cssclass: numbered-rows
+tags:
+  - list
+  - movie
+cssclasses:
+  - numbered-rows
+  - wide-table
 ---
 
 ### Western Movies

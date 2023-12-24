@@ -1,6 +1,7 @@
 ---
 cssclasses:
   - numbered-rows
+  - wide-table
 tags:
   - list
   - show
@@ -8,14 +9,13 @@ tags:
 
 ### Western Shows
 
-| No. | Name                | Release        | Seasons |
-|:---:|:------------------- | -------------- | ------- |
-|     | Penny Dreadful      | 2014 - 2016    | 3       |
-|     | The Leftovers       | 2014 - 2017    | 3       |
-|     | The Americans       | 2013 - 2018    | 6       |
-|     | Utopia (UK Version) | 2013 - 2014    | 2       |
-|     | Counterpart         | 2017 - 2019    | 2       |
-|     | Happy Valley        | 2014 - Present | 2\*     |
+| No. | Name | Release | Seasons |
+| :--: | :--- | ---- | ---- |
+|  | Penny Dreadful | 2014 - 2016 | 3 |
+|  | The Leftovers | 2014 - 2017 | 3 |
+|  | Utopia (UK Version) | 2013 - 2014 | 2 |
+|  | Counterpart | 2017 - 2019 | 2 |
+|  | Happy Valley | 2014 - Present | 2\* |
 
 ### Asian Shows
 
