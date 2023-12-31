@@ -12,7 +12,7 @@ It scans the boot metrics and OS files to verify their signature, which we can t
 #### Trusted Platform Module (TPM)  
 A specification for hardware-based storage of digital certificates, keys, hashed passwords and other user and platform identification information
 
-![tpm-chip|460](images/tpm-chip.png)
+![tpm-chip|460](../images/tpm-chip.png)
 
 #### Hardware Security Module (HSM)
 An appliance for generating and storing cryptographic keys that is less susceptible to tampering and insider threats than software-based storage

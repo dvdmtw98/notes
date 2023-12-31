@@ -29,8 +29,8 @@ tags:
 
 ### Governance & Compliance
 
-- [Risk Management](Risk%20Management)
-	* [Third-party Vendor Risks](Third-party%20Vendor%20Risks)
+- [Risk Management](Risk%20Management.md)]
+	* [Third-party Vendor Risks](Third-party%20Vendor%20Risks.md)]
 - [Governance & Compliance](Governance%20&%20Compliance.md)
 
 ### Threat Intelligence
