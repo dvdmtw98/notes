@@ -25,7 +25,7 @@ Answers question: Who can do it ?
 
 #### Scope
 
-In Azure scope is management is hierarchy  
+In Azure scope is management as a hierarchy  
 A scope can be a Management Group, Subscription, Resource Group, Resources  
 Scope is one or more resource to which role is applied  
 Answers question: Where can it be done ?

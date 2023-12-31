@@ -21,8 +21,9 @@ G : Gigabytes
 -perm 777 : Have permission 777  
 -perm -755 : Have at least 755 permission
 
--exec rm {} + : Execute a command  
-{} : Placeholder for the files returned by the find command  
-\+ : Command terminator
-
 -maxdepth 1 : Scan only one level deep
+
+`-exec rm -rf {} +`: Execute command (`rm -rf file1; rm -rf file2;`)  
+`-exec rm -rf {} \;`: Execute command (`rm -rf file1 file2`)
+
+[Find Exec Command in Linux: 9 Useful Examples](https://linuxhandbook.com/find-exec-command/)
