@@ -12,7 +12,7 @@ title: Cryptography
 	* [Modular Arithmetic](math-concepts/modular-arithmetic.md)
 	* [Modular Exponentiation](math-concepts/modular-exponentiation.md)
 	* [GCD - Euclid's Algorithm](math-concepts/gcd-euclids-algorithm.md)
-	* [Relatively Prime (Co-prime) Numbers](math-concepts/relatively-prime-co-prime-numbers.md)
+	* [Relatively Prime (Co-prime) Numbers](math-concepts/co-prime-numbers.md)
 	* [Euler's Totient Function](math-concepts/eulers-totient-function.md)
 	* [Fermat's Little Theorem](math-concepts/fermats-little-theorem.md)
 	* [Euler's Theorem](math-concepts/eulers-theorem.md)

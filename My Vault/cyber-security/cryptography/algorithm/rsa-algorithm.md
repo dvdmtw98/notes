@@ -23,14 +23,14 @@ n = p \* q = 7 \* 11 = 77
 
 #### Compute ɸ(n)
 
-[Eulers Totient Function](math-concepts/eulers-totient-function.md)
+[Eulers Totient Function](../math-concepts/eulers-totient-function.md)
 
 ɸ(n) = ɸ(p \* q) = ɸ(p) \* ɸ(q)  
 = ( p -1 ) \* (q - 1) = (7 - 1) \* (11 - 1) = 60
 
 #### Choose e
 
-e should lie between 1 <= e < ɸ(n) and be [co-prime](math-concepts/relatively-prime-co-prime-numbers.md) to ɸ(n)
+e should lie between 1 <= e < ɸ(n) and be [co-prime](../math-concepts/co-prime-numbers.md) to ɸ(n)
 
 e = 13  
 (e, n) = Public Key = (13, 60)
@@ -53,7 +53,7 @@ d = ((60 * 8) + 1) / 13 = 37
 
 #### Encryption and Decryption
 
-[Modular Exponentiation](math-concepts/modular-exponentiation.md)
+[Modular Exponentiation](../math-concepts/modular-exponentiation.md)
 
 | Encryption                                                                            | Decryption                                                                                 |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |

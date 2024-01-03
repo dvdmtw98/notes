@@ -26,5 +26,6 @@ Message, Image, Files, Voice Calls, Removable Devices, Unsecure Networks
 Encompasses the various points where an unauthorized user can try to enter data to try to extract data from an environment  
 Restricting Access, Removing Unnecessary Software, Disabling Unused Protocols  
 
-#### [Risk Assessment Frequency](risk-management/risk-assessment-frequency.md)
-Finding different ways to minimize the likelihood of an outcome from occurring and achieve the desired outcomes
+#### Risk Assessment
+Finding different ways to minimize the likelihood of an outcome from occurring and achieve the desired outcomes  
+[Risk Management](../comptia-security.md#Risk%20Management)

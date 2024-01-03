@@ -5,7 +5,7 @@ tags:
 title: Eulers Totient Function
 ---
 
-ɸ(n) = Count of positive integers greater than 0 and less than 'n' that are [relatively prime](relatively-prime-co-prime-numbers.md) to n  
+ɸ(n) = Count of positive integers greater than 0 and less than 'n' that are [relatively prime](co-prime-numbers.md) to n  
 i.e. the numbers whose GCD with n is 1
 
 ɸ(5) = {1, 2, 3, 4} = 4  

@@ -11,7 +11,7 @@ title: Internal Audits
 Systematic evaluation of the effectiveness of internal controls, compliance and integrity of information systems and processes  
 Data Protection, Network Security, Access Controls, Incident Response
 
-##### [Compliance](governance-and-compliance/compliance.md)
+##### [Compliance](../governance-and-compliance/compliance.md)
 Ensuring that information systems and security practice's meet established standards, regulations and laws
 
 ##### Audit Committee
