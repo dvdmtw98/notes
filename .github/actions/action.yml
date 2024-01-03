@@ -46,7 +46,9 @@ runs:
         - name: Install Dependencies
           id: install-dependencies
           shell: bash
-          run: pip install -r mkdocs/requirements.txt
+          run: |
+              pip install -r mkdocs/requirements.txt 
+              && pip install python-frontmatter
         - name: Build Site
           id: build-site
           shell: bash
