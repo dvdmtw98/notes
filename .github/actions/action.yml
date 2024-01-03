@@ -3,51 +3,51 @@ author: David Varghese
 description: Action to build Mkdocs site using Markdown files
 
 inputs:
-  MEASUREMENT_ID:
-    description: Token to link site with Google Analytics Property
-    required: true
+    MEASUREMENT_ID:
+        description: Token to link site with Google Analytics Property
+        required: true
 
 runs:
-  using: composite
-  steps:
-      - name: Build Directory
-        id: build-directory
-        shell: bash
-        run: mkdir -p mkdocs/{docs/assets,hooks}
-      - name: Markdown Copy
-        id: markdown-copy
-        shell: bash
-        run: |
-            cp -a My\ Vault/. mkdocs/docs \
-            && rm -rf mkdocs/docs/{.obsidian,Read\ \&\ Watch\ List,Languages}
-      - name: Asset Copy
-        id: asset-copy
-        shell: bash
-        run: cp -a config/assets/. mkdocs/docs/assets
-      - name: Config Copy
-        id: config-copy
-        shell: bash
-        run: cp -a config/{mkdocs.yml,requirements.txt} mkdocs
-      - name: Script Copy
-        id: script-copy
-        shell: bash
-        run: cp -r config/scripts/modify_links.py mkdocs/hooks
-      - name: Setup Python
-        id: setup-python
-        uses: actions/setup-python@v4
-        with:
-            python-version: "3.11"
-      - name: Setup Google Analytics
-        uses: TomaszKandula/variable-substitution@v1.0.1
-        with:
-          files: 'mkdocs/mkdocs.yml'
-        env:
-          extra.analytics.property: ${{ inputs.MEASUREMENT_ID }}
-      - name: Install Dependencies
-        id: install-dependencies
-        shell: bash
-        run: pip install -r mkdocs/requirements.txt
-      - name: Build Site
-        id: build-site
-        shell: bash
-        run: cd mkdocs && mkdocs build --strict
+    using: composite
+    steps:
+        - name: Build Directory
+          id: build-directory
+          shell: bash
+          run: mkdir -p mkdocs/{docs/assets,hooks}
+        - name: Markdown Copy
+          id: markdown-copy
+          shell: bash
+          run: |
+              cp -a My\ Vault/. mkdocs/docs \
+              && rm -rf mkdocs/docs/{.obsidian,read-and-watch-list,languages}
+        - name: Asset Copy
+          id: asset-copy
+          shell: bash
+          run: cp -a config/assets/. mkdocs/docs/assets
+        - name: Config Copy
+          id: config-copy
+          shell: bash
+          run: cp -a config/{mkdocs.yml,requirements.txt} mkdocs
+        - name: Script Copy
+          id: script-copy
+          shell: bash
+          run: cp -r config/scripts/modify_links.py mkdocs/hooks
+        - name: Setup Python
+          id: setup-python
+          uses: actions/setup-python@v4
+          with:
+              python-version: "3.11"
+        - name: Setup Google Analytics
+          uses: TomaszKandula/variable-substitution@v1.0.1
+          with:
+              files: "mkdocs/mkdocs.yml"
+          env:
+              extra.analytics.property: ${{ inputs.MEASUREMENT_ID }}
+        - name: Install Dependencies
+          id: install-dependencies
+          shell: bash
+          run: pip install -r mkdocs/requirements.txt
+        - name: Build Site
+          id: build-site
+          shell: bash
+          run: cd mkdocs && mkdocs build --strict

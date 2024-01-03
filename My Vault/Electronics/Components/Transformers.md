@@ -1,5 +1,8 @@
 ---
-tags: [electrical, component]
+tags:
+- electrical
+- component
+title: Transformers
 ---
 
 Transformers can only be used with AC current
@@ -33,4 +36,4 @@ An very common configuration of three phase transform is the Delta-Star (Delta-W
 
 ---
 
-[Electronics](../Electronics.md)
+[Electronics](../electronics.md)

@@ -2,36 +2,36 @@ name: Deploy Digital Archive to Netlify
 run-name: Deploy to Netlify by @${{ github.actor }}
 
 on:
-  push:
-    branches: [ main ]
-    paths-ignore:
-      - "My Vault/Read & Watch List/**"
-      - "My Vault/Languages/**"
-      - "My Vault/.obsidian/**"
+    push:
+        branches: [main]
+        paths-ignore:
+            - "My Vault/read-and-watch-list/**"
+            - "My Vault/languages/**"
+            - "My Vault/.obsidian/**"
 
 jobs:
-  digital-archive:
-    name: Digital Archive Deployment
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        id: checkout-repository
-        uses: actions/checkout@v3
-        with:
-          submodules: true
-      - name: Build Digital Archive
-        id: build-digital-archive
-        uses: ./.github/actions
-        with:
-          MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
-      - name: Netlify Deploy
-        id: netlify-deploy
-        uses: jsmrcaga/action-netlify-deploy@v2.0.0
-        with:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-          NETLIFY_DEPLOY_MESSAGE: Deployed from GitHub Action
-          NETLIFY_DEPLOY_TO_PROD: true
-          install_command: echo Skipping...Install not required
-          build_command: echo Skipping...Build not required
-          build_directory: mkdocs/site
+    digital-archive:
+        name: Digital Archive Deployment
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Repository
+              id: checkout-repository
+              uses: actions/checkout@v3
+              with:
+                  submodules: true
+            - name: Build Digital Archive
+              id: build-digital-archive
+              uses: ./.github/actions
+              with:
+                  MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
+            - name: Netlify Deploy
+              id: netlify-deploy
+              uses: jsmrcaga/action-netlify-deploy@v2.0.0
+              with:
+                  NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+                  NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+                  NETLIFY_DEPLOY_MESSAGE: Deployed from GitHub Action
+                  NETLIFY_DEPLOY_TO_PROD: true
+                  install_command: echo Skipping...Install not required
+                  build_command: echo Skipping...Build not required
+                  build_directory: mkdocs/site

@@ -1,5 +1,10 @@
 ---
-tags: [language, japanese, katakana, index]
+tags:
+- language
+- japanese
+- katakana
+- index
+title: Katakana
 ---
 
 Katakana characters have the same sound as Hiragana  
@@ -26,15 +31,15 @@ Some loan words are so popular in Japanese that they end up becoming adjective o
 
 ### Katakana Chart
 
-* [Katakana Vowels](Katakana%20Vowels.md)
-* [Katakana K-Column](Katakana%20K-Column.md)
-* [Katakana S-Column](Katakana%20S-Column.md)
-* [Katakana T-Column](Katakana%20T-Column.md)
-* [Katakana N-Column](Katakana%20N-Column.md)
-* [Katakana H-Column](Katakana%20H-Column.md)
-* [Katakana M-Column](Katakana%20M-Column.md)
-* [Katakana Y-Column](Katakana%20Y-Column.md)
-* [Katakana R-Column](Katakana%20R-Column.md)
-* [Katakana W-Column & N](Katakana%20W-Column%20&%20N.md)
+* [Katakana Vowels](katakana-vowels.md)
+* [Katakana K-Column](katakana-k-column.md)
+* [Katakana S-Column](katakana-s-column.md)
+* [Katakana T-Column](katakana-t-column.md)
+* [Katakana N-Column](katakana-n-column.md)
+* [Katakana H-Column](katakana-h-column.md)
+* [Katakana M-Column](katakana-m-column.md)
+* [Katakana Y-Column](katakana-y-column.md)
+* [Katakana R-Column](katakana-r-column.md)
+* [Katakana W-Column & N](katakana-w-column-and-n.md)
 
 ![Katakana Chart|500](../images/katakana-chart.jpg)

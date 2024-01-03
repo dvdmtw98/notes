@@ -1,12 +1,16 @@
 ---
-tags: [language, english, index]
+tags:
+- language
+- english
+- index
+title: English
 ---
 
 ### Table of Content
 
-* [Word Meanings](Word%20Meanings.md)
-* [Parts of Speech](Parts%20of%20Speech.md)
+* [Word Meanings](word-meanings.md)
+* [Parts of Speech](parts-of-speech.md)
 
 ---
 
-[Languages](../Languages.md)
+[Languages](../languages.md)

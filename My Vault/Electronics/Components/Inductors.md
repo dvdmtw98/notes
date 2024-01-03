@@ -1,5 +1,8 @@
 ---
-tags: [electrical, component]
+tags:
+- electrical
+- component
+title: Inductors
 ---
 
 Current passing through a coil causes a strong magnetic field  
@@ -10,4 +13,4 @@ Passing an magnetic field through a coil will induce a voltage and current calle
 
 ---
 
-[Electronics](../Electronics.md)
+[Electronics](../electronics.md)

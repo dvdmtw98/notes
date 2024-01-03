@@ -1,5 +1,8 @@
 ---
-tags: [electrical, component]
+tags:
+- electrical
+- component
+title: Resistors
 ---
 
 Resistance us a restriction to of the flow of electrons  
@@ -15,4 +18,4 @@ The excess current that is flowing through the resistor leaves the circuit in th
 
 ---
 
-[Electronics](../Electronics.md)
+[Electronics](../electronics.md)

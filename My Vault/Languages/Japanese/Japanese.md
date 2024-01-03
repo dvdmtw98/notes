@@ -1,16 +1,17 @@
 ---
+title: Japanese
 ---
 
 ### Table of Content
 
 * **Alphabets**
-	* [Hiragana](Hiragana/Hiragana.md)
-	* [Katakana](Katakana/Katakana.md)
-	* [Kanji](Kanji/Kanji.md)
+	* [Hiragana](hiragana/hiragana.md)
+	* [Katakana](katakana/katakana.md)
+	* [Kanji](kanji/kanji.md)
 * **Words & Sentences**
-	* [Japanese Words](Words/Japanese%20Words.md)
-	* [Japanese Grammar](Grammer/Japanese%20Grammar.md)
+	* [Japanese Words](words/japanese-words.md)
+	* [Japanese Grammar](grammer/japanese-grammar.md)
 
 ---
 
-[Languages](../Languages.md)
+[Languages](../languages.md)

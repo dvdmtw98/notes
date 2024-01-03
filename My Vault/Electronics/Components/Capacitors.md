@@ -1,5 +1,8 @@
 ---
-tags: [electrical, component]
+tags:
+- electrical
+- component
+title: Capacitors
 ---
 
 It is an device that is used to store electrical charge  
@@ -19,4 +22,4 @@ It used used in circuits to smooth out the DC current that is converted from the
 
 ---
 
-[Electronics](../Electronics.md)
+[Electronics](../electronics.md)

@@ -1,5 +1,8 @@
 ---
-tags: [electrical, concept]
+tags:
+- electrical
+- concept
+title: Voltage
 ---
 
 Pushes the free electrons around a circuit in a direction  
@@ -22,4 +25,4 @@ Volt is the force required to drive 1 Coulomb through a resistor for 1 Ohm in 1 
 
 ---
 
-[Electronics](Electronics.md)
+[Electronics](electronics.md)

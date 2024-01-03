@@ -1,12 +1,15 @@
 ---
-tags: [language, index]
+tags:
+- language
+- index
+title: Languages
 ---
 
 ### Table of Content
 
-* [English](English/English.md)
-* [Japanese](Japanese/Japanese.md)
+* [English](english/english.md)
+* [Japanese](japanese/japanese.md)
 
 ---
 
-[Main Index](../Main%20Index.md)
+[Main Index](../index.md)

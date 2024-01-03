@@ -1,21 +1,24 @@
 ---
-tags: [electrical, index]
+tags:
+- electrical
+- index
+title: Electronics
 ---
 
 ### Table of Content
 
-* [Current](Current.md)
-	* [AC & DC Current](AC%20&%20DC%20Current.md)
-	* [Conventional Current](Conventional%20Current.md)
-* [Voltage](Voltage.md)
-* [Power & Energy](Power%20&%20Energy.md)
+* [Current](current.md)
+	* [AC & DC Current](ac-and-dc-current.md)
+	* [Conventional Current](conventional-current.md)
+* [Voltage](voltage.md)
+* [Power & Energy](power-and-energy.md)
 
 ### Components
 
-* [Capacitors](Components/Capacitors.md)
-* [Transformers](Components/Transformers.md)
-* [Resistors](Components/Resistors.md)
-* [Inductors](Components/Inductors.md)
+* [Capacitors](components/capacitors.md)
+* [Transformers](components/transformers.md)
+* [Resistors](components/resistors.md)
+* [Inductors](components/inductors.md)
 
 ---
 
@@ -28,4 +31,4 @@ P = IV
 
 ---
 
-[Main Index](../Main%20Index.md)
+[Main Index](../index.md)

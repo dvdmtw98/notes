@@ -6,7 +6,7 @@ site_author: David Varghese
 site_description: >-
     Digital Archive is a curate collection of notes created to share information on a broad range of tools, services and methodologies from the tech industry
 copyright: >-
-    Copyright &copy; 2022 - 2023 David Varghese
+    Copyright &copy; 2022 - 2024 David Varghese
 
 # Footer & Analytics Configuration
 extra:
@@ -116,9 +116,6 @@ plugins:
     - privacy
     - glightbox:
           auto_caption: true
-    - redirects:
-          redirect_maps:
-              "index.md": "Main Index.md"
     - callouts
     - custom-attributes:
           file: "assets/css/custom_attributes.css"

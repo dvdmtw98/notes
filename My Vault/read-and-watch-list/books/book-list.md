@@ -1,0 +1,39 @@
+---
+cssclasses:
+- numbered-rows
+- wide-table
+tags:
+- list
+- book
+title: Book List
+---
+
+| No. | Cover | Name | Author | Genre | Goodreads | Rating | Status |
+| :--: | :--: | :--: | :--: | :--: | :--: | ---- | :--: |
+|  | ![They do it with Mirrors\|72](images/they-do-it-with-mirrors.jpg) | They Do It With Mirrors | Agatha Christie | Fiction, Mystery, Crime, Thriller | [Link](https://www.goodreads.com/book/show/68930.They_Do_It_With_Mirrors) | ⭐⭐⭐ | #completed |
+|  | ![Kafka on the Shore\|72](images/kafka-on-the-shore.jpg) | Kafka on the Shore | Hauruki Murakami | Fiction, Magical-Realism, Fantasy | [Link](https://www.goodreads.com/book/show/4929.Kafka_on_the_Shore) | ⭐⭐⭐⭐ | #completed |
+|  | ![The art of Invisibility\|72](images/the-art-of-invisibility.jpg) | The Art of Invisibility | Kevin Mitnick | Non-Fiction, Technology | [Link](https://www.goodreads.com/book/show/30363785-the-art-of-invisibility) | ⭐⭐⭐ | #completed |
+|  | ![The Hitchhiker's Guide to the Galaxy\|72](images/the-hitchhikers-guide-to-the-galaxy.jpg) | The Hitchhiker's Guide to the Galaxy | Douglas Adams | Fiction, Humor, Fantasy, Classics | [Link](https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy) | ⭐⭐⭐⭐ | #completed |
+|  | ![The Alchemist\|72](images/the-alchemist.jpg) | The Alchemist | Paulo Coelho | Fiction, Fantasy, Adventure, Classics | [Link](https://www.goodreads.com/book/show/18144590-the-alchemist) | ⭐⭐⭐⭐⭐ | #completed |
+|  | ![Crime and Punishment\|72](images/crime-and-punishment.jpg) | Crime and Punishment | Fyodor Dostoevsky | Fiction, Crime, Physiological, Classics | [Link](https://www.goodreads.com/book/show/7144.Crime_and_Punishment) | ⭐⭐⭐ | #completed |
+|  | ![And Then There Where None\|72](images/and-then-there-where-none.jpg) | And Then There Where None | Agatha Christie | Fiction, Mystery, Crime, Thriller | [Link](https://www.goodreads.com/book/show/16299.And_Then_There_Were_None) | ⭐⭐⭐⭐⭐ | #completed |
+|  | ![The Da Vici Code\|72](images/the-davici-code.jpg) | The Da Vinci Code | Dan Brown | Fiction, Mystery, Thriller | [Link](https://www.goodreads.com/book/show/968.The_Da_Vinci_Code) | ⭐⭐⭐⭐ | #completed |
+|  | ![Angels and Demons\|72](images/angels-and-demons.jpg) | Angels and Demons | Dan Brown | Fiction, Mystery, Thriller, Crime | [Link](https://www.goodreads.com/book/show/960.Angels_Demons) | ⭐⭐⭐⭐ | #completed |
+|  | ![The Lost Symbol\|72](images/the-lost-symbol.jpg) | The Lost Symbol | Dan Brown | Fiction, Mystery, Thriller, Crime | [Link](https://www.goodreads.com/book/show/6411961-the-lost-symbol) | ⭐⭐⭐⭐⭐ | #completed |
+|  | ![1984\|72](images/1984.jpg) | 1984 | George Orwell | Fiction, Politics, Fantasy, Dystopian, Classics | [Link](https://www.goodreads.com/book/show/61439040-1984) | ⭐⭐⭐⭐ | #completed |
+|  | ![Hamlet\|72](images/hamlet.jpeg) | Hamlet | William Shakespeare | Fiction, Drama, Play, Classics | [Link](https://www.goodreads.com/book/show/1420.Hamlet) | ⭐⭐⭐ | #completed |
+|  | ![The Stranger\|72](images/the-stranger.jpg) | The Stranger | Albert Camus | Fiction, Philosophical, Classics | [Link](https://www.goodreads.com/book/show/49552.The_Stranger) | ⭐⭐⭐ | #completed |
+|  | ![The Divine Comedy\|72](images/the-divine-comedy.jpg) | The Divine Comedy (Inferno) | Dante Alighieri | Fiction, Poetry, Fantasy, Religion, Classics | [Link](https://www.goodreads.com/book/show/6656.The_Divine_Comedy) | ⭐⭐ | #completed |
+|  | ![Why we Sleep\|72](images/why-we-sleep.jpg) | [Why We Sleep](why-we-sleep.md) | Matthew Walker | Non-Fiction, Science, Health, Psychology | [Link](https://www.goodreads.com/book/show/34466963-why-we-sleep) | ⭐⭐⭐ | #completed |
+|  | ![Siddhartha\|72](images/siddhartha.jpg) | Siddhartha | Herman Hesse | Fiction, Philosophical, Classics | [Link](https://www.goodreads.com/book/show/52036.Siddhartha) | ⭐⭐⭐ | #completed |
+|  | ![Fahrenheit 451\|72](images/fahrenheit-451.jpg) | Fahrenheit 451 | Ray Bradbury | Fiction, Dystopian, Fantasy, Classics | [Link](https://www.goodreads.com/book/show/56302573-farenheit-451) | ⭐⭐⭐ | #completed |
+|  | ![The Murder of Roger Ackroyd\|72](images/the-murder-of-roger-ackroyd.jpg) | The Murder of Roger Ackroyd | Agatha Christie | Fiction, Mystery, Crime, Thriller | [Link](https://www.goodreads.com/book/show/16328.The_Murder_of_Roger_Ackroyd) | ⭐⭐⭐⭐⭐ | #completed |
+|  | ![Zero Day\|72](images/zero-day.jpg) | Zero Day | David Baldacci | Fiction, Thriller, Mystery, Crime | [Link](https://www.goodreads.com/book/show/11007587-zero-day) | ⭐⭐ | #completed |
+|  | ![Man's Search for Meaning\|72](images/mans-search-for-meaning.jpg) | Man's Search for Meaning | Viktor E. Frankl | Non-Fiction, History, Memoir, Biography | [Link](https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning) | ⭐⭐⭐ | #completed |
+|  | ![Ikigai\|72](images/ikigai.jpg) | [Ikigai](ikigai.md) | Francesc Miralles & Hector Garcia | Non-Fiction, Self Help, Health, Psychology | [Link](https://www.goodreads.com/en/book/show/40534545-ikigai) | ⭐⭐⭐ | #completed |
+|  | ![project-hail-mary\|72](images/project-hail-mary.jpg) | Project Hail Mary | Andy Weir | Fiction, Space, Fantasy, Thriller | [Link](https://www.goodreads.com/book/show/54493401-project-hail-mary) | ⭐⭐⭐⭐ | #completed |
+|  | ![the-kind-worth-killing\|72](images/the-kind-worth-killing.jpg) | The Kind Worth Killing | Peter Swanson | Fiction, Thriller, Mystery, Crime | [Link](https://www.goodreads.com/book/show/21936809-the-kind-worth-killing) | ⭐⭐⭐ | #completed |
+|  | ![dark-matter\|72](images/dark-matter.jpg) | Dark Matter | Blake Crouch | Fiction, Mystery, Thriller, Fantasy | [Link](https://www.goodreads.com/book/show/27833670-dark-matter) | ⭐⭐⭐⭐ | #completed |
+|  | ![the-cuckoos-egg\|72](images/the-cuckoos-egg.jpg) | The Cuckoo's Egg | Clifford Stoll | Non-Fiction, Technology, History, Crime | [Link](https://www.goodreads.com/book/show/18154.The_Cuckoo_s_Egg) |  | #reading |
+
+[Read & Watch List](../read-and-watch-list.md)

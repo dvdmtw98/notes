@@ -1,5 +1,10 @@
 ---
-tags: [language, japanese, hiragana, index]
+tags:
+- language
+- japanese
+- hiragana
+- index
+title: Hiragana
 ---
 
 Hiragana and Katakana characters together is called as Kana  
@@ -14,15 +19,15 @@ There are 5 vowels, 40 consonant + vowel pair and 1 consonant (101 syllable soun
 
 ### Hiragana Chart
 
-* [Hiragana Vowels](Hiragana%20Vowels.md)
-* [Hiragana K-Column](Hiragana%20K-Column.md)
-* [Hiragana S-Column](Hiragana%20S-Column.md)
-* [Hiragana T-Column](Hiragana%20T-Column.md)
-* [Hiragana N-Column](Hiragana%20N-Column.md)
-* [Hiragana H-Column](Hiragana%20H-Column.md)
-* [Hiragana M-Column](Hiragana%20M-Column.md)
-* [Hiragana Y-Column](Hiragana%20Y-Column.md)
-* [Hiragana R-Column](Hiragana%20R-Column.md)
-* [Hiragana W-Column & N](Hiragana%20W-Column%20&%20N.md)
+* [Hiragana Vowels](hiragana-vowels.md)
+* [Hiragana K-Column](hiragana-k-column.md)
+* [Hiragana S-Column](hiragana-s-column.md)
+* [Hiragana T-Column](hiragana-t-column.md)
+* [Hiragana N-Column](hiragana-n-column.md)
+* [Hiragana H-Column](hiragana-h-column.md)
+* [Hiragana M-Column](hiragana-m-column.md)
+* [Hiragana Y-Column](hiragana-y-column.md)
+* [Hiragana R-Column](hiragana-r-column.md)
+* [Hiragana W-Column & N](hiragana-w-column-and-n.md)
 
 ![Hiragana Chart|500](../images/hiragana-chart.jpg)

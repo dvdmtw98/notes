@@ -1,5 +1,9 @@
 ---
-tags: [language, japanese, kanji]
+tags:
+- language
+- japanese
+- kanji
+title: Kanji
 ---
 
 ### Kanji
