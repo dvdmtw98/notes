@@ -21,7 +21,7 @@ Determines who has access to what resources within an organization
 
 ##### Physical Security Standards
 Cover the physical measures taken to protect an organization's assets and information
-[Physical Security](security-controls/physical-security.md)
+[Physical Security](../security-controls/physical-security.md)
 
 ##### Encryption Standards
 Ensures that data intercepted or accessed without authorization remains unreadable and secure
