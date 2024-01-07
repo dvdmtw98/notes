@@ -16,5 +16,6 @@ title: Application Layer Protocols
 * [Domain Name System (DNS)](../network-infrastructure/dns-server/domain-name-system-dns.md)
 * [Dynamic Host Configuration Protocol (DHCP)](../network-infrastructure/dhcp.md)
 
+### Common Protocols and Ports
 
-![Common Protocols Ports](../layer-wise-concepts/transport-layer-concepts/network-ports.md#Common%20Protocols%20Ports)
+[Common Protocols Ports](../layer-wise-concepts/transport-layer-concepts/network-ports.md#Common%20Protocols%20Ports)

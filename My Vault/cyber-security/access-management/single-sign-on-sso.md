@@ -12,4 +12,4 @@ SSO works based on a <u>trusted relationship</u> that is established between an 
 
 #### Identity Provider (IdP)
 
-![identity-providers-idp](../../cloud-service-providers/gcp/gcp-security-services/identity-providers-idp.md)
+[identity-providers-idp](../../cloud-service-providers/gcp/gcp-security-services/identity-providers-idp.md)

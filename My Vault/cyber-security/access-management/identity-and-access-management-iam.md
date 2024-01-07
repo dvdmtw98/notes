@@ -14,7 +14,7 @@ Systems and processes used to manage access to information in an organization to
 Process where a user claims an identity to a system  
 Typically done using a unique identifier like a username or email address
 
-![AAA of Security](../frameworks/aaa-of-security.md)
+[AAA of Security](../frameworks/aaa-of-security.md)
 
 ---
 
