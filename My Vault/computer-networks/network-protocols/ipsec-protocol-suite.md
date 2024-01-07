@@ -67,6 +67,6 @@ IP header is not encrypted so the source and destination of data will be visible
 Employed for site-to-site VPNs  
 Adds an extra header that can increase packet size and exceed MTU
 
-![ipsec-ah|500](../../images/ipsec-ah.png)
+![ipsec-ah|500](../../cyber-security/images/ipsec-ah.png)
 
-![ipsec-esp|560](../../images/ipsec-esp.png)
+![ipsec-esp|560](../../cyber-security/images/ipsec-esp.png)
