@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - threat
 title: Threats & Vulnerabilities
 ---
@@ -28,4 +27,4 @@ Restricting Access, Removing Unnecessary Software, Disabling Unused Protocols
 
 #### Risk Assessment
 Finding different ways to minimize the likelihood of an outcome from occurring and achieve the desired outcomes  
-[Risk Management](../comptia-security.md#Risk%20Management)
+[Risk Management](../certifications/comptia-security.md#Risk%20Management)

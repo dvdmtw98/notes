@@ -2,7 +2,6 @@
 tags:
 - programming
 - os
-- concept
 title: Fork vs. Spawn
 ---
 

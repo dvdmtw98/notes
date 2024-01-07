@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - controls
 title: Security Controls
 ---

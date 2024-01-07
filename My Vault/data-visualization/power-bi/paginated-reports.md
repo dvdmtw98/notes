@@ -1,7 +1,7 @@
 ---
 tags:
 - powerbi
-- visulization
+- visualization
 - reporting
 title: Paginated Reports
 ---

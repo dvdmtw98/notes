@@ -1,7 +1,7 @@
 ---
 tags:
 - networking
-- network
+- networking
 - ip
 - subnet
 title: IPv4 to IPv6 Transition

@@ -5,7 +5,7 @@ title: Python
 ### Table of Content
 
 1. **Theoretical Concepts**
-	* [Association, Aggregation and Composition](../../software-concepts/association,-aggregation-and-composition.md)
+	* [Association, Aggregation and Composition](../../software-concepts/association-aggregation-and-composition.md)
 	* [Reference Type vs. Value Type](../../software-concepts/reference-type-vs-value-type.md)
 	* [Memory Management (Programming Languages)](../../software-concepts/memory-management-programming-languages.md)
 		* [Python Memory Management](theoretical-concepts/python-memory-management.md)

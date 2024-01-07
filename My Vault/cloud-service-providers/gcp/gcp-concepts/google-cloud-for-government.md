@@ -2,7 +2,6 @@
 tags:
 - gcp
 - cloud
-- concept
 title: Google Cloud for Government
 ---
 

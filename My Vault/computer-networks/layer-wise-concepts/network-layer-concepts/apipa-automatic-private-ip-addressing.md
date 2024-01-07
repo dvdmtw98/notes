@@ -1,7 +1,7 @@
 ---
 tags:
 - networking
-- network
+- networking
 - ip
 - subnet
 title: APIPA (Automatic Private IP Addressing)

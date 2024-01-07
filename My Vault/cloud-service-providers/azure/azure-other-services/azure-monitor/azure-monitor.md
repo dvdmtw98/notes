@@ -1,10 +1,9 @@
 ---
 tags:
-- azure
-- cloud
-- monitor
-- alert
-- metric
+  - azure
+  - cloud
+  - alert
+  - metric
 title: Azure Monitor
 ---
 

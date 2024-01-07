@@ -14,8 +14,8 @@ title: Password Cracking
 
 ---
 
-**Credential Stuffing**  
+##### Credential Stuffing
 A collection of stolen login credentials from one service is used to attempt to break into accounts on other services
 
-**Password Spraying**  
+##### Password Spraying 
 Using a single password against multiple accounts on the same application

@@ -1,8 +1,7 @@
 ---
 tags:
-- osint
-- recon
-- security
+  - osint
+  - security
 title: Information Gathering
 ---
 

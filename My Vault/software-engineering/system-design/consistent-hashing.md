@@ -1,7 +1,6 @@
 ---
 tags:
 - system-design
-- concept
 title: Consistent Hashing
 ---
 

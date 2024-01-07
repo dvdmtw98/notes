@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - data
 title: Device Security Controls
 ---

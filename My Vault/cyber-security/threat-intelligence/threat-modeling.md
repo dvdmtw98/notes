@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - intelligence
 title: Threat Modeling
 ---

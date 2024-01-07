@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - framework
 - soc
 title: Cyber Defense Frameworks

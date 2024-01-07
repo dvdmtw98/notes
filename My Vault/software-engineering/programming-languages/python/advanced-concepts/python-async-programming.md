@@ -1,8 +1,7 @@
 ---
 tags:
-- python
-- programming
-- advanced
+  - python
+  - programming
 title: Python Async Programming
 ---
 

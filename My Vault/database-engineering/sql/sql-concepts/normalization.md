@@ -2,7 +2,6 @@
 tags:
 - database
 - sql
-- concept
 title: Normalization
 ---
 

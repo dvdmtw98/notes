@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - data
 - access
 title: Data States & Types
@@ -20,7 +19,7 @@ Record Encryption: Encrypt specific fields within a database record
 ##### Data in Transit/ Data in Motion
 SSL and TLS: Cryptographic protocols  
 VPN  
-IPSec: Protect IP communication by authenticating and encrypting each packet
+**IPSec**: Protect IP communication by authenticating and encrypting each packet
 
 ##### Data in Use
 Application Level Encryption  

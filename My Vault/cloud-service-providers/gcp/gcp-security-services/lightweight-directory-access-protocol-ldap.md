@@ -6,12 +6,15 @@ tags:
 title: Lightweight Directory Access Protocol (LDAP)
 ---
 
-It is an open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services over an Internet Protocol (IP) network
+It is an open, vendor-neutral, industry standard application protocol  
+It is used to access and maintain distributed directory information services over an Internet Protocol (IP) network
 
 A common use of LDAP is to provide central place to store usernames and passwords
 
-LDAP enables use of same-sign on  
-Same-sign on allows users to use a single ID and password, but they need to enter it every time they have to login
+LDAP enables use of "Same-Sign On"  
+Same-Sign On allows users to use a single ID and password, but they need to enter it every time they have to login
+
+**LDAPS**: LDAP over SSL or StartTLS
 
 ---
 

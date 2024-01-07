@@ -8,7 +8,7 @@ title: MAC (Media Access Control) Address
 
 It is the **Physical Addressing System** for a device operating on the Logical Level  
 These addresses are tied to the NIC of the device and they cannot be changed  
-No two [NIC (Network Interface Card)](../../network-devices/nic-network-interface-card.md) anywhere in the world will have the same MAC address
+No two [NIC (Network Interface Card)](../../network-infrastructure/nic-network-interface-card.md) anywhere in the world will have the same MAC address
 
 MAC Addresses are always made of 48 bits  
 They are represented using 12 hexadecimal characters  

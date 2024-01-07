@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - threat
 title: Deception Techniques
 ---

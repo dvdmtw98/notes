@@ -11,18 +11,18 @@ Covers an relatively large area (Countries, Cities)
 
 ### WAN Technologies
 
-1. **<u>Circuit Switching</u>**  
-   Was designed for telephone calls  
-   Uses a dedicated point-to-point connection (Used very rarely for PC anymore)  
-   A circuit guarantees you full bandwidth of the circuit and remain connected for duration of your call (When we are using the circuit no one else can use it)  
-   The nodes had to be physically connected as with a dedicated electrical circuit (Earlier the circuits have to manually connected by cable operators)
+#### Circuit Switching
+Was designed for telephone calls  
+Uses a dedicated point-to-point connection (Used very rarely for PC anymore)  
+A circuit guarantees you full bandwidth of the circuit and remain connected for duration of your call (When we are using the circuit no one else can use it)  
+The nodes had to be physically connected as with a dedicated electrical circuit (Earlier the circuits have to manually connected by cable operators)
 
-2. **<u>Packet Switched Virtual Circuits</u>**  
-   Modern networks make use of this approach  
-   It makes use of virtual switches to provide end-to-end communication (Routers routes the packet in the network  
-   The routing looking like a circuit is setup for that packet hence virtual circuit)  
-   Data is moved in packets based on the destination address in each packet  
-   The bandwidth and connection of the circuit is shared with other packets (This is why sometimes the internet speed can reduce at certain times)
+#### Packet Switched Virtual Circuits
+Modern networks make use of this approach  
+It makes use of virtual switches to provide end-to-end communication (Routers routes the packet in the network  
+The routing looking like a circuit is setup for that packet hence virtual circuit)  
+Data is moved in packets based on the destination address in each packet  
+The bandwidth and connection of the circuit is shared with other packets (This is why sometimes the internet speed can reduce at certain times)
 
 ### Connection Methodologies
 

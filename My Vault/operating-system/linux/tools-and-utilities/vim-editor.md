@@ -2,7 +2,7 @@
 tags:
 - os
 - linux
-- tools
+- tool
 title: Vim Editor
 ---
 

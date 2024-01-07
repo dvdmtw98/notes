@@ -23,7 +23,7 @@ title: Network Hacking
 * [ARP Spoofing - Poisoning](arp-spoofing-poisoning.md)
 * [BetterCap](../tools/bettercap/bettercap.md)
 * [BetterCap GUI](../tools/bettercap/bettercap-gui.md)
-* [HSTS (HTTP Strict Transport Security)](hsts.md)
+* [HSTS (HTTP Strict Transport Security)](../../computer-networks/network-protocols/hsts-protocol.md)
 * [Bypassing HTTPS (Hypertext Transfer Protocol Secure)](bypassing-https-hypertext-transfer-protocol-secure.md)
 * [DNS Spoofing](dns-spoofing.md)
 * [DNS Spoofing Attack](dns-spoofing-attack.md)

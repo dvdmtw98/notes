@@ -1,7 +1,6 @@
 ---
 tags:
 - cloud
-- concept
 title: CapEx and OpEx
 ---
 

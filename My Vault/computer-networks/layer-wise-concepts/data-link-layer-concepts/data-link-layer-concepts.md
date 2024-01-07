@@ -13,13 +13,13 @@ title: Data Link Layer Concepts
 * [MAC (Media Access Control) Address](mac-media-access-control-address.md)
 * [ARP (Address Resolution Protocol)](arp-address-resolution-protocol.md)
 * **Devices**
-	* [Switch](../../network-devices/switch/switch.md)
-		* [Switch MAC Address Learning](../../network-devices/switch/switch-mac-address-learning.md)
-		* [Types of Switch](../../network-devices/switch/types-of-switch.md)
+	* [Switch](../../network-infrastructure/switch/switch.md)
+		* [Switch MAC Address Learning](../../network-infrastructure/switch/switch-mac-address-learning.md)
+		* [Types of Switch](../../network-infrastructure/switch/types-of-switch.md)
 		* [Virtual LANs (VLANs)](virtual-lans-vlans.md)
 		* [Spanning Tree Protocol (STP)](spanning-tree-protocol-stp.md)
-	- [NIC (Network Interface Card)](../../network-devices/nic-network-interface-card.md)
-	- [Bridge](../../network-devices/bridge.md)
+	- [NIC (Network Interface Card)](../../network-infrastructure/nic-network-interface-card.md)
+	- [Bridge](../../network-infrastructure/bridge.md)
 
 ---
 

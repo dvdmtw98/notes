@@ -2,7 +2,6 @@
 tags:
 - security
 - cryptography
-- concept
 - attack
 title: Cryptographic Attacks
 ---

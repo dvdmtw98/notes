@@ -2,7 +2,7 @@
 tags:
 - networking
 - routing
-- network
+- networking
 title: Dynamic Routing Protocols
 ---
 

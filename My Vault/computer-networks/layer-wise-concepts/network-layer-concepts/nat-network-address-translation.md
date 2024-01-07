@@ -1,7 +1,7 @@
 ---
 tags:
 - networking
-- network
+- networking
 - nat
 title: NAT (Network Address Translation)
 ---

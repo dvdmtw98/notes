@@ -2,7 +2,7 @@
 tags:
 - azure
 - cloud
-- stream
+- streaming
 - index
 title: Azure Messaging Services
 ---

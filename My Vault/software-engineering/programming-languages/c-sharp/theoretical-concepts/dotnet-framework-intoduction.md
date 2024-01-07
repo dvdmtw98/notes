@@ -2,7 +2,6 @@
 tags:
 - programming
 - csharp
-- concept
 title: Dotnet Framework Intoduction
 ---
 

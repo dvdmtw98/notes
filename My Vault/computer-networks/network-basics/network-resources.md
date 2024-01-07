@@ -1,7 +1,6 @@
 ---
 tags:
 - networking
-- concept
 title: Network Resources
 ---
 

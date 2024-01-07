@@ -2,7 +2,6 @@
 tags:
 - azure
 - regions
-- concept
 title: Azure Regions
 ---
 

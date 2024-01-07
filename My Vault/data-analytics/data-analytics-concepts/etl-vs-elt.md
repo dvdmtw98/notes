@@ -1,7 +1,6 @@
 ---
 tags:
 - analytics
-- concept
 - etl
 title: ETL vs ELT
 ---

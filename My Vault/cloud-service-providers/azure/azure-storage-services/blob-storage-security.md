@@ -13,7 +13,7 @@ Data at rest is protected using Storage Service Encryption (SSE) which uses a 25
 
 ### Data in Transit
 
-Data in motion is protected using Transport Level Security (TLS) which is enabled when using [HTTP(S) Protocol](../../../computer-networks/layer-wise-concepts/application-layer-protocols/https-protocol.md)  
+Data in motion is protected using Transport Level Security (TLS) which is enabled when using [HTTP(S) Protocol](../../../computer-networks/network-protocols/https-protocol.md)  
 There is CORS support build into [Azure Containers](azure-containers.md) so we can lock down the access to resources from different domains
 
 ### Access Control

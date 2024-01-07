@@ -2,7 +2,7 @@
 tags:
 - os
 - linux
-- tools
+- tool
 title: Tmux (Terminal Multiplexer)
 ---
 

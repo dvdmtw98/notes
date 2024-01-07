@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - physical
 title: Physical Security
 ---

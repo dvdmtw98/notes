@@ -9,7 +9,7 @@ title: OpenID Connect
 ### OpenID Connect (OIDC)
 
 Open standard for decentralized **authentication**  
-It is a thin layer that sites over [OAuth 2.0](oauth-20.md) to provide login and profile information  
+It is a thin layer that sites over [OAuth 2.0](oauth-2.md) to provide login and profile information  
 Used to verify the identity of the user  
 Output artifact ID Token (JWT)  
 JWT token typically has a header, payload/body and signature  

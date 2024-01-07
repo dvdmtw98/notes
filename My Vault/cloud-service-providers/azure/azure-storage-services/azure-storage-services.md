@@ -11,7 +11,7 @@ title: Azure Storage Services
 
 * [Azure Storage Account](azure-storage-account.md)
 	* [Data Redundancy Options](data-redundancy-options.md)
-	* [Access Control Methods](access-control-methods.md)
+	* [Access Control Methods](azure-access-control-methods.md)
 * [Azure Containers](azure-containers.md)
 	* [Azure Blob Types](azure-blob-types.md)
 	* [Block Blob Access Tiers](block-blob-access-tiers.md)

@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - soc
 title: Pyramid of Pain
 ---

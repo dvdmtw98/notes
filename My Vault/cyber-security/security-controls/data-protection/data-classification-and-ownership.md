@@ -3,7 +3,6 @@ tags:
 - data
 - cloud
 - security
-- concept
 title: Data Classification & Ownership
 ---
 

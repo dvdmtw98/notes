@@ -7,17 +7,15 @@ title: Cyber Security
 
 ### Certifications
 
-* [CompTIA Security+](comptia-security.md)
+* [Splunk Core Certified User](certifications/splunk-core-certified-user.md)
+* [CompTIA Security+](certifications/comptia-security.md)
 
 ### General Concepts
 
 * [Pyramid of Pain](general-concepts/pyramid-of-pain.md)
 * [CISSP Security Domains](general-concepts/cissp-security-domains.md)
-* [Security Zones](../computer-networks/network-security/security-zones.md)
-* [Virtualization](virtualization.md)
 * [Cryptography](cryptography/cryptography.md)
 * [Device Security Controls](security-controls/device-security-controls.md)
-* [Mobile Device Security](security-controls/mobile-device-security.md)
 * [Access Management](access-management/access-management.md)
 
 ### Threat Intelligence
@@ -28,11 +26,12 @@ title: Cyber Security
 
 ### Security Infrastructure
 
+* [Network Ports](../computer-networks/layer-wise-concepts/transport-layer-concepts/network-ports.md)
 * [Endpoint Protection](security-controls/endpoint-protection.md)
 	* [IDS and IPS](../computer-networks/network-security/ids-and-ips.md)
 * [Proxy Server](../computer-networks/network-security/proxy-server.md)
-* [VPN Server](../computer-networks/network-devices/vpn-server.md)
-* [Firewall](../computer-networks/network-devices/firewall.md)
+* [VPN Server](../computer-networks/network-security/virtual-private-network-vpn.md)
+* [Firewall](../computer-networks/network-security/firewall.md)
 
 ### Tools and Services
 
@@ -40,7 +39,6 @@ title: Cyber Security
 * [Metasploit Framework](tools/metasploit-framework/metasploit-framework.md)
 * [Nmap](tools/nmap/nmap.md)
 * [BetterCap](tools/bettercap/bettercap.md)
-* [Splunk](tools/splunk.md)
 * [Misc. Utilities](tools/misc-utilities.md)
 
 ### Hacking Operations
@@ -53,4 +51,4 @@ title: Cyber Security
 	* [Web App Exploitation](exploitation/web-app-exploitation/web-app-exploitation.md)
 * [Password Cracking](password-cracking/password-cracking.md)
 * [Network Hacking](network-hacking/network-hacking.md)
-* [CTF Challenge Checklist](ctf-challenge-checklist.md)
+* [CTF Challenge Checklist](general-concepts/ctf-challenge-checklist.md)

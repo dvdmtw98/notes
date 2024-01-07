@@ -6,10 +6,6 @@ tags:
 title: GCP IAM Services
 ---
 
-### IAM
-
-Establish fine-grained identity and access management for GCP resources
-
 ### [Cloud Identity](cloud-identity.md)
 
 It is a Identity as a Service (IDaaS) that centrally manages users and groups

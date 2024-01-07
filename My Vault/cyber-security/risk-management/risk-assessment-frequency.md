@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - risk
 - governance
 title: Risk Assessment Frequency

@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - soc
 title: Cyber Threat Intelligence (CTI)
 ---

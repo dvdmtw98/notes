@@ -9,7 +9,7 @@ title: Azure Active Directory (AAD)
 
 Enterprise Identity and Access Management service  
 **Authentication**: [OpenID Connect](../../../../cyber-security/access-management/openid-connect.md)  
-**Authorization**: [OAuth 2.0](../../../../cyber-security/access-management/oauth-20.md)
+**Authorization**: [OAuth 2.0](../../../../cyber-security/access-management/oauth-2.md)
 
 Azure AD is now renamed to Microsoft Entra ID
 

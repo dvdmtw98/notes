@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - attack
 - information-gathering
 title: Reconnaissance

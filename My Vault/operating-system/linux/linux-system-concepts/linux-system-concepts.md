@@ -2,7 +2,6 @@
 tags:
 - os
 - linux
-- concept
 title: Linux System Concepts
 ---
 

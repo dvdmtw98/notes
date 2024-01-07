@@ -14,7 +14,7 @@ title: C Sharp
 	* [.NET Implementations](theoretical-concepts/dotnet-implementations.md)
 	* [Architecture of .NET Application](theoretical-concepts/architecture-of-net-application.md)
 	* [Reference Type vs. Value Type](../../software-concepts/reference-type-vs-value-type.md)
-	* [Association, Aggregation and Composition](../../software-concepts/association,-aggregation-and-composition.md)
+	* [Association, Aggregation and Composition](../../software-concepts/association-aggregation-and-composition.md)
 	* [Dependency Injection](dependency-injection.md)
 2. **Fundamental Concepts**
 	* [Primitives Datatype](fundamental-concepts/primitives-datatype.md)

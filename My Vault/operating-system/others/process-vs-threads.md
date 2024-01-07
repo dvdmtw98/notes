@@ -2,7 +2,6 @@
 tags:
 - os
 - software
-- concept
 title: Process vs. Threads
 ---
 

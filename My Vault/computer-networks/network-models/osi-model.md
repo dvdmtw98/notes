@@ -2,7 +2,6 @@
 tags:
 - networking
 - model
-- concept
 title: OSI Model
 ---
 
@@ -97,7 +96,7 @@ TLS/ SSL
 
 At this layer the user communicates to the computer  
 Application here does not mean Browsers, Office, etc. rather the lower level protocols like HTTP, SSH, DNS, etc.  
-[Application Layer Protocols](../layer-wise-concepts/application-layer-protocols/application-layer-protocols.md)
+[Application Layer Protocols](../network-protocols/network-protocols.md)
 
 **Service Announcement**  
 Sending out announcements to other devices on the network to state the service they offer

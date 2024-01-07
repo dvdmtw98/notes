@@ -1,7 +1,6 @@
 ---
 tags:
 - database
-- concept
 - partitioning
 title: Types of Partitioning
 ---

@@ -1,7 +1,6 @@
 ---
 tags:
 - programming
-- concept
 title: Big-O Notation
 ---
 

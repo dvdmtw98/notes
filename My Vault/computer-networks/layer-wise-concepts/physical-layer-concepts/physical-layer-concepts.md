@@ -1,8 +1,7 @@
 ---
 tags:
-- networking
-- layer-1
-- index
+  - networking
+  - index
 title: Physical Layer Concepts
 ---
 
@@ -15,10 +14,10 @@ title: Physical Layer Concepts
 	- [Fiber Optic Cable](fiber-optic-cable.md)
 * [Ethernet Standard](ethernet-standard.md)
 * **Devices**
-	- [Hub](../../network-devices/hub.md)
-	- [Repeater](../../network-devices/repeater.md)
-	- [WAP (Wireless Access Point)](../../network-devices/wap-wireless-access-point.md)
-	- [Modem](../../network-devices/modem.md)
+	- [Hub](../../network-infrastructure/hub.md)
+	- [Repeater](../../network-infrastructure/repeater.md)
+	- [WAP (Wireless Access Point)](../../network-infrastructure/wap-wireless-access-point.md)
+	- [Modem](../../network-infrastructure/modem.md)
 
 > [!NOTE]
 > - In the OSI Model and 5 Layer TCP/IP Model, Ethernet Protocol belongs in both the Physical Layer (Layer 1) & Data Link Layer (Layer 2)

@@ -3,7 +3,6 @@ tags:
 - software
 - programming
 - index
-- concept
 title: Software Concepts
 ---
 
@@ -14,8 +13,4 @@ title: Software Concepts
 * [Fork vs. Spawn](fork-vs-spawn.md)
 * [Process vs. Threads](../../operating-system/others/process-vs-threads.md)
 * [Reference Type vs. Value Type](reference-type-vs-value-type.md)
-* [Association, Aggregation and Composition](association,-aggregation-and-composition.md)
-
----
-
-[Software Engineering](../software-engineering.md)
+* [Associati[Association, Aggregation and Composition](association-aggregation-and-composition.md)ftware Engineering](../software-engineering.md)

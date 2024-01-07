@@ -1,0 +1,35 @@
+---
+title: Cloud Security Concerns
+tags:
+  - security
+  - cloud
+  - risk
+---
+
+#### Shared Physical Server
+Can lead to vulnerabilities if one users data is compromised  
+Strong Isolation (Hypervisor Protection, Tenant Protection)  
+
+#### Inadequate Virtual Environment Security
+Can lead to unauthorized access, data breaches and other security incidents  
+Using secure VM Templates, Regular updates and patches, monitoring unusual activities
+
+#### User Access Management
+Can cause unauthorized access to sensitive data and systems  
+Strong password policy, MFA, Principle of Least Privilege
+
+#### Lack of Up-to-date Security Measures
+Can lead to systems being vulnerable to new threats
+
+#### Single Points of Failure
+Can lead to a complete system outage
+
+#### Weak Authentication and Encryption
+Can cause unauthorized users to gain access to cloud systems  
+MFA, Strong encryption
+
+#### Unclear Policies
+Lack of clear guidelines or procedures for various security aspects
+
+#### Data Remnants
+Residual data left behind after deletion or erasure process

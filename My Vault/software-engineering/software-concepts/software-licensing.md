@@ -2,7 +2,6 @@
 tags:
 - programming
 - software
-- concept
 title: Software Licensing
 ---
 

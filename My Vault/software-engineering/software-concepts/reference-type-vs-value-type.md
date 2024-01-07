@@ -1,7 +1,6 @@
 ---
 tags:
 - programming
-- concept
 title: Reference Type vs. Value Type
 ---
 
@@ -11,11 +10,11 @@ In Python all datatypes are objects hence there are all reference type
 
 In JavaScript Reference Type Variables (Arrays, Functions & Objects) are stored in Heap and the Primitive types are stored in Stack
 
-| Values Types                                                                                            | Reference Types                                   |
-| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| Memory allocation done automatically                                                                    | Memory allocation done using the new keyword      |
-| Immediately removed when variable is out of scope                                                       | Only removed when CLR performs Garbage Collection |
-| Defined using Structures                                                                                | Defined using Classes                             |
+| Values Types                                                                                      | Reference Types                                   |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| Memory allocation done automatically                                                              | Memory allocation done using the new keyword      |
+| Immediately removed when variable is out of scope                                                 | Only removed when CLR performs Garbage Collection |
+| Defined using Structures                                                                          | Defined using Classes                             |
 | Allocated on [Stack](../data-structures-and-algorithms/data-structures/stack.md) (Short Lifespan) | Allocated on Heap (Larger Memory)                 |
 
 ### Value Type

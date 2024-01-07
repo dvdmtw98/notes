@@ -1,7 +1,6 @@
 ---
 tags:
 - electrical
-- concept
 title: Voltage
 ---
 

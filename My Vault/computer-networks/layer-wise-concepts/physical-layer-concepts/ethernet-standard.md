@@ -3,7 +3,6 @@ tags:
 - networking
 - cables
 - ethernet
-- concept
 title: Ethernet Standard
 ---
 

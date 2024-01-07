@@ -1,7 +1,7 @@
 ---
 tags:
 - networking
-- network
+- networking
 - protocol
 title: ICMP (Internet Control Message Protocol)
 ---

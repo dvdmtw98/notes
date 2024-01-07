@@ -2,7 +2,6 @@
 tags:
 - networking
 - wireless
-- concept
 title: CSMA-CA (Carrier Sense Multiple Access - Collision Avoidance)
 ---
 

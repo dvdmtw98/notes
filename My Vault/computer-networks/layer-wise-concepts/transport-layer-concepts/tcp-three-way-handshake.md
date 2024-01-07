@@ -1,5 +1,9 @@
 ---
 title: TCP Three-Way Handshake
+tags:
+  - security
+  - protocol
+  - tcp
 ---
 
 Three Way Handshake is used to share information between the client and server to synchronize the parameters that are going to be used in the connection

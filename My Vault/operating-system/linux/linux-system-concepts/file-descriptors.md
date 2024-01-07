@@ -2,7 +2,6 @@
 tags:
 - os
 - linux
-- concept
 title: File Descriptors
 ---
 

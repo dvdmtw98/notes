@@ -2,7 +2,6 @@
 tags:
 - programming
 - csharp
-- concept
 title: Architecture of .NET Application
 ---
 

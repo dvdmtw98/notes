@@ -3,7 +3,6 @@ tags:
 - programming
 - python
 - software
-- concept
 title: Python Memory Management
 ---
 

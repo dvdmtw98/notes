@@ -2,7 +2,6 @@
 tags:
 - cloud
 - security
-- concept
 title: Data Loss Prevention (DLP)
 ---
 

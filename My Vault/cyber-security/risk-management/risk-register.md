@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - risk
 - management
 title: Risk Register

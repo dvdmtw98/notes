@@ -3,7 +3,6 @@ tags:
 - azure
 - cloud
 - streaming
-- concept
 title: Streaming Window Functions
 ---
 

@@ -1,8 +1,7 @@
 ---
 tags:
-- security
-- concept
-- terms
+  - security
+  - attacker
 title: Threat Actors
 ---
 

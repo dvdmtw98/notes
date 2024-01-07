@@ -2,7 +2,6 @@
 tags:
 - security
 - cryptography
-- concept
 title: Blockchain
 ---
 

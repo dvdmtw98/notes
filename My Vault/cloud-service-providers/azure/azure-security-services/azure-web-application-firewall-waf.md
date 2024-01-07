@@ -3,7 +3,7 @@ tags:
 - azure
 - cloud
 - security
-- network
+- networking
 title: Azure Web Application Firewall (WAF)
 ---
 

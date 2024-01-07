@@ -8,7 +8,7 @@ title: Computer Networks
 ### Table of Content
 
 * **Network Basics**
-	* [Network Devices](network-devices/network-devices.md)
+	* [Network Infrastructure](network-infrastructure/network-infrastructure.md)
 	* [Network Resources](network-basics/network-resources.md)
 	* [Network Geography](network-basics/network-geography.md)
 		* [Wide Area Network (WAN)](wide-area-network/wide-area-network-wan.md)
@@ -22,7 +22,7 @@ title: Computer Networks
 	* [Data Link Layer Concepts](layer-wise-concepts/data-link-layer-concepts/data-link-layer-concepts.md)
 	* [Network (Internet) Layer Concepts](layer-wise-concepts/network-layer-concepts/network-internet-layer-concepts.md)
 	* [Transport Layer Concepts](layer-wise-concepts/transport-layer-concepts/transport-layer-concepts.md)
-	* [Application Layer Protocols](layer-wise-concepts/application-layer-protocols/application-layer-protocols.md)
+* [Network Protocols](network-protocols/network-protocols.md)
 * [Host to Host Communication](network-basics/host-to-host-communication.md)
 * [Network Security](network-security/network-security.md)
 * [Wireless Networking](wireless-networking/wireless-networking.md)

@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - cloud
 title: Zero-Trust Model
 ---

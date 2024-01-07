@@ -1,7 +1,7 @@
 ---
 tags:
 - networking
-- network
+- networking
 - ip
 - subnet
 title: Public & Private IP Addresses

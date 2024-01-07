@@ -1,7 +1,7 @@
 ---
 tags:
 - networking
-- network
+- networking
 - ip
 title: CIDR (Classless Inter-Domain Routing)
 ---

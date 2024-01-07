@@ -46,8 +46,8 @@ Access polices are automatically created in GCP by certain services and cannot b
 
 ### Cloud Armor
 
-Cloud Armor is a DDoS protection and Web Application [Firewall](../../../computer-networks/network-devices/firewall.md) (WAF) service  
-Can be used along with HTTPS [Load Balancer](../../../computer-networks/network-devices/load-balancer.md)
+Cloud Armor is a DDoS protection and Web Application [Firewall](../../../computer-networks/network-security/firewall.md) (WAF) service  
+Can be used along with HTTPS [Load Balancer](../../../computer-networks/network-infrastructure/load-balancer.md)
 Has two tiers:
 
 * Standard Pay-As-You-Go (PAYG)

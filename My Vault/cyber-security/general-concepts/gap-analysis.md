@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - framework
 title: Gap Analysis
 ---

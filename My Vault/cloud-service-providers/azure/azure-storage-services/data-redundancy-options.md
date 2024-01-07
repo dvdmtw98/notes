@@ -3,7 +3,7 @@ tags:
 - azure
 - cloud
 - storage
-- redundency
+- redundancy
 title: Data Redundancy Options
 ---
 

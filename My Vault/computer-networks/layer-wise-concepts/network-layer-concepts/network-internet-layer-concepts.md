@@ -1,7 +1,7 @@
 ---
 tags:
 - networking
-- network
+- networking
 - index
 title: Network (Internet) Layer Concepts
 ---
@@ -17,10 +17,10 @@ title: Network (Internet) Layer Concepts
 * [Subnetting](subnetting.md)
 * [APIPA (Automatic Private IP Addressing)](apipa-automatic-private-ip-addressing.md)
 * **Devices**
-	* [Router](../../network-devices/router.md)
+	* [Router](../../network-infrastructure/router.md)
 		* [Dynamic Routing Protocols](dynamic-routing-protocols.md)
 		* [NAT (Network Address Translation)](nat-network-address-translation.md)
-	* [Layer 3 Switch](../../network-devices/layer-3-switch.md)
+	* [Layer 3 Switch](../../network-infrastructure/layer-3-switch.md)
 * [ICMP (Internet Control Message Protocol)](icmp-internet-control-message-protocol.md)
 * [Tunneling Protocols](tunneling-protocols.md)
 

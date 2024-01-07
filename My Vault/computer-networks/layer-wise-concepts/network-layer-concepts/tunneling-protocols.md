@@ -1,8 +1,9 @@
 ---
 tags:
-- networking
-- protocols
-- tunneling
+  - networking
+  - protocol
+  - tunneling
+  - security
 title: Tunneling Protocols
 ---
 
@@ -18,16 +19,10 @@ GRE does not provide any encapsulation
 
 Used to protect data flows between clients  
 Uses TCP for transport  
-IPsec provides Data confidentiality, integrity, origin authentication and anti-replay  
-Used heavily by VPNs  
+IPsec provides confidentiality, integrity, authentication and anti-replay protection  
+Used heavily by [VPN Server](../../network-security/virtual-private-network-vpn.md)s  
 
-The two main protocols used by IPsec are:  
-**Authentication Header (AH)**  
-AH Protocol is responsible for providing integrity and authentication  
-It takes the IP Header and Data Payload and Hashes them together, this hash is used to create a new AH Header which is appended to the packet  
-
-**Encapsulating Security Protocol (ESP)**  
-ESP provides encryption and integrity for the data packets as they are sent over IPsec
+[IPsec Protocol Suite](../../network-protocols/ipsec-protocol-suite.md)
 
 ---
 

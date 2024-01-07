@@ -1,7 +1,6 @@
 ---
 tags:
 - database
-- concept
 - nosql
 title: Types of NoSQL Databases
 ---

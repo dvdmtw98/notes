@@ -17,7 +17,7 @@ title: AWS
 
 ### Other Services
 
-* [Identity and Access Management (IAM)](aws-security-services/identity-and-access-management-iam.md)
+* [Identity and Access Management (IAM)](../../cyber-security/access-management/identity-and-access-management-iam.md)
 * [AWS Kinesis](aws-other-services/kinesis/aws-kinesis.md)
 * [AWS Athena](aws-analytics-services/aws-athena.md)
 * [AWS Glue](aws-other-services/aws-glue.md)

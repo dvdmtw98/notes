@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - audit
 - management
 title: External Audits

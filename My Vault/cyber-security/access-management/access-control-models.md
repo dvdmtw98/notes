@@ -1,37 +1,36 @@
 ---
-tags:
-- security
-- access
-- concept
 title: Access Control Models
+tags:
+  - security
+  - access
+  - management
 ---
 
-It is assumed that the system has a data owner/data manager/system admin who configures the access controls  
-The goal is to restrict access to users who have a need to access/modify the information  
-Admins should use principle of **least privilege**
+#### Mandatory Access Control (MAC)
+Uses security labels to authorize user access to specific resources  
+Complex to maintain so only used in high security applications  
+In MAC, if not explicitly allowed, its considered as forbidden for users  
+User can only access resources that have a labels which is lower or equal to theirs
 
-Object: Files, Directories, etc.  
-Subject: Users
+#### Discretionary Access Control (DAC)
+Resource owner determines which users can access each resource
 
-### Access Control Matrix
+#### Role-Based Access Control (RBAC)
+Assigns users to roles and uses these roles to grant permissions to resources
+RBAC enforces minimum privileges required for a subject or group  
 
-Utilizes a 2D matrix to maintain the access control detail for each object and subject  
-Object subject pairs that do not have access control are represented as empty cell
+#### Rule-Based Access Control (RBAC)
+Enables administrators to apply security policies to all users  
+[Access Control List](access-management/access-control-types.md#Access%20Control%20List) type of RBAC found commonly on Routers, Firewalls
 
-**Advantage**  
-An easy and straightforward way to implementing access control
+#### Attribute-based Access Control (ABAC)
+Uses object characteristics for access control decisions  
+e.g. Environment Attributes, Resource Attributes
 
-**Disadvantage**  
-Will result in a very big matrix in modern system which are going to impossible for system administrators to setup
 
-### Access Control List
 
-Compresses each column of the Access Control Matrix into a single list  
-Object subject pairs that do not have blank access control are not included 
 
-**Advantage**  
-Smaller size compared to Access Control Matrix. The size of each ACL will be equal to the no. of non-empty cells in the Matrix  
-The ACL can be stored along with the object as metadata
 
-**Disadvantage**  
-No easy method to enumerate all the access controls for a subject. Every ACL list will need to be searched for the entry of the subject
+
+
+

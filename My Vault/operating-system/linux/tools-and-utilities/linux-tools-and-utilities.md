@@ -2,7 +2,7 @@
 tags:
 - os
 - linux
-- tools
+- tool
 - index
 title: Linux Tools & Utilities
 ---

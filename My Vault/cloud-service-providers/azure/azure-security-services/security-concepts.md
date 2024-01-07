@@ -3,7 +3,6 @@ tags:
 - cloud
 - azure
 - security
-- concept
 title: Security Concepts
 ---
 

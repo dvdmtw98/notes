@@ -2,7 +2,6 @@
 tags:
 - os
 - windows
-- concept
 title: NTFS Alternative File Stream
 ---
 

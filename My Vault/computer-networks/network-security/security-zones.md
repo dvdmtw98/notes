@@ -10,8 +10,9 @@ An organizations network can be divided into two zones:
 **Controlled Zone**: Subnet that protects internal network for uncontrolled zone
 
 #### Demilitarized Zone (DMZ)
+Also called Screened Subnets  
 Public facing services that can access the internet  
-Web Servers, Proxy Servers, DNS Servers, Email and File Servers
+Web Servers, Proxy Servers, DNS Servers, Email and File Servers    
 
 #### Internal Network (Intranet)
 Internal Private Network that the organization needs to protect  

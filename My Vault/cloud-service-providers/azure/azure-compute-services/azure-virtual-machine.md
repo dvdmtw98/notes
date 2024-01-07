@@ -1,8 +1,8 @@
 ---
 tags:
-- azure
-- compute
-- vm
+  - azure
+  - compute
+  - virtualization
 title: Azure Virtual Machine
 ---
 

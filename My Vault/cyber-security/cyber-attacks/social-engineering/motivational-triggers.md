@@ -1,7 +1,6 @@
 ---
 tags:
 - security
-- concept
 - attack
 title: Motivational Triggers
 ---

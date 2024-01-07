@@ -1,8 +1,7 @@
 ---
 tags:
-- rust
-- programming
-- slices
+  - rust
+  - programming
 title: Rust Slices
 ---
 

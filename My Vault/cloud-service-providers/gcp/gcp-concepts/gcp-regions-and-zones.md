@@ -2,7 +2,6 @@
 tags:
 - gcp
 - cloud
-- concept
 title: GCP Regions & Zones
 ---
 

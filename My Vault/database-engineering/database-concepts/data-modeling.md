@@ -1,7 +1,6 @@
 ---
 tags:
 - database
-- concept
 title: Data Modeling
 ---
 

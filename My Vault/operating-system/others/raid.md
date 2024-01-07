@@ -1,7 +1,6 @@
 ---
 tags:
 - os
-- concept
 title: RAID
 ---
 
