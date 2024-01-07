@@ -21,7 +21,7 @@ RBAC enforces minimum privileges required for a subject or group
 
 #### Rule-Based Access Control (RBAC)
 Enables administrators to apply security policies to all users  
-[Access Control List](access-management/access-control-types.md#Access%20Control%20List) type of RBAC found commonly on Routers, Firewalls
+[Access Control List](access-control-types.md#Access%20Control%20List) type of RBAC found commonly on Routers, Firewalls
 
 #### Attribute-based Access Control (ABAC)
 Uses object characteristics for access control decisions  

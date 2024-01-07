@@ -53,7 +53,7 @@ Employed for providing authentication, integrity, replay protection and data con
 
 ### IPSec Operation Modes
 
-![ipsec-modes|520](images/ipsec-modes.png)
+![ipsec-modes|520](../../cyber-security/images/ipsec-modes.png)
 
 #### Transport Mode
 Employs the original IP headers, ideal for client-to-site VPNs
@@ -67,6 +67,6 @@ IP header is not encrypted so the source and destination of data will be visible
 Employed for site-to-site VPNs  
 Adds an extra header that can increase packet size and exceed MTU
 
-![ipsec-ah|500](images/ipsec-ah.png)
+![ipsec-ah|500](../../images/ipsec-ah.png)
 
-![ipsec-esp|560](images/ipsec-esp.png)
+![ipsec-esp|560](../../images/ipsec-esp.png)

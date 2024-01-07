@@ -22,7 +22,7 @@ Individuals hired by companies to manage IT services on behalf of organization
 ### Vendor Assessment
 Process that organizations implement to evaluate the security, reliability and performance of external entities
 
-**[Penetration Testing](audits-and-assessments/penetration-testing.md)**: Simulated cyberattack against the supplier's system  
-**[Internal Audits](audits-and-assessments/internal-audits.md)**: Vendor's self-assessment of their security  
+**[Penetration Testing](../audits-and-assessments/penetration-testing.md)**: Simulated cyberattack against the supplier's system  
+**[Internal Audits](../audits-and-assessments/internal-audits.md)**: Vendor's self-assessment of their security  
 **Independent Assessment**: Evaluation conducted by third-party entities
 **Supply Chain Analysis**: Deep dive into a vendors entire supply chain to assess security

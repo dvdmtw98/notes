@@ -15,15 +15,15 @@ The process of creating duplicate copies of digital information to protect again
 Storage of duplicate copies of data at a geographically separate location from the primary data source to provide protection against physical disasters and to ensure data continuity
 
 #### Frequency
-Consult the [Recovery Point Objective (RPO)](risk-management/risk-identification.md#Recovery%20Point%20Objective%20(RPO)) of the organization to confirm backup preserves necessary data amount  
+Consult the [Recovery Point Objective (RPO)](../risk-management/risk-identification.md#Recovery%20Point%20Objective%20(RPO)) of the organization to confirm backup preserves necessary data amount  
 Data Change Frequency also needs to be considered
 
 ---
 
-#### [Encryption](cryptography/cryptographic-solutions/encryption.md)
+#### [Encryption](../cryptography/cryptographic-solutions/encryption.md)
 
-##### [Data at Rest](security-controls/data-protection/data-states-and-types.md#Data%20at%20Rest) Encryption
-##### [Data in Transit](security-controls/data-protection/data-states-and-types.md#Data%20in%20Transit/%20Data%20in%20Motion) Encryption
+##### [Data at Rest](../security-controls/data-protection/data-states-and-types.md#Data%20at%20Rest) Encryption
+##### [Data in Transit](../security-controls/data-protection/data-states-and-types.md#Data%20in%20Transit/%20Data%20in%20Motion) Encryption
 
 ---
 

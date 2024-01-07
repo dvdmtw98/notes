@@ -14,14 +14,14 @@ The application also uses a service running in AWS to process orders
 
 Whenever the main application speaks to one of the external service it passes the URL of the external service as a parameter.
 
-![Cause of SSRF Vulnerability](../../images/ssrf-cause.png)
+![Cause of SSRF Vulnerability](../images/ssrf-cause.png)
 
 The internal services and 3rd party services have a trust relation with the main application  
 Any request sent from the main application will be accepted by the auxiliary services
 
 If the URL parameters in the requests are not validated in the backend, a user an pass a URL that could expose details stored on a internal service.
 
-![Exploiting an SSRF Vulnerability](../../images/ssrf-attack.png)
+![Exploiting an SSRF Vulnerability](../images/ssrf-attack.png)
 
 We cannot interact with the Admin Panel from our browser is it will be seen as a external request and get blocked by the firewall. Instead we can exploit the SSRF vulnerability to change the URL to the value that would have been passed if the buttons on the admin page was clicked
 

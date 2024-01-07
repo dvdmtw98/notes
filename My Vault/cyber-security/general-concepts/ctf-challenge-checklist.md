@@ -44,4 +44,4 @@ title: CTF Challenge Checklist
 
 ---
 
-[Cyber Security](cyber-security.md)
+[Cyber Security](../cyber-security.md)

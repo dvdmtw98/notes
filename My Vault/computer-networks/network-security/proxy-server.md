@@ -8,7 +8,7 @@ title: Proxy Server
 
 We define the target IP that all request need to be forwarded on the client device  
 Proxies are protocol specific (i.e. HTTP proxy will only route HTTP traffic to proxy server)  
-Works at Layer 7 & Layer 4 ([Load Balancer](load-balancer.md)s)  
+Works at Layer 7 & Layer 4 ([Load Balancer](../network-infrastructure/load-balancer.md)s)  
 [VPN Server](virtual-private-network-vpn.md) similar to Proxies hide the IP Address but they additionally encrypt the traffic
 
 ### Forward Proxy

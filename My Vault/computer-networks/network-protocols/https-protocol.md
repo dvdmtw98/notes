@@ -16,7 +16,7 @@ Resources are uniquely identified using a URL/ URI
 
 ### HTTPS Connection Setup
 
-![HTTP Connection Setup|550](../../images/https-connection-setup.png)
+![https-connection-setup|550](../images/https-connection-setup.png)
 
 **Step 1**:  
 [TCP (Transmission Control Protocol)](../layer-wise-concepts/transport-layer-concepts/tcp-transmission-control-protocol.md)  
