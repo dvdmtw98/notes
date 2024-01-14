@@ -1,7 +1,8 @@
 ---
 tags:
-- security
-- device
+  - security
+  - protect
+  - appliance
 title: Endpoint Protection
 ---
 
@@ -22,9 +23,23 @@ Software agent that collects system data and logs to perform analysis to provide
 They are proactive systems and supports continuous monitoring, threat detection and incident response  
 It all has threat hunting features that can protect against new attacks
 
-#### User and Entity Behavior Analytics (UEBA)
-A system that can provide automated identification of suspicious activities by user accounts and computer hosts  
-They are heavily dependent on advanced computational techniques like AI and ML  
-e.g. Microsoft Advanced Threat Analytics & Splunk User Behavior Analytics
+**EDR Steps**  
+Data Collection - Data Consolidation - Threat Detection - Alerts & Threat Response - Threat Investigation - Remediation
+
+#### Extended Detection and Response (XDR)
+Security strategy that integrates multiple protection techniques into a single platform to improve detection accuracy and simplify the incident response process  
+No need of separate solutions for Network Security, Email Security and Endpoint Security
 
 ![endpoint-security-evolution|540](../images/endpoint-security-evolution.webp)
+
+---
+
+#### File Integrity Monitoring (FIM)
+Used to validate the integrity of OS and application software files using a verification method between the current file state and a known, good baseline  
+Often included as part of EDR and XDR
+
+#### User and Entity Behavior Analytics (UEBA)
+A system that can provide automated identification of suspicious activities by user accounts and computer hosts  
+Entity: Security Infrastructure like Routers, Firewalls  
+They are heavily dependent on advanced computational techniques (AI & ML)  
+e.g. Microsoft Advanced Threat Analytics & Splunk User Behavior Analytics

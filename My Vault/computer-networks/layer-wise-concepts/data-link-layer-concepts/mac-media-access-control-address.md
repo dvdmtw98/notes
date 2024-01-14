@@ -28,7 +28,7 @@ MAC Address is used for communication between devices (True even if the devices 
 MAC Address: Used to Identify a device (Who)  
 IP Address: Used to locate a device (Where)
 
-[ARP (Address Resolution Protocol)](arp-address-resolution-protocol.md) is used by devices to find the MAC Address of other devices
+[ARP (Address Resolution Protocol)](address-resolution-protocol-arp.md) is used by devices to find the MAC Address of other devices
 
 Command: `getmac /FO list /V`
 

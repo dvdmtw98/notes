@@ -6,12 +6,11 @@ tags:
 title: WPA2 (Wi-Fi Protected Access 2)
 ---
 
-1. **<u>Personal Mode</u>**  
-   Used for small wireless networks  
-   Uses Pre-Shared Key for authentication. The password is the Pre-Shared Key
+#### Personal Mode  
+Used for small wireless networks  
+Uses Pre-Shared Key for authentication. The password is the Pre-Shared Key
 
-2. **<u>Enterprise Mode</u>**  
-   It is called as 802.1x Standard  
-   Uses an central Authentication server (Windows Active Directory)  
-   Makes use of RADIUS authentication server  
-   RADIUS uses EAP (Extensible Authentication Protocol) for authentication
+#### Enterprise Mode
+It is also called [IEEE 802.1x Protocol](../computer-networks/network-security/port-security.md#IEEE%20802.1x%20Protocol) 
+Uses an central Authentication server (RADIUS)  
+RADIUS uses EAP (Extensible Authentication Protocol) for authentication

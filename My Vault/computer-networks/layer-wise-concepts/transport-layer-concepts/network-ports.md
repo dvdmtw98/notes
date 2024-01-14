@@ -15,7 +15,7 @@ Port that is listening for a connection from a client (Specific Port)
 **Outbound**  
 Port created to call out to a server that is listening for a connection (High Random Port)
 
-**Protocols**: Rules governing device communication and data exchange
+#### Port Types
 
 | Port Type        | Port Numbers  | Description                                    |
 | ---------------- | ------------- | ---------------------------------------------- |
@@ -27,7 +27,9 @@ Port created to call out to a server that is listening for a connection (High Ra
 PC (High Random Port) → Web Server (Specific Port)  
 PC (High Random Port) ← Web Server (Specific Port)
 
-#### Common Protocols Ports
+#### Common Protocol Ports
+
+**Protocols**: Rules governing device communication and data exchange
 
 | Protocol | Port | Protocol | Usage |
 | ---- | ---- | ---- | ---- |

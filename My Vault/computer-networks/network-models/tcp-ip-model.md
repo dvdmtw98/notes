@@ -27,13 +27,13 @@ It is responsible for Hop to Hop Communication
 Responsible for End to End Communication  
 Get data across a collection of network (across nodes)  
 IP : Internet Protocol  
-[Network (Internet) Layer Concepts](../layer-wise-concepts/network-layer-concepts/network-internet-layer-concepts.md)
+[Network (Internet) Layer Concepts](../layer-wise-concepts/network-layer-concepts/network-layer-concepts.md)
 
 ### Layer 3: Transport Layer
 
 Responsible for Server to Server Communication  
-[TCP](../layer-wise-concepts/transport-layer-concepts/tcp-transmission-control-protocol.md): Transmission Control Protocol (Reliable Data Transfer)  
-[UDP](../layer-wise-concepts/transport-layer-concepts/udp-user-datagram-protocol.md): User Datagram Protocol (Unreliable Data Transfer)  
+[TCP](../layer-wise-concepts/transport-layer-concepts/transmission-control-protocol-tcp.md): Transmission Control Protocol (Reliable Data Transfer)  
+[UDP](../layer-wise-concepts/transport-layer-concepts/user-datagram-protocol-udp.md): User Datagram Protocol (Unreliable Data Transfer)  
 RTP: Read Time Protocol (Video & Audio Transfer)
 
 [Transport Layer Concepts](../layer-wise-concepts/transport-layer-concepts/transport-layer-concepts.md)

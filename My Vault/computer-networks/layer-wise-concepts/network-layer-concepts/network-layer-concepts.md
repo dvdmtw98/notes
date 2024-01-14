@@ -21,7 +21,7 @@ title: Network (Internet) Layer Concepts
 		* [Dynamic Routing Protocols](dynamic-routing-protocols.md)
 		* [NAT (Network Address Translation)](nat-network-address-translation.md)
 	* [Layer 3 Switch](../../network-infrastructure/layer-3-switch.md)
-* [ICMP (Internet Control Message Protocol)](icmp-internet-control-message-protocol.md)
+* [ICMP (Internet Control Message Protocol)](internet-control-message-protocol-icmp.md)
 * [Tunneling Protocols](tunneling-protocols.md)
 
 ---

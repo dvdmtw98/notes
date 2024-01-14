@@ -1,7 +1,7 @@
 ---
 tags:
-- networking
-title: Network Resources
+  - networking
+title: Network Architecture
 ---
 
 ### Client Server Architecture

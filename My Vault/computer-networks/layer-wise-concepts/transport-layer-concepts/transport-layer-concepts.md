@@ -8,13 +8,13 @@ title: Transport Layer Concepts
 
 ### Table of Content
 
-* [TCP (Transmission Control Protocol)](tcp-transmission-control-protocol.md)
+* [TCP (Transmission Control Protocol)](transmission-control-protocol-tcp.md)
 	* [TCP Three-Way Handshake](tcp-three-way-handshake.md)
-* [UDP (User Datagram Protocol)](udp-user-datagram-protocol.md)
+* [UDP (User Datagram Protocol)](user-datagram-protocol-udp.md)
 * **Devices**
 	* [Load Balancer](../../network-infrastructure/load-balancer.md)
 	* [Firewall](../../network-security/firewall.md)
-* [QUIC (Quick UDP Internet Connections)](quic-quick-udp-internet-connections.md)
+* [QUIC (Quick UDP Internet Connections)](quick-udp-internet-connections-quic.md)
 * [Network Ports](network-ports.md)
 
 ---

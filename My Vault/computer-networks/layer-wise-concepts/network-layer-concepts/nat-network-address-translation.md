@@ -51,4 +51,4 @@ Lets assume we want to connect to google.com from our Laptop
 
 ![PAT Working|650](../../images/nat-table.png)
 
-[Network (Internet) Layer Concepts](network-internet-layer-concepts.md)
+[Network (Internet) Layer Concepts](network-layer-concepts.md)

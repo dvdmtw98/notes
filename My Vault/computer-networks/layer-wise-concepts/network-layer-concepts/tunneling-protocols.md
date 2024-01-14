@@ -26,4 +26,4 @@ Used heavily by [VPN Server](../../network-security/virtual-private-network-vpn.
 
 ---
 
-[Network (Internet) Layer Concepts](network-internet-layer-concepts.md)
+[Network (Internet) Layer Concepts](network-layer-concepts.md)

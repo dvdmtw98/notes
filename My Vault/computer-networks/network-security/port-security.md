@@ -18,7 +18,7 @@ Feature in network port security where the switch automatically learns and assoc
 
 ## Port-based Authentication
 
-#### 802.1x Protocol
+#### IEEE 802.1x Protocol
 Standardized framework that is used for port-based authentication for both wired and wireless networks  
 
 ##### Supplicant

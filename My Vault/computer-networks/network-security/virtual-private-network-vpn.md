@@ -47,7 +47,7 @@ Not as secure as Full Tunnels but provides better performance
 
 #### Transport Layer Security (TLS)
 Protocol that provides cryptographic security for secure connections and is used for secure web browsing and data transfer  
-[TCP](../layer-wise-concepts/transport-layer-concepts/tcp-transmission-control-protocol.md) is used by TLS to establish secure connections between client and server  
+[TCP](../layer-wise-concepts/transport-layer-concepts/transmission-control-protocol-tcp.md) is used by TLS to establish secure connections between client and server  
 This can slow down the connection
 
 #### Datagram Transport Layer Security (DTLS)

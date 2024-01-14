@@ -14,7 +14,7 @@ Classification Schema depends on organization - Commercial Business or Governmen
 
 ##### Commercial Business
 **Public**: No impact on company if released. Often published in open-source environment  
-**Sensitive**: Had minimal impact if released (Financial Information)  
+**Sensitive**: Has minimal impact if released (Financial Information)  
 **Private**: Data that should be used only inside organization (Personal Records, Salary)  
 **Confidential**: Data that effects business if disclosed (Trade Secrets, IP data, Source Code)  
 **Critical**: Contains valuable data. Access restricted to few individuals (Credit Card, SSN, etc.)

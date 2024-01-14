@@ -51,7 +51,7 @@ Responsible for End to End Communication
 Transfers (routes) data using logical addresses  
 Uses IP Addresses and routing algorithms to transfer packets over the network  
 The source and destination IP Addresses are added into the packet in this layer  
-[Network (Internet) Layer Concepts](../layer-wise-concepts/network-layer-concepts/network-internet-layer-concepts.md)
+[Network (Internet) Layer Concepts](../layer-wise-concepts/network-layer-concepts/network-layer-concepts.md)
 
 > [!IMPORTANT]  
 > Routing is sometimes also called **Switching**, this switching is a Layer 3 process  which is different from switches which is a Layer 2 device
@@ -63,8 +63,8 @@ Responsible for Service to Service Communication
 [Ports](../layer-wise-concepts/transport-layer-concepts/network-ports.md) are used on this layer to send data to the right application  
 Segments (Sender) and reassembles (Receiver) data received from the higher layers  
 Segmented data in TCP is called Segments while data in UDP is referred as Datagram  
-Connection oriented ([TCP](../layer-wise-concepts/transport-layer-concepts/tcp-transmission-control-protocol.md)) : Reliability: [TCP Three-Way Handshake](../layer-wise-concepts/transport-layer-concepts/tcp-three-way-handshake.md)  
-Connectionless ([UDP](../layer-wise-concepts/transport-layer-concepts/udp-user-datagram-protocol.md)) : Efficiency  
+Connection oriented ([TCP](../layer-wise-concepts/transport-layer-concepts/transmission-control-protocol-tcp.md)) : Reliability: [TCP Three-Way Handshake](../layer-wise-concepts/transport-layer-concepts/tcp-three-way-handshake.md)  
+Connectionless ([UDP](../layer-wise-concepts/transport-layer-concepts/user-datagram-protocol-udp.md)) : Efficiency  
 [Transport Layer Concepts](../layer-wise-concepts/transport-layer-concepts/transport-layer-concepts.md)
 
 > [!IMPORTANT]
@@ -96,7 +96,6 @@ TLS/ SSL
 
 At this layer the user communicates to the computer  
 Application here does not mean Browsers, Office, etc. rather the lower level protocols like HTTP, SSH, DNS, etc.  
-[Application Layer Protocols](../network-protocols/network-protocols.md)
 
 **Service Announcement**  
 Sending out announcements to other devices on the network to state the service they offer

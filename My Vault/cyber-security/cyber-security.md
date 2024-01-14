@@ -15,7 +15,6 @@ title: Cyber Security
 * [Pyramid of Pain](general-concepts/pyramid-of-pain.md)
 * [CISSP Security Domains](general-concepts/cissp-security-domains.md)
 * [Cryptography](cryptography/cryptography.md)
-* [Device Security Controls](security-controls/device-security-controls.md)
 * [Access Management](access-management/access-management.md)
 
 ### Threat Intelligence
@@ -27,8 +26,7 @@ title: Cyber Security
 ### Security Infrastructure
 
 * [Network Ports](../computer-networks/layer-wise-concepts/transport-layer-concepts/network-ports.md)
-* [Endpoint Protection](security-controls/endpoint-protection.md)
-	* [IDS and IPS](../computer-networks/network-security/ids-and-ips.md)
+* [IDS and IPS](../computer-networks/network-security/ids-and-ips.md)
 * [Proxy Server](../computer-networks/network-security/proxy-server.md)
 * [VPN Server](../computer-networks/network-security/virtual-private-network-vpn.md)
 * [Firewall](../computer-networks/network-security/firewall.md)

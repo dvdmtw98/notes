@@ -10,7 +10,7 @@ Unauthorized transfer of data from a computer
 Selling it on dark web, Identity Theft, Leveraging data for competitive advantage
 
 ##### Financial Gain  
-Ransomware Attack, Bank Trojans
+Ransomware Attack, Trojans
 
 ##### Blackmail  
 Attacker obtains sensitive or compromising information about an individual  

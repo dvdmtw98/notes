@@ -4,7 +4,7 @@ title: MITM (Man in the Middle) Attack
 
 ### ARP Poisoning/Spoofing
 
-[ARP (Address Resolution Protocol)](../../computer-networks/layer-wise-concepts/data-link-layer-concepts/arp-address-resolution-protocol.md) used to resolve IP Address to [MAC (Media Access Control) Address](../../computer-networks/layer-wise-concepts/data-link-layer-concepts/mac-media-access-control-address.md)  
+[ARP (Address Resolution Protocol)](../../computer-networks/layer-wise-concepts/data-link-layer-concepts/address-resolution-protocol-arp.md) used to resolve IP Address to [MAC (Media Access Control) Address](../../computer-networks/layer-wise-concepts/data-link-layer-concepts/mac-media-access-control-address.md)  
 Device that wants to connect sends broadcast message of the network and the device that has the requested IP Address responds with its MAC Address.  
 All the other devices on the network ignore the request (Drop packet)
 

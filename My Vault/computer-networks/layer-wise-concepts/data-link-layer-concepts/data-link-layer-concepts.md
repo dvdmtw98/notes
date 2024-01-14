@@ -11,7 +11,7 @@ title: Data Link Layer Concepts
 * [Ethernet](ethernet.md)
 	* [CSMA-CD](csma-cd.md)
 * [MAC (Media Access Control) Address](mac-media-access-control-address.md)
-* [ARP (Address Resolution Protocol)](arp-address-resolution-protocol.md)
+* [ARP (Address Resolution Protocol)](address-resolution-protocol-arp.md)
 * **Devices**
 	* [Switch](../../network-infrastructure/switch/switch.md)
 		* [Switch MAC Address Learning](../../network-infrastructure/switch/switch-mac-address-learning.md)

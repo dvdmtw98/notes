@@ -6,21 +6,55 @@ tags:
 title: Wireless Encryption Standards
 ---
 
-1. **<u>WEP (Wireless Equivalent Privacy)</u>**  
-   Used 24bit RC4 Cipher. Initialization Vector (IV) which is sent in clear text  
-   Susceptible to passive network eavesdropping and replay attacks
+#### Wireless Equivalent Privacy (WEP)
+Outdated wireless security standard  
+Was meant to match wired LAN security for wireless devices  
 
-2. **<u>WPA (Wi-Fi Protected Access)</u>**  
-   Was used as an temporary solution to fix WEP  
-   Uses RC4 cipher. The Initialization Vector (IV) is an encrypted hash  
-   Uses TKIP (Temporal Key Integrity Protocol) to dynamically change the encryption key
+WEP uses a fixed encryption key for all devices on the same network  
+Encryption Key: 64-bit (40-bit key + 24-bit IV) or 128-bit (104-bit key + 24-bit IV)
 
-3. **<u>WPA2 (Wi-Fi Protected Access 2)</u>**  
-   Also called as IEEE 802.11i  
-   Uses AES (Advanced Encryption Standard) in place of RC4  
-   CCMP (Counter Mode with Cipher Block Chaining Message Authentication Code Protocol) in place of TKIP  
-   Vulnerable to KRACK (Key Reinstallation Attack) but most vendors released patches to fix the issue
+Used RC4 cipher for generating Initialization Vector (IV)  
+IV is sent in clear text over the air    
+Susceptible to passive network eavesdropping and replay attacks
 
-4. **<u>WPA3 (Wi-Fi Protected Access 3)</u>**  
-   Makes use of SAE (Simultaneous Authentication of Equals) to security handle the initial key exchange to address KRACK vulnerability  
-   It was found to be still vulnerable to KRACK. Patches where released to address the issue
+#### Wi-Fi Protected Access (WPA)
+Was used as an temporary solution will a replacement for WEP was created  
+
+Used RC4 cipher but the Initialization Vector (IV) was encrypted  
+Used TKIP (Temporal Key Integrity Protocol) to dynamically change the encryption key
+Insufficient data integrity checks in TKIP made it susceptible to attacks
+
+#### WAP2 (Wi-Fi Protected Access 2)
+Also called as IEEE 802.11i  
+
+Used AES (Advanced Encryption Standard) in place of RC4  
+Used CCMP in place of TKIP for encryption  
+Utilized Message Integrity Code (MIC) for integrity checking   
+Vulnerable to KRACK attack. Most vendors released patches to fix the issue
+
+CCMP: Counter Mode with Cipher Block Chaining Message Authentication Code Protocol  
+KRACK: Key Reinstallation Attack
+
+#### Wi-Fi Protected Access 3 (WPA3)
+Uses AES for Encryption  
+Uses SAE to security handle the initial key exchange to address KRACK vulnerability  
+
+SAE established protocols to guard against offline dictionary attacks  
+OWE encrypts data even when no password is configured to connect to the WAP  
+OWE improves user privacy by guarding against eavesdropping attacks  
+
+The old AES algorithm was replaced by AES GCMP  
+Support 128-bit key for personal networks and 192-bit key for enterprise networks  
+Management Protection Frames are used to protect against key recovery attacks
+
+SAE: Simultaneous Authentication of Equals  
+OWE: Enhanced Open/Opportunistic Wireless Encryption  
+GCMP" Galois Counter Mode Protocol
+
+
+
+
+
+
+
+

@@ -7,14 +7,14 @@ title: Physical Security
 
 ### Fences & Bollards
 
-**Fences**  
+##### Fences  
 Provides a visual barrier by defining a boundary  
 Physical boundary against unauthorized access  
 Delay Intruders giving security professionals time to react  
 
 Trespassing, Theft, Vandalism, Unauthorized Facility Access
 
-**Bollards**  
+##### Bollards
 Short vertical posts designed to manage or redirect vehicular traffic
 Creates a physical barrier from potential vehicular collision  
 Visual reminder of where vehicles are not permitted  
@@ -54,8 +54,7 @@ Pressure Sensors: Unauthorized Entry
 Microwave Sensors: Movement Detection  
 Ultrasonic Sensors: Automated Doors, Movement Detection
 
-#### Bypassing Surveillance Systems
-
+##### Bypassing Surveillance Systems
 **Visual Obstruction**: Blocking Camera's Line of Sight  
 **Blinding Sensors or Cameras**: Overwhelm camera with light  
 **Acoustic Interference**: Jamming or playing loud music to disrupt microphone  
@@ -65,5 +64,8 @@ Ultrasonic Sensors: Automated Doors, Movement Detection
 ### Access Control Vestibule
 Double-door system that is designed with two doors that are electronically controlled to ensure that only one door can be opened at a given time
 
-**Piggybacking**: Person with authorized access allows another person without authorization to enter an secure area with them  
-**Tailgating**: Unauthorized person follows someone with legitimate access to a secure space without their knowledge or consent
+##### Piggybacking
+Person with authorized access allows another person without authorization to enter an secure area with them  
+
+##### Tailgating
+Unauthorized person follows someone with legitimate access to a secure space without their knowledge or consent

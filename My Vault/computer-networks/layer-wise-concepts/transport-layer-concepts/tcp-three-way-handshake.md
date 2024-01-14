@@ -32,5 +32,5 @@ URG on the other hand causes packets that are already in the queue will be ignor
 
 ---
 
-[TCP (Transmission Control Protocol)](../../../computer-networks/layer-wise-concepts/transport-layer-concepts/tcp-transmission-control-protocol.md)  
+[TCP (Transmission Control Protocol)](transmission-control-protocol-tcp.md)  
 [Transport Layer Concepts](../../../computer-networks/layer-wise-concepts/transport-layer-concepts/transport-layer-concepts.md)

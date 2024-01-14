@@ -8,7 +8,7 @@ title: Social Engineering Attacks
 ---
 
 ##### Pretexting
-Attacker create a scenario to manipulate or deceive someone into divulging confidential information
+Attacker creates a fabricated scenario to manipulate or deceive someone into divulging confidential information
 
 ##### Diversion Theft
 Manipulating a situation or creating a distraction to steal valuable information   

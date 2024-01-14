@@ -19,7 +19,7 @@ Resources are uniquely identified using a URL/ URI
 ![https-connection-setup|550](../images/https-connection-setup.png)
 
 **Step 1**:  
-[TCP (Transmission Control Protocol)](../layer-wise-concepts/transport-layer-concepts/tcp-transmission-control-protocol.md)  
+[TCP (Transmission Control Protocol)](../layer-wise-concepts/transport-layer-concepts/transmission-control-protocol-tcp.md)  
 [TCP Three-Way Handshake](../layer-wise-concepts/transport-layer-concepts/tcp-three-way-handshake.md)
 
 **Step 2**:  
@@ -61,8 +61,8 @@ Each stream is independent of each other and can be received in any order
 Allows to request multiple resources at the same time
 
 <u>HTTP 3.0</u>  
-New protocol that uses [QUIC](../layer-wise-concepts/transport-layer-concepts/quic-quick-udp-internet-connections.md) instead of TCP  
-QUIC is based on [UDP](../layer-wise-concepts/transport-layer-concepts/udp-user-datagram-protocol.md) protocol  
+New protocol that uses [QUIC](../layer-wise-concepts/transport-layer-concepts/quick-udp-internet-connections-quic.md) instead of TCP  
+QUIC is based on [UDP](../layer-wise-concepts/transport-layer-concepts/user-datagram-protocol-udp.md) protocol  
 All quick streams share the same connection and hence multiple handshakes are not required  
 QUIC has an concept of Connection ID which allows uses to switch networks quickly and reliably
 

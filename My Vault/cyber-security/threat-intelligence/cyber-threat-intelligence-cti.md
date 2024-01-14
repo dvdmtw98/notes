@@ -1,7 +1,8 @@
 ---
 tags:
-- security
-- soc
+  - security
+  - threat
+  - intelligence
 title: Cyber Threat Intelligence (CTI)
 ---
 
@@ -12,21 +13,20 @@ This includes there indicators, tactics, motivations and actionable insights
 **Information**: A combination of multiple data points  
 **Intelligence**: The correlation of information and data to extract patterns based on contextual analysis
 
-### Threat Hunting
-
-Proactively searching for cyber security threats that might be lurking undetected in the organizations network  
-When threat hunting we need to assume that all the existing security controls have failed  
-
-Allows to improve detecting capabilities, reduce attack surface, block attack vectors, identify critical assets
+[Threat Hunting](threat-hunting.md)
 
 ### Threat Intelligence
-
 
 Threat Intelligence can be gathered from different sources: Internal, Community, External  
 Threat Intel is geared towards understanding the relationship  between the operational environment (organization) and adversary  
 
 CTI Sources Properties: Timeliness, Accuracy, Relevancy, Confidence Level  
-Source Types: Proprietary, Closed-Source (FireEye), Open-Source (US-CERT, AT&T Security, MISP, Spamhaus, VirusTotal), Implicit Knowledge
+
+**Source Types**  
+Proprietary, Closed-Source (FireEye)  
+Open-Source (US-CERT, AT&T Security, MISP, Spamhaus, VirusTotal)  
+Information-sharing Organizations  
+Dark Web
 
 **Strategic Intel**: High-level intel that looks into the organizations threat landscape  
 **Technical Intel**: Looks into evidence and artifacts of attack used by the adversary  
