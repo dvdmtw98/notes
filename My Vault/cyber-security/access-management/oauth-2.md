@@ -1,8 +1,8 @@
 ---
 tags:
-- security
-- identity-management
-- authorization
+  - security
+  - identity
+  - management
 title: OAuth 2.0
 ---
 

@@ -13,7 +13,7 @@ title: Azure Security Services
 	* [Zero-Trust Model](zero-trust-model.md)
 	* [Threat Modeling](../../../cyber-security/threat-intelligence/threat-modeling.md)
 * **Identity & Access Management**
-	* [Identity Providers (IdP)](../../gcp/gcp-security-services/identity-providers-idp.md)
+	* [Identity Providers (IdP)](../../../cyber-security/access-management/identity-providers-idp.md)
 	* [Azure Active Directory (AAD)](azure-active-directory/azure-active-directory-aad.md)
 	* [Role Based Access Control (RBAC)](role-based-access-control-rbac.md)
 * **Secret Management**
@@ -28,7 +28,7 @@ title: Azure Security Services
 	* [Azure Blueprints](azure-blueprints.md)
 	* [Azure Policy](azure-policy.md)
 	* [Azure Defender for Cloud](azure-defender-for-cloud.md)
-	* [Data Loss Prevention (DLP)](../../gcp/gcp-security-services/data-loss-prevention-dlp.md)
+	* [Data Loss Prevention (DLP)](../../../cyber-security/security-controls/data-protection/data-loss-prevention-dlp.md)
 * **Azure Encryption**
 	* [Azure Disk Encryption (ADE)](azure-disk-encryption-ade.md)
 	* [Transparent Data Encryption (TDE)](transparent-data-encryption-tde.md)

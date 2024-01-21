@@ -34,7 +34,7 @@ Supported by site-to-site VPN and client-to-site VPN
 
 #### Full Tunnel
 Maximizes security by encrypting all traffic  
-When connected to VPN wont be able to access local devices
+When connected to VPN wont be able to access local network devices
 
 #### Half Tunnel
 Divides traffic and network requests and routes them to the appropriate network  
@@ -64,7 +64,7 @@ Used in site-to-site VPN and client-to-site VPN
 
 ### VPN Concentrator
 
-It also allows to manage multiple VPN connections in a single location  
+Allows to manage multiple VPN connections in a single location  
 Used by organization to allows remote users to connect to the work network from anywhere in the world
 
-VPN Headend is a special type of concentrator used to terminate IPSec VPN tunnels
+VPN Headend is a special type of concentrator used to terminates IPSec VPN tunnels

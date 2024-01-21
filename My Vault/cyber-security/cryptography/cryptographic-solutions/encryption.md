@@ -10,9 +10,13 @@ title: Encryption
 ### Symmetric Algorithm (Private Key)
 Algorithm in which both sender and the receiver must know the same shared secret  
 Same key is used to encrypt and decrypt data  
+
+**Advantage**  
+100-1000x times faster than a similar size asymmetric encryption algorithm  
+
+**Disadvantage**  
+Need a secure way to distribute the private key with other parties  
 Non-reputation not guaranteed (Same key can be used by multiple users)  
-100-1000x times faster than a similar size asymmetric encryption algorithm
-Need a secure way to distribute the private key with other parties 
 
 #### Data Encryption Standard (DES)
 Algorithm which breaks the input into 64-bit blocks and uses 16 rounds of transposition and substitution to create ciphertext  
@@ -20,7 +24,6 @@ Has an effective key strength of only 56-bits (8-bits are used for parity)
 
 #### Triple DES (3DES)
 Algorithm which uses three separate symmetric keys to encrypt, decrypt then encrypt the plaintext into ciphertext in order to increase the strength of DES  
-Three separate keys are used by the algorithm  
 
 Encrypt data using 1st key then decrypt data using 2nd key (This cases the data to become even more scrambled) then encrypt the result using the 3rd key  
 We end up with a algorithm that has a key length of 112-bits
@@ -34,7 +37,7 @@ Symmetric block cipher that uses 128-bit, 192-bit, 256-bit blocks and a matching
 Used by US Government to protect sensitive but unclassified information
 
 #### Blowfish
-Symmetric block cipher that uses 64-bit blocks and a variable length (32-bit 448-bit) encryption key to encrypt plaintext into ciphertext
+Symmetric block cipher that uses 64-bit blocks and a variable length (32-bit to 448-bit) encryption key to encrypt plaintext into ciphertext
 
 #### Twofish
 Provides the ability to use 128-bit blocks in its encryption algorithm and uses 128-bit, 192-bit or 256-bit encryption keys
@@ -52,8 +55,8 @@ e.g. Diffie-Hellman, RSA, Elliptic Curve Cryptography (ECC)
 Key distribution is not a problem  
 
 **Confidentiality**  
-Bob sends message to Alice  
-Bob encrypts the message using the Alice's public key  
+Bob wants to send message to Alice  
+Bob encrypts the message using Alice's public key  
 The message can only be decrypted using Alice's private key  
 Once Bob encrypts the message using Alice's public key even he cannot decrypt it  
 
@@ -100,13 +103,13 @@ Utilizes asymmetric encryption to securely transfer a private key that can be us
 
 ## Cipher-based Classification
 
-### Stream Cipher
-Utilizes a keystream generator to encrypt data bit by bit using a mathematical XOR function to create the ciphertext  
+#### Stream Cipher
+A keystream generator is used to encrypt data bit by bit using a mathematical XOR function  
 Useful for encryption audio and video streams  
-Tend to symmetric algorithms  
+Tend to be symmetric algorithms  
 Most stream cipher tend to be implemented using hardware
 
-### Block Cipher
+#### Block Cipher
 Breaks the input into fixed-length blocks and perform the encryption on each block  
 Easier to setup and implement. Less susceptible to security problems  
 Can be easily implemented using software
@@ -116,8 +119,8 @@ Can be easily implemented using software
 ## Public Key Infrastructure (PKI)
 System the creates the asymmetrical key pairs that are used for encryption and decryption
 
-### Certificate Authority
+#### Certificate Authority
 Issues digital certificates and keeps the level of trust between all of the certificate authorities around the world
 
-### Key Escrow
+#### Key Escrow
 Process where cryptographic keys are stored in a secure, third-party location

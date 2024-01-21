@@ -24,6 +24,8 @@ Occurs when the voltage is reduced to lower levels and usually occurs for a long
 Total loss of power for a given period of time  
 When power is restored it can cause a power spike
 
+---
+
 ### Power Protectors
 
 #### Line Conditioner

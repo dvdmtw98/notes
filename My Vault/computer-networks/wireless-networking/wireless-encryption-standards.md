@@ -32,8 +32,8 @@ Used CCMP in place of TKIP for encryption
 Utilized Message Integrity Code (MIC) for integrity checking   
 Vulnerable to KRACK attack. Most vendors released patches to fix the issue
 
-CCMP: Counter Mode with Cipher Block Chaining Message Authentication Code Protocol  
-KRACK: Key Reinstallation Attack
+**CCMP**: Counter Mode with Cipher Block Chaining Message Authentication Code Protocol  
+**KRACK**: Key Reinstallation Attack
 
 #### Wi-Fi Protected Access 3 (WPA3)
 Uses AES for Encryption  
@@ -47,9 +47,9 @@ The old AES algorithm was replaced by AES GCMP
 Support 128-bit key for personal networks and 192-bit key for enterprise networks  
 Management Protection Frames are used to protect against key recovery attacks
 
-SAE: Simultaneous Authentication of Equals  
-OWE: Enhanced Open/Opportunistic Wireless Encryption  
-GCMP" Galois Counter Mode Protocol
+**SAE**: Simultaneous Authentication of Equals  
+**OWE**: Enhanced Open/Opportunistic Wireless Encryption  
+**GCMP**: Galois Counter Mode Protocol
 
 
 

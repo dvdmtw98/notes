@@ -7,7 +7,7 @@ tags:
 ---
 
 ### Context-based Permissions
-Permission schemes that are defined by various properties for a given file or process
+Permission schemes that are defined by various properties for a given file or process  
 e.g. SELinux, AppArmor
 
 ### SELinux

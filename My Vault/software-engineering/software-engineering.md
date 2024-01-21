@@ -11,6 +11,7 @@ title: Software Engineering
 
 * [DevOps](devops/devops.md)
 * [Programming Languages](programming-languages/programming-languages.md)
+	* [Code Execution Models](programming-languages/code-execution-models.md)
 * [Software Concepts](software-concepts/software-concepts.md)
 	- [Application Security](software-concepts/application-security.md)
 	- [Software Licensing](software-concepts/software-licensing.md)

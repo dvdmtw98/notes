@@ -5,6 +5,16 @@ tags:
   - process
 ---
 
+**Event**: An observable change in state  
+**Alert**: Triggers warnings if certain event happens  
+**Incident**: Multiple adverse events happening on our systems or network  
+**Problem**: Incident with an unknown cause  
+
+**Inconvenience**: Non-disruptive failures  
+**Emergency**: Urgent. A crisis  
+**Disaster**: Entire facility is unusable for 24 hours or longer  
+**Catastrophe**: Our facility is destroyed
+
 #### Preparation
 Involves strengthening systems and networks to resist attacks  
 This phase is about getting ready for future incidents

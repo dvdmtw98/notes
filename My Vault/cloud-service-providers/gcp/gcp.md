@@ -90,13 +90,13 @@ title: GCP
 * [Cloud Identity](gcp-security-services/cloud-identity.md)
 * [BeyondCorp](gcp-security-services/beyondcorp.md)
 * [GCP Security Services](gcp-security-services/gcp-security-services.md)
-* [Data Loss Prevention (DLP)](gcp-security-services/data-loss-prevention-dlp.md)
+* [Data Loss Prevention (DLP)](../../cyber-security/security-controls/data-protection/data-loss-prevention-dlp.md)
 * [Assured Workloads](gcp-concepts/assured-workloads.md)
 * [GCP Compliance Standards](gcp-security-services/gcp-compliance-standards.md)
 * [Directory Service](gcp-security-services/directory-service.md)
 * [Microsoft Active Directory](../../operating-system/windows/microsoft-active-directory/microsoft-active-directory.md)
-* [Identity Providers (IdP)](gcp-security-services/identity-providers-idp.md)
-* [Lightweight Directory Access Protocol (LDAP)](gcp-security-services/lightweight-directory-access-protocol-ldap.md)
+* [Identity Providers (IdP)](../../cyber-security/access-management/identity-providers-idp.md)
+* [Lightweight Directory Access Protocol (LDAP)](../../cyber-security/access-management/lightweight-directory-access-protocol-ldap.md)
 
 ### GCP Support & Billing
 

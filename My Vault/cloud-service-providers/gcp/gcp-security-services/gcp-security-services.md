@@ -15,7 +15,7 @@ View, monitor and analyze Google Cloud and [Anthos](../gcp-hybrid-cloud-services
 
 Gain visibility into who did what, when and where for all user activity on Google Cloud
 
-### [Data Loss Prevention (DLP)](data-loss-prevention-dlp.md)
+### [Data Loss Prevention (DLP)](../../../cyber-security/security-controls/data-protection/data-loss-prevention-dlp.md)
 
 Fully managed service designed to help you discover, classify, and protect your most sensitive data
 

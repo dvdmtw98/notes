@@ -5,7 +5,7 @@ tags:
 title: Change Management
 ---
 
-### Change Management
+#### Change Management
 An organizations orchestrated strategy to transaction from its existing state to a more desirable future state
 
 ##### Change Advisory Board (CAB)
@@ -20,14 +20,16 @@ A person who has a vested interest in the proposed change
 ##### Impact Analysis
 Process that involves understanding the changes potential fallout
 
-### Change Management Process
+---
+
+#### Change Management Process
 
 ##### Preparation
 Involves assessing the current state and recognizing the need for transition  
 Gather necessary resources, Engage stakeholders, Ensure preparedness
 
 ##### Vision for Change
-A clear, compelling description of the desired future state that is guising the transformation process within an organization  
+A clear, compelling description of the desired future state that is guiding the transformation process within an organization  
 Define future state, Explain reasons for change, Ensure vivid vision
 
 ##### Implement

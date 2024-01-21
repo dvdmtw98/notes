@@ -7,12 +7,12 @@ title: Security Zones
 
 An organizations network can be divided into two zones:  
 **Uncontrolled Zone**: Network outside the organizations control (Internet, WAN)  
-**Controlled Zone**: Subnet that protects internal network for uncontrolled zone
+**Controlled Zone**: Subnet that protects internal network from uncontrolled zone
 
-#### Demilitarized Zone (DMZ)
-Also called Screened Subnets  
+#### De-militarized Zone (DMZ)
 Public facing services that can access the internet  
 Web Servers, Proxy Servers, DNS Servers, Email and File Servers    
+Also called [Screened Subnet](screened-subnet.md)
 
 #### Internal Network (Intranet)
 Internal Private Network that the organization needs to protect  

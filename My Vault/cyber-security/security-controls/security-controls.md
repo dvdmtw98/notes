@@ -8,7 +8,7 @@ title: Security Controls
 ### Control Categories
 Measures or mechanism put in place to migrate risks and protect the confidentiality, integrity and availability of information systems
 
-##### Technical Controls
+##### Technical (Logical) Controls
 Antivirus, Firewall, IDS, Encryption  
 
 ##### Managerial Controls

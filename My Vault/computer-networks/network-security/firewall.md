@@ -11,15 +11,6 @@ Controls the flow of information in and out from the network
 Firewalls can be standalone Network Device or a software on a device (Host-based)    
 A firewall can operate on Layer 4 through 7 depending on its type and configuration
 
-#### Screened Subnet (Dual-homed Host)
-Acts as a security barrier between external untrusted networks and internal trusted networks using a protected host with security measures like a packet-filtering firewall  
-Also called as De-militarized Zone (DMZ)
-
-[Screened subnet - Wikipedia](https://en.wikipedia.org/wiki/Screened_subnet)  
-[Screened Subnet Architectures (Building Internet Firewalls, 2nd Edition)](https://docstore.mik.ua/orelly/networking_2ndEd/fire/ch06_03.htm)
-
-![screened-subnet|500](../images/screened-subnet.gif)
-
 #### Host-based Firewall
 Windows: Windows Firewall  
 MacOS: PF (Packet Filtering) - OSX >= 10 & IPFW (IP Firewall)  
@@ -64,8 +55,8 @@ Can integrate with other security products
 
 #### Unified Threat Management Firewall (UTM)
 Provides the ability to conduct multiple security functions in a single appliance  
-Includes features of IPS, Antivirus Solutions, VPN, Load Balancer, [DLP](../../cloud-service-providers/gcp/gcp-security-services/data-loss-prevention-dlp.md), etc.
-They become a single point of failure for the network
+Includes features of IPS, Antivirus Solutions, VPN, Load Balancer, [DLP](../../cyber-security/security-controls/data-protection/data-loss-prevention-dlp.md), etc.  
+UTM can become a single point of failure for the network
 
 #### Web Application Firewall (WAF)
 Focuses on the inspection of HTTP traffic

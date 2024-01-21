@@ -2,7 +2,8 @@
 tags:
   - rust
   - programming
-  - memory-management
+  - memory
+  - management
 title: Rust Ownership Model
 ---
 

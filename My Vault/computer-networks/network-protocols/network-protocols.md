@@ -15,7 +15,7 @@ title: Network Protocols
 		* [HSTS (HTTP Strict Transport Security)](hsts-protocol.md)
 	* [Domain Name System (DNS)](../network-infrastructure/dns-server/domain-name-system-dns.md)
 	* [Dynamic Host Configuration Protocol (DHCP)](../network-infrastructure/dhcp.md)
-	* [Simple Network Management Protocol (SNMP)](../../cyber-security/certifications/simple-network-management-protocol-snmp.md)
+	* [Simple Network Management Protocol (SNMP)](simple-network-management-protocol-snmp.md)
 * **Transport Layer Protocol**
 	* [Transmission Control Protocol (TCP)](../layer-wise-concepts/transport-layer-concepts/transmission-control-protocol-tcp.md)
 	* [User Datagram Protocol (UDP)](../layer-wise-concepts/transport-layer-concepts/user-datagram-protocol-udp.md)

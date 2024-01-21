@@ -1,9 +1,10 @@
 ---
 tags:
-- security
-- azure
-- cloud
-- identity-management
+  - security
+  - azure
+  - cloud
+  - identity
+  - management
 title: External Identity Types
 ---
 

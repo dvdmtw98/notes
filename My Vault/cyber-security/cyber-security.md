@@ -8,7 +8,8 @@ title: Cyber Security
 ### Certifications
 
 * [Splunk Core Certified User](certifications/splunk-core-certified-user.md)
-* [CompTIA Security+](certifications/comptia-security.md)
+* [CompTIA Security+](certifications/comptia-security/comptia-security.md)
+* [ISC2: Certified in Cybersecurity (CC)](certifications/isc2-cc/isc2-certified-in-cybersecurity.md)
 
 ### General Concepts
 

@@ -33,7 +33,7 @@ Uses electromagnetic fields to read data stored in embedded tags
 Allow for accurate scanning of items and sending data of up to 2 KB to a sensor at rapid speeds
 
 ##### Near-field Communication (NFC)
-Enables two devices to connect within a 4 cm range
+Enables two devices to connect within a 4cm range
 
 ##### Infrared (IR)
 Operated with line of sight  

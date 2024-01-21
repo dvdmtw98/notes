@@ -5,7 +5,7 @@ tags:
 title: Data Analytics
 ---
 
-### Data Analytics Concepts
+#### General Concepts
 
 * **Dimensional** [Data Modeling](../database-engineering/database-concepts/data-modeling.md)
 	* [Fact & Dimension](data-analytics-concepts/fact-and-dimension.md)
@@ -17,7 +17,7 @@ title: Data Analytics
 	* [Types of Partitioning](../database-engineering/database-concepts/types-of-partitioning.md)
 	* [ETL vs ELT](data-analytics-concepts/etl-vs-elt.md)
 
-### Data Analytics Tools
+#### Data Analytics Tools
 
 * [Apache Hadoop](apache-hadoop/apache-hadoop.md)
 * [Apache Hive](apache-hive/apache-hive.md)
@@ -25,6 +25,11 @@ title: Data Analytics
 * [Apache Kafka](apache-kafka/apache-kafka.md)
 * [Apache Spark](apache-spark/apache-spark.md)
 	* [Databricks](databricks/databricks.md)
+
+#### Data Visualization
+
+* [Excel](data-visualization/excel/excel.md)
+* [Power BI](data-visualization/power-bi/power-bi.md)
 
 ---
 

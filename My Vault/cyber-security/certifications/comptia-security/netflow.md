@@ -20,7 +20,7 @@ A Cisco-developed means of reporting network flow into a structed database
 Defines traffic flows based on shared packet characteristics
 
 #### Zeek
-Passively monitors a network like a snigger, but only logs full packet capture data of potential interest  
+Passively monitors a network like a sniffer, but only logs full packet capture for packets of potential interest  
 All data is stored as JSON files
 
 #### Multi Router Traffic Grapher (MRTG)

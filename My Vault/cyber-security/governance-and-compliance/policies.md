@@ -24,5 +24,5 @@ A plan for handling security incidents
 ##### Software Development Lifecycle (SDLC)
 Guides how software is developed within an organization
 
-##### Change Management
+##### [Change Management](../asset-management/change-management.md)
 Aims to ensure that changes are implemented in a controlled and coordinated manner, minimizing the risk of disruptions

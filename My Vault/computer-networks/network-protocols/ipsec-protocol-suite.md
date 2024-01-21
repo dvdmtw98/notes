@@ -3,7 +3,7 @@ title: IPSec Protocol Suite
 tags:
   - security
   - networking
-  - protect
+  - protocol
 ---
 
 ### Internet Protocol Security (IPSec)
@@ -43,7 +43,7 @@ AH on its own is not commonly used as it does not encrypt the data
 
 #### Authentication Header (AH)
 AH Protocol is responsible for providing integrity and authentication  
-It takes the IP Header and Data Payload and Hashes them together, this hash is used to create a new AH Header which is appended to the packet  
+It takes the IP Header and Data Payload and Hashes them, this hash is used to create a new AH Header which is appended to the packet  
 
 #### Encapsulating Security Payload (ESP)
 ESP provides encryption and integrity for the data packets as they are sent over IPsec
@@ -56,11 +56,11 @@ Employed for providing authentication, integrity, replay protection and data con
 ![ipsec-modes|520](../../cyber-security/images/ipsec-modes.png)
 
 #### Transport Mode
-Employs the original IP headers, ideal for client-to-site VPNs
+Employs the original IP headers, ideal for client-to-site VPNs  
 Advantageous when dealing with MTU constraints
 
 AH used for authenticate TCP and payload integrity  
-ESP is used to encrypt TCP header and payload and AH is for the integrity
+ESP is used to encrypt TCP header and payload and AH is for the integrity  
 IP header is not encrypted so the source and destination of data will be visible
 
 #### Tunneling Mode

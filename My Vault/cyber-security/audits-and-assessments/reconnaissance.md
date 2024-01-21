@@ -1,8 +1,8 @@
 ---
 tags:
-- security
-- attack
-- information-gathering
+  - security
+  - attack
+  - reconnaissance
 title: Reconnaissance
 ---
 

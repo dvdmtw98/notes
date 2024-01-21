@@ -29,6 +29,6 @@ A algorithm that can be implemented using today's classical computers but is als
 **1st Method:** Increase key size  
 **2nd Method**: Newer algorithms (lattice-based & super singular isogeny key)
 
-Current recommendation  
+##### Current recommendation  
 **General Encryption**: CRYSTALS-Kyber algorithm  
 **Digital Signature**: CRYSTALS-Dilithium, FALCON, SPHINCS+

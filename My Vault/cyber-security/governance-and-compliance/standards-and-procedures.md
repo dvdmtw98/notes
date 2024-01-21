@@ -14,9 +14,11 @@ Dictate the complexity and management of passwords
 
 ##### Access Control Standards
 Determines who has access to what resources within an organization  
+
 **Discretionary Access Control (DAC)**: Owner decides who can access the data  
 **Mandatory Access Control (MAC)**: Uses labels and classifications  
-**Role-based Access Control (RBAC)**: Assign access based on roles
+**Role-based Access Control (RBAC)**: Assign access based on roles  
+[Access Control Models](../access-management/access-control-models.md)
 
 ##### Physical Security Standards
 Cover the physical measures taken to protect an organization's assets and information
@@ -30,7 +32,7 @@ Ensures that data intercepted or accessed without authorization remains unreadab
 ### Procedures
 Systematic sequences of actions or steps taken to achieve a specific outcome
 
-##### Change Management
+##### [Change Management](../asset-management/change-management.md)
 Systematic approach to deal with changes within an organization
 
 ##### Onboarding Procedures

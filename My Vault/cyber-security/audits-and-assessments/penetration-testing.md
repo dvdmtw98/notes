@@ -28,12 +28,12 @@ Combination of aspects of both offensive and defensive testing into a single pen
 ### Pentesting Environments
 
 #### Known Environment
-Detailed target infrastructure information from the organization is received prior  
+Detailed target infrastructure information from the organization is received  
 Evaluate vulnerabilities and weakness in known systems  
 Similar to an Insider Threat attack
 
 #### Partially Known Environment
-Involves limited information provided to testers who may have patrial knowledge of the system  
+Limited information provided to testers who may have patrial knowledge of the system  
 Aim is to identify vulnerabilities in both known and hidden assets  
 Scenario attack has gained some information through a previous attack
 

@@ -21,12 +21,10 @@ Used to control specific processes like production line and assembly
 A type of ICS used to monitor and control geographically dispersed industrial processes  
 Used in electrical, distribution, water, oil and gas pipelines  
 
----
-
 #### System Risks & Threats
 
-##### Unauthorized Access
-##### Malware Attacks
-##### Lack of Updates
-##### Physical Threats
+* Unauthorized Access
+* Malware Attacks
+* Lack of Updates
+* Physical Threats
 

@@ -6,7 +6,7 @@ title: Threats & Vulnerabilities
 ---
 
 #### Threat
-Any circumstance that can negatively effect our information security systems  
+Any event that can negatively effect our information security systems  
 e.g. Natural Disasters, Cyberattacks, Data Integrity Breach, Information Disclosure
 
 #### Vulnerability
@@ -24,7 +24,3 @@ e.g. Message, Image, Files, Voice Calls, Removable Devices, Unsecure Networks
 ##### Attack Surface
 Encompasses the various points where an unauthorized user can try to enter data to try to extract data from an environment  
 e.g. Restricting Access, Removing Unnecessary Software, Disabling Unused Protocols  
-
-#### Risk Management
-Finding different ways to minimize the likelihood of an outcome from occurring and achieve the desired outcomes  
-[Risk Management](../certifications/comptia-security.md#Risk%20Management)

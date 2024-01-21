@@ -2,9 +2,8 @@
 title: Port Security
 tags:
   - security
-  - port
-  - protect
   - authentication
+  - management
 ---
 
 ## Port Security
@@ -30,7 +29,7 @@ e.g. Switch, WAP, VPN Concentrator
 
 ##### Authentication Server
 Centralized server that is going to perform the authentication  
-Also called as AAA Servers  
+Also called as AAA Server  
 Common Authentication Protocols: RADIUS (Cross-platform), TACACS+ (Cisco-proprietary)
 
 TACAS+ is slower than RADIUS (Uses TCP)  

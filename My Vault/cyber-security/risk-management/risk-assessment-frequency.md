@@ -6,7 +6,6 @@ tags:
 title: Risk Assessment Frequency
 ---
 
-### Risk Assessment Frequency
 The regularity with which risk assessments are conducted within an organization
 
 ##### Ad-Hoc Risk Assessments

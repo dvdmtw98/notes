@@ -14,3 +14,6 @@ It is also called as Classful IP Addressing
 ![IP Address Classes 2|450](../../images/ip-address-classes-2.png)
 
 Subnets that are created by splitting Classful Subnets into smaller subnets is called Classless Subnets
+
+IP Address assignment is managed by IANA  
+Domain Name assignment is managed by ICANN

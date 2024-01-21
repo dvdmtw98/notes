@@ -1,8 +1,9 @@
 ---
 tags:
-- gcp
-- cloud
-- security
+  - security
+  - protocol
+  - access
+  - management
 title: Lightweight Directory Access Protocol (LDAP)
 ---
 

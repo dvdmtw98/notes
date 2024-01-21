@@ -12,7 +12,7 @@ Strong Isolation (Hypervisor Protection, Tenant Protection)
 
 #### Inadequate Virtual Environment Security
 Can lead to unauthorized access, data breaches and other security incidents  
-Using secure VM Templates, Regular updates and patches, monitoring unusual activities
+Protection: Secure VM Templates, Regular updates, Monitoring unusual activities
 
 #### User Access Management
 Can cause unauthorized access to sensitive data and systems  

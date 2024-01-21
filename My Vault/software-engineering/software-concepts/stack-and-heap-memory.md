@@ -1,8 +1,9 @@
 ---
 tags:
-- programming
-- memory-management
-- software
+  - programming
+  - software
+  - management
+  - memory
 title: Stack and Heap Memory
 ---
 

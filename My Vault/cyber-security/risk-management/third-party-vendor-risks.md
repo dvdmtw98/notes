@@ -24,5 +24,5 @@ Process that organizations implement to evaluate the security, reliability and p
 
 **[Penetration Testing](../audits-and-assessments/penetration-testing.md)**: Simulated cyberattack against the supplier's system  
 **[Internal Audits](../audits-and-assessments/internal-audits.md)**: Vendor's self-assessment of their security  
-**Independent Assessment**: Evaluation conducted by third-party entities
+**Independent Assessment**: Evaluation conducted by third-party entities  
 **Supply Chain Analysis**: Deep dive into a vendors entire supply chain to assess security

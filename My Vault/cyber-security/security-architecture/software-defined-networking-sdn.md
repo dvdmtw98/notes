@@ -2,9 +2,9 @@
 title: Software Defined Networking (SDN)
 tags:
   - security
-  - device
   - software
   - management
+  - networking
 ---
 
 Enables efficient network configuration to improve performance and monitoring  

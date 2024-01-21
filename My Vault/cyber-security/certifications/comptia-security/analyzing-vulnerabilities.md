@@ -17,8 +17,8 @@ System that provides a standardized way to uniquely identify and reference known
 
 #### Exposure Factor (EF)
 Used as a quantifiable metric to help understand the exact percentage of an asset that is likely to be damaged or affected if a particular vulnerability is exploited  
-[Quantitative Risk Analysis](../risk-management/risk-analysis.md#Quantitative%20Risk%20Analysis)
+[Quantitative Risk Analysis](../../risk-management/risk-analysis.md#Quantitative%20Risk%20Analysis)
 
 #### Risk Tolerance
 Level of risk that an organization is willing to accept in pursuit of its objectives and before action is deemed necessary to mitigate the risk  
-[Risk Appetite](../risk-management/risk-register.md#Risk%20Appetite)
+[Risk Appetite](../../risk-management/risk-register.md#Risk%20Appetite)

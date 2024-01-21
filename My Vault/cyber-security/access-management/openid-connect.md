@@ -1,8 +1,8 @@
 ---
 tags:
-- security
-- identity-management
-- authentication
+  - security
+  - identity
+  - management
 title: OpenID Connect
 ---
 

@@ -16,7 +16,7 @@ Uses the trust relationship that exists between different systems
 User accesses a service or application and chooses to log in
 
 ##### Redirection to Identity Provider
-Service Provider redirects user to [Identity Provider (IdP)](../../cloud-service-providers/gcp/gcp-security-services/identity-providers-idp.md) for authentication
+Service Provider redirects user to [Identity Provider (IdP)](identity-providers-idp.md) for authentication
 
 ##### Authenticate the User
 IdP validates the users identity

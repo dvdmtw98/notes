@@ -7,7 +7,7 @@ title: Cyber Threat Intelligence (CTI)
 ---
 
 Evidence based knowledge about adversaries  
-This includes there indicators, tactics, motivations and actionable insights
+This includes their indicators, tactics, motivations and actionable insights
 
 **Data**: Discrete indicators associated with a adversary  
 **Information**: A combination of multiple data points  

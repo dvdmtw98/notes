@@ -10,7 +10,7 @@ title: Access Management
 ### Table of Content
 
 * [Access Control Models](access-control-types.md)
-* [Identity Providers (IdP)](../../cloud-service-providers/gcp/gcp-security-services/identity-providers-idp.md)
+* [Identity Providers (IdP)](identity-providers-idp.md)
 	- [OAuth 2.0](oauth-2.md)
 	- [OAuth 2.0 Flows](oauth-2-flows.md)
 	- [OpenID Connect](openid-connect.md)

@@ -8,7 +8,7 @@ title: Data States & Types
 
 ### Data States
 
-##### Data at Rest
+#### Data at Rest
 Full Disk Encryption (FDE)  
 Partition Encryption: Encrypt specific partitions of a hard drive    
 File Encryption  
@@ -16,16 +16,22 @@ Volume Encryption: Encrypt a set of selected files and directories
 Database Encryption  
 Record Encryption: Encrypt specific fields within a database record
 
-##### Data in Transit/ Data in Motion
+[Data Encryption](../data-encryption.md)
+
+#### Data in Motion
 SSL and TLS: Cryptographic protocols  
-VPN  
+End-to-end Encryption  
 **IPSec**: Protect IP communication by authenticating and encrypting each packet
 
-##### Data in Use
+[IPsec Protocol Suite](../../../computer-networks/network-protocols/ipsec-protocol-suite.md)
+
+#### Data in Use
 Application Level Encryption  
 Access Controls  
 Secure Enclaves  
 Intel Software Guards
+
+---
 
 ### Data Types
 
@@ -49,7 +55,7 @@ Creations of the mind, such as inventions, literary and artistic works, designs 
 Data related to legal proceedings, contracts or regulatory compliance
 
 ##### Financial Information
-Data related to an organizations financial transactions, such as sales records, invoices, tax documents and bank statements
+Data related to an organizations financial transactions, such as sales records, invoices, tax documents and bank statements  
 e.g. PCI DSS
 
 ##### Human-readable Data

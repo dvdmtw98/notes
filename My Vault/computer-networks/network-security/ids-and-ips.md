@@ -55,7 +55,7 @@ Specific pattern of steps
 Commonly used on NIDS, WIDS
 
 ##### Stateful-matching
-Compares against known system baseline
+Compares against known system baseline  
 Commonly used on HIDS
 
 #### Anomaly-based Detection

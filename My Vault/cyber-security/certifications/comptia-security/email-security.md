@@ -22,7 +22,7 @@ DMARC can work with SPF, DKIM or both
 
 #### Email Gateway
 Server that serves as the entry and exit point for emails  
-Server that connects the sender and receiver over the Internet  
+Connects the sender and receiver over the Internet  
 Can be on-premise, cloud-based or hybrid solution
 
 #### Spam Filtering

@@ -97,27 +97,26 @@ title: Movie List
 
 ### Asian Movies
 
-| No. | Names                | Release |
-| --- | -------------------- | ------- |
-|     | Confessions          | 2010    |
-|     | Onibaba              | 1964    |
-|     | 13 Assassins         | 2010    |
-|     | Ran                  | 1985    |
-|     | Seven Samurai        | 1954    |
-|     | Yojimbo              | 1961    |
-|     | Hard Boiled          | 1992    |
-|     | Enter the Dragon     | 1973    |
-|     | In the Mood for Love | 2000    |
-|     | One Cut of the Dead  | 2017    |
-|     | Nobody Knows         | 2004    |
-|     | Lady Snowblood       | 1973    |
-|     | Chungking Express    | 1994    |
-|     | Cure                 | 1997    |
-|     | Fallen Angels        | 1995    |
-|     | House                | 1977    |
-|     | Maborosi             | 1995    |
-|     | Our Little Sister    | 2015    |
-|     | Silenced             | 2011    |
+| No. | Names | Release |
+| ---- | ---- | ---- |
+|  | Confessions | 2010 |
+|  | Onibaba | 1964 |
+|  | 13 Assassins | 2010 |
+|  | Ran | 1985 |
+|  | Seven Samurai | 1954 |
+|  | Yojimbo | 1961 |
+|  | Hard Boiled | 1992 |
+|  | Enter the Dragon | 1973 |
+|  | In the Mood for Love | 2000 |
+|  | One Cut of the Dead | 2017 |
+|  | Nobody Knows | 2004 |
+|  | Lady Snowblood | 1973 |
+|  | Chungking Express | 1994 |
+|  | Fallen Angels | 1995 |
+|  | House | 1977 |
+|  | Maborosi | 1995 |
+|  | Our Little Sister | 2015 |
+|  | Silenced | 2011 |
 
 ### Animated Movies
 

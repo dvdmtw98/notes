@@ -7,7 +7,7 @@ title: Blockchain
 
 A shared immutable ledger for recording transactions, tracking assets and building trust  
 It is a really long series of blocks with each block containing information  
-Each block also contains the has for the previous block
+Each block also contains the hash for the previous block
 
 ![blockchain|600](../../images/blockchain.png)
 

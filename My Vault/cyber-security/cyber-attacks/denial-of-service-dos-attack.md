@@ -8,7 +8,7 @@ tags:
 An attack that attempts to make a computer or servers resource unavailable
 
 #### Flood Attack
-Attempts to send more packets to a server than what it can handle
+Attempts to send more packets to a server than what it can handle  
 **Protection**: Flood Guards, Timeout, IDS
 
 ##### Ping Flood

@@ -5,10 +5,10 @@ tags:
 title: Mobile Device Management
 ---
 
-### Mobile Device Management (MDM)
+#### Mobile Device Management (MDM)
 Lets organizations securely oversee employee devices, ensuring policy enforcement, software consistency and data protection
 
-### Mobile Asset Management
+#### Mobile Asset Management
 
 ##### Bring Your Own Device (BYOD)
 Permits employees to use personal devices for work

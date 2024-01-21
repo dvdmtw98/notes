@@ -9,16 +9,16 @@ title: Data Protection Techniques
 #### Geographic Restrictions (Geofencing)
 Involves setting up virtual boundaries to restrict data access based on geographic locations
 
-#### [Encryption](../../cryptography/cryptographic-solutions/encryption.md)
+##### [Encryption](../../cryptography/cryptographic-solutions/encryption.md)
 Process of converting ordinary information (plain text) into unintelligible form (cipher text) 
 Most encryption algorithms that are used today are open source and publicly accessible  
-The key is what makes the algorithm strong. Longer the key the stronger the security  
+The key is what makes the algorithm strong. Long key provides higher security  
 
-#### [Hashing](../../cryptography/cryptographic-solutions/hashing.md)
+##### [Hashing](../../cryptography/cryptographic-solutions/hashing.md)
 Technique that converts data into a fixed size of numerical or alphanumeric characters  
 It is a one-way function
 
-#### [Obfuscation](../../cryptography/cryptographic-solutions/obfuscation.md)
+##### [Obfuscation](../../cryptography/cryptographic-solutions/obfuscation.md)
 Make the data unclear or unintelligible, making it difficult for unauthorized users to understand
 
 #### Segmentation

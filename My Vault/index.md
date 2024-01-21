@@ -14,7 +14,6 @@ title: Main Index
 * [Software Engineering](software-engineering/software-engineering.md)
 * [Database Engineering](database-engineering/database-engineering.md)
 * [Data Analytics](data-analytics/data-analytics.md)
-* [Data Visualization](data-visualization/data-visualization.md)
 * [Electronics](electronics/electronics.md)
 * [Languages](languages/languages.md)
 * [Read & Watch List](read-and-watch-list/read-and-watch-list.md)

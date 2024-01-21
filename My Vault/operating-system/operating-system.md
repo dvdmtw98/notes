@@ -1,20 +1,17 @@
 ---
 tags:
-- os
-- windows
-- linux
-- index
+  - os
+  - index
 title: Operating System
 ---
 
-### Table of Content
+#### Operating System
+* [Linux](linux/linux-index.md)
+* [Windows](windows/windows-index.md)
 
-* **Operating System**
-	* [Linux](linux/linux-index.md)
-	* [Windows](windows/windows-index.md)
-* **Common Topics**
-	- [Process vs. Threads](others/process-vs-threads.md)
-	- [RAID](others/raid.md)
+#### General Concepts
+- [Process vs. Threads](process-vs-threads.md)
+- [RAID](../cyber-security/cyber-redundancy/raid.md)
 
 ---
 

@@ -28,7 +28,7 @@ Digital certificate that is signed by the same entity whose identity it certifie
 Digital certificate issued and signed by a trusted certificate authority (CA)
 
 ##### Root of Trust
-Each certificate is validated using the concept of chain of trust that moves from the bottom all the way to the top of the chain
+Each certificate is validated using the concept of chain of trust that moves from the bottom all the way to the top of the chain  
 e.g. Verisign, Amazon, Google, Cloudflare
 
 ##### Certificate Authority

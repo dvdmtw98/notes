@@ -11,10 +11,10 @@ They generally have long operational life and are deployed in harsh environments
 
 #### System Risks and Threats
 
-##### Hardware Failure
-##### Software Bugs
-##### Security Vulnerabilities
-##### Outdated Systems
+* Hardware Failure
+* Software Bugs
+* Security Vulnerabilities
+* Outdated Systems
 
 #### Protection Techniques
 
@@ -30,6 +30,8 @@ Utilize secure coding practices, code reviews and automated testing
 
 ##### Inability to Patch
 Strategies like OTA updates can be used to install updates remotely
+
+---
 
 #### Real-Time Operating System (RTOS)
 Ensures data processing in real-time and is crucial for time-sensitive applications  
