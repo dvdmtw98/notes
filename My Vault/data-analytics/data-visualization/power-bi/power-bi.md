@@ -14,7 +14,3 @@ title: Power BI
 * [Power BI Embedded](power-bi-embedded.md)
 * [Interactive Reports](interactive-reports.md)
 * [Paginated Reports](paginated-reports.md)
-
----
-
-[Data Visualization](../data-visualization.md)

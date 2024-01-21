@@ -12,12 +12,12 @@ tags:
 
 #### Security Principles
 
-* [CIA Triad](frameworks/cia-triad.md)
-* [IAAA of Security](frameworks/iaaa-of-security.md)
+* [CIA Triad](../../frameworks/cia-triad.md)
+* [IAAA of Security](../../frameworks/iaaa-of-security.md)
 * [Risk Management](../../risk-management/risk-management.md)
 * [Security Controls](../../security-controls/security-controls.md)
 * [Laws and Regulations](laws-and-regulations.md)
-	* [Governance Principles](isc2-cc/governance-principles.md)
+	* [Governance Principles](governance-principles.md)
 
 #### BCP, DRP and IR
 

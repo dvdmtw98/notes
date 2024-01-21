@@ -136,7 +136,7 @@ title: CompTIA Security+
 
 #### Vulnerabilities and Attacks
 
-* [Bluetooth Vulnerabilities and Attacks](comptia-security/bluetooth-vulnerabilities.md)
+* [Bluetooth Vulnerabilities](bluetooth-vulnerabilities.md)
 * [Mobile Vulnerabilities](../../security-controls/mobile-vulnerabilities.md)
 * [SQL Injection](../../cyber-attacks/sql-injection/sql-injection.md)
 * [Cross Site Scripting (XSS)](../../cyber-attacks/cross-site-scripting-xss.md)
@@ -164,7 +164,7 @@ title: CompTIA Security+
 
 * [Cyber Threat Intelligence (CTI)](../../threat-intelligence/cyber-threat-intelligence-cti.md)
 	* [Threat Hunting](../../threat-intelligence/threat-hunting.md)
-* [Analyzing Vulnerabilities](comptia-security/analyzing-vulnerabilities.md)
+* [Analyzing Vulnerabilities](analyzing-vulnerabilities.md)
 
 #### Alerting and Monitoring
 

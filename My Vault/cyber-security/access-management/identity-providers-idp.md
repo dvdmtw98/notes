@@ -9,7 +9,7 @@ A system entity that creates, maintains and manages identity information for pri
 
 Identity Providers: Facebook, Amazon, Google, Twitter, GitHub, LinkedIn, etc.
 
-[Federation](../../../cyber-security/access-management/federation.md)
+[Federation](federation.md)
 
 ---
 
@@ -21,7 +21,7 @@ LDAP can also store axillary user data like group membership and roles
 Open standard and decentralized authentication protocol  
 *OpenID is about providing who are you*
 
-#### [OAuth 2.0](../../../cyber-security/access-management/oauth-2.md)
+#### [OAuth 2.0](oauth-2.md)
 Industry standard protocol for authorization  
 OAuth doesn't share password data but instead uses tokens to prove an identity between consumers and service providers  
 JWT are used for exchanging the tokens between applications  

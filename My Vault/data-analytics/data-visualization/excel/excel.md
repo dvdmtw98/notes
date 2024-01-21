@@ -28,7 +28,7 @@ Formulas - Named Manager (Edit and Manage Named Ranges)
 ### Table of Content
 
 * [Excel Shortcuts](excel-shortcuts.md)
-* **<u>Excel Functions</u>**
+* **Excel Functions**
 	* [Excel Operators](functions/excel-operators.md)
 	* [Excel Function Tips](functions/excel-function-tips.md)
 	* [OR and AND Criteria](functions/or-and-and-criteria.md)
@@ -38,7 +38,3 @@ Formulas - Named Manager (Edit and Manage Named Ranges)
 	* [SEARCH and FIND Function](functions/search-and-find-function.md)
 * [Types of Errors](types-of-errors.md)
 * [Protecting Excel Workbooks](protecting-excel-workbooks.md)
-
----
-
-[Data Visualization](../data-visualization.md)
