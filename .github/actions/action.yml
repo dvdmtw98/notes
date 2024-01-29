@@ -1,55 +1,43 @@
 name: Digital Archive Builder
 author: David Varghese
-description: Action to build Mkdocs site using Markdown files
+description: Action to build Quartz website using Markdown Files
 
 inputs:
     MEASUREMENT_ID:
-        description: Token to link site with Google Analytics Property
-        required: true
+      description: Token to link site with Google Analytics Property
+      required: true
 
 runs:
     using: composite
     steps:
-        - name: Build Directory
-          id: build-directory
-          shell: bash
-          run: mkdir -p mkdocs/{docs/assets,hooks}
-        - name: Markdown Copy
-          id: markdown-copy
+        - name: Copy Markdown Files
+          id: copy-markdown
           shell: bash
           run: |
-              cp -a My\ Vault/. mkdocs/docs \
-              && rm -rf mkdocs/docs/{.obsidian,read-and-watch-list,languages}
-        - name: Asset Copy
-          id: asset-copy
+              cp -a ${{ env.FILES_PATH }}/MainVault/. ${{ env.SITE_PATH }}/content \
+              && rm -rf ${{ env.SITE_PATH }}/content/{read-and-watch-list,.gitkeep}
+        - name: Copy Config
+          id: copy-config
           shell: bash
-          run: cp -a config/assets/. mkdocs/docs/assets
-        - name: Config Copy
-          id: config-copy
+          run: cp -a ${{ env.FILES_PATH }}/config/. ${{ env.SITE_PATH }}
+        - name: Run Script
+          id: run-script
           shell: bash
-          run: cp -a config/{mkdocs.yml,requirements.txt} mkdocs
-        - name: Script Copy
-          id: script-copy
-          shell: bash
-          run: cp -r config/scripts/modify_links.py mkdocs/hooks
-        - name: Setup Python
-          id: setup-python
-          uses: actions/setup-python@v4
-          with:
-              python-version: "3.11"
+          run: node ${{ env.SITE_PATH }}/scripts/modifyIndex.cjs ${{ env.SITE_PATH }}/content/index.md
         - name: Setup Google Analytics
-          uses: TomaszKandula/variable-substitution@v1.0.1
-          with:
-              files: "mkdocs/mkdocs.yml"
-          env:
-              extra.analytics.property: ${{ inputs.MEASUREMENT_ID }}
+          id: setup-analytics
+          shell: bash
+          run:  sed -i -E "s/XXXXXX/${{ inputs.MEASUREMENT_ID }}/" ${{ env.SITE_PATH }}/quartz.config.ts 
         - name: Install Dependencies
           id: install-dependencies
           shell: bash
           run: |
-              pip install -r mkdocs/requirements.txt \
-              && pip install python-frontmatter
+              cd ${{ env.SITE_PATH }} \
+              && npm clean-install \
+              && npm install rehype-external-links
         - name: Build Site
           id: build-site
           shell: bash
-          run: cd mkdocs && mkdocs build --strict
+          run: |
+            cd ${{ env.SITE_PATH }} \
+            && npx quartz build
