@@ -5,6 +5,7 @@ tags:
   - index
 title: Git
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:28:23 -0600
 ---
 
 ### Table of Content
@@ -68,4 +69,5 @@ These details are stored inside the object directory
 The Git database is a very complex key value store
 
 [A Hacker's Guide to Git | Wildly Inaccurate](https://wildlyinaccurate.com/a-hackers-guide-to-git/)  
+
 [Version Control (Git) · Missing Semester](https://missing.csail.mit.edu/2020/version-control)

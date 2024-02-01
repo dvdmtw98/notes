@@ -6,6 +6,7 @@ tags:
   - orchestration
 title: Azure Data Factory
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 08:12:18 -0600
 ---
 
 ### Related Topics
@@ -22,7 +23,7 @@ It has support for 100+ connectors
 
 Allows to create pipelines to schedule data driven workflows  
 Build complex ETL processes that transform data visually with data flows  
-Allows to use Azure Compute Services like ([[databricks-clusters|Databricks Clusters]], [[azure-hdinsight|Azure HDInsight]], [[azure-sql-db|Azure SQL DB]])
+Allows to use Azure Compute Services like ([[databricks-clusters|Databricks Clusters]], HDInsight, [[azure-sql-db|Azure SQL DB]])
 
 ![[data-flow-decission-chart.png|550]]
 

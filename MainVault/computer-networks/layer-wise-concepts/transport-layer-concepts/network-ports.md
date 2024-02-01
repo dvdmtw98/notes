@@ -5,6 +5,7 @@ tags:
   - port
 title: Network Ports
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-30 18:44:41 -0600
 ---
 
 A logical communication endpoint that exists on a computer or server  
@@ -28,7 +29,7 @@ Port created to call out to a server that is listening for a connection (High Ra
 PC (High Random Port) → Web Server (Specific Port)  
 PC (High Random Port) ← Web Server (Specific Port)
 
-#### Common Protocol Ports
+### Common Protocol Ports
 
 **Protocols**: Rules governing device communication and data exchange
 

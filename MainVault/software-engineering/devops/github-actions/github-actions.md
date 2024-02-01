@@ -7,6 +7,7 @@ tags:
   - index
 title: GitHub Actions
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-30 14:33:58 -0600
 ---
 
 It is a platform to automate Developer **Workflows**  
@@ -20,9 +21,7 @@ e.g. Pull Requests, Issue Created, Merge into Master Branch
 
 [GitHub Actions Documentation - GitHub Docs](https://docs.github.com/en/actions)
 
----
-
-### Table of Content
+### Related Topics
 
 * [[github-actions-commands|GitHub Actions Commands]]
 * [[github-action-usage|GitHub Action Usage]]

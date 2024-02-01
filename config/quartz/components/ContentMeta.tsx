@@ -1,4 +1,5 @@
 import readingTime from "reading-time"
+import { classNames } from "../util/lang"
 import { formatDate, getDate } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
@@ -26,7 +27,8 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       // const segments: string[] = []
 
       if (fileData.dates) {
-        const cfgDefaultDataType = cfg.defaultDateType // For backward compatibility, just in case this is used somewhere else by the original author
+        const cfgDefaultDataType = cfg.defaultDateType
+        // For backward compatibility, just in case this is used somewhere else
 
         if (fileData.dates.created) {
           cfg.defaultDateType = "created"
@@ -49,7 +51,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       }
 
       return (
-        <p class={`content-meta ${displayClass ?? ""}`}>
+        <p class={classNames(displayClass, "content-meta")}>
           Created: {createdSegment}<br/>Modified: {modifiedSegment}<br/>{readingTimeStr}
         </p>
       )

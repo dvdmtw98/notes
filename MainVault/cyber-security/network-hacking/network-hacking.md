@@ -22,7 +22,7 @@ updated: 2024-01-29 10:32:05 -0600
 
 * [[network-mapping|Network Mapping (Information Gathering)]]
 * [[mitm-man-in-the-middle-attack|MITM (Man in the Middle) Attack]]
-* [[arp-spoofing-poisoning|ARP Spoofing - Poisoning]]
+* [[arp-poisoning|ARP Spoofing - Poisoning]]
 * [[bettercap|BetterCap]]
 * [[bettercap-gui|BetterCap GUI]]
 * [[hsts-protocol|HSTS (HTTP Strict Transport Security)]]

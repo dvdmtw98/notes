@@ -1,6 +1,7 @@
 ---
 title: Python
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 10:40:44 -0600
 ---
 
 ### Table of Content
@@ -36,8 +37,6 @@ date: 2024-01-28 14:15:56 -0600
 	- [[python-metaclasses|Python Metaclasses]]
 	- [[python-variable-scopes|Python Variable Scopes]]
 	- [[python-async-programming|Python Async Programming]]
-
----
 
 ### Best Practices & Coding Conventions
 

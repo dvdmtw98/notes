@@ -4,6 +4,7 @@ tags:
   - csharp
 title: CSharp Indexers
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 10:34:21 -0600
 ---
 
 * Allows an instance of an [[csharp-classes|Class]] or [[structs|Structs]] to be indexed just like an array
@@ -71,5 +72,7 @@ public class Workflow
 ````
 
 [Indexers - C# Programming Guide | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/indexers/)  
+
 [Indexers in C#](https://www.c-sharpcorner.com/uploadfile/puranindia/indexers-in-C-Sharp/)  
+
 [C# | Get an enumerator that iterates through the List - GeeksforGeeks](https://www.geeksforgeeks.org/c-sharp-get-an-enumerator-that-iterates-through-the-list/)

@@ -4,9 +4,10 @@ tags:
   - programming
 title: Rust Collections
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 10:41:15 -0600
 ---
 
-#### Vectors
+### Vectors
 
 Similar to array but can grow in size. Stored in the Heap
 
@@ -74,8 +75,7 @@ match &row[1] {
 }
 ```
 
-
-#### Strings
+### Strings
 
 It is an collection of UTF-8 encoded characters. String is a wrapper over `Vec<u8>`
 In UTF-8 characters can be represented using anywhere from 1 to 4 bytes  
@@ -126,7 +126,7 @@ for char in welcome.chars() {
 `.chars()`: Iterate over Rust Char represent of string  
 `.graphemes(true)`: Iterate over graphemes (Import from `unicode-segmentation` Crate)
 
-#### HashMap
+### HashMap
 
 Used to represent Key Value pair data
 

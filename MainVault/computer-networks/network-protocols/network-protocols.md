@@ -12,7 +12,7 @@ date: 2024-01-28 14:15:56 -0600
 ### Table of Content
 
 * **Application Layer Protocols**
-	* [[https-protocol|HTTP(S) Protocol]]
+	* [[https|HTTP(S) Protocol]]
 		* [[hsts-protocol|HSTS (HTTP Strict Transport Security)]]
 	* [[domain-name-system-dns|Domain Name System (DNS)]]
 	* [[dhcp|Dynamic Host Configuration Protocol (DHCP)]]

@@ -6,6 +6,7 @@ tags:
   - orchestration
 title: Kubernetes Services
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:29:58 -0600
 ---
 
 A service is an stable/ consistent endpoint that can be used by other pods/services inside or outside the cluster to access a Pod  
@@ -87,4 +88,5 @@ Adds CNAME DNS record to CoreDNS only
 Used to give an DNS name to external service outside of the cluster that needs to be accessed by the Pods
 
 [Service | Kubernetes](https://kubernetes.io/docs/concepts/services-networking/service)  
-[Kubernetes NodePort vs LoadBalancer vs Ingress? When should I use what? | by Sandeep Dinesh | Google Cloud - Community | Medium](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0)
+
+[Kubernetes NodePort vs LoadBalancer vs Ingress? When should I use what? | Medium](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0)

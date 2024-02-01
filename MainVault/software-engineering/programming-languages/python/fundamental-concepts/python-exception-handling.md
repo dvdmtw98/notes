@@ -4,6 +4,7 @@ tags:
   - python
 title: Python Exception Handling
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 08:11:26 -0600
 ---
 
 ### Syntax Errors
@@ -27,6 +28,7 @@ except ValueError as e:
         print(str(e))
 ````
 
- > [!NOTE]
- > The try except block can take an optional `finally` block which can be used to perform clean up operators that must be performed under all conditions
+ > [!NOTE]  
+ > The try except block can take an optional  
+ > The `finally` block can be used to perform clean up operators that must be performed under all conditions
  

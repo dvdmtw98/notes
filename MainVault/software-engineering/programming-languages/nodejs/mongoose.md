@@ -6,6 +6,7 @@ tags:
   - webdev
 title: Mongoose
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 10:39:02 -0600
 ---
 
 ### MongoDB Basics
@@ -38,8 +39,6 @@ db.tours.deleteMany({rating: {$gte: 200}})
 db.tours.deleteMany({})
 ````
 
----
-
 ### Initialize Module
 
 ````js
@@ -49,8 +48,6 @@ mongoose
 .connect('mongodb://localhost:27017/fruitsDB', {useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true})
 .then(() => console.log('Connected to DB');
 ````
-
----
 
 ### Create Schema
 
@@ -62,8 +59,6 @@ const fruitSchema = new mongoose.Schema({
 	review: String
 });
 ````
-
----
 
 ### Field Validation
 
@@ -126,7 +121,7 @@ Fruit.insertMany([apple, kiwi, orange, banana], function(err) {
 
 ### Select/ Fetch Document
 
-1. <u>Fetch subset of the Records</u>
+#### Fetch subset of Records
 
 ````js
 Fruit.find({name: 'Apple'}, function(err, fruits) {
@@ -138,7 +133,7 @@ Fruit.find({name: 'Apple'}, function(err, fruits) {
 });
 ````
 
-2. <u>Find Single Record</u>
+#### Find Single Record
 
 ````js
 Fruit.findOne({name: 'Apple'}, function(err, fruit) {
@@ -150,7 +145,7 @@ Fruit.findOne({name: 'Apple'}, function(err, fruit) {
 });
 ````
 
-3. <u>Find a document by ID</u>
+#### Find a document by ID
 
 ````js
 Fruit.findById(id, function(error, fruit){});
@@ -158,7 +153,7 @@ Fruit.findById(id, function(error, fruit){});
 
 ### Update Document
 
-1. <u>Update a Document</u>
+#### Update a Document
 
 ````js
 Fruit.updateOne({name: 'Apple'}, {rating: 9}, function(err) {
@@ -173,7 +168,7 @@ Fruit.updateOne({name: 'Apple'}, {rating: 9}, function(err) {
  > [!NOTE]
  > Can be used to add new fields to document as well but they should be specified in the schema. Refer document for other functions for updating
 
-2. <u>Update Document using ID field</u>
+#### Update Document using ID field
 
 ````js
 Fruit.findByIdAndUpdate(id, {fields to update}, {new: true, runValidators: true}, function(err) {
@@ -190,7 +185,7 @@ Fruit.findByIdAndUpdate(id, {fields to update}, {new: true, runValidators: true}
 
 ### Delete a Document
 
-1. <u>Delete Single Record</u>
+#### Delete Single Record
 
 ````js
 Fruit.deleteOne({name: 'Apple'}, function(err) {
@@ -203,7 +198,7 @@ Fruit.deleteOne({name: 'Apple'}, function(err) {
 });
 ````
 
-2. <u>Delete all the data from DB</u>
+#### Delete all the data from DB
 
 ````js
 Fruit.deleteMany(function(err) {
@@ -215,7 +210,7 @@ Fruit.deleteMany(function(err) {
 });
 ````
 
-3. <u>Delete using ID Field</u>
+#### Delete using ID Field
 
 ````js
 Fruit.findByIdAndRemove(id, function(err) {
@@ -266,13 +261,13 @@ mongoose.connection.close();
 
 ### Mongoose Methods
 
-1. <u>Fetch some columns from Document</u>
+#### Fetch columns from Document
 
 ````js
 const fruit = Fruit.find().where('name').equals('Apple').where('rating').gte(6);
 ````
 
-2. Pagination Logic
+#### Pagination
 
 ````js
 const page = parseInt(req.query.page) || 1;

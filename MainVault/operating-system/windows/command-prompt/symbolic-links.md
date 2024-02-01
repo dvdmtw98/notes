@@ -5,6 +5,7 @@ tags:
   - command
 title: Symbolic Links
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:20:06 -0600
 ---
 
 ### Symbolic Links
@@ -13,11 +14,32 @@ date: 2024-01-28 14:15:56 -0600
 * Can be mapped to files and directories on different drives, network volumes, etc.
 * They can work with relative paths as well
 
+```batch
+:: Symbolic Link
+mklink /D <Link> <Target> 
+
+:: View all Symbolic Links and Junctions in a Directory
+DIR /AL /S <Location>
+```
+
+`/D` is not required when making symbolic link for a file  
+`<Link>` : The target link (should not already exist)  
+`<Target>` : The actual file/folder to link
+
+The `rmdir` command can be used to remove a Symbolic Link. This command should to run on the target location (the Symbolic Link)
+
+[View a list of symbolic links on system? - Super User](https://superuser.com/questions/496092/view-a-list-of-symbolic-links-on-system)
+
 ### Soft Links (Junction)
 
 * Can be only made for Directories
 * The target directory needs to be on the same computer (different volume is allowed)
 * The paths needs to be absolute paths
+
+```batch
+:: Junctions
+mklink /J 
+```
 
 ### Hard Links
 
@@ -26,19 +48,7 @@ date: 2024-01-28 14:15:56 -0600
 * If the hard linked file changes location the hard link automatically updates
 * Hard links look exactly the same as the file (Need to be careful to not delete the wrong file)
 
-````batch
+```batch
 :: Hard Links
-mklink /H 
-
-:: Junctions
-mklink /J 
-
-:: Symbolic Link
-mklink /D <Link> <Target> 
-````
-
- > [!info]
- > - /D is not required when making symbolic link for a file
- > - `<Link>` : The new file/ folder (should not already exist)
- > - `<Target>` : The actual file/ folder location
- 
+mklink /H
+```

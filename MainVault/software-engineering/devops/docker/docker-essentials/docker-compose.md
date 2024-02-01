@@ -5,6 +5,7 @@ tags:
   - container
 title: Docker Compose
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:24:57 -0600
 ---
 
 Docker Compose has two parts:
@@ -17,7 +18,6 @@ An new network interface is always created for containers created from a config 
 ### Compose File Structure
 
 The docker-compose file has 3 main parts: 
-
 * Services
 * Volumes (Optional)
 * Networks (Optional)
@@ -61,9 +61,10 @@ docker compose -f docker-compose.yml -f docker-compose.test.yml up -d
 docker compose -f docker-compose.yml -f docker-compose.prod.yml config
 ````
 
-**<u>Options</u>**:  
--f : Alternate Compose File  
--p : Alternate Project Name (Default : Directory name)
+**Options**  
+`-f`: Alternate Compose File  
+`-p`: Alternate Project Name (Default : Directory name)
 
 [Compose file version 3 reference | Docker Docs](https://docs.docker.com/compose/compose-file/compose-file-v3/#volumes)  
+
 [Overview of docker-compose CLI | Docker Documentation](https://docs.docker.com/compose/reference/)

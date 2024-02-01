@@ -5,6 +5,7 @@ tags:
   - index
 title: C Sharp
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 10:35:47 -0600
 ---
 
 ### Table of Content
@@ -83,20 +84,20 @@ dotnet run
 
 ### Miscellaneous Points
 
-1. <u>New Keyword</u>  
-   The new keyword is used to allocate memory for an instance of an object
+#### New Keyword
+The new keyword is used to allocate memory for an instance of an object
 
-2. <u>C# Objects</u>  
-   All objects in C# have a `ToString()` method which makes it easy to convert any datatype to string (This method is inherited from the Object Class which is the base class for all objects)
+#### C# Objects
+All objects in C# have a `ToString()` method which makes it easy to convert any datatype to string (This method is inherited from the Object Class which is the base class for all objects)
 
-3. <u>Object Initialization</u>  
-   During object initialization all reference type objects are set to null. If need to pass a reference type object to a class always initialize it using a Constructor to avoid Null Exception
+#### Object Initialization
+During object initialization all reference type objects are set to null. If need to pass a reference type object to a class always initialize it using a Constructor to avoid Null Exception
 
-4. <u>Var Datatype</u>  
-   The var datatype cannot be used to declare fields in the class scope (Class Fields). If used the variable has to be initialized and declared on the same line
+#### Var Datatype
+The var datatype cannot be used to declare fields in the class scope (Class Fields). If used the variable has to be initialized and declared on the same line
 
-5. <u>Named and Optimal Arguments</u>  
-   Named arguments can be used when we don't know the order of arguments to be passed to the method
+#### Named and Optimal Arguments
+Named arguments can be used when we don't know the order of arguments to be passed to the method
 
 ````csharp
 // Named Arguments 
@@ -106,5 +107,5 @@ PrintOrderDetails(productName: "Red Mug", sellerName: "Gift Shop", orderNum: 31)
 public void ExampleMethod(int required, string optionalstr = "default string", int optionalint = 10) {}
 ````
 
-6. <u>Predicate Functions</u>  
-   Functions that return a Boolean result is called as predicate function
+#### Predicate Functions
+Functions that return a Boolean result is called as predicate function

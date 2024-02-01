@@ -8,10 +8,6 @@ on:
             - "My Vault/read-and-watch-list/**"
             - "My Vault/.obsidian/**"
 
-env:
-    FILES_PATH: source
-    SITE_PATH: quartz
-
 jobs:
     digital-archive:
         name: Digital Archive Deployment
@@ -22,17 +18,17 @@ jobs:
               uses: actions/checkout@v4
               with:
                   repository: jackyzha0/quartz 
-                  ref: v4.1.5
-                  path: ${SITE_PATH}
+                  ref: v4.1.6
+                  path: quartz
             - name: Checkout Repository
               id: checkout-repository
               uses: actions/checkout@v4
               with:
                   submodules: true
-                  path: ${FILES_PATH}
+                  path: source
             - name: Build Digital Archive
               id: build-digital-archive
-              uses: ./${FILES_PATH}/.github/actions
+              uses: ./source/.github/actions
               with:
                   MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
             - name: Netlify Deploy

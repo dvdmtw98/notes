@@ -1,11 +1,12 @@
 ---
 tags:
   - programming
-  - asp.net
   - csharp
   - webdev
+  - aspnet
 title: Entity Framework
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:31:31 -0600
 ---
 
 It is an **ORM (Object Relation Mapper)** that allows us to work with our databases at an higher level of abstraction

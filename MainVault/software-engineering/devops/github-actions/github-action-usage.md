@@ -5,6 +5,7 @@ tags:
   - pipeline
 title: GitHub Action Usage
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:28:32 -0600
 ---
 
 Default Working Directory: `/home/runner/work/<repo-name>/<repo-name>`  
@@ -31,4 +32,5 @@ In the Container the Working Directory is mounted at `/github/workspace/`
 The files that where included along with the composite action repo can be accessed at `/home/runner/work/_actions/repo-owner/name-of-action-repo/` or using `GITHUB_ACTION_PATH` variable
 
 [Variables - GitHub Docs](https://docs.github.com/en/actions/learn-github-actions/variables)  
+
 [Contexts - GitHub Docs](https://docs.github.com/en/actions/learn-github-actions/contexts#context-availability)

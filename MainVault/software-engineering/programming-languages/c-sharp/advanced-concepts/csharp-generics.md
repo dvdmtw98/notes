@@ -4,6 +4,7 @@ tags:
   - csharp
 title: CSharp Generics
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 10:33:19 -0600
 ---
 
 Generics is an feature that allows us to define placeholder datatypes for [[csharp-classes|Classes]], [[csharp-methods|Methods]], [[interface|Interfaces]], etc. which will be replaced by a specific datatype at compile time  
@@ -93,4 +94,5 @@ namespace Generics
 ````
 
 [C# - Generics](https://www.tutorialspoint.com/csharp/csharp_generics.htm)  
+
 [Constraints on type parameters - C# Programming Guide | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters)

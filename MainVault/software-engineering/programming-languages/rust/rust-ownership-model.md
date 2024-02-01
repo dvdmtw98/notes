@@ -6,13 +6,14 @@ tags:
   - management
 title: Rust Ownership Model
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 10:42:02 -0600
 ---
 
 ### Ownership Rules
 
-1. Each value in Rust has an variable. This variable is called Owner  
-2. There can only be one owner at a time (Value cannot be owned by multiple variables)  
-3. When the owner goes out of scope the variable is also dropped
+* Each value in Rust has an variable. This variable is called Owner  
+* There can only be one owner at a time (Value cannot be owned by multiple variables)  
+* When the owner goes out of scope the variable is also dropped
 
 ### Ownership
 

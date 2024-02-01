@@ -4,6 +4,7 @@ tags:
   - python
 title: Python Inheritance
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 10:40:26 -0600
 ---
 
 * Python supports all the four types of inheritance : Single, Multiple, Hierarchical and Multilevel
@@ -62,5 +63,6 @@ if __name__ == '__main__':
 When super() of an method/ property is called Python looks up the Class MRO (Method Resolution Order) and calls the method/ property that is next in the list  
 Helpful in understanding the order in which the method/ property will be called when using multiple inheritance
 
-[Inheritance in Python with Types and Examples - Python Geeks](https://pythongeeks.org/inheritance-in-python/)  
 [Python super()](https://www.programiz.com/python-programming/methods/built-in/super)
+
+[Inheritance in Python with Types and Examples - Python Geeks](https://pythongeeks.org/inheritance-in-python/)  

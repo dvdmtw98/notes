@@ -6,19 +6,21 @@ tags:
   - subnet
 title: IPv6 (Internet Protocol v6) Address
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-30 19:01:18 -0600
 ---
 
 Developed because we are running out of IPv4 addresses  
 It is 128 bit address. It makes use of complex hexadecimal format  
-IPv6 represent in Eight 16 bit Hexadecimal Blocks. They are separated with Colon  
-E.g. 2001:0DB8:85A3:0000:0000:8A2E:0370:7334  
+IPv6 represent in 8 16 bit Hexadecimal Blocks. They are separated with Colon  
+
+2001:0DB8:85A3:0000:0000:8A2E:0370:7334  
 2001:DB8:85A3:0:0:8A2E:370:7334 (Suppressing leading zeros)  
 2001:DB8:85A3::8A2E:370:7334 (Compress Contiguous Blocks of 0's into :: once)
 
 ### Advantages
 
 Improves routing, security and efficiency  
-IPv6 has packet header fixed at 40bytes compared to IPv4 variable length header  
+IPv6 has packet header fixed at 40-bytes compared to IPv4 variable length header  
 IPv6 has 8 header fields compared to 14 in IPv4 (Smaller and Efficient)  
 Hosts can assign own IP Address using its MAC Address and servers host address.  
 No DHCP required (Similar to APIPA)  

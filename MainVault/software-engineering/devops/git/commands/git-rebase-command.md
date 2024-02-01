@@ -4,6 +4,7 @@ tags:
   - devops
 title: Git Rebase Command
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:28:04 -0600
 ---
 
 Rebase is used to move an branch from its current location and append it on top of another branch  
@@ -44,6 +45,9 @@ git rebase --abort
  > * The local repo and the upstream do not match at this point hence upstream has to be overwritten with local copy
 
 [GIT Rebase vs GIT Merge for Novices | by Justin Tulk | Medium](https://medium.com/@justintulk/git-rebase-vs-git-merge-for-beginners-aecc1ef1c718)  
+
 [An introduction to Git merge and rebase: what they are, and how to use them](https://www.freecodecamp.org/news/an-introduction-to-git-merge-and-rebase-what-they-are-and-how-to-use-them-131b863785f/)  
+
 [When to use ‘Git Rebase’ explained | by Harish Yadav | Medium](https://medium.com/@harishlyadav/when-to-use-git-rebase-explained-3c8192cba5c7)  
+
 [git rebase | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)

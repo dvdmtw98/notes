@@ -4,6 +4,7 @@ tags:
   - book
   - mythology
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-02-01 00:36:32 -0600
 ---
 ### The First Order
 
@@ -141,11 +142,11 @@ flowchart LR
     classDef merge fill:#FFFFFF
 ```
 
-**Apate**: (Farus in Roman) - Fraud, Fraudulent, Fraudster  
-**Geras**: (Senectus in Roman) - Senior, Senate, Senile  
+**Apate**: (**Farus**) - Fraud, Fraudulent, Fraudster  
+**Geras**: (**Senectus**) - Senior, Senate, Senile  
 
-**Oizys**: (Miseria in Latin)  
-**Thanatos**: (Mors in Roman)  
+**Oizys** (**Miseria** in Latin): Misery, Depression  
+**Thanatos** (**Mors**): Death  
 
 **Phobetor**: God of Nigtmares  
 **Phantasos**: Things changing shapes in dream  
@@ -186,7 +187,7 @@ flowchart TD
 
 **Eriynes**: Eumenides (Kindly Ones)  
 **Meliae**: Nymphs of the Ash Tree  
-**Aphrodite**: (Venus in Roman)
+**Aphrodite** (**Venus**): Beauty, Love
 
 ### The Olympians
 
@@ -209,6 +210,9 @@ flowchart TD
     classDef neutral stroke:#999999,stroke-width:3px
     classDef merge fill:#FFFFFF
 ```
+
+**Hestia** (**Vesta**): Hearth  
+**Hades** (**Pluto**): Underworld  
 
 #### The Nine Muses
 

@@ -1,20 +1,19 @@
 ---
 tags:
   - programming
-  - asp.net
   - csharp
   - webdev
   - index
+  - aspnet
 title: ASP.NET
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:31:05 -0600
 ---
 
-### Table of Content
+### Related Concepts
 
 * [[action-result|Action Result]]
 * [[entity-framework|Entity Framework]]
-
----
 
 ### MVC Concept
 

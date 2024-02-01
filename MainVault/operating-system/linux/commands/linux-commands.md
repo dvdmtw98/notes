@@ -6,6 +6,7 @@ tags:
   - index
 title: Linux Commands
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 08:12:23 -0600
 ---
 
 ### Topic Related Commands
@@ -31,7 +32,6 @@ date: 2024-01-28 14:15:56 -0600
 * [[ln-command|ln Command]]
 * [[lsof-command|lsof Command]]
 * [[mount-commands|Mount Commands]]
-* [[paste-command|paste Command]]
 * [[seq-command|seq Command]]
 * [[sftp-command|sftp Command]]
 * [[sort-and-uniq-command|sort & uniq Command]]

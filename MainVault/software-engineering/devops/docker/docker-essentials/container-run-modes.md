@@ -5,6 +5,7 @@ tags:
   - container
 title: Container Run Modes
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:24:37 -0600
 ---
 
 ````bash
@@ -45,19 +46,19 @@ docker container exec -u 0 -it <container-name> bash
  > * An interactive container can be converted to an daemon container using `^P^Q` shortcut
  > * Exec command does not overwrite the entrypoint command executed by the container
 
-**<u>Options</u>**:  
--d : Run in detached/ background mode (--detach)  
--p 80:80 : 1st port is the host port and the 2nd one is the container port (--publish)  
--it : Run container in interactive mode and spawn a pseudo terminal (--interactive --tty)  
--a : Attach the container (Start again) (--attach)
+**Options**  
+`-d`: Run in detached/ background mode (--detach)  
+`-p 80:80`: 1st port is the host port and the 2nd one is the container port (--publish)  
+`-it`: Run container in interactive mode and spawn a pseudo terminal (--interactive --tty)  
+`-a`: Attach the container (Start again) (--attach)
 
---rm : Delete the container once it is exited (--remove)  
---name : Assign an name to the docker container  
--e : Used if the container allows environment variables to be set (--env)
+`--rm`: Delete the container once it is exited (--remove)  
+`--name`: Assign an name to the docker container  
+`-e`: Used if the container allows environment variables to be set (--env)
 
---net : Connect container to a specific interface (--network)  
---net-alias : Assign a alternative hostname for container (--network-alias)  
---link : Link container together
+`--net`: Connect container to a specific interface (--network)  
+`--net-alias`: Assign a alternative hostname for container (--network-alias)  
+`--link`: Link container together
 
--v : Create a volume and bind mount (--volume)  
--w : Working directory inside container (--workdir)
+`-v`: Create a volume and bind mount (--volume)  
+`-w`: Working directory inside container (--workdir)

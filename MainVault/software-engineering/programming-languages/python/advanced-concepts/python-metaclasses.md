@@ -4,6 +4,7 @@ tags:
   - python
 title: Python Metaclasses
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 10:39:30 -0600
 ---
 
 ### Data Types
@@ -126,4 +127,5 @@ Even before `__new__` is called there is an method called `__prepare__` which is
 ![[python-metaclasses.png|450]]
 
 [Adding a method to an existing object instance - Stack Overflow](https://stackoverflow.com/questions/972/adding-a-method-to-an-existing-object-instance)  
+
 [What are metaclasses in Python? - Stack Overflow](https://stackoverflow.com/questions/100003/what-are-metaclasses-in-python)

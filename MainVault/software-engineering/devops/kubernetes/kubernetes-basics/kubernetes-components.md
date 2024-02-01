@@ -6,6 +6,7 @@ tags:
   - orchestration
 title: Kubernetes Components
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:29:10 -0600
 ---
 
 ### Pods
@@ -46,14 +47,14 @@ The data from Config Map and Secrets can be accessed in Pod like an Environment 
 Used for creating/ updating pods and other objects (Rules for managing K8s objects)  
 Multiple Types: [[kubernetes-deployments|Deployment]], ReplicaSet, DaemonSet, StatefulSet, Cron, CronJob
 
-<u>Deployment</u>
+#### Deployment
   
 It is a type of Controller. Blueprint of actions to be performed on the Pods  
 It is an abstraction over the Pods which makes it more convenient to talk with the Pods  
 Provides the ability to create replicas of the Pods  
 DBs cannot be replicated using Deployments (As DBs are stateful)
 
-<u>StatefulSet</u>
+#### StatefulSet
   
 It is used when the state of the Pod needs to be maintained across multiple replicas of the Pod  
 Along with replication provides additional mechanisms to maintain data consistency

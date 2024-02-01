@@ -4,9 +4,10 @@ tags:
   - programming
 title: Rust Error Handling
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 10:41:33 -0600
 ---
 
-#### Result Enum
+### Result Enum
 
 Similar to the Options Enum Rust uses the Result Enum to show results that could fail  
 Ok contains the result value while Err contains a error type value
@@ -48,7 +49,7 @@ Closures can be used to make the above match statement more concise
 `unwrap()` returns the Some value and panics when None is returned (Not recommended)  
 `expect()` returns the Result Ok value and panics with the provided message
 
-#### Error Propagation
+### Error Propagation
 
 Using the `?` operator in Rust error can be propagated up to the calling function
 

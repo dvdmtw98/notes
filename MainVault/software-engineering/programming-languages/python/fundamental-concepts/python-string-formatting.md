@@ -4,6 +4,7 @@ tags:
   - python
 title: Python String Formatting
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 10:39:59 -0600
 ---
 
 ### % Method (Old Method)
@@ -55,5 +56,7 @@ print(f'{pi=:.2f})
 ````
 
 [Python String Formatting Best Practices – Real Python](https://realpython.com/python-string-formatting/)  
+
 [Common string operations - Python 3.12.1 documentation](https://docs.python.org/3/library/string.html#string-formatting)  
+
 [PyFormat: Using % and .format() for great good!](https://pyformat.info)

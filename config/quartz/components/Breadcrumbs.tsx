@@ -1,4 +1,5 @@
 import { QuartzPluginData } from "../plugins/vfile"
+import { classNames } from "../util/lang"
 import { FullSlug, SimpleSlug, resolveRelative } from "../util/path"
 import breadcrumbsStyle from "./styles/breadcrumbs.scss"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
@@ -130,7 +131,7 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
     }
 
     return (
-      <nav class={`breadcrumb-container ${displayClass ?? ""}`} aria-label="breadcrumbs">
+      <nav class={classNames(displayClass, "breadcrumb-container")} aria-label="breadcrumbs">
         {crumbs.map((crumb, index) => (
           <div class="breadcrumb-element">
             <a href={crumb.path}>{crumb.displayName}</a>

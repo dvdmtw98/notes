@@ -5,6 +5,7 @@ tags:
   - nmap
 title: Normal Scan Techniques
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-30 16:31:28 -0600
 ---
 
 #### Default Scan
@@ -41,7 +42,9 @@ Noisy scans can be easily detected by firewalls and IDS
 ````bash
 nmap -O <ip-address>
 nmap -O -sV <ip-address>
-nmap -A <ip-address> # Aggressive Scan : OS Detection, Service Versioning, Script Scanning & Traceroute
+
+# Aggressive: OS Detection, Service Versioning, Script Scanning & Traceroute
+nmap -A <ip-address>
 ````
 
 #### TCP Connect Scan/ Full Open Scan

@@ -7,6 +7,7 @@ tags:
   - index
 title: Kubernetes
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:30:26 -0600
 ---
 
 It is a open-source **container orchestration system**  
@@ -22,8 +23,6 @@ Kubernetes is ideal for micro-service architecture where tens to hundreds of ser
 High Availability - no downtime  
 Scalability - high performance  
 Disaster Recovery - backup and failure
-
----
 
 ### Table of Content
 
@@ -43,8 +42,6 @@ Disaster Recovery - backup and failure
 	* [[kubernetes-yaml-file|Kubernetes YAML File]]
 	* [[kubernetes-helm|Kubernetes HELM]]
 
----
-
 ### Miscellaneous Commands
 
 ````bash
@@ -57,6 +54,7 @@ kubectl -n kube-system rollout restart deployment coredns
 ````
 
 [kubectl for Docker Users | Kubernetes](https://kubernetes.io/docs/reference/kubectl/docker-cli-to-kubectl/)  
+
 [kubectl Cheat Sheet | Kubernetes](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
 The port order in Kubernetes is the reverse of Docker (Left: Pod, Right: Node)

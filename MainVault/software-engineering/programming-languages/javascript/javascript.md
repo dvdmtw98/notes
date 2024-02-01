@@ -6,6 +6,7 @@ tags:
   - index
 title: JavaScript
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 10:37:00 -0600
 ---
 
 ### Table of Content
@@ -14,8 +15,6 @@ date: 2024-01-28 14:15:56 -0600
 * [[reference-type-vs-value-type|Reference Type vs. Value Type]]
 * [[event-listeners|Event Listeners]]
 * [[js-other-features|JS - Other Features]]
-
----
 
 ### Best Practices & Coding Conventions
 

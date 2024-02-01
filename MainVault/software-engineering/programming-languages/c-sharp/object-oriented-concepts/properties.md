@@ -4,6 +4,7 @@ tags:
   - csharp
 title: Properties
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 10:34:41 -0600
 ---
 
 * It is a class method that encapsulates a getter and setter for accessing the class fields
@@ -59,4 +60,5 @@ namespace Properties
 ````
 
 [Properties - C# Programming Guide | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties)  
+
 [Set Default Value to Property in C#](https://www.tutorialsteacher.com/articles/set-default-value-to-property-in-csharp)

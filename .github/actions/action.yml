@@ -14,30 +14,30 @@ runs:
           id: copy-markdown
           shell: bash
           run: |
-              cp -a ${{ env.FILES_PATH }}/MainVault/. ${{ env.SITE_PATH }}/content \
-              && rm -rf ${{ env.SITE_PATH }}/content/{read-and-watch-list,.gitkeep}
+              cp -a source/MainVault/. quartz/content \
+              && rm -rf quartz/content/{read-and-watch-list,.gitkeep}
         - name: Copy Config
           id: copy-config
           shell: bash
-          run: cp -a ${{ env.FILES_PATH }}/config/. ${{ env.SITE_PATH }}
+          run: cp -a source/config/. quartz
         - name: Run Script
           id: run-script
           shell: bash
-          run: node ${{ env.SITE_PATH }}/scripts/modifyIndex.cjs ${{ env.SITE_PATH }}/content/index.md
+          run: node quartz/scripts/modifyIndex.cjs quartz/content/index.md
         - name: Setup Google Analytics
           id: setup-analytics
           shell: bash
-          run:  sed -i -E "s/XXXXXX/${{ inputs.MEASUREMENT_ID }}/" ${{ env.SITE_PATH }}/quartz.config.ts 
+          run:  sed -i -E "s/XXXXXX/${{ inputs.MEASUREMENT_ID }}/" quartz/quartz.config.ts 
         - name: Install Dependencies
           id: install-dependencies
           shell: bash
           run: |
-              cd ${{ env.SITE_PATH }} \
+              cd quartz \
               && npm clean-install \
               && npm install rehype-external-links
         - name: Build Site
           id: build-site
           shell: bash
           run: |
-            cd ${{ env.SITE_PATH }} \
+            cd quartz \
             && npx quartz build

@@ -4,6 +4,7 @@ tags:
   - c
 title: C Pointers
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:33:39 -0600
 ---
 
 Allows us to pass variables by its reference (address)  
@@ -33,8 +34,6 @@ printf("%d\n", *(*pptr)) // 22
 
 Pointers are helpful when we have to return multiple values from a function
 
----
-
 ### Void Pointer
 
 Called as general purpose pointers and can point to an address of any datatype  
@@ -43,8 +42,6 @@ To access the data that is referenced by the void pointer it needs to be type ca
 Direct dereferencing (Accessing the value pointed by pointer) will result in Error
 
 `malloc()` & `calloc()` returns void pointer which allows then to allocate memory for any datatype
-
----
 
 ### Null Pointer
 

@@ -4,6 +4,7 @@ tags:
   - index
 title: Cyber Security
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 23:44:37 -0600
 ---
 
 ### Certifications
@@ -38,6 +39,7 @@ date: 2024-01-28 14:15:56 -0600
 * [[beef|BeEF]]
 * [[metasploit-framework|Metasploit Framework]]
 * [[nmap|Nmap]]
+	* [[rust-scan|Rust Scan]]
 * [[bettercap|BetterCap]]
 * [[misc-utilities|Misc. Utilities]]
 

@@ -5,13 +5,14 @@ tags:
   - container
 title: Docker Network
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:25:42 -0600
 ---
 
 ### Default Network Types
 
-**Bridged** : Default. Connects the docker Virtual Network to the Network of the host  
-**Host** : Directly attaches the docker containers to the host network (Faster Performance but less secure)  
-**None** : Only localhost interface no access to internet
+**Bridged**: Default. Connects the docker Virtual Network to the Network of the host  
+**Host**: Directly attaches the docker containers to the host network (Faster Performance but less secure)  
+**None**: Only localhost interface no access to internet
 
 Third party drivers can be downloaded for creating other types of networks
 
@@ -83,8 +84,8 @@ docker network connect <network-name> <container-name>
 docker network disconnect <network-name> <container-name>
 ````
 
-**<u>Options</u>**:  
--d : Specify a driver for the network (--driver)  
---net-alias : Set an alias for the hostname of a container  
---link : Link the containers to each other  
---ip : Specify an IP Address
+**Options**  
+`-d`: Specify a driver for the network (--driver)  
+`--net-alias`: Set an alias for the hostname of a container  
+`--link`: Link the containers to each other  
+`--ip`: Specify an IP Address

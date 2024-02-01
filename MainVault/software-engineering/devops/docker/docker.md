@@ -6,6 +6,7 @@ tags:
   - index
 title: Docker
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:27:19 -0600
 ---
 
 ### Table of Content
@@ -31,8 +32,6 @@ date: 2024-01-28 14:15:56 -0600
 	* [[swarm-stacks|Swarm Stacks]]
 	* [[swarm-secrets|Swarm Secrets]]
 
----
-
 ### Docker Command Format
 
 [Docker Commands, Help & Tips · GitHub](https://gist.github.com/bradtraversy/89fad226dc058a41b596d586022a9bd3)
@@ -43,14 +42,14 @@ docker version 	# Verify CLI can talk to Engine
 docker info     # Config Settings of Engine
 ````
 
-<u>New Docker Command Format</u>
+#### New Docker Command Format
 
 ````bash
 docker <command> <sub-command> (options)
 docker container run
 ````
 
-<u>Old Docker Command Format</u>
+#### Old Docker Command Format
 
 ````bash
 docker <command> (options)

@@ -5,13 +5,13 @@ tags:
   - container
 title: Docker Volumes
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:25:48 -0600
 ---
 
 Containers are immutable and ephemeral  
 This is an issue if our application generates persistent data
 
-Docker has two solutions to deal with this problem:
-
+Docker has two solutions to deal with this problem:  
 * **Volume**: Make special volume outside of UFS
 * **Bind Mount**: Maps host directory to container directory
 

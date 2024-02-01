@@ -6,6 +6,7 @@ tags:
   - orchestration
 title: Kubernetes StatefulSet
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:30:05 -0600
 ---
 
 An sticky identity is assigned to each Pod in the Set  
@@ -36,7 +37,6 @@ Next Pod is not created until and unless the previous Pod is up and running
 If the Stateful Set is scales down then the deletion happens in reverse order (Waits for the Pod to be successfully deleted before the next deletion begins)
 
 Each Stateful Set gets two DNS endpoints
-
 * Service allow to access the Stateful Set which routes traffic to all the Pods (Same as Deployment)
 * Individual DNS name that is assigned to each Pod (It is made of the Pod name and the Governing Service Name)
 

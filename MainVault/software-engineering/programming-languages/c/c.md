@@ -5,6 +5,7 @@ tags:
   - index
 title: C
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:33:20 -0600
 ---
 
 ### Table of Content
@@ -17,8 +18,6 @@ date: 2024-01-28 14:15:56 -0600
 	* [[c-strings|C Strings]]
 	* [[c-structs|C Structs]]
 	* [[c-modules|C Modules]]
-
----
 
 ### Common Commands
 
@@ -40,21 +39,22 @@ gcc filename.o filename2.o -o executable.o
 
 ### Miscellaneous Points
 
-1. <u>Arrays</u>  
-   Name of arrays in C stores the base address of the array
+#### Arrays
+Name of arrays in C stores the base address of the array
 
-2. <u>Include Statements</u>  
-   The include statements that are used in C are called as "Preprocessor Directives". They are macros that copies the content of the source file of the header into our code before compilation
+#### Include Statements
+The include statements that are used in C are called as "Preprocessor Directives"  
+They are macros that copies the content of the source file of the header into our code before compilation
 
-3. <u>Library Files</u>  
-   To include the **Math library** (libm.a) in a program we need to specify the `-lm` flag  
-   `.a` (Archive) are static library files and are **embedded** into our code `.so` (Shared Object) are dynamic library files and are only **referenced** by our program
+#### Library Files
+To include the **Math library** (libm.a) in a program we need to specify the `-lm` flag  
+`.a` (Archive) are static library files and are **embedded** into our code `.so` (Shared Object) are dynamic library files and are only **referenced** by our program
 
-4. <u>Switch Statement</u>  
-   Cannot be used for string and other reference type variables
+#### Switch Statement
+Cannot be used for string and other reference type variables
 
-5. <u>Loops</u>  
-   Break statement used inside a nested loop will remove is out of all the loops
+#### Loops
+Break statement used inside a nested loop will remove is out of all the loops
 
 ````c
 int sum = 0
@@ -66,8 +66,8 @@ for(int i = 0, j = n; i <= n && j >= 0; i++, j --)
 printf("Sum : %d\n", sum);
 ````
 
-6. <u>Functions</u>  
-   In C there is **no concept** of **reference type** variables (can achieve similar effect using pointers). To return multiple values from function we can use **pointers**. 
-7. <u>Datatypes</u>  
-   Datatypes like uint_16 (Fixed Size variables) are used when we want to make our code portable and occupy the same space on all systems. Types like int can have different space requirement depending on system
+#### Functions
+In C there is **no concept** of **reference type** variables (can achieve similar effect using pointers). To return multiple values from function we can use **pointers**. 
    
+#### Datatypes
+Datatypes like uint_16 (Fixed Size variables) are used when we want to make our code portable and occupy the same space on all systems. Types like int can have different space requirement depending on system

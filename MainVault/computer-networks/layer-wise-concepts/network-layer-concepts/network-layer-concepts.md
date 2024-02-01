@@ -5,15 +5,16 @@ tags:
   - index
 title: Network Layer Concepts
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-30 18:41:34 -0600
 ---
 
 ### Related Topics
 
-* [[ipv4-internet-protocol-v4-address|IPv4 (Internet Protocol v4) Address]]
+* [[ipv4-address|IPv4 Address]]
 	* [[ip-address-classes|IP Address Classes]]
 	* [[public-and-private-ip-addresses|Public & Private IP Addresses]]
 	* [[cidr-classless-inter-domain-routing|CIDR (Classless Inter-Domain Routing)]]
-* [[ipv6-internet-protocol-v6-address|IPv6 (Internet Protocol v6) Address]]
+* [[ipv6-address|IPv6 Address]]
 	* [[ipv4-to-ipv6-transition|IPv4 to IPv6 Transition]]
 * [[subnetting|Subnetting]]
 * [[apipa-automatic-private-ip-addressing|APIPA (Automatic Private IP Addressing)]]

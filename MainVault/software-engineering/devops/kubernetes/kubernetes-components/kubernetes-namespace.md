@@ -6,6 +6,7 @@ tags:
   - orchestration
 title: Kubernetes Namespace
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-31 09:29:35 -0600
 ---
 
 Namespaces are used to logically segregate objects in the cluster  
@@ -16,11 +17,10 @@ kubectl get namespaces
 ````
 
 Four namespaces created by default:
-
-* **kube-system** : Consist of K8s management process. Should not be accessed by user
-* **kube-public** : Contains config map which has cluster information that can be accessed even without authentication
-* **kube-node-lease** : Contains hearthbeat information. Each node as associated lease object in namespace. Determines availability of Nodes
-* **default** : User resources without namespaces are created here
+* **kube-system**: Consist of K8s management process. Should not be accessed by user
+* **kube-public**: Contains config map which has cluster information that can be accessed even without authentication
+* **kube-node-lease**: Contains hearthbeat information. Each node as associated lease object in namespace. Determines availability of Nodes
+* **default**: User resources without namespaces are created here
 
 ````bash
 kubectl create namespace <namespace-name>
