@@ -6,6 +6,7 @@ tags:
   - orchestration
 title: Azure Kubernetes Service (AKS)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Container orchestrator for running and managing the end-to-end lifecycle of containers  

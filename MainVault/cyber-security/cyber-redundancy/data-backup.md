@@ -5,6 +5,7 @@ tags:
   - redundancy
 title: Data Backup
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 The process of creating duplicate copies of digital information to protect against data loss, corruption or unavailability

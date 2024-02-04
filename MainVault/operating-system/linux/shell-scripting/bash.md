@@ -1,10 +1,9 @@
 ---
 tags:
-  - os
   - linux
   - bash
-  - programming
   - index
+  - scripting
 title: Bash
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 21:59:42 -0600

@@ -1,10 +1,10 @@
 ---
 tags:
-  - programming
   - css
   - webdev
 title: CSS Specificity
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 If **multiple same type selectors** are used and they have conflicting attributes then the one that is last in the cascade is will be applied 

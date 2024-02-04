@@ -5,6 +5,7 @@ tags:
   - data-warehouse
 title: Snowflake Architecture
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Snowflake makes use of separate layers for processing and storing the data  

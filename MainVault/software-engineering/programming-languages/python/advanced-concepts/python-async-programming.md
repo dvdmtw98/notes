@@ -4,6 +4,7 @@ tags:
   - programming
 title: Python Async Programming
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Marking a function as `async` turns it into a coroutine function  

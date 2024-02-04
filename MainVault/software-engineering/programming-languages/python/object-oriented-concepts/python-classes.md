@@ -7,7 +7,7 @@ date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-29 10:33:04 -0600
 ---
 
-The [[attributes]] and [[property|properties]] in a class can be of two types: **Class** attributes and **Instance** attributes (Static not supported)  
+The [[attributes]] and [[python-property|properties]] in a class can be of two types: **Class** attributes and **Instance** attributes (Static not supported)  
 The [[python-methods|methods]] in a class can be of three types: **Instance** Methods, **Class** Methods and **Static** Methods
 
 ````python type="person.py"

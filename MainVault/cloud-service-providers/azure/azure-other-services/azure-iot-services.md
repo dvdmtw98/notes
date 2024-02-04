@@ -5,6 +5,7 @@ tags:
   - iot
 title: Azure IoT Services
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 It is an network of internet connected devices are embedded in everyday objects and allows to send and receive data (settings, telemetry, etc.)

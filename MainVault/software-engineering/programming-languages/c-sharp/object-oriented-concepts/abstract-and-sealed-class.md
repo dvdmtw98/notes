@@ -4,6 +4,7 @@ tags:
   - csharp
 title: Abstract & Sealed Class
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 * In the parent class if we do not implement the logic for a [[csharp-methods|method]] (As the method should be [[method-overriding|overriden]] in the child classes) then we make use of the abstract class

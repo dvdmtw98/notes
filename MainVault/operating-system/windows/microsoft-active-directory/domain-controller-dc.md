@@ -5,6 +5,7 @@ tags:
   - security
 title: Domain Controller (DC)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 * It is a server computer that responds to security authentication requests within a computer network domain

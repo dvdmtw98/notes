@@ -5,6 +5,7 @@ tags:
   - routing
 title: Router
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Connect two different networks together and forwards traffic to and from networks   

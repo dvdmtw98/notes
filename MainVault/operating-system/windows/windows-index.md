@@ -5,6 +5,7 @@ tags:
   - index
 title: Windows Index
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-02-03 08:04:36 -0600
 ---
 
 ### Table of Content
@@ -21,6 +22,7 @@ date: 2024-01-28 14:15:56 -0600
 	* [[windows-terminal|Windows Terminal]]
 	* [[wsl-configuration|WSL Configuration]]
 	* [[winget-commands|Winget Commands]]
+	* [[powershell|PowerShell]]
 * **Misc. Windows Stuff**
 	* [[windows-files-and-tweaks|Windows Files & Tweaks]]
 	* [[windows-shortcuts|Windows Shortcuts]]

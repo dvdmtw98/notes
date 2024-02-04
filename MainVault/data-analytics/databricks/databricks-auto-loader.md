@@ -4,6 +4,7 @@ tags:
   - databricks
 title: Databricks Auto Loader
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Auto Loader only supports loading data from directories (Block Storage)  

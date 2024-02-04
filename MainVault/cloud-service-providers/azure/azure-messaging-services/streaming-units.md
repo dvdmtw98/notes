@@ -5,6 +5,7 @@ tags:
   - streaming
 title: Streaming Units
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Streaming Units assigned for each job is variable and is dependent on the partition configuration  

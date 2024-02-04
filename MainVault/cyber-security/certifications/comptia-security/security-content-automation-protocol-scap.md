@@ -6,6 +6,7 @@ tags:
   - vulnerability
   - protect
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Suite of open standards that automate vulnerability management, measurement and policy compliance for systems in an organization  

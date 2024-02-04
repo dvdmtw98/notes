@@ -4,6 +4,7 @@ tags:
   - security
 title: Data Loss Prevention (DLP)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Monitor the data of a system while in use, transit or at rest to detect attempts to steal data

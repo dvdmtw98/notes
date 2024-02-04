@@ -5,6 +5,7 @@ tags:
   - container
 title: Docker File
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Generally created with the filename "Dockerfile" and saved in the root of the project  

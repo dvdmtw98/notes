@@ -1,6 +1,7 @@
 ---
 title: DNS Spoofing Attack
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 After performing MITM attack all the targets packets are flowing through our system. We can redirect the user to an malicious website by spoofing the DNS request of the user

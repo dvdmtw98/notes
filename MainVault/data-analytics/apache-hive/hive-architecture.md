@@ -4,6 +4,7 @@ tags:
   - hive
 title: Hive Architecture
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Used for data warehousing. Used to process and query structured data in OLAP  

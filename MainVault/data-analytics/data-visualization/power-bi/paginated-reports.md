@@ -5,6 +5,7 @@ tags:
   - reporting
 title: Paginated Reports
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Paginated Report is a report designed to fit into a page format so that they can be printed or shared. They are generally repressed as tables  

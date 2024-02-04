@@ -5,6 +5,7 @@ tags:
   - management
 title: Access Control Types
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 It is assumed that the system has a data owner/data manager/system admin who configures the access controls  

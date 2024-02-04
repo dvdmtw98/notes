@@ -4,6 +4,7 @@ tags:
   - csharp
 title: Interface
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 They have a similar to [[structs|structures]] and [[csharp-classes|classes]]. [[csharp-methods|Methods]] in Interfaces do not have a declaration (they are only defined similar to [[abstract-and-sealed-class|Abstract]] Methods)  

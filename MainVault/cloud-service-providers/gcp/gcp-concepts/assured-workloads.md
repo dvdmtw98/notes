@@ -4,6 +4,7 @@ tags:
   - cloud
 title: Assured Workloads
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 A feature that allows you to apply various security controls to an environment

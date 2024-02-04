@@ -4,6 +4,7 @@ tags:
   - spark
 title: Spark Joins
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Joins use more shuffles than any other process in Spark. It always leads to bad performance

@@ -4,6 +4,7 @@ tags:
   - python
 title: Attributes
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 * **Instance Attributes** : These attributes are declared inside the `__init__` method of the class. They are difference for each instance of the class

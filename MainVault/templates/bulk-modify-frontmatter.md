@@ -3,8 +3,9 @@ await Promise.all(
   app.vault.getMarkdownFiles().map(async file => {
     try {
       await app.fileManager.processFrontMatter(file, (frontmatter) => {
-        if (!frontmatter["date"]) {
-          frontmatter["date"] = tp.file.creation_date("YYYY-MM-DD HH:mm:ss ZZ");
+        if (!frontmatter["updated"]) {
+          // tp.file.creation_date("YYYY-MM-DD HH:mm:ss ZZ");
+          frontmatter["updated"] = frontmatter["date"]
         }
       });
     } catch (err) {

@@ -4,6 +4,7 @@ tags:
   - web
 title: HSTS (HTTP Strict Transport Security)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 More Secure (Strict) version of HTTPS. Used by big sites like Facebook, Twitter, etc.

@@ -6,6 +6,7 @@ tags:
   - cosmos-db
 title: Table API
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 The Table API for Cosmos DB uses [[azure-tables|Azure Tables]] that are present in [[azure-storage-services|Azure Storage Services]], but adds a couple of extra features and functionality on top of them

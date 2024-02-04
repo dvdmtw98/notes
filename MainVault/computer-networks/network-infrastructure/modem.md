@@ -4,6 +4,7 @@ tags:
   - device
 title: Modem
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Uses Modulation and Demodulation to convert digital signals to analog signals that can be transferred over a network that was not designed for carrying data  

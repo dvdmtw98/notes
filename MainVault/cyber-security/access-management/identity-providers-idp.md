@@ -4,6 +4,7 @@ tags:
   - security
 title: Identity Providers (IdP)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 A system entity that creates, maintains and manages identity information for principals and also provides authentication services to applications within a federation or distributed network  

@@ -5,6 +5,7 @@ tags:
   - analytics
 title: AWS Athena
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Allows to build structure on top data that is stored in [[s3-simple-storage-service|S3 (Simple Storage Service)]]  

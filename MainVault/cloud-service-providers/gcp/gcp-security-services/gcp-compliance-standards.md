@@ -6,6 +6,7 @@ tags:
   - policy
 title: GCP Compliance Standards
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 ### International Organization for Standardization (ISO)/ International Electrotechnical Commission (IEC)

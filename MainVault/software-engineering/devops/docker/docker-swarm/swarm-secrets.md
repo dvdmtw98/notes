@@ -6,6 +6,7 @@ tags:
   - orchestration
 title: Swarm Secrets
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Secrets need to be stored in the Swarm before they can be used by the Services

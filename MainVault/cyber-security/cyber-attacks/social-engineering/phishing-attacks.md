@@ -6,6 +6,7 @@ tags:
   - attack
 title: Phishing Attacks
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Attacks using deceptive emails that appear to be from trusted sources  

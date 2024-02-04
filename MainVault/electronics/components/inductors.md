@@ -4,6 +4,7 @@ tags:
   - component
 title: Inductors
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Current passing through a coil causes a strong magnetic field  

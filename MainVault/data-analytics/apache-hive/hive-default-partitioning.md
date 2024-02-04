@@ -5,6 +5,7 @@ tags:
   - partition
 title: Hive Default Partitioning
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 The partition is not defined by the user it is decided based on the data and its hash value.  

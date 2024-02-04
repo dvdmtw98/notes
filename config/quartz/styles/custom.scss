@@ -3,7 +3,7 @@
 // put your custom CSS here!
 @use "./variables.scss" as *;
 
-// Left Sidebar Dark Mode and Search Bar Alignment
+// Left Sidebar Components Alignment
 
 .left {
   display: grid !important;
@@ -63,14 +63,15 @@ table {
   }
 }
 
-// Heading Highlight when Link
+// Heading Link Highlight
 
 article {
   > :is(h1, h2, h3, h4, h5, h6) {
-    > a {
+    >a {
       &.internal {
         background-color: var(--highlight);
         color: var(--secondary);
+
         &:hover {
           color: var(--tertiary);
         }
@@ -79,7 +80,7 @@ article {
   }
 }
 
-// Change Header Size
+// Heading Sizes
 
 h2 {
   font-size: 1.5rem;
@@ -93,4 +94,11 @@ h4,
 h5,
 h6 {
   font-size: 1.15rem;
+}
+
+// Popover Element Show Delay
+
+a:hover .popover,
+.popover:hover {
+  animation-delay: 0.8s;
 }

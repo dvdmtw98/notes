@@ -3,12 +3,13 @@ tags:
   - programming
 title: Big-O Notation
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-02-03 08:03:36 -0600
 ---
 
 Allows us to measure the scalability (Speed + Memory) of a solution  
 Big O notation measures the worst case complexity
 
-**<u>Asymptotic Notations</u>**  
+**Asymptotic Notations**  
 O (Upper Bound)  
 Ω (Lower Bound)  
 Θ (Tight Bound)
@@ -23,7 +24,7 @@ Quadric Time: O($n^2$) - Nested Loop
 Exponential Time: O($2^n$) - Recursive Function  
 Factorial Time: O(n!) - Loop for each element
 
-**<u>Examples</u>**  
+**Examples**  
 Subset of Set: O($2^n$)  
 Permutations of String: O(n!)  
 Search: O(log(n))  
@@ -34,7 +35,7 @@ Iterating over MxN matrix: O(mn)
 
 When calculating space complexity we are talking about the extra space required by algorithm (Input size is not considered) 
 
-O(1) : Primitives  
-O(n) : Strings, Reference Type
+`O(1)`: Primitives  
+`O(n)`: Strings, Reference Type
 
-[Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!) @ericdrowell](https://www.bigocheatsheet.com)
+[Big-O Algorithm Complexity Cheat Sheet (Know Thy Complexities!)](https://www.bigocheatsheet.com)

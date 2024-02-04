@@ -1,6 +1,8 @@
-import { version } from "../../package.json"
-import style from "./styles/footer.scss"
-import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { version } from "../../package.json";
+// @ts-ignore
+import commentsScript from "./scripts/comments.inline";
+import style from "./styles/footer.scss";
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types";
 
 interface Options {
   links: Record<string, string>
@@ -13,6 +15,7 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
+        <div class="giscus" style={{ marginBlock: "2rem" }} ></div>
         <p>
             © 2022-{year} David Varghese. Created with <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>.
         </p>
@@ -27,6 +30,7 @@ export default ((opts?: Options) => {
     )
   }
 
-  Footer.css = style
-  return Footer
+    Footer.beforeDOMLoaded = commentsScript
+    Footer.css = style
+    return Footer
 }) satisfies QuartzComponentConstructor

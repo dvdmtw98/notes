@@ -5,6 +5,7 @@ tags:
   - management
 title: Risk Identification
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Recognizing potential risks that could negatively impact an organizations ability to operate or achieve its objectives  

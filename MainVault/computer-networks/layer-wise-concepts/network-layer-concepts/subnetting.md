@@ -6,6 +6,7 @@ tags:
   - subnet
 title: Subnetting
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Using default Class A, B and C subnets (Classful IP Addressing) is inefficient  

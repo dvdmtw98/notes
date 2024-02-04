@@ -6,6 +6,7 @@ tags:
   - sql
 title: Temporal Tables
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Temporal Table or System versioned Temporal Table is a pair of two tables (current table and history table) that is used to track the current valid value and values that where valid in the past (historic values)  

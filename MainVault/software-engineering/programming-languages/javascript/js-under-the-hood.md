@@ -1,10 +1,11 @@
 ---
 tags:
-  - programming
   - javascript
   - webdev
+  - scripting
 title: JS - Under the Hood
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-02-03 10:36:01 -0600
 ---
 
 Single threaded language. Sequential flow of statements  
@@ -21,7 +22,7 @@ The Execution Context consists of the currently running code and everything that
 
 ### Execution Context Creation
 
-<u>Memory Creation Stage</u>
+#### Memory Creation Stage
 
 * Creates the global object (browser : window & Node.js : global)
 * Creates the "this" object and binds it to the global object
@@ -29,7 +30,7 @@ The Execution Context consists of the currently running code and everything that
 	* For Functions the entire code is stored in memory
 	* For function the values are initially set to **undefined** (Important to understand hoisting)
 
-<u>Execution Phase</u>
+#### Execution Phase
 
 * Execute code line by line (Function code is skipped as its already saved in memory)
 * When new **function call** encountered creates a new execution context

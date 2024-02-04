@@ -6,6 +6,7 @@ tags:
   - memory
 title: Stack and Heap Memory
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 The Stack memory is used to hold value type objects  

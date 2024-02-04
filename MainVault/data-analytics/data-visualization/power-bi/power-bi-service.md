@@ -5,6 +5,7 @@ tags:
   - reporting
 title: Power BI Service
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Cloud based service where users can view/ interact with reports and create dashboards  

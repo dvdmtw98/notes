@@ -1,7 +1,7 @@
 ---
 title: Python
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-31 10:40:44 -0600
+updated: 2024-02-03 10:31:09 -0600
 ---
 
 ### Table of Content
@@ -28,7 +28,7 @@ updated: 2024-01-31 10:40:44 -0600
 	* [[python-constructor|Python Constructor]]
 	* [[python-methods|Python Methods]]
 	* [[attributes|Attributes]]
-	* [[property|Property]]
+	* [[python-property|Python Properties]]
 	* [[python-access-modifiers|Python Access Modifiers]]
 	* [[python-inheritance|Python Inheritance]]
 	* [[python-method-overriding|Python Method Overriding]]

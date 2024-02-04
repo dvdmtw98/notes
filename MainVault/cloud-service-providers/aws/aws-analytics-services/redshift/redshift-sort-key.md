@@ -6,6 +6,7 @@ tags:
   - redshift
 title: Redshift Sort Key
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 We can specify 1 or more columns are sort key that is going to be used by to save the inserted data in sorted order on disc  

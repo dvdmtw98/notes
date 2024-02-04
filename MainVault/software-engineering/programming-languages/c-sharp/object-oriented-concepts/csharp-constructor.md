@@ -4,6 +4,7 @@ tags:
   - csharp
 title: CSharp Constructor
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 * It is used to initialize the [[fields|Fields]] in a [[csharp-classes|Class]]. It has the same name as the class and does not have a return type

@@ -5,6 +5,7 @@ tags:
   - nmap
 title: Nmap Scripting Engine (NSE)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 The Nmap scripts are written in Lua language  

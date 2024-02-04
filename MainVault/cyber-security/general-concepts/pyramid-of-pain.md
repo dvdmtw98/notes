@@ -4,6 +4,7 @@ tags:
   - soc
 title: Pyramid of Pain
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 The model helps to determine the level of difficulty it will cause an adversary to change the indicators associated with them, and their campaign.

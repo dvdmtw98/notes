@@ -1,6 +1,7 @@
 ---
 title: Enabling Monitor Mode
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Managed Mode: View/ Capture packets meant for source device only  

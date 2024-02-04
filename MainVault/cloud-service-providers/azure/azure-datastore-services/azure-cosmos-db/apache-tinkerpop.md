@@ -7,6 +7,7 @@ tags:
   - cosmos-db
 title: Apache TinkerPop
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 It is a graph computing framework for both graph databases (OLTP) and graph analytic systems (OLAP)  

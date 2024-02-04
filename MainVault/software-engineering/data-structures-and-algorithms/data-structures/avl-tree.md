@@ -3,6 +3,7 @@ tags:
   - data-structure
 title: AVL Tree
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 AVL Tree is an type of BST that will automatically balance itself which in turn ensures that we have log(n) time complexity for all the operations

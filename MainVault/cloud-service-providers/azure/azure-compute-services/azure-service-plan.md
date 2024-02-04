@@ -4,6 +4,7 @@ tags:
   - compute
 title: Azure Service Plan
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 It is the underlying VM (compute) that powers Web App, Function App and Logic App  

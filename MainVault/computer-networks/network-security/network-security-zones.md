@@ -4,6 +4,7 @@ tags:
   - security
 title: Network Security Zones
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 An organizations network can be divided into two zones:  

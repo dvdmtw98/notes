@@ -5,6 +5,7 @@ tags:
   - structs
 title: Rust Structs
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Structs are similar to tuples. They allow to hold related data together  

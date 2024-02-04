@@ -5,6 +5,7 @@ tags:
   - streaming
 title: AWS Kinesis
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 It makes it easy to collect, process and analyze real-time streaming data so we can get timely insights or react quickly to new information

@@ -4,6 +4,7 @@ tags:
   - python
 title: Python Collections
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Any object in python that can return one element at a time is referred to as a iterable.  List, Tuple, Set and Dictionary are all considered as iterables

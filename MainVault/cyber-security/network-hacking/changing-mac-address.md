@@ -1,6 +1,7 @@
 ---
 title: Changing MAC Address
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 [[mac-media-access-control-address|MAC (Media Access Control) Address]] is used to identify devices on a network.  

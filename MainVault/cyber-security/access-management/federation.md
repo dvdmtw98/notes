@@ -6,6 +6,7 @@ tags:
   - identity
   - management
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Process that allows for the linking of electronic identities and attributes across multiple distinct identity management systems  

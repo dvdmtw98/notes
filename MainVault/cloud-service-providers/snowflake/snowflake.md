@@ -6,6 +6,7 @@ tags:
   - index
 title: Snowflake
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Snowflake is an data warehouse provided as SaaS (Software as a Service)  

@@ -6,6 +6,7 @@ tags:
   - cosmosdb
 title: Service-side Features
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Stored Procedures, Triggers and UDFs are executed in the Database engine  

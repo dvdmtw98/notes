@@ -4,6 +4,7 @@ tags:
   - spark
 title: Delta Lake (Spark Queries)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 It enables ACID properties in Spark. DML commands can then be performed in Spark.  

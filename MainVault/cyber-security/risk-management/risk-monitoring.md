@@ -5,6 +5,7 @@ tags:
   - management
 title: Risk Monitoring
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Continuously tracking identified risks, assessing new risks, executing response plans and evaluating their effectiveness during a projects lifecycle

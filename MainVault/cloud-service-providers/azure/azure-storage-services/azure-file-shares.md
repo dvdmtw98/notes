@@ -5,6 +5,7 @@ tags:
   - storage
 title: Azure File Shares
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 It is a fully managed file share on the cloud. The files are stored in containers called Shares  

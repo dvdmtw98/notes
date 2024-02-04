@@ -5,6 +5,7 @@ tags:
   - physical
 title: Ethernet
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 It is a network protocol that controls how data is transmitted over LAN (IEEE 802.3)  

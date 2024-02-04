@@ -6,6 +6,7 @@ tags:
   - api
 title: Azure API Management
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Azure service to create consistent and modern API gateways for existing backend services  

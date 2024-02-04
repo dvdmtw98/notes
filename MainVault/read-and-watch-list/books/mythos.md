@@ -4,7 +4,7 @@ tags:
   - book
   - mythology
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-01 00:36:32 -0600
+updated: 2024-02-03 20:00:39 -0600
 ---
 ### The First Order
 
@@ -67,16 +67,18 @@ flowchart LR
 	Eos["Eos\n(Dawn)"]:::female
 	Pontus["Pontus\n(Sea)"]:::male
 	Eurybia["Eurybia"]:::female
+	Nereus:::male
+	Doris:::female
 
-	Gaia & Pontus --- N0(( )):::merge --> Eurybia
+	Pontus & Gaia --- N0(( )):::merge --> Eurybia & Nereus
 	Gaia & Ouranos --- N1(( )):::merge
-	N1 --> Oceanus & Coeus & Crius & Hyperion & Iapetus & Kronos
-	N1 --> Theia & Themis & Mnemosyne & Phoebe & Tethys & Rhea
+	N1 --> Coeus & Crius & Hyperion & Theia & Iapetus & Kronos
+	N1 --> Themis & Mnemosyne & Phoebe & Oceanus & Tethys & Rhea
 	N1 --- N2(Cyclopes):::neutral & N3(Hecatonchires):::neutral
 	N2 --> Brontes & Steropes & Arges
 	N3 --> Cottus & Gyges & Aegaeon
 	Oceanus & Tethys --- N4(( )):::merge --> Nilus
-	N4 --- N5(Oceanids):::neutral --> Clymene & Metis
+	N4 --- N5(Oceanids):::neutral --> Clymene & Metis & Doris
 	Hyperion & Theia --- N6(( )):::merge --> Helios & Selene & Eos
 
     classDef male stroke:#0000FF,stroke-width:3px
@@ -98,7 +100,7 @@ flowchart LR
 
 | Father | Mother | Children |
 | :--- | :--- | :--- |
-| Oceanus | Tethys | Nile, other rivers & 3000 Oceanids - Clymene, Metis |
+| Oceanus | Tethys | Nile, other rivers & 3000 Oceanids - Clymene, Metis, Doris |
 | Coeus | Phoebe |  |
 | Crius | Eurybia |  |
 | Hyperion | Theia | Helios, Selene, Eos |
@@ -189,6 +191,41 @@ flowchart TD
 **Meliae**: Nymphs of the Ash Tree  
 **Aphrodite** (**Venus**): Beauty, Love
 
+#### Other Decendents
+
+```mermaid
+flowchart LR
+	Oceanus:::male
+	Tethys:::female
+	Styx["Styx\n(Hate)"]:::female
+	Phlegethon["Phlegethon\n(Fire)"]:::male
+	Acheron["Acheron\n(Woe)"]:::male
+	Lethe["Lethe\n(Forgetfulness)"]:::female
+	Cocytus["Cocytus\n(Lamentation)"]:::male
+	Echidna:::female
+	Typhoon:::male
+	Kerberos:::male
+	Hydra:::female
+	Gaia["Gaia\n(Earth)"]:::female
+	Tartarus:::male
+
+	Oceanus & Tethys --- N1(( )):::merge
+	N1 --> Styx & Phlegethon & Acheron & Lethe & Cocytus
+
+	Gaia & Tartarus --- N2(( )):::merge
+	N2 --> Echidna & Typhoon
+
+	Echidna & Typhoon --- N3(( )):::merge
+	N3 --> Kerberos & Hydra
+
+    classDef male stroke:#0000FF,stroke-width:3px
+    classDef female stroke:#DE3163,stroke-width:3px
+    classDef neutral stroke:#999999,stroke-width:3px
+    classDef merge fill:#FFFFFF
+```
+
+**Kerberos** (**Cerberus**): Three-headed dog with snake tail  
+
 ### The Olympians
 
 ```mermaid
@@ -213,6 +250,53 @@ flowchart TD
 
 **Hestia** (**Vesta**): Hearth  
 **Hades** (**Pluto**): Underworld  
+**Poseidon** (**Neptune**): Ocean & Seas  
+**Demeter** (**Ceres**): Harvest, Fertility and Seasons  
+**Hera** (**Juno**): Marriage & Childbirth  
+**Zeus** (**Jupiter**): Sky & Thunder
+
+#### Olympians Lineage
+
+**Doris** (Oceanid) daughter of **Oceanus** & **Tethys**  
+**Nereus** son of **Gaia** & **Pontus**
+
+```mermaid
+flowchart LR
+	Rhea:::female
+	Kronos:::male
+	Demeter:::female
+	Poseidon:::male
+	Zeus:::male
+	Hera:::female
+	Triton:::male
+	Amphitrite:::female
+	Nereus:::male
+	Doris:::female
+	Arion:::male
+	Persephone:::female
+	Hephaestus:::male
+	Ares:::male
+
+	Rhea & Kronos --- N1(( )):::merge
+	N1 -->  Hera & Zeus & Demeter & Poseidon 
+	Nereus & Doris --- N2(( )):::merge --> Amphitrite
+	Poseidon & Amphitrite --- N3(( )):::merge --> Triton
+	Demeter & Poseidon --- N4(( )):::merge --> Arion
+	Zeus & Demeter --- N5(( )):::merge --> Persephone
+	Hera & Zeus --- N6(( )):::merge --> Hephaestus & Ares
+
+    classDef male stroke:#0000FF,stroke-width:3px
+    classDef female stroke:#DE3163,stroke-width:3px
+    classDef neutral stroke:#999999,stroke-width:3px
+    classDef merge fill:#FFFFFF
+```
+
+**Arion**: Horse with the power of speech  
+
+**Ares** (**Mars**): God of War  
+**Hephaestus** (**Vulcan**): God of Fire & of Blacksmiths
+
+### Other Lineages
 
 #### The Nine Muses
 
@@ -337,8 +421,8 @@ flowchart TD
 
 	Pontus & Gaia --- N1(( )):::merge
 	N1 --> Phorcys & Ceto & Eurybia
-	Phorcys & Ceto --- N2(( )):::merge
-	N2 --> Stheno & Euryale & Medusa
+	Phorcys & Ceto --- Gorgons:::neutral
+	Gorgons --> Stheno & Euryale & Medusa
 
     classDef male stroke:#0000FF,stroke-width:3px
     classDef female stroke:#DE3163,stroke-width:3px

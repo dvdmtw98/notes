@@ -4,6 +4,7 @@ tags:
   - csharp
 title: CSharp Arrays
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 In C# [[array|Array]] have a fixed size and they need to be declared during creation, their size cannot be changed later  

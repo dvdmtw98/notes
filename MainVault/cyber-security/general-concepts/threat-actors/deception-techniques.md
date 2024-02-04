@@ -4,6 +4,7 @@ tags:
   - threat
 title: Deception Techniques
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Techniques used to mislead, confuse and divert attackers from critical assets while simultaneously detecting and neutralizing threats

@@ -1,10 +1,11 @@
 ---
 tags:
-  - programming
   - javascript
   - webdev
+  - scripting
 title: JS - Other Features
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Defer Attribute : Starts downloading JS in the background will the HTML is being parsed and hence the parsing is done executes the JS  

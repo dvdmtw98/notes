@@ -1,10 +1,10 @@
 ---
 tags:
-  - programming
   - css
   - webdev
 title: CSS Positioning
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Static is the default position that all the elements will have on the page by default

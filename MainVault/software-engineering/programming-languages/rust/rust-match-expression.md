@@ -5,6 +5,7 @@ tags:
   - control-flow
 title: Rust Match Expression
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Match is used to define what action to perform for different variants of an Enum  

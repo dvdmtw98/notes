@@ -5,6 +5,7 @@ tags:
   - management
 title: OAuth 2.0
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 ### Key Terms

@@ -4,6 +4,7 @@ tags:
   - spark
 title: Spark Clusters
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 A cluster is a collection of one or more VMs that work together

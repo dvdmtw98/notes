@@ -5,6 +5,7 @@ tags:
   - web
 title: BOOLEAN based (Blind) Injection
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 If the 1st part of the where clause is correct we can use the AND operator to get result

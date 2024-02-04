@@ -3,6 +3,7 @@ tags:
   - excel
 title: Excel Shortcuts
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Ctrl +: Add a new row (above)/column (left)  

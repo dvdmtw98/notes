@@ -4,6 +4,7 @@ tags:
   - model
 title: OSI Model
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Open Systems Interconnection (OSI) Model was designed in 1977 by ISO  

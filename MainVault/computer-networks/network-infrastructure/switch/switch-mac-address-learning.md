@@ -5,6 +5,7 @@ tags:
   - data-link
 title: Switch MAC Address Learning
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Switch has an internal table which is used to stores the mapping between its ports and the MAC Address of the device connected to its port

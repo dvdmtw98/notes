@@ -5,6 +5,7 @@ tags:
   - storage
 title: Immutable Blob Storage
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Allows to store business-critical data in WORM (Write Once Read Many) state  

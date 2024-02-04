@@ -5,6 +5,7 @@ tags:
   - security
 title: BeyondCorp
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 A zero-trust solution that enables secure access with integrated threat and data protection  

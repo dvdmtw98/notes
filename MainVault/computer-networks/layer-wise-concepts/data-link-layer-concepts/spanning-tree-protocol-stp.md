@@ -5,6 +5,7 @@ tags:
   - protocol
 title: Spanning Tree Protocol (STP)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Part of <u>IEEE 802.1d</u> standard  

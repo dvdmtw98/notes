@@ -3,6 +3,7 @@ tags:
   - electrical
 title: Current
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 It is the flow of free electrons between atoms in a circuit  

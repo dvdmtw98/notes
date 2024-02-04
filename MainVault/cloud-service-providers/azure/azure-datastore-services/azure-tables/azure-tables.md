@@ -7,6 +7,7 @@ tags:
   - tables
 title: Azure Tables
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Stores NoSQL data (Key Value data with schema-less design)  

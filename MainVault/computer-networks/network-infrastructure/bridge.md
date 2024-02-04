@@ -4,6 +4,7 @@ tags:
   - device
 title: Bridge
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Sits between two hub connected network. Bridges only have two ports  

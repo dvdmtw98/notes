@@ -4,6 +4,7 @@ tags:
   - attack
   - networking
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 An attack that attempts to make a computer or servers resource unavailable

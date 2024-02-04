@@ -4,6 +4,7 @@ tags:
   - programming
 title: Rust Lifetimes
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Lifetimes define the duration for which an reference is going to be valid  

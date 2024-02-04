@@ -6,6 +6,7 @@ tags:
   - orchestration
 title: Kubernetes YAML File
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 All the commands that we provide in the terminal have an generator that corresponds to it. Generators are template files that are used to fill in the parameters that we do not specify and the command line.  

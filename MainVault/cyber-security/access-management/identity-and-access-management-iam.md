@@ -5,6 +5,7 @@ tags:
   - access
   - management
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Systems and processes used to manage access to information in an organization to ensure that the right individuals have access to the right resource at the right times for the right reason.

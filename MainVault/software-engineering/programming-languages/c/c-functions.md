@@ -4,6 +4,7 @@ tags:
   - c
 title: C Functions
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 For creating an function we first need to **declare** the function (Function Prototype) and then **implement** the function (Function Definition)  

@@ -3,6 +3,7 @@ tags:
   - data-structure
 title: Binary Search Tree
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 All nodes to the left of root node must have value less than Root node  

@@ -4,10 +4,11 @@ tags:
   - csharp
 title: Casting Datatype
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 The `Convert class` provides methods which can be used to convert datatypes. The target datatype needs to be specified in the equivalent .NET datatype  
-Each [[primitives-datatype|Primitives Datatype]] has an Parse and TryParse method as well which can be used to cast
+Each [[csharp-primitives-datatype|Primitives Datatype]] has an Parse and TryParse method as well which can be used to cast
 
 ````csharp
 string number = "1";

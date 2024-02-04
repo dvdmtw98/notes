@@ -8,6 +8,7 @@ tags:
   - partition
 title: Partition & Distribution
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 For optimal performance and compressing across Clustered Columnstore Index (CCI), we need to ensure that each partition/ distribution should have at minimum 1 million records  

@@ -4,6 +4,7 @@ tags:
   - c
 title: C Arrays
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 The **name of array** in C is an **pointer** to the **memory address** to the **first element** of the array  

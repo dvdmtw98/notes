@@ -1,6 +1,7 @@
 ---
 title: WEP (Wired Equivalent Protection)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Uses RC4 for Encryption. Old Algorithm

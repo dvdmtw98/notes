@@ -4,6 +4,7 @@ tags:
   - math
 title: Eulers Totient Function
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 ɸ(n) = Count of positive integers greater than 0 and less than 'n' that are [[co-prime-numbers|relatively prime]] to n  

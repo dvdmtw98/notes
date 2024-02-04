@@ -4,6 +4,7 @@ tags:
   - devices
 title: Layer 3 Switch
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Provides the Layer 2 switching and the Layer 3 routing  

@@ -1,8 +1,8 @@
 ---
 tags:
-  - programming
   - javascript
   - webdev
+  - scripting
   - index
 title: JavaScript
 date: 2024-01-28 14:15:56 -0600

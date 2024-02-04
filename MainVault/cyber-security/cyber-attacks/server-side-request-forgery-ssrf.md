@@ -4,6 +4,7 @@ tags:
   - web
 title: Server-Side Request Forgery (SSRF)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 SSRF exploits the trust of the website on the user

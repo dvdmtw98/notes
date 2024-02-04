@@ -4,6 +4,7 @@ tags:
   - math
 title: Eulers Theorem
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 $x^{\phi(n)} \equiv 1 \mod n$ ( x and n needs to be coprime)  

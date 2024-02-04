@@ -5,7 +5,7 @@ tags:
   - index
 title: C Sharp
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-31 10:35:47 -0600
+updated: 2024-02-03 10:32:02 -0600
 ---
 
 ### Table of Content
@@ -19,29 +19,29 @@ updated: 2024-01-31 10:35:47 -0600
 	* [[association-aggregation-and-composition|Association, Aggregation and Composition]]
 	* [[dependency-injection|Dependency Injection]]
 2. **Fundamental Concepts**
-	* [[primitives-datatype|Primitives Datatype]]
-	* [[casting-datatype|Casting Datatype]]
-	* [[arithmetic-operators|Arithmetic Operators]]
-	* [[csharp-arrays|CSharp Arrays]]
-	* [[lists-dynamic-arrays|Lists (Dynamic Arrays)]]
-	* [[strings|Strings]]
-	* [[enums|Enums]]
-	* [[csharp-user-input|CSharp User Input]]
-	* [[control-flow-statements|Control Flow Statements]]
-	* [[iteration-statements|Iteration Statements]]
-	* [[datetime-and-timespan|Datetime and Timespan]]
-	* [[file-and-directory-operations|File & Directory Operations]]
+	* [[csharp-primitives-datatype|C Sharp Primitives Datatype]]
+	* [[chsarp-datetime-and-timespan|C Sharp Datetime and Timespan]]
+	* [[csharp-casting-datatype|C Sharp Casting Datatype]]
+	* [[csharp-arithmetic-operators|C Sharp Arithmetic Operators]]
+	* [[csharp-arrays|C Sharp Arrays]]
+	* [[csharp-dynamic-arrays|C Sharp Dynamic Arrays]]
+	* [[csharp-strings|C Sharp Strings]]
+	* [[csharp-enums|C Sharp Enums]]
+	* [[csharp-user-input|C Sharp User Input]]
+	* [[csharp-control-flow-statements|C Sharp Control Flow Statements]]
+	* [[chsarp-iteration-statements|C Sharp Iteration Statements]]
+	* [[csharp-file-operations|C Sharp File & Directory Operations]]
 3. **Object Oriented Concepts**
-	* [[csharp-classes|CSharp Classes]]
-	* [[csharp-constructor|CSharp Constructor]]
-	* [[csharp-methods|CSharp Methods]]
+	* [[csharp-classes|C Sharp Classes]]
+	* [[csharp-constructor|C Sharp Constructor]]
+	* [[csharp-methods|C Sharp Methods]]
 	* [[fields|Fields]]
 	* [[access-modifiers|Access Modifiers]]
 	* [[properties|Properties]]
-	* [[csharp-indexers|CSharp Indexers]]
-	* [[csharp-inheritance|CSharp Inheritance]]
+	* [[csharp-indexers|C Sharp Indexers]]
+	* [[csharp-inheritance|C Sharp Inheritance]]
 	* [[composition|Composition]]
-	* [[upcasting-and-downcasting|Upcasting and Downcasting]]
+	* [[csharp-upcasting-downcasting|C Sharp Upcasting Downcasting]]
 	* [[boxing-and-unboxing|Boxing and Unboxing]]
 	* [[method-overriding|Method Overriding]]
 	* [[abstract-and-sealed-class|Abstract & Sealed Class]]

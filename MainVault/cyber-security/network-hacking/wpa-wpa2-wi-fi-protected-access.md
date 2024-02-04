@@ -1,6 +1,7 @@
 ---
 title: WPA - WPA2 (Wi-Fi Protected Access)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Each packet is encrypted using an unique temporary key  

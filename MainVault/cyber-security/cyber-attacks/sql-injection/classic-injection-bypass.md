@@ -5,6 +5,7 @@ tags:
   - web
 title: Classic Injection Bypass
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 On Login Page the value for username and password is controlled by the user

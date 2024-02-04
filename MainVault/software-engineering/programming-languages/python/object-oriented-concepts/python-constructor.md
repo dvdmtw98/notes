@@ -4,6 +4,7 @@ tags:
   - python
 title: Python Constructor
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 * It is used to initialize the values of the instance attributes of the [[python-classes|class]]

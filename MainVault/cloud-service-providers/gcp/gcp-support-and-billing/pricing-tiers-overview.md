@@ -5,6 +5,7 @@ tags:
   - billing
 title: Pricing Tiers Overview
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 GCP offers various pricing schemes that vary per service. Broadly there are 7 types of pricing

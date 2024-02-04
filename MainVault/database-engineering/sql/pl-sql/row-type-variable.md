@@ -5,6 +5,7 @@ tags:
   - oracle
 title: Row Type Variable
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Table based Record Datatype: Returns a single row of all the columns from the table

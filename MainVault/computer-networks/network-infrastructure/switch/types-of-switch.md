@@ -4,6 +4,7 @@ tags:
   - device
 title: Types of Switch
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 ### Form Factors of Switch

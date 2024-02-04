@@ -6,6 +6,7 @@ tags:
   - security
 title: Azure Blueprints
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 A blueprint is an guide, a pattern or a design for making something  

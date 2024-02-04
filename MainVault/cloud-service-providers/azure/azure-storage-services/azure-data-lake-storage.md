@@ -5,6 +5,7 @@ tags:
   - storage
 title: Azure Data Lake Storage
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 A data lake is a centralized data repository for unstructured and semi-structured data  

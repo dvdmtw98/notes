@@ -5,6 +5,7 @@ tags:
   - virtualization
 title: Azure Virtual Machine
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Provides users with total control over the OS and the services  

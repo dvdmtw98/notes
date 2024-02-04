@@ -4,6 +4,7 @@ tags:
   - wan
 title: Frame Relay
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Has a base price called Committed Information Rate (CIR) (Sign contract saying that so and so is the baseline speed that will be provided)  

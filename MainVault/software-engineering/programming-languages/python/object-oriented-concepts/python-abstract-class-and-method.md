@@ -4,6 +4,7 @@ tags:
   - python
 title: Python Abstract Class & Method
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 * In the parent [[python-classes|class]] if we do not implement the logic for a [[python-methods|method]] (As the method should be [[python-method-overriding|overridden]] in the child classes) then we make use of the abstract class

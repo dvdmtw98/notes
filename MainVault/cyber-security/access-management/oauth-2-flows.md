@@ -6,6 +6,7 @@ tags:
   - management
   - identity
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 Client ID and Client Secret that is used by the client is generated when the client establishes a trust relationship with the authorization server
 

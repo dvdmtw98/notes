@@ -6,6 +6,7 @@ tags:
   - serverless
 title: AWS Lambda
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 It is an serverless compute unit. Allows to run code without provisioning or managing servers  

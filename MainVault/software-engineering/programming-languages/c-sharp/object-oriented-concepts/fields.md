@@ -4,6 +4,7 @@ tags:
   - csharp
 title: Fields
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 The `readonly` decorator is used to prevent a fields from accidently being reinitialized  

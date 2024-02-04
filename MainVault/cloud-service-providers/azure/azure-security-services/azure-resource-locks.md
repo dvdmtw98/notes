@@ -5,6 +5,7 @@ tags:
   - security
 title: Azure Resource Locks
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Resource Lock is an Lock that can be used on a Resource to Prevent Certain actions from being performed on it  

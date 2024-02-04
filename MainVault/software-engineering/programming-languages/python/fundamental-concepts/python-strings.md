@@ -4,6 +4,7 @@ tags:
   - python
 title: Python Strings
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 In Python string can be declared using both single and double quotes (No difference)  

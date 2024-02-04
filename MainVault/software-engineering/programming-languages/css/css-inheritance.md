@@ -1,6 +1,5 @@
 ---
 tags:
-  - programming
   - css
   - webdev
 title: CSS Inheritance

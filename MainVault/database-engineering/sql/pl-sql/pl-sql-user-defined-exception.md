@@ -5,6 +5,7 @@ tags:
   - oracle
 title: PL-SQL User Defined Exception
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 ### Using Variable of EXCEPTION type

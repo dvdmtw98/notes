@@ -5,6 +5,7 @@ tags:
   - standard
 title: IEEE 802.11 Standards
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 | IEEE Standard | Max Theoretical Speed | Frequency     |

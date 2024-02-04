@@ -4,6 +4,7 @@ tags:
   - cryptography
 title: Blockchain
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 A shared immutable ledger for recording transactions, tracking assets and building trust  

@@ -6,6 +6,7 @@ tags:
   - s3
 title: S3 Storage Classes
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 ### Standard

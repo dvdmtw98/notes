@@ -79,7 +79,7 @@ If the `__getattribute__` method where to raise a Attribute Error then all the o
 MRO is used to decide the order in which the attributes and methods should be called when classes inherent and overwrite features
 
 A descriptor is an object attribute with "binding behavior", one whose attribute access has been overridden by methods in the descriptor protocol.  
-[[property|Property]] in Python are implemented using the descriptor protocol
+[[python-property|Property]] in Python are implemented using the descriptor protocol
 
 When a `__set__` method is defined for an attribute then the flow of the lookup changes:  
 `__getattribute__` → Data Descriptor in class dict → Instance → Class Definition → Super classes → `__getattr__` → Raise Attribute Error

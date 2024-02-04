@@ -4,6 +4,7 @@ tags:
   - math
 title: Multiplicative Inverse
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 $x \not\equiv 0$ mod n (n is prime number)  

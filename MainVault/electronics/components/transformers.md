@@ -4,6 +4,7 @@ tags:
   - component
 title: Transformers
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Transformers can only be used with AC current

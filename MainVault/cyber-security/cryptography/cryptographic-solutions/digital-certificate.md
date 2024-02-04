@@ -4,6 +4,7 @@ tags:
   - cryptography
 title: Digital Certificate
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Digitally signed electronic document that binds a public key with a user's identity

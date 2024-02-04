@@ -5,6 +5,7 @@ tags:
   - dns
 title: DNS Zone Types
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 DNS Zone is a portion of the DNS Namespace  

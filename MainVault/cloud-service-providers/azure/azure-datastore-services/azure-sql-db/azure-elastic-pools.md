@@ -6,6 +6,7 @@ tags:
   - sql
 title: Azure Elastic Pools
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 It is a simple cost-effective solution for managing and scaling multiple databases that having varying and unpredictable usage demands

@@ -1,6 +1,5 @@
 ---
 tags:
-  - programming
   - javascript
   - nodejs
   - webdev

@@ -4,6 +4,7 @@ tags:
   - csharp
 title: Boxing and Unboxing
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 **Boxing**: The process of converting a value type instance to a reference type instance (This causes the value to be stored on Heap)

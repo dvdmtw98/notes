@@ -4,6 +4,7 @@ tags:
   - recursion
 title: Recursion
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Every Recursive function needs to have a base case (Else will cause Stack overflow)

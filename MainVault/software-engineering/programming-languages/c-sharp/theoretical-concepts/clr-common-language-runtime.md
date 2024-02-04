@@ -4,6 +4,7 @@ tags:
   - csharp
 title: CLR (Common Language Runtime)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 * When C# code is compiled it is converted first into IL (Intermediate Language) Code

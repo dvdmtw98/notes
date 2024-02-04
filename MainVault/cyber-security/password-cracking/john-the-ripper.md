@@ -4,6 +4,7 @@ tags:
   - password
 title: John the Ripper
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 RAR5 hash cracking is not supported by John. [[hashcat|Hashcat]] is preferred in its place

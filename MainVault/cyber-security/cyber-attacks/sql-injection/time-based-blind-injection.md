@@ -5,6 +5,7 @@ tags:
   - web
 title: TIME based (Blind) Injection
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 For using time based SQL Injection the command that is being performed should include an WHERE clause

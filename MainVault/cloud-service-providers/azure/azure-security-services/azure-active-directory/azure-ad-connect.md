@@ -5,6 +5,7 @@ tags:
   - azure
 title: Azure AD Connect
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Azure AD Connect is an hybrid service that is used to connect on-premise [[microsoft-active-directory|Microsoft Active Directory]] to an Azure Account (AAD)  

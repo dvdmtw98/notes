@@ -6,6 +6,7 @@ tags:
   - index
 title: AWS Storage Services
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 #### [[s3-simple-storage-service|S3 (Simple Storage Service)]]

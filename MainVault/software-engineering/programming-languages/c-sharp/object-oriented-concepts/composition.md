@@ -4,6 +4,7 @@ tags:
   - csharp
 title: Composition
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 * It is a type of relation that allows one [[csharp-classes|Class]] to contain the other (When the parent object is deleted the child also looses its status)

@@ -4,6 +4,7 @@ tags:
   - csharp
 title: Dotnet Framework Intoduction
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 .NET is a framework for building applications on Windows

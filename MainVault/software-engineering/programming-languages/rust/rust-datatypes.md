@@ -5,6 +5,7 @@ tags:
   - datatypes
 title: Rust Datatypes
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 All variables in Rust are by default `immutable`  

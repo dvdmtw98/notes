@@ -5,6 +5,7 @@ tags:
   - protocol
   - tcp
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Three Way Handshake is used to share information between the client and server to synchronize the parameters that are going to be used in the connection

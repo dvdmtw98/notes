@@ -4,6 +4,7 @@ tags:
   - csharp
 title: Upcasting and Downcasting
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 **Upcasting**: Creating a base (Parent) [[csharp-classes|class]] reference from a subclass (Child) reference.   Upcasting is performed explicitly (No need of casting)

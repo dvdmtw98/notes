@@ -4,6 +4,7 @@ tags:
   - csharp
 title: CSharp Inheritance
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 * In C# we can only inherit from only one parent class (If the parent object is deleted the child object can still exist)

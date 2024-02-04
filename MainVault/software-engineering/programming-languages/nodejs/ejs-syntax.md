@@ -6,6 +6,7 @@ tags:
   - webdev
 title: EJS Syntax
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 * In project make a folder called 'views' add the required .ejs file. All normal HTML is valid in ejs file.

@@ -4,6 +4,7 @@ tags:
   - laws
   - court
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 **Civil Law**: System based on written constitutions and written rules or codes  

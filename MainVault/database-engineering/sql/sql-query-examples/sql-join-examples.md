@@ -4,6 +4,7 @@ tags:
   - sql
 title: SQL Join Examples
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 ### Fetch the details of doctors who work in the same hospital but in different specialty

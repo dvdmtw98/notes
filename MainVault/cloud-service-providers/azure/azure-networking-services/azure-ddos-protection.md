@@ -6,6 +6,7 @@ tags:
   - security
 title: Azure DDoS Protection
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 DoS: Denial of Service (Used to cause disruption of services)  

@@ -4,6 +4,7 @@ tags:
   - programming
 title: Rust Slices
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Allows to reference a contiguous sequence of elements in a collection without having to use the entire collection  

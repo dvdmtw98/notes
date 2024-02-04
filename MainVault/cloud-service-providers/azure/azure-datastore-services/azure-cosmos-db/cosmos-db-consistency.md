@@ -6,6 +6,7 @@ tags:
   - nosql
 title: Cosmos DB Consistency
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Consistency is set at the Account Level but it can be overwritten at request time

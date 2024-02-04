@@ -6,6 +6,7 @@ tags:
   - serverless
 title: Azure Container Instance (ACI)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 ACI resources are created in the Container Group which is a VM on which the container with be run  

@@ -4,6 +4,7 @@ tags:
   - python
 title: Python Method Overriding
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 When when the child [[python-classes|class]] overrides the [[python-methods|method]] of the parent class we can say that the child method has overridden the method of the parent class

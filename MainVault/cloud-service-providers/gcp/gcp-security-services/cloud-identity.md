@@ -5,6 +5,7 @@ tags:
   - security
 title: Cloud Identity
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 It is a Identity as a Service (IDaaS) that centrally manages users and groups  

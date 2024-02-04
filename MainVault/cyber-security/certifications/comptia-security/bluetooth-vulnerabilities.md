@@ -6,6 +6,7 @@ tags:
   - attack
   - protect
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Wireless technology standard used for exchanging data between fixed and mobile devices over short distances without the need for an Internet connection

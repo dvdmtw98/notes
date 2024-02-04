@@ -6,6 +6,7 @@ tags:
   - s3
 title: Transfer Acceleration
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Makes use of AWS CloudFront to transfer data from one region to another at a faster rate  

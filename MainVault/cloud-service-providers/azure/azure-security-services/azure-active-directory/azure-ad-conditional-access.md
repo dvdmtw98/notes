@@ -6,6 +6,7 @@ tags:
   - security
 title: Azure AD Conditional Access
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 It provides an extra layer of security check before allowing an authenticated user access to data or assets    

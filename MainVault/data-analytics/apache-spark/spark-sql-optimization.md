@@ -4,6 +4,7 @@ tags:
   - spark
 title: Spark SQL Optimization
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Whatever query that we write is converted into the best physical plan by the Tungsten Engine and optimized using the catalyst optimizer  

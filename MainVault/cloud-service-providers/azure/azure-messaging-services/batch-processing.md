@@ -5,6 +5,7 @@ tags:
   - streaming
 title: Batch Processing
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Batch processing is an umbrella term that is used to encompass the various big data processing approaches based on [[mapreduce|MapReduce]]  

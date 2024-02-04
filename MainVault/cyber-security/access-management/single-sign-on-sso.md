@@ -6,6 +6,7 @@ tags:
   - access
   - protect
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Authentication process that allows a user to access multiple applications or websites by logging in only once with a single set of credentials  

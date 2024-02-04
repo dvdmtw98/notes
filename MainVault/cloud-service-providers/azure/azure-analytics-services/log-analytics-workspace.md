@@ -5,6 +5,7 @@ tags:
   - analytics
 title: Log Analytics Workspace
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Each workspace belongs to a specific region  

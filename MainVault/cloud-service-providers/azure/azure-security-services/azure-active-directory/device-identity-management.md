@@ -5,6 +5,7 @@ tags:
   - security
 title: Device Identity Management
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Management of physical devices like phones and laptops that are granted access to company resources like Printers, Cloud Resources via device based Conditional Access.

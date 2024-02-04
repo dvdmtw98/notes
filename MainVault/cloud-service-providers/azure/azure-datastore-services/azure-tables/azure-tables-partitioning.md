@@ -8,6 +8,7 @@ tags:
   - partition
 title: Azure Tables Partitioning
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 We need to define a partition key and row key which is used to access the data (Both need to be of string type)  

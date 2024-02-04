@@ -5,6 +5,7 @@ tags:
   - web
 title: Useful SQL Functions and Queries
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 `select user()`: SQL DB Username  

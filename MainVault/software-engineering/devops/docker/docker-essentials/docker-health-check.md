@@ -5,6 +5,7 @@ tags:
   - container
 title: Docker Health Check
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 The command is executed inside the container by the Docker Engine  

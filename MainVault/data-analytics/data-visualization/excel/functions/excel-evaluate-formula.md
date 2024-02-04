@@ -3,6 +3,7 @@ tags:
   - excel
 title: Excel Evaluate Formula
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 We can evaluate a formula in Excel using the Evaluate Formula option in the Formulas tab

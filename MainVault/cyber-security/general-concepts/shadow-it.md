@@ -4,6 +4,7 @@ tags:
   - management
 title: Shadow IT
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 Use of information technology systems, devices, software, applications and services without the explicit organizational approval  

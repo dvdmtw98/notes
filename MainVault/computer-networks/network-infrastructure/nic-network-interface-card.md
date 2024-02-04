@@ -4,6 +4,7 @@ tags:
   - device
 title: NIC (Network Interface Card)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 The card/ adapter that allows an device to connect to the network  

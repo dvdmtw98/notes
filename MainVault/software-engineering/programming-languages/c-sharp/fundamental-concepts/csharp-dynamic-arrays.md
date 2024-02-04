@@ -4,6 +4,7 @@ tags:
   - csharp
 title: Lists (Dynamic Arrays)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 * Lists are similar to [[csharp-arrays|CSharp Arrays]] but they have dynamic size (Useful when we don’t know the space required beforehand)

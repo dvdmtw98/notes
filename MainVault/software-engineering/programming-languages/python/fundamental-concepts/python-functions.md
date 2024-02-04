@@ -4,6 +4,7 @@ tags:
   - python
 title: Python Functions
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 If we add a [[python-strings|string]] in a function using triple quotes (Docstring) then we can access this string by calling `function_name.__doc__` 

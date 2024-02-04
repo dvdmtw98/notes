@@ -4,6 +4,7 @@ tags:
   - programming
 title: Rust Module Namespace
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 **Absolute Path**: The path starting from crate root. For code from an external crate, the path begins with the crate name. For code from the current crate, it starts with the literal `crate`  

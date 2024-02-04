@@ -5,6 +5,7 @@ tags:
   - networking
 title: GCP Virtual Private Cloud (VPC)
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28 14:15:56 -0600
 ---
 
 It is a logically isolated section of the Google Cloud  
