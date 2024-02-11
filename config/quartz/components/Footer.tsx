@@ -1,7 +1,7 @@
-import { version } from "../../package.json";
-import { i18n } from "../i18n";
-import style from "./styles/footer.scss";
-import { QuartzComponentConstructor, QuartzComponentProps } from "./types";
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import style from "./styles/footer.scss"
+import { version } from "../../package.json"
+import { i18n } from "../i18n"
 // @ts-ignore
 import commentsScript from "./scripts/comments.inline";
 
