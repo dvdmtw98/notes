@@ -5,12 +5,16 @@ tags:
   - cryptography
 title: Hashing
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-02-06 12:21:28 -0600
 ---
 
-### Hashing
-One-way cryptographic function that takes an input and produces a unique message digest as its output  
-Hash Digest are always of the same length
+### Hash Functions
+They are one-way cryptographic functions (Hash cannot be converted to data)  
+They takes in a input of any length and produces a message digest as its output  
+Hash Digests are always of the same length  
+Hash functions are also collision resistant (Different data cannot have the same hash)
+
+[[hash-table|Hash Table]]
 
 #### MD5
 Creates a 128-bit hash value that is unique to the input file

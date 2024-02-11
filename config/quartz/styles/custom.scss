@@ -67,15 +67,24 @@ table {
 
 article {
   > :is(h1, h2, h3, h4, h5, h6) {
-    >a {
+    > a {
       &.internal {
         background-color: var(--highlight);
         color: var(--secondary);
-
         &:hover {
           color: var(--tertiary);
         }
       }
+    }
+  }
+}
+
+// External Link Styles
+
+article {
+  a {
+    &.external {
+      text-decoration: underline;
     }
   }
 }

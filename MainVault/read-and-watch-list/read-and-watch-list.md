@@ -1,18 +1,20 @@
 ---
+title: Read and Watch List
 tags:
-  - list
+  - book
+  - show
+  - movie
   - index
-title: Read & Watch List
-date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 22:07:21 -0600
+date: 2024-02-08 20:02:38 -0600
+updated: 2024-02-08 20:04:09 -0600
 ---
 
-### Table of Content
+### Books
 
-* **Reading List**
-	* [[book-list|Book List]]
-	* [[manga-list|Manga List]]
-* **Watch List**
-	* [[movie-list|Movie List]]
-	* [[show-list|Show List]]
-* [[workout-schedule|Workout Schedule]]
+* [[book-list|Book List]]
+* [[manga-list|Manga List]]
+
+### TV & Shows
+
+* [[movie-list|Movie List]]
+* [[show-list|Show List]]

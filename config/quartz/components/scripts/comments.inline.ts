@@ -36,8 +36,9 @@ document.addEventListener("nav", () => {
         "async": "",
     };
 
-    // Dynamically create script tag
-    const giscusScript = document.createElement("script");
-    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
-    document.body.appendChild(giscusScript);
+    if (!document.querySelector("#quartz-body .center .page-listing")) {
+        const giscusScript = document.createElement("script");
+        Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+        document.body.appendChild(giscusScript);
+    }
 })

@@ -4,7 +4,7 @@ tags:
   - cryptography
 title: RSA Algorithm
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-02-06 10:58:08 -0600
 ---
 
 RSA stands for Rivest-Shamir-Adleman (Name of the Creators of the algorithm)
@@ -13,37 +13,43 @@ RSA stands for Rivest-Shamir-Adleman (Name of the Creators of the algorithm)
 (e, n) = Public Key  
 (d, n) = Private Key
 
+e: RSA Exponent  
+n: RSA Modulus
+
 #### Choose two prime numbers
 p = 7  
 q = 11
 
 #### Compute n
-n = p \* q = 7 \* 11 = 77
+$n = p \times q = 7 \times 11 = 77$
 
 #### Compute ɸ(n)
 [[eulers-totient-function|Eulers Totient Function]]
 
-ɸ(n) = ɸ(p \* q) = ɸ(p) \* ɸ(q)  
-= ( p -1 ) \* (q - 1) = (7 - 1) \* (11 - 1) = 60
+$\phi(n) = \phi(p \times q) = \phi(p) \times \phi(q)$  
+$= (p - 1) \times (q - 1) = (7 - 1) \times (11 - 1) = 60$
 
 #### Choose e
-e should lie between 1 <= e < ɸ(n) and be [[co-prime-numbers|co-prime]] to ɸ(n)
+e should lie between $1 \leq e < \phi(n)$ and be [[relatively-prime-numbers|co-prime]] to $\phi(n)$
 
 e = 13  
 (e, n) = Public Key = (13, 60)
 
 #### Determine d
-e * d = 1 mod ɸ(n)  
+$e \times d = 1 \mod \phi(n)$  
 e and ɸ(n) here are coprime (Found in above step)
 
 Then we can say d is an multiplicative inverse of e.  
-The above equation can also be represented as : d = $e^{-1} \mod \phi(n)$
+The above equation can also be represented as : $d = e^{-1} \mod \phi(n)$
 
-d = ((ɸ(n) * i) + 1) / e
+Calculating $e^{-1}$ without the knowledge of d (Private Key) is quite challenging   
+Hence without knowing the private key it is practically impossible to decrypt the message 
 
-i is an integer from 1 ....  
-We have to keep incrementing the value of i till we don't get an integer as result  
-d = ((60 * 8) + 1) / 13 = 37
+$$d = \frac{((\phi(n) \times i) + 1)}{e}$$
+
+We have to keep incrementing the value of i until we get an integer as the result  
+
+$$d = \frac{((60 \times 8) + 1)}{13} = 37$$
 
 (d, n) = Private Key = (37, 60)
 
@@ -52,8 +58,8 @@ d = ((60 * 8) + 1) / 13 = 37
 
 | Encryption                                                                            | Decryption                                                                                 |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| (e, n) = (13, 143) = Public Key<br/>P = Plain Text                                    | (d, n) =  (37, 143) = Private Key<br/>C = Cipher Text                                      |
-| C = $P^e$ mod n, P < n<br/>C = 1313 mod 143                                           | P = $C^d$ mod n<br/>P = 5237 mod 143                                                       |
-| C = \[(13 mod 143)($13^4$ mod 143)($13^8$ mod 143)\] mod 143<br/>C = 52 (Cipher Text) | P = \[(52 mod 143 = 52)($52^4$ mod 143 = 26 )($52^{32}$ mod 143 = 91)\] mod 143<br/>P = 13 |
+| (e, n) = (13, 143) = Public Key<br>P = 13 = Plain Text                                    | (d, n) =  (37, 143) = Private Key<br>C = 52 = Cipher Text                                      |
+| C = $P^{e} \mod n$, P < n<br>C = $13^{13} \mod 143$                                           | P = $C^d \mod n$<br>P = $52^{37} mod 143$                                                       |
+| $C = [(13 \mod 143) \times (13^4 \mod 143) \times (13^8 \mod 143)] \mod 143$<br>C = 52 (Cipher Text) | $P = [(52 \mod 143) \times (52^4 \mod 143) \times (52^{32} \mod 143)] \mod 143$<br>P = 13 |
 
 The Plain Text that is specified is the algorithm is the ASCII code of the character to be encoded

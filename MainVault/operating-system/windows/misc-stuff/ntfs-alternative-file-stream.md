@@ -4,7 +4,7 @@ tags:
   - windows
 title: NTFS Alternative File Stream
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-02-07 10:37:08 -0600
 ---
 
 All files contains a main stream called `$DATA`. This stores the regular file contents  
