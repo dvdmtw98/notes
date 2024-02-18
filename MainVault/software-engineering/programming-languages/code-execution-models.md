@@ -4,7 +4,7 @@ tags:
   - software
   - programming
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-02-15 21:40:51 -0600
 ---
 
 #### Compiled (Native)  
@@ -19,8 +19,8 @@ e.g. JavaScript, PHP
 
 #### Managed (Execution Engine)  
 High Level Code is converted into an Intermediate Language (IL)  
-Intermediate Language is an lossless representation of the high level code  
-Intermediate Language file does not contain machine code and hence cannot be executed by the CPU  
-The Execution Engine converted the IL code to machine code using JIT (Just In Time) compilation  
+Intermediate Language (IL) is an lossless representation of the high level code  
+IL files do not contain machine code so they cannot be executed by the CPU  
+Execution Engine converts IL code to machine code using JIT (Just In Time) compilation  
 The IL to machine code generation step is only done once for any given function all subsequent calls use the cached machine code  
 e.g. C#, Java

@@ -7,7 +7,7 @@ tags:
   - book
 title: Book List
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-06 13:11:01 -0600
+updated: 2024-02-15 10:29:16 -0600
 ---
 
 ### Fiction List
@@ -37,14 +37,15 @@ updated: 2024-02-06 13:11:01 -0600
 
 ### Non-Fiction List
 
-| No. |                Cover                 |                                              Name                                               |              Author               |             Genre             | Rating |   Status   |
-| :-: | :----------------------------------: | :---------------------------------------------------------------------------------------------: | :-------------------------------: | :---------------------------: | ------ | :--------: |
-|     | ![[the-art-of-invisibility.jpg\|72]] | [The Art of Invisibility](https://www.goodreads.com/book/show/30363785-the-art-of-invisibility) |           Kevin Mitnick           |      Technology, Science      | ⭐⭐⭐    | #completed |
-|     |      ![[why-we-sleep.jpg\|72]]       |            [Why We Sleep](https://www.goodreads.com/book/show/34466963-why-we-sleep)            |          Matthew Walker           |  Science, Health, Psychology  | ⭐⭐⭐    | #completed |
-|     | ![[mans-search-for-meaning.jpg\|72]] |  [Man's Search for Meaning](https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning)  |         Viktor E. Frankl          |  History, Memoir, Biography   | ⭐⭐⭐    | #completed |
-|     |         ![[ikigai.jpg\|72]]          |                [Ikigai](https://www.goodreads.com/en/book/show/40534545-ikigai)                 | Francesc Miralles & Hector Garcia | Self Help, Health, Psychology | ⭐⭐⭐    | #completed |
-|     |     ![[the-cuckoos-egg.jpg\|72]]     |         [The Cuckoo's Egg](https://www.goodreads.com/book/show/18154.The_Cuckoo_s_Egg)          |          Clifford Stoll           |  Technology, History, Crime   | ⭐⭐⭐⭐⭐  | #completed |
-|     |         ![[mythos.jpg\|72]]          |                  [Mythos](https://www.goodreads.com/book/show/35074096-mythos)                  |            Stephen Fry            |      History, Mythology       |        |  #reading  |
+| No. |                Cover                 |                                              Name                                               |              Author               |                   Genre                   | Rating |   Status   |
+| :-: | :----------------------------------: | :---------------------------------------------------------------------------------------------: | :-------------------------------: | :---------------------------------------: | ------ | :--------: |
+|     | ![[the-art-of-invisibility.jpg\|72]] | [The Art of Invisibility](https://www.goodreads.com/book/show/30363785-the-art-of-invisibility) |           Kevin Mitnick           |            Technology, Science            | ⭐⭐⭐    | #completed |
+|     |      ![[why-we-sleep.jpg\|72]]       |            [Why We Sleep](https://www.goodreads.com/book/show/34466963-why-we-sleep)            |          Matthew Walker           |        Science, Health, Psychology        | ⭐⭐⭐    | #completed |
+|     | ![[mans-search-for-meaning.jpg\|72]] |  [Man's Search for Meaning](https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning)  |         Viktor E. Frankl          |        History, Memoir, Biography         | ⭐⭐⭐    | #completed |
+|     |         ![[ikigai.jpg\|72]]          |                [Ikigai](https://www.goodreads.com/en/book/show/40534545-ikigai)                 | Francesc Miralles & Hector Garcia |       Self Help, Health, Psychology       | ⭐⭐⭐    | #completed |
+|     |     ![[the-cuckoos-egg.jpg\|72]]     |         [The Cuckoo's Egg](https://www.goodreads.com/book/show/18154.The_Cuckoo_s_Egg)          |          Clifford Stoll           |        Technology, History, Crime         | ⭐⭐⭐⭐⭐  | #completed |
+|     |         ![[mythos.jpg\|72]]          |                  [Mythos](https://www.goodreads.com/book/show/35074096-mythos)                  |            Stephen Fry            |            History, Mythology             |        |  #reading  |
+|     |          ![[code.jpg\|72]]           |                     [Code](https://www.goodreads.com/book/show/44882.Code)                      |          Charles Petzold          | Computer Science, Programming, Technology |        |  #reading  |
 
 ### Additional Notes
 

@@ -5,7 +5,7 @@ tags:
   - shortcut
 title: Windows Shortcuts
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-02-16 09:55:33 -0600
 ---
 
 ### Windows Shortcuts
@@ -16,6 +16,12 @@ Ctrl + Alt + Arrow (Rotate the orientation)
 Shift and Click (Select everything till the click)  
 Ctrl + Shift + N (Make a New Folder)  
 Ctrl + Shift + Windows + B (Resets Graphics Drivers)
+
+Ctrl + Alt + Shift + Windows + T: Launches Teams  
+Ctrl + Alt + Shift + Windows + L: Launches LinkedIn  
+Ctrl + Alt + Shift + Windows + P: Launches PowerPoint  
+Ctrl + Alt + Shift + Windows + X: Launches Excel  
+Ctrl + Alt + Shift + Windows + W: Launches Word
 
 ### Workspace
 

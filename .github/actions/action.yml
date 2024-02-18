@@ -15,7 +15,7 @@ runs:
           shell: bash
           run: |
               cp -a source/MainVault/. quartz/content \
-              && rm -rf quartz/content/{read-and-watch-list,.gitkeep}
+              && rm -rf quartz/content/{read-and-watch-list,us-court-system,.gitkeep}
         - name: Copy Config
           id: copy-config
           shell: bash

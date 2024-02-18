@@ -5,13 +5,16 @@ tags:
   - index
 title: C
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-31 09:33:20 -0600
+updated: 2024-02-17 14:20:15 -0600
 ---
 
 ### Table of Content
 
-1. **Fundamental Concepts**
-	* [[c-user-input|C User Input]]
+* **Theoretical Concepts**
+	* [[compiling-linking|Compiling and Linking]]
+	* [[directives|Directives]]
+* **Fundamental Concepts**
+	* [[c-basics|C Basics]]
 	* [[c-functions|C Functions]]
 	* [[c-pointers|C Pointers]]
 	* [[c-arrays|C Arrays]]
@@ -21,19 +24,29 @@ updated: 2024-01-31 09:33:20 -0600
 
 ### Common Commands
 
-````bash
+```bash
+# Compile C Program
+gcc -O -Wall -W -pedantic -std=c99 -o pun.o pun.c
+
 # Create Object Files (-c)
 gcc -Wall -Wextra -std=c11 -c modulename.c
 
 # Link multiple Object files
 gcc filename.o filename2.o -o executable.o
-````
+```
 
-`-O2` : Compiler Optimization Levels (0-3) 
+| Flag      | Description                                                             |
+| :-------- | :---------------------------------------------------------------------- |
+| -Wall     | Show warnings when potential errors are detected                        |
+| -W        | Procedures additional error messages beyond -Wall                       |
+| -pedantic | Shows warnings when code does not follow the C standard                 |
+| -ansi     | Disables features of GCC that aren't in standard C (Not used with -std) |
+| -std=c89  | Specify which version of C should be used to check the program          |
+| -O2       | Compiler optimization levels (0 -3)                                     |
 
-### Best Practices and Coding Conventions
+### Best Practices
 
-* Variable names, Function names, Struct and Typedef names should use lowercase/ snake case
+* Variable names, Function names, Struct and Typedef names should use snake case
 * When creating a function we must define an function prototype (Generally in header file) and then declare the function
 * When creating header files the guard clauses should be always included. By convention the guard name should be same as filename and in all caps with dot replaced with underscore
 
@@ -41,10 +54,6 @@ gcc filename.o filename2.o -o executable.o
 
 #### Arrays
 Name of arrays in C stores the base address of the array
-
-#### Include Statements
-The include statements that are used in C are called as "Preprocessor Directives"  
-They are macros that copies the content of the source file of the header into our code before compilation
 
 #### Library Files
 To include the **Math library** (libm.a) in a program we need to specify the `-lm` flag  

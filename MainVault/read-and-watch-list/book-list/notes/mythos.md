@@ -4,7 +4,7 @@ tags:
   - book
   - mythology
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-10 10:10:02 -0600
+updated: 2024-02-12 15:56:51 -0600
 ---
 
 Greek for Universe was Cosmos and Cosmos was Chaos  
@@ -560,3 +560,5 @@ Hephaestus, Ares, Athena, Artemis, Apollo
 Zeus has a secret affair with Maia and has Hermes who becomes the 12 Olympian  
 He was born in a cave in Mount Cyllene  
 Hermes when he was not even 1/2 hour old made fire by rubbing two stones
+
+**Hermes** (**Mercury**): Messenger of Gods, God of the Travelers, Thieves, Merchants  
