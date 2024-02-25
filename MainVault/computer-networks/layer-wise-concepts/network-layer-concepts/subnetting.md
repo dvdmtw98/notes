@@ -1,7 +1,6 @@
 ---
 tags:
   - networking
-  - networking
   - ip
   - subnet
 title: Subnetting

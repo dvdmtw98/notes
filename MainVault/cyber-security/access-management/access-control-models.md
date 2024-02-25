@@ -5,7 +5,7 @@ tags:
   - access
   - management
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-02-22 15:17:44 -0600
 ---
 
 Assigned by principal of <u>Least Privilege</u> and should be used on a <u>Need to Know</u> basis
@@ -38,7 +38,7 @@ e.g. Environment Attributes, Resource Attributes
 
 #### Rule-Based Access Control (RBAC)
 Enables administrators to apply security policies to all users  
-[[access-control-types#Access Control List]] type of RBAC found commonly on Routers, Firewalls
+[[access-control-types#Access Control List|Access Control List]] is a type of RBAC found commonly on Routers, Firewalls
 
 #### Context-based Access Control
 Access granted based on location, time, access history, etc.

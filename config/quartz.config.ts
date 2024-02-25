@@ -1,6 +1,11 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
+/**
+ * Quartz 4.0 Configuration
+ *
+ * See https://quartz.jzhao.xyz/configuration for more information.
+ */
 const config: QuartzConfig = {
     configuration: {
         pageTitle: "Digital Archive",
@@ -15,6 +20,7 @@ const config: QuartzConfig = {
         ignorePatterns: ["private", "templates", ".obsidian"],
         defaultDateType: "created",
         theme: {
+            cdnCaching: false,
             typography: {
                 header: "Schibsted Grotesk",
                 body: "Poppins",
@@ -47,15 +53,21 @@ const config: QuartzConfig = {
     plugins: {
         transformers: [
             Plugin.FrontMatter(),
-            Plugin.TableOfContents({ maxDepth: 4, minEntries: 3 }),
+            Plugin.TableOfContents({ maxDepth: 5, minEntries: 2 }),
             Plugin.CreatedModifiedDate({
                 priority: ["frontmatter", "filesystem"],
             }),
             Plugin.Latex({ renderEngine: "katex" }),
-            Plugin.SyntaxHighlighting(),
-            Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+            Plugin.SyntaxHighlighting({
+                theme: {
+                light: "github-light",
+                dark: "github-dark",
+                },
+                keepBackground: false,
+            }),
+            Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false, enableCheckbox: true }),
             Plugin.GitHubFlavoredMarkdown(),
-            Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+            Plugin.CrawlLinks({ markdownLinkResolution: "shortest", lazyLoad: true }),
             Plugin.Description(),
             Plugin.ExternalLinks()
         ],

@@ -5,7 +5,7 @@ tags:
   - index
 title: C
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-17 14:20:15 -0600
+updated: 2024-02-24 18:19:54 -0600
 ---
 
 ### Table of Content
@@ -13,8 +13,10 @@ updated: 2024-02-17 14:20:15 -0600
 * **Theoretical Concepts**
 	* [[compiling-linking|Compiling and Linking]]
 	* [[directives|Directives]]
-* **Fundamental Concepts**
-	* [[c-basics|C Basics]]
+* **Core Concepts**
+	* [[c-fundamentals|C Fundamentals]]
+	* [[c-arithmetic-operators|C Arithmetic Operators]]
+	* [[c-selection-statements|C Selection Statements]]
 	* [[c-functions|C Functions]]
 	* [[c-pointers|C Pointers]]
 	* [[c-arrays|C Arrays]]

@@ -1,16 +1,17 @@
 ---
-title: Multi-Factor Authentication (MFA)
+title: Authentication Factors
 tags:
   - security
   - protect
   - access
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-02-22 15:15:04 -0600
 ---
 
+#### Multi-Factor Authentication
 Security system that requires more than one method of authentication from <u>independent categories of credentials</u> to certify the users identity
 
-#### Factors to Verify Authenticity
+#### Authentication Factors
 
 ##### Knowledge-based Factor
 Also known as <u>Type 1</u> or "<u>Something you Know</u>" factor  

@@ -1,7 +1,6 @@
 ---
 tags:
   - networking
-  - networking
   - ip
   - subnet
 title: Public & Private IP Addresses
@@ -41,6 +40,6 @@ If Subnet is 10.3.3.0/25 then Directed Broadcast IP is 10.3.3.127
 Send packet to every host on local Network as well as send packet to every host on foreign network  
 Sending packets to all devices on a foreign network is considered a security risk and this feature is disabled most modern hardware
 
-### [[nat-network-address-translation|NAT (Network Address Translation)]]
+### [[network-address-translation-nat|NAT (Network Address Translation)]]
 Translates Private IP Address to Public IP Address    
 The router has an Private Interface which is on the inside and a public interface which is facing the Internet

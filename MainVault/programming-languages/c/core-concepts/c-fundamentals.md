@@ -2,9 +2,9 @@
 tags:
   - programming
   - c
-title: C Basics
+title: C Fundamentals
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-17 16:11:46 -0600
+updated: 2024-02-18 18:53:54 -0600
 ---
 
 ### Declarations, Identifiers & Statements
@@ -74,7 +74,7 @@ Minimum field width (m) specifies how many characters should be printed
 If the number is shorter than the width the output is right justified with space as padding  
 
 The `-` sign is used to left justify the string  
-`n` when used with a integer controls the numbers of digits that will be shown  
+`p` when used with a integer controls the numbers of digits that will be shown. If the number is smaller than `p` it will be padded with zeros.  
 
 ```c
 i = 40;

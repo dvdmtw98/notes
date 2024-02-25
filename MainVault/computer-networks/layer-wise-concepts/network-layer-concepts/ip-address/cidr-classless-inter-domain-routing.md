@@ -1,11 +1,10 @@
 ---
 tags:
   - networking
-  - networking
   - ip
 title: CIDR (Classless Inter-Domain Routing)
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-30 18:42:20 -0600
+updated: 2024-02-22 12:11:13 -0600
 ---
 
 Also called as **Slash Notation**  

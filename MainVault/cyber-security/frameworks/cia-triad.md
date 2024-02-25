@@ -12,7 +12,7 @@ Information has not been disclosed to unauthorized people
 Protect personal piracy, Maintain a business advantage, Achieve regulatory compliance  
 **Protection**: Encryption, Access Control, Data Masking, Physical Protection, Training
 
-[[multi-factor-authentication-mfa|Factors to Verify Authenticity]]  
+[[authentication-factors|Factors to Verify Authenticity]]  
 [[data-states-and-types|Data States and Types]]
 
 #### Integrity

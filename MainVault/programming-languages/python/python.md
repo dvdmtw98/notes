@@ -1,7 +1,7 @@
 ---
 title: Python
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-03 10:31:09 -0600
+updated: 2024-02-24 11:27:59 -0600
 ---
 
 ### Table of Content
@@ -12,7 +12,7 @@ updated: 2024-02-03 10:31:09 -0600
 	* [[program-memory-management|Memory Management]]
 		* [[python-memory-management|Python Memory Management]]
 		* [[stack-and-heap-memory|Stack and Heap Memory]]
-1. **Fundamental Concepts**
+1. **Core Concepts**
 	* [[bitwise-operator|Bitwise Operator]]
 	* [[python-strings|Python Strings]]
 		* [[python-string-formatting|Python String Formatting]]

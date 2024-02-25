@@ -5,7 +5,7 @@ tags:
   - index
 title: Wireless Networking
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-02-20 15:58:32 -0600
 ---
 
 ### Wireless Networking
@@ -21,5 +21,5 @@ It can extend the connection of a wired network, connect entire LAN, connect dif
 * [[ieee-80211-standards|IEEE 802.11 Standards]]
 * [[port-security|IEEE 802.1x (Port Security)]]
 * [[wireless-encryption-standards|Wireless Encryption Standards]]
-	* [[wpa-wpa2-wi-fi-protected-access|WPA - WPA2 (Wi-Fi Protected Access)]]
+	* [[wpa-wifi-protected-access|WPA (Wi-Fi Protected Access)]]
 	* [[wpa2-wi-fi-protected-access-2|WPA2 (Wi-Fi Protected Access 2)]]

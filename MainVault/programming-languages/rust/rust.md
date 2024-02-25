@@ -5,7 +5,7 @@ tags:
   - index
 title: Rust
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-31 10:40:54 -0600
+updated: 2024-02-24 11:27:48 -0600
 ---
 
 ### Table of Content
@@ -16,7 +16,7 @@ updated: 2024-01-31 10:40:54 -0600
 		- [[rust-ownership-model|Rust Ownership Model]]
 	- [[rust-module-system|Rust Module System]]
 		- [[rust-module-namespace|Rust Module Namespace]]
-1. **Fundamental Concepts**
+1. **Core Concepts**
 	- [[rust-datatypes|Rust Datatypes]]
 	- [[rust-functions|Rust Functions]]
 	- [[rust-control-flow|Rust Control Flow]]

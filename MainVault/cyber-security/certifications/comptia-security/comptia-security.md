@@ -5,7 +5,7 @@ tags:
   - certification
 title: CompTIA Security+
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-02-22 15:15:59 -0600
 ---
 
 #### Fundamentals of Security
@@ -130,7 +130,7 @@ updated: 2024-01-28 14:15:56 -0600
 #### Identity and Access Management (IAM) Solutions
 
 * [[identity-and-access-management-iam|Identity and Access Management (IAM)]]
-* [[multi-factor-authentication-mfa|Multi-Factor Authentication (MFA)]]
+* [[authentication-factors|Authentication Factors]]
 * [[single-sign-on-sso|Single Sign-On (SSO)]]
 	* [[identity-providers-idp|Identity Providers (IdP)]]
 	* [[federation|Federation]]

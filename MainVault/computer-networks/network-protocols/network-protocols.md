@@ -5,7 +5,7 @@ tags:
   - protocol
 title: Network Protocols
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-02-22 12:13:02 -0600
 ---
 
 **Protocols**: Rules governing device communication and data exchange
@@ -23,6 +23,7 @@ updated: 2024-01-28 14:15:56 -0600
 	* [[user-datagram-protocol-udp|User Datagram Protocol (UDP)]]
 	* [[quick-udp-internet-connections-quic|Quick UDP Internet Connections (QUIC)]]
 * **Network Layer Protocols**
+	* [[ip-address|IP Address]]
 	* [[ipsec-protocol-suite|IPSec Protocol Suite]]
 	* [[address-resolution-protocol-arp|Address Resolution Protocol (ARP)]]
 	* [[spanning-tree-protocol-stp|Spanning Tree Protocol (STP)]]

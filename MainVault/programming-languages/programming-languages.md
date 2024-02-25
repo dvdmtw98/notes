@@ -5,7 +5,7 @@ tags:
   - index
 title: Programming Languages
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-02 18:04:28 -0600
+updated: 2024-02-24 11:27:02 -0600
 ---
 
 ### Programming
@@ -21,10 +21,14 @@ updated: 2024-02-02 18:04:28 -0600
 * [[bash|Bash]]
 * [[powershell|PowerShell]]
 
-### Web Development
+### Web Programming
 
 * [[css|CSS]]
 * [[javascript|JavaScript]]
 * [[nodejs|Node.js]]
 * [[svelte|Svelte]]
 * [[aspnet|ASP.NET]]
+
+### Programming Concepts
+
+* [[code-execution-models|Code Execution Models]]

@@ -5,7 +5,7 @@ tags:
   - vulnerability
   - protect
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-02-22 14:22:34 -0600
 ---
 
 #### Vulnerability Confirmation
@@ -23,4 +23,4 @@ Used as a quantifiable metric to help understand the exact percentage of an asse
 
 #### Risk Tolerance
 Level of risk that an organization is willing to accept in pursuit of its objectives and before action is deemed necessary to mitigate the risk  
-[[risk-register#Risk Appetite|Risk Appetite]]
+[[risk-appetite|Risk Appetite]]

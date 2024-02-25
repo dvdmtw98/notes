@@ -5,20 +5,22 @@ tags:
   - index
 title: CSS
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-03 10:34:29 -0600
+updated: 2024-02-24 11:30:12 -0600
 ---
 
 ### Table of Content
 
-* [[css-specificity|CSS Specificity]]
-* [[css-inheritance|CSS Inheritance]]
-* [[css-units|CSS Units]]
-* [[css-box-model|CSS Box Model]]
-* [[css-element-types|CSS Element Types]]
+* **Core Concepts**
+	* [[css-specificity|CSS Specificity]]
+	* [[css-inheritance|CSS Inheritance]]
+	* [[css-units|CSS Units]]
+	* [[css-box-model|CSS Box Model]]
+	* [[css-element-types|CSS Element Types]]
+* **Layout and Positioning**
+	* [[css-positioning|CSS Positioning]]
+	* [[css-flexbox|CSS Flexbox]]
+	* [[css-grid-layout|CSS Grid Layout]]
 * [[css-colors-and-typography|CSS Colors & Typography]]
-* [[css-positioning|CSS Positioning]]
-* [[css-flexbox|CSS Flexbox]]
-* [[css-grid-layout|CSS Grid Layout]]
 
 ### References
 

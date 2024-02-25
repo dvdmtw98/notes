@@ -1,8 +1,8 @@
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import breadcrumbsStyle from "./styles/breadcrumbs.scss"
+import { FullSlug, SimpleSlug, joinSegments, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { classNames } from "../util/lang"
-import { FullSlug, SimpleSlug, resolveRelative } from "../util/path"
-import breadcrumbsStyle from "./styles/breadcrumbs.scss"
-import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 type CrumbData = {
   displayName: string
@@ -71,7 +71,11 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
   // computed index of folder name to its associated file data
   let folderIndex: Map<string, QuartzPluginData> | undefined
 
-  function Breadcrumbs({ fileData, allFiles, displayClass }: QuartzComponentProps) {
+  const Breadcrumbs: QuartzComponent = ({
+    fileData,
+    allFiles,
+    displayClass,
+  }: QuartzComponentProps) => {
     // Hide crumbs on root if enabled
     if (options.hideOnRoot && fileData.slug === "index") {
       return <></>
@@ -85,13 +89,9 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
       folderIndex = new Map()
       // construct the index for the first time
       for (const file of allFiles) {
-        if (file.slug?.endsWith("index")) {
-          const folderParts = file.slug?.split("/")
-          // 2nd last to exclude the /index
-          const folderName = folderParts?.at(-2)
-          if (folderName) {
-            folderIndex.set(folderName, file)
-          }
+        const folderParts = file.slug?.split("/")
+        if (folderParts?.at(-1) === "index") {
+          folderIndex.set(folderParts.slice(0, -1).join("/"), file)
         }
       }
     }
@@ -99,13 +99,17 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
     // Split slug into hierarchy/parts
     const slugParts = fileData.slug?.split("/")
     if (slugParts) {
+      // is tag breadcrumb?
+      const isTagPath = slugParts[0] === "tags"
+
       // full path until current part
       let currentPath = ""
+
       for (let i = 0; i < slugParts.length - 1; i++) {
         let curPathSegment = slugParts[i]
 
         // Try to resolve frontmatter folder title
-        const currentFile = folderIndex?.get(curPathSegment)
+        const currentFile = folderIndex?.get(slugParts.slice(0, i + 1).join("/"))
         if (currentFile) {
           const title = currentFile.frontmatter!.title
           if (title !== "index") {
@@ -114,10 +118,15 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
         }
 
         // Add current slug to full path
-        currentPath += slugParts[i] + "/"
+        currentPath = joinSegments(currentPath, slugParts[i])
+        const includeTrailingSlash = !isTagPath || i < 1
 
         // Format and add current crumb
-        const crumb = formatCrumb(curPathSegment, fileData.slug!, currentPath as SimpleSlug)
+        const crumb = formatCrumb(
+          curPathSegment,
+          fileData.slug!,
+          (currentPath + (includeTrailingSlash ? "/" : "")) as SimpleSlug,
+        )
         crumbs.push(crumb)
       }
 
@@ -142,5 +151,6 @@ export default ((opts?: Partial<BreadcrumbOptions>) => {
     )
   }
   Breadcrumbs.css = breadcrumbsStyle
+
   return Breadcrumbs
 }) satisfies QuartzComponentConstructor

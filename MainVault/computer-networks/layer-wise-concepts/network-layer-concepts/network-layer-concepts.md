@@ -1,28 +1,20 @@
 ---
 tags:
   - networking
-  - networking
   - index
 title: Network Layer Concepts
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-30 18:41:34 -0600
+updated: 2024-02-22 12:10:33 -0600
 ---
 
 ### Related Topics
 
-* [[ipv4-address|IPv4 Address]]
-	* [[ip-address-classes|IP Address Classes]]
-	* [[public-and-private-ip-addresses|Public & Private IP Addresses]]
-	* [[cidr-classless-inter-domain-routing|CIDR (Classless Inter-Domain Routing)]]
-* [[ipv6-address|IPv6 Address]]
-	* [[ipv4-to-ipv6-transition|IPv4 to IPv6 Transition]]
-* [[subnetting|Subnetting]]
-* [[apipa-automatic-private-ip-addressing|APIPA (Automatic Private IP Addressing)]]
+* [[ip-address|IP Address]]
 * **Devices**
 	* [[router|Router]]
-		* [[dynamic-routing-protocols|Dynamic Routing Protocols]]
-		* [[nat-network-address-translation|NAT (Network Address Translation)]]
 	* [[layer-3-switch|Layer 3 Switch]]
+* [[network-address-translation-nat|NAT (Network Address Translation)]]
+* [[dynamic-routing-protocols|Dynamic Routing Protocols]]
 * [[internet-control-message-protocol-icmp|ICMP (Internet Control Message Protocol)]]
 * [[tunneling-protocols|Tunneling Protocols]]
 	* [[ipsec-protocol-suite|IPSec Protocol Suite]]

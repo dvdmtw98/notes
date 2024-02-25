@@ -19,7 +19,7 @@ They are of two types: Layer 4 and Layer 7
 At layer 4 the IP Addresses and Ports of the Packets are visible  
 Using the configured algorithm (Round Robin, Least Connections, etc.) the load balancer decides which server the request should to forwarded
 
-The load balancer using [[nat-network-address-translation|NAT (Network Address Translation)]] changes the source and target IP Address of the packet received  
+The load balancer using [[network-address-translation-nat|NAT (Network Address Translation)]] changes the source and target IP Address of the packet received  
 Source Address is changes to the address of Load Balancer and the target address is changed to the IP Address of the server that will process the request
 
 #### Features

@@ -1,7 +1,6 @@
 ---
 tags:
   - networking
-  - networking
   - ip
   - subnet
 title: IPv6 (Internet Protocol v6) Address

@@ -15,7 +15,7 @@ updated: 2024-01-29 10:32:05 -0600
 
 * [[wep-wired-equivalent-protection|WEP (Wired Equivalent Protection)]]
 * [[wep-cracking|WEP Cracking]]
-* [[wpa-wpa2-wi-fi-protected-access|WPA - WPA2 (Wi-Fi Protected Access)]]
+* [[wpa-wifi-protected-access|WPA - WPA2 (Wi-Fi Protected Access)]]
 * [[wpa-wpa2-cracking|WPA - WPA2 Cracking]]
 
 ### Post Connection Attacks

@@ -15,7 +15,7 @@ e.g. Username, Email Address, SSN, etc.
 Process of verifying the identity of an user or system  
 Prevent unauthorized access, Protect user data & privacy, Resource validity
 
-[[multi-factor-authentication-mfa|Factors to Verify Authenticity]]
+[[authentication-factors|Factors to Verify Authenticity]]
 
 #### Authorization
 Defines what actions or resources a user can access  
