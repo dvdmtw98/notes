@@ -4,10 +4,10 @@ tags:
   - index
 title: Cyber Security
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-24 18:17:43 -0600
+updated: 2024-03-02 16:39:42 -0600
 ---
 
-![[cybersecurity-banner.jpg|640]]
+![[cybersecurity-banner.jpg]]
 
 ### Certifications
 

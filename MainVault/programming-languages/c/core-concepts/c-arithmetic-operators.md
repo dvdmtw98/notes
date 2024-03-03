@@ -4,13 +4,14 @@ tags:
   - c
   - programming
 date: 2024-02-18 18:54:20 -0600
-updated: 2024-02-20 11:56:39 -0600
+updated: 2024-02-28 22:38:18 -0600
 ---
 
 ### Operators
 
 All the other arithmetic operators (leaving `%`) allows integer and floating point operands  
 When a int and float is involved the result (exception `%` and `/`) is always a float  
+
 With `/` if both the operand is integer then the result is also a integer  
 With `%` floats cannot be used
 

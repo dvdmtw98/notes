@@ -7,7 +7,7 @@ tags:
   - movie
 title: Movie List
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-07 09:42:00 -0600
+updated: 2024-02-25 11:36:22 -0600
 ---
 
 ### Western Movies
@@ -40,7 +40,6 @@ updated: 2024-02-07 09:42:00 -0600
 |     | Being John Malkovich                           | 1999    |
 |     | The Evil Dead                                  | 1981    |
 |     | The Evil Dead 2                                | 1987    |
-|     | 12 Angry Men                                   | 1957    |
 |     | The Maltese Falcon                             | 1941    |
 |     | 21 Grams                                       | 2003    |
 |     | Brick                                          | 2005    |

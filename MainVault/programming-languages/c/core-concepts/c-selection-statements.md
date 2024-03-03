@@ -4,25 +4,41 @@ tags:
   - c
   - programming
 date: 2024-02-24 10:24:00 -0600
-updated: 2024-02-24 20:52:02 -0600
+updated: 2024-02-25 21:56:09 -0600
 ---
 ### Logical Expressions
 
 Used with selection statements    
 
-| Operator Type      | Associativity | Precedence                |
-| :----------------- | :------------ | :------------------------ |
-| Relational         | Left          | Lower than Arithmetic     |
-| Equality           | Left          | Lower than Relational     |
-| Logical (!)        | Right         | Same as Unary `+` and `-` |
-| Logical (&&, \|\|) | Left          | Lower than Equality       |
-| Conditional        |               | Lower than Logical        |
+| Operator Type             | Associativity | Precedence                |
+| :------------------------ | :------------ | :------------------------ |
+| Relational (<, >, <=, >=) | Left          | Lower than Arithmetic     |
+| Equality (!=, ==)         | Left          | Lower than Relational     |
+| Logical (!)               | Right         | Same as Unary `+` and `-` |
+| Logical (&&, \|\|)        | Left          | Lower than Equality       |
+| Conditional (Tertiary)    | Left          | Lower than Logical        |
 
 All the above operators have higher precedence than assignment operators  
 Non-zero Operands are True everything else is False  
-Logical operators can be short-circuited 
 
-#### Boolean Datatype
+Logical operators can be short-circuited  
+Irrespective of the precedence of the operators logical expressions are evaluated condition by condition from left
+
+```c
+int i = 1, j = 1, k = 1;  
+printf("%d ", ++i || ++j && ++k);  
+printf("%d %d %d", i, j, k);  
+
+/*
+(++1) || ++j && ++k  
+2 || ++j && ++k 
+1
+
+i = 2, j = 1, k = 1 
+*/
+```
+
+### Boolean Datatype
 
 C89 does not have Boolean datatype  
 C99 added` _Bool` which is an unsigned int in disguise which can take the values 0 and 1  
@@ -59,7 +75,7 @@ if (y != 0) {
 
 In the above example `else` belongs to the outer `if`
 
-#### Switch Statement
+### Switch Statement
 
 When there are many cases `switch` statement will be faster than cascaded if statement  
 
@@ -111,3 +127,7 @@ switch (grade) {
 		break;
 }
 ```
+
+Switch statement is a type of **computed jump**  
+Case statements are markers that represent different positions in the switch statement  
+When the last statement in a case is executed the control "falls through" to the first statement in the next case, the case label is ignored

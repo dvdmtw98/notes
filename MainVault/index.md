@@ -4,12 +4,12 @@ tags:
   - index
 title: Main Index
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-24 12:58:15 -0600
+updated: 2024-03-02 18:22:25 -0600
 ---
 
-![[main-banner.png|640]]
-
 Welcome to Digital Archive. This is a space where I store my notes, ideas, insights, and connections I’ve made throughout my life. You can explore the various topics that interest me, learn from the content I’ve gathered, and see how everything is connected.
+
+![[main-banner.png]]
 
 There are multiple ways to navigate Digital Archive:
 1. Use the search bar (top right) to search for any term or press `ctrl+k` (`cmd+k` on Mac).

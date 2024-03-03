@@ -4,7 +4,7 @@ tags:
   - security
 title: Information Gathering
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-02-29 09:16:40 -0600
 ---
 
 ### Email Address OSINT
@@ -27,7 +27,7 @@ Login/Password Reset Prompts can also reveal sensitive information
 
 ### Breach Data Search
 
-[DeHashed - \#FreeThePassword](https://www.dehashed.com/)
+[DeHashed - Data Breach Search](https://www.dehashed.com/)
 
 ### Subdomain OSINT
 
