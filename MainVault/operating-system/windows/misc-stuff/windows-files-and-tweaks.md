@@ -4,16 +4,19 @@ tags:
   - windows
 title: Windows Files & Tweaks
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-29 14:38:23 -0600
+updated: 2024-03-04 21:38:05 -0600
 ---
 
-### Important File Locations
+### File Locations
 
-**Host File**  
+#### Host File  
 `C:\Windows\System32\drivers\etc\hosts` 
 
-**SAM Database Location**  
+#### SAM Database  
 `C:\Windows\System32\config\SAM`
+
+#### Windows Dictionary
+`%AppData%\Microsoft\Spelling\neutral\default.dic`
 
 ### Shell Shortcuts
 
@@ -30,12 +33,6 @@ Send To Menu: `shell:sendto`
 Fonts Folder: `shell:fonts`
 
 Taskbar Shortcuts: `C:\Users\David\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar`
-
-### Windows Registry Tweaks
-
-**Increase IRPStackSize**  
-Could make Internet Faster       `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters`  
-New → DWORD (32-bit) → IRPStackSize → Value : 32 (Decimal)
 
 ### Windows Services to Disable
 

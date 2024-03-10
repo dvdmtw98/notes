@@ -106,12 +106,3 @@ The call to `scanf` can contain ordinary characters. It will pattern match the o
 `%i`: Base-8, Base-10 or Base-16 number
 
 `scanf` has a return a value which equals to the numbers of inputs it was able to read  
-
----
-
-**`&name`** : Address in memory pointed by variable name
-
-When reading arrays using **`scanf()`** we don't have to specify the & sign as the array name points to a memory address (Start of the array/ Address of 0th element)  
-The **`%s`** is an special format specifier as we can print entire string without looping over each character one by one
-
-When reading strings from the user `fgets()` function is preferred and allows to even read string that have spaces in them

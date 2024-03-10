@@ -7,13 +7,13 @@ tags:
   - movie
 title: Movie List
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-25 11:36:22 -0600
+updated: 2024-03-04 15:41:07 -0600
 ---
 
 ### Western Movies
 
 | No. | Names                                          | Release |
-| --- | ---------------------------------------------- | ------- |
+| :-- | :--------------------------------------------- | :------ |
 |     | Magnolia                                       | 1999    |
 |     | Predestination                                 | 2014    |
 |     | Shaun of the Dead                              | 2004    |
@@ -40,7 +40,6 @@ updated: 2024-02-25 11:36:22 -0600
 |     | Being John Malkovich                           | 1999    |
 |     | The Evil Dead                                  | 1981    |
 |     | The Evil Dead 2                                | 1987    |
-|     | The Maltese Falcon                             | 1941    |
 |     | 21 Grams                                       | 2003    |
 |     | Brick                                          | 2005    |
 |     | In Bruges                                      | 2008    |
@@ -57,7 +56,6 @@ updated: 2024-02-25 11:36:22 -0600
 |     | All the President's Men                        | 1976    |
 |     | Monster                                        | 2003    |
 |     | Citizen X                                      | 1995    |
-|     | Office Space                                   | 1999    |
 |     | La Femme Nikita                                | 1990    |
 |     | M                                              | 1931    |
 |     | Modern Times                                   | 1936    |
@@ -85,7 +83,6 @@ updated: 2024-02-25 11:36:22 -0600
 |     | The Skin I Live In                             | 2011    |
 |     | The Untouchables                               | 1987    |
 |     | The Warriors                                   | 1979    |
-|     | The Wicker Man                                 | 1973    |
 |     | The Princess Bride                             | 1987    |
 |     | 127 Hours                                      | 2010    |
 |     | A Separation                                   | 2011    |
@@ -95,6 +92,25 @@ updated: 2024-02-25 11:36:22 -0600
 |     | Monty Python's Life of Brian                   | 1979    |
 |     | Manchester by the Sea                          | 2016    |
 |     | The Florida Project                            | 2017    |
+|     | 12 Years a Slave                               | 2013    |
+|     | Another Round                                  | 2020    |
+|     | Atonement                                      | 2017    |
+|     | Chicago                                        | 2002    |
+|     | Deep Red                                       | 1975    |
+|     | Dirty Rotten Scoundrels                        | 1988    |
+|     | Green Room                                     | 2015    |
+|     | Little Miss Sunshine                           | 2006    |
+|     | No Way Out                                     | 1987    |
+|     | Primal Fear                                    | 1996    |
+|     | The Fly                                        | 1986    |
+|     | The Good, the Bad and the Ugly                 | 1966    |
+|     | The Orphanage                                  | 2007    |
+|     | The Pianist                                    | 2002    |
+|     | The Vanishing                                  | 1988    |
+|     | Underground                                    | 1995    |
+|     | Who Framed Roger Rabbit                        | 1988    |
+|     | A Bronx Tale                                   | 1993    |
+|     | 21 Jump Street                                 | 2012    |
 
 ### Asian Movies
 
@@ -131,3 +147,9 @@ updated: 2024-02-25 11:36:22 -0600
 |     | Tim Burton's The Nightmare Before Christmas | 1993    |
 |     | The Triplets of Belleville                  | 2003    |
 |     | Anomalisa                                   | 2015    |
+|     | Fantastic Mr. Fox                           | 2009    |
+|     | I Lost My Body                              | 2019    |
+|     | The Night Is Short, Walk on Girl            | 2017    |
+|     | The Red Turtle                              | 2016    |
+|     | Mary and Max                                | 2009    |
+|     | The Summit of the Gods                      | 2021    |

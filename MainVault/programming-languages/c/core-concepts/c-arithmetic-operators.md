@@ -4,7 +4,7 @@ tags:
   - c
   - programming
 date: 2024-02-18 18:54:20 -0600
-updated: 2024-02-28 22:38:18 -0600
+updated: 2024-03-04 21:21:19 -0600
 ---
 
 ### Operators
@@ -76,3 +76,6 @@ In C any expression can be used as a statement by simply ending it with a semico
 e.g. `i * j - 1;`  
 These statements have no effect unless the operation has a side-effect  
 e.g. `++i;`
+
+The side-effects of a operation are guaranteed to be computed by the next sequence point (sequencing) in the program  
+[Sequence point - Wikipedia](https://en.wikipedia.org/wiki/Sequence_point)

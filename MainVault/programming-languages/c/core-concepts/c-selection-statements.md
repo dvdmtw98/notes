@@ -4,7 +4,7 @@ tags:
   - c
   - programming
 date: 2024-02-24 10:24:00 -0600
-updated: 2024-02-25 21:56:09 -0600
+updated: 2024-03-09 17:55:19 -0600
 ---
 ### Logical Expressions
 
@@ -41,7 +41,7 @@ i = 2, j = 1, k = 1
 ### Boolean Datatype
 
 C89 does not have Boolean datatype  
-C99 added` _Bool` which is an unsigned int in disguise which can take the values 0 and 1  
+C99 added `_Bool` which is an unsigned int in disguise which can take the values 0 and 1  
 If any other non-zero value is assigned to `_Bool` it is saved as 1  
 The header `<stdbool.h>` was also added which includes the type `bool` which is the same as `_Bool`. The header also defines macros that allow us to use `true` and `false` as values.
 

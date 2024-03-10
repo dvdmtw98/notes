@@ -7,7 +7,7 @@ tags:
   - book
 title: Book List
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-15 10:29:16 -0600
+updated: 2024-03-05 00:32:10 -0600
 ---
 
 ### Fiction List
@@ -52,3 +52,4 @@ updated: 2024-02-15 10:29:16 -0600
 * [[ikigai|Ikigai]]  
 * [[why-we-sleep|Why We Sleep]]
 * [[mythos|Mythos]]
+* [[code|Code]]

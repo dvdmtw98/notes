@@ -1,7 +1,7 @@
 ---
 title: Python
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-24 11:27:59 -0600
+updated: 2024-03-04 21:15:42 -0600
 ---
 
 ### Table of Content
@@ -16,7 +16,7 @@ updated: 2024-02-24 11:27:59 -0600
 	* [[bitwise-operator|Bitwise Operator]]
 	* [[python-strings|Python Strings]]
 		* [[python-string-formatting|Python String Formatting]]
-	* [[python-iteration-and-control-flow-statements|Python Iteration & Control Flow Statements]]
+	* [[python-control-flow-and-loops|Python Control Flow & Loops]]
 	* [[python-functions|Python Functions]]
 	* [[python-collections|Python Collections]]
 	* [[python-comprehension|Python Comprehension]]
