@@ -5,9 +5,9 @@ on:
     push:
         branches: [main]
         paths-ignore:
-            - "MainVault/read-and-watch-list/**"
-            - "MainVault/us-court-system/**"
-            - "MainVault/.obsidian/**"
+            - "notes-vault/read-and-watch-list/**"
+            - "notes-vault/us-court-system/**"
+            - "notes-vault/.obsidian/**"
 
 jobs:
     digital-archive:

@@ -14,7 +14,7 @@ runs:
           id: copy-markdown
           shell: bash
           run: |
-              cp -a source/MainVault/. quartz/content \
+              cp -a source/notes-vault/. quartz/content \
               && rm -rf quartz/content/{read-and-watch-list,us-court-system,.gitkeep}
         - name: Copy Config
           id: copy-config
