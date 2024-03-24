@@ -5,7 +5,7 @@ tags:
   - nmap
 title: Normal Scan Techniques
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-03-14 20:49:30 -0500
+updated: 2024-03-16 23:32:15 -0500
 ---
 
 #### Default Scan
@@ -17,7 +17,7 @@ Same as `-sT` Scan (TCP Full Scan)
 nmap <ip-address>
 ````
 
-#### Ping Sweep
+#### Ping Scan (Host Discovery)
 
 Check whether an host is up (Host Discovery)  
 Makes use of ICMP packets which could be filtered by Firewalls
@@ -28,16 +28,17 @@ nmap -sn <ip-address>
 
 The results returned by Ping Sweep is not very accurate. Active devices are sometimes not detected
 
-#### Disables Ping Scan
+#### No Ping Scan
 
-Hosted is considered to be online and top 1000 ports is scanned  
+Host is assumed to be online (No Host Discovery)    
+Top 1000 ports is scanned  
 Useful if ICMP packets are filtered
 
 ````bash
 nmap -Pn <ip-address>
 ````
 
-#### OS Detection and Service Versioning Scan
+#### OS Detection & Service Versioning Scan
 
 Noisy scans can be easily detected by firewalls and IDS
 
@@ -50,7 +51,7 @@ nmap -O -sV <ip-address>
 nmap -A <ip-address>
 ````
 
-#### TCP Connect Scan/ Full Open Scan
+#### TCP Connect (Full Open) Scan
 
 Slower than SYN Scan. Can be easily detected  
 3-Way Handshake is performed with the target before reset packet is sent  
@@ -59,7 +60,7 @@ Slower than SYN Scan. Can be easily detected
 nmap -sT <ip-address>
 ````
 
-#### Stealth Scan/ Half Open Scan (SYN Scan)
+#### Stealth Scan (SYN Scan)
 
 Fast scan and can evade firewall detection  
 Only half 3-Way Handshake is performed and then immediately reset
@@ -72,7 +73,7 @@ SYN-ACK Response: Open
 RST Response: Closed  
 Unreachable: Filtered
 
-#### UDP Connect Scan
+#### UDP Scan
 
 If the port is closed the service will respond using an ICMP (ping) packet  
 UDP scan is significantly slower than TCP scans  

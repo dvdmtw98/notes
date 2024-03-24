@@ -5,7 +5,7 @@ tags:
   - index
 title: C
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-03-16 17:26:19 -0500
+updated: 2024-03-23 10:55:44 -0500
 ---
 
 ### Table of Content
@@ -13,6 +13,7 @@ updated: 2024-03-16 17:26:19 -0500
 * **Theoretical Concepts**
 	* [[compiling-linking|Compiling and Linking]]
 	* [[directives|Directives]]
+	* [[floating-point-numbers|Floating Point Numbers]]
 * **Core Concepts**
 	* [[c-fundamentals|C Fundamentals]]
 	* [[c-arithmetic-operators|C Arithmetic Operators]]
@@ -73,6 +74,3 @@ Name of arrays in C stores the base address of the array
 #### Library Files
 To include the **Math library** (libm.a) in a program we need to specify the `-lm` flag  
 `.a` (Archive) are static library files and are **embedded** into our code `.so` (Shared Object) are dynamic library files and are only **referenced** by our program
-
-#### Datatypes
-Datatypes like uint_16 (Fixed Size variables) are used when we want to make our code portable and occupy the same space on all systems. Types like int can have different space requirements depending on the system

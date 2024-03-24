@@ -50,7 +50,9 @@ The element will act as relative positioned element normally but if we scroll th
 Sticky element live only inside its parent element  
 Once the parent element is removed from the screen so is the sticky element
 
-### Positioning Properties (Top, Bottom, Left, Right)
+---
+
+### Positioning Properties
 
 The properties top, bottom, left and right define how far the respective size of the element is from their parent element  
 The **inset** property is the shorthand for the above four properties
