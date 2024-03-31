@@ -4,8 +4,26 @@ tags:
   - c
 title: C Arrays
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-03-29 16:49:33 -0500
 ---
+
+Array is a data structure that allows us to store multiple values of the same type  
+The length and data type of the array has to be defined during array declaration  
+
+Accessing specific elements from an array is called **subscripting** or **indexing**  
+Expressions of the type `a[i]` are l-values so they can be used in the same way as ordinary variables
+
+```c
+#define N 10
+
+for (i = 0; i < N; i++) {
+	scanf("%d", &a[i]);
+}
+```
+
+C does not check bounds when we index an array  
+Accessing an index that is out of range is undefined behavior  
+The array subscript can be any integer expression even ones with side-effects
 
 The **name of array** in C is an **pointer** to the **memory address** to the **first element** of the array  
 Accessing a value using its address of the pointer is called **dereferencing the pointer**

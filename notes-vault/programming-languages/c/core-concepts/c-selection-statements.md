@@ -4,7 +4,7 @@ tags:
   - c
   - programming
 date: 2024-02-24 10:24:00 -0600
-updated: 2024-03-13 22:54:47 -0500
+updated: 2024-03-28 22:22:57 -0500
 ---
 ### Logical Expressions
 
@@ -84,18 +84,23 @@ switch (grade) {
 	case 4: 
 		printf("Excellent");
 		break;
+		
 	case 3:
 		printf("Good");
 		break;
+		
 	case 2:
 		printf("Average");
 		break;
+		
 	case 1:
 		printf("Poor");
 		break;
+		
 	case 0:
 		printf("Failing");
 		break;
+		
 	default:
 		printf("Illegal grade");
 		break;
@@ -119,9 +124,11 @@ switch (grade) {
 	case 1:
 		printf("Passing");
 		break;
+		
 	case 0:
 		printf("Failing");
 		break;
+		
 	default:
 		printf("Illegal grade");
 		break;

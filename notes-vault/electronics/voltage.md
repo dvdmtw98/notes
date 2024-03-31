@@ -3,11 +3,11 @@ tags:
   - electrical
 title: Voltage
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 22:07:58 -0600
+updated: 2024-03-24 23:12:57 -0500
 ---
 
 Pushes the free electrons around a circuit in a direction  
-Without voltage electrons still move around atoms but this occurs in an random manner
+Without voltage electrons still move around but this occurs in an random manner
 
 The more voltage we have the more electrons will flow in a direction  
 Low voltage means low pressure so less electrons flow
@@ -23,3 +23,5 @@ While parallel connection will increase the duration for which the circuit can b
 
 Volt is the force required to drive 1 Coulomb through a resistor for 1 Ohm in 1 sec  
 1 Coulomb = 6.242 * $10^{18}$ electrons/ sec
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/w82aSjLuD_8?si=qvt9s1XkHixqkgoS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

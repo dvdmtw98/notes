@@ -4,7 +4,7 @@ tags:
   - c
   - programming
 date: 2024-03-03 23:00:48 -0600
-updated: 2024-03-09 17:24:27 -0600
+updated: 2024-03-28 22:22:10 -0500
 ---
 
 If the body of the loop contains multiple statements it has to be wrapped in brackets  
@@ -200,6 +200,11 @@ done:;
 
 A null statement (consisting of just a semicolon) performs no operations  
 It is useful when the syntax of the language calls for a statement but no expression evaluation  
+
+```c
+/* Skip whitespace after first word */
+while ((character = getchar()) != ' ');
+```
 
 Adding a semicolon after the parenthesis of a `if`, `for` or `while` statement creates a null statement which causes the loop to be exited prematurely  
 
