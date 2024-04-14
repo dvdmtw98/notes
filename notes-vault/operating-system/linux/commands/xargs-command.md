@@ -5,7 +5,7 @@ tags:
   - command
 title: xargs Command
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 21:55:33 -0600
+updated: 2024-04-11 15:28:06 -0500
 ---
 
 Reads items from the standard input, delimited by space or newline, and executes the command for each data (argument)  

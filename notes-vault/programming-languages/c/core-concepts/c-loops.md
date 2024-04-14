@@ -4,7 +4,7 @@ tags:
   - c
   - programming
 date: 2024-03-03 23:00:48 -0600
-updated: 2024-03-28 22:22:10 -0500
+updated: 2024-04-08 15:01:14 -0500
 ---
 
 If the body of the loop contains multiple statements it has to be wrapped in brackets  
@@ -56,15 +56,15 @@ for (int i = 0; i < n; i++) {
 }
 ```
 
-#### Comma Operator
+### Comma Operator
 
 Depending on the usage comma can be a separator or a operator
 
 When used as a operator the 1st expression is evaluated and its value is discarded  
-The 2nd expression is evaluated and its value becomes the value of the entire expression  
+The 2nd expression is evaluated and its value becomes the value of the expression  
 The 1st expression should cause a side-effect for it to have a purpose 
 
-Comma operator has the lowest precedence of the operators and It is left associative  
+Comma operator has the lowest precedence of the operators, it is left associative  
 
 [Comma operator - Wikipedia](https://en.wikipedia.org/wiki/Comma_operator)
 
@@ -120,7 +120,7 @@ while (n < 10) {
 ### `goto` Statement
 
 Transfer controls to any labelled statement that is inside the same function  
-**C99**: `goto` cannot be used to skip over the declaration of a variable-length array
+**C99**: `goto` cannot be used to skip over the declaration of a variable-length array (Might access element of the array that is not declared)
 
 ```c
 // Check if number is prime

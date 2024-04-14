@@ -5,7 +5,7 @@ tags:
   - command
 title: find Command
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 21:41:13 -0600
+updated: 2024-04-11 09:47:24 -0500
 ---
 
 ````bash
