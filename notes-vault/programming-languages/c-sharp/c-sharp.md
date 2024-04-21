@@ -5,7 +5,7 @@ tags:
   - index
 title: C Sharp
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-03 10:32:02 -0600
+updated: 2024-04-14 20:21:32 -0500
 ---
 
 ### Table of Content
