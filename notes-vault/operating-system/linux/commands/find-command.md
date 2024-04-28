@@ -5,11 +5,14 @@ tags:
   - command
 title: find Command
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-04-11 09:47:24 -0500
+updated: 2024-04-25 22:39:01 -0500
 ---
 
 ````bash
 find / -type f -name "file.txt"
+
+# Files that have SUID bit set and are owned by root
+find / -perm -4000 -user -4000 2> /dev/null
 ````
 
 `-mmin -10`: Files modified less than 10 mins ago  

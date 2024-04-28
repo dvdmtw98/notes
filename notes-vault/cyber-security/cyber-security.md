@@ -4,7 +4,7 @@ tags:
   - index
 title: Cyber Security
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-03-29 23:32:46 -0500
+updated: 2024-04-26 19:05:44 -0500
 ---
 
 ![[cybersecurity-banner.jpg]]
@@ -27,6 +27,7 @@ updated: 2024-03-29 23:32:46 -0500
 * [[cyber-defense-frameworks|Cyber Defense Frameworks]]
 * [[cyber-threat-intelligence-cti|Cyber Threat Intelligence (CTI)]]
 * [[threat-modeling|Threat Modeling]]
+* [[yara|YARA]]
 
 ### Security Infrastructure
 
