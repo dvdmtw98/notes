@@ -5,7 +5,7 @@ tags:
   - dns
 title: DNS Records
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-04-30 10:05:31 -0500
 ---
 
 #### A (Address) Record
@@ -22,7 +22,7 @@ Can be used to redirect to another server
 Points domains to Mail Servers  
 MX records like CNAME records always point to another domain  
 Generally a server will have multiple MX records and each one has a priority  
-The MX record with the lowest priority is the Primary Server
+The MX record with the lowest priority number is the Primary Server
 
 #### SOA (Start of Authority) Record
 Stores administrative details about a Zone  

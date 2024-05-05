@@ -5,12 +5,24 @@ tags:
   - dns
 title: Domain Name System (DNS)
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-04-30 10:00:48 -0500
 ---
 
 It is the phonebook of the internet (Converts Domain Names to IP Addresses)
 
-#### DNS Working
+### Domain Names
+
+gTLD (Generic Top Level Domain) - `.org`, `.com`, `.edu`  
+ccTLD (Country Code Top Level Domain) - `.in`, `.co.uk`
+
+Second Level Domain can only be 63 characters long  
+They can only contain alphanumeric characters and hyphens  
+
+Subdomains sit below second level domains and have the same naming restrictions  
+There is no limit on the level of subdomains that can be created  
+The entire domain name most be 253 characters or less
+
+### DNS Working
 Check Web Browser & OS Cache for IP Address  
 Send request to DNS Recursive Resolver (ISP) - Checks own Cache for IP Address  
 Send request to Root Server - Knows location to Top Level Domain (TLD) Server  

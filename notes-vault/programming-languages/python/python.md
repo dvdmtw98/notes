@@ -1,7 +1,7 @@
 ---
 title: Python
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-03-12 22:00:20 -0500
+updated: 2024-04-30 19:51:10 -0500
 ---
 
 ### Table of Content

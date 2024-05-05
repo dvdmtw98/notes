@@ -4,7 +4,7 @@ tags:
   - scripting
   - powershell
 date: 2024-02-02 18:04:41 -0600
-updated: 2024-02-03 11:52:11 -0600
+updated: 2024-05-04 12:24:22 -0500
 ---
 
 ### Table of Content
@@ -44,6 +44,9 @@ Get-Command -Module <module-name> | Select-Object -Unique Noun
 
 # List all Commands with a Noun
 Get-Command -Noun <noun>
+
+# List Installed Modules
+Get-InstalledModule
 ```
 
 #### Help Cmdlet
