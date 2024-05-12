@@ -4,7 +4,7 @@ tags:
   - c
   - programming
 date: 2024-03-12 18:24:46 -0500
-updated: 2024-03-28 17:54:39 -0500
+updated: 2024-05-05 17:08:20 -0500
 ---
 
 ### Integer Types
@@ -149,6 +149,8 @@ scanf(" %c", &ch);
 ```
 
 `getchar()` and `putchar()` are character specific `scanf` and `printf`  
+
+0 in ASCII represents NULL (Useful for initializing character arrays)
 
 #### Escape Sequence
 

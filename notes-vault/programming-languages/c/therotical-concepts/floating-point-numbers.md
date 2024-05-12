@@ -5,7 +5,7 @@ tags:
   - software
   - computer
 date: 2024-03-19 18:13:56 -0500
-updated: 2024-03-21 22:27:11 -0500
+updated: 2024-05-05 11:51:51 -0500
 ---
 
 The general name for the Decimal Point is **Radix Point**  
@@ -13,22 +13,27 @@ Computers store the sign, exponent and mantissa of a floating-point number
 Mantissa is also called Fraction  
 
 ### Biasing
-It is the process of offsetting numbers in a series by a fixed value (offset)
+It is the process of offsetting numbers in a series by a fixed value
 
 Assume we have 4 bits to store the exponent of a floating-point number  
 Using 4 bits we can represent 16 unique values  
-Exponents can be positive and negative so the range is equally divided  
-Now we can represent numbers ranging from -8 to 7  
-
-Next we find the largest number in the series (in our case is 8)  
-This value is added to all the numbers in the series  
+Exponents can be positive and negative so effectively we can represent exponents ranging from -8 to 7  
+Next we select the largest number from the series (in our case 8) and add it to all the numbers in the series  
 This will give us a new series with numbers ranging from 0 to 15  
 Using the new series negative exponents can also be stored as a positive value  
 
+| Range         | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  | 16  |
+| :------------ | :-- | :-- | :-- | :-- | :-- | :-- | :-- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Signed  Range | -8  | -7  | -6  | -5  | -4  | -3  | -2  | -1  | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
+| With Bias     | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  |
+
 Assume we have 10 bits to store floating point numbers  
 1 bit for sign, 4 bits for exponent and 5 bits for mantissa  
-$(0.0101)_{2} = 0.101 \times 10^{-1} = 0\quad0111\quad10100$  
-$(101.101)_{2} = 1.01101 \times 2^{2} = 0\quad1010\quad01101$
+
+| Floating Number | Scientific Notation    | Sign | Exponent | Mantissa |
+| :-------------- | :--------------------- | :--- | :------- | :------- |
+| $(0.0101)_{2}$  | $0.101 \times 2^{-1}$  | 0    | 0111     | 10100    |
+| $(101.101)_{2}$ | $1.01101 \times 2^{2}$ | 0    | 1010     | 01101    |
 
 ### Normalization
 The process of representing a floating-point number in scientific notation  
@@ -69,7 +74,7 @@ Programming languages implement Single and Double Precision Floats
 When 5 bits are reserved for exponent we have 32 unique combinations (0-31)  
 If we consider signed numbers as well then the range becomes -16 to 15  
 In the IEEE 754 standard the exponent pattern all 0s and all 1s are reserved  
-So the range of the exponent becomes -14 to 15
+So the range of the exponent effectively becomes -14 to 15
 
 | Exponent                | Mantissa   | Represents           |                                          |
 | :---------------------- | :--------- | :------------------- | :--------------------------------------- |

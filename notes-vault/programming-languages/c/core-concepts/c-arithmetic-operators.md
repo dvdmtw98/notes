@@ -4,7 +4,7 @@ tags:
   - c
   - programming
 date: 2024-02-18 18:54:20 -0600
-updated: 2024-03-04 21:21:19 -0600
+updated: 2024-05-11 18:20:09 -0500
 ---
 
 ### Operators
@@ -41,11 +41,13 @@ Because of this we can have chain assignments
 It is a operator that has a side effect (Causes the value of v to change)  
 Assignment operator is right associative
 
-#### L-value
+#### L-value (Locator Value)
 
-The assignment operator requires an L-value as its right operand  
 L-values represents an object stored in computer memory  
-Variables are a type of L-value
+The assignment operator requires an L-value as its right operand  
+Variables and Compound Literals are a type of L-value  
+
+[Understanding lvalues and rvalues in C and C++ - Eli Bendersky's website](https://eli.thegreenplace.net/2011/12/15/understanding-lvalues-and-rvalues-in-c-and-c/)
 
 #### Compound Assignment
 

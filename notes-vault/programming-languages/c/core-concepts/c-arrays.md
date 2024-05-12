@@ -4,7 +4,7 @@ tags:
   - c
 title: C Arrays
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-04-08 14:58:21 -0500
+updated: 2024-05-08 18:59:10 -0500
 ---
 
 Array is a data structure that allows us to store multiple values of the same type  
@@ -82,7 +82,29 @@ int m[5][9] = {
 };
 ```
 
-The inner braces are optional can be omitted but some compiler will show warning
+The inner braces are optional can be omitted but some compiler will show warning.  
+
+> [!INFO] ND Array Initialization
+> A single value cannot be used to initialize all the elements of a ND array like in 1D array. Nested for loops have to be used to initialize all the elements individually.
+> 
+> ```c
+> char matrix[ROW][COLUMN];
+> 
+> for (row = 0; row < ROW; row++) {
+>    for (column = 0; column < COLUMN; column++) {
+> 	   matrix[row][column] = '.';
+>    }
+> }
+> ```
+
+```c
+// Reading string into Array
+char message[80] = {0};
+
+for (iter1 = 0; (letter = getchar()) != '\n'; iter1++) {
+	message[iter1] = letter;
+}
+```
 
 ### Variable-Length Array (VLA)
 

@@ -4,7 +4,7 @@ tags:
   - programming
   - c
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-03-13 22:47:56 -0500
+updated: 2024-05-05 17:04:00 -0500
 ---
 
 ### Declarations, Identifiers & Statements
@@ -24,7 +24,7 @@ float celsius; // Declaration (Would be invalid in ASNI C)
 celsius = (fahrenheit - FREEZING_PT) * SCALE_FACTOR;
 ```
 
-The names used to create variables, functions and other entities are called **identifiers**
+The name assigned to variables, functions and other entities are called **identifiers**
 
 ### Input & Output
 
@@ -47,7 +47,7 @@ int main(void) {
 }
 ```
 
-The F in **`printf`** and **`scanf`** stands for formatted  
+The `f` in **`printf`** and **`scanf`** stands for formatted  
 These functions require a format string to specify the type of data to input and output  
 
 #### `printf` Function
@@ -87,7 +87,7 @@ printf("|%5.3d|\n", i);
 
 #### `scanf` Function
 
-`scanf` is essentially a “pattern-matching” function that tries to match up groups of input characters with conversion specifications  
+`scanf` is essentially a "pattern-matching" function that tries to match up groups of input characters with conversion specifications  
 When providing input the values can be separated by spaces, new lines and tabs
 
 ```c

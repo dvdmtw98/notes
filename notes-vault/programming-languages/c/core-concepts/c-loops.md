@@ -4,7 +4,7 @@ tags:
   - c
   - programming
 date: 2024-03-03 23:00:48 -0600
-updated: 2024-04-08 15:01:14 -0500
+updated: 2024-05-07 23:06:13 -0500
 ---
 
 If the body of the loop contains multiple statements it has to be wrapped in brackets  
@@ -150,7 +150,7 @@ done:;
 }
 ```
 
-> [!WARNING]
+> [!WARNING]-
 > A `break` statement followed by a `return` can never be executed  
 > Needs to take into considering when using `switch` statement at the end of program  
 > ```c
