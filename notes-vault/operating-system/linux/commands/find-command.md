@@ -5,7 +5,7 @@ tags:
   - command
 title: find Command
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-04-25 22:39:01 -0500
+updated: 2024-05-15 22:58:09 -0500
 ---
 
 ````bash
@@ -31,6 +31,11 @@ find / -perm -4000 -user -4000 2> /dev/null
 `-perm -755`: Have at least 755 permission
 
 `-maxdepth 1`: Scan only one level deep
+
+`-mount`: Don't search other FS (Prevents searching Windows paths from WSL)  
+
+`-path /path -prune`: Skip directory (Needs to be before `-name`)
+[linux - How do I exclude a directory when using \`find\`? - Stack Overflow](https://stackoverflow.com/questions/4210042/how-do-i-exclude-a-directory-when-using-find)
 
 `-exec rm -rf {} +`: Execute command (`rm -rf file1; rm -rf file2;`)  
 `-exec rm -rf {} \;`: Execute command (`rm -rf file1 file2`)

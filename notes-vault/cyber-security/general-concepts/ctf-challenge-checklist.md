@@ -5,7 +5,7 @@ tags:
   - checklist
 title: CTF Challenge Checklist
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-05-04 11:14:24 -0500
+updated: 2024-05-12 16:31:33 -0500
 ---
 
 ### Information Gathering (Recon)
@@ -29,9 +29,9 @@ updated: 2024-05-04 11:14:24 -0500
 	- Web server & technology exploits
 	- User-agent spoofing
 1. **SMB Enumeration**
-	- Anonymous access allowed
-	- SMB version (`msfconsole`)
 	- Enumeration - share & user names (`smbclient`/ `nmap`/ `enum4linux`)
+	- SMB version (`msfconsole`)
+	- Exploit SMB/ Anonymous Login (`smbclient`)
 2. **SSH Enumeration**
 	- Password directory attack (`hydra`)
 

@@ -5,147 +5,221 @@ tags:
   - tool
 title: Vim Editor
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-29 14:33:16 -0600
+updated: 2024-05-17 23:56:27 -0500
 ---
 
-### Operation Modes
-
-Vim is an model editor. It has various modes that are used for various types of usage.  
+## Vim Modes
+It has various modes that are used for to perform different types of action    
 The commonly used mode is the normal and insert mode
 
-* Normal Mode (Esc/ Ctrl + `[`) - Used for moving around files
-* Insert Mode (I) - Used for inserting text
-* Replace Mode (R) - Used for replacing text
-* Visual Mode (V) - For selecting blocks of text
-* Visual Line `<S - V>`
-* Visual Block `<C - V>`
-* Command Line Mode (:) - Used for running a command
+Command Line Mode (`:`): Used for running a command  
+Normal Mode (`Esc`): Used for modifying files  
+Insert Mode (`i`): Used for inserting text  
+Visual Mode (`v`): Select text  
+Visual Line (`<S-V>`): Select lines of text  
+Visual Block (`<C-V>`): Select blocks of text  
+Replace Mode (`r`): Used for replacing text  
 
-**Shortcut Notation**  
-All the below notations represent: `Ctrl + V`  
-`^V`  
-`Ctrl - V`  
-`<C - V>`
+## Buffers, Windows, Tabs
 
-### Buffers, Windows, Tabs
+Vim can have multiple tabs  
+Each tabs can have windows which correspond to an buffer (file)  
+Vim does not have 1 to 1 correspondence between buffer and windows  
+An buffer can be opened in 0 or more windows at a time
 
-* Vim can have multiple tabs
-* Each tabs can have windows which correspond to an buffer (file)
-* Vim does not have 1 to 1 correspondence between buffer and windows
-* An buffer can be opened in 0 or more windows at a time (Other editors only 1 is allowed)
+## Command Mode
 
-### Command Mode
-
-`:q` - Exit Vim/ Close current window  
-`:qa` - Close at open windows  
+`:q` - Exit Vim (Close current window)  
+`:qa` - Close all open windows  
 `:q!` - Force Exit  
 `:w` - Write changes to file  
 `:help :w` - Help on :w command  
 `:sp` - Split Pane  
 `:vsp` - Vertical Split Pane
 
-> [!NOTE]
-> `<C - W>`,  `<C - W>` or `<C - W>` direction is used for moving between panes
-
-### Normal Mode
+## Normal Mode
 The commands below can be classified into movements, edit, counts and modifier
 
-#### Movement
-j (Move Down)  
-k (Move Up)  
-l (Move Left)  
-h (Move Right)
+### Inserting Text
+`i`: Insert text before the cursor  
+`a`: Insert text after the cursor (Append)  
+`o`: Insert text on a new line below
 
-#### Undo, Redo
-u (Undo)  
-Ctrl + R (Redo)
+`I`: Insert text at the start of the line  
+`A`: Insert text at the end of the line (Append)  
+`O`: Insert text on a new line above
 
-#### Move by Word
-w (Move ahead by a word)  
-e (Move ahead at the end of word)  
-b (Move back by a word)
+### Movement Keys
+`j`: Down  
+`k`: Up  
+`l`:Left  
+`h`: Right
 
-#### Move in Line
-`^` (Move to 1st non empty character at Start of Line)  
-0 (Move to Start of Line)  
-`$` (Move to End of Line)
+Arrows keys also work for navigation  
+`10h`: Jump "10" characters left (General: `<num><nav-key>`)
 
-#### Move by Page
-Ctrl + d (Move down a page)  
-Ctrl + u (Move up a page)
+`gg`: Jump to the start of file  
+`G`: Jump to end of file    
+`{num}G`: Jump to line
 
-#### Move in File
-G (Move end of file)  
-gg (Move to the start of file)
+#### Move on Word
+`w`: Jump ahead by a word (Punctuation considered word)  
+`W`: Jump ahead by a word (Spaces separate words)
+
+`e`: Jump to the end of word (Punctuation considered word)  
+`E`: Jump to the end of word (Space separates words)
+
+`b`: Move back by a word
+
+#### Move on Line
+`^`: Start of line (Non-empty character)  
+`0`: Start of line  
+`$`: End of line
 
 #### Move on Page
-L (Lowest line on page)  
-M (Middle line on page)  
-H (Highest/ First line on page)
+`L`: Lowest line on page  
+`M`: Middle line on page  
+`H`: Highest line on page
 
-#### Find Character
-`f{char}` (Find `char` forward)  
-`F{char}` (Find `char` backwards)  
-`t{char}` (To character before `char`)  
-`T{char}` (To character after `char`)
+`<C-d>`: Move down a page    
+`<C-u>`: Move up a page
 
-#### Search in File
-`/` (Forward Search)  
-? (Backward Search)  
-n (Next Match)  
-N (Previous Match)
+`zz`: Enter viewport (Cursor middle of screen)
 
-#### Insert new line
-o (Enter insert mode and add new line below)  
-O (Enter insert mode and add new line above)
+### Cut, Copy, Delete
 
-#### Inserting Text
-Shift + I (Insert text at Beginning of Line)  
-Shift + A (Append at the End of Line)  
-i (Insert Text)  
-a (Append Text)
+#### Delete Commands
+`dw`: Delete from cursor till start of next word  
+`de`: Delete from cursor till end of current word  
+`dd`: Delete a line  
 
-#### Delete Operation
-dw (Delete Word)  
-de (Delete till end of word)  
-dd (Delete a line)  
-dG (Delete everything in a file)
+`daw`: Delete word (includes space after word)  
+`diw`: Delete word (doesn't include space after word)  
 
-#### Change Buffer
-Puts you in Insert Mode
+`d$` & `D`: Delete from cursor till end of line  
+`d0`: Delete from cursor till start of line
 
-cw (Change entire word)  
-ce (Change till end of word)  
-cc (Change entire line)
+`dgg`: Delete from cursor till start of file  
+`dG`: Delete from cursor till end of file
 
-#### Character Operations
-x (Delete Character)  
-r (Replace a character)  
+#### Copy Commands
+`yw`: Yank from cursor till start of next word  
+`ye`: Yank from cursor till end of current word  
+`yy` & `Y`: Yank a Line  
+
+`ygg`: Yank from cursor till start of file  
+`yG`: Yank from cursor till entire of file
+
+#### Paste Commands
+`p`: Paste below  
+`P`: Paste above
+
+#### Undo & Redo
+`u`: Undo  
+`<C-r>`: Redo
+
+
+
+#### Change Commands
+Deletes the content and puts you in Insert Mode
+
+`cw`: Change from cursor till start of next word  
+`ce`: Change from cursor till end of current word  
+`cc` Change the line
+
+`c$` & `C`: Change from cursor till end of line
+
+On non-space character `cw` & `ce` both change till the start of the next word    
+[Why do \`cw\` and \`ce\` do the same thing? - Vim Stack Exchange](https://vi.stackexchange.com/questions/6194/why-do-cw-and-ce-do-the-same-thing)
+
+### Character Operations
+`x`: Delete Character  
+`r`: Replace a character  
+
 Ctrl + R (Replace a Characters in Replace Mode)
 
-#### Cut, Copy, Paste
-yw (Yank Word)  
-ye (Yank till end of word)  
-yy (Yank/ Copy a Line)  
-yG (Yank entire File)  
-p (Paste)  
-d (Cut)  
-`.` (Repeat the last operation)
+### Find Character
+`f{char}`: Jump to `char` forward    
+`F{char}`: Jump to `char` backwards  
 
-> [!NOTE]
+`t{char}`: Jump to character before `char`  
+`T{char}`: Jump to character after `char` (backwards)
+
+### Modifier Commands
+`ci[`: Change everything inside `[`  
+
+`di[`: Delete everything inside `[`  
+`da[`: Delete everything inside including `[`  
+
+`yi[`: Yank everything inside `[`
+
+In the above command `[` can be replaced by a different symbol
+
+`%`: Jump between parenthesis  
+`d%`: Delete everything including parenthesis    
+`y%`: Yank everything including parenthesis  
+`c%`: Change everything including parenthesis
+
+> [!INFO]
 > Some of the commands like u, dw, e can be used along with a number as well.  
 > So for deleting 5 words we can use 5dw. For undoing 3 operations we can use 3u
 
-#### Modifier
-`ci[` (Change inside `[`)  
-`di[` (Delete content inside `[`)  
-`da[` (Delete everything inside including `[`)  
-`%` (Jump between parenthesis)
+## Visual Mode
+Normal Mode movement commands are used to select text
 
-### Visual Mode
+`d`: Delete selection  
+`y`: Yank selection (Copy)  
+`c`: Change selection  
 
-We can use the Normal Mode movement commands to move around but here text will get selected. This applies to all the three visual editing mode
-
-y (Copy and Change to Normal Mode)  
-p (Paste)  
 `~` (Changes Case)
+
+## Intermediate Concepts
+
+### Formatting
+
+`>>`: Indent Right    
+`>>`: Indent Left  
+
+`==`: Indent Code  
+`=G`: Indent Code till end of file
+
+In Visual mode only need to press key once
+
+### Search in File
+`/`: Forward Search  
+`?`: Backward Search  
+
+`n`: Next Match  
+`N`: Previous Match
+
+Match selected token (Cursor over token)  
+`*`: Next Match  
+`#`: Previous Match  
+
+### Marker Waypoints
+`m{lower-char}`: Marker  
+`'{lower-char`: Jump to marker  
+
+`:marks`: View all markers  
+`:delmarks {lower-char}`: Delete a marker
+
+[Vim Tips Wiki - Markers](https://vim.fandom.com/wiki/Using_marks)
+
+### Substitutions
+
+`:%s/{word1}/{word2}/g`: Replace word1 with word2  
+
+`:'<,'>s/{word1}/{word2}/g`: Replace word1 with word2 in selection  
+The symbol `'<,'>` is automatically added when text is selected
+
+`.`: Repeat the last operation
+
+### Registers
+Memory buffers into which copied and deleted text is stored  
+
+`:reg`: View registers  
+
+`"{num}p`: Paste value from register  
+
+`"{num}yy`: Yank line into a register  
+Last yanked text is stored in register 0

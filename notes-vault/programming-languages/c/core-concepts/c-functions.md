@@ -4,7 +4,7 @@ tags:
   - c
 title: C Functions
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-05-11 18:28:31 -0500
+updated: 2024-05-11 23:31:18 -0500
 ---
 
 ### Function Definition
@@ -216,6 +216,10 @@ int sum_two_dimensional_array(int n, int m, int a[][*]);
 The `static` keyword is used to indicate to the user the minimum size of the array  
 The use of the keyword does not have any effect on the program  
 
+```c
+int sum_array(int a[static 3], int n) {}
+```
+
 It is merely an "hint" the compiler can use to generate efficient code by prefetching the elements required from memory in advance  
 Using arrays smaller than the specified size results in undefined behavior  
 
@@ -252,3 +256,17 @@ They can be made read-only by using `const`
 ```c
 total = sum_array((const int []){3, 0, 3, 4, 1}, 5);
 ```
+
+### `return` Statement
+
+Non-void functions must use `return` to specify the value returned by the function  
+The type of the return expression is implicitly converted to match the return type of the function  
+
+Void function can have `return` provided they do not have an expression  
+If a non-void function reaches the end of the body (no return statement is executed) the behavior of the function is unexpected  
+
+### `exit` Statement
+
+The `exit` statement is part of `stdlib.h`  
+`exit(EXIT_SUCCESS)` and `exit(0)` is used to represent normal program termination  
+`exit(EXIT_FAILURE)` and `exit(1)` is used to represent abnormal termination
