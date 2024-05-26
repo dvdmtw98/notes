@@ -5,7 +5,7 @@ tags:
   - tool
 title: Vim Editor
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-05-17 23:56:27 -0500
+updated: 2024-05-21 18:02:39 -0500
 ---
 
 ## Vim Modes
@@ -110,15 +110,21 @@ Arrows keys also work for navigation
 `ygg`: Yank from cursor till start of file  
 `yG`: Yank from cursor till entire of file
 
+`viw` + `y`: Visual select word and yank  
+`"{reg-num}y`: Yank to register `reg-num`
+
+`+`: System Clipboard Register  
+`%`: Filename Register
+
 #### Paste Commands
 `p`: Paste below  
 `P`: Paste above
 
+`"{reg-num}p`: Paste value in `reg-num`
+
 #### Undo & Redo
 `u`: Undo  
 `<C-r>`: Redo
-
-
 
 #### Change Commands
 Deletes the content and puts you in Insert Mode
@@ -131,6 +137,13 @@ Deletes the content and puts you in Insert Mode
 
 On non-space character `cw` & `ce` both change till the start of the next word    
 [Why do \`cw\` and \`ce\` do the same thing? - Vim Stack Exchange](https://vi.stackexchange.com/questions/6194/why-do-cw-and-ce-do-the-same-thing)
+
+### Text Selections
+
+`vt"`: Select forward till `"`  
+`vT"`: Select backwards till `"`  
+`vf"`: Select forward including `"`  
+`vF"`: Select backwards including `"`
 
 ### Character Operations
 `x`: Delete Character  
@@ -211,6 +224,9 @@ Match selected token (Cursor over token)
 
 `:'<,'>s/{word1}/{word2}/g`: Replace word1 with word2 in selection  
 The symbol `'<,'>` is automatically added when text is selected
+
+`g`: Global Search  
+`c`: Confirm Change
 
 `.`: Repeat the last operation
 

@@ -5,7 +5,7 @@ tags:
   - linux
   - tool
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-05-16 10:39:38 -0500
+updated: 2024-05-20 21:52:53 -0500
 ---
 Tmux is a Terminal Multiplexer  
 Tmux consists of Sessions, Windows and Panes  
