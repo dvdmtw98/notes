@@ -5,7 +5,7 @@ tags:
   - command
 title: Symbolic Links
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-03-23 10:26:18 -0500
+updated: 2024-05-31 23:36:20 -0500
 ---
 
 ### Symbolic Links
@@ -26,7 +26,7 @@ DIR /AL /S <Location>
 `<Link>` : The target link (should not already exist)  
 `<Target>` : The actual file/folder to link
 
-The `rmdir` command can be used to remove a Symbolic Link. This command should to run on the target location (the Symbolic Link)
+`rmdir` and `del` commands can be used to remove Symbolic Links. This command should to run on the target location (the Symbolic Link)
 
 [View a list of symbolic links on system? - Super User](https://superuser.com/questions/496092/view-a-list-of-symbolic-links-on-system)
 

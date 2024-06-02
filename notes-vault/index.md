@@ -4,7 +4,7 @@ tags:
   - main
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-04-02 14:06:50 -0500
+updated: 2024-05-31 23:51:07 -0500
 ---
 
 Welcome to Digital Archive. This is a space where I store my notes, ideas, insights, and connections I’ve made throughout my life. You can explore the various topics that interest me, learn from the content I’ve gathered, and see how everything is connected.
