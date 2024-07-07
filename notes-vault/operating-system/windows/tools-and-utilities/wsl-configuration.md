@@ -5,7 +5,7 @@ tags:
   - tool
 title: WSL Configuration
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-29 14:40:36 -0600
+updated: 2024-07-06 17:36:14 -0500
 ---
 
 ### Moving WSL to a Different Drive
