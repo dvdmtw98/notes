@@ -3,6 +3,8 @@ import { classNames } from "../util/lang"
 import { formatDate, getDate } from "./Date"
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { i18n } from "../i18n"
+import { JSX } from "preact"
+import style from "./styles/contentMeta.scss"
 
 interface ContentMetaOptions {
   /**
@@ -47,16 +49,16 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       // Display reading time if enabled
       var readingTimeStr: string = ""
       if (options.showReadingTime) {
-            const { minutes, words: _words } = readingTime(text)
-            const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
-                minutes: Math.ceil(minutes),
-            })
-            readingTimeStr = `${_words} words, ${displayedTime}`
+        const { minutes, words: _words } = readingTime(text)
+        const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
+          minutes: Math.ceil(minutes),
+        })
+        readingTimeStr = `${_words} words, ${displayedTime}`
       }
 
       return (
         <p class={classNames(displayClass, "content-meta")}>
-          Created: {createdSegment} • Modified: {modifiedSegment}<br/>{readingTimeStr}
+          Created: {createdSegment} • Modified: {modifiedSegment}<br />{readingTimeStr}
         </p>
       )
     } else {
@@ -64,11 +66,6 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     }
   }
 
-  ContentMetadata.css = `
-  .content-meta {
-    margin-top: 0;
-    color: var(--gray);
-  }
-  `
+  ContentMetadata.css = style
   return ContentMetadata
 }) satisfies QuartzComponentConstructor

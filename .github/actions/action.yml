@@ -15,15 +15,11 @@ runs:
           shell: bash
           run: |
               cp -a source/notes-vault/. quartz/content \
-              && rm -rf quartz/content/{read-and-watch-list,us-court-system,.gitkeep}
+              && rm -rf quartz/content/.gitkeep
         - name: Copy Config
           id: copy-config
           shell: bash
           run: cp -a source/config/. quartz
-        - name: Run Script
-          id: run-script
-          shell: bash
-          run: node quartz/scripts/modifyIndex.cjs quartz/content/index.md
         - name: Setup Google Analytics
           id: setup-analytics
           shell: bash

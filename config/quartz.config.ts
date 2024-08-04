@@ -20,6 +20,7 @@ const config: QuartzConfig = {
         ignorePatterns: ["private", "templates", ".obsidian"],
         defaultDateType: "created",
         theme: {
+            fontOrigin: "googleFonts",
             cdnCaching: false,
             typography: {
                 header: "Schibsted Grotesk",
@@ -36,6 +37,7 @@ const config: QuartzConfig = {
                     secondary: "#284b63",
                     tertiary: "#84a59d",
                     highlight: "rgba(143, 159, 169, 0.15)",
+                    textHighlight: "#fff23688",
                 },
                 darkMode: {
                     light: "#100F0F",
@@ -46,6 +48,7 @@ const config: QuartzConfig = {
                     secondary: "#ffd06f",
                     tertiary: "#F15322",
                     highlight: "rgba(143, 159, 169, 0.15)",
+                    textHighlight: "#b3aa0288",
                 },
             },
         },
@@ -53,28 +56,28 @@ const config: QuartzConfig = {
     plugins: {
         transformers: [
             Plugin.FrontMatter(),
-            Plugin.TableOfContents({ maxDepth: 5, minEntries: 2 }),
             Plugin.CreatedModifiedDate({
                 priority: ["frontmatter", "filesystem"],
             }),
-            Plugin.Latex({ renderEngine: "katex" }),
             Plugin.SyntaxHighlighting({
                 theme: {
-                light: "github-light",
-                dark: "github-dark",
+                    light: "github-light",
+                    dark: "github-dark",
                 },
                 keepBackground: false,
             }),
             Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false, enableCheckbox: true }),
             Plugin.GitHubFlavoredMarkdown(),
+            Plugin.TableOfContents({ maxDepth: 5, minEntries: 2 }),
             Plugin.CrawlLinks({ markdownLinkResolution: "shortest", lazyLoad: true }),
             Plugin.Description(),
+            Plugin.Latex({ renderEngine: "katex" }),
             Plugin.ExternalLinks()
         ],
         filters: [Plugin.RemoveDrafts()],
         emitters: [
             Plugin.AliasRedirects(),
-            Plugin.ComponentResources({ fontOrigin: "googleFonts" }),
+            Plugin.ComponentResources(),
             Plugin.ContentPage(),
             Plugin.FolderPage(),
             Plugin.TagPage(),

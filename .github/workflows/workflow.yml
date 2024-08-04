@@ -5,8 +5,6 @@ on:
     push:
         branches: [main]
         paths-ignore:
-            - "notes-vault/read-and-watch-list/**"
-            - "notes-vault/us-court-system/**"
             - "notes-vault/.obsidian/**"
 
 jobs:
@@ -19,7 +17,7 @@ jobs:
               uses: actions/checkout@v4
               with:
                   repository: jackyzha0/quartz 
-                  ref: v4.2.3
+                  ref: v4.2.4
                   path: quartz
             - name: Checkout Repository
               id: checkout-repository
@@ -34,7 +32,7 @@ jobs:
                   MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
             - name: Netlify Deploy
               id: netlify-deploy
-              uses: jsmrcaga/action-netlify-deploy@v2.1.0
+              uses: jsmrcaga/action-netlify-deploy@v2.2.0
               with:
                   NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
                   NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
