@@ -1,10 +1,10 @@
 name: Digital Archive Builder
 author: David Varghese
-description: Action to build Quartz website using Markdown Files
+description: Action to build Quartz website
 
 inputs:
     MEASUREMENT_ID:
-      description: Token to link site with Google Analytics Property
+      description: GTag to link site with Google Analytics
       required: true
 
 runs:

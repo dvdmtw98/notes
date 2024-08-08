@@ -1,5 +1,5 @@
 name: Deploy Digital Archive to Netlify
-run-name: Deploy to Netlify by @${{ github.actor }}
+run-name: Netlify Deploy by @${{ github.actor }}
 
 on:
     push:
