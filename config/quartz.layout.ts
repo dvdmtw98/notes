@@ -4,7 +4,7 @@ import { Options } from "./quartz/components/ExplorerNode";
 
 const titleCaseTransform: Options["mapFn"] = (node) => {
 
-  const filterWords = ["and"];
+  const filterWords = ["and", "of", "a", "in", "on", "the", "for", "to"];
 
   if (node.file === null) {
     const words = node.displayName.split("-");

@@ -11,19 +11,19 @@ type CrumbData = {
 
 const titleCaseTransform = (displayName: string) => {
 
-    const filterWords = ["and"];
+  const filterWords = ["and", "of", "a", "in", "on", "the", "for", "to"];
 
-	const words = displayName.split("-");
-	const titleCaseWords = words.map((word) => {
-		if (filterWords.includes(word)) {
-			return word
-		} 
-		return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
-	});
-	const result = titleCaseWords.join(" ");
-	displayName = result;
+  const words = displayName.split("-");
+  const titleCaseWords = words.map((word) => {
+    if (filterWords.includes(word)) {
+      return word
+    }
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+  });
+  const result = titleCaseWords.join(" ");
+  displayName = result;
 
-    return displayName;
+  return displayName;
 }
 
 interface BreadcrumbOptions {
