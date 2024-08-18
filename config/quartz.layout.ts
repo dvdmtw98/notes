@@ -26,6 +26,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
+    Component.Backlinks(),
     Component.Comments({
       provider: 'giscus',
       options: {
@@ -67,7 +68,6 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
     Component.Graph({
       localGraph: {
         scale: 2,
