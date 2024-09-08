@@ -4,7 +4,7 @@ tags:
   - c
 title: C Functions
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-05-11 23:31:18 -0500
+updated: 2024-09-02 16:59:06 -0500
 ---
 
 ### Function Definition
