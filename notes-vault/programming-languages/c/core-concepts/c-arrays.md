@@ -4,7 +4,7 @@ tags:
   - c
 title: C Arrays
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-05-08 18:59:10 -0500
+updated: 2024-09-11 15:39:27 -0500
 ---
 
 Array is a data structure that allows us to store multiple values of the same type  

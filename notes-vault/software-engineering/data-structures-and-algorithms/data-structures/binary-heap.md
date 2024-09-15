@@ -1,7 +1,7 @@
 ---
+title: Binary Heap
 tags:
   - data-structure
-title: Binary Heap
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-29 15:47:09 -0600
 ---

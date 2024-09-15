@@ -1,10 +1,10 @@
 ---
+title: Swarm Architecture
 tags:
   - docker
   - devops
   - container
   - orchestration
-title: Swarm Architecture
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 09:26:18 -0600
 ---

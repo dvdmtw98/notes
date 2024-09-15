@@ -1,7 +1,7 @@
 ---
+title: Binary Search
 tags:
   - algorithm
-title: Binary Search
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-29 15:45:39 -0600
 ---

@@ -1,9 +1,9 @@
 ---
+title: Docker Volumes
 tags:
   - docker
   - devops
   - container
-title: Docker Volumes
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 09:25:48 -0600
 ---
