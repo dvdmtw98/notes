@@ -5,7 +5,7 @@ tags:
   - command
 title: Symbolic Links
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-05-31 23:36:20 -0500
+updated: 2024-09-16 11:07:25 -0500
 ---
 
 ### Symbolic Links

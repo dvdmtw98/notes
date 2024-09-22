@@ -76,6 +76,6 @@ Believe that individuals have the freedom to create their own meaning and identi
 Authenticity: Living as ones true self, values and believes rather than confining to societal expectations and norms  
 
 ### Stoicism
-Encourages virtues - Courage, Wisdom, Moderation and Justice  
+Encourages virtues: Courage, Wisdom, Moderation and Justice  
 Accept the natural order of nature and understand what is in their control and what is not  
 Encourages to live in the present moment and letting go of worries about the past and future  

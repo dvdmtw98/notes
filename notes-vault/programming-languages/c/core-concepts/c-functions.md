@@ -4,7 +4,7 @@ tags:
   - c
 title: C Functions
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-09-02 16:59:06 -0500
+updated: 2024-09-15 17:34:40 -0500
 ---
 
 ### Function Definition
@@ -56,6 +56,23 @@ To explicitly show that we are not using the return value of a function we can c
 (void) printf("Hi, Mom!\n");
 ```
 
+#### Old Syntax (Obsolete)
+
+```c
+double average(a, b)
+double a, b;
+{
+	return (a + b) / 2;
+}
+```
+
+This syntax is supported in C89 and C99 but is strongly discouraged  
+This syntax does not have the same level of error checking as in normal syntax  
+This syntax was used by K&R C
+
+If function prototype is not present C will not check if the no. of arguments are correct, it will also not check if the types are correct  
+It will perform the default argument promotion  
+
 ### Function Declarations
 
 The C compiler will not error if a function call is encountered before the function definition (Definition provided after `main()` function)  
@@ -64,7 +81,7 @@ When the function definition is encountered and the assumption is incorrect only
 
 Function declarations have to be written before the `main()` function  
 They provide the compiler with a glimpse of the datatypes used by the function  
-Function Declarations is also called Function Prototypes  
+Function Declarations is also called **Function Prototypes**  
 
 ```c
 #include <stdio.h>
@@ -93,6 +110,9 @@ double average(double a, double b) {
 
 Parameter names can be omitted from function prototypes but is not recommended 
 
+This is done as means of programming defensively  
+If a macro has the same name as the prototype parameter name the parameter name will be replaced by the macro
+
 ```c
 double average(double, double);
 ```
@@ -100,6 +120,14 @@ double average(double, double);
 In large programs Function Prototypes are written in Header files
 
 In **C99** calling a function for which the compiler has not yet seen the declaration or definition will result in an error
+
+```c
+/* No parameter info - Valid - Not recommended */
+double average();
+```
+
+It is valid to create prototypes without information about the parameters but is not recommended. This was how it was originally defined in K&R C  
+The approach the we use was first introduced in C89
 
 ### Function Arguments
 
@@ -118,7 +146,8 @@ When 1D arrays are used as parameters its length can be omitted
 Even if we specify the size the size value is ignored by the compiler  
 If the array length is required it has to be passed as a separate parameter
 
-The `sizeof(a) / sizeof(a[0])` trick produces incorrect results for array parameters  
+The `sizeof(a) / sizeof(a[0])` trick produces incorrect results  
+This is because we are passing the pointer to the first element instead of the array  
 When passing array as a argument we do not use the `[]` after the name  
 
 ```c
@@ -152,6 +181,7 @@ Function is allowed to modify the elements of an array parameter, this change is
 #### Multi-Dimensional Array
 
 For multi-dimensional arrays only the length of the first dimension can be omitted  
+Arrays are stored using row-major order and the index of the inner arrays is required to calculate the address to access the element
 
 ```c
 #define LEN 10
@@ -262,7 +292,9 @@ total = sum_array((const int []){3, 0, 3, 4, 1}, 5);
 Non-void functions must use `return` to specify the value returned by the function  
 The type of the return expression is implicitly converted to match the return type of the function  
 
-Void function can have `return` provided they do not have an expression  
+Void function with `return` do not have an expression will result in error in **C99**  
+In **C89** this will result in undefined behavior  
+
 If a non-void function reaches the end of the body (no return statement is executed) the behavior of the function is unexpected  
 
 ### `exit` Statement

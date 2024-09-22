@@ -4,12 +4,12 @@ tags:
   - c
 title: C Arrays
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-09-11 15:39:27 -0500
+updated: 2024-09-15 16:44:25 -0500
 ---
 
 Array is a data structure that allows us to store multiple values of the same type  
 The length and data type of the array has to be defined during array declaration  
-Use `memcpy(a, b, sizeof(a))` to copy large arrays
+Use `memcpy(a, b, sizeof(a))` to copy large arrays  
 
 ### Array Subscripting
 
@@ -69,7 +69,11 @@ The designator `[0]` will reinitialize the 0th element. The value 7 will reiniti
 
 Defined using the syntax `int a[5][9]` - 5 row and 9 columns  
 Declaring it as `a[5, 9]` is wrong and will result in a linear array with length of 9  
+
 While multidimensional array is represented as a table in memory the rows are stored as continuous chunks  
+C stores Multidimensional arrays are stored in row-major order i.e. rows reside next to each other in memory
+
+[Column-major vs row-major arrays: Does it matter? – The Craft of Coding](https://craftofcoding.wordpress.com/2017/02/03/column-major-vs-row-major-arrays-does-it-matter/)
 
 ```c
 /* Multidimensional array initializer */
