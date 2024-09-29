@@ -4,10 +4,10 @@ tags:
   - blockchain
   - cryptography
 date: 2024-09-12 11:41:48 -0500
-updated: 2024-09-12 12:45:49 -0500
+updated: 2024-09-28 18:00:41 -0500
 ---
 
-#### Buying from Friend
+### Buying from Friend
 
 Alice decides to buy 0.001 BTC from Joe  
 Alice and Joe check the exchange rates and come to a consensus  
@@ -34,7 +34,7 @@ Alice’s wallet will show an transaction of 0.001 BTC in “Unconfirmed” stat
 Once transaction is incorporated into the blockchain its will become “Confirmed”  
 This is similar to the Clearing functionality in traditional transactions  
 
-#### Buying from Online Store
+### Buying from Online Store
 
 Alice wants to buy Bob’s podcast. Bob accepts payments in Bitcoins  
 Bob’s website creates an QR code invoice 
@@ -50,3 +50,19 @@ Invoice contains destination address, payment amount, label and description
 Alice scans the QR code. Verifies the information that is auto-populated  
 Alice authorizes the payment  
 After a few seconds Bob will see the transaction on his register  
+
+### Extended Public Key on Web Store
+
+Gabriel is running a online store that accepts Bitcoin payments  
+Initially he used a single Bitcoin address for all payments on the store  
+But as the store grew he started receiving a a huge influx of orders  
+
+Bitcoin does not store the transaction amount and spender address  
+Gabriel could not link the transactions and the order easily  
+
+Setups the public key derivation feature of his HD wallet  
+The extended public key is uploaded on the website  
+A new public key is generated for each other. The address also acts as Invoice Id  
+
+When Gabriel wants to spend the funds he generates the corresponding private key in the HD wallet  
+This way no private keys are stored online  

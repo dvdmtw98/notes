@@ -4,7 +4,7 @@ tags:
   - security
   - cryptography
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-09-16 11:09:55 -0500
+updated: 2024-09-27 23:43:06 -0500
 ---
 
 Cryptocurrencies are entirely virtual (no physical coins)  
@@ -27,10 +27,15 @@ Cryptocurrency systems are composed of 4 main components:
 ### Table of Content
 
 - [[bitcoin|Bitcoin]]
-- [[digital-wallets|Digital Wallets]]
-- [[bitcoin-transactions|Bitcoin Transactions]]
-- [[bitcoin-mining|Bitcoin Mining]]
 - [[bitcoin-core|Bitcoin Core]]
+- [[digital-wallets|Digital Wallets]]
+	- [[wallet-recovery|Wallet Recovery]]
+- [[bitcoin-transactions|Transactions]]
+	- [[bitcoin-transaction-flows|Transaction Flows]]
+- [[bitcoin-mining|Mining]]
+- [[bitcoin-address|Bitcoin Address]]
+	- [[bitcoin-legacy-address|Legacy Address]]
+	- [[bitcoin-bech32-address|Bech32 Address]]
 
 ### Smart Contracts
 Self-executing contracts where the terms of agreement are written directly as code  
