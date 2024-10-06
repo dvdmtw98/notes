@@ -4,8 +4,26 @@ tags:
   - blockchain
   - cryptography
 date: 2024-09-11 15:44:13 -0500
-updated: 2024-09-12 11:58:49 -0500
+updated: 2024-09-29 00:57:28 -0500
 ---
+
+Bitcoin is entirely virtual (no physical coins)  
+Users of bitcoin have keys that prove their ownership of coins on network  
+Keys are often stored in [[digital-wallets|digital wallets]]
+
+Cryptocurrencies use a distributed peer-to-peer system  
+New currency is generated on the Bitcoin network through the process of mining  
+Its is an computationally expensive task that references the recent transactions  
+Transactions on the blockchain are immutable and cannot be reversed
+
+The bitcoin system is composed of 4 main components:
+- A decentralized peer-to-peer network
+- A public transactional journal (Blockchain)
+- Rules for independent transaction verification and currency issuance
+- Mechanism on reaching global consensus on the valid blockchain
+
+![[bitcoin-blockchain.png|600]]
+
 
 In the Bitcoin system every 10 minutes on average a user is able to mine a block  
 Mining adds security to previous transactions  
@@ -19,7 +37,7 @@ Since the insurance of bitcoins decreases over time its a deflationary currency
 
 #### Blockchain Address
 
-Wallets generate private key that is used to derive the blockchain address  
+Wallets generate public keys that is used to derive the blockchain address  
 If a bitcoin address is public everyone can see how many coins were sent to it  
 Access to bitcoin address does not give a malicious user access to an account  
 To maintain privacy it is suggested to create a new address before each transaction
@@ -45,7 +63,3 @@ The price can fluctuate several times per minute
 Pricing services aggregate prices from across markets and calculate a volume-weighted average representing the broad market exchange rate (e.g. BTC/USD)  
 
 Some wallets have functionality to perform this conversion automatically
-
-#### Blockchain Explorer
-Blockchain explorers are web applications that ask like blockchain search engines  
-They allow users to search addresses, transactions and blocks and see relation between them

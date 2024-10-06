@@ -4,12 +4,12 @@ tags:
   - blockchain
   - cryptography
 date: 2024-09-23 16:31:54 -0500
-updated: 2024-09-28 10:08:53 -0500
+updated: 2024-09-30 19:33:04 -0500
 ---
 
 ### Transaction Chain
 
-The receiver (Bob) would accept Bitcoins that are sent his pubic key  
+The receiver (Bob) would accept Bitcoins that are sent to his pubic key  
 The transaction would be signed with the digital signature of the spender (Alice)  
 The Bitcoins that Alice want to spend was received on one of her public keys    
 Alice uses her private key to generate the digital signature  
@@ -19,7 +19,7 @@ Alice uses her private key to generate the digital signature
 Bob’s public key along with data from the previous transaction are hashed together  
 This hash is added into the new transactions data field   
 Alice commits (attests) to this hash using her signature  
-Since the hash includes Bob’s public key Alice has also commited to the key  
+Since the hash includes Bob’s public key Alice has also committed to it  
 Full nodes can verify that Alice’s signature committed to the transaction  
 
 ### Public Key Cryptography
@@ -119,6 +119,12 @@ The commitment that is generated from the compressed public key is different fro
 
 New versions of Bitcoin only use compressed public keys  
 Wallet software need to be able to identify them both as users might have coins in blocks that utilized uncompressed public keys  
+
+### Bitcoin Addresses
+
+[[bitcoin-legacy-address|Legacy Addresses]]
+
+![[public-key-bitcoin-address.png|460]]
 
 ### Vanity Addresses
 

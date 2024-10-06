@@ -4,7 +4,7 @@ tags:
   - cryptography
   - blockchain
 date: 2024-09-27 23:32:54 -0500
-updated: 2024-09-27 23:33:38 -0500
+updated: 2024-09-29 22:20:04 -0500
 ---
 
 ### Beck32 Addresses
@@ -54,7 +54,7 @@ To solve the checksum issue Bech32m was introduced
 A Bech32 and Bech32m address is the same except the last 6 (checksum)
 
 Bech32m addresses start with Human Readable Part (HRP)  
-For Bitcoin these are bc (Bitcoin Mainnet) & bt (Bitcoin Testnet)  
+For Bitcoin these are bc (Bitcoin Mainnet) & tb (Bitcoin Testnet)  
 The HRP is followed by a seperator (the number 1)  
 
 The bytes after the separator stored the Witness Version  
@@ -67,7 +67,9 @@ v0: Program has to be 20 or 32 bytes
 v1: Program has to be 32 bytes  
 
 The last six characters form the checksum  
-Utilizes the BCH error correcting code
+Utilizes the BCH error correcting code  
+
+The entire value (leaving HRP) is then encoded using a special Base32 encoding to generate the final address  
 
 P2WPKH: Commitment calculated in the same way as P2PKH  
 P2WSH: Commitment calculated using SHA256  

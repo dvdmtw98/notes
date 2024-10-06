@@ -4,7 +4,7 @@ tags:
   - cryptography
   - blockchain
 date: 2024-09-27 23:31:02 -0500
-updated: 2024-09-27 23:36:12 -0500
+updated: 2024-10-01 20:37:52 -0500
 ---
 
 ### Pay to Public Key Hash (P2PKH)
@@ -26,8 +26,8 @@ Bob can later spend the funds by creating a transaction that has input with his 
 <Bob's signature> <Bob's public key> OP_CHECKSIG
 ```
 
-To process the input and output scripts of a transaction that are placed on a stack  
-The input is placed first followed by the output script  
+To process a transaction the output of the previous transaction and the input of the current transaction are placed on a stack  
+The input script is placed first which is followed by the output script  
 `OP_CHECKSIG` function takes 2 inputs so it consumes the 2 values that are present below it on the stack  
 The function checks if the public key and signature are related  
 It also checks if the signature commits to the various fields in the transaction
@@ -90,8 +90,10 @@ This prevents wallets from sending funds to nonexistent addresses
 
 To convert a number to Base58 a prefix is added to the data (version byte)  
 This values is double-SHA hashed. This produces a 32 byte result  
-The 1st  bytes of of this result is used as the checksum. Added as footer  
+The 1st 4 bytes of of this result is used as the checksum. Added as footer  
 This (prefix + data + checksum) is passed to the Base58 encoding function  
+
+For P2PKH addresses the public key commitment is used as the input to the Base58check encoding function
 
 ![[base58-encoding.png|500]]
 
@@ -100,7 +102,7 @@ In Bitcoin other information is also represented using Base58check
 For each of the data the data prefix changed  
 Each data prefix causes the hash to be begin with the same value
 
-![[base58check-prefix.png|500]]
+![[bitcoin-base58check-prefix.png|500]]
 
 ### Pay to Script Hash (P2SH)
 

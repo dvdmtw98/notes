@@ -4,7 +4,7 @@ tags:
   - cryptography
   - blockchain
 date: 2024-09-27 23:42:57 -0500
-updated: 2024-09-28 18:17:30 -0500
+updated: 2024-09-30 10:16:23 -0500
 ---
 
 Bitcoin Wallets (Databases) do not store Bitcoins. They only store keys  
@@ -14,7 +14,7 @@ By proving we control the keys coins from the transaction can be spent
 ### Independent Key Generation
 
 Wallet independently generates multiple keys  
-Keys have to be backed up whenever a new one was created  
+Keys have to be backed up whenever a new one is created  
 The keys are independent and did not related to each other  
 This approach is not used by modern wallets  
 
@@ -146,10 +146,35 @@ They start with “xprv” or “xpub”
 
 [[bitcoin-transaction-flows#Extended Public Key on Web Store|Transaction Flows - Extended Public Key on Web Store]]
 
-#### Hardened Child Key Derivation
+### Hardened Child Key Derivation
 
 If a child private key is leaked and the attacker knows the chain code then all other child private keys can be found  
 Child private key along with the parent chain code can be used to find out the parent private key  
 The hardened derivation function uses the private key instead of the public key to derive the child chain code  
 
 ![[hardened-child-key-derivation.png|540]]
+
+Index Numbers: 0 to $2^{31} - 1$ - Normal derivation  
+Index Numbers: $2^{31}$ to $2^{32} - 1$ - Hardened derivation  
+Hardened derivation index notation (2nd hardened key): 1h or 1’
+
+### HD Wallet Key Paths
+
+The “/” sign is used to denote the path to the key  
+Public keys start with “M” and private keys start with “m”  
+
+1st child private key: `m/0`  
+2nd grandchild public key of 1st child: `M/0/1`  
+1st normal grandchild private key from 1st hardened child: `m/0’/0`
+
+#### BIP43
+Proposed the idea of using a purpose field in the structure  
+The 2nd field in the path was used to represent the purpose  
+e.g. `m/44'/...`: Private key used for purpose 44  
+
+#### BIP44
+Expanded on the idea from BIP43 and create a proper framework  
+Uses the structure: `m/purpose'/coin_type'/account'/change/address_index`  
+A wallet can contain multiple account. Each account can have its own keys  
+Change Field: 0 (Payment), 1 (Change)  
+Address Index stores the hierarchical path to the key
