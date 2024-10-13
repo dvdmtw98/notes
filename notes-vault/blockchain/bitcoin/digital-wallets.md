@@ -4,7 +4,7 @@ tags:
   - blockchain
   - cryptography
 date: 2024-09-12 11:50:11 -0500
-updated: 2024-09-14 12:52:50 -0500
+updated: 2024-10-12 16:16:08 -0500
 ---
 
 A digital wallet is the most common gateway for accessing the blockchain system  
@@ -17,7 +17,7 @@ A digital wallet is the most common gateway for accessing the blockchain system
 
 #### Wallets (Anonymity)
 - Full node: Validates history of entire blockchain, uses significant resources
-- Lightweight client: Connects to full node for info, stores wallet locally
+- [[bitcoin-lightweight-clients|Lightweight Client]]: Connects to full node for info, stores wallet locally
 - API clients: Connects to network using API, wallet local or managed by 3rd party
 
 Full nodes are also called peers. Lightweight and API wallets are clients  

@@ -4,7 +4,7 @@ tags:
   - cryptography
 title: RSA Algorithm
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-10-05 12:45:16 -0500
+updated: 2024-10-06 09:10:46 -0500
 ---
 
 RSA stands for Rivest-Shamir-Adleman (Name of the Creators of the algorithm)

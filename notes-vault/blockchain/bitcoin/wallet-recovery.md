@@ -4,7 +4,7 @@ tags:
   - cryptography
   - blockchain
 date: 2024-09-27 23:42:57 -0500
-updated: 2024-09-30 10:16:23 -0500
+updated: 2024-10-12 16:15:23 -0500
 ---
 
 Bitcoin Wallets (Databases) do not store Bitcoins. They only store keys  
