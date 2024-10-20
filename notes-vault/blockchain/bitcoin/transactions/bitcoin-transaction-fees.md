@@ -4,19 +4,19 @@ tags:
   - blockchain
   - cryptography
 date: 2024-10-10 09:46:54 -0500
-updated: 2024-10-10 11:01:46 -0500
+updated: 2024-10-13 17:29:52 -0500
 ---
 
 Fee Rate = Transaction Size / Weight  
 Lower Fees = Longer time for transaction to be confirmed  
-To low a fee rate might cause a transaction to never be confirmed  
+Too low a fee rate might cause a transaction to never be confirmed  
 
-Due to furcation in the demand of Bitcoin the fee rate required to get a block accepted might change  
+Due to fluctuation in the demand of Bitcoin the fee rate required to get a block accepted might change  
 The process of increasing the fee once the transaction is created is called fee bumping  
 
 ### Replace by Fee (RBF) Fee Bumping
 
-A confliction transaction that has an higher fee is created  
+A conflicting transaction that has an higher fee is created  
 Conflict occurs when multiple transactions try to spend the same UTXOs  
 
 To prevent users from creating unlimited conflicting transactions that use up the bandwidth of the network each conflicting transaction has to have a higher transaction fee than the previous one  

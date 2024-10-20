@@ -4,7 +4,7 @@ tags:
   - blockchain
   - cryptography
 date: 2024-10-08 09:28:13 -0500
-updated: 2024-10-09 10:35:42 -0500
+updated: 2024-10-12 23:42:44 -0500
 ---
 
 **Authorization**: Decide who has permission to spend coins  
@@ -44,7 +44,15 @@ P2WSH & P2TR are limited to 20 signatures for a single `OP_CHECKMULTISIG`
 A flaw in the multi-sign operator causes it to pop `t+k+3` values instead of `t+k+2`  
 To solve this issue an dummy operator (`OP_0`) is based before the signatures  
 
-### P2SH
+#### P2PKH
+
+This was the original transaction type on the Bitcoin network  
+Payments are sent to Base56check encoded addresses of the receivers public key  
+
+Output: `OP_DUP OP_HASH160 <Key Hash> OP_EQUALVERIFY OP_CHECKSIG`  
+Input: `<Signature> <Public Key>`
+
+#### P2SH
 
 P2SH was introduced to make multi-sign & other complex scripts simpler to encode  
 Multi-sign contains many signs which are very long it increases the transaction size  
@@ -62,14 +70,14 @@ With shifts the burden in fees and complexity from sender to the receiver (spend
 Useful in business settings were approval from multiple departments are required for spending funds
 
 P2SH can be used as an address as well. The address is base58check encoded  
-P2SH addresses use the version prefix 3 in base58 that comes 5  
-When a wallet sees a address that starts with 5 it knows its a special address  
+P2SH addresses use the version prefix 3  
+When a wallet sees a address that starts with 3 it knows its a special address  
 Wallets don't have to be changed to make payments to P2SH addresses  
 
 An P2SH cannot be include inside another P2SH  
 Since the hash is only checked when its going to be spent, if a transaction is created with a invalid hash then the funds become unspendable    
 
-### OP_RETURN
+#### OP_RETURN
 
 It is used to created outputs that are unspendable  
 OP_RETURNs are stored on the blockchain but not in the UTXOs database  
@@ -90,6 +98,7 @@ There is no way to guarantee that Bob would receive the funds
 #### OP_CLTV
 
 It is a absolute per output lock    
+CLTC: Check Lock Time Verify  
 Prevents UTXOs from being spend till the time mentioned in the script has passed
 The time lock mentioned in the output script is checked against the current state of the blockchain
 
@@ -98,6 +107,7 @@ Output: `<Bob's pubKey> OP_CHECKSIGVERIFY <now + 3 months> OP_CLTV`
 #### OP_CSV
 
 It is a relative per output lock  
+CSV: Check Sequence Verify  
 Locks UTXOs from use till the lock time mentioned in the output has been reached  
 The lock time is calculated from the movement the transaction is added to a block
 

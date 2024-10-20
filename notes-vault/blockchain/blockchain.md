@@ -4,7 +4,7 @@ tags:
   - security
   - cryptography
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-10-12 16:17:17 -0500
+updated: 2024-10-17 20:39:43 -0500
 ---
 
 
@@ -12,7 +12,9 @@ updated: 2024-10-12 16:17:17 -0500
 
 - [[bitcoin|Bitcoin Overview]]
 	- [[bitcoin-core|Bitcoin Core]]
-	- [[bitcoin-network-communication|Bitcoin Network Communication]]
+	- [[bitcoin-network-communication|Network Communication]]
+	- [[bitcoin-test-blockchains|Test Blockchains]]
+	- [[bitcoin-applications|Bitcoin Applications]]
 - [[digital-wallets|Digital Wallets]]
 	- [[bitcoin-lightweight-clients|Lightweight Clients]]
 	- [[wallet-recovery|Wallet Recovery]]
@@ -22,7 +24,8 @@ updated: 2024-10-12 16:17:17 -0500
 	- [[bitcoin-transaction-scripts|Transaction Scripts]]
 	- [[bitcoin-digital-signature|Digital Signature]]
 	- [[bitcoin-transaction-fees|Transaction Fees]]
-- [[bitcoin-mining|Bitcoin Mining]]
+- [[bitcoin-blocks|Blocks]]
+	- [[bitcoin-mining|Bitcoin Mining]]
 - [[bitcoin-address|Bitcoin Address]]
 	- [[bitcoin-legacy-address|Legacy Address]]
 	- [[bitcoin-bech32-address|Bech32 Address]]
