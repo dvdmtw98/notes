@@ -1,10 +1,10 @@
 ---
-title: Blockchain & Cryptocurrency
+title: Blockchain
 tags:
   - security
   - cryptography
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-10-17 20:39:43 -0500
+updated: 2024-10-24 15:57:28 -0500
 ---
 
 
@@ -29,6 +29,12 @@ updated: 2024-10-17 20:39:43 -0500
 - [[bitcoin-address|Bitcoin Address]]
 	- [[bitcoin-legacy-address|Legacy Address]]
 	- [[bitcoin-bech32-address|Bech32 Address]]
+
+### Ethereum
+
+- [[ethereum-overview|Ethereum Overview]]
+	- [[ethereum-basics|Ethereum Basics]]
+	- [[ethereum-clients|Ethereum Clients]]
 
 ### Smart Contracts
 Self-executing contracts where the terms of agreement are written directly as code  

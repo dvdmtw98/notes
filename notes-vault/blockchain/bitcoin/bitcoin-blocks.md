@@ -4,7 +4,7 @@ tags:
   - cryptography
   - blockchain
 date: 2024-10-15 17:51:43 -0500
-updated: 2024-10-16 22:14:38 -0500
+updated: 2024-10-20 09:38:06 -0500
 ---
 
 The first block in the blockchain is the genesis block  
@@ -30,7 +30,7 @@ The hashes of the individual transactions for the leaf nodes in the tree
 If there are odd transactions the last transaction is duplicated  
 If at any level in the tree there are odd hashes the last hash is duplicated  
 
-To prove if a transaction is in the root we only need $log_{2}{(N)}$  hashes
+To prove if a transaction is in the root we only need $log_{2}{(N)}$  hashes  
 Using these hashes the Merkle path/authentication path can be constructed  
 
 ![[merkle-authentication-path.png|580]]

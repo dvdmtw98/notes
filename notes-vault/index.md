@@ -24,7 +24,7 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 * [[cloud-service-providers|Cloud Service Providers]]
 * [[computer-networks|Computer Networks]]
 * [[cyber-security|Cyber Security]]
-* [[blockchain|Blockchain & Cryptocurrency]]
+* [[blockchain|Blockchain]]
 * [[operating-system|Operating System]]
 * [[software-engineering|Software Engineering]]
 * [[programming-languages|Programming Languages]]

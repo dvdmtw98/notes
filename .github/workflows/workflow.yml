@@ -16,7 +16,7 @@ jobs:
               id: checkout-quartz
               uses: actions/checkout@v4
               with:
-                  repository: jackyzha0/quartz 
+                  repository: jackyzha0/quartz
                   ref: v4.3.0
                   path: quartz
             - name: Checkout Repository
@@ -30,14 +30,10 @@ jobs:
               uses: ./source/.github/actions
               with:
                   MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
-            - name: Netlify Deploy
-              id: netlify-deploy
-              uses: jsmrcaga/action-netlify-deploy@v2.2.0
+            - name: Cloudflare Deploy
+              id: cloudflare-deploy
+              uses: cloudflare/wrangler-action@v3
               with:
-                  NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-                  NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-                  NETLIFY_DEPLOY_MESSAGE: GitHub Action Deployment
-                  NETLIFY_DEPLOY_TO_PROD: true
-                  install_command: echo Skipping...Install not required
-                  build_command: echo Skipping...Build not required
-                  build_directory: quartz/public
+                  apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+                  accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+                  command: pages deploy quartz/public --project-name=my-digital-archive

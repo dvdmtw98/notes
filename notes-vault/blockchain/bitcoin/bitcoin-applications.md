@@ -4,7 +4,7 @@ tags:
   - blockchain
   - cryptography
 date: 2024-10-17 20:39:35 -0500
-updated: 2024-10-17 22:38:31 -0500
+updated: 2024-10-20 12:51:06 -0500
 ---
 
 ### Colored Coins
@@ -40,7 +40,7 @@ There is no channel similar to TCP stream just a set of data packets
 They are are series of transactions  
 They form a redeemable obligation even though  the other side of the channel cannot be trusted  
 
-A state channel is created when through a transaction a shared state is locked on the blockchain (between the parties involved). This forms the funding transaction  
+A state channel is created when using a transaction a shared state is locked on the blockchain (between the parties involved). This forms the funding transaction  
 This has to be transmitted to the network and mined to establish the channel  
 This locked state is the initial balance of the channel  
 
