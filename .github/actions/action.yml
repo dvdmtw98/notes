@@ -3,41 +3,37 @@ author: David Varghese
 description: Action to build Quartz website
 
 inputs:
-    MEASUREMENT_ID:
-      description: GTag to link site with Google Analytics
-      required: true
+  MEASUREMENT_ID:
+    description: GTag to link site with Google Analytics
+    required: true
 
 runs:
-    using: composite
-    steps:
-        - name: Copy Markdown Files
-          id: copy-markdown
-          shell: bash
-          run: |
-              cp -a source/notes-vault/. quartz/content \
-              && rm -rf quartz/content/.gitkeep
-        - name: Copy Config
-          id: copy-config
-          shell: bash
-          run: cp -a source/config/. quartz
-        - name: Setup Google Analytics
-          id: setup-analytics
-          shell: bash
-          run:  sed -i -E "s/XXXXXX/${{ inputs.MEASUREMENT_ID }}/" quartz/quartz.config.ts
-        - name: Setup Node
-          uses: actions/setup-node@v4
-          with:
-            node-version: 20
-        - name: Install Dependencies
-          id: install-dependencies
-          shell: bash
-          run: |
-              cd quartz \
-              && npm clean-install \
-              && npm install rehype-external-links
-        - name: Build Site
-          id: build-site
-          shell: bash
-          run: |
-            cd quartz \
-            && npx quartz build
+  using: composite
+  steps:
+    - name: Copy Markdown Files
+      id: copy-markdown
+      shell: bash
+      run: |
+        cp -a source/notes-vault/. quartz/content \
+        && rm -rf quartz/content/.gitkeep
+    - name: Copy Config
+      id: copy-config
+      shell: bash
+      run: cp -a source/config/. quartz
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+    - name: Install Dependencies
+      id: install-dependencies
+      shell: bash
+      run: |
+        cd quartz \
+        && npm clean-install \
+        && npm install rehype-external-links
+    - name: Build Site
+      id: build-site
+      shell: bash
+      run: |
+        cd quartz \
+        && npx quartz build
