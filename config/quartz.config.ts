@@ -11,10 +11,7 @@ const config: QuartzConfig = {
         pageTitle: "Digital Archive",
         enableSPA: true,
         enablePopovers: true,
-        analytics: {
-            provider: 'google',
-            tagId: 'XXXXXX'
-        },
+        analytics: null,
         locale: "en-US",
         baseUrl: "notes.davidvarghese.dev",
         ignorePatterns: ["private", "templates", ".obsidian"],
