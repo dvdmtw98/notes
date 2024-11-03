@@ -4,7 +4,7 @@ tags:
   - cryptography
   - blockchain
 date: 2024-10-23 17:49:19 -0500
-updated: 2024-10-24 15:57:07 -0500
+updated: 2024-10-29 15:49:33 -0500
 ---
 
 Ether represented as 1 ether, or 1 ETH, or Ξ1, or ♦1  

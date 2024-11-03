@@ -4,7 +4,7 @@ tags:
   - blockchain
   - cryptography
 date: 2024-09-23 16:31:54 -0500
-updated: 2024-09-30 19:33:04 -0500
+updated: 2024-10-27 22:36:22 -0500
 ---
 
 ### Transaction Chain
@@ -59,11 +59,12 @@ $p = 2^{256} - 2^{32} - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 - 1$ (Large Prime Number)
 ![[ecc-curve.png|400]]
 
 Elliptical curve math has a concept called “Point at Infinity”  
-It is similar to the concept of zero in addition. Represented as x = y = 0  
+This is required for special cases. It is similar to the concept of zero in addition  
+Represented as x = y = 0  
 
 The + operation in elliptical curve math is similar to the addition operator  
 Given P1 and P2 there is a third point on the curve such that P3 = P1 + P2  
-P3 is found by drawing a line between P1 and P2 which will interact a additional point. This is P3’ = (x, y) reflect it on the x-axis to get P3 = (x, -y)  
+Geometrically, P3 is found by drawing a line between P1 and P2 which will interact a additional point. This is P3’ = (x, y) reflect it on the x-axis to get P3 = (x, -y)  
 If P1 and P2 is the same point and we draw a line between them we will get a tangent that intersects at exactly one additional point  
 
 If P1 and P2 have the same x value but different y value the tangent will be vertical  
@@ -71,7 +72,8 @@ In this situation P3 becomes the Point at Infinity
 If P1 is point at infinity then P1 + P2 = P2  
 If P2 is point at infinity then P1 + P2 = P1  
 
-If P is a point on the curve, if k is a whole number then, kP = P + P + P … (k times)
+If P is a point on the curve, if k is a whole number then, kP = P + P + P … (k times)  
+k is sometimes also confusingly referred to as Exponent  
 
 #### Public Key
 

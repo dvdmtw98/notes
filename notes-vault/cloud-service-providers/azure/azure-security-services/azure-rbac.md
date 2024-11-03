@@ -5,7 +5,7 @@ tags:
   - security
 title: Role Based Access Control (RBAC)
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-10-27 16:48:18 -0500
 ---
 
 Provides fine grained access to Resources  
@@ -21,9 +21,10 @@ An role can be assigned to an user or application identity
 Answers question: What can be done ?
 
 #### Security Principle
-It can be a User, Group of Users, Service Principle (Service in Azure) or Managed identity (Role for a specific service)  
-Roles can be assigned to an Security Principle  
 Security Principle is an object (Identity) that can be assigned a role  
+They are objects that can act upon other resources on the network    
+
+It can be a User, Group of Users, Service Principle (Service in Azure) or Managed Identity (Role for a specific service)  
 Answers question: Who can do it ?
 
 #### Scope

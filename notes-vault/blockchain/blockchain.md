@@ -4,9 +4,8 @@ tags:
   - security
   - cryptography
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-10-24 15:57:28 -0500
+updated: 2024-10-27 21:54:11 -0500
 ---
-
 
 ### Bitcoin
 
@@ -35,6 +34,7 @@ updated: 2024-10-24 15:57:28 -0500
 - [[ethereum-overview|Ethereum Overview]]
 	- [[ethereum-basics|Ethereum Basics]]
 	- [[ethereum-clients|Ethereum Clients]]
+- [[ethereum-address|Ethereum Address]]
 
 ### Smart Contracts
 Self-executing contracts where the terms of agreement are written directly as code  
