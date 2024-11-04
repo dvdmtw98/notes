@@ -1,9 +1,9 @@
-name: Deploy Digital Archive to Netlify
-run-name: Netlify Deploy by @${{ github.actor }}
+name: Deploy Digital Archive to Cloudflare
+run-name: Cloudflare Deploy by @${{ github.actor }} on @{{ github.ref_name }}
 
 on:
   push:
-    branches: [main]
+    branches: [development]
     paths-ignore:
       - "notes-vault/.obsidian/**"
 
@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: jackyzha0/quartz
-          ref: v4.3.0
+          ref: v4.4.0
           path: quartz
       - name: Checkout Repository
         id: checkout-repository

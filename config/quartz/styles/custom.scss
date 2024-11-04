@@ -28,7 +28,7 @@
 		grid-area: 3 / 1 / 5 / 3;
 	}
 
-	@media all and (max-width: $fullPageWidth) {
+	@media all and ($mobile) {
 		display: flex !important;
 	}
 }
