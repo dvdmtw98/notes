@@ -1,5 +1,5 @@
 name: Deploy Digital Archive to Cloudflare
-run-name: Cloudflare Deploy by @${{ github.actor }} on @{{ github.ref_name }}
+run-name: Cloudflare Deploy by ${{ github.actor }} on ${{ github.ref_name }}
 
 on:
   push:
@@ -34,4 +34,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy quartz/public --project-name=my-digital-archive
+          command: pages deploy quartz/public --project-name=my-digital-archive --branch=development
