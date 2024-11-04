@@ -2,11 +2,6 @@ name: Digital Archive Builder
 author: David Varghese
 description: Action to build Quartz website
 
-inputs:
-  MEASUREMENT_ID:
-    description: GTag to link site with Google Analytics
-    required: true
-
 runs:
   using: composite
   steps:

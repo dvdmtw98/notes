@@ -1,5 +1,5 @@
-name: Deploy Digital Archive to Netlify
-run-name: Netlify Deploy by @${{ github.actor }}
+name: Deploy Digital Archive to Cloudflare
+run-name: Cloudflare Deploy by ${{ github.actor }} on ${{ github.ref_name }}
 
 on:
   push:
