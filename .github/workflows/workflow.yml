@@ -1,5 +1,5 @@
 name: Deploy Digital Archive to Cloudflare
-run-name: Build ${{ github.ref_name }} by @${{ github.actor }}
+run-name: Build on ${{ github.ref_name }} by @${{ github.actor }}
 
 on:
   push:
