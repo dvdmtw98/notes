@@ -3,7 +3,7 @@ run-name: Build ${{ github.ref_name }} by @${{ github.actor }}
 
 on:
   push:
-    branches: [dev]
+    branches: [main, dev]
     paths-ignore:
       - "notes-vault/.obsidian/**"
 
