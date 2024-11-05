@@ -1,9 +1,9 @@
 name: Deploy Digital Archive to Cloudflare
-run-name: Cloudflare Deploy by ${{ github.actor }} on ${{ github.ref_name }}
+run-name: Build ${{ github.ref_name }} by @${{ github.actor }}
 
 on:
   push:
-    branches: [main]
+    branches: [dev]
     paths-ignore:
       - "notes-vault/.obsidian/**"
 
@@ -17,7 +17,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: jackyzha0/quartz
-          ref: v4.3.0
+          ref: 1d5b6f58d8e315df55392578a9110406aa074064
+          fetch-depth: 0
           path: quartz
       - name: Checkout Repository
         id: checkout-repository
@@ -34,4 +35,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy quartz/public --project-name=my-digital-archive
+          command: pages deploy quartz/public --project-name=my-digital-archive --branch=${{ github.ref_name }}
