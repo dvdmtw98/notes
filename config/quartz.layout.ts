@@ -70,14 +70,13 @@ export const defaultContentPageLayout: PageLayout = {
         Component.TableOfContents(),
         Component.Graph({
             localGraph: {
-                scale: 4,
-                linkDistance: 45,
-                fontSize: 1,
+                linkDistance: 90,
+                fontSize: 0.7,
                 showTags: false
 
             },
             globalGraph: {
-                linkDistance: 50,
+                linkDistance: 90,
                 fontSize: 0.6,
                 showTags: false
             }
