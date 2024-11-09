@@ -4,7 +4,7 @@ tags:
   - blockchain
   - cryptography
 date: 2024-10-23 16:21:44 -0500
-updated: 2024-10-24 15:56:20 -0500
+updated: 2024-11-05 22:31:06 -0600
 ---
 
 Ethereum is a general purpose blockchain  
@@ -35,6 +35,12 @@ DApp is an web application that uses the blockchain as its underlying infrastruc
 Consists of smart contracts and web frontend interface  
 Can also contain P2P storage and P2P message protocols  
 
+#### Smart Contracts
+Self-executing contracts where the terms of agreement are written directly as code  
+Can automatically perform actions when certain conditions are met  
+Once a smart contract is deployed, it cannot be altered  
+This makes the agreement tamper-proof and trustworthy  
+
 #### Development Culture
 
 Ethereum uses the “move fast and break things” philosophy  
@@ -43,4 +49,3 @@ Backwards compatibility is not always preserved and could break out apps
 
 Ethereum does not have a reference implement but has a reference specification  
 All Ethereum clients have to follow the specification  
-

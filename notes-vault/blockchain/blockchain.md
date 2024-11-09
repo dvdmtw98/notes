@@ -4,7 +4,7 @@ tags:
   - security
   - cryptography
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-10-27 21:54:11 -0500
+updated: 2024-11-06 10:08:07 -0600
 ---
 
 ### Bitcoin
@@ -15,8 +15,8 @@ updated: 2024-10-27 21:54:11 -0500
 	- [[bitcoin-test-blockchains|Test Blockchains]]
 	- [[bitcoin-applications|Bitcoin Applications]]
 - [[digital-wallets|Digital Wallets]]
+	- [[digital-wallet-types|Digital Wallet Types]]
 	- [[bitcoin-lightweight-clients|Lightweight Clients]]
-	- [[wallet-recovery|Wallet Recovery]]
 - [[bitcoin-transactions|Transactions]]
 	- [[bitcoin-transaction-flows|Transaction Flows]]
 	- [[bitcoin-transaction-structure|Transaction Structure]]
@@ -33,11 +33,6 @@ updated: 2024-10-27 21:54:11 -0500
 
 - [[ethereum-overview|Ethereum Overview]]
 	- [[ethereum-basics|Ethereum Basics]]
-	- [[ethereum-clients|Ethereum Clients]]
+	- [[ethereum-wallets|Ethereum Wallets]]
 - [[ethereum-address|Ethereum Address]]
-
-### Smart Contracts
-Self-executing contracts where the terms of agreement are written directly as code  
-Can automatically perform actions when certain conditions are met  
-Once a smart contract is deployed, it cannot be altered  
-This makes the agreement tamper-proof and trustworthy  
+- [[ethereum-tranasactions|Ethereum Transactions]]

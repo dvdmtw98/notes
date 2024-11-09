@@ -9,7 +9,7 @@ updated: 2024-09-29 00:57:28 -0500
 
 Bitcoin is entirely virtual (no physical coins)  
 Users of bitcoin have keys that prove their ownership of coins on network  
-Keys are often stored in [[digital-wallets|digital wallets]]
+Keys are often stored in [[digital-wallet-types|digital wallets]]
 
 Cryptocurrencies use a distributed peer-to-peer system  
 New currency is generated on the Bitcoin network through the process of mining  

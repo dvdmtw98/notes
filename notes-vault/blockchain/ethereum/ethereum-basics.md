@@ -4,7 +4,7 @@ tags:
   - cryptography
   - blockchain
 date: 2024-10-23 17:49:19 -0500
-updated: 2024-10-29 15:49:33 -0500
+updated: 2024-11-05 22:29:51 -0600
 ---
 
 Ether represented as 1 ether, or 1 ETH, or Ξ1, or ♦1  
@@ -39,5 +39,13 @@ To register a contract on the blockchain a special transaction that has a destin
 Contract creation transactions don’t need to have ether  
 Gas fee equivalent to the size of the contract will be charged  
 
+#### Ethereum Clients
 
+**Remote clients** do not store a local copy of the blockchain  
+They operate like wallets allowing the creation and broadcast of transactions  
+They are completely reliant on full nodes to provide them with information  
 
+**Light clients** are similar to SPV clients in [[bitcoin|Bitcoin]]  
+They verify the block headers and using Merkle proof to verify that the transaction is present in a block  
+
+Fast sync skips full transaction validation until it synced to the tip of the blockchain  

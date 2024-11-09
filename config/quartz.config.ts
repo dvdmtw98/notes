@@ -14,7 +14,7 @@ const config: QuartzConfig = {
         enablePopovers: true,
         analytics: null,
         locale: "en-US",
-        baseUrl: "notes.davidvarghese.dev",
+        baseUrl: "notes.davidvarghese.net",
         ignorePatterns: ["private", "templates", ".obsidian"],
         defaultDateType: "created",
         theme: {
@@ -66,7 +66,7 @@ const config: QuartzConfig = {
             }),
             Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false, enableCheckbox: true }),
             Plugin.GitHubFlavoredMarkdown(),
-            Plugin.TableOfContents({ maxDepth: 5, minEntries: 2 }),
+            Plugin.TableOfContents({ maxDepth: 5, minEntries: 1 }),
             Plugin.CrawlLinks({ markdownLinkResolution: "shortest", lazyLoad: true }),
             Plugin.Description(),
             Plugin.Latex({ renderEngine: "katex" }),

@@ -4,7 +4,7 @@ tags:
   - blockchain
   - cryptography
 date: 2024-10-27 21:54:20 -0500
-updated: 2024-10-27 23:32:19 -0500
+updated: 2024-11-06 10:06:44 -0600
 ---
 
 Ethereum uses Elliptical Curve Cryptography  
