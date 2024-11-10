@@ -45,7 +45,7 @@ export const sharedPageComponents: SharedLayout = {
         links: {
             GitHub: "https://github.com/dvdmtw98",
             LinkedIn: "https://www.linkedin.com/in/david-varghese",
-            Blog: "https://blog.davidvarghese.dev",
+            Blog: "https://blog.davidvarghese.net",
             Medium: "https://david-varghese.medium.com",
         },
     }),
