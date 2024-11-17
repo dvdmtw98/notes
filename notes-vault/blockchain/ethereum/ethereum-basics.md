@@ -4,7 +4,7 @@ tags:
   - cryptography
   - blockchain
 date: 2024-10-23 17:49:19 -0500
-updated: 2024-11-05 22:29:51 -0600
+updated: 2024-11-13 15:50:40 -0600
 ---
 
 Ether represented as 1 ether, or 1 ETH, or Ξ1, or ♦1  
@@ -28,16 +28,6 @@ When a transaction destination is a contract addresses it executes the contract
 The transactions data becomes the input for the contract  
 Transactions can call specific functions in a contract (can pass parameters as well)  
 Since contracts do not have a private key they cannot start a transaction  
-
-#### Contracts
-
-Solidity is the most common language that is used to write Smart Contracts  
-Solidity code is converted into bytecode that can be executed by the EVM  
-[GitHub - Faucet.sol](https://github.com/ethereumbook/ethereumbook/blob/develop/code/Solidity/Faucet.sol)
-
-To register a contract on the blockchain a special transaction that has a destination address of all zeros  
-Contract creation transactions don’t need to have ether  
-Gas fee equivalent to the size of the contract will be charged  
 
 #### Ethereum Clients
 

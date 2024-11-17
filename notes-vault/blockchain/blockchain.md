@@ -4,7 +4,7 @@ tags:
   - security
   - cryptography
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-11-06 10:08:07 -0600
+updated: 2024-11-13 15:51:31 -0600
 ---
 
 ### Bitcoin
@@ -36,3 +36,4 @@ updated: 2024-11-06 10:08:07 -0600
 	- [[ethereum-wallets|Ethereum Wallets]]
 - [[ethereum-address|Ethereum Address]]
 - [[ethereum-tranasactions|Ethereum Transactions]]
+- [[ethereum-contracts|Smart Contracts]]

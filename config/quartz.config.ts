@@ -17,6 +17,9 @@ const config: QuartzConfig = {
         baseUrl: "notes.davidvarghese.net",
         ignorePatterns: ["private", "templates", ".obsidian"],
         defaultDateType: "created",
+        generateSocialImages: {
+            colorScheme: 'darkMode'
+        },
         theme: {
             fontOrigin: "googleFonts",
             cdnCaching: false,
