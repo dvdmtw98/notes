@@ -74,7 +74,8 @@ const config: QuartzConfig = {
             Plugin.Description(),
             Plugin.Latex({ renderEngine: "katex" }),
             Plugin.ExternalLinks(),
-            Plugin.ImageZoom()
+            Plugin.ImageZoom(),
+            Plugin.PageAnimation()
         ],
         filters: [Plugin.RemoveDrafts()],
         emitters: [

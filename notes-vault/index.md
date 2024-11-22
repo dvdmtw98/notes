@@ -4,20 +4,17 @@ tags:
   - main
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-09-29 20:59:01 -0500
+updated: 2024-11-20 21:04:02 -0600
 ---
 
-Welcome to Digital Archive. This is a space where I store my notes, ideas, insights, and connections I’ve made throughout my life. You can explore the various topics that interest me, learn from the content I’ve gathered, and see how everything is connected.
-
-![[main-banner.png]]
+Welcome to [Digital Archive](https://notes.davidvarghese.net). This is a place where I store information about various topics that interest me. Fell free to explore all the content. I welcome your feedback and encourage contributes to enhance the accuracy of the material.
 
 There are multiple ways to navigate Digital Archive:
-1. Use the search bar (top right) to search for any term, or press `ctrl+k` (`cmd+k` on Mac).
+1. Use the search bar to search for any term. The search bar can also be accessed by pressing `ctrl+k` (`cmd+k` on Mac).
 2. Click on a note to explore its content, and follow the links and backlinks to dive deeper into related topics.
 3. Interact with the graph on the left of the page to visualize connections between notes, and click on any node to navigate directly to that note.
-4. Click on the Hashtags to explore the topics by tags.
+4. Click on the tags to explore the topics by category.
 
-I welcome your feedback and encourage contributes to enhance the accuracy of my notes.
 
 ### Table of Content
 
