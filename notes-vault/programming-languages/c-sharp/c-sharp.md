@@ -5,7 +5,7 @@ tags:
   - index
 title: C Sharp
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-04-14 20:21:32 -0500
+updated: 2024-11-22 17:15:46 -0600
 ---
 
 ### Table of Content
@@ -19,29 +19,29 @@ updated: 2024-04-14 20:21:32 -0500
 	* [[association-aggregation-and-composition|Association, Aggregation and Composition]]
 	* [[dependency-injection|Dependency Injection]]
 2. **Fundamental Concepts**
-	* [[csharp-primitives-datatype|C Sharp Primitives Datatype]]
-	* [[chsarp-datetime-and-timespan|C Sharp Datetime and Timespan]]
-	* [[csharp-casting-datatype|C Sharp Casting Datatype]]
-	* [[csharp-arithmetic-operators|C Sharp Arithmetic Operators]]
-	* [[csharp-arrays|C Sharp Arrays]]
-	* [[csharp-dynamic-arrays|C Sharp Dynamic Arrays]]
-	* [[csharp-strings|C Sharp Strings]]
-	* [[csharp-enums|C Sharp Enums]]
-	* [[csharp-user-input|C Sharp User Input]]
-	* [[csharp-control-flow-statements|C Sharp Control Flow Statements]]
-	* [[chsarp-iteration-statements|C Sharp Iteration Statements]]
-	* [[csharp-file-operations|C Sharp File & Directory Operations]]
+	* [[csharp-primitives-datatype|Primitives Datatype]]
+	* [[chsarp-datetime-and-timespan|Datetime and Timespan]]
+	* [[csharp-casting-datatype|Casting Datatype]]
+	* [[csharp-arithmetic-operators|Arithmetic Operators]]
+	* [[csharp-arrays|Arrays]]
+	* [[csharp-dynamic-arrays|Dynamic Arrays]]
+	* [[csharp-strings|Strings]]
+	* [[csharp-enums|Enums]]
+	* [[csharp-user-input|User Input]]
+	* [[csharp-control-flow-statements|Control Flow Statements]]
+	* [[chsarp-iteration-statements|Iteration Statements]]
+	* [[csharp-file-operations|File & Directory Operations]]
 3. **Object Oriented Concepts**
-	* [[csharp-classes|C Sharp Classes]]
-	* [[csharp-constructor|C Sharp Constructor]]
-	* [[csharp-methods|C Sharp Methods]]
-	* [[fields|Fields]]
-	* [[access-modifiers|Access Modifiers]]
-	* [[properties|Properties]]
-	* [[csharp-indexers|C Sharp Indexers]]
-	* [[csharp-inheritance|C Sharp Inheritance]]
+	* [[csharp-classes|Classes]]
+		* [[csharp-constructor|Constructor]]
+		* [[csharp-methods|Methods]]
+		* [[fields|Fields]]
+		* [[access-modifiers|Access Modifiers]]
+		* [[properties|Properties]]
+	* [[csharp-indexers|Indexers]]
+	* [[csharp-inheritance|Inheritance]]
 	* [[composition|Composition]]
-	* [[csharp-upcasting-downcasting|C Sharp Upcasting Downcasting]]
+	* [[csharp-upcasting-downcasting|Upcasting Downcasting]]
 	* [[boxing-and-unboxing|Boxing and Unboxing]]
 	* [[method-overriding|Method Overriding]]
 	* [[abstract-and-sealed-class|Abstract & Sealed Class]]

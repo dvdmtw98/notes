@@ -1,0 +1,38 @@
+.scroll-to-top {
+  opacity: 0;
+  z-index: 1;
+  cursor: pointer;
+  position: fixed;
+  right: 6%;
+  bottom: 6%;
+  background: var(--light);
+  color: var(--gray);
+  padding: 0;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  border: 1px solid var(--gray);
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+  transition:
+    transform 0.2s ease-out,
+    opacity 0.5s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+  /* Center the SVG Icon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    transform: translate3d(0, -5px, 0);
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+  }
+
+  &.visible {
+    opacity: 1;
+  }
+
+  & svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

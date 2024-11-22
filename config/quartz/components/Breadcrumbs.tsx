@@ -3,27 +3,11 @@ import breadcrumbsStyle from "./styles/breadcrumbs.scss"
 import { FullSlug, SimpleSlug, joinSegments, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { classNames } from "../util/lang"
+import { textTransform } from "../util/custom"
 
 type CrumbData = {
   displayName: string
   path: string
-}
-
-const titleCaseTransform = (displayName: string) => {
-
-  const filterWords = ["and", "of", "a", "in", "on", "the", "for", "to"];
-
-  const words = displayName.split("-");
-  const titleCaseWords = words.map((word) => {
-    if (filterWords.includes(word)) {
-      return word
-    }
-    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
-  });
-  const result = titleCaseWords.join(" ");
-  displayName = result;
-
-  return displayName;
 }
 
 interface BreadcrumbOptions {
@@ -59,7 +43,7 @@ const defaultOptions: BreadcrumbOptions = {
 
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
   return {
-    displayName: titleCaseTransform(displayName),
+    displayName: textTransform(displayName),
     path: resolveRelative(baseSlug, currentSlug),
   }
 }

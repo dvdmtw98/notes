@@ -25,7 +25,7 @@ const config: QuartzConfig = {
             cdnCaching: false,
             typography: {
                 header: "Schibsted Grotesk",
-                body: "Poppins",
+                body: "Inter",
                 code: "Fira Code",
             },
             colors: {
@@ -41,15 +41,15 @@ const config: QuartzConfig = {
                     textHighlight: "#fff23688",
                 },
                 darkMode: {
-                    light: "#100F0F",
+                    light: "#1a1915",
                     lightgray: "#393639",
                     gray: "#646464",
                     darkgray: "#d4d4d4",
                     dark: "#ebebec",
-                    secondary: "#ffd06f",
-                    tertiary: "#F15322",
+                    secondary: "#8FD9C3",
+                    tertiary: "#3A8E73",
                     highlight: "rgba(143, 159, 169, 0.15)",
-                    textHighlight: "#b3aa0288",
+                    textHighlight: "#A6BF4B88",
                 },
             },
         },
