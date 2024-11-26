@@ -3,9 +3,9 @@
 // put your custom CSS here!
 @use "./variables.scss" as *;
 
-// Left Sidebar Components Alignment
+// Sidebar Components
 
-.left {
+.left.sidebar {
   display: grid !important;
   gap: 1.5rem !important;
   grid-template-columns: 1fr;
@@ -26,15 +26,48 @@
 
   .explorer {
     grid-area: 3 / 1 / 5 / 3;
+
+    .folder-container div>button span {
+      font-weight: 400;
+    }
   }
 
-  @media all and ($mobile) {
+  @media all and ($desktop) {
+    .explorer {
+      max-height: 64vh;
+      overflow-y: hidden;
+    }
+  }
+
+  @media all and not ($desktop) {
     display: flex !important;
+  }
+
+  @media all and ($tablet) {
+    padding: 6rem 1.5rem 2rem !important;
+    align-items: flex-start;
+
+    .search {
+      align-self: stretch;
+    }
   }
 }
 
-.folder-container div > button span {
-    font-weight: 400;
+.right.sidebar {
+  @media all and ($desktop) {
+    .toc {
+      max-height: 40vh;
+      overflow-y: hidden;
+    }
+  }
+}
+
+// Backlink Spacing
+
+@media all and not ($desktop) {
+  .backlinks>.overflow {
+    height: unset;
+  }
 }
 
 // Custom Line Separator
@@ -71,7 +104,7 @@ table {
 
 article {
   > :is(h1, h2, h3, h4, h5, h6) {
-    > a {
+    >a {
       &.internal {
         background-color: var(--highlight);
         color: var(--secondary);
