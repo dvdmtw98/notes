@@ -1,10 +1,11 @@
 ---
-title: Main Index
+title: Homepage
+description: A collection of notes on computer science and other topics I've explored over the years.
 tags:
   - main
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-11-22 17:15:23 -0600
+updated: 2024-11-29 12:44:26 -0600
 ---
 
 Welcome to [Digital Archive](https://notes.davidvarghese.net). This is a place where I store information about various topics that interest me. Fell free to explore all the content. I welcome your feedback and encourage contributes to enhance the accuracy of the material.
