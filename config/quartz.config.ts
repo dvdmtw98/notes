@@ -25,7 +25,7 @@ const config: QuartzConfig = {
             fontOrigin: "googleFonts",
             cdnCaching: false,
             typography: {
-                header: "Schibsted Grotesk",
+                header: "Geist",
                 body: "Inter",
                 code: "Fira Code",
             },

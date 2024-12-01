@@ -1,5 +1,5 @@
 ---
-title: Homepage
+title: Home Page
 description: A collection of notes on computer science and other topics I've explored over the years.
 tags:
   - main
