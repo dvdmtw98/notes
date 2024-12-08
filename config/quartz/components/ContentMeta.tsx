@@ -1,7 +1,7 @@
+import { Date, getDate } from "./Date"
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import readingTime from "reading-time"
 import { classNames } from "../util/lang"
-import { formatDate, getDate } from "./Date"
-import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { i18n } from "../i18n"
 import { JSX } from "preact"
 import style from "./styles/contentMeta.scss"
@@ -10,11 +10,17 @@ interface ContentMetaOptions {
   /**
    * Whether to display reading time
    */
-  showReadingTime: boolean
+  showReadingTime: boolean,
+  repoLink: string,
+  branch: string,
+  rootDirectory: string
 }
 
 const defaultOptions: ContentMetaOptions = {
   showReadingTime: true,
+  repoLink: "github.com",
+  branch: "main",
+  rootDirectory: "content"
 }
 
 export default ((opts?: Partial<ContentMetaOptions>) => {
@@ -25,22 +31,21 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     const text = fileData.text
 
     if (text) {
-      let modifiedSegment: string = ""
-      let createdSegment: string = ""
-      // const segments: string[] = []
+      let modifiedSegment: (string | JSX.Element) = ""
+      let createdSegment: (string | JSX.Element) = ""
 
       if (fileData.dates) {
-        const cfgDefaultDataType = cfg.defaultDateType
         // For backward compatibility, just in case this is used somewhere else
+        const cfgDefaultDataType = cfg.defaultDateType
 
         if (fileData.dates.created) {
           cfg.defaultDateType = "created"
-          createdSegment = formatDate(getDate(cfg, fileData)!)
+          createdSegment = <Date date={getDate(cfg, fileData)!} locale={cfg.locale} />
         }
 
         if (fileData.dates.modified) {
           cfg.defaultDateType = "modified"
-          modifiedSegment = formatDate(getDate(cfg, fileData)!)
+          modifiedSegment = <Date date={getDate(cfg, fileData)!} locale={cfg.locale} />
         }
 
         cfg.defaultDateType = cfgDefaultDataType
@@ -56,10 +61,27 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         readingTimeStr = `${_words} words, ${displayedTime}`
       }
 
+      const sourcefilePath = `${options?.rootDirectory}/${fileData.relativePath}`
+      const sourceViewUrl = `${options?.repoLink}/blob/${options?.branch}/${sourcefilePath!}`
+      const blameViewUrl = `${options?.repoLink}/blame/${options?.branch}/${sourcefilePath!}`
+
+      const gitHistoryBasePath = options?.repoLink.replace("github.com", "github.githistory.xyz")
+      const historyViewUrl = `${gitHistoryBasePath}/commits/${options?.branch}/${sourcefilePath!}`
+
       return (
-        <p class={classNames(displayClass, "content-meta")}>
-          Created: {createdSegment} • Modified: {modifiedSegment}<br />{readingTimeStr}
-        </p>
+        <div>
+          <p style={{ margin: '0' }}>
+            <a href={sourceViewUrl} target="_blank" rel="noreferrer noopener">Source</a>{" "}•{" "}
+            <a href={blameViewUrl} target="_blank" rel="noreferrer noopener">Blame</a>{" "}•{" "}
+            <a href={historyViewUrl} target="_blank" rel="noreferrer noopener">Git History</a>
+          </p>
+          <p style={{ margin: '0' }} class={classNames(displayClass, "content-meta")}>
+            <span>Created: {createdSegment} • Modified: {modifiedSegment}</span>
+          </p>
+          <p style={{ margin: '0' }} class={classNames(displayClass, "content-meta")}>
+            <span>{readingTimeStr}</span>
+          </p>
+        </div>
       )
     } else {
       return null
