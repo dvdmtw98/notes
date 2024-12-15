@@ -3,7 +3,7 @@ tags:
   - os
   - linux
   - command
-title: User & Group Management Commands
+title: User & Group Management
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 21:54:31 -0600
 ---

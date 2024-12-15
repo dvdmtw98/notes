@@ -5,7 +5,7 @@ tags:
   - index
 title: Windows Index
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-03 08:04:36 -0600
+updated: 2024-12-11 15:30:34 -0600
 ---
 
 ### Table of Content
@@ -18,6 +18,7 @@ updated: 2024-02-03 08:04:36 -0600
 	* [[symbolic-links|Symbolic Links]]
 	* [[folders-as-virtual-drive|Folders as Virtual Drive]]
 	* [[encryption-commands|Encryption Commands]]
+	* [[disk-management-commands|Disk Management Commands]]
 * **Tools and Utilities**
 	* [[windows-terminal|Windows Terminal]]
 	* [[wsl-configuration|WSL Configuration]]

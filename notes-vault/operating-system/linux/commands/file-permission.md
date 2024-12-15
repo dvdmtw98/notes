@@ -3,7 +3,7 @@ tags:
   - os
   - linux
   - command
-title: File Permission Commands
+title: File Permission
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 21:40:51 -0600
 ---

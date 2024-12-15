@@ -6,20 +6,20 @@ tags:
   - index
 title: Linux Commands
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-31 08:12:23 -0600
+updated: 2024-12-12 13:37:04 -0600
 ---
 
 ### Topic Related Commands
 
 * [[archival-commands|Archival Commands]]
 * [[copy-commands|Copy Commands]]
-* [[device-information-commands|Device Information Commands]]
-* [[file-permission-commands|File Permission Commands]]
+* [[device-information|Device Information]]
+* [[file-permission|File Permission]]
 * [[network-related-commands|Network Related Commands]]
-* [[package-management-commands|Package Management Commands]]
-* [[process-management-commands|Process Management Commands]]
-* [[service-management-commands|Service Management Commands]]
-* [[user-and-group-management-commands|User & Group Management Commands]]
+* [[package-management|Package Management]]
+* [[process-management|Process Management]]
+* [[service-management|Service Management]]
+* [[user-and-group-management|User & Group Management]]
 
 ### Linux Commands
 

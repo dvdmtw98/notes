@@ -4,7 +4,7 @@ tags:
   - cryptography
   - blockchain
 date: 2024-09-28 22:27:02 -0500
-updated: 2024-10-12 22:55:34 -0500
+updated: 2024-12-08 15:59:12 -0600
 ---
 
 A transaction is a request to the full nodes to change the coin ownership information  

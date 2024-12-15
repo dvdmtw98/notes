@@ -3,9 +3,9 @@ tags:
   - os
   - linux
   - command
-title: Device Information Commands
+title: Device Information
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 21:38:22 -0600
+updated: 2024-12-12 13:18:29 -0600
 ---
 
 ### Disk Usage
@@ -34,3 +34,11 @@ free -h
 # Returns CPU information
 lscpu
 ````
+
+### Disk Information
+
+```bash
+# -t: Detailed Information
+sudo lsblk -f
+sudo lsblk -t
+```

@@ -5,7 +5,7 @@ tags:
   - command
 title: Folders as Virtual Drive
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-12-11 15:27:07 -0600
 ---
 
 ### subst Command
