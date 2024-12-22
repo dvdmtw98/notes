@@ -4,7 +4,7 @@ tags:
   - devops
 title: Git Config Command
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2024-12-15 22:13:04 -0600
 ---
 
 ````bash
@@ -30,6 +30,12 @@ git config --global alias.<alias-name> "<command>"
 git config --global credential.helper store
 git config --global credential.helper 'cache --timeout=3600'
 git config --global credential.helper wincred
+
+# Normalize Line endings to LF (Can cause issues)
+git config --global core.autocrlf true
+# Repo level configuration
+git config core.autocrlf true
+git add --renormalize .
 ````
 
 The System config is located in the **`~/etc/gitconfig`** file  
