@@ -5,7 +5,7 @@ tags:
   - command
 title: find Command
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-05-15 22:58:09 -0500
+updated: 2024-12-24 12:27:47 -0600
 ---
 
 ````bash
@@ -13,6 +13,9 @@ find / -type f -name "file.txt"
 
 # Files that have SUID bit set and are owned by root
 find / -perm -4000 -user -4000 2> /dev/null
+
+# Find Symlinks
+find /path/to/directory -type l ! -exec test -e {} \; -print
 ````
 
 `-mmin -10`: Files modified less than 10 mins ago  
