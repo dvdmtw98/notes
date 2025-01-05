@@ -5,7 +5,7 @@ tags:
   - command
 title: Symbolic Links
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-12-26 13:38:21 -0600
+updated: 2024-12-31 10:01:28 -0600
 ---
 
 ### Symbolic Links
@@ -22,9 +22,17 @@ mklink /D <Link> <Target>
 DIR /AL /S <Location>
 ```
 
-`/D` is not required when making symbolic link for a file  
+`/D` Directory Link  
 `<Link>` : The target link (should not already exist)  
 `<Target>` : The actual file/folder to link
+
+```powershell
+# PowerShell native approach
+New-Item -ItemType SymbolicLink -Path C:\LinkDir -Value F:\RealDir
+
+# Calling CMD Command from PowerShell
+cmd /c mklink c:\path\to\symlink c:\target\file
+```
 
 `rmdir` and `del` commands can be used to remove Symbolic Links. This command should to run on the target location (the Symbolic Link)
 
