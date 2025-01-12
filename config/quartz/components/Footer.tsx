@@ -14,7 +14,7 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
-          © {year}{" "}
+          © 2013-{year}{" "}
           <a href="https://www.linkedin.com/in/david-varghese/" target="_blank" rel="noreferrer noopener">
             David Varghese
           </a>.{" "}Licensed under{" "}
