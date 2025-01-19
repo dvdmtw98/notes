@@ -4,7 +4,7 @@ tags:
   - linux
 title: Device Drivers
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-01-14 19:53:54 -0600
 ---
 
 Abstractions for a piece of software  
@@ -14,9 +14,13 @@ On Linux file is the most common abstraction for communicating with devices
 File (User space) -> Device Driver (Kernel space) -> Device (Hardware)
 
 There are a few kernel APIs that expose the drivers to the user space (`/sys`, `/dev`)  
-Device drivers are exposed in the `/dev` directory
+Device drivers are exposed in the `/dev` directory  
+Graphics Card: `/dev/dri`  
 
-Device drivers are of two types : Char and Block  
+NICs are not represented as virtual files on the file system (stored in RAM)
+The NIC configuration is stored in `/sys/class/net`  
+
+Device drivers are of two types: Char and Block  
 These drivers have three main info associated with them: Type, Minor & Major no.
 
 We communicate with char devices by sharing bytes of data while with block devices a chunk of data is shared at a time  
