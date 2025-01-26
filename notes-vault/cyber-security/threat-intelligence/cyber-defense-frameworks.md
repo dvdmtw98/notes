@@ -5,7 +5,7 @@ tags:
   - soc
 title: Cyber Defense Frameworks
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-01-23 23:29:00 -0600
 ---
 
 #### Security Frameworks  
@@ -63,11 +63,19 @@ Extended Diamond Model consists additionally 6 meta-features and 2 axis's:
 
 ### MITRE ATT&CK Framework
 
-A knowledge base mentioned by MITRE for listing and explaining adversary tactics, techniques and procedures (common knowledge)  
+A globally accessible knowledge base mentioned by MITRE for listing and explaining adversary tactics, techniques and procedures
 
-The pre-ATT&CK tactics matrix aligns to the reconnaissance and weaponization phase of the Cyber Kill Chain while the ATT&CK Enterprise framework aligns to the remaining stages of the Cyber Kill Chain
+**Tactic**: Step in an attackers methodology  
+**Technique**: How the tactic is orchestrated  
+**Procedure**: Implementations of a technique (and sub-techniques)
 
-A separate ATT&CK framework exists for mobile devices
+The pre-ATT&CK matrix contains the reconnaissance and weaponization phase  
+The ATT&CK Enterprise matrix contains the remaining stages of the Cyber Kill Chain
+Recently, the pre-ATT&CK matrix was merged into the Enterprise matrix
+
+[MITRE ATT&CK®](https://attack.mitre.org/)
+
+Separate matrices are present for mobile and ICS (Industrial Control Systems)
 
 ### NIST Risk Management Framework (RMF)
 

@@ -1,53 +1,35 @@
 ---
+title: Misc. Utilities
 tags:
   - security
   - tool
-title: Misc. Utilities
-updated: 2024-01-28
+updated: 2025-01-22 23:19:02 -0600
 date: 2024-01-28 14:15:56 -0600
 ---
 
 ### SearchSploit
 
-Search's Exploit DB for any known exploits for an given service
+Search's Exploit DB for known exploits
 
-#### Update DB
-
-````bash
+```bash
+# Update Database
 searchsploit -u
-````
 
-#### Searching for Exploit
-
-````bash
+# Search Database
 searchsploit <service-name>
 searchsploit <service-name> <version>
-searchsploit -t <search-term> # Search Module Title only
-````
+searchsploit -t <search-term>
 
-#### Copy Exploit to CWD
-
-````bash
+# Copy Exploit to Clipboard
 searchsploit -m <exploit-id>
-````
-
-### Hex Dump
-
-Computer data (RAM Content, Compressed File, etc.) that is represented in Hex representation
-
-````bash
-xxd <filename>
-xxd -r data.txt > data
-````
-
-The output file has no extension as the converted data is not necessarily a text file
+```
 
 ### Python One Liners
 
 #### HTTP Server
 
 ````bash
-python3 -m http.server <port-no>
+python3 -m http.server <port>
 ````
 
 #### FTP Server

@@ -5,7 +5,7 @@ tags:
   - tcp
 title: TCP (Transmission Control Protocol)
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-01-22 19:49:00 -0600
 ---
 
 **Connection Oriented** - Uses [[tcp-three-way-handshake|TCP Three-Way Handshake]] to establish connection  
@@ -17,12 +17,13 @@ Sequence number is used to detect missing data and place data in correct order
 
 ### TCP Sequence Numbers
 
-The SYN flag is responsible for telling the server about the number from which it has to start counting the packets  
-The Sequence Number (ISN) is an unique high number
+SYN packets are used to inform client/ server about the value from which to start counting the packets  
+The sequence/ acknowledgement numbers are always unique high number  
+Each packet contains a **sequence** number and **acknowledgement** number  
 
-When the server sends back SYN-ACK it increments the Sequence Number by 1 and returns it as the Acknowledgement Number  
-Additionally the server sends its own Sequence Number to the client
+In the SYN packet sent to the server the acknowledgement number is set to 0  
+When the server sends back SYN-ACK it increments the sequence no. by 1 and returns it as the acknowledgement number  
+The server sends its sequence number to the client in the sequence number field  
+When client responses to server with ACK it increments the acknowledgement number by 1
 
-When client responses to server with the ACK Flag it increments the Acknowledgement No. by 1
-
-Once the sequence numbers are synchronized and the connection is established depending on the size and the amount (bytes) of data sent by the client the sequence numbers will increase
+Once the sequence numbers are synchronized and the connection is established the packet size (bytes) determines the amount by which the sequence/ acknowledgment number is incremented

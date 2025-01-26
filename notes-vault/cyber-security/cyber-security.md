@@ -1,10 +1,10 @@
 ---
+title: Cyber Security
 tags:
   - security
   - index
-title: Cyber Security
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-11-20 21:00:16 -0600
+updated: 2025-01-22 23:04:15 -0600
 ---
 
 ### Certifications
@@ -45,6 +45,7 @@ updated: 2024-11-20 21:00:16 -0600
 * [[bettercap|BetterCap]]
 * [[sqlmap|SQLMap]]
 * [[burp-suite|Burp Suite]]
+* [[wireshark|Wireshark]]
 * [[misc-utilities|Misc. Utilities]]
 
 ### Hacking Operations

@@ -4,7 +4,7 @@ tags:
   - model
 title: OSI Model
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-01-20 14:13:20 -0600
 ---
 
 Open Systems Interconnection (OSI) Model was designed in 1977 by ISO  
@@ -54,12 +54,13 @@ LLC: Logical Link Control (Error Detection)
 
 Responsible for Hop-to-Hop Communication (Devices on same network)    
 Packets are send to the correct device on this layer using [[mac-media-access-control-address|MAC Address]]  
+Defines the protocols for data transmission (e.g. Ethernet, WiFi) 
 
 [[data-link-layer-concepts|Data Link Layer Concepts]]
 
 #### Layer 3: Network Layer
 
-Responsible for End to End Communication  
+Responsible for End to End Communication (Across Networks)   
 Transfers (routes) data using logical addresses  
 
 Uses IP Addresses and routing algorithms to transfer packets over the network  
