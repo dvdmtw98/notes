@@ -5,14 +5,14 @@ tags:
   - index
 title: Windows Index
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-12-11 15:30:34 -0600
+updated: 2025-02-06 12:28:47 -0600
 ---
 
 ### Table of Content
 
 * **Windows Commands**
 	* [[network-commands|Network Commands]]
-	* [[system-repair-commands|System Repair Commands]]
+	* [[system-health-commands|System Health Commands]]
 	* [[task-management-commands|Task Management Commands]]
 	* [[download-commands|Download Commands]]
 	* [[symbolic-links|Symbolic Links]]
@@ -29,6 +29,7 @@ updated: 2024-12-11 15:30:34 -0600
 	* [[windows-shortcuts|Windows Shortcuts]]
 	* [[microsoft-active-directory|Microsoft Active Directory]]
 	* [[ntfs-alternative-file-stream|NTFS Alternative File Stream]]
+	* [[windows-change-owner|Change Directory Owner]]
 
 **SCCM (Security Center Configuration Manager)**  
 Windows-centric Endpoint Management tool  
@@ -38,5 +39,5 @@ Renamed to Microsoft Endpoint Configuration Manager (MECM)
 ### Miscellaneous Points
 
 * **`clip`** command can be used to copy anything to the clipboard from terminal
-* **`findstr`** is the Windows equivalent of grep and can be used to manipulate strings
+* **`findstr`** is the Windows equivalent of grep
 * **`shutdown /r /fw /f /t 0`** : Restart system into BIOS
