@@ -1,8 +1,8 @@
 ---
+title: Copper Cable
 tags:
   - networking
   - cable
-title: Copper Cable
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-30 22:19:36 -0600
 ---

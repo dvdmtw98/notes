@@ -1,4 +1,5 @@
 ---
+title: Row Level & Column Level Security
 tags:
   - azure
   - cloud
@@ -6,7 +7,6 @@ tags:
   - data-warehouse
   - synapse
   - security
-title: Row Level & Column Level Security
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

@@ -1,9 +1,9 @@
 ---
+title: EC2 (Elastic Cloud Compute)
 tags:
   - aws
   - cloud
   - compute
-title: EC2 (Elastic Cloud Compute)
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

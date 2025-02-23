@@ -1,4 +1,5 @@
 ---
+title: Azure Tables Partitioning
 tags:
   - azure
   - cloud
@@ -6,7 +7,6 @@ tags:
   - no-sql
   - tables
   - partition
-title: Azure Tables Partitioning
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

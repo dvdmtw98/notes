@@ -1,10 +1,10 @@
 ---
+title: GCP Security Services
 tags:
   - gcp
   - cloud
   - security
   - index
-title: GCP Security Services
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-29 10:29:57 -0600
 ---

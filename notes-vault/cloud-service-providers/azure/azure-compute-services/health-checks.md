@@ -1,10 +1,10 @@
 ---
+title: Health Checks
 tags:
   - azure
   - cloud
   - alert
   - metric
-title: Health Checks
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

@@ -3,7 +3,7 @@ import { Options } from "../components/ExplorerNode";
 const textTransform = (displayName: string) => {
 
     const filterWords = ["and", "of", "a", "in", "on", "the", "for", "to"]
-    const upperWords = ["AWS", "GCP", "AI", "ML", "SQL", "CSS", "PL"]
+    const upperWords = ["AWS", "GCP", "AI", "ML", "SQL", "CSS", "PL", "DB"]
     const specialWords: { [key: string]: string } = {
         javascript: "JavaScript",
         typescript: "TypeScript",

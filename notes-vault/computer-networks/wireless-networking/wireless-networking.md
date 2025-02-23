@@ -1,9 +1,9 @@
 ---
+title: Wireless Networking
 tags:
   - networking
   - wireless
   - index
-title: Wireless Networking
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-02-20 15:58:32 -0600
 ---

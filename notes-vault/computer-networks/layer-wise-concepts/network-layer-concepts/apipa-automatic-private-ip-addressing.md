@@ -1,9 +1,9 @@
 ---
+title: APIPA (Automatic Private IP Addressing)
 tags:
   - networking
   - ip
   - subnet
-title: APIPA (Automatic Private IP Addressing)
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-02-22 12:04:31 -0600
 ---

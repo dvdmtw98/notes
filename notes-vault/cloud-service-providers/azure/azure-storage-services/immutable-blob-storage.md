@@ -1,9 +1,9 @@
 ---
+title: Immutable Blob Storage
 tags:
   - azure
   - cloud
   - storage
-title: Immutable Blob Storage
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

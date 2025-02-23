@@ -1,9 +1,9 @@
 ---
+title: Domain Name System (DNS)
 tags:
   - networking
   - protocol
   - dns
-title: Domain Name System (DNS)
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-04-30 10:00:48 -0500
 ---

@@ -1,8 +1,8 @@
 ---
+title: Zero-Trust Model
 tags:
   - security
   - cloud
-title: Zero-Trust Model
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

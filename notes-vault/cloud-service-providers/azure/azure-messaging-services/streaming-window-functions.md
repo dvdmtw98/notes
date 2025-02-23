@@ -1,9 +1,9 @@
 ---
+title: Streaming Window Functions
 tags:
   - azure
   - cloud
   - streaming
-title: Streaming Window Functions
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

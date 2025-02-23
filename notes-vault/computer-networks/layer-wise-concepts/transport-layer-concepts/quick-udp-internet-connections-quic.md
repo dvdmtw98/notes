@@ -1,9 +1,9 @@
 ---
+title: QUIC (Quick UDP Internet Connections)
 tags:
   - networking
   - transport
   - udp
-title: QUIC (Quick UDP Internet Connections)
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

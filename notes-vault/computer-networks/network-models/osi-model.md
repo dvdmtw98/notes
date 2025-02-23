@@ -1,8 +1,8 @@
 ---
+title: OSI Model
 tags:
   - networking
   - model
-title: OSI Model
 date: 2024-01-28 14:15:56 -0600
 updated: 2025-01-20 14:13:20 -0600
 ---

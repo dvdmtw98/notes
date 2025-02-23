@@ -1,8 +1,8 @@
 ---
+title: Dynamic Host Configuration Protocol (DHCP)
 tags:
   - networking
   - protocol
-title: Dynamic Host Configuration Protocol (DHCP)
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-30 21:05:40 -0600
 ---

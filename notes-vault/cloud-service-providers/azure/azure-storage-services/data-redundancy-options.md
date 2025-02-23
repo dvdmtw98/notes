@@ -1,10 +1,10 @@
 ---
+title: Data Redundancy Options
 tags:
   - azure
   - cloud
   - storage
   - redundancy
-title: Data Redundancy Options
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

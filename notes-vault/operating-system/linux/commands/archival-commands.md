@@ -5,7 +5,7 @@ tags:
   - command
 title: Archival Commands
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28
+updated: 2025-02-21 15:53:02 -0600
 ---
 
 ### Archive Files

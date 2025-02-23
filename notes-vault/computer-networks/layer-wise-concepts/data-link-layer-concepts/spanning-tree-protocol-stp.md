@@ -1,11 +1,11 @@
 ---
+title: Spanning Tree Protocol (STP)
 tags:
   - networking
   - switch
   - protocol
-title: Spanning Tree Protocol (STP)
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-02-20 22:51:40 -0600
 ---
 
 Part of <u>IEEE 802.1d</u> standard  
@@ -16,7 +16,7 @@ It was created to prevent loops in the network
 In the above network configuration if STP is not used then the switches will end up retransmitting ARP packets to each other resulting in a **broadcast storm**  
 TTL is a Layer 3 header property so it can only be decremented by router so the ARP broadcasted packets are never dropped
 
-At switches try to find the best way to reach the root node all other redundant links are blocked
+As switches try to find the best way to reach the root node all other redundant links are blocked
 
 ### BPDU (Bridge Packet Data Unit)
 

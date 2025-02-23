@@ -1,10 +1,10 @@
 ---
+title: Azure Container Instance (ACI)
 tags:
   - azure
   - compute
   - container
   - serverless
-title: Azure Container Instance (ACI)
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

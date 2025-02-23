@@ -1,10 +1,10 @@
 ---
+title: Azure AD Conditional Access
 tags:
   - active-directory
   - azure
   - cloud
   - security
-title: Azure AD Conditional Access
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

@@ -1,10 +1,10 @@
 ---
+title: Azure Blob Types
 tags:
   - azure
   - cloud
   - storage
   - blob
-title: Azure Blob Types
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

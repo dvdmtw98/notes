@@ -169,5 +169,13 @@
       ],
       "key": "O"
     }
+  ],
+  "editor:delete-paragraph": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "X"
+    }
   ]
 }

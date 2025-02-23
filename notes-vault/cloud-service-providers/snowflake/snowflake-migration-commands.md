@@ -1,9 +1,9 @@
 ---
+title: Snowflake Migration Commands
 tags:
   - snowflake
   - cloud
   - data-warehouse
-title: Snowflake Migration Commands
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

@@ -1,11 +1,11 @@
 ---
+title: Cosmos DB Partitioning
 tags:
   - azure
   - database
   - nosql
   - cosmos-db
   - partition
-title: Cosmos DB Partitioning
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

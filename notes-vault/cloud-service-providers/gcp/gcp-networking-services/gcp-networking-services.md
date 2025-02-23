@@ -1,9 +1,9 @@
 ---
+title: GCP Networking Services
 tags:
   - gcp
   - cloud
   - networking
-title: GCP Networking Services
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

@@ -1,8 +1,8 @@
 ---
+title: Screened Subnet
 tags:
   - networking
   - security
-title: Screened Subnet
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-03-10 09:25:55 -0500
 ---

@@ -1,9 +1,9 @@
 ---
+title: IPv4 to IPv6 Transition
 tags:
   - networking
   - ip
   - subnet
-title: IPv4 to IPv6 Transition
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

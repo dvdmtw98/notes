@@ -1,10 +1,10 @@
 ---
+title: Snowflake
 tags:
   - snowflake
   - cloud
   - data-warehouse
   - index
-title: Snowflake
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

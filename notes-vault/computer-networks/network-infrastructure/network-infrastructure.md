@@ -1,9 +1,9 @@
 ---
+title: Network Devices
 tags:
   - networking
   - device
   - index
-title: Network Devices
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

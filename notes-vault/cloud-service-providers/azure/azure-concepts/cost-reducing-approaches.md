@@ -1,9 +1,9 @@
 ---
+title: Cost Reducing Approaches
 tags:
   - azure
   - cloud
   - cost
-title: Cost Reducing Approaches
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

@@ -1,9 +1,9 @@
 ---
+title: Public & Private IP Addresses
 tags:
   - networking
   - ip
   - subnet
-title: Public & Private IP Addresses
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-30 19:02:39 -0600
 ---

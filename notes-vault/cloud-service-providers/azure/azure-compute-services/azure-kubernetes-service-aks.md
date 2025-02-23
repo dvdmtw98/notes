@@ -1,10 +1,10 @@
 ---
+title: Azure Kubernetes Service (AKS)
 tags:
   - azure
   - compute
   - container
   - orchestration
-title: Azure Kubernetes Service (AKS)
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

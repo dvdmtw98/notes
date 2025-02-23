@@ -1,11 +1,11 @@
 ---
+title: Azure Cosmos DB
 tags:
   - azure
   - database
   - nosql
   - cosmos-db
   - index
-title: Azure Cosmos DB
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

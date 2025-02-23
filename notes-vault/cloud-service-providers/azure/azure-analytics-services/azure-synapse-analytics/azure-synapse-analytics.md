@@ -1,11 +1,11 @@
 ---
+title: Azure Synapse Analytics
 tags:
   - azure
   - cloud
   - analytics
   - data-warehouse
   - synapse
-title: Azure Synapse Analytics
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

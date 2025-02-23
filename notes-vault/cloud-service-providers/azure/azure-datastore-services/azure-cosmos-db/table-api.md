@@ -1,10 +1,10 @@
 ---
+title: Table API
 tags:
   - azure
   - database
   - nosql
   - cosmos-db
-title: Table API
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

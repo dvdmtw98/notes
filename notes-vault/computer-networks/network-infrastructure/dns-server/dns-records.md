@@ -1,9 +1,9 @@
 ---
+title: DNS Records
 tags:
   - networking
   - device
   - dns
-title: DNS Records
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-04-30 10:05:31 -0500
 ---

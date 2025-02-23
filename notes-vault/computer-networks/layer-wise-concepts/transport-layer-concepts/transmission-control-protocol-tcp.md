@@ -1,9 +1,9 @@
 ---
+title: TCP (Transmission Control Protocol)
 tags:
   - networking
   - transport
   - tcp
-title: TCP (Transmission Control Protocol)
 date: 2024-01-28 14:15:56 -0600
 updated: 2025-01-22 19:49:00 -0600
 ---

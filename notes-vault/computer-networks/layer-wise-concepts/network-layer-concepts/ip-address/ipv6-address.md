@@ -1,9 +1,9 @@
 ---
+title: IPv6 (Internet Protocol v6) Address
 tags:
   - networking
   - ip
   - subnet
-title: IPv6 (Internet Protocol v6) Address
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-30 19:01:18 -0600
 ---

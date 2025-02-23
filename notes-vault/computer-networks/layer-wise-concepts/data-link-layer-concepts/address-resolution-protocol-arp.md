@@ -1,11 +1,11 @@
 ---
+title: ARP (Address Resolution Protocol)
 tags:
   - networking
   - arp
   - data-link
-title: ARP (Address Resolution Protocol)
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-30 20:52:36 -0600
+updated: 2025-02-20 22:41:53 -0600
 ---
 
 Resolves IP Address to MAC Address  
