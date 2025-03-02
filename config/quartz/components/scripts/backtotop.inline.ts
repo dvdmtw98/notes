@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("nav", () => {
     const scrollToTopButton = document.getElementById("scrollToTop") as HTMLButtonElement;
 
     if (!scrollToTopButton) {

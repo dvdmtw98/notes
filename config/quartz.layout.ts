@@ -65,9 +65,10 @@ export const defaultContentPageLayout: PageLayout = {
 
             },
             globalGraph: {
-                linkDistance: 120,
-                repelForce: 0.8,
-                fontSize: 0.4,
+                linkDistance: 250,
+                repelForce: 1,
+                centerForce: 0.6,
+                fontSize: 0.3,
                 showTags: false
             }
         })

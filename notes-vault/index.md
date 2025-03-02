@@ -1,6 +1,6 @@
 ---
-title: Home Page
-description: A collection of notes on computer science and other topics I've explored over the years.
+title: Digital Archive
+description: A curated collection of notes on computer science and various other topics I've explored over the years.
 tags:
   - main
   - index

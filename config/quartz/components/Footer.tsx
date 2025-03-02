@@ -17,14 +17,15 @@ export default ((opts?: Options) => {
           © 2023-{year}{" "}
           <a href="https://www.linkedin.com/in/david-varghese/" target="_blank" rel="noreferrer noopener">
             David Varghese
-          </a>.{" "}Licensed under{" "}
+          </a>.<br />
+          Licensed under{" "}
           <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer noopener">
             CC BY 4.0
           </a>.<br />
           {" "}{i18n(cfg.locale).components.footer.createdWith}{" "}
           <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noreferrer noopener">
             Quartz v{version}
-          </a>
+          </a>.
         </p>
 
         <ul>
