@@ -5,7 +5,7 @@ tags:
   - command
 title: Linux Misc. Commands
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-12-21 10:08:20 -0600
+updated: 2025-03-03 12:28:23 -0600
 ---
 
 Complete Command in Editor :` Ctrl + X + E`  

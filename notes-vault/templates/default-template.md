@@ -20,8 +20,8 @@ const titleCaseTitle = words
 ---
 title: <% titleCaseTitle %>
 tags:
-date: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss ZZ") %>
-updated: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss ZZ") %>
+date: <% tp.date.now("YYYY-MM-DD HH:mm:ss ZZ") %>
+updated: <% tp.date.now("YYYY-MM-DD HH:mm:ss ZZ") %>
 ---
 
 <% tp.file.cursor() %>

@@ -4,11 +4,11 @@ tags:
   - language
   - english
 date: 2025-02-20 12:45:08 -0600
-updated: 2025-02-20 16:28:47 -0600
+updated: 2025-03-03 20:05:13 -0600
 ---
 
 #### List of Items
-I eat oatmeal, berries and cheese for breakfast.  
+I eat oatmeal, berries, and cheese for breakfast.  
 There are strawberry, chocolate, and vanilla cupcakes in the cafe.
 
 #### Separate Adjectives
@@ -57,7 +57,7 @@ No, you can’t borrow my car today.
 Why, I can’t believe this!
 
 #### Middle of Sentence (Isolation)
-Nonessential Information - Clause, Phrase or Word
+Nonessential Information - Clause, Phrase, or Word
 
 Clause: Oranges, which are my favorite fruit, are the main ingredient in this recipe.  
 Phrase: This restaurant has a great atmosphere. The food, on the other hand, is rather bland.  
@@ -74,5 +74,3 @@ He said, “I’ll call you tomorrow”.
 Thursday, September 12, 2013, was the day I met my future wife.  
 After moving to Los Altos Hills, California, we fell in love with country life.  
 Will you, Alice, come to my birthday party?  
-
-

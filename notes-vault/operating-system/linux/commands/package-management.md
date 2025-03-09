@@ -5,7 +5,7 @@ tags:
   - command
 title: Package Management
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-12-13 20:07:11 -0600
+updated: 2025-03-03 13:11:58 -0600
 ---
 
 ## Debian
@@ -135,3 +135,16 @@ rm -rf ~/.var/app/<package-id>
 # Remove Orphan & Build Artifacts
 flatpak uninstall --unused -y
 ```
+
+### Dark Theme
+
+```bash
+flatpak install org.gtk.Gtk3theme.Adwaita-dark
+
+# List all GTK3 Themes
+flatpak search org.gtk.Gtk3theme
+```
+
+May have to install `gnome-themes-extra`
+
+[Quick Fixes for Flatpak Dark Mode Detection Issues](https://fariszr.com/flatpak-dark-mode-fix/)

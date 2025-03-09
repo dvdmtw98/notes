@@ -5,7 +5,7 @@ tags:
   - main
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-11-29 12:44:26 -0600
+updated: 2025-03-05 15:38:21 -0600
 ---
 
 Welcome to [Digital Archive](https://notes.davidvarghese.net). This is a place where I store information about various topics that interest me. Fell free to explore all the content. I welcome your feedback and encourage contributes to enhance the accuracy of the material.
@@ -14,7 +14,7 @@ There are multiple ways to navigate Digital Archive:
 1. Use the search bar to search for any term. The search bar can also be accessed by pressing `ctrl+k`.
 2. Click on a note to explore its content, and follow the links and backlinks to dive deeper into related topics.
 3. Interact with the graph on the left of the page to visualize connections between notes, and click on any node to navigate directly to that note.
-4. Click on the tags to explore the topics by category.
+4. Click on the tags to explore topics by category.
 
 
 ### Table of Content

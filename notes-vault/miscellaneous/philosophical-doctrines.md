@@ -1,5 +1,5 @@
 ---
-title: Philosophy
+title: Philosophical Doctrines
 tags:
   - philosophy
 date: 2024-07-17 09:55:12 -0500
@@ -16,7 +16,7 @@ Nihilism can also be a mode of liberation is it frees us from the constraints of
 #### Moral Nihilism
 Rejects the existence of moral truths (good & evil - human constructs)  
 No universal run governing what is right and wrong  
-Ethical judgements are subjective or culturally determined  
+Ethical judgments are subjective or culturally determined  
 
 #### Existential Nihilism
 Delves into the ultimate meaning of human existence (life) and the universe  
@@ -53,7 +53,7 @@ Challenges the notion of free will
 
 #### Casual Determinism
 Every event is necessitated by preceding events and laws  
-Human behavior is determined by generics and neuro-chemistry
+Human behavior is determined by generics and neurochemistry
 
 #### Psychological Determinism
 Humans actions are determined by psychological factors - unconscious drive, conditioning  
