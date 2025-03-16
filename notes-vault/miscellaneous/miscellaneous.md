@@ -11,4 +11,4 @@ updated: 2025-03-05 15:37:09 -0600
 
 - [[chess|Chess]]
 - [[philosophical-doctrines|Philosophical Doctrines]]
-- [[biases-and-fallacies|Biases and Fallacies]]
+- [[thinking-pitfalls-and-paradoxes|Thinking Pitfalls & Paradoxes]]

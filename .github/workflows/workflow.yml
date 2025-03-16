@@ -24,7 +24,6 @@ jobs:
         id: checkout-repository
         uses: actions/checkout@v4
         with:
-          submodules: true
           path: source
       - name: Build Digital Archive
         id: build-digital-archive

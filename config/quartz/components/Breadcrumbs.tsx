@@ -3,7 +3,7 @@ import breadcrumbsStyle from "./styles/breadcrumbs.scss"
 import { FullSlug, SimpleSlug, joinSegments, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { classNames } from "../util/lang"
-import { textTransform } from "../util/custom"
+import { customTextTransform } from "../util/custom"
 
 type CrumbData = {
   displayName: string
@@ -43,7 +43,7 @@ const defaultOptions: BreadcrumbOptions = {
 
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
   return {
-    displayName: textTransform(displayName),
+    displayName: customTextTransform(displayName),
     path: resolveRelative(baseSlug, currentSlug),
   }
 }
