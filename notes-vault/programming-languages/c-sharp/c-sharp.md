@@ -1,9 +1,9 @@
 ---
+title: C Sharp
 tags:
   - programming
   - csharp
   - index
-title: C Sharp
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-11-22 17:15:46 -0600
 ---
@@ -35,9 +35,9 @@ updated: 2024-11-22 17:15:46 -0600
 	* [[csharp-classes|Classes]]
 		* [[csharp-constructor|Constructor]]
 		* [[csharp-methods|Methods]]
-		* [[fields|Fields]]
+		* [[csharp-fields|Fields]]
 		* [[access-modifiers|Access Modifiers]]
-		* [[properties|Properties]]
+		* [[csharp-properties|Properties]]
 	* [[csharp-indexers|Indexers]]
 	* [[csharp-inheritance|Inheritance]]
 	* [[composition|Composition]]
@@ -45,8 +45,8 @@ updated: 2024-11-22 17:15:46 -0600
 	* [[boxing-and-unboxing|Boxing and Unboxing]]
 	* [[method-overriding|Method Overriding]]
 	* [[abstract-and-sealed-class|Abstract & Sealed Class]]
-	* [[interface|Interface]]
-	* [[structs|Structs]]
+	* [[csharp-interface|Interface]]
+	* [[csharp-structs|Structs]]
 4. **Advanced Concepts**
 	* [[csharp-generics|Generics]]
 	* [[csharp-lambda-expression|Lambda Expression]]

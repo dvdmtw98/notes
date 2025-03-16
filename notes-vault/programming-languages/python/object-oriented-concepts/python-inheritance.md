@@ -1,8 +1,8 @@
 ---
+title: Python Inheritance
 tags:
   - programming
   - python
-title: Python Inheritance
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 10:40:26 -0600
 ---

@@ -1,13 +1,13 @@
 ---
+title: CSharp Indexers
 tags:
   - programming
   - csharp
-title: CSharp Indexers
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 10:34:21 -0600
 ---
 
-* Allows an instance of an [[csharp-classes|Class]] or [[structs|Structs]] to be indexed just like an array
+* Allows an instance of an [[csharp-classes|Class]] or [[csharp-structs|Structs]] to be indexed just like an array
 * Indexers do not have a name and are created using the `this[]` keyword and has similar syntax to properties
 
 ````csharp

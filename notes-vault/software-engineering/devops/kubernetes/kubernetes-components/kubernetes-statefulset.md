@@ -1,10 +1,10 @@
 ---
+title: Kubernetes StatefulSet
 tags:
   - kubernetes
   - container
   - devops
   - orchestration
-title: Kubernetes StatefulSet
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 09:30:05 -0600
 ---

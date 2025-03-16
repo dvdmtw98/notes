@@ -13,15 +13,3 @@ export { HardLineBreaks } from "./linebreaks"
 export { RoamFlavoredMarkdown } from "./roam"
 export { ImageZoom } from "./imagezoom"
 export { PageAnimation } from "./pageanimation"
-
-import rehypeExternalLinks from 'rehype-external-links'
-import { QuartzTransformerPlugin } from "../types"
-
-export const ExternalLinks: QuartzTransformerPlugin = () => {
-    return {
-        name: "ExternalLinks",
-        htmlPlugins() {
-            return [[rehypeExternalLinks, { rel: ['noopener', 'noreferrer'], target: ['_blank'] }]]
-        },
-    }
-}

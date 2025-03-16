@@ -1,11 +1,11 @@
 ---
+title: Kubernetes
 tags:
   - kubernetes
   - container
   - devops
   - orchestration
   - index
-title: Kubernetes
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 09:30:26 -0600
 ---

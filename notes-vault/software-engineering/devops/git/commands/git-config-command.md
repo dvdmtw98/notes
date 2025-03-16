@@ -1,8 +1,8 @@
 ---
+title: Git Config Command
 tags:
   - git
   - devops
-title: Git Config Command
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-12-15 22:13:04 -0600
 ---

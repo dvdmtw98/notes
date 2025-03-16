@@ -5,7 +5,7 @@ tags:
   - fallacy
   - bias
 date: 2025-03-05 15:26:00 -0600
-updated: 2025-03-05 15:32:51 -0600
+updated: 2025-03-15 20:57:25 -0500
 ---
 
 ### Cognitive Biases
@@ -18,7 +18,7 @@ This tends to occur because a lack of self-awareness prevents them from accurate
 
 ### Logical Fallacies
 
-#### Sunken Ship Fallecy
+#### Sunken Ship Fallacy
 A cognitive bias that causes people to keep investing in something even when it's no longer beneficial.  
 It's also known as the "Concorde fallacy."
 

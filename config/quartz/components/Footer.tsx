@@ -24,7 +24,7 @@ export default ((opts?: Options) => {
           </a>.{" "}
           <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noreferrer noopener">
             Quartz v{version}
-          </a>.
+          </a>
         </p>
 
         <ul>

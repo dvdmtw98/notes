@@ -1,9 +1,9 @@
 ---
+title: JS - Under the Hood
 tags:
   - javascript
   - webdev
   - scripting
-title: JS - Under the Hood
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-02-03 10:36:01 -0600
 ---

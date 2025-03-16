@@ -1,7 +1,7 @@
 ---
+title: Consistent Hashing
 tags:
   - system-design
-title: Consistent Hashing
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-29 15:49:08 -0600
 ---

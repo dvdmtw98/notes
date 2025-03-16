@@ -3,7 +3,7 @@ title: Binary Search
 tags:
   - algorithm
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-29 15:45:39 -0600
+updated: 2025-03-11 15:34:25 -0500
 ---
 
 It is an Divide and Conquer Algorithm  

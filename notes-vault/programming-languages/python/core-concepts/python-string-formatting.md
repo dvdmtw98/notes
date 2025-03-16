@@ -1,8 +1,8 @@
 ---
+title: Python String Formatting
 tags:
   - programming
   - python
-title: Python String Formatting
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 10:39:59 -0600
 ---

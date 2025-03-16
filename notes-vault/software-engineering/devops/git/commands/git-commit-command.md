@@ -1,8 +1,8 @@
 ---
+title: Git Commit Command
 tags:
   - git
   - devops
-title: Git Commit Command
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-10-05 08:29:40 -0500
 ---

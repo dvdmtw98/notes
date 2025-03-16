@@ -1,8 +1,8 @@
 ---
+title: Python Exception Handling
 tags:
   - programming
   - python
-title: Python Exception Handling
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 08:11:26 -0600
 ---

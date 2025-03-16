@@ -1,9 +1,9 @@
 ---
+title: Rust
 tags:
   - rust
   - programming
   - index
-title: Rust
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-02-24 11:27:48 -0600
 ---

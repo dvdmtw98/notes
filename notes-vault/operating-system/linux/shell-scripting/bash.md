@@ -6,7 +6,7 @@ tags:
   - scripting
 title: Bash
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-12-22 16:06:42 -0600
+updated: 2025-03-09 11:30:31 -0500
 ---
 
 ### Table of Content

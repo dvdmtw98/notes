@@ -1,8 +1,8 @@
 ---
+title: C Arrays
 tags:
   - programming
   - c
-title: C Arrays
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-09-15 16:44:25 -0500
 ---

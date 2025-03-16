@@ -1,13 +1,13 @@
 ---
+title: CSharp Generics
 tags:
   - programming
   - csharp
-title: CSharp Generics
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 10:33:19 -0600
 ---
 
-Generics is an feature that allows us to define placeholder datatypes for [[csharp-classes|Classes]], [[csharp-methods|Methods]], [[interface|Interfaces]], etc. which will be replaced by a specific datatype at compile time  
+Generics is an feature that allows us to define placeholder datatypes for [[csharp-classes|Classes]], [[csharp-methods|Methods]], [[csharp-interface|Interfaces]], etc. which will be replaced by a specific datatype at compile time  
 It allows to write class or method that can work with any datatype (Code Reuse)  
 Generics can be declared at the Class Level or at the Method Level. A non generic class can contain generic methods  
 We can implement constraints on the generic datatype as well using the "where" keyword. This can be specified at the class or method level

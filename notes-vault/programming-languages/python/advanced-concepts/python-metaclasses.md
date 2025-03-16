@@ -1,8 +1,8 @@
 ---
+title: Python Metaclasses
 tags:
   - programming
   - python
-title: Python Metaclasses
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 10:39:30 -0600
 ---

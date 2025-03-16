@@ -1,8 +1,8 @@
 ---
+title: Architecture of .NET Application
 tags:
   - programming
   - csharp
-title: Architecture of .NET Application
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

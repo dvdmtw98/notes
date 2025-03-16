@@ -5,7 +5,7 @@ tags:
   - command
 title: Copy Commands
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28
+updated: 2025-03-11 15:31:45 -0500
 ---
 
 ### SCP Command
@@ -14,7 +14,6 @@ updated: 2024-01-28
 scp <local-file> <username>@<ip-address>:<remote-location>
 ````
 
-**Flags**  
 `-C`: Compress  
 `-v`: Verbose
 
@@ -24,7 +23,6 @@ scp <local-file> <username>@<ip-address>:<remote-location>
 rsync -avr <folder-name> username@ip-address:<destination>
 ````
 
-**Flags**  
 `a`: Archive (Ensures that symbolic links, devices, attributes, permissions, ownerships, etc. are preserved)  
 `-r`: Recursive copy folders  
 `-v`: Verbose Output  

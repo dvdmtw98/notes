@@ -1,8 +1,8 @@
 ---
+title: CSharp Classes
 tags:
   - programming
   - csharp
-title: CSharp Classes
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 10:34:10 -0600
 ---

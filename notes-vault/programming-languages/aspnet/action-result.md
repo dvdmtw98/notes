@@ -1,12 +1,12 @@
 ---
+title: Action Result
 tags:
   - programming
   - csharp
   - webdev
   - aspnet
-title: Action Result
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-31 09:31:18 -0600
+updated: 2025-03-11 20:04:15 -0500
 ---
 
 ````csharp

@@ -1,13 +1,13 @@
 ---
+title: CSharp Constructor
 tags:
   - programming
   - csharp
-title: CSharp Constructor
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---
 
-* It is used to initialize the [[fields|Fields]] in a [[csharp-classes|Class]]. It has the same name as the class and does not have a return type
+* It is used to initialize the [[csharp-fields|Fields]] in a [[csharp-classes|Class]]. It has the same name as the class and does not have a return type
 * If we do not create a default/ parameter less constructor the  C# compiler will automatically create one and initialize all the attributes in the class to its "default value"
 * We should always initialize reference type variables as their default value is null so when we use them we might get "Null Exception"
 * `Constructor Overloading` is the concept of creating multiple constructors for the class but with difference signature (Difference no. of parameters, different order and different datatype)

@@ -1,8 +1,8 @@
 ---
+title: CSharp Methods
 tags:
   - programming
   - csharp
-title: CSharp Methods
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 10:34:29 -0600
 ---

@@ -17,13 +17,9 @@ const config: QuartzConfig = {
         baseUrl: "notes.davidvarghese.net",
         ignorePatterns: ["private", "templates", ".obsidian"],
         defaultDateType: "created",
-        generateSocialImages: {
-            colorScheme: 'darkMode',
-            excludeRoot: false
-        },
         theme: {
             fontOrigin: "googleFonts",
-            cdnCaching: false,
+            cdnCaching: true,
             typography: {
                 header: "Geist",
                 body: "Inter",
@@ -68,13 +64,19 @@ const config: QuartzConfig = {
                 },
                 keepBackground: false,
             }),
-            Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false, enableCheckbox: true }),
+            Plugin.ObsidianFlavoredMarkdown({
+                enableInHtmlEmbed: false,
+                enableCheckbox: true
+            }),
             Plugin.GitHubFlavoredMarkdown(),
-            Plugin.TableOfContents({ maxDepth: 5, minEntries: 1 }),
-            Plugin.CrawlLinks({ markdownLinkResolution: "shortest", lazyLoad: true }),
+            Plugin.TableOfContents({ maxDepth: 5 }),
+            Plugin.CrawlLinks({
+                markdownLinkResolution: "shortest",
+                openLinksInNewTab: true,
+                lazyLoad: true
+            }),
             Plugin.Description(),
             Plugin.Latex({ renderEngine: "katex" }),
-            Plugin.ExternalLinks(),
             Plugin.ImageZoom(),
             Plugin.PageAnimation()
         ],
@@ -92,6 +94,10 @@ const config: QuartzConfig = {
             Plugin.Assets(),
             Plugin.Static(),
             Plugin.NotFoundPage(),
+            // Comment out CustomOgImages to speed up build time
+            Plugin.CustomOgImages({
+                colorScheme: "darkMode",
+            }),
         ],
     },
 }

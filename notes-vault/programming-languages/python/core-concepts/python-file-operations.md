@@ -1,8 +1,8 @@
 ---
+title: Python File Operations
 tags:
   - programming
   - python
-title: Python File Operations
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 10:39:47 -0600
 ---

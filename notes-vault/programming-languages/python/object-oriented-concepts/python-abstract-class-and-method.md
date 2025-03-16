@@ -1,8 +1,8 @@
 ---
+title: Python Abstract Class & Method
 tags:
   - programming
   - python
-title: Python Abstract Class & Method
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

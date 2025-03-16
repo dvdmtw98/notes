@@ -24,8 +24,7 @@ runs:
       shell: bash
       run: |
         cd quartz \
-        && npm clean-install \
-        && npm install rehype-external-links
+        && npm clean-install
     - name: Build Site
       id: build-site
       shell: bash

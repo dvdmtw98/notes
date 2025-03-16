@@ -5,14 +5,14 @@ tags:
   - virtualization
   - software
 date: 2025-01-19 13:24:00 -0600
-updated: 2025-01-20 12:25:18 -0600
+updated: 2025-03-11 15:30:40 -0500
 ---
 
 ### Shared Directory
 
 In Virt-Manager under VM settings “Add Hardware → File system”
 
-![[qemu-kvm-filesystem.png|400]]
+![[qemu-kvm-filesystem.png|360]]
 
 Source: Directory on Host that will be shared  
 Target: Any name (without space) will be used in `fstab`

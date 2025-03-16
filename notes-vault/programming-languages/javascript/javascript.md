@@ -1,10 +1,10 @@
 ---
+title: JavaScript
 tags:
   - javascript
   - webdev
   - scripting
   - index
-title: JavaScript
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 10:37:00 -0600
 ---

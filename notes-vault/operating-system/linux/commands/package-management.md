@@ -5,7 +5,7 @@ tags:
   - command
 title: Package Management
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-03-03 13:11:58 -0600
+updated: 2025-03-11 19:01:41 -0500
 ---
 
 ## Debian
@@ -66,6 +66,10 @@ sudo apt autoremove
 ## Arch
 
 `pacman` can only update packages installed from the Arch Repo  
+[pacman/Rosetta - ArchWiki](https://wiki.archlinux.org/title/Pacman/Rosetta)
+
+Pacman Config: `/etc/pacman.conf`  
+Pacman Hooks: `/etc/pacman.d/hooks`  
 
 `yay` is an AUR Helper, manages packages from Arch Repo and AUR  
 The `yay` command should not be prefixed with `sudo`
@@ -79,7 +83,10 @@ The `yay` command should not be prefixed with `sudo`
 # Install package
 [pacman|yay] -S <package-name>
 
-# List dependencies (Arch & AUR)
+pacman -Q | less        # List Packages
+pacman -Qs | less       # List Packages /w description
+
+# List Packages /w dependencies (Arch & AUR)
 pacman -Qi <package-name>
 ```
 
@@ -96,8 +103,23 @@ pacman -Qi <package-name>
 # Remove Package
 [pacman|yay] -Rns <package-name>
 
+# Remove Pacman Cache
+sudo paccache -r
+
 # Remove Orphan & Build Artifacts
 yay -Yc --noconfirm && yay -Sc --noconfirm
+```
+
+### Update Errors
+
+PGP key invalid error
+
+```bash
+# Update the Keyring
+sudo pacman -Sy archlinux-keyring
+
+# Install the Updates
+sudo pacman -Syu
 ```
 
 ## Flatpak
@@ -135,16 +157,3 @@ rm -rf ~/.var/app/<package-id>
 # Remove Orphan & Build Artifacts
 flatpak uninstall --unused -y
 ```
-
-### Dark Theme
-
-```bash
-flatpak install org.gtk.Gtk3theme.Adwaita-dark
-
-# List all GTK3 Themes
-flatpak search org.gtk.Gtk3theme
-```
-
-May have to install `gnome-themes-extra`
-
-[Quick Fixes for Flatpak Dark Mode Detection Issues](https://fariszr.com/flatpak-dark-mode-fix/)

@@ -1,10 +1,10 @@
 ---
+title: Kubernetes Architecture
 tags:
   - kubernetes
   - container
   - devops
   - orchestration
-title: Kubernetes Architecture
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-31 09:28:55 -0600
 ---
