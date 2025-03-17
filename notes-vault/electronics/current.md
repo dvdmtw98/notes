@@ -1,9 +1,9 @@
 ---
+title: Current
 tags:
   - electrical
-title: Current
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-03-24 22:34:05 -0500
+updated: 2025-03-16 21:35:13 -0500
 ---
 
 It is the flow of free electrons between atoms in a circuit  

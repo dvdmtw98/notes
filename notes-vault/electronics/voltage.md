@@ -1,7 +1,7 @@
 ---
+title: Voltage
 tags:
   - electrical
-title: Voltage
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-03-24 23:12:57 -0500
 ---

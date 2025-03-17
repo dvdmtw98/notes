@@ -1,10 +1,10 @@
 ---
+title: Electronics
 tags:
   - electrical
   - index
-title: Electronics
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-03-16 21:35:30 -0500
 ---
 
 ### Table of Content
@@ -21,8 +21,6 @@ updated: 2024-01-28 14:15:56 -0600
 * [[transformers|Transformers]]
 * [[resistors|Resistors]]
 * [[inductors|Inductors]]
-
----
 
 ### Formulas
 
