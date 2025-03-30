@@ -5,7 +5,7 @@ tags:
   - main
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-03-05 15:38:21 -0600
+updated: 2025-03-24 23:58:58 -0500
 ---
 
 Welcome to [Digital Archive](https://notes.davidvarghese.net). This is a place where I store information about various topics that interest me. Fell free to explore all the content. I welcome your feedback and encourage contributes to enhance the accuracy of the material.
@@ -30,3 +30,4 @@ There are multiple ways to navigate Digital Archive:
 * [[data-analytics|Data Analytics]]
 * [[electronics|Electronics]]
 * [[languages|Languages]]
+* [[miscellaneous|Miscellaneous]]

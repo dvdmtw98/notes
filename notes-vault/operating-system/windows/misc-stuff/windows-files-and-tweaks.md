@@ -4,7 +4,7 @@ tags:
   - windows
 title: Windows Files & Tweaks
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-03-19 21:00:53 -0500
+updated: 2025-03-24 22:59:39 -0500
 ---
 
 ### File Locations
@@ -64,13 +64,3 @@ reg add HKLM\System\CurrentControlSet\Control\Power /v PlatformAoAcOverride /t R
 
 The `powercfg` command should show that S3 sleep is supported on device
 On some devices in the BIOS there will be option to enable this feature
-
-### Zone Identifier
-
-```powershell
-# List files with Zone Identifier
-Get-ChildItem -Path "C:\Path\To\Directory" -File -Recurse | Where-Object { Test-Path "$($_.FullName):Zone.Identifier" }
-
-# Remove Zone Identifiers
-Get-ChildItem -Path "C:\Path\To\Directory" -File -Recurse | Unblock-File
-```

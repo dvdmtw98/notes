@@ -5,7 +5,7 @@ tags:
   - command
 title: Linux Miscellaneous
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-03-11 15:29:55 -0500
+updated: 2025-03-24 23:13:25 -0500
 ---
 
 Complete Command in Editor :` Ctrl + X + E`  
@@ -66,3 +66,23 @@ touch {foo,bar}/{a..j}
 # Expand for all digits
 ls /sys/bus/cpu/devices/cpu[0-9]*
 ````
+
+### Line Ending Conversion
+
+Convert `\r\n` to `\n`
+
+```bash
+sed -i 's/\r$//' inputfile
+sed 's/\r$//' inputfile > outputfile
+
+tr -d '\r' < inputfile > outputfile
+```
+
+Convert `\n` to `\r\n`
+
+```bash
+sed -i 's/$/\r/' inputfile
+sed 's/$/\r/' inputfile > outputfile
+
+tr '\n' '\r\n' < inputfile > outputfile
+```

@@ -5,7 +5,7 @@ tags:
   - index
 title: Windows Index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-02-06 12:28:47 -0600
+updated: 2025-03-28 22:33:48 -0500
 ---
 
 ### Table of Content
@@ -19,12 +19,13 @@ updated: 2025-02-06 12:28:47 -0600
 	* [[folders-as-virtual-drive|Folders as Virtual Drive]]
 	* [[encryption-commands|Encryption Commands]]
 	* [[disk-management-commands|Disk Management Commands]]
-* **Tools and Utilities**
+* **Tools & Utilities**
 	* [[windows-terminal|Windows Terminal]]
 	* [[wsl-configuration|WSL Configuration]]
 	* [[winget-commands|Winget Commands]]
 	* [[powershell|PowerShell]]
-* **Misc. Windows Stuff**
+		* [[powershell-scripts|PowerShell Scripts]]
+* **Other Windows Stuff**
 	* [[windows-files-and-tweaks|Windows Files & Tweaks]]
 	* [[windows-shortcuts|Windows Shortcuts]]
 	* [[microsoft-active-directory|Microsoft Active Directory]]

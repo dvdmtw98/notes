@@ -5,7 +5,7 @@ tags:
   - command
 title: Mount Commands
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 21:47:46 -0600
+updated: 2025-03-24 23:16:12 -0500
 ---
 
 ### Mount Filesystem
@@ -19,9 +19,6 @@ mount <filesystem-to-mount> <mount-location>
 
 # Mount an iso file
 mount -o loop <iso-file> <mount-location>
-
-# Remount an FS with Read and Write Permission
-mount -o remount,rw <mount-location>
 ````
 
 ### View Mounted Devices
@@ -60,9 +57,6 @@ sudo blkid
 
 # View all the mounted devices on the system
 lsblk
-
-# View the UUID of the FS
-lsblk -fs <path-to-fs>
 ````
 
 **2nd Field**: When mounting an "swap partition" the `<mount-point>` should be none  

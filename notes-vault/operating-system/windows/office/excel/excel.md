@@ -4,10 +4,10 @@ tags:
   - index
 title: Excel
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28
+updated: 2025-03-28 21:28:50 -0500
 ---
 
-### Related Topics
+### Table of Content
 
 * [[excel-shortcuts|Excel Shortcuts]]
 * **Excel Functions**
