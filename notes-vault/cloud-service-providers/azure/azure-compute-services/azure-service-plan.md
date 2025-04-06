@@ -4,16 +4,15 @@ tags:
   - azure
   - compute
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-04-04 20:12:48 -0500
 ---
 
-It is the underlying VM (compute) that powers Web App, Function App and Logic App  
+It is the underlying VM (compute) that powers Web App, Function App and Logic App.  
 On Scaling Out the Load Balancer is responsible for routing traffic between the VMs  
-
 ### Non-Isolated Plans
 
 The Free and Shared Tiers use Infrastructure that is shared across multiple customers    
-Standard and Premium Plans are designed for production usage and supports autoscaling
+**Standard** and **Premium** Plans are designed for production usage and supports autoscaling
 
 ### Consumption Plan
 
@@ -22,8 +21,8 @@ It supports autoscaling but when used with Functions has a timeout of 5 mins
 
 ### Isolated Plans
 
+Also called Isolation with **App Service Environments (ASE)**  
 Isolated Service Plans run on Isolated VMs that are inside a VNet  
-Also called Isolation with App Service Environments (ASE)  
 Designed for High Scale, Memory Intensive Workloads  
 Apps can connect via VPN to on-prem resources  
 

@@ -5,24 +5,24 @@ tags:
   - command
 title: System Health Commands
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-02-06 12:18:07 -0600
+updated: 2025-03-31 14:52:17 -0500
 ---
 
 ### Windows Repair
 
 ```powershell
-# Windows Repair Commands (Admin Required)
 sfc /scannow
 dism /Online /Cleanup-Image /RestoreHealth
 ```
 
-### Device Health
+### Battery Health
 
 ```powershell
-# Generate Battery Report
 powercfg /batteryreport /output "C:\battery_report.html"
 powercfg /energy
 ```
+
+### Disk Health
 
 ```powershell
 # Check Disk Drive Health

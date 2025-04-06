@@ -3,20 +3,20 @@ tags:
   - os
   - windows
   - index
-title: Windows Index
+title: Windows
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-03-28 22:33:48 -0500
+updated: 2025-03-31 14:55:37 -0500
 ---
 
 ### Table of Content
 
 * **Windows Commands**
+	* [[windows-file-permissions|File Permissions]]
+	* [[symbolic-links|Symbolic Links]]
 	* [[network-commands|Network Commands]]
 	* [[system-health-commands|System Health Commands]]
 	* [[task-management-commands|Task Management Commands]]
 	* [[download-commands|Download Commands]]
-	* [[symbolic-links|Symbolic Links]]
-	* [[folders-as-virtual-drive|Folders as Virtual Drive]]
 	* [[encryption-commands|Encryption Commands]]
 	* [[disk-management-commands|Disk Management Commands]]
 * **Tools & Utilities**
@@ -25,12 +25,14 @@ updated: 2025-03-28 22:33:48 -0500
 	* [[winget-commands|Winget Commands]]
 	* [[powershell|PowerShell]]
 		* [[powershell-scripts|PowerShell Scripts]]
-* **Other Windows Stuff**
-	* [[windows-files-and-tweaks|Windows Files & Tweaks]]
+* **Windows Configuration**
+	* [[windows-files|Windows Files]]
+	* [[windows-registry|Windows Registry]]
+	* [[windows-tweaks|Windows Tweaks]]
+* **Windows Misc. Stuff**
 	* [[windows-shortcuts|Windows Shortcuts]]
-	* [[microsoft-active-directory|Microsoft Active Directory]]
+	* [[microsoft-active-directory|Active Directory]]
 	* [[ntfs-alternative-file-stream|NTFS Alternative File Stream]]
-	* [[windows-change-owner|Change Directory Owner]]
 
 **SCCM (Security Center Configuration Manager)**  
 Windows-centric Endpoint Management tool  

@@ -1,8 +1,9 @@
 ---
+title: NTFS Alternative File Stream
 tags:
   - os
   - windows
-title: NTFS Alternative File Stream
+  - file-system
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-02-07 10:37:08 -0600
 ---

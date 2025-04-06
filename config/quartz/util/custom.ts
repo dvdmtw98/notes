@@ -13,10 +13,12 @@ const customTextTransform = (displayName: string) => {
         aspnet: "ASP.NET",
         devops: "DevOps",
         github: "GitHub",
-        csharp: "CSharp"
+        csharp: "CSharp",
+        ffmpeg: "FFmpeg"
     }
 
-    const words = displayName.split("-")
+    // Split on space and hyphen
+    const words = displayName.split(/[-\s]+/);
 
     const transformedWords = words.map((word) => {
         const lowerWord = word.toLowerCase()
@@ -53,10 +55,12 @@ const textTransformNode: Options["mapFn"] = (node) => {
             aspnet: "ASP.NET",
             devops: "DevOps",
             github: "GitHub",
-            csharp: "CSharp"
+            csharp: "CSharp",
+            ffmpeg: "FFmpeg"
         }
 
-        const words = node.displayName.split("-")
+        // Split on space and hyphen
+        const words = node.displayName.split(/[-\s]+/);
 
         const transformedWords = words.map((word) => {
             const lowerWord = word.toLowerCase()

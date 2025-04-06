@@ -1,11 +1,11 @@
 ---
-title: FFMPEG
+title: FFmpeg
 tags:
   - software
   - command
   - automation
 date: 2025-03-29 17:40:52 -0500
-updated: 2025-03-29 18:18:06 -0500
+updated: 2025-03-30 21:14:43 -0500
 ---
 
 ### Stream Information
@@ -26,7 +26,8 @@ ffmpeg -i input.mkv -c copy output.mp4
 ffmpeg -i input.mkv -map 0:0 -map 0:2 -c copy output.mp4
 ```
 
-`-map`: Select specific streams
+`-map`: Select specific streams  
+`-metadata title="Video Title"`: Change video title in metadata  
 
 ### Extract Subtitles
 
@@ -70,6 +71,10 @@ If the audio is already in MP3 no conversion is required
 ```bash
 ffmpeg -i input.mp4 -ss 00:00:10 -to 00:00:30 -c copy segment1.mp4
 ```
+
+`-ss`: Can be omitted when trimming from start of video  
+`-to`: Can be omitted when trimming till end of video  
+`-t`: Amount to trim in seconds
 
 ### Combine Videos
 
