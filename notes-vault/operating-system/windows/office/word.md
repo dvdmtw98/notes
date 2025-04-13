@@ -1,5 +1,5 @@
 ---
-title: Word
+title: Microsoft Word
 tags:
   - software
   - windows

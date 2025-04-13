@@ -5,17 +5,18 @@ tags:
   - main
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-03-24 23:58:58 -0500
+updated: 2025-04-11 19:08:25 -0500
 ---
 
-Welcome to [Digital Archive](https://notes.davidvarghese.net). This is a place where I store information about various topics that interest me. Fell free to explore all the content. I welcome your feedback and encourage contributes to enhance the accuracy of the material.
+**Welcome to [Digital Archive](https://notes.davidvarghese.net)**. This is where I dump notes, tutorials, and random things I’m learning, exploring, or just find fascinating. It’s a messy-but-organized collection that I have cobbled together over time. Feel free to poke around.
 
-There are multiple ways to navigate Digital Archive:
-1. Use the search bar to search for any term. The search bar can also be accessed by pressing `ctrl+k`.
-2. Click on a note to explore its content, and follow the links and backlinks to dive deeper into related topics.
-3. Interact with the graph on the left of the page to visualize connections between notes, and click on any node to navigate directly to that note.
-4. Click on the tags to explore topics by category.
+There are multiple ways to navigate Digital Archive:  
+🔍 **Search** for anything with **`Ctrl+K`** (or just type in the search bar).  
+📄 **Click notes** to read details, and follow links to see how topics connect.  
+🌿 **Check out the graph**; it’s a visual representation of how my notes relate.  
+🏷️ **Browse tags** to quickly jump between topics.  
 
+This isn’t a polished guide; it’s built for my own sanity, but I am sharing it in case it helps others. **Spot a mistake? Have a suggestion?** Let me know!
 
 ### Table of Content
 

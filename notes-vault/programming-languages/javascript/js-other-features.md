@@ -5,7 +5,7 @@ tags:
   - webdev
   - scripting
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-04-11 18:25:01 -0500
 ---
 
 Defer Attribute : Starts downloading JS in the background will the HTML is being parsed and hence the parsing is done executes the JS  
@@ -57,6 +57,8 @@ const name = null ?? "David"
 // When 1st term is a falsey value
 const name = "" || "Tim"
 ````
+
+[[typescript|TypeScript]]
 
 ### JS Enumerate Function Equivalent
 

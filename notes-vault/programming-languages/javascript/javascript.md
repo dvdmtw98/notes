@@ -6,15 +6,16 @@ tags:
   - scripting
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-31 10:37:00 -0600
+updated: 2025-04-11 18:19:54 -0500
 ---
 
 ### Table of Content
 
-* [[js-under-the-hood|JS - Under the Hood]]
+* [[js-under-the-hood|JavaScript: Under the Hood]]
 * [[reference-type-vs-value-type|Reference Type vs. Value Type]]
 * [[event-listeners|Event Listeners]]
-* [[js-other-features|JS - Other Features]]
+* [[js-other-features|JavaScript: Other Features]]
+* [[typescript|TypeScript]]
 
 ### Best Practices & Coding Conventions
 
