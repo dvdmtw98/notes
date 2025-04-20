@@ -58,6 +58,7 @@ export const defaultContentPageLayout: PageLayout = {
             components: [
                 { Component: Component.Search() },
                 { Component: Component.Darkmode() },
+                { Component: Component.RandomPage() },
                 { Component: Component.ReaderMode() }
             ],
             gap: "1.5rem"
@@ -98,6 +99,7 @@ export const defaultListPageLayout: PageLayout = {
             components: [
                 { Component: Component.Search() },
                 { Component: Component.Darkmode() },
+                { Component: Component.RandomPage() },
                 { Component: Component.ReaderMode() }
             ],
             gap: "1.5rem"
