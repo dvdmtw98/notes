@@ -3,7 +3,27 @@
 // put your custom CSS here!
 @use "./variables.scss" as *;
 
-// Sidebar Components
+// Left Sidebar
+
+.search {
+  >.search-button {
+    background-color: transparent;
+    width: auto;
+    height: 0;
+
+    & svg {
+      margin: 0.2rem 0 0;
+    }
+  }
+}
+
+.readermode {
+  & svg {
+    fill: var(--darkgray);
+  }
+}
+
+// Right Sidebar
 
 .right.sidebar {
   @media all and ($desktop) {

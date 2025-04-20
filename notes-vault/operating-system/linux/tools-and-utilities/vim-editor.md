@@ -1,9 +1,9 @@
 ---
+title: Vim Editor
 tags:
-  - os
   - linux
   - tool
-title: Vim Editor
+  - editor
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-05-21 18:02:39 -0500
 ---

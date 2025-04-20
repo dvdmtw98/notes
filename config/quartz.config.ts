@@ -21,7 +21,7 @@ const config: QuartzConfig = {
             fontOrigin: "googleFonts",
             cdnCaching: false,
             typography: {
-                title: "Playwrite DK Loopet",
+                title: "Pacifico",
                 header: "Geist",
                 body: "Inter",
                 code: "Fira Code",

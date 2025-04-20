@@ -6,7 +6,7 @@ tags:
   - index
 title: Database Engineering
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28
+updated: 2025-04-19 10:05:34 -0500
 ---
 
 ### Table of Content
@@ -20,9 +20,8 @@ updated: 2024-01-28
 	* [[log-structure-merge-lsm-tree|Log Structure Merge (LSM) Tree]]
 	* [[database-theorems|Database Theorems]]
 	* [[types-of-nosql-databases|Types of NoSQL Databases]]
-* **Database Configuration**
-	* [[oracle-database-config|Oracle Database Config]]
 
-### Miscellaneous Points
 
-**B-Tree**: Data Structure behind SQL databases. They are optimized for read operations
+**B-Tree**  
+Data Structure behind SQL databases.  
+They are optimized for read operations.

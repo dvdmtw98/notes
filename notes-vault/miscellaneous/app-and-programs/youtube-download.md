@@ -5,7 +5,7 @@ tags:
   - automation
   - command
 date: 2025-03-27 15:01:58 -0500
-updated: 2025-03-30 20:47:41 -0500
+updated: 2025-04-15 18:36:40 -0500
 ---
 
 ### Thumbnails
