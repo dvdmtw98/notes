@@ -4,7 +4,7 @@ tags:
   - software
   - video
 date: 2025-04-15 18:36:05 -0500
-updated: 2025-04-25 22:10:29 -0500
+updated: 2025-04-26 23:56:22 -0500
 ---
 
 ### Windows Setup

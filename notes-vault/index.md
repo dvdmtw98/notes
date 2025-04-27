@@ -5,7 +5,7 @@ tags:
   - main
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-04-25 11:39:59 -0500
+updated: 2025-04-27 10:14:52 -0500
 ---
 
 Welcome to [Digital Archive](https://notes.davidvarghese.net). This is where I dump notes, tutorials, and random things I’m learning, exploring, or just find fascinating. It’s a messy-but-organized collection that I have cobbled together over time. Feel free to poke around.
@@ -33,5 +33,5 @@ This isn’t a polished guide; it will contain mistakes. [Feedback](https://gith
 
 * [[blockchain|⛓️ Blockchain]]
 * [[electronics|💡 Electronics]]
-* [[languages|🗣️ Languages]]
+* [[languages|🔠 Languages]]
 * [[miscellaneous|🎲 Miscellaneous]]

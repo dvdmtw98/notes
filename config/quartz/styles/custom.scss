@@ -91,11 +91,24 @@ hr {
   margin: 4em auto;
 }
 
-// Table Hover Highlight
+// Table Styles
 
 table {
   & tr:hover td {
     background-color: var(--highlight);
+  }
+}
+
+table {
+  tr {
+    td {
+      border-left: 1px solid var(--lightgray);
+      border-bottom: 1px solid var(--lightgray);
+
+      &:last-of-type {
+        border-right: 1px solid var(--lightgray);
+      }
+    }
   }
 }
 
@@ -122,6 +135,10 @@ article {
   a {
     &.external {
       text-decoration: underline;
+
+      .external-icon {
+        height: 0;
+      }
     }
   }
 }
@@ -143,31 +160,47 @@ a.internal.tag-link {
 
 // Heading Sizes
 
-h2 {
-  font-size: 1.6rem;
+.article-title {
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 
-h3 {
-  font-size: 1.4rem;
-}
+article {
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-top: 1rem;
+  }
 
-h4 {
-  font-size: 1.3rem;
-}
+  h2 {
+    font-size: 1.6rem;
+  }
 
-h5,
-h6 {
-  font-size: 1.2rem;
-}
+  h3 {
+    font-size: 1.42rem;
+  }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-thead {
-  font-weight: 500;
+  h4 {
+    font-size: 1.26rem;
+  }
+
+  h5,
+  h6 {
+    font-size: 1.12rem;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    padding-top: 1rem;
+  }
+
+  :is(h1, h2, h3, h4, h5, h6)+ :is(h1, h2, h3, h4, h5, h6) {
+    padding-top: 0;
+  }
 }
 
 // Popover Element Show Delay
@@ -175,4 +208,11 @@ thead {
 a:hover .popover,
 .popover:hover {
   animation-delay: 0.4s;
+}
+
+// Image Styles
+
+article img {
+  display: block;
+  margin-inline: auto;
 }

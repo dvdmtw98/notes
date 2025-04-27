@@ -4,7 +4,7 @@ tags:
   - splunk
 title: Splunk
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-04-26 23:27:24 -0500
 ---
 
 #### Main Components
@@ -20,7 +20,7 @@ Apps have an UI and allow users to configure various parameter's
 Add-ons also add additional features they do not provide a UI (they run in background)  
 Some add-ons are also called referred to as TAs (Technical Add-ons)
 
-#### Splunk Enterprise Roles  
+#### Splunk Enterprise Roles
 
 **Splunk Admin**: Install Apps, Ingest Data, Create knowledge objects  
 **Splunk Power**: Create and share knowledge objects. perform real-time searches  
