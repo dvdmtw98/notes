@@ -12,7 +12,7 @@ updated: 2025-03-31 14:55:37 -0500
 
 * **Windows Commands**
 	* [[windows-file-permissions|File Permissions]]
-	* [[symbolic-links|Symbolic Links]]
+	* [[windows-links|Symbolic Links]]
 	* [[network-commands|Network Commands]]
 	* [[system-health-commands|System Health Commands]]
 	* [[task-management-commands|Task Management Commands]]

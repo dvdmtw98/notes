@@ -1,6 +1,3 @@
-// Original Code
-// https://github.com/fanteastick/quartz-test/blob/v4/quartz/components/scripts/_randomPage.inline.ts
-
 import { FullSlug, getFullSlug, pathToRoot, simplifySlug } from "../../util/path";
 
 const getRandomInt = (max: number): number => {

@@ -4,7 +4,7 @@ tags:
   - azure
   - regions
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-03-10 10:21:59 -0500
+updated: 2025-04-20 19:55:41 -0500
 ---
 
 ### Data Centers

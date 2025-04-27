@@ -61,7 +61,7 @@ export const defaultContentPageLayout: PageLayout = {
                 { Component: Component.RandomPage() },
                 { Component: Component.ReaderMode() }
             ],
-            gap: "1.5rem"
+            gap: "1rem"
         }),
         Component.Explorer({ mapFn: textTransformNode })
     ],
@@ -102,7 +102,7 @@ export const defaultListPageLayout: PageLayout = {
                 { Component: Component.RandomPage() },
                 { Component: Component.ReaderMode() }
             ],
-            gap: "1.5rem"
+            gap: "1rem"
         }),
         Component.Explorer({ mapFn: textTransformNode }),
     ],

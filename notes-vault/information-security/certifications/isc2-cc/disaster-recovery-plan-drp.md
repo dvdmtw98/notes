@@ -6,7 +6,7 @@ tags:
   - risk
   - management
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-04-20 20:05:40 -0500
 ---
 
 Similar to BCP but applies to IT assets  
@@ -19,8 +19,8 @@ Should be reviewed and updated at least every 12 months
 Reduce the impact and lifelikeness of a disaster  
 Pre-disaster mitigation implementation
 
-##### Preparation  
-Build programs, procedures and tools for our response
+##### Preparation
+Build programs, procedures, and tools for our response
 
 ##### Response
 How we react in a disaster, following the procedures
