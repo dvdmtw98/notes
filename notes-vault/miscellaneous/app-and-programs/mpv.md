@@ -4,7 +4,7 @@ tags:
   - software
   - video
 date: 2025-04-15 18:36:05 -0500
-updated: 2025-04-26 23:56:22 -0500
+updated: 2025-04-28 11:43:02 -0500
 ---
 
 ### Windows Setup
@@ -111,9 +111,9 @@ And then add the following file: [Kikito’s md5.lua](https://github.com/kikito/
 | Filename                   | Purpose                                                                      | Type                                                                              |
 | :------------------------- | :--------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
 | `autoload.lua`             | Automatically adds videos present in the current video's folder to playlist. | [3rd party](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua) |
-| `display_version.lua`      | Debugging script to print version information to console                     | Custom                                                                            |
-| `modernz.lua`              | A modern UI for MPV                                                          | [3rd party](https://github.com/Samillion/ModernZ)                                 |
-| `remeber_position.lua`     | Makes MPV remember were the video was paused/stopped on last watch.          | Custom                                                                            |
+| `display_version.lua`      | Debugging script to print version information.                               | Custom                                                                            |
+| `modernz.lua`              | A modern UI for MPV.                                                         | [3rd party](https://github.com/Samillion/ModernZ)                                 |
+| `remeber_position.lua`     | Remember were the video was paused/stopped on last watch.                    | Custom                                                                            |
 | `remember_window_size.lua` | Remembers the window size from last playback.                                | Custom                                                                            |
 | `screenshot_directory.lua` | Use different screenshot folder based on OS.                                 | Custom                                                                            |
 | `thumbfast.lua`            | Show thumbnails on scroll on the progress bar.                               | [3rd party](https://github.com/po5/thumbfast)                                     |

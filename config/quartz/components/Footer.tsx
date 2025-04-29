@@ -13,18 +13,22 @@ export default ((opts?: Options) => {
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <p>
-          © {year}{" "}
-          <a href="https://www.linkedin.com/in/david-varghese/" target="_blank" rel="noreferrer noopener">
-            David Varghese
-          </a>.
-          Licensed{" "}
-          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer noopener">
-            CC BY 4.0
-          </a>.{" "}
-          <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noreferrer noopener">
-            Quartz v{version}
-          </a>
+        <p class="footer-text">
+          <span class="line-group line-1">
+            © {year}{" "}
+            <a href="https://www.linkedin.com/in/david-varghese/" target="_blank" rel="noreferrer noopener">
+              David Varghese
+            </a>.
+            <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noreferrer noopener">
+              Quartz v{version}
+            </a>.{" "}
+          </span>
+          <span class="line-group line-2">
+            Licensed{" "}
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noreferrer noopener">
+              CC BY-NC-SA 4.0
+            </a>.
+          </span>
         </p>
 
         <ul>

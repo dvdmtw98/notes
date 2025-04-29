@@ -56,13 +56,35 @@
 
 // Header Styles
 
-.popover-hint {
-  > :is(h1, div) {
+@media all and ($mobile) {
+  .popover-hint {
+    > :is(h1, div) {
+      text-align: center;
+    }
+
+    >ul.tags {
+      justify-content: center;
+    }
+  }
+}
+
+// Footer Styles
+
+.footer-text .line-group {
+  display: inline;
+}
+
+@media all and ($mobile) {
+  footer {
     text-align: center;
+
+    ul {
+      justify-content: center;
+    }
   }
 
-  >ul.tags {
-    justify-content: center;
+  .footer-text .line-group {
+    display: block;
   }
 }
 
