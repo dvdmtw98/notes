@@ -4,7 +4,7 @@ tags:
   - software
   - video
 date: 2025-04-15 18:36:05 -0500
-updated: 2025-04-28 11:43:02 -0500
+updated: 2025-04-29 15:02:15 -0500
 ---
 
 ### Windows Setup
@@ -123,10 +123,10 @@ MPV Resources: [stax76’s curated list of mpv resources](https://github.com/sta
 
 ### Commands
 
-| Shortcut                    | Description            |
-|:--------------------------- |:---------------------- |
-| `` ` ``                     | Open Console           |
-| `sub-add path/to/to.srt`    | Load external subtitle |
-| `loadfile path/to/file.mp4` | Load video             |
-| `vf clr`                    | Clear Video Filters    |
-| `set panscan 0`             | Reset panscan (Zoom)   |
+| Shortcut                              | Description            |
+| :------------------------------------ | :--------------------- |
+| `` ` ``                               | Open Console           |
+| `sub-add path/to/to.srt`              | Load external subtitle |
+| `loadfile "path/to/file.mp4" replace` | Load video             |
+| `vf clr`                              | Clear Video Filters    |
+| `set panscan 0`                       | Reset panscan (Zoom)   |

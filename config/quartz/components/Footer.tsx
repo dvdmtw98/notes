@@ -21,10 +21,10 @@ export default ((opts?: Options) => {
             </a>.
             <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noreferrer noopener">
               Quartz v{version}
-            </a>.{" "}
+            </a>.
           </span>
           <span class="line-group line-2">
-            Licensed{" "}
+            {" "}Licensed{" "}
             <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noreferrer noopener">
               CC BY-NC-SA 4.0
             </a>.
