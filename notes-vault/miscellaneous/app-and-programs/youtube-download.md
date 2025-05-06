@@ -5,7 +5,7 @@ tags:
   - automation
   - command
 date: 2025-03-27 15:01:58 -0500
-updated: 2025-04-24 22:30:13 -0500
+updated: 2025-05-05 15:07:56 -0500
 ---
 
 ### Thumbnails
@@ -55,3 +55,13 @@ yt-dlp --skip-download `
 ```
 
 [YT-DLP Output Templates](https://github.com/yt-dlp/yt-dlp#output-template)
+
+### Download
+
+```powershell
+yt-dlp "<video-url>"
+```
+
+Automatically download the best audio and video.
+
+[YT-DLP Download Format](https://github.com/yt-dlp/yt-dlp#format-selection)  

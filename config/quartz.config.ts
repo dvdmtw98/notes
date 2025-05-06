@@ -77,9 +77,7 @@ const config: QuartzConfig = {
                 lazyLoad: true
             }),
             Plugin.Description(),
-            Plugin.Latex({ renderEngine: "katex" }),
-            Plugin.ImageZoom(),
-            Plugin.PageAnimation()
+            Plugin.Latex({ renderEngine: "katex" })
         ],
         filters: [Plugin.RemoveDrafts()],
         emitters: [

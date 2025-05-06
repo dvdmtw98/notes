@@ -27,7 +27,10 @@ export const sharedPageComponents: SharedLayout = {
                 inputPosition: 'top',
             }
         }),
-        Component.BackToTop()
+        Component.BackToTop(),
+        Component.ImageZoom(),
+        Component.PageAnimation(),
+        Component.TextReveal()
     ],
     footer: Component.Footer({
         links: {

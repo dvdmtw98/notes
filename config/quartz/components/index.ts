@@ -25,6 +25,9 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import BackToTop from "./BackToTop"
 import RandomPage from './RandomPage'
+import ImageZoom from './ImageZoom'
+import PageAnimation from './PageAnimation'
+import TextReveal from './TextReveal'
 
 export {
   ArticleTitle,
@@ -53,5 +56,8 @@ export {
   Flex,
   ConditionalRender,
   BackToTop,
-  RandomPage
+  RandomPage,
+  ImageZoom,
+  PageAnimation,
+  TextReveal
 }

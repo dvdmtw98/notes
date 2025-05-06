@@ -6,7 +6,7 @@ tags:
   - configuration
   - forensics
 date: 2025-03-30 22:28:03 -0500
-updated: 2025-03-31 14:01:02 -0500
+updated: 2025-05-04 17:35:10 -0500
 ---
 
 ### Right-click Menu Entries
@@ -58,7 +58,7 @@ updated: 2025-03-31 14:01:02 -0500
 	- `HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\shell`
 	- `HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\shellex\ContextMenuHandlers`
 
-#### Drivers
+#### Drives
 
 - **Current User**
 	- `HKEY_CLASSES_ROOT\Drive\shell`
@@ -84,3 +84,11 @@ updated: 2025-03-31 14:01:02 -0500
 - **System-wide (All Users)**
 	- `HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Network\shell`
 	- `HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Network\shellex\ContextMenuHandlers`
+
+### Enable Verbose Message
+
+[Enable verbose startup and shutdown status messages \| Microsoft](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/enable-verbose-startup-shutdown-logon-logoff-status-messages)
+
+`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System`  
+Create a new Key (D-word) called “**verbosestatus**”.  
+Set value to 1.

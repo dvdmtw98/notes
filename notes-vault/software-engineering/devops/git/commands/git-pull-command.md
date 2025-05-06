@@ -4,13 +4,13 @@ tags:
   - git
   - devops
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-05-05 20:44:11 -0500
 ---
 
 ````bash
 # Download remote changes
 git fetch <remote-name>
-git fetch <remote-name> <local-branch>:<remote-branch>
+git fetch <remote-name> <remote-branch>:<local-branch>
 
 # Add fetched changes into the local repo
 git merge
