@@ -5,7 +5,7 @@ tags:
   - command
 title: ln Command
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-04-25 12:01:53 -0500
+updated: 2025-05-09 09:29:53 -0500
 ---
 
 ### Symbolic Link (Symlink)

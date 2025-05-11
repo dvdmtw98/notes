@@ -1,150 +1,132 @@
-// -----------------------------------------------------------------------------
-// Baffle.js - Class-based Text Scrambler & Reveal Utility
-// Simplified ES6 + TypeScript version (start() & reveal() only, chainable)
-// -----------------------------------------------------------------------------
+// Simplified TypeScript clone of baffle.js
+// https://github.com/camwiegert/baffle
 
-// -----------------------------------------------------------------------------
-// Options interface: defines the shape of configuration accepted by Baffle
-// -----------------------------------------------------------------------------
+// Configuration Options
 interface BaffleOptions {
-    /** Characters to use when scrambling text */
     characters: string;
-    /** Characters to leave untouched (e.g., spaces) */
     exclude: string[];
-    /** Interval time in milliseconds between scramble/decay steps */
-    speed: number;
+    speed: number; /* Milliseconds */
 }
 
-// -----------------------------------------------------------------------------
-// Default options: fallback values if user does not supply overrides
-// -----------------------------------------------------------------------------
+// Default Configuration
 const DEFAULTS: BaffleOptions = {
-    // Default character set: letters + symbols
     characters:
         'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz~!@#$%^&*()-+=[]{}|;:,./<>?',
-    exclude: [' '], // Leave spaces unchanged
-    speed: 50       // 50ms default interval
+    exclude: [' '],
+    speed: 50
 };
 
-// -----------------------------------------------------------------------------
-// Utility function: pick a random element from an array
-// -----------------------------------------------------------------------------
-function sample<T>(arr: T[]): T {
-    return arr[Math.floor(Math.random() * arr.length)];
+// Function to select random element
+const randomElement = <T>(array: T[]): T => {
+    return array[Math.floor(Math.random() * array.length)];
 }
 
-// -----------------------------------------------------------------------------
-// Scrambler class: handles scramble/decay for a single element
-// -----------------------------------------------------------------------------
+// Class to store functions required to scramble text
 class Scrambler {
-    private el: Element;
+    private element: Element;
     private value: string;
-    private bitmap: number[];
+    private bitmap: number[]; /* Used to track which characters are scrambled */
     private exclude: string[];
     private chars: string[];
 
-    /**
-     * @param el DOM element whose text will be scrambled
-     * @param chars Array of scramble characters
-     * @param exclude Characters to leave untouched
-     */
-    constructor(el: Element, chars: string[], exclude: string[]) {
-        this.el = el;
-        this.value = el.textContent || '';
+    constructor(element: Element, chars: string[], exclude: string[]) {
+        this.element = element;
+        this.value = element.textContent || '';
         this.chars = chars;
         this.exclude = exclude;
         this.bitmap = [];
         this.reset();
     }
 
-    /** Reset bitmask to all scrambled (1) */
+    // Reset bitmap to scrambled (all 1s)
     public reset(): void {
         this.bitmap = Array(this.value.length).fill(1);
     }
 
-    /** Write current scrambled/decoded text into element */
+    // Write current scrambled/decoded text into element
     public write(): void {
         const scrambled = [...this.value]
-            .map((ch, i) => {
-                if (this.exclude.includes(ch)) return ch;
-                return this.bitmap[i] ? sample(this.chars) : ch;
+            .map((char, index) => {
+                // If in exclude list don't scramble
+                if (this.exclude.includes(char)) {
+                    return char;
+                }
+                // If bitmap has 1 in current position scramble else don't scramble
+                return this.bitmap[index] ? randomElement(this.chars) : char;
             })
             .join('');
-        this.el.textContent = scrambled;
+
+        this.element.textContent = scrambled;
     }
 
-    /** Flip 'count' random bits from scrambled to revealed */
+    // Flip random bits from scrambled to revealed
     public decay(count: number): void {
         for (let i = 0; i < count; i++) {
             const indices = this.bitmap
-                .map((b, i) => (b ? i : -1))
-                .filter(i => i >= 0);
-            const idx = sample(indices);
+                .map((value, index) => (value ? index : -1))
+                .filter(value => value >= 0);
+
+            // Map: [0, -1, 2, -1, 4] (Index when scrambled else -1)
+            // Filter: [0, 2, 4] (Returns scrambled index/position)
+
+            const idx = randomElement(indices);
             this.bitmap[idx] = 0;
         }
     }
 
-    /** Get original text length */
+    // Get original text length
     public getLength(): number {
         return this.value.length;
     }
 }
 
-// -----------------------------------------------------------------------------
-// Baffle class: orchestrates all scramblers and provides start/reveal API
-// -----------------------------------------------------------------------------
+// Main class that performs scramble operations
 class Baffle {
     private scramblers: Scrambler[];
     private speed: number;
-    private timerId?: number;
+    private timerId?: number; /* Used to end the interval */
 
-    /**
-     * @param selector CSS selector string to identify target elements
-     * @param options Partial options to override defaults
-     */
     constructor(selector: string, options: Partial<BaffleOptions> = {}) {
         const opts = { ...DEFAULTS, ...options };
         this.speed = opts.speed;
         const chars = opts.characters.split('');
+
+        // All HTML elements that match selector
         const elements = Array.from(document.querySelectorAll(selector));
         this.scramblers = elements.map(
-            el => new Scrambler(el, chars, opts.exclude)
+            element => new Scrambler(element, chars, opts.exclude)
         );
     }
 
-    /**
-     * Start continuous scrambling of all elements
-     * @returns this for chaining
-     */
+    // Start continuous scrambling of all elements
     public start(): this {
         this.stop();
-        this.scramblers.forEach(s => {
-            s.reset();
-            s.write();
+        this.scramblers.forEach(scrambler => {
+            scrambler.reset();
+            scrambler.write();
         });
         this.timerId = window.setInterval(
-            () => this.scramblers.forEach(s => s.write()),
+            () => this.scramblers.forEach(scrambler => scrambler.write()),
             this.speed
         );
         return this;
     }
 
-    /**
-     * Reveal original text over duration, after optional delay
-     * @param duration total reveal time in ms
-     * @param delay time before revealing starts in ms
-     * @returns this for chaining
-     */
+    // Reveal original text over duration, after optional delay
+    // This functions reduces the number of characters scrambled over time
     public reveal(duration = 0, delay = 0): this {
         this.stop();
+        // The number of times to run scramble animation
         const steps = Math.max(1, Math.ceil(duration / this.speed));
+        // Wait for the delay period before starting
         setTimeout(() => {
             let remaining = steps;
             this.timerId = window.setInterval(() => {
-                this.scramblers.forEach(s => {
-                    const count = Math.ceil(s.getLength() / steps);
-                    s.decay(count);
-                    s.write();
+                this.scramblers.forEach(scrambler => {
+                    // Characters to scramble
+                    const count = Math.ceil(scrambler.getLength() / steps);
+                    scrambler.decay(count);
+                    scrambler.write();
                 });
                 if (--remaining <= 0) {
                     this.stop();
@@ -154,7 +136,7 @@ class Baffle {
         return this;
     }
 
-    /** Stop any active scrambling/reveal loop */
+    // Stop any active scrambling
     private stop(): void {
         if (this.timerId) {
             clearInterval(this.timerId);
@@ -165,9 +147,9 @@ class Baffle {
 
 document.addEventListener("nav", () => {
     new Baffle(".article-title", {
-        characters: `-=~!@#$%^&* ()_+ []{} |; ':",./<>?`,
+        characters: `-=~!@#$%^&*()_+[]{}|;':",./<>?`,
         speed: 50
     })
         .start()
-        .reveal(800, 600)
+        .reveal(600, 800)
 })

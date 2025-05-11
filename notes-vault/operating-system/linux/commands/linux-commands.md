@@ -6,13 +6,13 @@ tags:
   - index
 title: Linux Commands
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-03-11 15:31:28 -0500
+updated: 2025-05-10 17:10:50 -0500
 ---
 
 ### Topic Related Commands
 
 * [[package-management|Package Management]]
-* [[file-permission|File Permission]]
+* [[linux-file-permissions|File Permissions]]
 * [[user-and-group-management|User & Group Management]]
 * [[archival-commands|Archival Commands]]
 * [[copy-commands|Copy Commands]]

@@ -238,3 +238,8 @@ article img {
   display: block;
   margin-inline: auto;
 }
+
+article p>img+em {
+  text-align: center;
+  color: var(--darkgray);
+}

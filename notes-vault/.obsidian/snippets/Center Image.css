@@ -1,7 +1,22 @@
-img {
+/* Centers Media Embeds */
+.markdown-preview-view span.internal-embed.media-embed.is-loaded > img,
+.markdown-source-view div.internal-embed.media-embed.is-loaded > img,
+.markdown-source-view.is-live-preview div.internal-embed.media-embed.is-loaded > img {
+	display: block;
+	margin: 0 auto;
 	max-width: 100%;
-	border-radius: 8px;
-	display: block !important;
-	margin-left: auto !important;
-	margin-right: auto !important;
+	border-radius: 4px;
+}
+
+/* Center Text right after Image */
+.markdown-preview-view span.internal-embed.media-embed.is-loaded + em {
+	display: block;
+	text-align: center;
+	margin-top: 0.3rem;
+	font-size: var(--font-adaptive-small);
+}
+
+.markdown-source-view div.internal-embed.media-embed.is-loaded + div.cm-line:has(> .cm-em) {
+	text-align: center;
+	font-size: var(--font-adaptive-small);
 }

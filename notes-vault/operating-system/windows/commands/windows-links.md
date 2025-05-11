@@ -5,7 +5,7 @@ tags:
   - command
 title: Windows Links
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-04-25 12:05:01 -0500
+updated: 2025-05-09 18:01:28 -0500
 ---
 
 ### Symbolic Link (Symlink)
@@ -53,6 +53,19 @@ Get-ChildItem -Path "C:\path\to\folder" -Recurse `
 Get-ChildItem -Path "C:\path\to\folder" -Recurse | Where-Object {
     $_.LinkType -eq 'SymbolicLink' -and -not (Test-Path $_.Target)
 }
+
+# Delete broken symbolic links
+Get-ChildItem -Path "C:\path\to\folder" -Recurse | Where-Object {
+    $_.LinkType -eq 'SymbolicLink' -and -not (Test-Path $_.Target)
+} | Remove-Item -Force -WhatIf
+
+# Delete broken links after confirmation
+Get-ChildItem -Path "C:\path\to\folder" -Recurse | Where-Object {
+    $_.LinkType -eq 'SymbolicLink' -and -not (Test-Path $_.Target)
+} | ForEach-Object {
+    $answer = Read-Host "Delete broken symlink '$($_.FullName)'? (Y/N)"
+    if ($answer -eq 'Y') { $_ | Remove-Item -Force }
+}
 ```
 
 #### Delete Links
@@ -74,7 +87,7 @@ These command should to run on the link file.
 
 ### Hard Links
 
-Can only be used for files. It is a alias for file.  
+Can only be used for files. It is an alias for file.  
 Can only point on files on the same volume (Drive with same letter).  
 If a hard linked file is moved the hard link automatically updated.  
 Hard links point to the same file. Both are indistinguishable to the OS.

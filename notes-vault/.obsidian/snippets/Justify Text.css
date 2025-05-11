@@ -1,0 +1,11 @@
+/* Reading Mode */
+.markdown-preview-view p {
+	text-align: justify;
+	text-justify: inter-word;	
+}
+
+/* Source View and Live Preview */
+.markdown-source-view.mod-cm6 .cm-line {
+	text-align: justify;
+	text-justify: inter-word;	
+}

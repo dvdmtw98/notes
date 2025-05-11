@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: jackyzha0/quartz
-          ref: adf442036b244dfafea6287bf69c22f4eb133b79
+          ref: e98d97a271857efe14e6f15d8971d452b2d1a2d5
           fetch-depth: 0
           path: quartz
       - name: Checkout Repository
