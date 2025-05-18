@@ -26,7 +26,6 @@ import ConditionalRender from "./ConditionalRender"
 import BackToTop from "./BackToTop"
 import RandomPage from './RandomPage'
 import ImageZoom from './ImageZoom'
-import TextReveal from './TextReveal'
 
 export {
   ArticleTitle,
@@ -56,6 +55,5 @@ export {
   ConditionalRender,
   BackToTop,
   RandomPage,
-  ImageZoom,
-  TextReveal
+  ImageZoom
 }

@@ -28,8 +28,7 @@ export const sharedPageComponents: SharedLayout = {
             }
         }),
         Component.BackToTop(),
-        Component.ImageZoom(),
-        Component.TextReveal()
+        Component.ImageZoom()
     ],
     footer: Component.Footer({
         links: {
