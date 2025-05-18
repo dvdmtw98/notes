@@ -3,6 +3,10 @@
 // put your custom CSS here!
 @use "./variables.scss" as *;
 
+.page {
+  max-width: 1600px;
+}
+
 // Sidebar Styles
 
 @media all and not ($mobile) {
@@ -48,12 +52,6 @@
   }
 }
 
-// Backlink Spacing
-
-.backlinks>ul.overflow {
-  height: unset;
-}
-
 // Header Styles
 
 @media all and ($mobile) {
@@ -68,9 +66,13 @@
   }
 }
 
-// Footer Styles
+// Footer & Data Meta Styles
 
-.footer-text .line-group {
+:is(.footer-text, .date-meta) .line-group {
+  display: inline;
+}
+
+.date-meta .line-separator {
   display: inline;
 }
 
@@ -83,8 +85,12 @@
     }
   }
 
-  .footer-text .line-group {
+  :is(.footer-text, .date-meta) .line-group {
     display: block;
+  }
+
+  .date-meta .line-separator {
+    display: none;
   }
 }
 

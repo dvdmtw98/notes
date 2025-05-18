@@ -5,12 +5,12 @@ tags:
   - devops
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-05-05 20:40:36 -0500
+updated: 2025-05-11 20:13:47 -0500
 ---
 
 ### Table of Content
 
-* [[git-config-command|Git Config Command]]
+* [[git-configuration|Git Configuration]]
 * [[git-diff-command|Git Diff Command]]
 * [[git-add-command|Git Add Command]]
 * [[git-rm-command|Git Rm Command]]

@@ -151,5 +151,5 @@ document.addEventListener("nav", () => {
         speed: 50
     })
         .start()
-        .reveal(600, 800)
+        .reveal(0, 1000)
 })
