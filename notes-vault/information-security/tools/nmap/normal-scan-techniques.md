@@ -1,9 +1,9 @@
 ---
+title: Normal Scan Techniques
 tags:
   - security
   - tool
   - nmap
-title: Normal Scan Techniques
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-03-16 23:32:15 -0500
 ---

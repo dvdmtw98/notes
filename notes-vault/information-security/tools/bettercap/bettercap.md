@@ -1,7 +1,11 @@
 ---
 title: BetterCap
+tags:
+  - security
+  - tool
+  - wireless
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-05-21 18:58:37 -0500
 ---
 
 ````bash

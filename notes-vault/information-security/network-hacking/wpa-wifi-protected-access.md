@@ -1,7 +1,11 @@
 ---
 title: WPA (Wi-Fi Protected Access)
+tags:
+  - security
+  - wireless
+  - networking
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-05-21 19:01:41 -0500
 ---
 
 Each packet is encrypted using an unique temporary key  

@@ -1,9 +1,9 @@
 ---
+title: CompTIA Security+
 tags:
   - security
   - index
   - certification
-title: CompTIA Security+
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-02-22 15:15:59 -0600
 ---

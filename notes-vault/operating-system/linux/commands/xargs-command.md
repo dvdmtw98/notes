@@ -1,9 +1,9 @@
 ---
+title: xargs Command
 tags:
   - os
   - linux
   - command
-title: xargs Command
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-04-11 15:28:06 -0500
 ---

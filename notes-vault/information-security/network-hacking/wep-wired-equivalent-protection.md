@@ -1,7 +1,11 @@
 ---
 title: WEP (Wired Equivalent Protection)
+tags:
+  - networking
+  - security
+  - wireless
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-05-21 19:15:16 -0500
 ---
 
 Uses RC4 for Encryption. Old Algorithm

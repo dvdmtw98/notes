@@ -1,11 +1,11 @@
 ---
+title: BeEF
 tags:
   - security
   - tool
   - web
-title: BeEF
-updated: 2024-01-28
 date: 2024-01-28 14:15:56 -0600
+updated: 2024-01-28
 ---
 
 **BeEF**: Browser Exploitation Framework  

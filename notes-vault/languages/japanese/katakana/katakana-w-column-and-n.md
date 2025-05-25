@@ -1,9 +1,9 @@
 ---
+title: Katakana W-Column & N
 tags:
   - language
   - japanese
   - katakana
-title: Katakana W-Column & N
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

@@ -1,10 +1,10 @@
 ---
+title: Database Engineering
 tags:
   - database
   - sql
   - nosql
   - index
-title: Database Engineering
 date: 2024-01-28 14:15:56 -0600
 updated: 2025-04-19 10:05:34 -0500
 ---

@@ -1,9 +1,9 @@
 ---
+title: Linux File Permissions
 tags:
   - os
   - linux
   - command
-title: Linux File Permissions
 date: 2024-01-28 14:15:56 -0600
 updated: 2025-05-10 17:10:33 -0500
 ---

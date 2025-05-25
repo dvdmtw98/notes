@@ -1,9 +1,9 @@
 ---
+title: X wa Y desu
 tags:
   - language
   - japanese
   - grammer
-title: X wa Y desu
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

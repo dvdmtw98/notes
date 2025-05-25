@@ -1,7 +1,11 @@
 ---
 title: Enabling Monitor Mode
+tags:
+  - networking
+  - wireless
+  - command
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-05-21 19:10:11 -0500
 ---
 
 Managed Mode: View/ Capture packets meant for source device only  

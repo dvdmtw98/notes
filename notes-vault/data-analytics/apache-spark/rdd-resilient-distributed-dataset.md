@@ -1,8 +1,8 @@
 ---
+title: RDD (Resilient Distributed Dataset)
 tags:
   - analytics
   - spark
-title: RDD (Resilient Distributed Dataset)
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

@@ -1,9 +1,9 @@
 ---
+title: Bash File Operations
 tags:
   - linux
   - bash
   - scripting
-title: Bash File Operations
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 22:01:35 -0600
 ---

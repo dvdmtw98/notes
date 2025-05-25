@@ -1,9 +1,9 @@
 ---
+title: SQLMap
 tags:
   - security
   - sqli
   - web
-title: SQLMap
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-03-29 23:31:52 -0500
 ---

@@ -1,9 +1,9 @@
 ---
+title: Transaction Control Language (TCL)
 tags:
   - database
   - sql
   - oracle
-title: Transaction Control Language (TCL)
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

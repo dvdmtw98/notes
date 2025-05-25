@@ -1,9 +1,9 @@
 ---
+title: Data Backup
 tags:
   - security
   - data
   - redundancy
-title: Data Backup
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-02-22 14:22:55 -0600
 ---

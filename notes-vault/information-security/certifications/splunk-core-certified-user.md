@@ -1,8 +1,8 @@
 ---
+title: Splunk
 tags:
   - security
   - splunk
-title: Splunk
 date: 2024-01-28 14:15:56 -0600
 updated: 2025-04-26 23:27:24 -0500
 ---

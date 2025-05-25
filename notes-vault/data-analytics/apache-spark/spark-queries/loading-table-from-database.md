@@ -1,9 +1,9 @@
 ---
+title: Loading Table from Database
 tags:
   - analytics
   - spark
   - database
-title: Loading Table from Database
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

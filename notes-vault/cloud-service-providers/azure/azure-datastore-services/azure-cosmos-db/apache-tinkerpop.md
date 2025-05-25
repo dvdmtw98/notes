@@ -7,7 +7,7 @@ tags:
   - nosql
   - cosmos-db
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-05-22 11:55:15 -0500
 ---
 
 It is a graph computing framework for both graph databases (OLTP) and graph analytic systems (OLAP)  

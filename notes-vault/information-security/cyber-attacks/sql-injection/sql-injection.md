@@ -1,10 +1,10 @@
 ---
+title: SQL Injection
 tags:
   - security
   - sqli
   - web
   - index
-title: SQL Injection
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-03-29 23:31:17 -0500
 ---

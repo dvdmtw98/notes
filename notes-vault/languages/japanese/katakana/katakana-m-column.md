@@ -1,9 +1,9 @@
 ---
+title: Katakana M-Column
 tags:
   - language
   - japanese
   - katakana
-title: Katakana M-Column
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

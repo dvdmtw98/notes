@@ -1,7 +1,11 @@
 ---
 title: DNS Spoofing
+tags:
+  - networking
+  - attack
+  - security
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-05-21 19:11:24 -0500
 ---
 
 DNS Server converts the website URL to IP address of Server  

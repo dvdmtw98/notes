@@ -1,8 +1,8 @@
 ---
+title: Sqoop Commands
 tags:
   - analytics
   - sqoop
-title: Sqoop Commands
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28
 ---

@@ -3,8 +3,8 @@ title: Misc. Utilities
 tags:
   - security
   - tool
-updated: 2025-01-22 23:19:02 -0600
 date: 2024-01-28 14:15:56 -0600
+updated: 2025-01-22 23:19:02 -0600
 ---
 
 ### SearchSploit

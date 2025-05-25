@@ -1,7 +1,10 @@
 ---
 title: Views
+tags:
+  - database
+  - command
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28
+updated: 2025-05-21 19:14:19 -0500
 ---
 
 ````sql

@@ -1,8 +1,8 @@
 ---
+title: Linux System Concepts
 tags:
   - os
   - linux
-title: Linux System Concepts
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-12-22 16:07:26 -0600
 ---

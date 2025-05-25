@@ -1,7 +1,12 @@
 ---
 title: Network Mapping
+tags:
+  - security
+  - networking
+  - tool
+  - enumeration
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 21:48:50 -0600
+updated: 2025-05-21 19:11:02 -0500
 ---
 
 #### NetDiscover

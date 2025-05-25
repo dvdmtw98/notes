@@ -1,7 +1,11 @@
 ---
 title: Network Hacking
+tags:
+  - security
+  - exploitation
+  - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-29 10:32:05 -0600
+updated: 2025-05-21 19:03:36 -0500
 ---
 
 ### Pre-Connection Attacks

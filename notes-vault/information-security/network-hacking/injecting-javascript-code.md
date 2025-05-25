@@ -1,7 +1,10 @@
 ---
 title: Injecting JavaScript Code
+tags:
+  - exploitation
+  - web
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-05-21 19:04:47 -0500
 ---
 
 Create a .js with the code to be executed  

@@ -1,9 +1,9 @@
 ---
+title: Service Management
 tags:
   - os
   - linux
   - command
-title: Service Management
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 21:51:01 -0600
 ---

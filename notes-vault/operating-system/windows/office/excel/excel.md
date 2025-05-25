@@ -1,8 +1,8 @@
 ---
+title: Excel
 tags:
   - excel
   - index
-title: Excel
 date: 2024-01-28 14:15:56 -0600
 updated: 2025-03-28 21:28:50 -0500
 ---

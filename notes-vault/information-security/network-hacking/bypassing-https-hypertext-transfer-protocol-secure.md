@@ -1,7 +1,12 @@
 ---
 title: Bypassing HTTPS (Hypertext Transfer Protocol Secure)
+tags:
+  - web
+  - exploitation
+  - security
+  - tool
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-05-21 19:12:33 -0500
 ---
 
 HTTP + TLS (Transport Layer Security) / SSL (Secure Socket Layer)  

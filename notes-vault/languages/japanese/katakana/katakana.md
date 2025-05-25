@@ -1,10 +1,10 @@
 ---
+title: Katakana
 tags:
   - language
   - japanese
   - katakana
   - index
-title: Katakana
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

@@ -1,7 +1,11 @@
 ---
 title: WEP Cracking
+tags:
+  - security
+  - exploitation
+  - tool
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-05-21 19:02:20 -0500
 ---
 
 ### Busy Network

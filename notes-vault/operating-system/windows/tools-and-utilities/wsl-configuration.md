@@ -1,9 +1,9 @@
 ---
+title: WSL Configuration
 tags:
   - os
   - windows
   - tool
-title: WSL Configuration
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-12-06 23:56:54 -0600
 ---

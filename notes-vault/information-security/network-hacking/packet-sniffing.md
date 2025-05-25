@@ -1,7 +1,12 @@
 ---
 title: Packet Sniffing
+tags:
+  - security
+  - exploitation
+  - wireless
+  - tool
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-05-21 19:02:49 -0500
 ---
 
 #### Sniff Packets on 2.4GHz Network

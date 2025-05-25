@@ -1,9 +1,9 @@
 ---
+title: Windows Shortcuts
 tags:
   - os
   - windows
   - shortcut
-title: Windows Shortcuts
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-02-16 09:55:33 -0600
 ---

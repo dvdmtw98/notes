@@ -1,7 +1,11 @@
 ---
 title: De-Authentication Attack
+tags:
+  - networking
+  - security
+  - exploitation
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-05-21 19:11:46 -0500
 ---
 
 The attack is performed by changing our MAC to Target MAC and sending Disconnect Request to the Router  

@@ -1,8 +1,8 @@
 ---
+title: Device Drivers
 tags:
   - os
   - linux
-title: Device Drivers
 date: 2024-01-28 14:15:56 -0600
 updated: 2025-01-14 19:53:54 -0600
 ---

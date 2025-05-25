@@ -1,9 +1,9 @@
 ---
+title: CTF Challenge Checklist
 tags:
   - security
   - ctf
   - checklist
-title: CTF Challenge Checklist
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-05-12 16:31:33 -0500
 ---

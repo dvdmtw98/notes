@@ -1,9 +1,9 @@
 ---
+title: Bash Conditional Statements
 tags:
   - linux
   - bash
   - scripting
-title: Bash Conditional Statements
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 22:01:00 -0600
 ---

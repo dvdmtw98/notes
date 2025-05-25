@@ -1,8 +1,8 @@
 ---
+title: John the Ripper
 tags:
   - security
   - password
-title: John the Ripper
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-04-16 09:31:45 -0500
 ---

@@ -3,9 +3,8 @@ title: Rust Enums
 tags:
   - rust
   - programming
-  - enum
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-05-21 19:17:13 -0500
 ---
 
 Structs allows developers to group similar fields together  

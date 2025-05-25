@@ -1,7 +1,11 @@
 ---
 title: MITM (Man in the Middle) Attack
+tags:
+  - security
+  - networking
+  - attack
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-05-21 19:04:20 -0500
 ---
 
 ### ARP Poisoning/Spoofing

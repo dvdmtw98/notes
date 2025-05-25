@@ -1,9 +1,9 @@
 ---
+title: Windows
 tags:
   - os
   - windows
   - index
-title: Windows
 date: 2024-01-28 14:15:56 -0600
 updated: 2025-03-31 14:55:37 -0500
 ---

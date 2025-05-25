@@ -1,8 +1,8 @@
 ---
+title: RSA Algorithm
 tags:
   - security
   - cryptography
-title: RSA Algorithm
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-10-06 09:10:46 -0500
 ---

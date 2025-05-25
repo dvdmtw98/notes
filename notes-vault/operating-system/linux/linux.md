@@ -1,9 +1,9 @@
 ---
+title: Linux
 tags:
   - os
   - linux
   - index
-title: Linux
 date: 2024-01-28 14:15:56 -0600
 updated: 2025-03-11 18:44:28 -0500
 ---

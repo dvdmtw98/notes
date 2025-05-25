@@ -1,10 +1,10 @@
 ---
+title: Social Engineering Attacks
 tags:
   - security
   - access
   - social-engineering
   - attack
-title: Social Engineering Attacks
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

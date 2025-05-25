@@ -1,9 +1,9 @@
 ---
+title: Hiragana R-Column
 tags:
   - language
   - japanese
   - hiragana
-title: Hiragana R-Column
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

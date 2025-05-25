@@ -1,9 +1,9 @@
 ---
+title: Windows Terminal
 tags:
   - os
   - windows
   - tool
-title: Windows Terminal
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-05-08 08:37:32 -0500
 ---

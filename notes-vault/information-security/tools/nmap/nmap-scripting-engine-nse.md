@@ -1,9 +1,9 @@
 ---
+title: Nmap Scripting Engine (NSE)
 tags:
   - security
   - tool
   - nmap
-title: Nmap Scripting Engine (NSE)
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-03-14 12:59:37 -0500
 ---

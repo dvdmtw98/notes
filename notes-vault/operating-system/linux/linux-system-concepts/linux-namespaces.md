@@ -1,8 +1,8 @@
 ---
+title: Linux Namespaces
 tags:
   - os
   - linux
-title: Linux Namespaces
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-01-28 14:15:56 -0600
 ---

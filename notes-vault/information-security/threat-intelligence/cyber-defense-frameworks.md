@@ -1,9 +1,9 @@
 ---
+title: Cyber Defense Frameworks
 tags:
   - security
   - framework
   - soc
-title: Cyber Defense Frameworks
 date: 2024-01-28 14:15:56 -0600
 updated: 2025-01-23 23:29:00 -0600
 ---

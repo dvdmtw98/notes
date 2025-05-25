@@ -1,9 +1,9 @@
 ---
+title: Data Definition Language (DDL)
 tags:
   - database
   - sql
   - oracle
-title: Data Definition Language (DDL)
 date: 2024-01-28 14:15:56 -0600
 updated: 2024-03-14 00:14:49 -0500
 ---
