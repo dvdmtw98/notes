@@ -32,11 +32,11 @@ export const sharedPageComponents: SharedLayout = {
     ],
     footer: Component.Footer({
         links: {
-            GitHub: "https://github.com/dvdmtw98",
-            LinkedIn: "https://www.linkedin.com/in/david-varghese",
-            Discord: "https://discordapp.com/users/757082677483536404",
-            Blog: "https://blog.davidvarghese.net",
-            Medium: "https://david-varghese.medium.com",
+            GitHub: { url: "https://github.com/dvdmtw98", icon: "fa-brands fa-github" },
+            LinkedIn: { url: "https://www.linkedin.com/in/david-varghese", icon: "fa-brands fa-linkedin" },
+            Discord: { url: "https://discordapp.com/users/757082677483536404", icon: "fa-brands fa-discord" },
+            Blog: { url: "https://blog.davidvarghese.net", icon: "fa-brands fa-blogger-b" },
+            Medium: { url: "https://david-varghese.medium.com", icon: "fa-brands fa-medium" },
         },
     }),
 }

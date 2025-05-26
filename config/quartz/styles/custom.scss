@@ -66,14 +66,24 @@
   }
 }
 
-// Footer & Data Meta Styles
+// Footer Styles
 
-:is(.footer-text, .date-meta) .line-group {
-  display: inline;
+footer ul {
+  margin-top: 0;
 }
 
-.date-meta .line-separator {
-  display: inline;
+.footer-text {
+  padding-top: 0.5rem;
+  font-size: 0.9rem;
+
+  .line-group {
+    display: inline;
+    padding-block: 0.2rem;
+  }
+}
+
+.line-group.line-3 {
+  display: block;
 }
 
 @media all and ($mobile) {
@@ -85,7 +95,25 @@
     }
   }
 
-  :is(.footer-text, .date-meta) .line-group {
+  .footer-text {
+    .line-group {
+      display: block;
+    }
+  }
+}
+
+// Date Meta Styles
+
+.date-meta .line-group {
+  display: inline;
+}
+
+.date-meta .line-separator {
+  display: inline;
+}
+
+@media all and ($mobile) {
+  .date-meta .line-group {
     display: block;
   }
 

@@ -1,20 +1,34 @@
-import { version } from "../../package.json"
-import style from "./styles/footer.scss"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import style from "./styles/footer.scss"
+import { version } from "../../package.json"
+import { Date } from "./Date"
 
 interface Options {
-  links: Record<string, string>
+  links: Record<string, Record<string, string>>
 }
 
 export default ((opts?: Options) => {
-  const Footer: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
-    const year = new Date().getFullYear()
+  const Footer: QuartzComponent = ({ cfg, allFiles, displayClass }: QuartzComponentProps) => {
+    const date = new globalThis.Date()
+    const year = date.getFullYear()
+    const today = <Date date={date} locale={cfg.locale} />
     const links = opts?.links ?? []
+
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <p class="footer-text">
+        <ul>
+          {Object.entries(links).map(([name, details]) => (
+            <li>
+              <a href={details.url} target="_blank" rel="noreferrer noopener">
+                <i class={details.icon}></i> {name}
+              </a>
+            </li>
+          ))}
+        </ul>
+
+        <div class="footer-text">
           <span class="line-group line-1">
-            © {year}{" "}David Varghese.{" "}
+            © 2023-{year}{" "}David Varghese.{" "}
             <a href="https://quartz.jzhao.xyz/" target="_blank" rel="noreferrer noopener">
               Quartz v{version}
             </a>.
@@ -25,17 +39,10 @@ export default ((opts?: Options) => {
               CC BY-NC-SA 4.0
             </a>.
           </span>
-        </p>
-
-        <ul>
-          {Object.entries(links).map(([text, link]) => (
-            <li>
-              <a href={link} target="_blank" rel="noreferrer noopener">
-                {text}
-              </a>
-            </li>
-          ))}
-        </ul>
+          <span class="line-group line-3">
+            Total Pages: {allFiles.length}. Last updated: {today}.
+          </span>
+        </div>
       </footer>
     )
   }
