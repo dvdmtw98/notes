@@ -259,6 +259,16 @@ article {
   }
 }
 
+// Body Styles
+
+article {
+  * {
+    word-break: normal;
+    overflow-wrap: normal;
+    hyphens: none;
+  }
+}
+
 // Popover Element Show Delay
 
 a:hover .popover,

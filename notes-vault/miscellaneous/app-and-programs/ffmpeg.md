@@ -5,7 +5,7 @@ tags:
   - command
   - automation
 date: 2025-03-29 17:40:52 -0500
-updated: 2025-05-03 18:29:38 -0500
+updated: 2025-05-30 10:57:51 -0500
 ---
 
 ### Stream Information
@@ -83,3 +83,12 @@ ffmpeg -f concat -safe 0 -i filelist.txt -c copy output.mp4
 ```
 
 Without `-i` the input filenames can be listed directly 
+
+### Combine Different Sources
+
+```bash
+ffmpeg -i desired_audio.mp4 -i desired_video.mp4 `
+	-map 1:v:0 -map 0:a:0 -c:v copy -c:a copy output.mp4
+```
+
+If the durations don't match, the longer part will be cut off.
