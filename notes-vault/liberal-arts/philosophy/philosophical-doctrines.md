@@ -2,8 +2,9 @@
 title: Philosophical Doctrines
 tags:
   - philosophy
+  - arts
 date: 2024-07-17 09:55:12 -0500
-updated: 2024-07-17 21:24:49 -0500
+updated: 2025-06-06 00:28:05 -0500
 ---
 
 ### Nihilism

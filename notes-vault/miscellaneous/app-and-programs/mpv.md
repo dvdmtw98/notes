@@ -4,7 +4,7 @@ tags:
   - software
   - video
 date: 2025-04-15 18:36:05 -0500
-updated: 2025-04-29 15:02:15 -0500
+updated: 2025-06-06 00:35:55 -0500
 ---
 
 ### Windows Setup
@@ -103,23 +103,12 @@ Click on `Ok` to create the task.
 In the main directory create a folder called `portable_config`.  
 All MPV configuration will be stored in this directory.
 
-MPV Config: [David’s MPV Config](https://github.com/dvdmtw98/dotfiles/tree/main/Common/mpv)  
-You can download my config to the `portable_config` to use my settings & scripts.  
-To use my scripts you also need to create a directory called `lua` (in main directory).  
+My Config: [MPV Config](https://github.com/dvdmtw98/dotfiles/tree/main/Common/mpv)  
+You can clone my config into `portable_config` to use my settings & scripts.  
+If using my scripts you also need to create the `lua` directory (in main directory).  
 And then add the following file: [Kikito’s md5.lua](https://github.com/kikito/md5.lua/blob/master/md5.lua) (used by `remeber_position.lua`)
 
-| Filename                   | Purpose                                                                      | Type                                                                              |
-| :------------------------- | :--------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
-| `autoload.lua`             | Automatically adds videos present in the current video's folder to playlist. | [3rd party](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua) |
-| `display_version.lua`      | Debugging script to print version information.                               | Custom                                                                            |
-| `modernz.lua`              | A modern UI for MPV.                                                         | [3rd party](https://github.com/Samillion/ModernZ)                                 |
-| `remeber_position.lua`     | Remember were the video was paused/stopped on last watch.                    | Custom                                                                            |
-| `remember_window_size.lua` | Remembers the window size from last playback.                                | Custom                                                                            |
-| `screenshot_directory.lua` | Use different screenshot folder based on OS.                                 | Custom                                                                            |
-| `thumbfast.lua`            | Show thumbnails on scroll on the progress bar.                               | [3rd party](https://github.com/po5/thumbfast)                                     |
-| `vlcorp.lua`               | Crop video to different resolutions.                                         | [3rd party](https://github.com/kism/mpvscripts/blob/main/scripts/vlccrop.lua)     |
-
-MPV Resources: [stax76’s curated list of mpv resources](https://github.com/stax76/awesome-mpv)
+Other MPV Resources: [stax76’s curated list of mpv resources](https://github.com/stax76/awesome-mpv)
 
 ### Commands
 

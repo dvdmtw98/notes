@@ -4,10 +4,10 @@ tags:
   - networking
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-29 10:30:56 -0600
+updated: 2025-06-06 09:52:14 -0500
 ---
 
-#### General Concepts
+### General Concepts
 
 * [[network-infrastructure|Network Infrastructure]]
 * [[network-architecture|Network Architecture]]
@@ -21,27 +21,14 @@ updated: 2024-01-29 10:30:56 -0600
 * [[network-security|Network Security]]
 * [[wireless-networking|Wireless Networking]]
 
-#### Networking Models
+### Networking Models
 
 * [[osi-model|OSI Model]]
 * [[tcp-ip-model|TCP-IP Model]]
 
-#### Layer-wise Concepts
+### Layer-wise Concepts
 
 * [[physical-layer-concepts|Physical Layer Concepts]]
 * [[data-link-layer-concepts|Data Link Layer Concepts]]
 * [[network-layer-concepts|Network Layer Concepts]]
 * [[transport-layer-concepts|Transport Layer Concepts]]
-
-#### Protocol Data Unit (PDU)
-
-A PDU is a single unit of information transmitted among entities of a computer network  
-e.g. In Transport Layer when using TCP, the PDU is the segment 
-
-#### Internet Speed
-
-ISP Speed : Mbps (Small b)  
-Download Speed : MBps (Big B)
-
-MBps to Mbps (Divide by 8)  
-Mbps to MBps (Multiply by 8)

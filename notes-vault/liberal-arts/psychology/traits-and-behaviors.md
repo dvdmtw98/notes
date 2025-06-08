@@ -3,9 +3,9 @@ title: Traits and Behaviors
 tags:
   - psychology
   - behaviour
-  - trait
+  - arts
 date: 2025-03-22 22:36:27 -0500
-updated: 2025-03-27 16:19:11 -0500
+updated: 2025-06-06 00:29:27 -0500
 ---
 
 **Masochist**  

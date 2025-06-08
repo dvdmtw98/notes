@@ -4,13 +4,18 @@ tags:
   - misc
   - index
 date: 2025-03-05 15:21:10 -0600
-updated: 2025-03-28 22:33:28 -0500
+updated: 2025-06-06 10:02:49 -0500
 ---
 
-### Table of Content
+### App & Programs
 
-- [[apps-and-programs|Apps & Programs]]
+- [[youtube-download|yt-dlp]]
+- [[ffmpeg|FFmpeg]]
+- [[mpv|MPV]]
+- [[vim-editor|Vim Editor]]
+- [[powershell-scripts|PowerShell Scripts]]
+- [[word|Microsoft Word]]
+
+### Games
+
 - [[chess|Chess]]
-- [[philosophical-doctrines|Philosophical Doctrines]]
-- [[biases-and-fallacies|Biases and Fallacies]]
-- [[traits-and-behaviors|Traits and Behaviors]]
