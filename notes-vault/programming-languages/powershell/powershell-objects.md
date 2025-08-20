@@ -4,7 +4,7 @@ tags:
   - scripting
   - powershell
 date: 2024-02-02 22:28:43 -0600
-updated: 2024-02-03 12:17:20 -0600
+updated: 2025-08-19 15:59:05 +0530
 ---
 
 The commands that can be executed from PS are <u>not all cmdlets</u>  
@@ -23,13 +23,14 @@ Get-Service Spooler | Get-Member
 ![[ps-get-member-result.png|600]]
 
 ```powershell
-Get-Process | Select-Object -Property Name,@{name="ProcId";Expression={$_.Id}}
+Get-Process | Select-Object -Property Name, @{name="ProcId"; Expression={$_.Id}}
 ```
 
 **`$_`**: Current Object  
-**`@{}`**: Create a Hash Table
+In place of **`$_`** we can also use **`$PSItem`**.
 
-In place of **`$_`** we can also use **`$PSItem`**
+**`@{}`**: Create a Hash Table (Dictionary)  
+In the above example, it is being used to rename `Id` to `ProcId`.
 
 ![[ps-cmdlet-property-type.png|500]]
 
