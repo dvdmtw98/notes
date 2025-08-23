@@ -5,7 +5,7 @@ tags:
   - linux
   - command
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-05-10 17:10:33 -0500
+updated: 2025-08-23 18:31:52 +0530
 ---
 
 ### Permissions
@@ -46,16 +46,16 @@ chmod 764 <filename>
 
 ### Special Permissions
 
-#### Special Bits
-Set UID/GID Bit (Run file as owner with owner permissions)  
+#### SUID/SGID Bit
 In Permissions represented by 4000 (SUID), 2000 (SGID) & 6000 (Both)  
 The "x" bit is replaced with "s" if this is set  
 SUID : Run file with permissions of file owner  
 SGID : Run file with permissions of the group owner
 
 #### Sticky Bit
-Sticky Bit (Only file owner can rename and delete file in the folder)  
-This permission works at the directory level  
+Only file owner, directory owner or root can rename and delete file in the folder    
+This permission is applied at the directory level  
+Rename and delete are operations that look at the permission of the directory  
 It is represented by "t" in place of the execute "x" bit in others section (rw-rw-rwt)  
 In permission represented by 1000
 

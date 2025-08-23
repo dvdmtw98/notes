@@ -6,7 +6,7 @@ tags:
   - index
   - scripting
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-03-09 11:30:31 -0500
+updated: 2025-08-21 16:46:56 +0530
 ---
 
 ### Table of Content
@@ -56,4 +56,4 @@ source mcd.sh
 mcd test
 ````
 
-`.` is an alias for the source keyword
+`.` is an alias for the source command
