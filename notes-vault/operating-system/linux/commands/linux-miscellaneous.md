@@ -5,7 +5,7 @@ tags:
   - linux
   - command
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-03-24 23:13:25 -0500
+updated: 2025-09-06 14:17:14 +0530
 ---
 
 Complete Command in Editor :` Ctrl + X + E`  

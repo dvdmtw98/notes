@@ -5,7 +5,7 @@ tags:
   - infrastructure
   - index
 date: 2025-06-06 09:20:30 -0500
-updated: 2025-06-06 10:16:14 -0500
+updated: 2025-08-31 11:28:25 +0530
 ---
 
 ### Network Security
@@ -14,8 +14,3 @@ updated: 2025-06-06 10:16:14 -0500
 * [[firewall|Firewalls]]
 * [[proxy-server|Proxy Servers]]
 * [[virtual-private-network-vpn|VPNs]]
-
-### Infrastructure Security
-
-- [[endpoint-protection|Endpoint Protection]]
-- [[security-controls|Security Controls]]

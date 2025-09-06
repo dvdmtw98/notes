@@ -6,7 +6,7 @@ tags:
   - security
   - policy
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-09-01 12:31:20 +0530
 ---
 
 ### International Organization for Standardization (ISO)/ International Electrotechnical Commission (IEC)
@@ -22,7 +22,7 @@ SOC 1 : 18 standard and report on the effectiveness of internal controls (SSAE) 
 <u>SOC 2</u> : Evaluates internal controls, policies and procedures that directly relate to the security of a system at a service organization  
 SOC 3 : A report based on the Trust Service Criteria that can be freely distributed
 
-### Payment Card Industry Data Security Standard (PCI DSS)
+### [[pci-dss|Payment Card Industry Data Security Standard (PCI DSS)]]
 A set of security standards designed to ensure ALL companies that accepts, process, store or transmit credit card information maintain a secure environment
 
 ### Federal Information Processing Standard (FIPS) 140-2

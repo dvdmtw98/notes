@@ -4,7 +4,7 @@ tags:
   - misc
   - index
 date: 2025-03-05 15:21:10 -0600
-updated: 2025-06-06 10:02:49 -0500
+updated: 2025-09-06 14:21:37 +0530
 ---
 
 ### App & Programs
@@ -15,6 +15,7 @@ updated: 2025-06-06 10:02:49 -0500
 - [[vim-editor|Vim Editor]]
 - [[powershell-scripts|PowerShell Scripts]]
 - [[word|Microsoft Word]]
+- [[miscellaneous/app-and-programs/virtualization|Virtualization]]
 
 ### Games
 

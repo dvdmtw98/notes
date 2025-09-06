@@ -6,12 +6,12 @@ tags:
   - security
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-08-31 19:55:05 +0530
 ---
 
 ### Table of Content
 
-* [[security-concepts|Security Concepts]]
+* [[cloud-security-concepts|Cloud Security Concepts]]
 	* [[zero-trust-model|Zero-Trust Model]]
 	* [[threat-modeling|Threat Modeling]]
 * **Identity & Access Management**

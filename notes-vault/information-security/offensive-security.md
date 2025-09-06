@@ -1,11 +1,11 @@
 ---
-title: Security Operations
+title: Offensive Security
 tags:
   - security
   - operation
   - index
 date: 2025-06-06 09:22:27 -0500
-updated: 2025-06-06 09:54:27 -0500
+updated: 2025-08-31 11:20:45 +0530
 ---
 
 ### Reconnaissance
@@ -14,7 +14,7 @@ updated: 2025-06-06 09:54:27 -0500
 * [[service-enumeration|Service Enumeration]]
 	* [[web-app-enumeration|Web App Enumeration]]
 
-### Offensive Security
+### Offensive Techniques
 
 * [[exploitation|Exploitation]]
 	* [[windows-exploitation|Windows Exploitation]]

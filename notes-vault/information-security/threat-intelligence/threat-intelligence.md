@@ -5,12 +5,12 @@ tags:
   - intelligence
   - index
 date: 2025-06-06 09:19:34 -0500
-updated: 2025-06-06 10:21:32 -0500
+updated: 2025-08-31 11:19:10 +0530
 ---
 
 ### Frameworks
 
-- [[cissp-security-domains|CISSP Security Domains]]
+* [[cissp-security-domains|CISSP Security Domains]]
 * [[pyramid-of-pain|Pyramid of Pain]]
 * [[cyber-defense-frameworks|Cyber Defense Frameworks]]
 

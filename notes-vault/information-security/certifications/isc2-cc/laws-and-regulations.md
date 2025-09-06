@@ -4,7 +4,7 @@ tags:
   - security
   - laws
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-09-01 12:30:43 +0530
 ---
 
 #### Criminal Law
@@ -56,8 +56,8 @@ Eases the restriction on foreign intelligence gathering in the US
 Part of Title 18 Section 1030  
 Commonly used law to prosecute computer crimes
 
-#### Payment Card Industry Data Security Standard (PCI-DSS)
-A set of security standards designed to ensure ALL companies that accepts, process, store or transmit credit card information maintain a secure environment
+#### [[pci-dss|Payment Card Industry Data Security Standard (PCI DSS)]]
+A set of security standards designed to ensure ALL companies that accepts, process, store or transmit credit card information maintain a secure environment.  
 
 #### General Data Protection Regulation (GDPR)
 Regulation in EU law on data protection and privacy for all individuals within the European Union (EU) and the European Economic Area (EEA)

@@ -5,7 +5,7 @@ tags:
   - tool
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-06-06 10:21:26 -0500
+updated: 2025-09-04 21:42:06 +0530
 ---
 
 ### Table of Content
@@ -25,3 +25,5 @@ updated: 2025-06-06 10:21:26 -0500
 	* [[yara|YARA]]
 	* [[bettercap|BetterCap]]
 	* [[misc-utilities|Misc. Utilities]]
+- **SIEM**
+	- [[splunk|Splunk]]

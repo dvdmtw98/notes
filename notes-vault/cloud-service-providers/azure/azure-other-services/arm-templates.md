@@ -6,7 +6,7 @@ tags:
   - azure
   - cloud
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-08-31 14:50:50 +0530
 ---
 
 ARM (Azure Resource Manager) Templates are JSON files build in a specific schema that allow to build Azure resources using code  

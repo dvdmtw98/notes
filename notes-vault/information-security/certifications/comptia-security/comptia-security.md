@@ -107,7 +107,7 @@ updated: 2024-02-22 15:15:59 -0600
 
 * [[benefits-of-cloud-computing|Benefits of Cloud Computing]]
 * [[cloud-security-concerns|Cloud Security Concerns]]
-* [[virtualization|Virtualization]]
+* [[information-security/security-architecture/virtualization|Virtualization]]
 * [[software-defined-networking-sdn|Software Defined Networking (SDN)]]
 * [[internet-of-things-iot|Internet of Things (IoT)]]
 * [[ics-and-scada-systems|ICS and SCADA Systems]]

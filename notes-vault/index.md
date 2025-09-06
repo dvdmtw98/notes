@@ -5,7 +5,7 @@ tags:
   - main
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-06-06 10:11:12 -0500
+updated: 2025-08-31 11:30:41 +0530
 ---
 
 Welcome to [Digital Archive](https://notes.davidvarghese.net). This is where I dump notes, tutorials, and random things I’m learning, exploring, or just find fascinating. It’s a messy-but-organized collection that I have cobbled together over time. Feel free to poke around.
@@ -28,11 +28,12 @@ This isn’t a polished guide; it will contain mistakes. [Feedback](https://gith
 ### Information Security
 
 * [[cryptography|🔐 Cryptography]]
-* [[access-management|🛡️ Identity & Access Management]]
-* [[threat-intelligence|🕵️ Threat Intelligence]]
 * [[security-infrastructure|🏗️ Security Infrastructure]]
+* [[access-management|🗝️ Identity & Access Management (IAM)]]
+* [[threat-intelligence|🕵️ Cyber Threat Intelligence (CTI)]]
+* [[defensive-operations|🛡️ Defensive Operations]]
+* [[offensive-security|⚔️ Offensive Security]]
 * [[security-tools|🧰 Security Tools]]
-* [[security-operations|⚔️ Security Operations]]
 * [[security-certifications|🎓 Certifications]]
 
 ### Software Engineering

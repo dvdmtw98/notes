@@ -5,7 +5,7 @@ tags:
   - risk
   - management
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-09-03 12:28:54 +0530
 ---
 
 ### Qualitative Risk Analysis
@@ -14,8 +14,8 @@ Subjective and relies on the expertise and experience of the project team and st
 [[risk-register|Risk Register]]
 
 ### Quantitative Risk Analysis
-Method of evaluating risk that uses numerical measurements  
-Used for critical asset and risks that have high likelihood of occuring
+Method of evaluating risk that uses numerical measurements.  
+Used for critical asset and risks that have high likelihood of occurring.
 
 ![[risk-assessment-matrix.webp|500]]
 

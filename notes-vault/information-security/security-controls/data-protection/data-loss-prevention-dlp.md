@@ -4,23 +4,23 @@ tags:
   - cloud
   - security
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-08-31 18:29:43 +0530
 ---
 
 Monitor the data of a system while in use, transit or at rest to detect attempts to steal data
 It is a service designed to help discover, classify, and protect our most sensitive data  
-DLP can be an software or hardware solution
+DLP can be a software or hardware solution
 
-##### Endpoint DLP
+#### Endpoint DLP
 Software that monitors the data in use on a computer  
 Can stop malicious activities or alert an administrator of the occurrence
 
-##### Network DLP
+#### Network DLP
 Software or hardware-based system that is installed on the perimeter of the network  
 Used to monitor detect data in-transit
 
-##### Storage DLP
+#### Storage DLP
 Software installed on servers in the data centers to protect data at rest
 
-##### Cloud DLP
+#### Cloud DLP
 Cloud SaaS that protects the data being stored in the cloud
