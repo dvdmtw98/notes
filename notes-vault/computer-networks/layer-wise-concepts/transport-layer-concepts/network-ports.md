@@ -5,19 +5,20 @@ tags:
   - transport
   - port
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-30 18:44:41 -0600
+updated: 2025-09-07 16:46:44 +0530
 ---
 
-A logical communication endpoint that exists on a computer or server  
-TCP and UDP both has 65,536 ports
+A logical communication endpoint that exists on a computer or server.  
+It is to used to distinguish between the different devices on the network.  
+TCP and UDP both has 65,536 ports.  
 
 **Inbound**  
-Port that is listening for a connection from a client (Specific Port)  
+Port that is listening for a connection from a client (Specific Port).  
 
 **Outbound**  
-Port created to call out to a server that is listening for a connection (High Random Port)
+Port created to call out to a server that is listening for a connection (High Random Port).
 
-#### Port Types
+### Port Types
 
 | Port Type        | Port Numbers  | Description                                    |
 | ---------------- | ------------- | ---------------------------------------------- |
@@ -29,8 +30,16 @@ Port created to call out to a server that is listening for a connection (High Ra
 PC (High Random Port) → Web Server (Specific Port)  
 PC (High Random Port) ← Web Server (Specific Port)
 
-### Common Protocol Ports
+### Port Forwarding
+It is also known as port mapping.  
 
+Port forwarding is a networking technique used to route communication from the internet to a specific device within a private (local) network.  
+Once configured a router that receives a request on a public IP address and port, then redirects it to an internal (private) IP address and possibly a different port.  
+
+It enables services on internal hosts like servers, cameras, or game consoles to be reachable from the outside world.  
+Can be a security risk if not configured properly.
+
+### Common Protocol Ports
 **Protocols**: Rules governing device communication and data exchange
 
 | Protocol | Port | Protocol | Usage |

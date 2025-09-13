@@ -1,13 +1,15 @@
 ---
 title: Screened Subnet
+aliases:
+  - Demilitarized Zone (DMZ)
 tags:
   - networking
   - security
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-03-10 09:25:55 -0500
+updated: 2025-09-07 15:52:50 +0530
 ---
 
-Also called <u>De-militarized Zone (DMZ)</u>   
+Also called <u>Demilitarized Zone (DMZ)</u>   
 
 Type of network that is used to be separate the Internet from the organizations network  
 Untrusted users outside an organizations LAN can access services within the DMZ  

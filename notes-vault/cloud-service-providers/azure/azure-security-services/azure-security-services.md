@@ -6,7 +6,7 @@ tags:
   - security
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-08-31 19:55:05 +0530
+updated: 2025-09-07 15:44:55 +0530
 ---
 
 ### Table of Content
@@ -37,12 +37,11 @@ updated: 2025-08-31 19:55:05 +0530
 	* [[blob-storage-security|Blob Storage Security]]
 
 ### Azure Bastion
-Intermediate hardened instance that can be used to connect to target via SSH or RDP  
-It will provision a web-based RDP client or SSH Tunnel  
+It has also called a [[jump-server|Jump Server]] or Bastion Host.  
+It is a hardened VM that sits between us and the VMs on the isolated network.  
 
-Some devices cannot run RDP (Google Chromebook) so only way to connect to VM  
-When we create Azure Bastion that has to be added to a subnet in our VNet called `AzureBastionSubnet` with at least a size of `/27`  
-With Bastion we can connect to a VM without an Public IP Address
+When we create Azure Bastion it has to be added to a subnet in our VNet called `AzureBastionSubnet` with at least a size of `/27`.  
+With Bastion we can connect to a VM without a Public IP Address.
 
 ### Azure Sentinel
 Cloud-native SIEM and SOAR  

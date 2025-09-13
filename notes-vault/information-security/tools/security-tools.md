@@ -5,11 +5,13 @@ tags:
   - tool
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-09-04 21:42:06 +0530
+updated: 2025-09-06 22:20:23 +0530
 ---
 
 ### Table of Content
 
+- **SIEM**
+	- [[splunk|Splunk]]
 - **Recon & Scanning**
 	* [[nmap|Nmap]]
 	* [[rust-scan|Rust Scan]]
@@ -25,5 +27,3 @@ updated: 2025-09-04 21:42:06 +0530
 	* [[yara|YARA]]
 	* [[bettercap|BetterCap]]
 	* [[misc-utilities|Misc. Utilities]]
-- **SIEM**
-	- [[splunk|Splunk]]

@@ -6,7 +6,7 @@ tags:
   - container
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-04-20 19:57:49 -0500
+updated: 2025-09-07 17:09:55 +0530
 ---
 
 ### Table of Content
@@ -60,8 +60,7 @@ docker run
 
 ### Miscellaneous Points
 
-* Containers are only alive till the command that started the container is running
-* When we specify an command at the end of the "docker run" command it will overwrite the default startup command of the container
-* It is best practice to create a new network for each application
-* The default network driver used by Docker is Bridge. The default bridge does not have a DNS Server. To overcome this issue the `--link` flag can be used which allows to link containers that need to communicate with each other together
-* When we run a container an new read/ write layer is added over the base image (a new copy of base image is not created) because of this only extra space for the new layer is required
+* When we specify a command at the end of the "docker run" command it will overwrite the default startup command of the container.
+* It is considered best practice to create a new network for each application.
+* The default network driver used by Docker is Bridge. The default bridge does not have a DNS Server. To overcome this issue the `--link` flag can be used which allows to link containers that need to communicate with each other together.
+* When we run a container a new read/ write layer is added over the base image (a new copy of base image is not created) because of this only extra space for the new layer is required.

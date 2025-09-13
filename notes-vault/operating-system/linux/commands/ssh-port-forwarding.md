@@ -5,7 +5,7 @@ tags:
   - linux
   - command
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-09-07 15:58:12 +0530
 ---
 
 ### Local Port Forwarding

@@ -5,7 +5,7 @@ tags:
   - web
   - attack
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2025-09-11 21:59:21 +0530
 ---
 
 It is a code injection attack  
@@ -32,7 +32,7 @@ This is one of the most commonly used method to see if the site is vulnerable to
 
 #### Reflected XSS
 
-Works when the target loads an URL that is specially crafted by the attacker  
+Works when the target loads a URL that is specially crafted by the attacker  
 Affects input fields and URLs that have parameters. If the input fields are not sanitized then we can enter a JS script which will get executed when submitted
 
 [Reflected XSS Example](http://testphp.vulnweb.com/listproducts.php?cat=%3Cscript%3Ealert(%22Hello%20World%22)%3C/script%3E)
@@ -62,7 +62,7 @@ So in place of the IP Address that will be stored on the site we are able to sto
 #### DOM-based/ Client-side XSS
 
 This attack happens on the client-side not on the server  
-The script needs to be in an language that is processed on the client side like HTML, CSS 
+The script needs to be in a language that is processed on the client side like HTML, CSS 
 
 Can be dangerous as it happens on client side because of which the server side input validation is not performed  
 Generally found on pages that refresh the content without reloading the page (Perform action without accessing server)
