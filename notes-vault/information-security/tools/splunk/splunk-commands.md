@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2025-09-08 15:51:32 +0530
-updated: 2025-09-08 15:56:59 +0530
+updated: 2025-09-17 18:30:50 +0530
 ---
 
 Commands that create statistics (table) and visualizations (graphs) are called transforming commands.  
@@ -49,3 +49,5 @@ The `as` clause is used for renaming the field.
 [stats command: Overview, syntax, and usage \| Splunk Docs](https://help.splunk.com/en/splunk-cloud-platform/search/spl2-search-reference/stats-command/stats-command-overview-syntax-and-usage#using-the-from-command-instead-0)  
 
 [stats command: Examples \| Splunk Docs](https://help.splunk.com/en/splunk-cloud-platform/search/spl2-search-reference/stats-command/stats-command-examples)  
+
+[Aggregate functions - Splunk Documentation](https://docs.splunk.com/Documentation/Splunk/9.4.2/SearchReference/Aggregatefunctions)

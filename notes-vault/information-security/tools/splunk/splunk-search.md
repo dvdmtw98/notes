@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2025-09-06 22:01:49 +0530
-updated: 2025-09-06 22:10:51 +0530
+updated: 2025-09-17 17:45:36 +0530
 ---
 
 SPL: Splunk Search Processing Language  

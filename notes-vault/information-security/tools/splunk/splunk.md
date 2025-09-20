@@ -5,26 +5,23 @@ tags:
   - splunk
   - siem
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-09-08 16:08:32 +0530
+updated: 2025-09-19 22:20:38 +0530
 ---
 
 ### Table of Content
 
-- [[splunk-core-components|Core Components]]
+- [[splunk-architecture|Splunk Architecture]]
+- [[splunk-apps|Splunk Apps]]
 - [[splunk-search|Splunk Search]]
+	- [[splunk-subsearch|Splunk Subsearch]]
 - [[splunk-fields|Splunk Fields]]
 - [[splunk-commands|Splunk Commands]]
 
 ---
 
-### Splunk Apps/ Add-ons
-Adds additional functionality in Splunk (sources, processing options).  
-Apps have a UI and allow users to configure various parameters.  
-
-Add-ons do not have UI (they run in background).  
-Some add-ons are also called referred to as TAs (Technical Add-ons).
-
-Apps and add-ons are downloaded from Splunkbase.  
+### Enterprise Security
+ES → Content → Content Management  
+We can see all Correlation Searches and Analytic Stories.  
 
 ---
 
