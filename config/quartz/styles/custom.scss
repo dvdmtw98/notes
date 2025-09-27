@@ -27,12 +27,11 @@
 
 .search {
   >.search-button {
-    background-color: transparent;
-    width: auto;
-    height: 0;
+    border: none;
+    padding: 0;
 
     & svg {
-      margin: 0.2rem 0 0;
+      margin: 0;
     }
   }
 }
