@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-09-27 21:04:46 +0530
+updated: 2025-09-28 21:45:38 +0530
 ---
 
 ### Table of Content
@@ -14,8 +14,9 @@ updated: 2025-09-27 21:04:46 +0530
 - [[splunk-apps|Splunk Apps]]
 - [[splunk-search|Splunk Search]]
 	- [[splunk-subsearch|Splunk Subsearch]]
-- [[splunk-data-model|Splunk Data Model]]
+	- [[splunk-lookups|Splunk Lookups]]
 - [[splunk-fields|Splunk Fields]]
+- [[splunk-data-model|Splunk Data Model]]
 - [[splunk-commands|Splunk Commands]]
 
 ---
@@ -23,10 +24,6 @@ updated: 2025-09-27 21:04:46 +0530
 ### Enterprise Security
 ES → Content → Content Management  
 We can see all Correlation Searches and Analytic Stories.  
-
-### Lookups
-It is used to enrich the indexed data by bringing in additional fields from external sources.  
-Lookups match one or more fields in our events with fields in a lookup table, then adds corresponding fields from the lookup table to your events when a match is found.  
 
 ---
 

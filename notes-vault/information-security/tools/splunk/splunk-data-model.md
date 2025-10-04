@@ -5,7 +5,7 @@ tags:
   - splunk
   - security
 date: 2025-09-27 21:04:38 +0530
-updated: 2025-09-27 21:26:46 +0530
+updated: 2025-09-27 21:47:15 +0530
 ---
 
 Splunk uses CIM (Common Information Model) to assign a consistent structure and naming to data.  
@@ -31,6 +31,23 @@ index=main eventtype=failed_login host=webserver1
 
 ### Tstats
 
-![[splunk-tstats-1.png|640]]
+![[splunk-data-model-query.png|640]]
 
 `tstats` command is used to query data model.  
+The subcategories that exist in a Data Model is called a Dataset.  
+
+```
+index=main sourcetype=auth_logs
+| search action="failure" OR action="success"
+| stats count(eval(action="failure")) AS failures count(eval(action="success")) AS successes by src
+```
+
+With data models we use object oriented approach to access the datasets.
+
+```
+| tstats count(eval(Authentication.action="failure")) AS failures count(eval(Authentication.action="success")) AS successes
+    FROM datamodel=Authentication.Authentication
+    BY Authentication.src
+```
+
+Tstats allows us to search accelerated data much faster than normal search.  

@@ -5,7 +5,7 @@ tags:
   - siem
   - splunk
 date: 2025-09-08 15:49:17 +0530
-updated: 2025-09-08 15:50:49 +0530
+updated: 2025-09-28 20:38:54 +0530
 ---
 
 `host`, `source`, `sourcetype`, `_raw` and `_time` are fields added at index time.  
@@ -16,8 +16,8 @@ Field names with `-` are automatically converted to `_` (underscore) by the inde
 
 Interesting Fields are fields that have value in at least 20% of the events.  
 Splunk field names are case-sensitive while the value are case-insensitive.  
-Calculated fields allows us to store the value of `eval` expression.  
-Lookup Fields allow to reference data that is not part of the indexed data.  
+**Calculated** fields allows us to store the value of `eval` expression.  
+**Lookup** Fields allow to reference data that is not part of the indexed data.  
 
 **Field Evaluation Order**  
 Extracted Fields - Field Alias - Calculated Field - Lookup - Event Types - Tags
@@ -29,4 +29,8 @@ These fields are not timestamp aware.
 `time()`: Returns the time the event was processed by `eval`
 
 `| fields`: Fields to include in result. Use `-` before name to exclude a field.  
+This does not remove any of the `_` fields.  
+`| table` is used to remove all fields leaving the ones mentioned.  
+It is recommended to use table command only at the end of the query.  
+
 `| erex` & `| rex`: Create new fields from data that using regex.  
