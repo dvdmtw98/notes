@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2025-09-06 22:01:49 +0530
-updated: 2025-09-28 20:18:09 +0530
+updated: 2025-10-05 22:39:26 +0530
 ---
 
 SPL: Splunk Search Processing Language  
@@ -13,7 +13,7 @@ SPL: Splunk Search Processing Language
 
 `Ctrl + \`: Format query  
 `Shift + Enter`: Create newline  
-`Ctrl + Shift + e`: Expand the search  
+`Ctrl + Shift + e`: Expand the search (Expands all alias/macros)  
 
 ### Search Components
 **Search Terms**: Foundation of the search  
@@ -83,3 +83,29 @@ index=_myindex earliest=-1mon@mon+16d latest=@mon
 
 `earliest` and `latest` argument takes precedence over the time picker value.  
 [Select time ranges to apply to your search - Splunk Docs](https://docs.splunk.com/Documentation/Splunk/9.4.2/Search/Selecttimerangestoapply)
+
+`strptime()`: String Parse + Time (Epoch to String)  
+`strftime()`: String from Time (String to Epoch)  
+
+### Index Count
+
+```
+| eventcount sumarize=false index=*
+| stats count by index
+```
+
+```
+| metadata index=* type=sourcetypes
+```
+
+These commands are quite performant and will not slow down the system.
+
+```
+| makeresults count=3
+| streamstats count
+| eval name=case(count=1, "Hades", count=2, "Zeus", count=3, "Demeter")
+| collect index=my_index sourcetype=my_sourcetype
+```
+
+The `collet` command allows us to create a new **summary index**.  
+Summary index do not count towards the ingest limit.  

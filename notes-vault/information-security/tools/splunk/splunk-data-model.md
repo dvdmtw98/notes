@@ -5,7 +5,7 @@ tags:
   - splunk
   - security
 date: 2025-09-27 21:04:38 +0530
-updated: 2025-09-27 21:47:15 +0530
+updated: 2025-10-05 16:32:40 +0530
 ---
 
 Splunk uses CIM (Common Information Model) to assign a consistent structure and naming to data.  
@@ -19,9 +19,10 @@ Field names can be aliased to match the names in the data model.
 This is performed at search type by the Splunk head so will introduce a small delay.  
 
 ### Event Types
-Event types allow us to assign names to queries/searches (category for events).  
+Event type is a label/classification that can be defined for a search query.  
 Event Types can be defined with priority and color.  
 Event Types with priority 1 has the highest importance (will override other colors).  
+Event types are considered as knowledge object in Splunk.  
 Stored in: `eventtypes.conf`  
 
 ```
