@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2025-09-06 22:01:49 +0530
-updated: 2025-10-05 22:39:26 +0530
+updated: 2025-10-22 18:13:35 +0530
 ---
 
 SPL: Splunk Search Processing Language  
@@ -84,8 +84,8 @@ index=_myindex earliest=-1mon@mon+16d latest=@mon
 `earliest` and `latest` argument takes precedence over the time picker value.  
 [Select time ranges to apply to your search - Splunk Docs](https://docs.splunk.com/Documentation/Splunk/9.4.2/Search/Selecttimerangestoapply)
 
-`strptime()`: String Parse + Time (Epoch to String)  
-`strftime()`: String from Time (String to Epoch)  
+`strptime()`: String Parse Time (String to Epoch)  
+`strftime()`: String Format Time (Epoch to String)  
 
 ### Index Count
 

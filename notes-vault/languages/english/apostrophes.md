@@ -4,7 +4,14 @@ tags:
   - language
   - english
 date: 2025-02-20 15:51:07 -0600
-updated: 2025-02-20 16:14:29 -0600
+updated: 2025-10-19 14:07:58 +0530
+---
+
+Apostrophes are only used with contractions and to indicate possession.  
+All other cases no apostrophe.  
+Its without apostrophe is used for possession. It’s denotes contraction.  
+The `'` after words is not necessary.  
+
 ---
 
 #### Singular Nouns

@@ -5,7 +5,7 @@ tags:
   - siem
   - security
 date: 2025-09-28 21:45:32 +0530
-updated: 2025-10-06 23:32:29 +0530
+updated: 2025-10-24 16:57:53 +0530
 ---
 
 Used to enrich the indexed data by bringing in additional fields from external sources.  
@@ -22,6 +22,9 @@ index=web sourcetype=access_combined
 
 `IP`: Name of field in lookup  
 `clientip`: Name of field in Events
+
+`OUTPUT`: Always create a new field.  
+`OUTPUTNEW`: Create the new field only if it does not exist.  
 
 Lookups can also be used to filter data by using it in a [[splunk-subsearch|subsearch]].  
 
