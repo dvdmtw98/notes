@@ -5,7 +5,7 @@ tags:
   - main
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-08-31 11:30:41 +0530
+updated: 2025-10-26 16:06:13 +0530
 ---
 
 Welcome to [Digital Archive](https://notes.davidvarghese.net). This is where I dump notes, tutorials, and random things I’m learning, exploring, or just find fascinating. It’s a messy-but-organized collection that I have cobbled together over time. Feel free to poke around.
@@ -47,15 +47,8 @@ This isn’t a polished guide; it will contain mistakes. [Feedback](https://gith
 ### Applied Sciences
 
 * [[electronics|💡 Electronics]]
-* [[miscellaneous|🎲 Miscellaneous]]
 
-### Humanities
+### Others
 
-* [[logical-fallacies|⚖️ Logical Fallacies]]
-* [[languages|🈯 Languages]]
-* [[poetry-structure|📜 Poetry Structure]]
-
-### Social Sciences
-
-* [[cognitive-biases|🧠 Cognitive Biases]]
-* [[traits-and-behaviors|🧬 Traits & Behaviors]]
+- [[liberal-arts|🎨 Liberal Arts]]
+- [[chess|♟️ Chess]]
