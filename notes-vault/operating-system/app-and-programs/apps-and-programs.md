@@ -4,7 +4,7 @@ tags:
   - misc
   - index
 date: 2025-03-05 15:21:10 -0600
-updated: 2025-10-26 16:03:45 +0530
+updated: 2025-11-26 08:38:44 +0530
 ---
 
 ### App & Programs
@@ -16,3 +16,4 @@ updated: 2025-10-26 16:03:45 +0530
 - [[powershell-scripts|PowerShell Scripts]]
 - [[word|Microsoft Word]]
 - [[operating-system/app-and-programs/virtualization|Virtualization]]
+- [[mozilla-firefox|mozilla-firefox]]
