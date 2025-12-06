@@ -5,7 +5,7 @@ tags:
   - main
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-10-26 16:06:13 +0530
+updated: 2025-11-30 18:34:10 +0530
 ---
 
 Welcome to [Digital Archive](https://notes.davidvarghese.net). This is where I dump notes, tutorials, and random things I’m learning, exploring, or just find fascinating. It’s a messy-but-organized collection that I have cobbled together over time. Feel free to poke around.
@@ -22,6 +22,7 @@ This isn’t a polished guide; it will contain mistakes. [Feedback](https://gith
 
 * [[cloud-service-providers|☁️ Cloud Service Providers]]
 * [[computer-networks|📶 Computer Networks]]
+* [[computer-architecture|⚙️ Computer Architecture]]
 * [[operating-system|🖥️ Operating System]]
 * [[blockchain|⛓️ Blockchain]]
 
