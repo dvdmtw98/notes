@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2025-09-08 15:51:32 +0530
-updated: 2025-10-06 22:59:58 +0530
+updated: 2025-12-06 23:10:15 +0530
 ---
 
 ### Streaming Commands
@@ -35,6 +35,19 @@ index=botsv3
 | eval connection=src_ip . " -> " . dest_ip
 | table src_ip, dest_ip, connection
 ```
+
+#### Transaction
+Used to group events together that have match certain condition.  
+The new event generated will use the time of the earliest event.  
+The command creates 2 new fields duration and event count.  
+
+```
+sourcetype=access_* 
+| transaction JSESSIONID clientip startswith="view" endswith="purchase" 
+| where duration>0
+```
+
+[transaction \| Splunk Docs](https://help.splunk.com/en/splunk-enterprise/spl-search-reference/9.3/search-commands/transaction)
 
 ### Transforming Commands
 Commands that create summaries, statistics (table) or visualizations (graphs) are called transforming commands.  
