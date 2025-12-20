@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-10-06 22:41:45 +0530
+updated: 2025-12-19 22:57:02 +0530
 ---
 
 ### Table of Content
@@ -25,8 +25,6 @@ updated: 2025-10-06 22:41:45 +0530
 ### Enterprise Security
 ES → Content → Content Management  
 We can see all Correlation Searches and Analytic Stories.  
-
----
 
 ### Reports & Alerts
 
@@ -49,19 +47,6 @@ Actions can be triggered when an Scheduled Report or Alert is executed
 
 To create choropleth maps `.kmz` files that have the boundaries are required  
 `! geom`: Link indexed data with the polygonal data from the KMZ files
-
-### Transforming Commands
-
-`| chart`  
-Over clause defines x-axis  
-By clause adds granularity (Multi-series plot)  
-Over clause with 2 fields will be treated as a multi-series plot
-
-`| timechart`  
-Charts where time is always the x-axis  
-The output is always buckets over the time range (Span to change bucket)    
-For a 60 min search the span is default 1 min  
-For a 24 hour search the span is default 30 min
 
 ### Knowledge Objects
 

@@ -5,7 +5,7 @@ tags:
   - siem
   - analytics
 date: 2025-11-26 10:23:36 +0530
-updated: 2025-11-26 14:15:24 +0530
+updated: 2025-12-14 20:30:00 +0530
 ---
 
 Elastic Search was re-branded to Elastic in 2015.  
@@ -69,6 +69,9 @@ Elastic also supports user defined pipeline that can be used with mutate filter 
 ### Data Structure
 Data in ElasticSearch is saved in an index.  
 An index is a collection of documents that share similar characteristics.  
+Kibana now uses the term data views to refer to indexes.  
+When a wildcard is used with a index (e.g. `ecs-zeek-*`) its called an index pattern.  
+
 Documents contain data that are stored as key value pairs.  
 The datatype determines which functions can be used on it.  
 

@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2025-09-08 15:51:32 +0530
-updated: 2025-12-06 23:10:15 +0530
+updated: 2025-12-19 22:58:31 +0530
 ---
 
 ### Streaming Commands
@@ -51,6 +51,22 @@ sourcetype=access_*
 
 ### Transforming Commands
 Commands that create summaries, statistics (table) or visualizations (graphs) are called transforming commands.  
+
+Statistics tables can be used to create various types of visualizations.  
+Single Series: Two Column  
+Multi-Series: More than 2 Columns  
+Time Series: Time Column  
+
+#### Chart  
+Over clause defines x-axis  
+By clause adds granularity (Multi-series plot)  
+Over clause with 2 fields will be treated as a multi-series plot
+
+#### Timechart
+Charts where time is always the x-axis.  
+The output is always buckets over the time range (Span to change bucket).  
+For a 60 min search the span is default 1 min.  
+For a 24 hour search the span is default 30 min.
 
 #### Top
 Find the most common values of a field.   
