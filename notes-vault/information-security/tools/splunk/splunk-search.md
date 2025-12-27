@@ -5,13 +5,13 @@ tags:
   - splunk
   - siem
 date: 2025-09-06 22:01:49 +0530
-updated: 2025-10-22 18:13:35 +0530
+updated: 2025-12-22 21:52:41 +0530
 ---
 
 SPL: Splunk Search Processing Language  
 `Settings → Data Inputs` has more ingestion options than `Settings → Add Data`.  
 
-`Ctrl + \`: Format query  
+`Ctrl + \` & `Ctrl + Shift + F`: Format query  
 `Shift + Enter`: Create newline  
 `Ctrl + Shift + e`: Expand the search (Expands all alias/macros)  
 
@@ -98,7 +98,7 @@ index=_myindex earliest=-1mon@mon+16d latest=@mon
 | metadata index=* type=sourcetypes
 ```
 
-These commands are quite performant and will not slow down the system.
+These commands are quick and will not slow down the system.
 
 ```
 | makeresults count=3

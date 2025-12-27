@@ -4,7 +4,7 @@ tags:
   - osint
   - security
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-29 09:16:40 -0600
+updated: 2025-12-23 22:17:40 +0530
 ---
 
 ### Email Address OSINT
@@ -15,12 +15,11 @@ updated: 2024-02-29 09:16:40 -0600
 
 [Phonebook.cz - Intelligence X](https://phonebook.cz/)
 
-[GitHub - laramies/theHarvester: E-mails, subdomains and names Harvester - OSINT](https://github.com/laramies/theHarvester)
+[laramies/theHarvester: E-mails, subdomains and names Harvester - OSINT](https://github.com/laramies/theHarvester)
 
 #### Email Validator
 
 [Free Email Address Verifier: Verify An Email Address In Real Time | emailhippo.com](https://tools.emailhippo.com/)  
-
 [Email Checker - Verify Email Address Online](https://email-checker.net/)
 
 Login/Password Reset Prompts can also reveal sensitive information
@@ -37,7 +36,7 @@ Login/Password Reset Prompts can also reveal sensitive information
 
 [GitHub - owasp-amass/amass: In-depth Attack Surface Mapping and Asset Discovery](https://github.com/owasp-amass/amass)
 
-[GitHub - laramies/theHarvester: E-mails, subdomains and names Harvester - OSINT](https://github.com/laramies/theHarvester)
+[laramies/theHarvester: E-mails, subdomains and names Harvester - OSINT](https://github.com/laramies/theHarvester)
 
 [crt.sh | Certificate Search](https://crt.sh/)  
 

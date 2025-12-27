@@ -5,12 +5,13 @@ tags:
   - operation
   - index
 date: 2025-06-06 09:22:27 -0500
-updated: 2025-08-31 11:20:45 +0530
+updated: 2025-12-23 22:18:31 +0530
 ---
 
 ### Reconnaissance
 
 * [[information-gathering|Information Gathering]]
+	* [[gogle-dorking|Google Dorking]]
 * [[service-enumeration|Service Enumeration]]
 	* [[web-app-enumeration|Web App Enumeration]]
 

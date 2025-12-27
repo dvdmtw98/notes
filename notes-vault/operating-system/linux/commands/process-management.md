@@ -5,7 +5,7 @@ tags:
   - linux
   - command
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 21:49:39 -0600
+updated: 2025-12-20 22:12:23 +0530
 ---
 
 ### Process Management

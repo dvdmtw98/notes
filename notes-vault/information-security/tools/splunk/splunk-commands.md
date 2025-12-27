@@ -5,8 +5,18 @@ tags:
   - splunk
   - siem
 date: 2025-09-08 15:51:32 +0530
-updated: 2025-12-19 22:58:31 +0530
+updated: 2025-12-22 22:23:33 +0530
 ---
+
+### Search Context
+The IN operator can only be used with wildcards when used before the first pipe or with the `search` command.  
+When IN is used with `where` it is treated as the `in()` function which does not support wildcards.  
+
+When using IN operator we should not prefix literals with wildcards as its inefficient.  
+Additionally, using wildcards in the middle of term can produce inconsistent results.  
+
+To search for literals that end with a term it is recommended to use `like()` or `regex()` with the `where` or `eval` command.  
+When we do not mention `where` or `search` after a pipe it is implied that we are using `search` command.  
 
 ### Streaming Commands
 
@@ -23,7 +33,7 @@ index=web OR index=security
 
 ```
 index=botsv3
-| eval login_status=if(status=="success", 1, 0)
+| eval login_status=if(status="success", 1, 0)
 | table status, login_status
 ```
 
@@ -54,13 +64,14 @@ Commands that create summaries, statistics (table) or visualizations (graphs) ar
 
 Statistics tables can be used to create various types of visualizations.  
 Single Series: Two Column  
-Multi-Series: More than 2 Columns  
-Time Series: Time Column  
+Multi-Series: More than 2 Columns (Multiple values for y-axis)  
+Time Series: Time (x-axis) with 1 or more columns (y-axis)
 
-#### Chart  
-Over clause defines x-axis  
-By clause adds granularity (Multi-series plot)  
-Over clause with 2 fields will be treated as a multi-series plot
+#### Chart
+Command: `chart <stats-function> over <field>`  
+The stats function result is used as the y-axis it's always a numeric value.  
+
+Command: `chart <stats-function> over <field1> by <field2>`  
 
 #### Timechart
 Charts where time is always the x-axis.  
