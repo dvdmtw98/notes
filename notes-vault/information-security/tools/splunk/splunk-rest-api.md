@@ -5,7 +5,7 @@ tags:
   - security
   - siem
 date: 2025-10-06 22:18:23 +0530
-updated: 2025-10-06 22:41:38 +0530
+updated: 2026-01-01 22:40:12 +0530
 ---
 
 #### Usage
@@ -16,7 +16,7 @@ updated: 2025-10-06 22:41:38 +0530
 | rest /services/saved/searches splunk_server=local count=2
 ```
 
-The above syntax will only show results from the app in which the query is executed. The `servucesNS` endpoint has to be used to specify the user and app context.
+The above syntax will only show results from the app in which the query is executed. The `servicesNS` endpoint has to be used to specify the user and app context.
 
 ```
 | rest /servicesNS/-/-/saved/searches

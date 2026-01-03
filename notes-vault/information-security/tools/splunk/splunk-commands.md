@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2025-09-08 15:51:32 +0530
-updated: 2025-12-22 22:23:33 +0530
+updated: 2026-01-01 22:37:15 +0530
 ---
 
 ### Search Context
@@ -17,6 +17,8 @@ Additionally, using wildcards in the middle of term can produce inconsistent res
 
 To search for literals that end with a term it is recommended to use `like()` or `regex()` with the `where` or `eval` command.  
 When we do not mention `where` or `search` after a pipe it is implied that we are using `search` command.  
+
+Search can only be used to compare a field with a value (RHS cannot be field name). If the LHS and RHS of a condition is a field name then `where` has to be used.
 
 ### Streaming Commands
 
@@ -113,7 +115,8 @@ The `as` clause is used for renaming the field.
 Stats with count is a better and efficient method of **deduping** the results.    
 
 ### Multivalue Functions
-Internally multivalue fields are treats as arrays.  
+Internally multivalue fields are treats as lists.  
+A single valued field is a list with only one element.  
 
 #### Makemv
 
