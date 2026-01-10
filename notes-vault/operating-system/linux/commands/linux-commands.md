@@ -6,7 +6,7 @@ tags:
   - command
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-05-10 17:10:50 -0500
+updated: 2026-01-09 21:53:51 +0530
 ---
 
 ### Topic Related Commands
@@ -33,7 +33,6 @@ updated: 2025-05-10 17:10:50 -0500
 * [[lsof-command|lsof Command]]
 * [[mount-commands|Mount Commands]]
 * [[seq-command|seq Command]]
-* [[sftp-command|sftp Command]]
 * [[sort-and-uniq-command|sort & uniq Command]]
 * [[ssh-command|ssh Command]]
 	* [[ssh-port-forwarding|SSH Port Forwarding]]

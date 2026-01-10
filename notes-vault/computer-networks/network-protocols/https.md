@@ -1,11 +1,11 @@
 ---
-title: HTTP(S) Protocol
+title: HTTPS
 tags:
   - security
   - web
   - protocol
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-01-09 21:58:35 +0530
 ---
 
 It is a stateless application layer protocol  
@@ -83,6 +83,6 @@ HTTP Headers
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TvRyJmPjcbw?si=ZJ-VU9oltDGA9_ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-[HTTP headers - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)  
+[HTTP headers - HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
 
 [HTTP Headers for Dummies](https://code.tutsplus.com/tutorials/http-headers-for-dummies--net-8039)

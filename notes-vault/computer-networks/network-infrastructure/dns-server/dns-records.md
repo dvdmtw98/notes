@@ -5,20 +5,20 @@ tags:
   - device
   - dns
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-04-30 10:05:31 -0500
+updated: 2026-01-08 22:05:25 +0530
 ---
 
 #### A (Address) Record
-Forward Lookup Zone  
+Maps domain name to one or more IP addresses.  
 IPv4 : A Record  
-IPv6 : AAAA Record
+IPv6 : AAAA Record (pronounced quad-A)
 
 #### CNAME (Canonical Name) Record
 Used to resolve a Domain Name to another domain name  
 Causes DNS Lookup to be performed for the Alias Domains IP Address  
 Can be used to redirect to another server  
 
-#### MX (Mail Exchanger) Record
+#### MX (Mail Exchange) Record
 Points domains to Mail Servers  
 MX records like CNAME records always point to another domain  
 Generally a server will have multiple MX records and each one has a priority  

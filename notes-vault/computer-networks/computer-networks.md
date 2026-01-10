@@ -4,7 +4,7 @@ tags:
   - networking
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-06-06 09:52:14 -0500
+updated: 2026-01-09 21:59:56 +0530
 ---
 
 ### General Concepts
@@ -16,7 +16,6 @@ updated: 2025-06-06 09:52:14 -0500
 	* [[wide-area-network-wan|Wide Area Network (WAN)]]
 * [[network-topologies|Network Topologies]]
 * [[internet-of-things-iot|Internet of Things (IoT)]]
-* [[network-protocols|Network Protocols]]
 * [[host-to-host-communication|Host to Host Communication]]
 * [[network-security|Network Security]]
 * [[wireless-networking|Wireless Networking]]
@@ -25,6 +24,7 @@ updated: 2025-06-06 09:52:14 -0500
 
 * [[osi-model|OSI Model]]
 * [[tcp-ip-model|TCP-IP Model]]
+* [[network-protocols|Network Protocols]]
 
 ### Layer-wise Concepts
 
