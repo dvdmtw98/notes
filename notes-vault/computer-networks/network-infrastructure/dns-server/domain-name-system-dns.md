@@ -7,17 +7,16 @@ tags:
   - protocol
   - dns
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-01-08 22:03:00 +0530
+updated: 2026-01-16 22:29:36 +0530
 ---
 
-It is the phonebook of the internet (Converts Domain Names to IP Addresses).  
+It is the phone book of the internet (Converts Domain Names to IP Addresses).  
 Uses UDP Port 53 and uses TCP Port 53 as fallback.   
 DNS is an Application Layer (Layer 7) protocol.  
 
 ### Domain Types
-
-gTLD (Generic Top Level Domain) - `.org`, `.com`, `.edu`  
-ccTLD (Country Code Top Level Domain) - `.in`, `.co.uk`
+gTLD (Generic Top Level Domain): `.org`, `.com`, `.edu`  
+ccTLD (Country Code Top Level Domain): `.in`, `.co.uk`
 
 Second Level Domain can only be 63 characters long  
 They can only contain alphanumeric characters and hyphens  

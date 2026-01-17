@@ -6,8 +6,16 @@ tags:
   - protocol
   - attack
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-01-16 22:27:55 +0530
 ---
+
+### DNS Issues
+DNS records are sent in plaintext and can be captured by anyone.  
+
+DNS requests contain a field called transaction id which is link the request and response.  
+Our PC will reject the response if the transaction id is different. 
+
+### DNS Attacks
 
 #### DNS Cache Poisoning
 Involves corrupting the DNS cache data of a DNS resolver with false information  
