@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-12-19 22:57:02 +0530
+updated: 2026-01-24 18:21:03 +0530
 ---
 
 ### Table of Content
@@ -16,6 +16,7 @@ updated: 2025-12-19 22:57:02 +0530
 	- [[splunk-commands|Splunk Commands]]
 	- [[splunk-subsearch|Splunk Subsearch]]
 	- [[splunk-lookups|Splunk Lookups]]
+- [[splunk-visualization|Splunk Visualization]]
 - [[splunk-rest-api|Splunk Rest API]]
 - [[splunk-fields|Splunk Fields]]
 - [[splunk-data-model|Splunk Data Model]]
@@ -55,3 +56,9 @@ Data Classification (Event Types, Transactions)
 Data Enrichment (Lookups, Workflow Actions)  
 Data Normalization (Tags, Fields Aliases)  
 Data Models (Structured Datasets)
+
+### Commands
+
+```bash
+sudo $SPLUNK_HOME/bin/splunk start
+```

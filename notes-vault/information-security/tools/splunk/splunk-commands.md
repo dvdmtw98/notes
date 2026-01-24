@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2025-09-08 15:51:32 +0530
-updated: 2026-01-01 22:37:15 +0530
+updated: 2026-01-24 19:56:29 +0530
 ---
 
 ### Search Context
@@ -24,6 +24,8 @@ Search can only be used to compare a field with a value (RHS cannot be field nam
 
 #### Eval
 Used to calculate and manipulate field values. Can create a new field.  
+Results of eval operation can be saved as calculated field (knowledge object).  
+Field values are case-sensitive when eval function is used.  
 
 ```
 index=web OR index=security 
@@ -64,29 +66,13 @@ sourcetype=access_*
 ### Transforming Commands
 Commands that create summaries, statistics (table) or visualizations (graphs) are called transforming commands.  
 
-Statistics tables can be used to create various types of visualizations.  
-Single Series: Two Column  
-Multi-Series: More than 2 Columns (Multiple values for y-axis)  
-Time Series: Time (x-axis) with 1 or more columns (y-axis)
-
-#### Chart
-Command: `chart <stats-function> over <field>`  
-The stats function result is used as the y-axis it's always a numeric value.  
-
-Command: `chart <stats-function> over <field1> by <field2>`  
-
-#### Timechart
-Charts where time is always the x-axis.  
-The output is always buckets over the time range (Span to change bucket).  
-For a 60 min search the span is default 1 min.  
-For a 24 hour search the span is default 30 min.
-
 #### Top
 Find the most common values of a field.   
 Includes count and percentage for the field.  
 
 Defaults to Top 10.  
 `showperc=f` will remove the percentage field.  
+My setting limit to 0 we can see the count and percentage for all values.  
 
 ```
 index=web action=purchase 
@@ -113,6 +99,21 @@ The `as` clause is used for renaming the field.
 [Aggregate functions - Splunk Documentation](https://docs.splunk.com/Documentation/Splunk/9.4.2/SearchReference/Aggregatefunctions)
 
 Stats with count is a better and efficient method of **deduping** the results.    
+
+#### AddTotals
+Computes the sum of all numeric fields in the search result.  
+Using a field list the fields for which the sum has to be calculated can be controlled.  
+
+```
+index=main sourcetype=eventgen
+|  chart count over nodeName by partner
+| addtotals row=true fieldname="Total per Host" 
+	col=true labelfield=nodeName label="Total per Partner"
+```
+
+[addtotals \| Splunk Docs](https://help.splunk.com/en/splunk-enterprise/spl-search-reference/9.1/search-commands/addtotals)
+
+[addcoltotals \| Splunk Docs](https://help.splunk.com/en/splunk-enterprise/search/spl-search-reference/10.2/search-commands/addcoltotals)
 
 ### Multivalue Functions
 Internally multivalue fields are treats as lists.  
