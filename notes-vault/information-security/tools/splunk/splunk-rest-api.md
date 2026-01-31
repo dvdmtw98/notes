@@ -5,14 +5,13 @@ tags:
   - security
   - siem
 date: 2025-10-06 22:18:23 +0530
-updated: 2026-01-01 22:40:12 +0530
+updated: 2026-01-26 22:11:04 +0530
 ---
 
 #### Usage
 
 ```
 | rest /services/saved/searches
-
 | rest /services/saved/searches splunk_server=local count=2
 ```
 

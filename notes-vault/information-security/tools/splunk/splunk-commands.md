@@ -5,11 +5,11 @@ tags:
   - splunk
   - siem
 date: 2025-09-08 15:51:32 +0530
-updated: 2026-01-24 19:56:29 +0530
+updated: 2026-01-28 22:37:14 +0530
 ---
 
 ### Search Context
-The IN operator can only be used with wildcards when used before the first pipe or with the `search` command.  
+The IN operator can only be used with wildcards when used with the `search` command.  
 When IN is used with `where` it is treated as the `in()` function which does not support wildcards.  
 
 When using IN operator we should not prefix literals with wildcards as its inefficient.  
@@ -21,10 +21,22 @@ When we do not mention `where` or `search` after a pipe it is implied that we ar
 Search can only be used to compare a field with a value (RHS cannot be field name). If the LHS and RHS of a condition is a field name then `where` has to be used.
 
 ### Streaming Commands
+Streaming functions process events one at a time (as they become available).  
+Streaming commands will always produce events after the calculation.  
+
+**Distributed Streaming Commands**  
+Operate on events independently, order of the events do not matter.  
+Can run on indexers (in parallel) and search head.  
+No need to gather the full dataset before doing the processing.  
+
+**Centralized Streaming Commands**  
+They still process events one by one but they depend on sort or grouping logic.  
+They cannot run in parallel on indexers.  
+They require the relevant events to be pulled together before execution.  
 
 #### Eval
 Used to calculate and manipulate field values. Can create a new field.  
-Results of eval operation can be saved as calculated field (knowledge object).  
+Results of eval operation can be saved as **calculated field** (knowledge object).  
 Field values are case-sensitive when eval function is used.  
 
 ```
@@ -33,7 +45,11 @@ index=web OR index=security
 | eval total_bytes=tostring(total_bytes, "commas")
 ```
 
-[eval command: Examples \| Splunk Docs](https://help.splunk.com/en/splunk-cloud-platform/search/spl2-search-reference/eval-command/eval-command-examples)
+**Duration**: Convert seconds to format `HH:MM:SS`.  
+**Commas**: Formats a value with commas, Rounds to nearest 2 decimal places if applicable.  
+**Hex**: Convert a value to hexadecimal.  
+
+[Conversion Functions \| Splunk Docs](https://help.splunk.com/en/splunk-cloud-platform/search/spl2-search-reference/evaluation-functions/conversion-functions#ariaid-title15)
 
 ```
 index=botsv3
@@ -50,6 +66,10 @@ index=botsv3
 | table src_ip, dest_ip, connection
 ```
 
+Can perform concatenation using `.` and `+`.
+
+[eval command: Examples \| Splunk Docs](https://help.splunk.com/en/splunk-cloud-platform/search/spl2-search-reference/eval-command/eval-command-examples)
+
 #### Transaction
 Used to group events together that have match certain condition.  
 The new event generated will use the time of the earliest event.  
@@ -62,6 +82,11 @@ sourcetype=access_*
 ```
 
 [transaction \| Splunk Docs](https://help.splunk.com/en/splunk-enterprise/spl-search-reference/9.3/search-commands/transaction)
+
+#### Fields 
+Determines the fields to include in result.  
+Using `-` before a field will cause the field to be remove from the event.  
+The command does not remove any of the `_` (internal) fields.  
 
 ### Transforming Commands
 Commands that create summaries, statistics (table) or visualizations (graphs) are called transforming commands.  
@@ -93,12 +118,12 @@ The `as` clause is used for renaming the field.
 `values()`: List all the unique values from a field as a multi-valued entry.  
 
 [stats command: Overview, syntax, and usage \| Splunk Docs](https://help.splunk.com/en/splunk-cloud-platform/search/spl2-search-reference/stats-command/stats-command-overview-syntax-and-usage#using-the-from-command-instead-0)  
-
 [stats command: Examples \| Splunk Docs](https://help.splunk.com/en/splunk-cloud-platform/search/spl2-search-reference/stats-command/stats-command-examples)  
-
 [Aggregate functions - Splunk Documentation](https://docs.splunk.com/Documentation/Splunk/9.4.2/SearchReference/Aggregatefunctions)
 
-Stats with count is a better and efficient method of **deduping** the results.    
+> [!INFO] Deduplicating Data
+> - Stats with count is a more efficient method of **deduping** results.  
+> - Avoid the dedup command when possible.      
 
 #### AddTotals
 Computes the sum of all numeric fields in the search result.  
@@ -111,9 +136,13 @@ index=main sourcetype=eventgen
 	col=true labelfield=nodeName label="Total per Partner"
 ```
 
-[addtotals \| Splunk Docs](https://help.splunk.com/en/splunk-enterprise/spl-search-reference/9.1/search-commands/addtotals)
-
+[addtotals \| Splunk Docs](https://help.splunk.com/en/splunk-enterprise/spl-search-reference/9.1/search-commands/addtotals)  
 [addcoltotals \| Splunk Docs](https://help.splunk.com/en/splunk-enterprise/search/spl-search-reference/10.2/search-commands/addcoltotals)
+
+#### Table
+Table is used to select, arrange the fields that show up in the statistics table.  
+The table command does not remove any field (only hides them).  
+It is recommended to use table command only at the end of the query.  
 
 ### Multivalue Functions
 Internally multivalue fields are treats as lists.  
@@ -132,14 +161,18 @@ A single valued field is a list with only one element.
 Converts a delimited field to a multivalue field.  
 Can use regex with the `tokonizer` option.  
 
-#### Mvexpand, Mvcombine and Nomv
+#### Mvexpand
 
 `mvexpand` is used to turn multivalue field into distinct events.  
 
 [Multivalue eval functions \| Splunk Docs](https://help.splunk.com/en/splunk-enterprise/search/spl-search-reference/9.4/evaluation-functions/multivalue-eval-functions)
 
+#### Mvcombine
+
 `mvcombine` will combine multivalue fields together.  
 The delimiter used with this command will not show up till its turned into a single value field.  
+
+#### Nomv
 
 `nomv` will convert multivalue field to single value field (adds delimiter).  
 

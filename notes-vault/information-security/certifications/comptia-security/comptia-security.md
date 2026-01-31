@@ -5,7 +5,7 @@ tags:
   - index
   - certification
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-02-22 15:15:59 -0600
+updated: 2026-01-25 12:22:46 +0530
 ---
 
 #### Fundamentals of Security

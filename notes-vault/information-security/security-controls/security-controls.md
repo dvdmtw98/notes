@@ -4,7 +4,7 @@ tags:
   - security
   - controls
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-08-31 20:36:53 +0530
+updated: 2026-01-25 12:17:58 +0530
 ---
 
 ### Control Categories
@@ -21,8 +21,6 @@ Backup Procedures, Account Reviews, User Training Programs
 
 #### Physical Controls
 CCTVs, Shredding sensitive data, Security Guards, Locking doors
-
----
 
 ### Control Types
 

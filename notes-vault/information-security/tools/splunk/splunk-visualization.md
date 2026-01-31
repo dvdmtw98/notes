@@ -5,7 +5,7 @@ tags:
   - tool
   - splunk
 date: 2026-01-24 18:20:56 +0530
-updated: 2026-01-24 19:33:44 +0530
+updated: 2026-01-25 12:15:29 +0530
 ---
 
 Statistics tables can be used to create various types of visualizations.  
@@ -129,7 +129,9 @@ index=web sourcetype="access_combined" action=purchase
 [iplocation \| Splunk Docs](https://help.splunk.com/en/splunk-enterprise/search/spl-search-reference/9.4/search-commands/iplocation)
 
 The `geom` command is used to plot **Choropleth** maps.  
-The command works like a lookup. It maps a feature to country coordinates using feature collections.  
+To create choropleth maps `.kmz` files that have the boundaries are required.  
+
+The command works like a lookup. It maps a feature/field to coordinates on the map using feature collections.  
 The collection `geo_countries` and `geo_us_states` are packaged with Splunk.  
 
 ```

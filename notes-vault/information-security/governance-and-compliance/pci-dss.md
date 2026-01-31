@@ -1,11 +1,13 @@
 ---
-title: PCI DSS
+title: Payment Card Industry Data Security Standard
+aliases:
+  - PCI DSS
 tags:
   - security
   - governance
   - laws
 date: 2025-09-01 12:28:34 +0530
-updated: 2025-09-01 14:27:00 +0530
+updated: 2026-01-25 12:20:52 +0530
 ---
 
 A set of security standards designed to ensure ALL companies that accepts, process, store or transmit credit card information maintain a secure environment.  

@@ -5,7 +5,7 @@ tags:
   - process
   - framework
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-09-03 09:36:24 +0530
+updated: 2026-01-25 12:20:05 +0530
 ---
 
 **Event**: An observable change in state  
@@ -60,5 +60,5 @@ Steps Involved:
 ##### Lesson Learned
 Document experiences during incidents in a formalized way
 
-##### After-action Report
+##### Post-Action Report
 Collects formalized information about what occurred

@@ -4,7 +4,7 @@ tags:
   - security
   - defense
 date: 2025-08-31 11:26:04 +0530
-updated: 2025-09-05 21:55:39 +0530
+updated: 2026-01-25 12:21:23 +0530
 ---
 
 ### Table of Content
@@ -13,6 +13,7 @@ updated: 2025-09-05 21:55:39 +0530
 - [[incident-response-procedure|Incident Response Procedure]]
 - [[endpoint-protection|Endpoint Protection]]
 - [[security-controls|Security Controls]]
+- [[malware-analysis|Malware Analysis]]
 
 ### Laws & Policies
 

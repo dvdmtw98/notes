@@ -5,15 +5,28 @@ tags:
   - splunk
   - siem
 date: 2025-09-06 22:01:49 +0530
-updated: 2025-12-22 21:52:41 +0530
+updated: 2026-01-26 22:14:22 +0530
 ---
 
 SPL: Splunk Search Processing Language  
-`Settings → Data Inputs` has more ingestion options than `Settings → Add Data`.  
 
-`Ctrl + \` & `Ctrl + Shift + F`: Format query  
-`Shift + Enter`: Create newline  
-`Ctrl + Shift + e`: Expand the search (Expands all alias/macros)  
+`host`, `source`, `sourcetype`, `_raw` and `_time` are fields added at index time.  
+Field Data types: ∝ (String), # (Numeric)  
+
+Field names in Splunk cannot contain `-` (hyphen).  
+Field names with `-` are automatically converted to `_` (underscore) by the indexer.
+
+Interesting Fields are fields that have value in at least 20% of the events.  
+Splunk field names are case-sensitive while the value are case-insensitive.  
+
+**Field Evaluation Order**  
+Extracted Fields - Field Alias - Calculated Field - Lookup - Event Types - Tags
+
+When the source data contains timestamps during indexing, `date_*` fields are generated for each component of the timestamp (hour, minute, second, etc.)  
+These fields are not timestamp aware.  
+
+`now()`: Returns the time the search was started  
+`time()`: Returns the time the event was processed by `eval`
 
 ### Search Components
 **Search Terms**: Foundation of the search  
@@ -31,8 +44,7 @@ Smart: Uses smart when transforming command else same as Verbose.
 
 #### Historic Search
 Also called static/ad-hoc search.  
-Time window does not search.  
-Only searches data available in the window.  
+Time window does not change. Only searches data available in the window.  
 
 #### Relative Search
 It’s a subtype of historic search.  
