@@ -183,5 +183,13 @@
       "modifiers": [],
       "key": "F5"
     }
+  ],
+  "darlal-switcher-plus:switcher-plus:open-vaults": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "V"
+    }
   ]
 }

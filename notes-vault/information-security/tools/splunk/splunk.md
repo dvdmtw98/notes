@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-01-28 22:28:09 +0530
+updated: 2026-02-02 22:45:01 +0530
 ---
 
 ### Table of Content

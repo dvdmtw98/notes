@@ -5,12 +5,12 @@ tags:
   - splunk
   - siem
 date: 2025-09-08 15:51:32 +0530
-updated: 2026-01-28 22:37:14 +0530
+updated: 2026-02-03 23:19:22 +0530
 ---
 
 ### Search Context
 The IN operator can only be used with wildcards when used with the `search` command.  
-When IN is used with `where` it is treated as the `in()` function which does not support wildcards.  
+With `where` and `eval` commands only the `in()` function can be used which does not support wildcards.  
 
 When using IN operator we should not prefix literals with wildcards as its inefficient.  
 Additionally, using wildcards in the middle of term can produce inconsistent results.  
@@ -37,7 +37,18 @@ They require the relevant events to be pulled together before execution.
 #### Eval
 Used to calculate and manipulate field values. Can create a new field.  
 Results of eval operation can be saved as **calculated field** (knowledge object).  
-Field values are case-sensitive when eval function is used.  
+Field values are case-sensitive when eval command/function is used.  
+
+When the eval function is used it has to be given a name using as command.
+
+```
+index=web_logs sourcetype=access_*
+| stats 
+    count AS total_requests,
+    count(eval(method="GET")) as get_requests,
+    count(eval(method="POST")) as post_requests
+by host
+```
 
 ```
 index=web OR index=security 
