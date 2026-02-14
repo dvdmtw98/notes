@@ -5,14 +5,16 @@ tags:
   - siem
   - security
 date: 2025-09-28 21:45:32 +0530
-updated: 2026-01-26 22:11:57 +0530
+updated: 2026-02-09 23:09:32 +0530
 ---
 
 Used to enrich the indexed data by bringing in additional fields from external sources.  
 Once we create a lookup definition we do not need to use the filename/path in the query.  
 
 Auto Lookup will automatically add the additional fields from the lookup.  
-Will be resource intensive when used on large datasets.  
+Will be resource intensive when used on large datasets.   
+
+Since `inputlookup` can create/fetch new data it is a generating command.  
 
 #### Lookup
 

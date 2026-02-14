@@ -5,20 +5,8 @@ tags:
   - splunk
   - siem
 date: 2025-09-08 15:51:32 +0530
-updated: 2026-02-03 23:19:22 +0530
+updated: 2026-02-09 22:54:54 +0530
 ---
-
-### Search Context
-The IN operator can only be used with wildcards when used with the `search` command.  
-With `where` and `eval` commands only the `in()` function can be used which does not support wildcards.  
-
-When using IN operator we should not prefix literals with wildcards as its inefficient.  
-Additionally, using wildcards in the middle of term can produce inconsistent results.  
-
-To search for literals that end with a term it is recommended to use `like()` or `regex()` with the `where` or `eval` command.  
-When we do not mention `where` or `search` after a pipe it is implied that we are using `search` command.  
-
-Search can only be used to compare a field with a value (RHS cannot be field name). If the LHS and RHS of a condition is a field name then `where` has to be used.
 
 ### Streaming Commands
 Streaming functions process events one at a time (as they become available).  
@@ -33,6 +21,29 @@ No need to gather the full dataset before doing the processing.
 They still process events one by one but they depend on sort or grouping logic.  
 They cannot run in parallel on indexers.  
 They require the relevant events to be pulled together before execution.  
+
+#### Search
+The IN operator can only be used with wildcards when used with the `search` command.  
+When using IN operator we should avoid prefix literals with wildcards as its inefficient.  
+Additionally, using wildcards in the middle of term can produce inconsistent results.  
+
+When we do not mention `where` or `search` after a pipe it is implied that we are using `search` command.  
+
+Search can only be used to compare a field with a value (RHS cannot be field name). 
+
+Field values are case-insensitive with the `search` command.  
+Search command cannot be used with functions.  
+
+Search used at the start of the query is considered as generating command (as it creates new results by reading data from index).  
+
+#### Where
+Wildcards do not work with `where` unless the like operator is used.    
+With `where` and `eval` the IN operator cannot be used only the `in()` function is supported which does not allow wildcards.  
+
+To search for literals that end with a term it is recommended to use `like()` or `regex()` with the `where` instead of using `search`.  
+
+If the LHS and RHS of a condition is a field name then `where` has to be used.  
+Field values are case-sensitive when the `where` command is used.  
 
 #### Eval
 Used to calculate and manipulate field values. Can create a new field.  

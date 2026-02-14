@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2025-09-06 22:01:49 +0530
-updated: 2026-01-26 22:14:22 +0530
+updated: 2026-02-09 23:10:25 +0530
 ---
 
 SPL: Splunk Search Processing Language  
@@ -25,7 +25,7 @@ Extracted Fields - Field Alias - Calculated Field - Lookup - Event Types - Tags
 When the source data contains timestamps during indexing, `date_*` fields are generated for each component of the timestamp (hour, minute, second, etc.)  
 These fields are not timestamp aware.  
 
-`now()`: Returns the time the search was started  
+`now()`: Returns the time when the search was started  
 `time()`: Returns the time the event was processed by `eval`
 
 ### Search Components
