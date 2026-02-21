@@ -5,37 +5,67 @@ tags:
   - splunk
   - security
 date: 2025-09-27 21:04:38 +0530
-updated: 2025-10-05 16:32:40 +0530
+updated: 2026-02-20 22:44:51 +0530
 ---
 
-Splunk uses CIM (Common Information Model) to assign a consistent structure and naming to data.  
-Allows us to easily search across diverse data sources.  
-Data Models make it easy to correlate events from different sources.  
+A data model is a hierarchy of datasets.  
+The data model used by Splunk is called **CIM (Common Information Model)**.  
+A data models make it easy to correlate events from different sources.  
 
-The data that is mapped to the data model depends on the **index** and **tag**.  
-Tags are values/categories that can be assigned to Event Types.  
+### Dataset Types
+The 1st level datasets created in a data model are called root datasets.  
+Child datasets automatically inherit all fields from the parent dataset.  
 
-Field names can be aliased to match the names in the data model.  
-This is performed at search type by the Splunk head so will introduce a small delay.  
+#### Event Dataset
+A constraint has to be provided to create the dataset.  
+The constraint cannot contain any command that creates statistics.  
+The metadata fields of the events are automatically inherited by the dataset.  
 
-### Event Types
-Event type is a label/classification that can be defined for a search query.  
-Event Types can be defined with priority and color.  
-Event Types with priority 1 has the highest importance (will override other colors).  
-Event types are considered as knowledge object in Splunk.  
-Stored in: `eventtypes.conf`  
+**Auto-extraction** allows us to add fields that are present in the base data.  
+Index has to be **added** as a field even though its part of event metadata.  
+For each field the field name, datatype, and flag can be configured.   
+Flags control the visibility of the field in the pivot tool (Default: Optional).  
 
-```
-index=main eventtype=failed_login host=webserver1
-| table _time user host
-```
+Eval, lookup, regex, and geo-ip fields show up under the calculated field section.  
+The fields **Display Name** will only be visible in the pivot UI.  
+Field name is the real name of the field (name to be used in `tstats` command).  
+
+#### Search Dataset
+A search query is used to determine the data to load into the dataset.  
+The query should include transforming commands.
+
+#### Transaction Dataset
+The events generate by using the transaction command are loaded into the dataset.  
+A root transaction dataset cannot be created without a root event dataset.  
+All fields from the base event dataset are automatically added into the new dataset.
+
+### Pivot Tool
+The **pivot tool** allows us to create reports and dashboards without SQL queries.  
+When selecting a split field we can configure its display name and sort order.  
+
+The result of pivot will be a statistics table when can also be converted to a chart.  
+The result generated using the pivot tool also has an underlying pivot command that can be executed from Search.  
+
+### Acceleration
+Tool used to speed up data models with extremely large datasets.  
+Acceleration summaries create **time-series index** (`.tsix`) files that contains pre-aggregated summary data.  
+These summaries are used by `tstats` command to speed up the query.
+
+The raw events in the index are stored as compressed journal files (`.gz`).  
+The indexed fields are stored in time-series index (`.tsix`) files.  
+
+With persistent data model acceleration, all fields in the data model become indexed (accelerated) fields.  
+**Private** data models **cannot** be accelerated.  
+Accelerated data model **cannot** be **edited**.  
+
+Search and transaction datasets cannot benefit from persistent acceleration.  
+Only admin and users with `accelerate_datamodel` capability can accelerate data model.  
 
 ### Tstats
 
 ![[splunk-data-model-query.png|640]]
 
 `tstats` command is used to query data model.  
-The subcategories that exist in a Data Model is called a Dataset.  
 
 ```
 index=main sourcetype=auth_logs

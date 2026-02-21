@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2025-09-08 15:51:32 +0530
-updated: 2026-02-09 22:54:54 +0530
+updated: 2026-02-15 22:50:29 +0530
 ---
 
 ### Streaming Commands
@@ -93,15 +93,47 @@ Can perform concatenation using `.` and `+`.
 [eval command: Examples \| Splunk Docs](https://help.splunk.com/en/splunk-cloud-platform/search/spl2-search-reference/eval-command/eval-command-examples)
 
 #### Transaction
-Used to group events together that have match certain condition.  
-The new event generated will use the time of the earliest event.  
-The command creates 2 new fields duration and event count.  
+Used to group events together that have same value in 1 or more fields.  
+Transaction command combines multiple events into a single new event.
 
 ```
-sourcetype=access_* 
-| transaction JSESSIONID clientip startswith="view" endswith="purchase" 
+index=web sourcetype=access_combined
+| transaction JSESSIONID
+```
+
+The new event will use the time of the earliest event.  
+The command creates 2 new fields **duration** and **eventcount**.  
+
+```
+index=web sourcetype=access_combined
+| transaction JSESSIONID clientip maxspan=5s maxpause=1s maxevents=20 
+| search action="purchase"
+```
+
+**maxspan**: Maximum time between the earliest and latest event in a transaction.  
+**maxpause**: Maximum time between events in a transaction.  
+**maxevents**: Maximum events in a transaction. Default 1000 events.  
+
+```
+index=web sourcetype=access_combined
+| transaction JSESSIONID clientip 
+	startswith=eval(action="view") endswith=eval(action="purchase") 
 | where duration>0
 ```
+
+Any search or eval expression can be used with the **startswith** and **endswith** options.
+
+```
+...
+| transaction sessionid startswith=condition endswith=condition mvlist=t
+| table sessionid _time action start end
+```
+
+**mvlist**: Maintain event order when formatting transaction into table.
+
+**keepevicted**: Retain events that do not match the transaction condition.  
+
+**closed_txn**: 1 for non-evicted (closed) transactions. This field is added when keepevicted is used. When no constraints all transactions are considered evicted.  
 
 [transaction \| Splunk Docs](https://help.splunk.com/en/splunk-enterprise/spl-search-reference/9.3/search-commands/transaction)
 

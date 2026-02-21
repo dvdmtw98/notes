@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-02-09 22:22:12 +0530
+updated: 2026-02-20 21:59:19 +0530
 ---
 
 ### Table of Content
@@ -17,8 +17,9 @@ updated: 2026-02-09 22:22:12 +0530
 	- [[splunk-subsearch|Splunk Subsearch]]
 	- [[splunk-lookups|Splunk Lookups]]
 - [[splunk-visualization|Splunk Visualization]]
+- [[splunk-knowledge-objects|Knowledge Objects]]
+	- [[splunk-data-model|Splunk Data Model]]
 - [[splunk-rest-api|Splunk Rest API]]
-- [[splunk-data-model|Splunk Data Model]]
 
 ---
 
@@ -30,15 +31,8 @@ Scheduled Reports always Run as Owner
 Alerts: Scheduled or Real-time  
 Real-time alert queries are executed continuously in the background   
 
-Actions can be triggered when a Scheduled Report or Alert is executed  
-
-### Knowledge Objects
-
-Data Interpretation (Fields, Extracted Fields, Calculated Fields)  
-Data Classification (Event Types, Transactions)  
-Data Enrichment (Lookups, Workflow Actions)  
-Data Normalization (Tags, Fields Aliases)  
-Data Models (Structured Datasets)
+Actions can be triggered when a Scheduled Report or Alert is executed.  
+Alert is the recommended option when results have to be sent over email.  
 
 ### Commands
 

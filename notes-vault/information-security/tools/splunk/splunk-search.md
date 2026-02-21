@@ -5,10 +5,10 @@ tags:
   - splunk
   - siem
 date: 2025-09-06 22:01:49 +0530
-updated: 2026-02-09 23:10:25 +0530
+updated: 2026-02-19 11:22:22 +0530
 ---
 
-SPL: Splunk Search Processing Language  
+SPL: Splunk (Search) Processing Language  
 
 `host`, `source`, `sourcetype`, `_raw` and `_time` are fields added at index time.  
 Field Data types: ∝ (String), # (Numeric)  
@@ -16,7 +16,7 @@ Field Data types: ∝ (String), # (Numeric)
 Field names in Splunk cannot contain `-` (hyphen).  
 Field names with `-` are automatically converted to `_` (underscore) by the indexer.
 
-Interesting Fields are fields that have value in at least 20% of the events.  
+Interesting Fields are fields that have value in at least **20%** of the events.  
 Splunk field names are case-sensitive while the value are case-insensitive.  
 
 **Field Evaluation Order**  
@@ -36,9 +36,19 @@ These fields are not timestamp aware.
 **Clauses**: Defines how the results are grouped/defined
 
 ### Search Modes
-Fast: All about speed. Pulls the least amount of data from disk.  
-Verbose: Slowest option. Produces complete results.  
-Smart: Uses smart when transforming command else same as Verbose.  
+
+#### Fast  
+Pulls the least amount of data from disk.  
+Field discovery is disabled in fast mode.  
+Only metadata (`host`, `source`, `sourcetype`, etc.) and internal (`_time`, `_raw`) fields.  
+
+#### Verbose
+Slowest option. Produces complete results.  
+Performs field discovery based on sourcetype and defined key-value pair.  
+
+#### Smart
+Uses smart when transforming command else same as Verbose.  
+Performs field discovery based on sourcetype and defined key-value pair.  
 
 ### Search Types
 
@@ -75,12 +85,6 @@ Parenthesis can be used to control the evaluation order of the fields.
 `field!=value`: Events with NULL values are not considered. Returns all non-NULL events where field is not value.  
 `NOT field=value`: Events with missing (NULL) values are included. Only events where `field=value` is filtered.
 
-### Regex
-Splunk uses the Perl Regex syntax.  
-Wildcards at the end preferred over wildcards at the start for searches.  
-
-[Splunk regular expression modifier flags - TheDotProduct](https://www.thedotproduct.org/posts/splunk-regular-expression-modifier-flags.html)
-
 ### Time Manipulation
 
 `w`: Weeks  
@@ -110,7 +114,7 @@ index=_myindex earliest=-1mon@mon+16d latest=@mon
 | metadata index=* type=sourcetypes
 ```
 
-These commands are quick and will not slow down the system.
+These commands are quick and will not slow down Splunk.
 
 ```
 | makeresults count=3
