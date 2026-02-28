@@ -5,11 +5,10 @@ tags:
   - splunk
   - security
 date: 2025-09-27 21:04:38 +0530
-updated: 2026-02-20 22:44:51 +0530
+updated: 2026-02-22 20:14:35 +0530
 ---
 
 A data model is a hierarchy of datasets.  
-The data model used by Splunk is called **CIM (Common Information Model)**.  
 A data models make it easy to correlate events from different sources.  
 
 ### Dataset Types
@@ -60,6 +59,25 @@ Accelerated data model **cannot** be **edited**.
 
 Search and transaction datasets cannot benefit from persistent acceleration.  
 Only admin and users with `accelerate_datamodel` capability can accelerate data model.  
+
+### CIM (Common Information Model)
+Splunk contains ~26 preconfigured data models.  
+CIM is a methodology for normalizing data.  
+It enables correlating data from different sources and source types.
+
+CIM applies constraints on datasets using tags.  
+Fields are normalized to load into CIM models using aliases.  
+
+Acceleration is not enabled by default for CIM data models.  
+The CIM Add-on comes packaged with Splunk ES (Enterprise Security) & Splunk PCI Compliance App.  
+
+```
+| datamodel Web Proxy search
+```
+
+```
+| from datamodel:Web.Proxy
+```
 
 ### Tstats
 
