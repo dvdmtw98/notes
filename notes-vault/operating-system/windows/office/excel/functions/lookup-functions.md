@@ -3,7 +3,7 @@ title: Lookup Functions
 tags:
   - excel
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-03-06 22:52:27 +0530
 ---
 
 ### VLOOKUP() Function

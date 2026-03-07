@@ -3,12 +3,13 @@ title: Excel Operators
 tags:
   - excel
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28
+updated: 2026-03-06 22:54:31 +0530
 ---
 
 #### Reference Operator
-A absolute reference is created in Excel by using `$` sign  
-e.g. $E6 (Absolute Column), $G$7 (Absolute Row and Column)
+A absolute reference is created in Excel by using `$` sign.  
+e.g. $E6 (Absolute Column), $G$7 (Absolute Row and Column).  
+`F4` allows us to toggle between all the available reference operators.  
 
 #### Range Operator
 A range of cells can be specified in Excel using `:` sign  

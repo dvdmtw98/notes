@@ -4,8 +4,11 @@ tags:
   - excel
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-03-28 21:28:50 -0500
+updated: 2026-03-06 22:51:25 +0530
 ---
+
+Function names in Excel are case-insensitive (Convention: All uppercase).    
+“Function Screen Tips” is the menu that shows up to guides us through each parameter when writing a formula.  
 
 ### Table of Content
 
@@ -18,8 +21,13 @@ updated: 2025-03-28 21:28:50 -0500
 	* [[excel-evaluate-formula|Excel Evaluate Formula]]
 	* [[lookup-functions|Lookup Functions]]
 	* [[search-and-find-function|SEARCH and FIND Function]]
-* [[types-of-errors|Types of Errors]]
+* [[excel-error-types|Excel Error Types]]
 * [[protecting-excel-workbooks|Protecting Excel Workbooks]]
+
+
+
+By default, Excel uses relative references.  
+The `$` symbol is used to create fixed (absolute) references.  
 
 Numeric values are always right aligned. This is done so that floating point numbers will have the decimal points neatly aligned one below the other
 

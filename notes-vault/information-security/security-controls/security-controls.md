@@ -4,43 +4,55 @@ tags:
   - security
   - controls
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-01-25 12:17:58 +0530
+updated: 2026-03-06 23:41:48 +0530
 ---
 
-### Control Categories
-Measures or mechanism put in place to migrate risks and protect the confidentiality, integrity, and availability of information systems
+Security Controls are mechanism put in place to migrate risks and protect the confidentiality, integrity, availability, non-repudiation, and authentication of data.  
+Controls should be selected and deployed in a structured manner using a risk management framework.  
+e.g. NIST Special Publication 800-53, ISO 27001
+
+### Security Control Classes
+Newer versions of NIST 800-53 do not use security control classes.
 
 #### Technical (Logical) Controls
-Hardware, Software, Firmware - Antivirus, Firewall, IDS, Encryption  
-
-#### Managerial Controls
-Risk Assessment, User Training, Security Policies, Response Strategies
+Controls that are implemented as a system (Hardware, Software, or Firmware).  
+e.g. Antivirus, Firewall, IDS, Encryption  
 
 #### Operational Controls
-Backup Procedures, Account Reviews, User Training Programs  
+Set of controls that are implemented primarily by people rather than systems.  
+e.g. Backup Procedures, Account Reviews, User Training Programs  
 
-#### Physical Controls
+**Physical Controls**  
 CCTVs, Shredding sensitive data, Security Guards, Locking doors
 
+#### Managerial Controls
+A category of security controls that provides oversight of the information system.  
+e.g. Risk Assessment, User Training, Security Policies, Response Strategies
+
+---
+
 ### Control Types
+A control can fall into multiple categories at the same time.  
 
 #### Preventative
-Proactive methods thwart security threats or breaches (Firewall)  
+A control that acts to eliminate or reduce the likelihood that an attack can succeed.  
 
 #### Detective
-Monitor and alert about malicious activities as they occur (IDS)  
+Many not prevent or deter access, but will identify and record any attempt or successful intrusion.  
+e.g. IDS, Logs, Security Camera  
 
 #### Corrective
-Migrate any damage and restore systems (Antivirus)  
+Eliminate or reduce the risk of an intrusion event (Antivirus)  
 
-#### Recovery
-Controls that help us recover after an attack
+#### Physical
+A security control that acts against in-person intrusion attempts.  
 
 #### Deterrent
 Aimed to discourage potential attackers (Warning, Banners)  
 
 #### Compensating
-Additional security controls to supplement primary security  
+Additional security controls to supplement primary (principal) security  
 
-#### Directive
-Rules and policies that mandate certain actions
+#### Responsive
+System that actively monitors for potential vulnerabilities or attacks, and then takes action to mitigate them before they can cause damage.  
+e.g. Firewall, IDS
