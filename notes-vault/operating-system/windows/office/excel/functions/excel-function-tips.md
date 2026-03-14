@@ -3,7 +3,7 @@ title: Excel Function Tips
 tags:
   - excel
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28
+updated: 2026-03-08 18:38:05 +0530
 ---
 
 `COUNT()`: Only works for number values. Empty cells are not included
@@ -20,3 +20,8 @@ For these functions the condition on which the operation has to be performed nee
 
 To use the SUMTOTAL tool the data needs to be sorted on the column who's subtotal needs to be found (similar values need to be together)  
 The numbers on the left side of the sheet (after using SUBTOTAL) can be used to Expand/ Collapse the data (Group and Outline Feature)
+
+---
+
+The SEARCH() and FIND() function both are used to find the return the location of a character  
+SEARCH() slightly differs from FIND() as it is case-insensitive and allows Regex for finding characters

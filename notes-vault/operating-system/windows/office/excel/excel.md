@@ -4,8 +4,12 @@ tags:
   - excel
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-03-06 22:51:25 +0530
+updated: 2026-03-12 21:54:30 +0530
 ---
+
+Numeric values are always right aligned.  
+Dates are internally treated as numeric type so even they are right aligned.  
+The default format for date is MM/DD/YYYY (Defers based on region).  
 
 Function names in Excel are case-insensitive (Convention: All uppercase).    
 “Function Screen Tips” is the menu that shows up to guides us through each parameter when writing a formula.  
@@ -14,35 +18,15 @@ Function names in Excel are case-insensitive (Convention: All uppercase).
 
 * [[excel-shortcuts|Excel Shortcuts]]
 * **Excel Functions**
-	* [[excel-operators|Excel Operators]]
+	* [[excel-formula-components|Excel Formula Components]]
 	* [[excel-function-tips|Excel Function Tips]]
-	* [[or-and-and-criteria|OR and AND Criteria]]
-	* [[excel-arrays|Excel Arrays]]
-	* [[excel-evaluate-formula|Excel Evaluate Formula]]
+	* [[excel-conditional-formulas|Conditional & Logical Formulas]]
 	* [[lookup-functions|Lookup Functions]]
-	* [[search-and-find-function|SEARCH and FIND Function]]
 * [[excel-error-types|Excel Error Types]]
 * [[protecting-excel-workbooks|Protecting Excel Workbooks]]
-
-
-
-By default, Excel uses relative references.  
-The `$` symbol is used to create fixed (absolute) references.  
-
-Numeric values are always right aligned. This is done so that floating point numbers will have the decimal points neatly aligned one below the other
-
-Date values are also internally treated as numeric type so even they are right aligned. The default format is MM/DD/YYYY (It can defer from region to region)
-
-When the column is too small to show a numeric value (Date values as well) it is represented using the # symbol  
-String values get cut of if it cannot fit the cell
-
-`.xltx`: Excel Template Format
 
 In Pivot Tables we can drill down into the data by Double clicking on value  
 It will open up a new sheet with detailed information about the value we selected
 
 An formula that spans multiple sheets/ wordbooks is called a 3D Formula  
 Reference a cell in different worksheet: `'<sheet-name>'!<cell-reference>`
-
-Name Range is an absolute reference  
-Formulas - Named Manager (Edit and Manage Named Ranges)
