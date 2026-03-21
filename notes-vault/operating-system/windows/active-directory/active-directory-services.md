@@ -5,11 +5,12 @@ tags:
   - active-directory
   - security
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-03-21 17:52:55 +0530
 ---
 
 #### Active Directory Lightweight Directory Service (AD LDS)
-An implementation of LDAP protocol for AD DS
+An implementation of LDAP protocol for AD.  
+It is commonly used to implement AD-type authentication for applications.  
 
 #### Active Directory Certificate Services (AD CS)
 Establishes an on-premises public key infrastructure  
