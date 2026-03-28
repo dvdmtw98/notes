@@ -5,7 +5,7 @@ tags:
   - windows
   - tool
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-12-06 23:56:54 -0600
+updated: 2026-03-23 23:12:28 +0530
 ---
 
 ### Moving WSL to a Different Drive
