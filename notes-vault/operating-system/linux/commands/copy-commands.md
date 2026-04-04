@@ -5,11 +5,12 @@ tags:
   - linux
   - command
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-10-26 14:46:03 +0530
+updated: 2026-04-03 22:42:54 +0530
 ---
 
+### cp Command
 `mv` and `cp` can both be used to replace a file.  
-Both functions are **not atomic across filesystems and mount points**.
+Both functions are **not atomic across different filesystems and mount points**.
 
 Atomic means programs never see an in-between version of the file.  
 `mv` is **atomic** when used on the **same filesystem.**  
@@ -19,7 +20,14 @@ It uses `rename` under the hood which performs an atomic replace.
 It truncates the destination file and writes the new content.  
 If `cp` is called when the file is open in another program the program will think it is still reading from the old file (inode does not change).  
 
-### SCP
+```bash
+cp -a /source/path/. dest/path
+```
+
+When `.` is used after even hidden files are copied.  
+The `-a` flag preserves all the attributes of the source file.
+
+### scp Command
 
 ````shell
 scp <local-file> <username>@<ip-address>:<remote-location>
@@ -28,7 +36,7 @@ scp <local-file> <username>@<ip-address>:<remote-location>
 `-C`: Compress  
 `-v`: Verbose
 
-### Rsync
+### rsync Command
 
 ````shell
 rsync -rPavh <folder-name> username@ip-address:<destination>

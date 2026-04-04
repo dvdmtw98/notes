@@ -5,7 +5,7 @@ tags:
   - linux
   - command
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-05-21 18:44:35 -0500
+updated: 2026-04-03 19:48:16 +0530
 ---
 
 ````bash
@@ -31,10 +31,10 @@ This option only works if the destination app is using `X Server`.
 
 ````bash
 ssh-keygen
-
-# Generate key using specific algorithm
-ssh-keygen -t <algorithm>
+ssh-keygen -t ed25519 -C "comment" -f ~/.ssh/key_name
 ````
+
+When `-f` is used the entire path has to be provided.  
 
 ### Copy SSH Keys to Server
 

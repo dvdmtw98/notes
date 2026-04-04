@@ -5,7 +5,7 @@ tags:
   - technology
   - concept
 date: 2025-09-06 14:20:27 +0530
-updated: 2026-03-27 18:40:28 +0530
+updated: 2026-04-03 19:46:24 +0530
 ---
 
 ### Virtual Box
@@ -80,7 +80,7 @@ The VM can communicate with host and devices on physical network.
 To access the VM from host port forwarding has to be configured.
 
 VirtualBox sets up the NAT engine on the IP `10.0.2.2/24`. The NAT engine also acts as the DHCP server. VM created in this mode is assigned the IP `10.0.2.15/24`.  
-VMware does not have a NAT mode.
+VMware does not have a basic NAT mode like VirtualBox. VMware NAT mode is similar to VirtualBox NAT network.
 
 #### NAT Network
 
@@ -94,14 +94,6 @@ Similar to NAT mode the VMs can access devices on the physical network.
 In VirtualBox the IP `10.0.2.1/24` is used by the NAT engine and the IP `10.0.2.3/24` is used by DHCP server.  
 VMware treats VMnet8 as NAT network. VMs connected to this network can communicate with each other.  
 
-#### Internal
-In this mode a virtual switch is created and every VM is connected to this switch.  
-VMs connected to the switch can communicate with each other.  
-No internet access is provided in this mode.  
-
-In VirtualBox this mode creates a switch called `intnet`.  
-VMware calls this mode LAN segment.  
-
 #### Bridged
 Used to directly connect the VM to the physical network without using NAT.  
 The VMs are bridged to the physical network through the host systems NIC.  
@@ -114,3 +106,11 @@ No internet is available in this mode.
 
 A new adapter is created on the host which is connected to the virtual switch.  
 The host has 2 adapter one through which it can access the internet (NIC) and other through which it cannot access the internet (Virtual Adapter).  
+
+#### Internal
+In this mode a virtual switch is created and every VM is connected to this switch.  
+VMs connected to the switch can communicate with each other.  
+No internet access is provided in this mode.  
+
+In VirtualBox this mode creates a switch called `intnet`.  
+VMware calls this mode LAN segment.  
