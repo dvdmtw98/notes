@@ -6,8 +6,17 @@ tags:
   - configuration
   - forensics
 date: 2025-03-30 22:28:03 -0500
-updated: 2025-05-04 17:35:10 -0500
+updated: 2026-05-02 21:39:38 +0530
 ---
+
+### Enable Verbose Message
+
+[Enable verbose startup and shutdown status messages \| Microsoft](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/enable-verbose-startup-shutdown-logon-logoff-status-messages)
+
+`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System` 
+
+Under this key create a new D-word (32-bit) value called “verbosestatus”.  
+Set its value to 1.
 
 ### Right-click Menu Entries
 
@@ -84,11 +93,3 @@ updated: 2025-05-04 17:35:10 -0500
 - **System-wide (All Users)**
 	- `HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Network\shell`
 	- `HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Network\shellex\ContextMenuHandlers`
-
-### Enable Verbose Message
-
-[Enable verbose startup and shutdown status messages \| Microsoft](https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/enable-verbose-startup-shutdown-logon-logoff-status-messages)
-
-`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System`  
-Create a new Key (D-word) called “**verbosestatus**”.  
-Set value to 1.

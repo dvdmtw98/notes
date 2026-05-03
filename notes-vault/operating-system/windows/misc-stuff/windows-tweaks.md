@@ -4,19 +4,10 @@ tags:
   - os
   - windows
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-03-31 09:38:53 +0530
+updated: 2026-05-02 21:36:32 +0530
 ---
 
-### Windows Services to Disable
-
-Connected User Experiences and Telemetry  
-SysMain (Previous called PreFetch)
-
-Task Scheduler -> Microsoft -> Windows -> App Experiences (Disable all 4 Tasks)  
-Task Scheduler -> Microsoft -> Windows -> Customer Experience Improvement Program (Disable both the tasks)
-
 ### Enable S3 Sleep
-
 Modern PCs use S0 sleep (Which sometimes drains battery when its in sleep mode)
 
 ```powershell
@@ -48,4 +39,18 @@ if (Test-Path -Path $StoreAppsDatabase)
     $Acl.SetAccessRule($Ace) | Out-Null
     Set-Acl -Path $StoreAppsDatabase -AclObject $Acl | Out-Null
 }
+```
+
+#### Disable Windows Search
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PuE3XCU48Bk?si=gNLw72gM5ryg7cCW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Uninstall Office
+
+Use the below link or command to uninstalling Office completely from the system.
+
+[Uninstall Microsoft 365 or Office from a PC  - Office.com](https://support.microsoft.com/en-us/office/uninstall-microsoft-365-or-office-from-a-pc-9dd49b83-264a-477a-8fcc-2fdf)
+
+```
+GetHelpCmd.exe -S OfficeScrubScenario -AcceptEula -OfficeVersion All
 ```

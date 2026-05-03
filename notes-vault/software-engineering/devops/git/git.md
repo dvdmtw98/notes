@@ -5,7 +5,7 @@ tags:
   - devops
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-05-11 20:13:47 -0500
+updated: 2026-05-01 14:48:43 +0530
 ---
 
 ### Table of Content
@@ -42,6 +42,9 @@ git blame <filename>
 
 # View the changes that occurred in the commit
 git show <commit-id>
+
+# Used to remove unused references from Git History
+git gc --aggressive --prune=now
 ````
 
 Head (Reference to the snapshot that we are currently looking)
