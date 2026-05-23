@@ -1,12 +1,17 @@
 /* Centers Media Embeds */
-.markdown-preview-view span.internal-embed.media-embed.is-loaded > img,
-.markdown-source-view div.internal-embed.media-embed.is-loaded > img,
-.markdown-source-view.is-live-preview div.internal-embed.media-embed.is-loaded > img {
+.markdown-preview-view span.internal-embed.media-embed.is-loaded img,
+.markdown-source-view div.internal-embed.media-embed.is-loaded img,
+.markdown-source-view.is-live-preview div.internal-embed.media-embed.is-loaded img {
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;
 	border-radius: 4px;
 }
+
+.markdown-source-view.is-live-preview div.internal-embed.media-embed.is-loaded .image-wrapper {
+	margin: 0 auto;
+}
+
 
 /* Center Text right after Image */
 .markdown-preview-view span.internal-embed.media-embed.is-loaded + em {

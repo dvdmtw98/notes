@@ -7,7 +7,7 @@ tags:
   - threat
   - intelligence
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-03-09 22:12:39 +0530
+updated: 2026-05-19 23:25:50 +0530
 ---
 
 ### Security Intelligence
@@ -56,7 +56,7 @@ Different organizational stakeholders will consume the intelligence in different
 **Strategic Intel**  
 High-level intel that looks into the organizations threat landscape.  
 Information that is useful on the timescale of weeks, and months.  
-Often presented as a report to executes or PPT presentation in a large group.
+Often presented as a report to executives or a PPT presented to a large group.
 
 **Operational Intel**  
 Looks into the day-to-day priority of managers and specialist.  
@@ -108,7 +108,7 @@ e.g. Mandiant
 Data  that’s available without subscription, which may include threat feeds, reputation lists, and malware signature databases.  
 e.g. US-CERT, UK NCSC, AT&T Security (OTX), MISP, Spamhaus, VirusTotal  
 
-**Open-Intelligence Intelligence (OSINT)**  
+**Open-Source Intelligence (OSINT)**  
 A method of obtaining information a person or organization through public records, websites, and social media.  
 
 ---
