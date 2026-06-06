@@ -5,7 +5,7 @@ tags:
   - tool
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-11-26 10:23:41 +0530
+updated: 2026-05-30 23:09:14 +0530
 ---
 
 ### Table of Content
@@ -13,6 +13,8 @@ updated: 2025-11-26 10:23:41 +0530
 - **SIEM**
 	- [[splunk|Splunk]]
 	- [[elastic|Elastic]]
+- **SOAR**
+	- [[xsoar|XSOAR]]
 - **Recon & Scanning**
 	* [[nmap|Nmap]]
 	* [[rust-scan|Rust Scan]]
