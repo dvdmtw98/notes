@@ -5,7 +5,7 @@ tags:
   - windows
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-03-31 14:55:37 -0500
+updated: 2026-07-24 23:21:59 +0530
 ---
 
 ### Table of Content
@@ -44,3 +44,17 @@ Renamed to Microsoft Endpoint Configuration Manager (MECM)
 * **`clip`** command can be used to copy anything to the clipboard from terminal
 * **`findstr`** is the Windows equivalent of grep
 * **`shutdown /r /fw /f /t 0`** : Restart system into BIOS
+
+### Printer Force Restart
+
+Run the following commands from an Admin Command Prompt.
+
+```batch
+net stop spooler
+taskkill /F /IM printfilterpipelinesvc.exe
+
+:: Delete files from queue
+del /F /Q %SystemRoot%\System32\spool\PRINTERS\*.*
+
+net start spooler
+```
