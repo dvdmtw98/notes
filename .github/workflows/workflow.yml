@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Checkout Quartz
         id: checkout-quartz
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: jackyzha0/quartz
           ref: f346a01296e5bdbd19de38fa69968b42629b883d
@@ -22,7 +22,7 @@ jobs:
           path: quartz
       - name: Checkout Repository
         id: checkout-repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           path: source
       - name: Build Digital Archive
@@ -30,7 +30,7 @@ jobs:
         uses: ./source/.github/actions
       - name: Cloudflare Deploy
         id: cloudflare-deploy
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

@@ -4,7 +4,7 @@ tags:
   - blockchain
   - cryptography
 date: 2024-09-11 15:44:13 -0500
-updated: 2024-09-29 00:57:28 -0500
+updated: 2026-07-30 22:23:12 +0530
 ---
 
 Bitcoin is entirely virtual (no physical coins)  
