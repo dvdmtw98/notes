@@ -14,7 +14,7 @@ const config: QuartzConfig = {
         enablePopovers: true,
         analytics: null,
         locale: "en-US",
-        baseUrl: "notes.davidvarghese.net",
+        baseUrl: "notes.davidvarghese.com",
         ignorePatterns: ["private", "templates", ".obsidian"],
         defaultDateType: "modified",
         theme: {

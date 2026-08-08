@@ -8,7 +8,7 @@ date: 2024-01-28 14:15:56 -0600
 updated: 2026-05-28 18:56:06 +0530
 ---
 
-Welcome to [Digital Archive](https://notes.davidvarghese.net). This is where I dump notes, tutorials, and random things I’m learning, exploring, or just find fascinating. It’s a messy-but-organized collection that I have cobbled together over time. Feel free to poke around.
+Welcome to [Digital Archive](https://notes.davidvarghese.com). This is where I dump notes, tutorials, and random things I’m learning, exploring, or just find fascinating. It’s a messy-but-organized collection that I have cobbled together over time. Feel free to poke around.
 
 There are multiple ways to navigate Digital Archive:  
 - 🔍 **Search** for anything with **`Ctrl+K`** (or just type in the search bar).  
