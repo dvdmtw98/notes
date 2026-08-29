@@ -3,7 +3,7 @@ import { Options } from "../components/Explorer";
 const customTextTransform = (displayName: string) => {
 
     const filterWords = ["and", "of", "a", "in", "on", "the", "for", "to"]
-    const upperWords = ["AWS", "GCP", "AI", "ML", "SQL", "CSS", "PL", "DB", "MPV", "DNS"]
+    const upperWords = ["AWS", "GCP", "AI", "ML", "SQL", "CSS", "PL", "DB", "MPV", "DNS", "ISC2", "CC"]
     const specialWords: { [key: string]: string } = {
         javascript: "JavaScript",
         typescript: "TypeScript",
@@ -14,7 +14,8 @@ const customTextTransform = (displayName: string) => {
         devops: "DevOps",
         github: "GitHub",
         csharp: "CSharp",
-        ffmpeg: "FFmpeg"
+        ffmpeg: "FFmpeg",
+        cysa: "CySA"
     }
 
     // Split on space and hyphen
@@ -45,7 +46,7 @@ const textTransformNode: Options["mapFn"] = (node) => {
 
     if (node.isFolder === true) {
         const filterWords = ["and", "of", "a", "in", "on", "the", "for", "to"]
-        const upperWords = ["AWS", "GCP", "AI", "ML", "SQL", "CSS", "PL", "DB", "MPV", "DNS"]
+        const upperWords = ["AWS", "GCP", "AI", "ML", "SQL", "CSS", "PL", "DB", "MPV", "DNS", "ISC2", "CC"]
         const specialWords: { [key: string]: string } = {
             javascript: "JavaScript",
             typescript: "TypeScript",
@@ -56,7 +57,8 @@ const textTransformNode: Options["mapFn"] = (node) => {
             devops: "DevOps",
             github: "GitHub",
             csharp: "CSharp",
-            ffmpeg: "FFmpeg"
+            ffmpeg: "FFmpeg",
+            cysa: "CySA"
         }
 
         // Split on space and hyphen
