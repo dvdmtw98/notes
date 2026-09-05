@@ -15,7 +15,8 @@ const customTextTransform = (displayName: string) => {
         github: "GitHub",
         csharp: "CSharp",
         ffmpeg: "FFmpeg",
-        cysa: "CySA"
+        cysa: "CySA",
+        comptia: "CompTIA"
     }
 
     // Split on space and hyphen
@@ -58,7 +59,8 @@ const textTransformNode: Options["mapFn"] = (node) => {
             github: "GitHub",
             csharp: "CSharp",
             ffmpeg: "FFmpeg",
-            cysa: "CySA"
+            cysa: "CySA",
+            comptia: "CompTIA"
         }
 
         // Split on space and hyphen
