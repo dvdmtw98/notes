@@ -5,7 +5,7 @@ tags:
   - siem
   - splunk
 date: 2025-09-18 22:00:01 +0530
-updated: 2025-09-20 16:24:05 +0530
+updated: 2026-09-06 21:57:11 +0530
 ---
 
 **Apps** add additional functionality in Splunk (sources, processing options).  
@@ -33,3 +33,8 @@ Server class are used to create app and forwarders groups.
 Deployment Server: `$SPLUNK_HOME/etc/deployment-apps`  
 Cluster Node Manager: `$SPLUNK_HOME/etc/manager-apps`  
 Search Head Deployer: `$SPLUNK_HOME/etc/shcluster/apps`
+
+#### Monitoring Console
+View topology and performance information about your deployment.  
+Contains dashboards that are created using Splunk internal logs.  
+Provides insights into search performance, indexing performance, operating system resource usage, license usage, etc.  
