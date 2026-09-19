@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2026-09-10 15:47:17 +0530
-updated: 2026-09-12 18:29:33 +0530
+updated: 2026-09-18 22:06:46 +0530
 ---
 
 ### Indexing
@@ -30,10 +30,10 @@ Presents something that happened at a specific time.
 Has a timestamp associated with the data.  
 License measure volume of raw event data placed on indexing pipeline.  
 
-#### Metric Data  
+#### Metric Data
 Numeric data aggregated over time.  
 Time window based value.  
-Per-event size is capped at 150 bytes.  
+Per-event size (for license utilization) is capped at 150 bytes.  
 Uses the same license quota as event data.  
 
 > [!IMPORTANT] Not counted against License
@@ -44,10 +44,10 @@ Uses the same license quota as event data.
 ### Licensing Architecture
 Splunk license uses the XML format.  
 It contains information about the various allowed features and limits.  
-License Location: `$SPLUNK_HOME/etc/licenses`
+License Location: `$SPLUNK_HOME/etc/licenses`  
 
 The Splunk instance on which the license is installed automatically becomes the License Manager for that license.  
-When a license is installed it creates a group, stack and pool.  
+When a license is installed it creates a group, stack and pool automatically.  
 The default pool is called `auto_generated_pool_enterprise`.  
 
 #### License Group
@@ -64,7 +64,7 @@ A license stack contains license pools.
 Some or all of a license stack assigned to one or more instances.  
 Its used to split license/capacity across instances.  
 
-![[splunk-liicense-pools.png|640]]
+![[splunk-license-pools.png|640]]
 
 This structure only applies to commercial (Enterprise) licenses. The free and developer licenses do not support groups, stacks and pools.  
 
@@ -100,7 +100,7 @@ Infrastructure-based license is used for Splunk Cloud deployments.
 
 #### Forwarder License
 Allow data forwarding but not indexing.  
-Included with Universal Forwarder package.  
+Universal Forwarder uses this license internally.  
 Heavy Forwarder can use Forwarder license if it is only going to forward data.  
 
 #### Developer License
@@ -109,3 +109,39 @@ Developer License: Develop content from Splunk.
 
 #### Pre-Release License
 Used by customers who participate in pre-release program.  
+
+### License Warnings and Violations
+License meter measures data ingestion from midnight to midnight.  
+
+#### License Warning
+Pool reaches daily license limit.  
+License stack reaches daily license limit.  
+Peer is unable to communicate with License Manager.  
+Warnings show up on Licensing Page.  
+
+#### License Violation
+Violation threshold depends on the license type (X Warnings in Y Days).  
+Too many license warnings will result in license violation.  
+License violation can result in search being blocked.  
+Warnings have to be resolved before midnight to prevent it from being counted against the threshold.  
+
+[About License Violations \| Splunk Enterprise](https://help.splunk.com/en/data-management/splunk-enterprise-admin-manual/10.4/manage-splunk-licenses/about-license-violations)
+
+**Enterprise (Commercial) License**  
+License Stack less than 100 GB per day:  
+45 warnings in rolling 60 day period.  
+Search will be disabled.  
+
+License Stack is more than 100 GB per day:  
+Warnings will be issued/shown.  
+Search will not be disabled.  
+
+Infrastructure License (vCPU) does not have the concept of violations.  
+
+**Enterprise Trial License & Developer License**  
+5 or more warnings in a rolling 30 day period.  
+Search will also be disabled.  
+
+**Free License**  
+3 or more warnings in a rolling 30 day period.  
+Search will also be disabled.  

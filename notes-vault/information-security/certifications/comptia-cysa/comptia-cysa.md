@@ -5,13 +5,13 @@ tags:
   - index
   - certification
 date: 2024-09-02 16:59:57 -0500
-updated: 2026-05-19 23:24:12 +0530
+updated: 2026-09-19 18:52:14 +0530
 ---
 
-#### Security Control Types
+### Operating Environment
 
-- [[cybersecurity-roles|Cybersecurity Roles]]
 - [[soc-security-operations-center|Security Operations Center (SOC)]]
+- [[cybersecurity-roles|Cybersecurity Roles]]
 - [[security-controls|Security Controls]]
 
 #### Threat Intelligence

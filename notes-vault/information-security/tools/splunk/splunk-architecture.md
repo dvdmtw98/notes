@@ -5,7 +5,7 @@ tags:
   - splunk
   - siem
 date: 2025-09-06 18:37:07 +0530
-updated: 2026-09-10 16:06:06 +0530
+updated: 2026-09-16 21:37:36 +0530
 ---
 
 Splunk is made up of Processing Components and Management Components.  
@@ -68,6 +68,7 @@ Distributes apps and configurations to cluster members (Search Heads).
 
 #### License Manager
 Assigns license volumes to other Splunk components (license peers) in a distributed environment.  
+License Manger can be co-located on a peer with is already used for a different role like Indexer, Search Head, etc.  
 Measures usage:
 - Volume of data being indexed per day.  
 - Amount of resource (vCPU) usage across deployment.  

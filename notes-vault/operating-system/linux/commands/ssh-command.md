@@ -5,7 +5,7 @@ tags:
   - linux
   - command
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-04-14 12:43:10 +0530
+updated: 2026-09-14 19:17:38 +0530
 ---
 
 ````bash
@@ -38,9 +38,7 @@ ssh-keygen -t rsa -b 2048 -C "comment" -f ~/.ssh/key_name
 
 When `-f` is used the entire path has to be provided.  
 
-### Copy SSH Keys to Server
-
-#### Using SSH Copy
+### Copy Public Key to Server
 
 ```bash
 # List SSH keys loaded into memory
@@ -62,20 +60,10 @@ ssh-add ~/.ssh/tatu-aws-key
 
 # Move key to Remote Machine
 ssh-copy-id username@ip-address
+ssh-copy-id -i ~/.ssh/key_name.pub username@ip-address
 ````
 
-To copy a specific public key use the `-i` option.
-
 When `ssh-copy-id` is used without `-i` it checks which private keys are loaded on the current (client) SSH agent and copies their corresponding public keys to server.  
-
-#### Using Pipes
-
-This method is not recommended.  
-It should only be used if the above method does not work.
-
-```bash
-cat ~/.ssh/<pub-key> | ssh username@ip-address tee ~/.ssh/authorized_keys
-```
 
 ### SSH Configuration
 
@@ -119,7 +107,7 @@ Host winxp
 `IdentitiesOnly`: Only try the keys and algorithms that are specified.  
 `ForwardAgent`: Forwards our local SSH Agent to the remote machine. Useful if we have to use any of the locally saved Host information on remote machine
 
-### Connecting to Old Server
+### Connecting to Old Servers
 
 When connecting with old system we might have to use old algorithms for the different stages used to establish the SSH section. The old algorithms are disabled by default on new versions of SSH. 
 
@@ -140,6 +128,30 @@ ssh <user>@<ip-address> -o HostKeyAlgorithms=+<algorithm-name> -o PubkeyAccepted
 | `HostKeyAlgorithms`        | Algorithm that can be used by the server to prove its identity (sign its host key)                             |
 | `PubkeyAcceptedAlgorithms` | Algorithm that is used for the public key authentication of the user.                                          |
 
-### Copying Files
+### Windows
 
-The `scp` and `rsync` commands can be used to [[copy-commands|copy files]] to remote server.
+On Windows when using SSH with account that are members of the Administrator group the public key gets in: `C:\ProgramData\ssh\administrators_authorized_keys`.
+
+`ssh-copy-id` will not work in for these accounts. The authorized public key file has to be created manually and then the public key has to be added.  
+
+```powershell
+New-Item -ItemType File -Force C:\ProgramData\ssh\administrators_authorized_keys
+
+notepad C:\ProgramData\ssh\administrators_authorized_keys
+```
+
+The ownership of the file have to be changed for the file to be recognoized properly by OpenSSH.
+
+```powershell
+icacls C:\ProgramData\ssh\administrators_authorized_keys /inheritance:r
+
+icacls C:\ProgramData\ssh\administrators_authorized_keys /grant "Administrators:F"
+
+icacls C:\ProgramData\ssh\administrators_authorized_keys /grant "SYSTEM:F"
+```
+
+Finally, restart SSH for and the authorized keys file will get used by SSH.
+
+```powershell
+Restart-Service sshd
+```
