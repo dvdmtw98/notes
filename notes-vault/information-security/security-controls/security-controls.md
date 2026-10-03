@@ -4,60 +4,55 @@ tags:
   - security
   - controls
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-03-08 22:23:35 +0530
+updated: 2026-09-28 23:01:56 +0530
 ---
 
 Security Controls are mechanism put in place to migrate risks and protect the confidentiality, integrity, availability, non-repudiation, and authentication of data.  
-Controls should be selected and deployed in a structured manner using a risk management framework.  
 e.g. NIST Special Publication 800-53, ISO 27001
 
-Think of CIA when thinking about selecting which security control should be used.  
-Multiple security controls could be required to mitigate an risk.  
+Multiple security controls could be required to mitigate an risk (Defense in Depth).  
 
-### Security Control Classes
-Newer versions of NIST 800-53 do not use security control classes.
+### Security Control Types
 
-#### Technical (Logical) Controls
+#### Administrative Controls
+They are policy-based, process-driven and people-focused.  
+Sometimes also called **managerial** controls.  
+e.g.) Risk Assessment, User Training, Security Policies, Response Strategies, Separation of Duties, Acceptable Use Policy.  
+
+#### Technical Controls
 Controls that are implemented as a system (Hardware, Software, or Firmware).  
-e.g. Antivirus, Firewall, IDS, Encryption  
+Technical controls generate telemetry.  
+e.g.) Antivirus, Firewall, IDS, Encryption, MFA, ACL  
 
-#### Operational Controls
-Set of controls that are implemented primarily by people rather than systems.  
-e.g. Backup Procedures, Account Reviews, User Training Programs  
+**Compensating Control**  
+A technical workaround used when the ideal control cannot be applied.  
 
-**Physical Controls**  
-CCTVs, Shredding sensitive data, Security Guards, Locking doors
+#### Physical Controls
+Tangible, environmental safeguards that protect assets in the real world.  
+e.g.) CCTVs, Shredding sensitive data, Security Guards, Locking Doors, Server cages
 
-#### Managerial Controls
-A category of security controls that provides oversight of the information system.  
-e.g. Risk Assessment, User Training, Security Policies, Response Strategies
-
----
-
-### Control Types
+### Security Control Functions
 A control can fall into multiple categories at the same time.  
+Acronym: **P**retty **D**ogs **R**un **C**arefully
 
 #### Preventative
-A control that acts to eliminate or reduce the likelihood that an attack can succeed.  
+Designed to stop a security incident from happening.  
+Their goal is to reduce the **likelihood** of an attack succeeding by blocking it early.  
+Act before or during an attack to block it.  
+e.g.) Firewalls, MFA, Encryption, Awareness Trainings
 
 #### Detective
-May not prevent or deter access, but will identify and record any attempt or successful intrusion.  
-e.g. IDS, Logs, Security Camera  
-
-#### Corrective
-Eliminate or reduce the risk of an intrusion event.  
-Also aims to minimize the impact of a security incident after it has occurred.  
-e.g. Antivirus
-
-#### Physical
-A security control that acts against in-person intrusion attempts.  
-
-#### Deterrent
-Aimed to discourage potential attackers (Warning, Banners)  
-
-#### Compensating
-Additional security controls to supplement primary (principal) security  
+Identify and alert users when a security incident is occurring or has occurred.  
+May not prevent or deter access, but will identify and report intrusions.  
+e.g.) IDS, SIEM, XDR, UEBA, Logs  
 
 #### Responsive
-System that actively monitors for potential vulnerabilities or attacks, and then takes action to mitigate them before they can cause damage.  
-e.g. Firewall, IDS
+Designed to limit the damage of an incident that’s already underway.  
+Speed matters a lot in responsive control (SOAR).  
+Sometimes also referred to as **Deterrent** control.  
+e.g.) Isolating an Compromised Endpoint, Blocking Malicious IP, Disabling compromised account, etc.  
+
+#### Corrective
+Restore systems and operations to normal after an incident.  
+Addresses the root cause to prevent recurrence, their function is recovery and improvement.  
+e.g.) Restore from clean backup, Patch, Firewall rules, RCE, Post-Incident Review  

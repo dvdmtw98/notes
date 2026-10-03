@@ -6,7 +6,7 @@ tags:
   - siem
   - administration
 date: 2026-09-16 21:42:06 +0530
-updated: 2026-09-19 18:00:40 +0530
+updated: 2026-09-19 22:26:14 +0530
 ---
 
 Configuration files are the backbone of Splunk administration.  
@@ -113,9 +113,9 @@ For each all local directories are visited before checking the global directorie
 3. App default directories  
 4. System default directory  
 
-![[splunk-config-global-precedence-1.png]]
+![[splunk-config-global-precedence-1.png|640]]
 
-![[splunk-config-global-precedence-2.png]]
+![[splunk-config-global-precedence-2.png|640]]
 
 #### App/User Context
 For app names reverse-lexicographical ordering is followed.  
@@ -126,11 +126,11 @@ For each app local then default directory is visited before moving on to the nex
 3. App directories for all other apps: local then default.  
 4. System directories: local then default.  
 
-![[splunk-config-local-precedence-1.png]]
+![[splunk-config-local-precedence-1.png|640]]
 
 When a KO is  shared at the global level its metadata file (`.meta`) is updated to include the setting `export = system`.  
 
-![[splunk-config-local-precedence-2.png]]
+![[splunk-config-local-precedence-2.png|640]]
 
 ### Btool
 CLI that allows us to check the settings configured on Splunk Enterprise instance.  

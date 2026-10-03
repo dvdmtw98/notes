@@ -5,27 +5,29 @@ tags:
   - risk
   - management
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-09-23 23:02:35 +0530
 ---
 
-#### Risk Transference (Risk Sharing)
-Shifting the risk from the organization to another party
+### Risk Acceptance
+The risk is evaluated and a conscious decision is made to continue operating without changing anything.  
+It is a documented, deliberate choice.  
 
-##### Contract Indemnity Clause
-A contractual agreement where one party agrees to cover the others harm, liability or loss stemming from the contract
+#### Exemption
+Provision that grants an exemption from a specific rule or requirement.
 
-#### Risk Acceptance
-Recognizing a risk and choosing to address it when it arises  
-No action is taken against the risk
+#### Exception
+Provision that permits a party to bypass a rule or requirement in certain situations.
 
-##### Exemption
-Provision that grants an exemption from a specific rule or requirement
+### Risk Transference (Risk Sharing)
+Shifting the risk from the organization to another party.  
+e.g.) Cyber Insurance, Outsourcing to MSSP  
+Does not eliminate the risk only shifts the financial consequence.  
 
-##### Exception  
-Provision that permits a party to bypass a rule or requirement in certain situations
+### Risk Avoidance
+Eliminates the risk by stopping the activity that creates it.  
+The most aggressive option, not always practical.  
 
-#### Risk Avoidance
-Strategy of altering plans or approaches to completely eliminate a specific risk
-
-#### Risk Mitigation
-Implementing measures to decrease the likelihood or impact of a risk
+### Risk Mitigation
+Implementing controls to decrease the likelihood or impact of a risk.  
+Doesn’t eliminate risk, it drives it down to a level with the organizations risk appetite.  
+This is the most common strategy for managing risk.  

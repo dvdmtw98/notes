@@ -1,15 +1,16 @@
 ---
-title: Business Impact Analysis (BIA)
+title: Business Impact Analysis
+aliases:
+  - BIA
 tags:
   - security
   - governance
   - risk
   - management
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-09-28 22:51:45 +0530
 ---
-
-Process that involves evaluating the potential effects of disruption to an organization's business functions and processes
+A structured assessment that identifies which business functions, systems, and data are most critical to the organizations operations.  
 
 #### Recovery Point Objective (RPO)
 The acceptable amount of data that can not be recovered  

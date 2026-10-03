@@ -5,14 +5,8 @@ tags:
   - splunk
   - siem
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-09-19 16:18:50 +0530
+updated: 2026-09-19 22:25:32 +0530
 ---
-
-### Splunk Administration
-
-- [[splunk-architecture|Splunk Architecture]]
-- [[splunk-license-management|Splunk License Management]]
-- [[splunk-configuration-files|Splunk Configuration Files]]
 
 ### Splunk User
 
@@ -26,6 +20,12 @@ updated: 2026-09-19 16:18:50 +0530
 - [[splunk-knowledge-objects|Knowledge Objects]]
 	- [[splunk-data-model|Splunk Data Model]]
 - [[splunk-rest-api|Splunk Rest API]]
+
+### Splunk Administration
+
+- [[splunk-architecture|Splunk Architecture]]
+- [[splunk-license-management|Splunk License Management]]
+- [[splunk-configuration-files|Splunk Configuration Files]]
 
 ---
 

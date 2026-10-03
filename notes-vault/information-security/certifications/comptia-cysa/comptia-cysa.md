@@ -5,14 +5,15 @@ tags:
   - index
   - certification
 date: 2024-09-02 16:59:57 -0500
-updated: 2026-09-19 18:52:14 +0530
+updated: 2026-09-24 23:01:31 +0530
 ---
 
 ### Operating Environment
 
 - [[soc-security-operations-center|Security Operations Center (SOC)]]
-- [[cybersecurity-roles|Cybersecurity Roles]]
+- [[risk-management|Risk Management]]
 - [[security-controls|Security Controls]]
+- [[governance-and-compliance|Governance & Compliance]]
 
 #### Threat Intelligence
 

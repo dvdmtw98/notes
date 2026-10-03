@@ -4,13 +4,13 @@ tags:
   - security
   - governance
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-09-24 23:03:01 +0530
 ---
 
 ### Governance
-Strategic leadership, structures and processes that ensure an organization's IT infrastructure aligns with its business objective
+Strategic leadership, structures and processes that ensure an organization's IT infrastructure aligns with its business objective.
 
-**Monitoring**: Regularly reviewing and assessing the effectiveness of governance framework
+**Monitoring**: Regularly reviewing and assessing the effectiveness of governance framework.  
 **Revision**: Updating the governance framework to address gaps and weaknesses
 
 ### Governance Structures

@@ -5,12 +5,13 @@ tags:
   - risk
   - management
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-09-03 12:28:54 +0530
+updated: 2026-09-21 23:10:49 +0530
 ---
 
 ### Qualitative Risk Analysis
-Assessing risks based on their potential impact and the likelihood of their occurrence  
-Subjective and relies on the expertise and experience of the project team and stakeholders  
+Assessing risks based on their potential impact and the likelihood of their occurrence.  
+Subjective and relies on the expertise and experience of the project team and stakeholders.  
+
 [[risk-register|Risk Register]]
 
 ### Quantitative Risk Analysis
