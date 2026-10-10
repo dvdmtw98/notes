@@ -4,7 +4,7 @@ tags:
   - analytics
   - spark
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28
+updated: 2026-10-04 20:11:23 +0530
 ---
 
 ### Read File
@@ -117,4 +117,6 @@ peopledf.show()
 
 [The Most Complete Guide to pySpark DataFrames | Towards Data Science](https://towardsdatascience.com/the-most-complete-guide-to-pyspark-dataframes-2702c343b2e8)  
 
-[pyspark.sql module — PySpark 2.4.0 documentation](https://spark.apache.org/docs/2.4.0/api/python/pyspark.sql.html)
+[Spark SQL — PySpark 4.2.0 documentation](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/index.html)
+
+[pyspark.sql module — PySpark 3.0.0 documentation](https://archive.apache.org/dist/spark/docs/3.0.0/api/python/pyspark.sql.html)

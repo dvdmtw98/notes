@@ -2,15 +2,17 @@
 title: Cloud Deployment Model
 tags:
   - cloud
+  - model
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-10-04 16:27:09 +0530
 ---
 
 ### Public Cloud
 
-Everything runs on Cloud providers hardware  
-No local hardware  
-Some services share hardware with other customers
+Everything runs on Cloud providers hardware.  
+No local hardware.  
+Some services share hardware with other customers.  
+Shared Responsibility - Hardware: CSP - Software: Client.  
 
 | Advantages                       | Disadvantages                                        |
 | -------------------------------- | ---------------------------------------------------- |
@@ -20,7 +22,7 @@ Some services share hardware with other customers
 | No hardware maintenance          |                                                      |
 | No deep technical skill required |                                                      |
 
-### Private Cloud (On-Premise)
+### On-Premise (Private Cloud)
 
 Everything runs on your own datacenter  
 Self-service should be provided  
@@ -35,7 +37,7 @@ We maintain the hardware
 ### Hybrid Cloud
 
 Combine both public & private cloud  
-Great flexibility
+Great flexibility. The most widely used model.  
 
 | Advantages                       | Disadvantages                         |
 | -------------------------------- | ------------------------------------- |

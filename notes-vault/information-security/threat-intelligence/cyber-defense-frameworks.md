@@ -5,7 +5,7 @@ tags:
   - framework
   - soc
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-01-23 23:29:00 -0600
+updated: 2026-10-04 20:07:20 +0530
 ---
 
 #### Security Frameworks  
@@ -27,7 +27,7 @@ Components: Setting Goals, Setting Guidelines, Implementing Processes, Monitorin
 
 **Command & Control (C2)**: The weaponized code establishes an outbound channel to a remote server that can then be used to control the remote access tool and possibly download additional tools to progress the attack
 
-**Actions on Objective**: The attacker typically uses the access he has achieved to covertly collect information from the target systems and transfer it to a remote system (data exfiltration) or archive other goals and motives
+**Actions on Objective**: The attacker typically uses the access he has achieved to covertly collect information from the target systems and transfer it to a remote system (data exfiltration) or achieve other goals and motives
 
 Main focus of Framework: Malware Delivery and Network Security  
 Does not detect: Insider Attacks  
@@ -104,10 +104,10 @@ NIST S.P. 800-53: NIST CSF designed to be used by the federal government
 
 ### OWASP Security Principles
 
-Minimize attack surface area: Disable unrequired features, complex passwords, etc.
+Minimize attack surface area: Disable undesired features, complex passwords, etc.
 Principle of least privilege: Limits the damage done when breach occurs  
 Defense in depth: Should use multiple different security controls (MFA, Firewalls, ACL, IDS) Separation of duties: Critical actions should rely on multiple people  
 Keep security simple: Complex security systems can become unmanageable  
 Fix security issues correctly: Weak Wi-Fi passwords, etc.
 
-[OWASP Developer Guide | Principles of Security | OWASP Foundation](https://owasp.org/www-project-developer-guide/draft/04-foundations/03-security-principles)
+[OWASP Developer Guide | Principles of Security | OWASP Foundatio](https://devguide.owasp.org/en/02-foundations/03-security-principles/)

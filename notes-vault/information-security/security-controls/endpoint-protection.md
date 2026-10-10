@@ -5,7 +5,7 @@ tags:
   - protect
   - appliance
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-08-31 20:36:25 +0530
+updated: 2026-10-04 20:46:59 +0530
 ---
 
 #### Antivirus
@@ -24,7 +24,8 @@ Mainly used for enforcing basic IT and security hygrine related activates.
 #### Endpoint Detection and Response (EDR)
 Software agent that collects system data and logs to perform analysis to provide early threat detection.  
 They are proactive systems and supports continuous monitoring, threat detection and incident response.  
-It all has threat hunting features that can protect against new attacks.
+It all has threat hunting features that can protect against new attacks.  
+EDR only gives visibility on managed, enrolled devices.  
 
 **EDR Steps**  
 Data Collection - Data Consolidation - Threat Detection - Alerts & Threat Response - Threat Investigation - Remediation

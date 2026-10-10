@@ -4,7 +4,7 @@ tags:
   - os
   - windows
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-05-02 21:36:32 +0530
+updated: 2026-10-04 20:12:32 +0530
 ---
 
 ### Enable S3 Sleep
@@ -47,9 +47,7 @@ if (Test-Path -Path $StoreAppsDatabase)
 
 ### Uninstall Office
 
-Use the below link or command to uninstalling Office completely from the system.
-
-[Uninstall Microsoft 365 or Office from a PC  - Office.com](https://support.microsoft.com/en-us/office/uninstall-microsoft-365-or-office-from-a-pc-9dd49b83-264a-477a-8fcc-2fdf)
+Use the below command to uninstalling Office completely from the system.
 
 ```
 GetHelpCmd.exe -S OfficeScrubScenario -AcceptEula -OfficeVersion All

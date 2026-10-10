@@ -28,7 +28,7 @@ They exist on-premises and in the cloud
 
 #### Mobile Device Management (MDM)  
 Control the entire device, can wipe data from it, and also reset it to factory settings  
-[[mobile-device-management-mdm|Mobile Device Management]]
+[[device-management|Device Management]]
 
 #### Mobile Application Management (MAM)
 Publish, push, configure, secure, monitor and update mobile applications for your users

@@ -4,7 +4,7 @@ tags:
   - analytics
   - spark
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28
+updated: 2026-10-04 20:09:46 +0530
 ---
 
 ## Transformation
@@ -151,4 +151,4 @@ keys(), values()
 
 [visualapi.pdf - Google Drive](https://drive.google.com/file/d/1tjS9o466TOvxVJ3jy5Q8JfLDJlYXBO3c/view)  
 
-[Spark Programming Guide - Spark 2.2.0 Documentation](https://spark.apache.org/docs/2.2.0/rdd-programming-guide.html)
+[RDD Programming Guide - Spark 4.2.0 Documentation](https://spark.apache.org/docs/latest/rdd-programming-guide.html)

@@ -7,7 +7,7 @@ tags:
   - webdev
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-10-04 20:13:23 +0530
 ---
 
 ### Commonly Used Commands
@@ -20,7 +20,7 @@ npm install
 npm run dev
 ````
 
-* [Introduction / Basics • Svelte Tutorial](https://svelte.dev/tutorial/basics)
+* [Introduction / Welcome to Svelte • Svelte Tutorial](https://svelte.dev/tutorial/svelte/welcome-to-svelte)
 * [Svelte for new developers](https://svelte.dev/blog/svelte-for-new-developers)
 
 ### Best Practices & Coding Conventions

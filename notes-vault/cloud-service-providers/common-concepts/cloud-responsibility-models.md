@@ -3,7 +3,7 @@ title: Cloud Responsibility Models
 tags:
   - cloud
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-10-04 16:22:33 +0530
 ---
 
 ![[cloud-service-offering-azure.png|500]]
@@ -17,7 +17,6 @@ Cloud provider manages nothing. We manage everything
 * Infrastructure - Hardware, Virtualization, Storage & Networking
 * Platform - OS, Middleware & Runtime
 * Software - Application & Data
-
 
 ### Infrastructure as a Service (IaaS)
 
@@ -35,7 +34,6 @@ Storage, backup & recovery (Extending On Premise Infrastructure)
 Virtual Machine  
 Virtual Networks  
 Managed Disks
-
 
 ### Platform as a Service (PaaS)
 

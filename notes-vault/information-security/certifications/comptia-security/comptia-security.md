@@ -85,7 +85,7 @@ updated: 2026-01-25 12:22:46 +0530
 #### Asset & Change Management
 
 * [[asset-management|Asset Management]]
-	* [[mobile-device-management-mdm|Mobile Device Management]]
+	* [[device-management|Mobile Device Management]]
 * [[change-management|Change Management]]
 
 #### Audits & Assessments
@@ -107,7 +107,7 @@ updated: 2026-01-25 12:22:46 +0530
 
 * [[benefits-of-cloud-computing|Benefits of Cloud Computing]]
 * [[cloud-security-concerns|Cloud Security Concerns]]
-* [[information-security/security-architecture/virtualization|Virtualization]]
+* [[virtualization-and-container-concepts|Virtualization]]
 * [[software-defined-networking-sdn|Software Defined Networking (SDN)]]
 * [[internet-of-things-iot|Internet of Things (IoT)]]
 * [[ics-and-scada-systems|ICS and SCADA Systems]]

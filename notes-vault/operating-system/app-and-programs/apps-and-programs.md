@@ -15,5 +15,5 @@ updated: 2025-11-26 08:38:44 +0530
 - [[vim-editor|Vim Editor]]
 - [[powershell-scripts|PowerShell Scripts]]
 - [[word|Microsoft Word]]
-- [[operating-system/app-and-programs/virtualization|Virtualization]]
+- [[virtualization-software|Virtualization Sofftware]]
 - [[mozilla-firefox|Mozilla Firefox]]

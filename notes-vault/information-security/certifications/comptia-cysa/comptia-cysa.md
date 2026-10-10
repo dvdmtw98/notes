@@ -5,49 +5,22 @@ tags:
   - index
   - certification
 date: 2024-09-02 16:59:57 -0500
-updated: 2026-09-24 23:01:31 +0530
+updated: 2026-10-04 20:54:09 +0530
 ---
 
 ### Operating Environment
 
-- [[soc-security-operations-center|Security Operations Center (SOC)]]
-- [[risk-management|Risk Management]]
-- [[security-controls|Security Controls]]
-- [[governance-and-compliance|Governance & Compliance]]
-
-#### Threat Intelligence
-
-- [[cyber-threat-intelligence-cti|Threat Intelligence]]
-
-
-### Threat Classification
-
-#### Known Threats
-Can be identified using basic pattern and signature matching.
-
-##### Malware
-Software intentionally designed to cause damage to computer or computer network.
-
-##### Documented Exploits
-Software or a sequence of commands that takes advantage of a vulnerability to cause unintentional behavior or gain unauthorized access to sensitive data.
-
-#### Unknown Threats
-Cannot be identified by basic signature or pattern matching.
-
-##### Zero-Day Exploits
-Exploit in the wild that exposes a vulnerability in a software or hardware before anyone realizes something is wrong.
-
-##### Obfuscated Malware Code
-Malicious code whose execution is hidden using various techniques like compression, encryption, or encoding.
-
-##### Behavior-Based Detection
-Malware detection technique that evaluates an object based on this intended actions before it can actually execute the behavior.
-
-##### Recycled Threats
-Process of combining and modifying parts of existing exploit code to create new threats that are not easily identified by automated scanning.
-
-##### Known Unknowns
-Malware that contains obfuscation techniques to circumvent signature-matching and detection.
-
-##### Unknown Unknowns
-Malware that contains completely new vectors and exploits.
+- Foundational Security Operations
+	- [[soc-security-operations-center|Security Operations Center (SOC)]]
+- Risk Management and Security Controls
+	- [[risk-management|Risk Management]]
+	- [[security-controls|Security Controls]]
+	- [[governance-and-compliance|Governance & Compliance]]
+- System Infrastructure Concepts
+	- [[cloud-deployment-model|Cloud Deployment Model]]
+	- [[software-defined-networking-sdn|Software Defined Networking (SDN)]]
+	- [[cloud-native-architecture|Cloud Native Architecture]]
+	- [[virtualization-and-container-concepts|Virtualization & Container Concepts]]
+	- [[application-programming-interface-api|Application Programming Interface (API)]]
+	- [[device-management|Device Management]]
+	- [[endpoint-protection|Endpoint Protection]]
