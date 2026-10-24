@@ -6,13 +6,13 @@ tags:
   - security
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2025-09-07 15:44:55 +0530
+updated: 2026-10-19 23:36:56 +0530
 ---
 
 ### Table of Content
 
 * [[cloud-security-concepts|Cloud Security Concepts]]
-	* [[zero-trust-model|Zero-Trust Model]]
+	* [[microsoft-zero-trust-model|Zero-Trust Model]]
 	* [[threat-modeling|Threat Modeling]]
 * **Identity & Access Management**
 	* [[identity-providers-idp|Identity Providers (IdP)]]

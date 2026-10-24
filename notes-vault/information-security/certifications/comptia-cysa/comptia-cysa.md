@@ -5,7 +5,7 @@ tags:
   - index
   - certification
 date: 2024-09-02 16:59:57 -0500
-updated: 2026-10-04 20:54:09 +0530
+updated: 2026-10-21 23:42:55 +0530
 ---
 
 ### Operating Environment
@@ -24,3 +24,8 @@ updated: 2026-10-04 20:54:09 +0530
 	- [[application-programming-interface-api|Application Programming Interface (API)]]
 	- [[device-management|Device Management]]
 	- [[endpoint-protection|Endpoint Protection]]
+- Network Architecture Concepts
+	- [[zero-trust-network-architecture-ztna|Zero-Trust Network Architecture (ZTNA)]]
+	- [[secure-access-service-edge-sase|Secure Access Service Edge (SASE)]]
+	- [[hybrid-cloud-networking|Hybrid Cloud Networking]]
+	- [[network-segmentation|Network Segmentation]]

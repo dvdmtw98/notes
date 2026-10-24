@@ -15,7 +15,7 @@ updated: 2026-01-25 12:22:46 +0530
 * [[iaaa-of-security|IAAA of Security]]
 * [[security-controls|Security Controls]]
 * [[gap-analysis|Gap Analysis]]
-* [[zero-trust-model|Zero-Trust Model]]
+* [[zero-trust-network-architecture-ztna|Zero-Trust Model]]
 
 #### Threat Actors
 

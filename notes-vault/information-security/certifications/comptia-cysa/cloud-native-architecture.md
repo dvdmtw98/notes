@@ -3,7 +3,7 @@ title: Cloud Native Architecture
 tags:
   - cloud
   - application
-updated: 2026-10-04 16:57:22 +0530
+updated: 2026-10-19 23:06:56 +0530
 date: 2026-10-04 16:51:56 +0530
 ---
 

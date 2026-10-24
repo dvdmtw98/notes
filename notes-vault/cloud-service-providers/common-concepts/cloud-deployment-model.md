@@ -4,7 +4,7 @@ tags:
   - cloud
   - model
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-10-04 16:27:09 +0530
+updated: 2026-10-19 23:07:37 +0530
 ---
 
 ### Public Cloud
@@ -38,6 +38,7 @@ We maintain the hardware
 
 Combine both public & private cloud  
 Great flexibility. The most widely used model.  
+The most difficult to monitor from a security point of view.  
 
 | Advantages                       | Disadvantages                         |
 | -------------------------------- | ------------------------------------- |

@@ -6,15 +6,15 @@ tags:
   - networking
   - programming
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-10-19 23:43:23 +0530
 ---
 
 #### Software-Defined Wide Area  Network (SD-WAN)
 Virtualized approach to managing and optimizing wide area network connections to efficiently route traffic between remote sites, data centers and cloud environments  
 [[wide-area-network-wan|Wide Area Network (WAN)]]
 
-SD-WAN employes a centralized control function to route traffic between WAN
+SD-WAN employes a centralized control function to route traffic between WAN.
+[[software-defined-networking-sdn| Software Defined Networking (SDN)]]
 
 #### Secure Access Service Edge (SASE)
 Used to consolidate numerous networking and security functions into a single cloud-native service to ensure that secure access for end-users  
-[[software-defined-networking-sdn|Software Defined Networking (SDN)]]

@@ -8,10 +8,10 @@ tags:
   - management
   - networking
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-10-04 16:17:30 +0530
+updated: 2026-10-19 23:43:54 +0530
 ---
 
-Separates the control plane, the decision-making, from the data plane, the actual traffic forwarding.  
+Separates the control plane (decision-making) from the data plane, the actual traffic forwarding.  
 Allows us to manage network through software and APIs rather than configuring every device individually.  
 Provides centralized visibility and ability to push policy changes quickly.  
 The underlying infrastructure is abstracted for clients and services.  
