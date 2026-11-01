@@ -6,7 +6,7 @@ tags:
   - networking
   - programming
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-10-19 23:43:23 +0530
+updated: 2026-10-24 23:52:19 +0530
 ---
 
 #### Software-Defined Wide Area  Network (SD-WAN)
@@ -18,3 +18,4 @@ SD-WAN employes a centralized control function to route traffic between WAN.
 
 #### Secure Access Service Edge (SASE)
 Used to consolidate numerous networking and security functions into a single cloud-native service to ensure that secure access for end-users  
+[[secure-access-service-edge-sase|Secure Access Service Edge (SASE)]]

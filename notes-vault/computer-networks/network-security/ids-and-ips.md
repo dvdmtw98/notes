@@ -5,7 +5,7 @@ tags:
   - security
   - device
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-10-24 23:13:23 +0530
 ---
 
 ### Intrusion Detection System
@@ -61,9 +61,3 @@ Commonly used on HIDS
 #### Anomaly-based Detection
 Also called Behavior-based Detection  
 Analyze current network traffic against established baseline traffic and alerts if outside the statistical average
-
-##### Statistical
-##### Protocol
-##### Traffic
-##### Rule/Heuristic
-##### Application-based

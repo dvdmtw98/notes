@@ -5,7 +5,7 @@ tags:
   - index
   - certification
 date: 2024-01-28 14:15:56 -0600
-updated: 2026-01-25 12:22:46 +0530
+updated: 2026-10-26 23:11:40 +0530
 ---
 
 #### Fundamentals of Security
@@ -110,7 +110,8 @@ updated: 2026-01-25 12:22:46 +0530
 * [[virtualization-and-container-concepts|Virtualization]]
 * [[software-defined-networking-sdn|Software Defined Networking (SDN)]]
 * [[internet-of-things-iot|Internet of Things (IoT)]]
-* [[ics-and-scada-systems|ICS and SCADA Systems]]
+* [[industrial-control-systems-ics|Industrial Control System (ICS)]]
+- [[supervisory-control-and-data-acquisition-scada|Supervisory Control and Data Acquisition (SCADA)]]
 * [[embedded-systems|Embedded Systems]]
 
 #### Security Infrastructure

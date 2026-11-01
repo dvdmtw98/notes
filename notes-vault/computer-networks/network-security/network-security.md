@@ -5,7 +5,7 @@ tags:
   - security
   - index
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-10-24 23:32:32 +0530
 ---
 
 ### Table of Content
@@ -15,6 +15,6 @@ updated: 2024-01-28 14:15:56 -0600
 * [[firewall|Firewall]]
 * [[ids-and-ips|IDS and IPS]]
 * [[port-security|Port Security]]
-	* [[network-access-control-nac|Network Access Control (NAC)]]
+* [[network-access-control-nac|Network Access Control (NAC)]]
 * [[virtual-private-network-vpn|Virtual Private Network (VPN)]]
 * [[proxy-server|Proxy Server]]
