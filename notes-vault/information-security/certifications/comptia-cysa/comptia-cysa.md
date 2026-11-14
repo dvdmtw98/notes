@@ -5,7 +5,7 @@ tags:
   - index
   - certification
 date: 2024-09-02 16:59:57 -0500
-updated: 2026-10-30 23:15:42 +0530
+updated: 2026-11-14 20:10:56 +0530
 ---
  
 ### Operating Environment
@@ -35,53 +35,66 @@ updated: 2026-10-30 23:15:42 +0530
 	- [[industrial-control-systems-ics|Industrial Control Systems (ICS)]]
 	- [[supervisory-control-and-data-acquisition-scada|Supervisory Control and Data Acquisition (SCADA)]]
 - Operating System Security
+	- [[operating-system-security|Operating System Security]]
+- Logging Concepts and Analysis
+	- [[syslog|Syslog]]
 
 
+### Log Ingestion Methods
 
-### Pillars of Hardening
-Disabling unnecessary services and features  
-Patch Management  
-Account and privilege management  
-Configuration baseline management  
+#### Agent-based Collection
+Installation of a lightweight software agent directly on the source system.  
+Reads local log files, parses them and forwards them to the SIEM.  
+Reliable and controllable. Downside operational overhead.  
+e.g.) Splunk Universal Forwarder, Elastic Beats, Microsoft Monitoring Agent  
 
-#### CIS Benchmarks
-Prescriptive, community-vetted hardening guidance for virtually every major OS, application, and cloud platform.  
-Level 1: Basic  
-Level 2: Defense-in-depth  
+#### Agentless Collection
+Logs are pulled from source systems without installing anything on them.  
+Less granular control and reliability gaps if network is unreliable.  
+e.g.) Syslog, WMI (Windows), SNMP Traps (Network device)  
 
-[CIS Benchmarks®](https://www.cisecurity.org/cis-benchmarks)
+### Network Time Protocol (NTP)
+Standard protocol used to synchronize clocks across a network.  
+NTP uses UDP port 123.  
 
-#### DoD STIGs
-Written specifically for federal environment but widely used in enterprise security.  
+**NTPv4 and Precision Time Protocol (PTP)**  
+Support cryptographic authentication to ensure systems are syncing from legitimate time sources and not from an attacker-controlled NTP server.  
 
-[Security Technical Implementation Guides \| Cyber Exchange](https://www.cyber.mil/stigs/)
+#### Stratum 0
+Most accurate reference clocks, these are atomic clocks, GPS receivers, and radio-controlled time sources, they do not communicate directly with network clients.  
 
-AWS Security Hub: Can benchmark environment against CIS AWS Benchmark  
-Azure Defender for Cloud: Gives a secure score that reflects how close the environment is to hardened best practices.  
+#### Stratum 1
+Servers that sync directly from Stratum 0 sources, these are the authoritative time servers.  
 
-### System Processes & Services
+```bash
+# Windows
+w32tm /query /status
 
-#### Process
-A running instance of a program.  
-Processes have a PID, a parent process, a execution context, and a list of resources its consuming.  
+# Linux
+timedatectl status
+```
 
-##### Windows
-First process on boot is System (PID 4)  
-lsass.exe: Handles authentication on Windows and stores credentials material in memory.  
-svchost.exe: Hosts multiple Windows services under a single process.  
+### Log Retention
 
-##### Linux
-First process on boot is init or systemd (PID 1).  
-Everything else is a child or descendant of PID 1.  
- 
-#### Service
-Processes that run in the background, usually started by the OS or a service manager, and they persist without a user needing to be logged in.  
+**PCI DSS**: 12 months data with at least 3 months readily accessible.  
+**HIPAA**: Security documentation and audit controls for 6 years.  
+**SOC 2**: 12 months of log retention.  
+**GDPR**: Log retention for 1-3 years.  
+**NIST CSF**: 12 o 36 months of data retention.  
 
+### Log Storage Tiers
 
+#### Hot Storage
+Primary SIEM storage, fast and queryable.  
+Where recent logs live, typically 30 to 90 days.  
+Can be searched in real time.  
 
+#### Warm Storage
+Still accessible but slower and cheaper.  
+Logs from 90 days to 12 months live in this tier.  
+Can still query data but it can take longer.  
 
-
-
-
-
-
+#### Cold Storage
+Log-term archival tier.  
+Logs older than 12 months that need to be kept for compliance reasons.  
+Cannot query this data in real-time.  
