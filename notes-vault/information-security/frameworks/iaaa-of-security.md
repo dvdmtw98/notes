@@ -4,7 +4,7 @@ tags:
   - security
   - framework
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-11-16 23:11:52 +0530
 ---
 
 #### Identification
@@ -12,15 +12,13 @@ Process where a user claims an identity to a system
 e.g. Username, Email Address, SSN, etc.
 
 #### Authentication
-Process of verifying the identity of an user or system  
-Prevent unauthorized access, Protect user data & privacy, Resource validity
-
-[[authentication-factors|Factors to Verify Authenticity]]
+Process of verifying the identity of an user or system.  
+Prevent unauthorized access, Protect user data & privacy, Resource validity.  
+[[authentication-factors|Authentication Factors]]
 
 #### Authorization
-Defines what actions or resources a user can access  
-Protect sensitive data, Maintain system integrity, create streamlined user experience
-
+Defines what actions or resources a user can access.    
+Protect sensitive data, Maintain system integrity, create streamlined user experience. 
 [[access-control-models|Access Control Models]]
 
 #### Accounting

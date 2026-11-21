@@ -1,16 +1,21 @@
 ---
-title: Identity and Access Management (IAM)
+title: Identity and Access Management
+aliases:
+  - IAM
 tags:
   - security
   - access
   - management
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-11-14 23:19:51 +0530
 ---
 
-Systems and processes are used to manage access to information in an organization to ensure that the right individuals have access to the right resources at the right times for the right reason.
+Set of policies, processes, and technologies that control who can access what, when, and under what conditions.
 
 ### Core IAM Concepts
+
+**Identities**: Digital representations of users, devices, and services.  
+**Identity Management:** Creating, maintaining, and removing digital identities throughout their lifecycle.  
 
 [[iaaa-of-security|IAAA of Security]]
 

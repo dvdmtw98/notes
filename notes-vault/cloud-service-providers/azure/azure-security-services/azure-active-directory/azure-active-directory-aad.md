@@ -6,7 +6,7 @@ tags:
   - security
   - active-directory
 date: 2024-01-28 14:15:56 -0600
-updated: 2024-01-28 14:15:56 -0600
+updated: 2026-11-15 23:18:03 +0530
 ---
 
 Enterprise Identity and Access Management service  
@@ -46,7 +46,7 @@ Members of groups can be added Statically or Dynamically (Using a condition)
 Microsoft 365 groups are used to access 365 resources  
 Only users can be added into a Microsoft 365 group
 
-### Privileges Identity Managed (PIM)
+### Privileged Identity Managed (PIM)
 Allows users to elevate there permissions to a different role for a fixed period when a certain condition is meet  
 Allows active assignment (Valid for a fixed time) or eligible assignment (Have to elevate)  
 Not used for [[application-identity-types|Application Identity Types]] i.e. Service Principals  

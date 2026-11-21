@@ -134,7 +134,7 @@ updated: 2026-10-26 23:11:40 +0530
 * [[authentication-factors|Authentication Factors]]
 * [[single-sign-on-sso|Single Sign-On (SSO)]]
 	* [[identity-providers-idp|Identity Providers (IdP)]]
-	* [[federation|Federation]]
+	* [[federated-identity|Federation]]
 	* [[lightweight-directory-access-protocol-ldap|Lightweight Directory Access Protocol (LDAP)]]
 * [[access-control-models|Access Control Models]]
 

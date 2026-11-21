@@ -34,7 +34,7 @@ updated: 2024-01-30 22:38:41 -0600
 * [[security-controls|Security Controls]]
 * [[physical-security|Physical Security]]
 * [[identity-and-access-management-iam|Identity and Access Management (IAM)]]
-* [[federation|Federation]]
+* [[federated-identity|Federation]]
 * [[single-sign-on-sso|Single Sign-on (SSO)]]
 * [[access-control-models|Access Control Models]]
 * [[data-classification|Data Classification]]
